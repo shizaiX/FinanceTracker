@@ -1,0 +1,495 @@
+{
+ "count": 8,
+ "items": {
+  "ftr_1addcf4dde": {
+   "abilities": [
+    "ab_314ffb8ed5",
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Nature",
+    "Earth"
+   ],
+   "accessory": "topknot",
+   "build": 1.039,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_1addcf4dde",
+   "name": "NATZAX",
+   "personality": "technical",
+   "rating": 1.0653,
+   "repertoire": [
+    "tq_57cae987ca",
+    "tq_c0173d8c00",
+    "tq_b9ec222dca",
+    "tq_9b8fdf3a6f",
+    "tq_67ce54d889",
+    "tq_88d40087af",
+    "tq_b7ff6c935b",
+    "tq_b7aa49eb97",
+    "tq_8658aa7da1",
+    "tq_28e35d0edc",
+    "tq_eba0989ebd",
+    "tq_fd9a0ec542",
+    "tq_754f4843c0",
+    "tq_1a6084a790",
+    "tq_73ac03aa7c",
+    "tq_996ee2cef4",
+    "tq_7078a0321f"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "IRONWOOD BLADE",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.808,
+    "aggression": 0.544,
+    "caution": 0.617,
+    "counter": 0.527,
+    "creativity": 0.801,
+    "evasive": 0.504,
+    "range": 1.6,
+    "reaction": 0.102,
+    "read": 0.494,
+    "temperature": 0.4
+   }
+  },
+  "ftr_25872decc9": {
+   "abilities": [
+    "ab_66a6db4683",
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Shadow",
+    "Light"
+   ],
+   "accessory": "horns",
+   "build": 0.961,
+   "career": {
+    "losses": 0,
+    "points_against": 2,
+    "points_for": 3,
+    "tournaments": [],
+    "wins": 1
+   },
+   "color": "#3a7bff",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_25872decc9",
+   "name": "LIGRION",
+   "personality": "defensive",
+   "rating": 1.0488,
+   "repertoire": [
+    "tq_85ab3c92ba",
+    "tq_fb388d70cc",
+    "tq_aa26a7fdda",
+    "tq_9b8fdf3a6f",
+    "tq_93e6772461",
+    "tq_88d40087af",
+    "tq_6caa2ed867",
+    "tq_43ef2b97ba",
+    "tq_31c3c048c6",
+    "tq_e07b3c77ad",
+    "tq_3ea60312ed",
+    "tq_39acc0d557",
+    "tq_96b2939d8b",
+    "tq_f6a8c95265",
+    "tq_88e06d7cfd",
+    "tq_482d961188",
+    "tq_3d95424aa5",
+    "tq_8176f5b3eb"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "ECLIPSE RAY",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.872,
+    "aggression": 0.329,
+    "caution": 0.683,
+    "counter": 0.566,
+    "creativity": 0.358,
+    "evasive": 0.365,
+    "range": 1.8,
+    "reaction": 0.119,
+    "read": 0.481,
+    "temperature": 0.45
+   }
+  },
+  "ftr_41e957db5e": {
+   "abilities": [
+    "ab_5b8e37c749",
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Ice",
+    "Wind"
+   ],
+   "accessory": "scarf",
+   "build": 0.99,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_41e957db5e",
+   "name": "ICELARA",
+   "personality": "unpredictable",
+   "rating": 1.051,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_b666b0d1ba",
+    "tq_aa26a7fdda",
+    "tq_18f0000f5b",
+    "tq_93e6772461",
+    "tq_88d40087af",
+    "tq_6caa2ed867",
+    "tq_0984bcf668",
+    "tq_00f40b6a94",
+    "tq_21832c9b3b",
+    "tq_31d11146f4",
+    "tq_da11a3fb83",
+    "tq_0f9e2f9a78",
+    "tq_ba0f8d3ab2",
+    "tq_c5369ffc75",
+    "tq_c729164dc2",
+    "tq_30cdd29763",
+    "tq_6953a9da21"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "SEEKING BLIZZARD VOLLEY",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.788,
+    "aggression": 0.532,
+    "caution": 0.411,
+    "counter": 0.459,
+    "creativity": 0.844,
+    "evasive": 0.485,
+    "range": 2.0,
+    "reaction": 0.144,
+    "read": 0.696,
+    "temperature": 1.0
+   }
+  },
+  "ftr_4c073431e2": {
+   "abilities": [
+    "ab_083a980255",
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Gravity",
+    "Water"
+   ],
+   "accessory": "horns",
+   "build": 0.952,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_4c073431e2",
+   "name": "GRAROS",
+   "personality": "evasive",
+   "rating": 1.0666,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_fc40bd9697",
+    "tq_758cea3abf",
+    "tq_7565ae78f6",
+    "tq_67ce54d889",
+    "tq_88d40087af",
+    "tq_6caa2ed867",
+    "tq_736f4c3411",
+    "tq_eb474cb8be",
+    "tq_c8379326dd",
+    "tq_978f25037a",
+    "tq_1d8b625638",
+    "tq_a107d6b9ee",
+    "tq_f267ea87e7",
+    "tq_e66dd35a08",
+    "tq_7f2685e4e7",
+    "tq_807f87b5da",
+    "tq_3a0bc70899"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "INK SHOT",
+   "stance": "orthodox",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.668,
+    "aggression": 0.526,
+    "caution": 0.558,
+    "counter": 0.372,
+    "creativity": 0.545,
+    "evasive": 0.909,
+    "range": 2.6,
+    "reaction": 0.145,
+    "read": 0.636,
+    "temperature": 0.6
+   }
+  },
+  "ftr_78982cc7dd": {
+   "abilities": [
+    "ab_d903b6dc1c",
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Sound",
+    "Earth"
+   ],
+   "accessory": "spikes",
+   "build": 0.97,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_78982cc7dd",
+   "name": "EARZION",
+   "personality": "technical",
+   "rating": 1.0591,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_33c576fe8b",
+    "tq_aa26a7fdda",
+    "tq_18f0000f5b",
+    "tq_bcb348360c",
+    "tq_88d40087af",
+    "tq_6caa2ed867",
+    "tq_425e8dece5",
+    "tq_74f3e416dc",
+    "tq_09b699e7cc",
+    "tq_4f91ff1ec9",
+    "tq_2e78fd12a0",
+    "tq_8a463c215b",
+    "tq_70d4bdfa70",
+    "tq_be844c2b54",
+    "tq_647b2aab25",
+    "tq_7c9e15f58d",
+    "tq_e4ca0daf98"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "SNARE COLLAPSE CRASH",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.63,
+    "aggression": 0.532,
+    "caution": 0.487,
+    "counter": 0.612,
+    "creativity": 0.727,
+    "evasive": 0.512,
+    "range": 1.6,
+    "reaction": 0.125,
+    "read": 0.551,
+    "temperature": 0.4
+   }
+  },
+  "ftr_a0d4710ec7": {
+   "abilities": [
+    "ab_d903b6dc1c",
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Sound",
+    "Gravity"
+   ],
+   "accessory": "ponytail",
+   "build": 1.002,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_a0d4710ec7",
+   "name": "COLVUS",
+   "personality": "defensive",
+   "rating": 1.0601,
+   "repertoire": [
+    "tq_e739e73436",
+    "tq_35e670b90a",
+    "tq_758cea3abf",
+    "tq_18f0000f5b",
+    "tq_67ce54d889",
+    "tq_88d40087af",
+    "tq_6caa2ed867",
+    "tq_2a9dd7f851",
+    "tq_e8364ef8f0",
+    "tq_aa0749c89b",
+    "tq_6ebb4431c3",
+    "tq_8fd268bd4e",
+    "tq_6c84dacd57",
+    "tq_bd0a31d68e",
+    "tq_74c7bdbb53",
+    "tq_3c933db9d0",
+    "tq_ebabe84fdc",
+    "tq_5be4f589e6"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "SNARE COLLAPSE HAMMER",
+   "stance": "orthodox",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.789,
+    "aggression": 0.394,
+    "caution": 0.794,
+    "counter": 0.684,
+    "creativity": 0.383,
+    "evasive": 0.419,
+    "range": 1.8,
+    "reaction": 0.079,
+    "read": 0.574,
+    "temperature": 0.45
+   }
+  },
+  "ftr_b750bb35a2": {
+   "abilities": [
+    "ab_b7f5981ab1",
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Fire",
+    "Metal"
+   ],
+   "accessory": "horns",
+   "build": 0.996,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_b750bb35a2",
+   "name": "METIX",
+   "personality": "evasive",
+   "rating": 1.0318,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_08ea528438",
+    "tq_b9ec222dca",
+    "tq_66b763977b",
+    "tq_bcb348360c",
+    "tq_88d40087af",
+    "tq_6caa2ed867",
+    "tq_d177fe2e70",
+    "tq_7a2f0fad01",
+    "tq_2017b1fef3",
+    "tq_7d216f6a2f",
+    "tq_6fc0be7039",
+    "tq_7e5659fa05",
+    "tq_91027932fe",
+    "tq_6d399e4b94",
+    "tq_3eec776858",
+    "tq_4ca64982b2",
+    "tq_36100b9665"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "SEARING GLAIVE",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.483,
+    "aggression": 0.571,
+    "caution": 0.504,
+    "counter": 0.362,
+    "creativity": 0.586,
+    "evasive": 0.89,
+    "range": 2.6,
+    "reaction": 0.145,
+    "read": 0.623,
+    "temperature": 0.6
+   }
+  },
+  "ftr_eb64da082f": {
+   "abilities": [
+    "ab_314ffb8ed5",
+    "ab_871ffa40a3"
+   ],
+   "ability_names": [
+    "Nature",
+    "Lightning"
+   ],
+   "accessory": "horns",
+   "build": 0.996,
+   "career": {
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "created": "2026-11-15T03:11:25",
+   "id": "ftr_eb64da082f",
+   "name": "NATRARA",
+   "personality": "counter",
+   "rating": 1.0413,
+   "repertoire": [
+    "tq_de0d12bdd9",
+    "tq_9047a320f1",
+    "tq_aa26a7fdda",
+    "tq_9b8fdf3a6f",
+    "tq_67ce54d889",
+    "tq_88d40087af",
+    "tq_f24b88f366",
+    "tq_f216eb6c06",
+    "tq_79025454f4",
+    "tq_104e58e197",
+    "tq_e230fa13ac",
+    "tq_a0d814adc5",
+    "tq_28b0cc96f2",
+    "tq_c0d9727758",
+    "tq_0bf927dd47",
+    "tq_d85d06728c",
+    "tq_4b484f14e7",
+    "tq_081b439bd8"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "GALVANIC PILLAR",
+   "stance": "orthodox",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.585,
+    "aggression": 0.437,
+    "caution": 0.549,
+    "counter": 0.98,
+    "creativity": 0.434,
+    "evasive": 0.416,
+    "range": 1.4,
+    "reaction": 0.077,
+    "read": 0.649,
+    "temperature": 0.5
+   }
+  }
+ },
+ "schema": "stu.fighters",
+ "updated": "2026-11-15T03:14:57",
+ "version": 1
+}

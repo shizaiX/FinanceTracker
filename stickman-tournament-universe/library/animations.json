@@ -1,0 +1,1364 @@
+{
+ "count": 43,
+ "items": {
+  "anim_aerial_strike_0": {
+   "delivery": "aerial_strike",
+   "keys": [
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": -0.05,
+     "fby": 0.45,
+     "ffree": 1.0,
+     "ffx": 0.25,
+     "ffy": 0.55,
+     "hbx": -0.2,
+     "hby": 0.2,
+     "head": -0.05,
+     "hfx": 0.1,
+     "hfy": 0.3,
+     "lean": -0.2,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": -0.15,
+     "fby": 0.55,
+     "ffree": 1.0,
+     "ffx": 0.78,
+     "ffy": 0.05,
+     "hbx": -0.35,
+     "hby": 0.25,
+     "head": -0.05,
+     "hfx": 0.1,
+     "hfy": 0.35,
+     "lean": -0.55,
+     "rot": 0.0
+    }
+   ],
+   "limb": "foot_f",
+   "lunge": 0.0,
+   "variant": 0
+  },
+  "anim_aerial_strike_1": {
+   "delivery": "aerial_strike",
+   "keys": [
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": -0.2,
+     "fby": 0.35,
+     "ffree": 1.0,
+     "ffx": 0.2,
+     "ffy": 0.45,
+     "hbx": 0.14,
+     "hby": 0.02,
+     "head": -0.05,
+     "hfx": -0.1,
+     "hfy": 0.4,
+     "lean": -0.1,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": -0.35,
+     "fby": 0.45,
+     "ffree": 1.0,
+     "ffx": 0.1,
+     "ffy": 0.4,
+     "hbx": -0.3,
+     "hby": 0.1,
+     "head": -0.05,
+     "hfx": 0.62,
+     "hfy": -0.18,
+     "lean": 0.5,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.0,
+   "variant": 1
+  },
+  "anim_barrage_0": {
+   "delivery": "barrage",
+   "keys": [
+    {
+     "crouch": 0.16,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.14,
+     "hby": 0.02,
+     "head": -0.05,
+     "hfx": 0.12,
+     "hfy": 0.06,
+     "lean": 0.1,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.18,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": 0.1,
+     "hby": 0.02,
+     "head": -0.05,
+     "hfx": 0.6,
+     "hfy": 0.05,
+     "lean": 0.3,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.15,
+   "variant": 0
+  },
+  "anim_beam_0": {
+   "delivery": "beam",
+   "keys": [
+    {
+     "crouch": 0.25,
+     "fbfree": 0.0,
+     "fbx": -0.42,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.42,
+     "ffy": 0.0,
+     "hbx": -0.18,
+     "hby": -0.35,
+     "head": -0.05,
+     "hfx": -0.16,
+     "hfy": -0.32,
+     "lean": -0.1,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.24,
+     "fbfree": 0.0,
+     "fbx": -0.44,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.44,
+     "ffy": 0.0,
+     "hbx": 0.6,
+     "hby": -0.04,
+     "head": -0.05,
+     "hfx": 0.62,
+     "hfy": 0.0,
+     "lean": 0.18,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.0,
+   "variant": 0
+  },
+  "anim_charge_0": {
+   "delivery": "charge",
+   "keys": [
+    {
+     "crouch": 0.28,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.05,
+     "hby": -0.1,
+     "head": -0.05,
+     "hfx": 0.3,
+     "hfy": -0.1,
+     "lean": 0.42,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.3,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.1,
+     "hby": -0.2,
+     "head": -0.05,
+     "hfx": 0.36,
+     "hfy": 0.06,
+     "lean": 0.78,
+     "rot": 0.0
+    }
+   ],
+   "limb": "chest",
+   "lunge": 0.0,
+   "variant": 0
+  },
+  "anim_counter_0": {
+   "delivery": "counter",
+   "keys": [
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.25,
+     "hby": 0.15,
+     "head": -0.05,
+     "hfx": 0.35,
+     "hfy": -0.05,
+     "lean": -0.05,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.18,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.48,
+     "ffy": 0.0,
+     "hbx": 0.0,
+     "hby": -0.05,
+     "head": -0.05,
+     "hfx": 0.62,
+     "hfy": 0.06,
+     "lean": 0.36,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.25,
+   "variant": 0
+  },
+  "anim_env_strike_0": {
+   "delivery": "env_strike",
+   "keys": [
+    {
+     "crouch": 0.3,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.1,
+     "hby": 0.1,
+     "head": -0.05,
+     "hfx": 0.2,
+     "hfy": 0.28,
+     "lean": 0.3,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.46,
+     "fbfree": 0.0,
+     "fbx": -0.4,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.42,
+     "ffy": 0.0,
+     "hbx": -0.3,
+     "hby": -0.2,
+     "head": -0.05,
+     "hfx": 0.46,
+     "hfy": -0.62,
+     "lean": 0.56,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.05,
+   "variant": 0
+  },
+  "anim_explosion_0": {
+   "delivery": "explosion",
+   "keys": [
+    {
+     "crouch": 0.4,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.12,
+     "hby": -0.12,
+     "head": -0.05,
+     "hfx": 0.18,
+     "hfy": -0.1,
+     "lean": 0.26,
+     "rot": 0.0
+    },
+    {
+     "crouch": -0.04,
+     "fbfree": 0.0,
+     "fbx": -0.38,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.38,
+     "ffy": 0.0,
+     "hbx": -0.45,
+     "hby": 0.42,
+     "head": -0.05,
+     "hfx": 0.45,
+     "hfy": 0.42,
+     "lean": -0.2,
+     "rot": 0.0
+    }
+   ],
+   "limb": "chest",
+   "lunge": 0.0,
+   "variant": 0
+  },
+  "anim_grapple_0": {
+   "delivery": "grapple",
+   "keys": [
+    {
+     "crouch": 0.18,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.42,
+     "ffy": 0.0,
+     "hbx": 0.5,
+     "hby": -0.06,
+     "head": -0.05,
+     "hfx": 0.56,
+     "hfy": 0.0,
+     "lean": 0.26,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": 0.46,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": 0.5,
+     "hfy": 0.04,
+     "lean": 0.32,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.08,
+     "fbfree": 0.0,
+     "fbx": -0.34,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.36,
+     "ffy": 0.0,
+     "hbx": -0.26,
+     "hby": 0.5,
+     "head": -0.05,
+     "hfx": -0.22,
+     "hfy": 0.56,
+     "lean": -0.62,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.3,
+   "variant": 0
+  },
+  "anim_kick_0": {
+   "delivery": "kick",
+   "keys": [
+    {
+     "crouch": 0.06,
+     "fbfree": 0.0,
+     "fbx": -0.12,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 0.26,
+     "ffy": 0.44,
+     "hbx": -0.02,
+     "hby": 0.02,
+     "head": -0.05,
+     "hfx": 0.2,
+     "hfy": 0.12,
+     "lean": -0.14,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.02,
+     "fbfree": 0.0,
+     "fbx": -0.1,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 0.98,
+     "ffy": 0.88,
+     "hbx": -0.28,
+     "hby": -0.08,
+     "head": -0.05,
+     "hfx": 0.14,
+     "hfy": 0.1,
+     "lean": -0.34,
+     "rot": 0.0
+    }
+   ],
+   "limb": "foot_f",
+   "lunge": 0.16,
+   "variant": 0
+  },
+  "anim_kick_1": {
+   "delivery": "kick",
+   "keys": [
+    {
+     "crouch": 0.06,
+     "fbfree": 1.0,
+     "fbx": 0.06,
+     "fby": 0.46,
+     "ffree": 0.0,
+     "ffx": 0.06,
+     "ffy": 0.0,
+     "hbx": -0.1,
+     "hby": 0.08,
+     "head": -0.05,
+     "hfx": 0.18,
+     "hfy": 0.16,
+     "lean": -0.08,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.02,
+     "fbfree": 1.0,
+     "fbx": 0.86,
+     "fby": 1.26,
+     "ffree": 0.0,
+     "ffx": 0.04,
+     "ffy": 0.0,
+     "hbx": -0.36,
+     "hby": 0.02,
+     "head": -0.05,
+     "hfx": 0.1,
+     "hfy": 0.2,
+     "lean": -0.48,
+     "rot": 0.0
+    }
+   ],
+   "limb": "foot_b",
+   "lunge": 0.12,
+   "variant": 1
+  },
+  "anim_kick_2": {
+   "delivery": "kick",
+   "keys": [
+    {
+     "crouch": 0.08,
+     "fbfree": 0.0,
+     "fbx": -0.1,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 0.0,
+     "ffy": 0.36,
+     "hbx": -0.1,
+     "hby": 0.02,
+     "head": -0.05,
+     "hfx": 0.1,
+     "hfy": -0.1,
+     "lean": 0.34,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.06,
+     "fbfree": 0.0,
+     "fbx": -0.18,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 1.02,
+     "ffy": 0.72,
+     "hbx": -0.3,
+     "hby": -0.2,
+     "head": -0.05,
+     "hfx": -0.1,
+     "hfy": -0.2,
+     "lean": 0.62,
+     "rot": 0.0
+    }
+   ],
+   "limb": "foot_f",
+   "lunge": 0.2,
+   "variant": 2
+  },
+  "anim_projectile_0": {
+   "delivery": "projectile",
+   "keys": [
+    {
+     "crouch": 0.16,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.12,
+     "hby": -0.18,
+     "head": -0.05,
+     "hfx": -0.06,
+     "hfy": -0.16,
+     "lean": -0.16,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.18,
+     "fbfree": 0.0,
+     "fbx": -0.34,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": 0.58,
+     "hby": -0.04,
+     "head": -0.05,
+     "hfx": 0.62,
+     "hfy": 0.02,
+     "lean": 0.26,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.12,
+   "variant": 0
+  },
+  "anim_projectile_1": {
+   "delivery": "projectile",
+   "keys": [
+    {
+     "crouch": 0.1,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.3,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": -0.36,
+     "hfy": 0.34,
+     "lean": -0.3,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.16,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": -0.22,
+     "hby": -0.2,
+     "head": -0.05,
+     "hfx": 0.6,
+     "hfy": 0.0,
+     "lean": 0.36,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.1,
+   "variant": 1
+  },
+  "anim_projectile_2": {
+   "delivery": "projectile",
+   "keys": [
+    {
+     "crouch": 0.26,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.1,
+     "hby": -0.3,
+     "head": -0.05,
+     "hfx": 0.0,
+     "hfy": -0.32,
+     "lean": 0.1,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.08,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.4,
+     "hby": 0.3,
+     "head": -0.05,
+     "hfx": 0.48,
+     "hfy": 0.36,
+     "lean": -0.08,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.05,
+   "variant": 2
+  },
+  "anim_punch_0": {
+   "delivery": "punch",
+   "keys": [
+    {
+     "crouch": 0.14,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.3,
+     "ffy": 0.0,
+     "hbx": 0.14,
+     "hby": 0.02,
+     "head": -0.05,
+     "hfx": 0.1,
+     "hfy": 0.06,
+     "lean": 0.04,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.17,
+     "fbfree": 0.0,
+     "fbx": -0.3,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.5,
+     "ffy": 0.0,
+     "hbx": 0.1,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": 0.62,
+     "hfy": 0.04,
+     "lean": 0.3,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.28,
+   "variant": 0
+  },
+  "anim_punch_1": {
+   "delivery": "punch",
+   "keys": [
+    {
+     "crouch": 0.12,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.02,
+     "hby": 0.04,
+     "head": -0.05,
+     "hfx": 0.24,
+     "hfy": 0.14,
+     "lean": -0.06,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.16,
+     "fbfree": 0.0,
+     "fbx": -0.26,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.52,
+     "ffy": 0.0,
+     "hbx": 0.62,
+     "hby": 0.05,
+     "head": -0.05,
+     "hfx": 0.06,
+     "hfy": 0.06,
+     "lean": 0.42,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_b",
+   "lunge": 0.32,
+   "variant": 1
+  },
+  "anim_punch_2": {
+   "delivery": "punch",
+   "keys": [
+    {
+     "crouch": 0.1,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.12,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": -0.12,
+     "hfy": 0.38,
+     "lean": -0.22,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.18,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": 0.0,
+     "hby": -0.08,
+     "head": -0.05,
+     "hfx": 0.56,
+     "hfy": 0.24,
+     "lean": 0.38,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.22,
+   "variant": 2
+  },
+  "anim_slam_0": {
+   "delivery": "slam",
+   "keys": [
+    {
+     "crouch": 0.04,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.04,
+     "hby": 0.6,
+     "head": -0.05,
+     "hfx": 0.06,
+     "hfy": 0.6,
+     "lean": -0.32,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.4,
+     "fbfree": 0.0,
+     "fbx": -0.36,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.4,
+     "ffy": 0.0,
+     "hbx": 0.4,
+     "hby": -0.56,
+     "head": -0.05,
+     "hfx": 0.46,
+     "hfy": -0.56,
+     "lean": 0.72,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.15,
+   "variant": 0
+  },
+  "anim_summon_weapon_0": {
+   "delivery": "summon_weapon",
+   "keys": [
+    {
+     "crouch": 0.1,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.15,
+     "hby": 0.45,
+     "head": -0.05,
+     "hfx": -0.2,
+     "hfy": 0.5,
+     "lean": -0.22,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.3,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.5,
+     "ffy": 0.0,
+     "hbx": 0.3,
+     "hby": -0.2,
+     "head": -0.05,
+     "hfx": 0.55,
+     "hfy": -0.3,
+     "lean": 0.46,
+     "rot": 0.0
+    }
+   ],
+   "limb": "weapon",
+   "lunge": 0.3,
+   "variant": 0
+  },
+  "anim_summon_weapon_1": {
+   "delivery": "summon_weapon",
+   "keys": [
+    {
+     "crouch": 0.26,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.0,
+     "hby": -0.4,
+     "head": -0.05,
+     "hfx": 0.1,
+     "hfy": -0.5,
+     "lean": 0.3,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.06,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": -0.2,
+     "hby": 0.1,
+     "head": -0.05,
+     "hfx": 0.4,
+     "hfy": 0.55,
+     "lean": -0.12,
+     "rot": 0.0
+    }
+   ],
+   "limb": "weapon",
+   "lunge": 0.24,
+   "variant": 1
+  },
+  "anim_sweep_0": {
+   "delivery": "sweep",
+   "keys": [
+    {
+     "crouch": 0.42,
+     "fbfree": 0.0,
+     "fbx": -0.36,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 0.15,
+     "ffy": 0.05,
+     "hbx": -0.2,
+     "hby": -0.4,
+     "head": -0.05,
+     "hfx": 0.3,
+     "hfy": -0.5,
+     "lean": 0.36,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.5,
+     "fbfree": 0.0,
+     "fbx": -0.3,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 1.06,
+     "ffy": 0.08,
+     "hbx": -0.3,
+     "hby": -0.3,
+     "head": -0.05,
+     "hfx": 0.36,
+     "hfy": -0.56,
+     "lean": 0.46,
+     "rot": 0.0
+    }
+   ],
+   "limb": "foot_f",
+   "lunge": 0.1,
+   "variant": 0
+  },
+  "anim_uppercut_0": {
+   "delivery": "uppercut",
+   "keys": [
+    {
+     "crouch": 0.38,
+     "fbfree": 0.0,
+     "fbx": -0.32,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.36,
+     "ffy": 0.0,
+     "hbx": 0.2,
+     "hby": 0.1,
+     "head": -0.05,
+     "hfx": 0.14,
+     "hfy": -0.4,
+     "lean": 0.32,
+     "rot": 0.0
+    },
+    {
+     "crouch": -0.06,
+     "fbfree": 0.0,
+     "fbx": -0.2,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 0.3,
+     "ffy": 0.12,
+     "hbx": 0.0,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": 0.22,
+     "hfy": 0.62,
+     "lean": -0.12,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.2,
+   "variant": 0
+  },
+  "pose_backstep": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.05,
+     "hby": 0.05,
+     "head": -0.05,
+     "hfx": 0.16,
+     "hfy": 0.14,
+     "lean": -0.34,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_block": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.18,
+     "fbfree": 0.0,
+     "fbx": -0.32,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.3,
+     "ffy": 0.0,
+     "hbx": 0.22,
+     "hby": 0.04,
+     "head": -0.16,
+     "hfx": 0.24,
+     "hfy": 0.18,
+     "lean": 0.02,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_cast_hold": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.36,
+     "hby": 0.28,
+     "head": -0.05,
+     "hfx": 0.4,
+     "hfy": 0.32,
+     "lean": 0.0,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_charge_energy": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.32,
+     "fbfree": 0.0,
+     "fbx": -0.42,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.42,
+     "ffy": 0.0,
+     "hbx": -0.3,
+     "hby": -0.42,
+     "head": 0.16,
+     "hfx": 0.34,
+     "hfy": -0.4,
+     "lean": -0.06,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_counter_stance": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.22,
+     "fbfree": 0.0,
+     "fbx": -0.34,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.32,
+     "ffy": 0.0,
+     "hbx": 0.24,
+     "hby": 0.16,
+     "head": -0.05,
+     "hfx": 0.36,
+     "hfy": -0.04,
+     "lean": -0.05,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_dash": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.38,
+     "hby": -0.18,
+     "head": 0.1,
+     "hfx": 0.02,
+     "hfy": -0.26,
+     "lean": 0.62,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_defeat": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.46,
+     "fbfree": 0.0,
+     "fbx": -0.42,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.36,
+     "ffy": 0.0,
+     "hbx": 0.12,
+     "hby": -0.64,
+     "head": -0.42,
+     "hfx": 0.28,
+     "hfy": -0.62,
+     "lean": 0.62,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_dizzy": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.18,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.05,
+     "hby": -0.42,
+     "head": 0.35,
+     "hfx": 0.1,
+     "hfy": -0.4,
+     "lean": -0.15,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_fall": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": -0.2,
+     "fby": 0.08,
+     "ffree": 1.0,
+     "ffx": 0.22,
+     "ffy": 0.18,
+     "hbx": -0.24,
+     "hby": 0.38,
+     "head": -0.05,
+     "hfx": 0.28,
+     "hfy": 0.32,
+     "lean": 0.05,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_grabbed": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": -0.1,
+     "fby": 0.1,
+     "ffree": 1.0,
+     "ffx": 0.2,
+     "ffy": 0.2,
+     "hbx": 0.25,
+     "hby": 0.3,
+     "head": 0.3,
+     "hfx": 0.3,
+     "hfy": 0.2,
+     "lean": -0.3,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_hit_high": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.12,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.32,
+     "hby": 0.22,
+     "head": 0.34,
+     "hfx": -0.1,
+     "hfy": 0.36,
+     "lean": -0.48,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_hit_low": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.24,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.1,
+     "hby": -0.32,
+     "head": -0.3,
+     "hfx": 0.16,
+     "hfy": -0.26,
+     "lean": 0.58,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_jump_up": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": -0.15,
+     "fby": 0.28,
+     "ffree": 1.0,
+     "ffx": 0.25,
+     "ffy": 0.42,
+     "hbx": -0.15,
+     "hby": 0.3,
+     "head": -0.05,
+     "hfx": 0.22,
+     "hfy": 0.26,
+     "lean": 0.0,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_kneel": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.42,
+     "fbfree": 0.0,
+     "fbx": -0.38,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.36,
+     "ffy": 0.0,
+     "hbx": 0.12,
+     "hby": -0.3,
+     "head": -0.2,
+     "hfx": 0.36,
+     "hfy": -0.36,
+     "lean": 0.32,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_launched": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.0,
+     "fbfree": 1.0,
+     "fbx": 0.05,
+     "fby": 0.1,
+     "ffree": 1.0,
+     "ffx": 0.35,
+     "ffy": 0.3,
+     "hbx": -0.4,
+     "hby": 0.3,
+     "head": 0.4,
+     "hfx": -0.2,
+     "hfy": 0.45,
+     "lean": -0.3,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_lying": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.78,
+     "fbfree": 1.0,
+     "fbx": 0.3,
+     "fby": 0.0,
+     "ffree": 1.0,
+     "ffx": 0.42,
+     "ffy": 0.15,
+     "hbx": 0.2,
+     "hby": -0.25,
+     "head": 0.15,
+     "hfx": 0.36,
+     "hfy": 0.12,
+     "lean": 0.0,
+     "rot": 1.48
+    }
+   ]
+  },
+  "pose_taunt": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.08,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.0,
+     "hby": -0.32,
+     "head": 0.1,
+     "hfx": 0.5,
+     "hfy": 0.12,
+     "lean": -0.04,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_teleport": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.32,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.0,
+     "hby": -0.15,
+     "head": -0.05,
+     "hfx": 0.1,
+     "hfy": -0.1,
+     "lean": 0.4,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_tuck": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.42,
+     "fbfree": 1.0,
+     "fbx": 0.15,
+     "fby": 0.35,
+     "ffree": 1.0,
+     "ffx": 0.3,
+     "ffy": 0.4,
+     "hbx": 0.2,
+     "hby": -0.3,
+     "head": 0.3,
+     "hfx": 0.25,
+     "hfy": -0.25,
+     "lean": 0.3,
+     "rot": 0.0
+    }
+   ]
+  },
+  "pose_victory": {
+   "delivery": null,
+   "keys": [
+    {
+     "crouch": 0.02,
+     "fbfree": 0.0,
+     "fbx": -0.24,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.24,
+     "ffy": 0.0,
+     "hbx": 0.18,
+     "hby": -0.3,
+     "head": 0.25,
+     "hfx": 0.06,
+     "hfy": 0.62,
+     "lean": -0.06,
+     "rot": 0.0
+    }
+   ]
+  }
+ },
+ "schema": "stu.animations",
+ "updated": "2026-11-15T03:11:25",
+ "version": 1
+}

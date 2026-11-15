@@ -1,0 +1,38 @@
+{
+ "count": 1,
+ "items": {
+  "rc_bf9488cdc2": {
+   "creative": {
+    "camera": "cinematic_dynamic",
+    "choreography": "procedural",
+    "motion_blur": "subtle",
+    "music": "procedural",
+    "particle_effects": true,
+    "screen_shake": 1.0,
+    "slow_motion": "dramatic",
+    "sound_effects": true,
+    "subtitles": false,
+    "visual_effects": "high_quality"
+   },
+   "video": {
+    "codec": "h264",
+    "encoder": {
+     "crf": 18,
+     "preset": "medium"
+    },
+    "export_complete_tournament": true,
+    "export_highlights": true,
+    "export_individual_fights": true,
+    "fps": 60,
+    "height": 1920,
+    "orientation": "vertical",
+    "quality": "high",
+    "render_workers": 4,
+    "width": 1080
+   }
+  }
+ },
+ "schema": "stu.render_configs",
+ "updated": "2026-11-15T03:11:25",
+ "version": 1
+}

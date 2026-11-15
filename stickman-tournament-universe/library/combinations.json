@@ -1,0 +1,232 @@
+{
+ "count": 8,
+ "items": {
+  "cmb_2a143201b2": {
+   "abilities": [
+    "ab_314ffb8ed5",
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Nature",
+    "Earth"
+   ],
+   "alt_words": [
+    "Ironwood",
+    "Thornstone"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "env_strike",
+    "summon_weapon"
+   ],
+   "effects": {
+    "power": 1.15
+   },
+   "id": "cmb_2a143201b2",
+   "reaction": "Ironwood",
+   "rules": [
+    "organic+solid"
+   ]
+  },
+  "cmb_450181fdb8": {
+   "abilities": [
+    "ab_314ffb8ed5",
+    "ab_871ffa40a3"
+   ],
+   "ability_names": [
+    "Nature",
+    "Lightning"
+   ],
+   "alt_words": [
+    "Galvanic",
+    "Thunderroot"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "grapple",
+    "env_strike"
+   ],
+   "effects": {
+    "stun": 1.3
+   },
+   "id": "cmb_450181fdb8",
+   "reaction": "Galvanic",
+   "rules": [
+    "electric+organic"
+   ]
+  },
+  "cmb_5fa009b440": {
+   "abilities": [
+    "ab_083a980255",
+    "ab_d903b6dc1c"
+   ],
+   "ability_names": [
+    "Gravity",
+    "Sound"
+   ],
+   "alt_words": [
+    "Collapse",
+    "Crush"
+   ],
+   "compatibility": 0.89,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "slam",
+    "grapple"
+   ],
+   "effects": {
+    "power": 1.25
+   },
+   "id": "cmb_5fa009b440",
+   "reaction": "Collapse",
+   "rules": [
+    "mass+force"
+   ]
+  },
+  "cmb_806fa58fb6": {
+   "abilities": [
+    "ab_a337bbb9cf",
+    "ab_b7f5981ab1"
+   ],
+   "ability_names": [
+    "Metal",
+    "Fire"
+   ],
+   "alt_words": [
+    "Searing",
+    "Forge"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "summon_weapon",
+    "kick"
+   ],
+   "effects": {
+    "power": 1.15
+   },
+   "id": "cmb_806fa58fb6",
+   "reaction": "Searing",
+   "rules": [
+    "heat+sharp"
+   ]
+  },
+  "cmb_a90e79cb8a": {
+   "abilities": [
+    "ab_83c4d6d552",
+    "ab_d903b6dc1c"
+   ],
+   "ability_names": [
+    "Earth",
+    "Sound"
+   ],
+   "alt_words": [
+    "Collapse",
+    "Crush"
+   ],
+   "compatibility": 0.89,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "slam",
+    "grapple"
+   ],
+   "effects": {
+    "power": 1.25
+   },
+   "id": "cmb_a90e79cb8a",
+   "reaction": "Collapse",
+   "rules": [
+    "mass+force"
+   ]
+  },
+  "cmb_f903034fa0": {
+   "abilities": [
+    "ab_083a980255",
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Gravity",
+    "Water"
+   ],
+   "alt_words": [
+    "Ink",
+    "Black Tide"
+   ],
+   "compatibility": 0.89,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "grapple",
+    "projectile"
+   ],
+   "effects": {
+    "stun": 1.2
+   },
+   "id": "cmb_f903034fa0",
+   "reaction": "Ink",
+   "rules": [
+    "void+fluid"
+   ]
+  },
+  "cmb_faa01b35f6": {
+   "abilities": [
+    "ab_5b8e37c749",
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Ice",
+    "Wind"
+   ],
+   "alt_words": [
+    "Blizzard",
+    "Whiteout"
+   ],
+   "compatibility": 1.0,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "explosion",
+    "projectile"
+   ],
+   "effects": {
+    "area": 1.3
+   },
+   "id": "cmb_faa01b35f6",
+   "reaction": "Blizzard",
+   "rules": [
+    "cold+gas"
+   ]
+  },
+  "cmb_fffa7dc6e4": {
+   "abilities": [
+    "ab_66a6db4683",
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Shadow",
+    "Light"
+   ],
+   "alt_words": [
+    "Eclipse",
+    "Twilight"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T03:11:25",
+   "deliveries": [
+    "beam",
+    "explosion"
+   ],
+   "effects": {
+    "power": 1.25
+   },
+   "id": "cmb_fffa7dc6e4",
+   "reaction": "Eclipse",
+   "rules": [
+    "radiant+void"
+   ]
+  }
+ },
+ "schema": "stu.combinations",
+ "updated": "2026-11-15T03:11:25",
+ "version": 1
+}

@@ -1,0 +1,716 @@
+{
+ "count": 12,
+ "items": {
+  "ab_083a980255": {
+   "affinity": {
+    "aerial_strike": 0.8,
+    "explosion": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.7,
+    "slam": 1.0
+   },
+   "archetype": "gravity",
+   "aura": "ring",
+   "colors": [
+    "#ffe3ff",
+    "#d36bff",
+    "#5b1f8a"
+   ],
+   "env_form": "well",
+   "id": "ab_083a980255",
+   "key": "gravity",
+   "mobility": "float",
+   "mod_affinity": {
+    "absorb": 0.8,
+    "amplify": 1.0,
+    "delayed": 0.8,
+    "trap": 0.7
+   },
+   "name": "Gravity",
+   "particle": "ring",
+   "projectile": "void",
+   "stats": {
+    "control": 1.15,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 0.9
+   },
+   "tags": [
+    "mass",
+    "force",
+    "void",
+    "gravity"
+   ],
+   "theme": "elements",
+   "voice": "gravity",
+   "words": {
+    "adj": [
+     "Singular",
+     "Graviton",
+     "Crushing",
+     "Event"
+    ],
+    "noun": [
+     "Singularity",
+     "Horizon",
+     "Collapse",
+     "Orbit",
+     "Nova"
+    ]
+   },
+   "zone": "well"
+  },
+  "ab_314ffb8ed5": {
+   "affinity": {
+    "env_strike": 1.0,
+    "grapple": 1.0,
+    "projectile": 0.7,
+    "summon_weapon": 0.6,
+    "sweep": 0.8
+   },
+   "archetype": "verdant",
+   "aura": "leaf",
+   "colors": [
+    "#e9ffd0",
+    "#7fd34a",
+    "#2f7d1f"
+   ],
+   "env_form": "vines",
+   "id": "ab_314ffb8ed5",
+   "key": "nature",
+   "mobility": "glide",
+   "mod_affinity": {
+    "homing": 0.6,
+    "multistage": 0.6,
+    "shield": 0.7,
+    "trap": 1.0
+   },
+   "name": "Nature",
+   "particle": "leaf",
+   "projectile": "seed",
+   "stats": {
+    "control": 1.25,
+    "defense": 1.0,
+    "power": 0.95,
+    "speed": 0.95
+   },
+   "tags": [
+    "organic",
+    "bind",
+    "flexible"
+   ],
+   "theme": "elements",
+   "voice": "nature",
+   "words": {
+    "adj": [
+     "Thorned",
+     "Verdant",
+     "Wild",
+     "Briar"
+    ],
+    "noun": [
+     "Thorn",
+     "Briar",
+     "Grove",
+     "Root",
+     "Bloom"
+    ]
+   },
+   "zone": "vines"
+  },
+  "ab_5b8e37c749": {
+   "affinity": {
+    "env_strike": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "slam": 0.7,
+    "summon_weapon": 0.9
+   },
+   "archetype": "frost",
+   "aura": "frost",
+   "colors": [
+    "#ffffff",
+    "#9fe8ff",
+    "#3a8dde"
+   ],
+   "env_form": "spikes",
+   "id": "ab_5b8e37c749",
+   "key": "ice",
+   "mobility": "slide",
+   "mod_affinity": {
+    "pierce": 0.8,
+    "shield": 0.9,
+    "split": 1.0,
+    "trap": 0.9
+   },
+   "name": "Ice",
+   "particle": "shard",
+   "projectile": "shard",
+   "stats": {
+    "control": 1.1,
+    "defense": 1.05,
+    "power": 1.0,
+    "speed": 0.95
+   },
+   "tags": [
+    "cold",
+    "solid",
+    "crystal",
+    "sharp"
+   ],
+   "theme": "elements",
+   "voice": "ice",
+   "words": {
+    "adj": [
+     "Glacial",
+     "Frozen",
+     "Rime",
+     "Boreal"
+    ],
+    "noun": [
+     "Glacier",
+     "Frost",
+     "Rime",
+     "Shard",
+     "Blizzard"
+    ]
+   },
+   "zone": "frozen"
+  },
+  "ab_66a6db4683": {
+   "affinity": {
+    "counter": 1.0,
+    "env_strike": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.8,
+    "punch": 0.8
+   },
+   "archetype": "umbra",
+   "aura": "wisp",
+   "colors": [
+    "#e6c8ff",
+    "#9d4dff",
+    "#2a0a4a"
+   ],
+   "env_form": "hands",
+   "id": "ab_66a6db4683",
+   "key": "shadow",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "absorb": 1.0,
+    "delayed": 0.9,
+    "homing": 0.9,
+    "trap": 0.8
+   },
+   "name": "Shadow",
+   "particle": "wisp",
+   "projectile": "void",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.1
+   },
+   "tags": [
+    "void",
+    "stealth",
+    "bind"
+   ],
+   "theme": "elements",
+   "voice": "shadow",
+   "words": {
+    "adj": [
+     "Umbral",
+     "Eclipse",
+     "Hollow",
+     "Night"
+    ],
+    "noun": [
+     "Eclipse",
+     "Shade",
+     "Abyss",
+     "Phantom",
+     "Dusk"
+    ]
+   },
+   "zone": "shadow"
+  },
+  "ab_83c4d6d552": {
+   "affinity": {
+    "charge": 0.8,
+    "env_strike": 1.0,
+    "projectile": 0.6,
+    "punch": 0.9,
+    "slam": 1.0,
+    "uppercut": 0.8
+   },
+   "archetype": "stone",
+   "aura": "dust",
+   "colors": [
+    "#f0d9a8",
+    "#b0804a",
+    "#5b3a1e"
+   ],
+   "env_form": "pillar",
+   "id": "ab_83c4d6d552",
+   "key": "earth",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "multistage": 0.5,
+    "shield": 1.0,
+    "trap": 0.6
+   },
+   "name": "Earth",
+   "particle": "rock",
+   "projectile": "rock",
+   "stats": {
+    "control": 0.9,
+    "defense": 1.2,
+    "power": 1.2,
+    "speed": 0.85
+   },
+   "tags": [
+    "solid",
+    "mass",
+    "ground",
+    "heavy"
+   ],
+   "theme": "elements",
+   "voice": "earth",
+   "words": {
+    "adj": [
+     "Titan",
+     "Granite",
+     "Tectonic",
+     "Basalt"
+    ],
+    "noun": [
+     "Quake",
+     "Monolith",
+     "Bastion",
+     "Boulder",
+     "Rift"
+    ]
+   },
+   "zone": "cracked"
+  },
+  "ab_871ffa40a3": {
+   "affinity": {
+    "beam": 1.0,
+    "charge": 0.9,
+    "env_strike": 0.8,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "punch": 0.9
+   },
+   "archetype": "storm",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#bfe9ff",
+    "#4aa8ff"
+   ],
+   "env_form": "sky_strike",
+   "id": "ab_871ffa40a3",
+   "key": "lightning",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "chain": 1.0,
+    "homing": 0.6,
+    "multistage": 0.9,
+    "pierce": 0.9
+   },
+   "name": "Lightning",
+   "particle": "spark",
+   "projectile": "bolt",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.8,
+    "power": 1.05,
+    "speed": 1.2
+   },
+   "tags": [
+    "electric",
+    "energy",
+    "fast"
+   ],
+   "theme": "elements",
+   "voice": "electric",
+   "words": {
+    "adj": [
+     "Voltaic",
+     "Thunder",
+     "Arc",
+     "Static"
+    ],
+    "noun": [
+     "Thunder",
+     "Volt",
+     "Arc",
+     "Tempest",
+     "Surge"
+    ]
+   },
+   "zone": null
+  },
+  "ab_a337bbb9cf": {
+   "affinity": {
+    "charge": 0.7,
+    "projectile": 0.8,
+    "punch": 0.8,
+    "slam": 0.7,
+    "summon_weapon": 1.0
+   },
+   "archetype": "alloy",
+   "aura": "metal",
+   "colors": [
+    "#ffffff",
+    "#c8d2dc",
+    "#6c7a89"
+   ],
+   "env_form": "spikes",
+   "id": "ab_a337bbb9cf",
+   "key": "metal",
+   "mobility": "dash",
+   "mod_affinity": {
+    "pierce": 1.0,
+    "reflect": 0.8,
+    "shield": 0.9,
+    "split": 0.7
+   },
+   "name": "Metal",
+   "particle": "metal",
+   "projectile": "disc",
+   "stats": {
+    "control": 0.95,
+    "defense": 1.15,
+    "power": 1.1,
+    "speed": 0.95
+   },
+   "tags": [
+    "solid",
+    "sharp",
+    "conductive",
+    "heavy"
+   ],
+   "theme": "elements",
+   "voice": "metal",
+   "words": {
+    "adj": [
+     "Iron",
+     "Steel",
+     "Chrome",
+     "Forged"
+    ],
+    "noun": [
+     "Blade",
+     "Anvil",
+     "Edge",
+     "Chakram",
+     "Bulwark"
+    ]
+   },
+   "zone": null
+  },
+  "ab_a48e55e410": {
+   "affinity": {
+    "beam": 0.9,
+    "env_strike": 0.8,
+    "grapple": 0.8,
+    "projectile": 0.9,
+    "summon_weapon": 0.6,
+    "sweep": 0.8
+   },
+   "archetype": "tide",
+   "aura": "droplet",
+   "colors": [
+    "#e0fbff",
+    "#3ec7ff",
+    "#0a62c9"
+   ],
+   "env_form": "geyser",
+   "id": "ab_a48e55e410",
+   "key": "water",
+   "mobility": "slide",
+   "mod_affinity": {
+    "homing": 0.7,
+    "multistage": 0.7,
+    "reflect": 0.6,
+    "shield": 0.8,
+    "trap": 0.8
+   },
+   "name": "Water",
+   "particle": "droplet",
+   "projectile": "orb",
+   "stats": {
+    "control": 1.15,
+    "defense": 1.0,
+    "power": 0.95,
+    "speed": 1.0
+   },
+   "tags": [
+    "fluid",
+    "flexible",
+    "conductive_medium"
+   ],
+   "theme": "elements",
+   "voice": "water",
+   "words": {
+    "adj": [
+     "Tidal",
+     "Abyssal",
+     "Surging",
+     "Torrent"
+    ],
+    "noun": [
+     "Tide",
+     "Torrent",
+     "Wave",
+     "Riptide",
+     "Maelstrom"
+    ]
+   },
+   "zone": "wet"
+  },
+  "ab_b7f5981ab1": {
+   "affinity": {
+    "beam": 0.6,
+    "charge": 0.7,
+    "env_strike": 0.6,
+    "explosion": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "punch": 0.8
+   },
+   "archetype": "flame",
+   "aura": "flame",
+   "colors": [
+    "#fff3b0",
+    "#ff8a1f",
+    "#ff3d00"
+   ],
+   "env_form": "geyser",
+   "id": "ab_b7f5981ab1",
+   "key": "fire",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "chain": 0.7,
+    "delayed": 0.9,
+    "split": 0.8,
+    "trap": 0.6
+   },
+   "name": "Fire",
+   "particle": "flame",
+   "projectile": "orb",
+   "stats": {
+    "control": 0.8,
+    "defense": 0.8,
+    "power": 1.15,
+    "speed": 1.0
+   },
+   "tags": [
+    "heat",
+    "energy",
+    "volatile"
+   ],
+   "theme": "elements",
+   "voice": "fire",
+   "words": {
+    "adj": [
+     "Blazing",
+     "Infernal",
+     "Scorching",
+     "Cinder"
+    ],
+    "noun": [
+     "Inferno",
+     "Ember",
+     "Blaze",
+     "Pyre",
+     "Flare"
+    ]
+   },
+   "zone": "burning"
+  },
+  "ab_d2779be2be": {
+   "affinity": {
+    "aerial_strike": 1.0,
+    "explosion": 0.7,
+    "kick": 1.0,
+    "projectile": 0.9,
+    "sweep": 0.7
+   },
+   "archetype": "gale",
+   "aura": "gust",
+   "colors": [
+    "#ffffff",
+    "#c9ffe8",
+    "#5fd6a8"
+   ],
+   "env_form": "column",
+   "id": "ab_d2779be2be",
+   "key": "wind",
+   "mobility": "glide",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "homing": 0.8,
+    "multistage": 0.8,
+    "reflect": 0.9
+   },
+   "name": "Wind",
+   "particle": "gust",
+   "projectile": "crescent",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.85,
+    "power": 0.9,
+    "speed": 1.25
+   },
+   "tags": [
+    "gas",
+    "fast",
+    "force"
+   ],
+   "theme": "elements",
+   "voice": "wind",
+   "words": {
+    "adj": [
+     "Cyclone",
+     "Zephyr",
+     "Howling",
+     "Skyward"
+    ],
+    "noun": [
+     "Gale",
+     "Cyclone",
+     "Tempest",
+     "Zephyr",
+     "Vortex"
+    ]
+   },
+   "zone": null
+  },
+  "ab_d903b6dc1c": {
+   "affinity": {
+    "beam": 0.8,
+    "counter": 0.7,
+    "explosion": 1.0,
+    "projectile": 0.9,
+    "punch": 0.8
+   },
+   "archetype": "resonance",
+   "aura": "wave",
+   "colors": [
+    "#ffffff",
+    "#ffc2e0",
+    "#ff4f9a"
+   ],
+   "env_form": "burst",
+   "id": "ab_d903b6dc1c",
+   "key": "sound",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 1.0,
+    "chain": 0.8,
+    "multistage": 0.7,
+    "reflect": 0.8
+   },
+   "name": "Sound",
+   "particle": "wave",
+   "projectile": "wave",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.05
+   },
+   "tags": [
+    "wave",
+    "force",
+    "energy"
+   ],
+   "theme": "elements",
+   "voice": "sound",
+   "words": {
+    "adj": [
+     "Sonic",
+     "Echo",
+     "Resonant",
+     "Shrieking"
+    ],
+    "noun": [
+     "Echo",
+     "Crescendo",
+     "Pulse",
+     "Shockwave",
+     "Chorus"
+    ]
+   },
+   "zone": null
+  },
+  "ab_e33ef84aee": {
+   "affinity": {
+    "beam": 1.0,
+    "explosion": 0.7,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "summon_weapon": 0.7
+   },
+   "archetype": "radiance",
+   "aura": "ray",
+   "colors": [
+    "#ffffff",
+    "#fff4b8",
+    "#ffd23f"
+   ],
+   "env_form": "light_pillar",
+   "id": "ab_e33ef84aee",
+   "key": "light",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "homing": 0.7,
+    "pierce": 1.0,
+    "reflect": 1.0,
+    "split": 0.8
+   },
+   "name": "Light",
+   "particle": "ray",
+   "projectile": "ray",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.15
+   },
+   "tags": [
+    "radiant",
+    "energy",
+    "fast",
+    "precise"
+   ],
+   "theme": "elements",
+   "voice": "light",
+   "words": {
+    "adj": [
+     "Solar",
+     "Radiant",
+     "Prism",
+     "Dawn"
+    ],
+    "noun": [
+     "Halo",
+     "Prism",
+     "Sunburst",
+     "Lance",
+     "Aurora"
+    ]
+   },
+   "zone": null
+  }
+ },
+ "schema": "stu.abilities",
+ "updated": "2026-11-15T03:11:25",
+ "version": 1
+}
