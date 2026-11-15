@@ -1177,9 +1177,10 @@
  "schema": "stu.tournament",
  "slug": "elemental_ascension_1_2026",
  "steps": {
-  "bracket_reveal": "exports/elemental_ascension_1_2026/bracket_reveal.mp4"
+  "bracket_reveal": "exports/elemental_ascension_1_2026/bracket_reveal.mp4",
+  "bracket_round_02": "exports/elemental_ascension_1_2026/bracket_round_02.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:25:08",
+ "updated": "2026-11-15T03:25:15",
  "version": 1
 }
