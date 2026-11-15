@@ -1,5 +1,5 @@
 {
- "count": 6,
+ "count": 9,
  "items": {
   "arena_elemental_ascension_2_1156271972_0": {
    "accent": "#ff5329",
@@ -82,6 +82,88 @@
    "theme": "elements",
    "time_of_day": "night",
    "tournament": "elemental_ascension_2_1156271972"
+  },
+  "arena_primal_clash_1156271972_0": {
+   "accent": "#ff5329",
+   "ambient": "ember",
+   "biome": "caldera",
+   "celestial": "moon",
+   "far": "#2a0808",
+   "far_type": "volcanoes",
+   "ground": "#1c0908",
+   "ground_style": "lava",
+   "id": "arena_primal_clash_1156271972_0",
+   "layout_seed": 889995481,
+   "lightning": false,
+   "mid": "#400d0a",
+   "name": "Burning Caldera",
+   "props": "rock_spire",
+   "props_list": [
+    "rock_spire"
+   ],
+   "ships": false,
+   "sky": [
+    "#1a0407",
+    "#5a0b08"
+   ],
+   "theme": "elements",
+   "time_of_day": "night",
+   "tournament": "primal_clash_1156271972"
+  },
+  "arena_primal_clash_1156271972_1": {
+   "accent": "#afff7a",
+   "ambient": "leaves",
+   "biome": "elder_grove",
+   "celestial": "sun",
+   "far": "#0e2e14",
+   "far_type": "forest",
+   "ground": "#0a1d0c",
+   "ground_style": "grass",
+   "id": "arena_primal_clash_1156271972_1",
+   "layout_seed": 707069491,
+   "lightning": false,
+   "mid": "#123619",
+   "name": "Elder Grove",
+   "props": "tree",
+   "props_list": [
+    "tree"
+   ],
+   "ships": false,
+   "sky": [
+    "#031409",
+    "#1f5a2a"
+   ],
+   "theme": "elements",
+   "time_of_day": "day",
+   "tournament": "primal_clash_1156271972"
+  },
+  "arena_primal_clash_1156271972_2": {
+   "accent": "#9aabff",
+   "ambient": "stars",
+   "biome": "starfall_rift",
+   "celestial": "moon",
+   "far": "#0b0a24",
+   "far_type": "mountains",
+   "ground": "#07071a",
+   "ground_style": "metal",
+   "id": "arena_primal_clash_1156271972_2",
+   "layout_seed": 150769559,
+   "lightning": false,
+   "mid": "#12112e",
+   "name": "Starfall Rift",
+   "props": "monolith",
+   "props_list": [
+    "monolith",
+    "floating_rock"
+   ],
+   "ships": false,
+   "sky": [
+    "#000004",
+    "#161040"
+   ],
+   "theme": "elements",
+   "time_of_day": "night",
+   "tournament": "primal_clash_1156271972"
   },
   "arena_seven_seas_brawl_1_77_0": {
    "accent": "#ffa74a",
@@ -177,6 +259,6 @@
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-15T11:31:44",
+ "updated": "2026-11-15T12:36:00",
  "version": 1
 }

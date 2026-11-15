@@ -369,6 +369,18 @@ class Tournament:
         self.u.save_all()
 
 
+def _existing_names(root):
+    d = os.path.join(root, "tournaments")
+    out = set()
+    for slug in (os.listdir(d) if os.path.isdir(d) else []):
+        try:
+            with open(os.path.join(d, slug, "state.json")) as f:
+                out.add(json.load(f).get("name"))
+        except (OSError, ValueError):
+            pass
+    return out
+
+
 def create_tournament(cfg, root=PROJECT_ROOT, universe=None, custom_abilities=None):
     """Generate everything the tournament needs and persist it."""
     u = universe or Universe(root)
@@ -385,10 +397,13 @@ def create_tournament(cfg, root=PROJECT_ROOT, universe=None, custom_abilities=No
     # library bootstrapping: animation templates are persistent data too
     for k, v in export_templates().items():
         u["animations"].put(k, v)
-    count = sum(1 for x in u["tournaments"].values() if x.get("theme") == theme["key"])
     name = t["name"]
     if name in (None, "auto"):
-        name = f"{rng.stream('name').choice(theme['title_words'])} #{count + 1}"
+        # Tournaments are never numbered: pick a theme title, preferring ones not used yet.
+        used = {x.get("name") for x in u["tournaments"].values()}
+        used |= {Tournament_name for Tournament_name in _existing_names(root)}
+        fresh = [w for w in theme["title_words"] if w not in used]
+        name = rng.stream("name").choice(fresh or theme["title_words"])
     slug = f"{slugify(name)}_{seed}"
     path = os.path.join(root, "tournaments", slug)
     if os.path.exists(os.path.join(path, "state.json")):
