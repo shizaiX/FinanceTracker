@@ -1,5 +1,5 @@
 {
- "count": 134,
+ "count": 139,
  "items": {
   "tq_00849d93bb": {
    "abilities": [
@@ -239,6 +239,82 @@
    },
    "tier": "basic",
    "timing": "instant",
+   "variant": 2
+  },
+  "tq_09038480ba": {
+   "abilities": [
+    "ab_5b8e37c749",
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Ice",
+    "Wind"
+   ],
+   "anim": "anim_projectile",
+   "combination": "cmb_faa01b35f6",
+   "created": "2026-11-15T03:29:05",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.9,
+     "opp_zoning": 0.1
+    },
+    "fighter": "ftr_41e957db5e",
+    "match": "m006",
+    "t": 62.18,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_09038480ba",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Feint Blizzard Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.4,
+    "cost": 30,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.213,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Blizzard",
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749",
+     "ab_d2779be2be"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "backstep",
+    "timing": "feint"
+   },
+   "tier": "fusion",
+   "timing": "feint",
    "variant": 2
   },
   "tq_0984bcf668": {
@@ -587,6 +663,73 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_10ea4975d4": {
+   "abilities": [
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Wind"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T03:29:05",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.66,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.88,
+     "opp_zoning": 0.12
+    },
+    "fighter": "ftr_41e957db5e",
+    "match": "m006",
+    "t": 16.33,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_10ea4975d4",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Howling Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 7.78,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 12.64,
+    "reach": 1.2,
+    "recovery": 0.325,
+    "stages": 1,
+    "startup": 0.157,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d2779be2be"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_12da7c2876": {
    "abilities": [
     "ab_083a980255",
@@ -739,6 +882,77 @@
      "amplify"
     ],
     "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_16280fccfc": {
+   "abilities": [
+    "ab_5b8e37c749",
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Ice",
+    "Wind"
+   ],
+   "anim": "anim_explosion",
+   "combination": "cmb_faa01b35f6",
+   "created": "2026-11-15T03:29:05",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.87,
+     "opp_zoning": 0.13
+    },
+    "fighter": "ftr_41e957db5e",
+    "match": "m006",
+    "t": 51.22,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_16280fccfc",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Blizzard Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.4,
+    "cost": 30,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.44,
+    "radius": 2.21,
+    "reach": 1.7,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.329,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Blizzard",
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749",
+     "ab_d2779be2be"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "fusion",
@@ -2211,6 +2425,76 @@
     "timing": "instant"
    },
    "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_42a032b38f": {
+   "abilities": [
+    "ab_a337bbb9cf",
+    "ab_b7f5981ab1"
+   ],
+   "ability_names": [
+    "Fire",
+    "Metal"
+   ],
+   "anim": "anim_grapple",
+   "combination": "cmb_806fa58fb6",
+   "created": "2026-11-15T03:29:05",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 2.69,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_b750bb35a2",
+    "match": "m006",
+    "t": 52.04,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_42a032b38f",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Searing Bind",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.4,
+    "cost": 30,
+    "dmg": 16.77,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 27.95,
+    "reach": 0.85,
+    "recovery": 0.402,
+    "stages": 1,
+    "startup": 0.121,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf",
+     "ab_b7f5981ab1"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "fusion",
    "timing": "instant",
    "variant": 0
   },
@@ -7440,6 +7724,85 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_f49077d9ba": {
+   "abilities": [
+    "ab_5b8e37c749",
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Wind",
+    "Ice"
+   ],
+   "anim": "anim_explosion",
+   "combination": "cmb_faa01b35f6",
+   "created": "2026-11-15T03:29:05",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.92,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.89,
+     "opp_zoning": 0.11
+    },
+    "fighter": "ftr_41e957db5e",
+    "match": "m006",
+    "t": 35.46,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_f49077d9ba",
+   "kind": "area",
+   "modifiers": [
+    "delayed",
+    "shield"
+   ],
+   "movement": "dash",
+   "name": "Charged Delayed Blizzard Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 3.2,
+    "cost": 50,
+    "delay_blast": 0.6,
+    "dmg": 14.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 25.29,
+    "radius": 2.21,
+    "reach": 1.7,
+    "recovery": 0.392,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.658,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Blizzard",
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749",
+     "ab_d2779be2be"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed",
+     "shield"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "fusion",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_f6a8c95265": {
    "abilities": [
     "ab_e33ef84aee"
@@ -7731,6 +8094,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-15T03:29:04",
+ "updated": "2026-11-15T03:31:33",
  "version": 1
 }

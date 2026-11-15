@@ -98,17 +98,20 @@
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_b750bb35a2"
    },
    "m007": {
     "a": "ftr_25872decc9",
-    "b": null,
+    "b": "ftr_b750bb35a2",
     "id": "m007",
     "index": 0,
     "round": 2,
@@ -282,8 +285,8 @@
    "accessory": "scarf",
    "build": 0.99,
    "career": {
-    "losses": 0,
-    "points_against": 2,
+    "losses": 1,
+    "points_against": 5,
     "points_for": 3,
     "tournaments": [],
     "wins": 1
@@ -467,9 +470,9 @@
    "career": {
     "losses": 0,
     "points_against": 2,
-    "points_for": 3,
+    "points_for": 6,
     "tournaments": [],
-    "wins": 1
+    "wins": 2
    },
    "color": "#ff9a1f",
    "created": "2026-11-15T03:11:25",
@@ -1296,6 +1299,106 @@
    "video_ok": true,
    "video_seconds": 139.617,
    "winner": "ftr_25872decc9"
+  },
+  "m006": {
+   "archetype": "chess_match",
+   "arena": "Abyssal Shrine",
+   "contact_sheet": "tournaments/elemental_ascension_1_2026/qa/m006_contact.png",
+   "discoveries": [
+    "tq_10ea4975d4",
+    "tq_f49077d9ba",
+    "tq_16280fccfc",
+    "tq_42a032b38f",
+    "tq_09038480ba"
+   ],
+   "final_point_t": 66.083,
+   "ko_video_t": 83.2,
+   "points": [
+    {
+     "abs_t": 24.4083,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 20.808,
+     "tech": "tq_08ea528438",
+     "tech_name": "Dashing Crescent"
+    },
+    {
+     "abs_t": 40.95,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 37.35,
+     "tech": "tq_36100b9665",
+     "tech_name": "SEARING GLAIVE"
+    },
+    {
+     "abs_t": 69.6833,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 66.083,
+     "tech": "tq_d177fe2e70",
+     "tech_name": "Snare Blazing Burst"
+    }
+   ],
+   "render_seconds": 147.2,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 13,
+     "counters": 1,
+     "discoveries": 1,
+     "dodges": 3,
+     "fusions": 2,
+     "guard_breaks": 2,
+     "hits": 48,
+     "minor": 26,
+     "points": 3,
+     "projectiles": 15,
+     "significant": 4,
+     "techniques": 64,
+     "ultimates": 3
+    },
+    {
+     "blocked": 1,
+     "combo": 11,
+     "counters": 2,
+     "discoveries": 4,
+     "dodges": 1,
+     "fusions": 3,
+     "guard_breaks": 0,
+     "hits": 35,
+     "minor": 23,
+     "points": 0,
+     "projectiles": 6,
+     "significant": 1,
+     "techniques": 51,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "2bf9bd1bcec047b79509671e5ab5c71ccca6ca9bc01452df39f18f79abfd66a3",
+   "video": "exports/elemental_ascension_1_2026/semifinals/match_006.mp4",
+   "video_frames": 5632,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 93.867,
+   "winner": "ftr_b750bb35a2"
   }
  },
  "name": "Elemental Ascension #1",
@@ -1307,6 +1410,6 @@
   "bracket_round_02": "exports/elemental_ascension_1_2026/bracket_round_02.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:29:04",
+ "updated": "2026-11-15T03:31:33",
  "version": 1
 }

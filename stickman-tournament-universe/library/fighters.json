@@ -134,8 +134,8 @@
    "accessory": "scarf",
    "build": 0.99,
    "career": {
-    "losses": 0,
-    "points_against": 2,
+    "losses": 1,
+    "points_against": 5,
     "points_for": 3,
     "tournaments": [],
     "wins": 1
@@ -380,9 +380,9 @@
    "career": {
     "losses": 0,
     "points_against": 2,
-    "points_for": 3,
+    "points_for": 6,
     "tournaments": [],
-    "wins": 1
+    "wins": 2
    },
    "color": "#ff9a1f",
    "created": "2026-11-15T03:11:25",
@@ -490,6 +490,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T03:29:04",
+ "updated": "2026-11-15T03:31:33",
  "version": 1
 }
