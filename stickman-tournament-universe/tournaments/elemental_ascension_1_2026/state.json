@@ -116,13 +116,16 @@
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_25872decc9"
    }
   },
   "order": [
@@ -152,7 +155,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_25872decc9",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -409,9 +412,9 @@
    "career": {
     "losses": 0,
     "points_against": 4,
-    "points_for": 6,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 2
+    "wins": 3
    },
    "color": "#3a7bff",
    "created": "2026-11-15T03:11:25",
@@ -468,8 +471,8 @@
    "accessory": "horns",
    "build": 0.996,
    "career": {
-    "losses": 0,
-    "points_against": 2,
+    "losses": 1,
+    "points_against": 5,
     "points_for": 6,
     "tournaments": [],
     "wins": 2
@@ -1399,6 +1402,107 @@
    "video_ok": true,
    "video_seconds": 93.867,
    "winner": "ftr_b750bb35a2"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/elemental_ascension_1_2026/qa/m007_contact.png",
+   "discoveries": [
+    "tq_5583e4f5ed",
+    "tq_2f8ae6a8e0",
+    "tq_bc1a27b900",
+    "tq_a0177db8d2",
+    "tq_fcf3acfec2",
+    "tq_6303330726"
+   ],
+   "final_point_t": 65.983,
+   "ko_video_t": 82.83333333333333,
+   "points": [
+    {
+     "abs_t": 26.1,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 22.5,
+     "tech": "tq_fb388d70cc",
+     "tech_name": "Charged Cascade Step-in Kick"
+    },
+    {
+     "abs_t": 47.2417,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 43.642,
+     "tech": "tq_8176f5b3eb",
+     "tech_name": "ECLIPSE RAY"
+    },
+    {
+     "abs_t": 69.5833,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 65.983,
+     "tech": "tq_aa26a7fdda",
+     "tech_name": "Dashing Sweep"
+    }
+   ],
+   "render_seconds": 148.9,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 15,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 3,
+     "fusions": 2,
+     "guard_breaks": 2,
+     "hits": 60,
+     "minor": 37,
+     "points": 3,
+     "projectiles": 0,
+     "significant": 3,
+     "techniques": 52,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 28,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 4,
+     "fusions": 2,
+     "guard_breaks": 0,
+     "hits": 50,
+     "minor": 18,
+     "points": 0,
+     "projectiles": 3,
+     "significant": 4,
+     "techniques": 60,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "969c8c8a6afe3b10011943e63f99d8c89339ccd817dd74d79abaf6f787ab0c74",
+   "video": "exports/elemental_ascension_1_2026/final/match_007.mp4",
+   "video_frames": 5610,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 93.5,
+   "winner": "ftr_25872decc9"
   }
  },
  "name": "Elemental Ascension #1",
@@ -1408,9 +1512,11 @@
  "steps": {
   "bracket_reveal": "exports/elemental_ascension_1_2026/bracket_reveal.mp4",
   "bracket_round_02": "exports/elemental_ascension_1_2026/bracket_round_02.mp4",
-  "bracket_round_03": "exports/elemental_ascension_1_2026/bracket_round_03.mp4"
+  "bracket_round_03": "exports/elemental_ascension_1_2026/bracket_round_03.mp4",
+  "champion": "exports/elemental_ascension_1_2026/champion.mp4",
+  "complete": "exports/elemental_ascension_1_2026/complete_tournament.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:31:40",
+ "updated": "2026-11-15T03:34:32",
  "version": 1
 }

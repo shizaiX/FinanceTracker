@@ -75,9 +75,9 @@
    "career": {
     "losses": 0,
     "points_against": 4,
-    "points_for": 6,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 2
+    "wins": 3
    },
    "color": "#3a7bff",
    "created": "2026-11-15T03:11:25",
@@ -378,8 +378,8 @@
    "accessory": "horns",
    "build": 0.996,
    "career": {
-    "losses": 0,
-    "points_against": 2,
+    "losses": 1,
+    "points_against": 5,
     "points_for": 6,
     "tournaments": [],
     "wins": 2
@@ -490,6 +490,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T03:31:33",
+ "updated": "2026-11-15T03:34:11",
  "version": 1
 }

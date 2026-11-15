@@ -1,5 +1,5 @@
 {
- "count": 139,
+ "count": 145,
  "items": {
   "tq_00849d93bb": {
    "abilities": [
@@ -1615,6 +1615,76 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_2f8ae6a8e0": {
+   "abilities": [
+    "ab_66a6db4683",
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light",
+    "Shadow"
+   ],
+   "anim": "anim_sweep",
+   "combination": "cmb_fffa7dc6e4",
+   "created": "2026-11-15T03:31:41",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_25872decc9",
+    "match": "m007",
+    "t": 34.63,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_2f8ae6a8e0",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Eclipse Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 2.4,
+    "cost": 30,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 17.55,
+    "reach": 1.2,
+    "recovery": 0.332,
+    "stages": 1,
+    "startup": 0.163,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Eclipse",
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683",
+     "ab_e33ef84aee"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_30cdd29763": {
    "abilities": [
     "ab_5b8e37c749",
@@ -2803,6 +2873,82 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_5583e4f5ed": {
+   "abilities": [
+    "ab_66a6db4683",
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light",
+    "Shadow"
+   ],
+   "anim": "anim_slam",
+   "combination": "cmb_fffa7dc6e4",
+   "created": "2026-11-15T03:31:41",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.68,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.95,
+     "opp_zoning": 0.05
+    },
+    "fighter": "ftr_25872decc9",
+    "match": "m007",
+    "t": 16.31,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_5583e4f5ed",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "teleport",
+   "name": "Charged Snare Eclipse Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.8,
+    "cost": 52,
+    "dmg": 23.49,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 35.23,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.391,
+    "stages": 1,
+    "startup": 0.576,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": "Eclipse",
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683",
+     "ab_e33ef84aee"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "teleport",
+    "timing": "charged"
+   },
+   "tier": "fusion",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_57cae987ca": {
    "abilities": [],
    "ability_names": [],
@@ -2982,6 +3128,76 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_6303330726": {
+   "abilities": [
+    "ab_a337bbb9cf",
+    "ab_b7f5981ab1"
+   ],
+   "ability_names": [
+    "Fire",
+    "Metal"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": "cmb_806fa58fb6",
+   "created": "2026-11-15T03:31:41",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.97,
+     "opp_zoning": 0.03
+    },
+    "fighter": "ftr_b750bb35a2",
+    "match": "m007",
+    "t": 51.55,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_6303330726",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Searing Dive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 2.4,
+    "cost": 38,
+    "dmg": 15.37,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.96,
+    "reach": 1.1,
+    "recovery": 0.221,
+    "stages": 1,
+    "startup": 0.101,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf",
+     "ab_b7f5981ab1"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
    "variant": 0
   },
   "tq_63981aa612": {
@@ -5467,6 +5683,76 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_a0177db8d2": {
+   "abilities": [
+    "ab_66a6db4683",
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light",
+    "Shadow"
+   ],
+   "anim": "anim_grapple",
+   "combination": "cmb_fffa7dc6e4",
+   "created": "2026-11-15T03:31:41",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.95,
+     "opp_zoning": 0.05
+    },
+    "fighter": "ftr_25872decc9",
+    "match": "m007",
+    "t": 42.25,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_a0177db8d2",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Eclipse Grasp",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.4,
+    "cost": 30,
+    "dmg": 16.2,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 27.0,
+    "reach": 0.85,
+    "recovery": 0.391,
+    "stages": 1,
+    "startup": 0.115,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": "Eclipse",
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683",
+     "ab_e33ef84aee"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_a0d814adc5": {
    "abilities": [
     "ab_871ffa40a3"
@@ -6012,6 +6298,80 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_bc1a27b900": {
+   "abilities": [
+    "ab_66a6db4683",
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Shadow",
+    "Light"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": "cmb_fffa7dc6e4",
+   "created": "2026-11-15T03:31:41",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.95,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_25872decc9",
+    "match": "m007",
+    "t": 36.33,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_bc1a27b900",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Charged Piercing Eclipse Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 2.8,
+    "cost": 44,
+    "dmg": 21.53,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 27.41,
+    "reach": 1.65,
+    "recovery": 0.293,
+    "stages": 1,
+    "startup": 0.365,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Eclipse",
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683",
+     "ab_e33ef84aee"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "fusion",
+   "timing": "charged",
    "variant": 0
   },
   "tq_bcb348360c": {
@@ -7960,6 +8320,81 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_fcf3acfec2": {
+   "abilities": [
+    "ab_a337bbb9cf",
+    "ab_b7f5981ab1"
+   ],
+   "ability_names": [
+    "Fire",
+    "Metal"
+   ],
+   "anim": "anim_punch",
+   "combination": "cmb_806fa58fb6",
+   "created": "2026-11-15T03:31:41",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.0,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.97,
+     "opp_zoning": 0.03
+    },
+    "fighter": "ftr_b750bb35a2",
+    "match": "m007",
+    "t": 50.67,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_fcf3acfec2",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Feint Guarded Searing Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.8,
+    "cost": 36,
+    "dmg": 11.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.37,
+    "reach": 0.95,
+    "recovery": 0.221,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.121,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf",
+     "ab_b7f5981ab1"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "fusion",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_fd7136e035": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -8094,6 +8529,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-15T03:31:33",
+ "updated": "2026-11-15T03:34:11",
  "version": 1
 }
