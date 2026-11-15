@@ -1,5 +1,5 @@
 {
- "count": 127,
+ "count": 130,
  "items": {
   "tq_00f40b6a94": {
    "abilities": [
@@ -515,6 +515,88 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_12da7c2876": {
+   "abilities": [
+    "ab_083a980255",
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water",
+    "Gravity"
+   ],
+   "anim": "anim_projectile",
+   "combination": "cmb_f903034fa0",
+   "created": "2026-11-15T03:21:24",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 0.94,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.84,
+     "opp_zoning": 0.16
+    },
+    "fighter": "ftr_4c073431e2",
+    "match": "m004",
+    "t": 35.84,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_12da7c2876",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify",
+    "delayed"
+   ],
+   "movement": "backstep",
+   "name": "Feint Grand Ink Orb",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 3.2,
+    "cost": 42,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 7.94,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 11.34,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.2,
+    "unblockable": false
+   },
+   "reaction": "Ink",
+   "signature": {
+    "abilities": [
+     "ab_083a980255",
+     "ab_a48e55e410"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify",
+     "delayed"
+    ],
+    "movement": "backstep",
+    "timing": "feint"
+   },
+   "tier": "fusion",
+   "timing": "feint",
+   "variant": 2
   },
   "tq_1428775c57": {
    "abilities": [
@@ -1316,6 +1398,73 @@
    "tier": "fusion",
    "timing": "charged",
    "variant": 1
+  },
+  "tq_3143dcb886": {
+   "abilities": [
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Wind"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-15T03:21:24",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 0.99,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.22
+    },
+    "fighter": "ftr_41e957db5e",
+    "match": "m004",
+    "t": 40.84,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_3143dcb886",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Zephyr Bind",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 19.44,
+    "reach": 0.85,
+    "recovery": 0.383,
+    "stages": 1,
+    "startup": 0.111,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d2779be2be"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_31c3c048c6": {
    "abilities": [
@@ -4846,6 +4995,76 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_9a91129e9c": {
+   "abilities": [
+    "ab_5b8e37c749",
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Wind",
+    "Ice"
+   ],
+   "anim": "anim_uppercut",
+   "combination": "cmb_faa01b35f6",
+   "created": "2026-11-15T03:21:25",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 0.4,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.76,
+     "opp_zoning": 0.24
+    },
+    "fighter": "ftr_41e957db5e",
+    "match": "m004",
+    "t": 88.0,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_9a91129e9c",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Blizzard Uppercut",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.4,
+    "cost": 30,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 14.36,
+    "reach": 0.85,
+    "recovery": 0.353,
+    "stages": 1,
+    "startup": 0.145,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Blizzard",
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749",
+     "ab_d2779be2be"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_9b8fdf3a6f": {
    "abilities": [],
    "ability_names": [],
@@ -7222,6 +7441,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-15T03:18:00",
+ "updated": "2026-11-15T03:25:08",
  "version": 1
 }

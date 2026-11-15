@@ -62,13 +62,16 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_41e957db5e"
    },
    "m005": {
     "a": "ftr_25872decc9",
@@ -87,7 +90,7 @@
    },
    "m006": {
     "a": "ftr_b750bb35a2",
-    "b": null,
+    "b": "ftr_41e957db5e",
     "id": "m006",
     "index": 1,
     "round": 1,
@@ -277,10 +280,10 @@
    "build": 0.99,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#2ee9ff",
    "created": "2026-11-15T03:11:25",
@@ -337,9 +340,9 @@
    "accessory": "horns",
    "build": 0.952,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -1045,6 +1048,128 @@
    "video_ok": true,
    "video_seconds": 121.133,
    "winner": "ftr_b750bb35a2"
+  },
+  "m004": {
+   "archetype": "rivalry",
+   "arena": "Elder Grove",
+   "contact_sheet": "tournaments/elemental_ascension_1_2026/qa/m004_contact.png",
+   "discoveries": [
+    "tq_12da7c2876",
+    "tq_3143dcb886",
+    "tq_9a91129e9c"
+   ],
+   "final_point_t": 99.075,
+   "ko_video_t": 127.9,
+   "points": [
+    {
+     "abs_t": 27.375,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 23.775,
+     "tech": "tq_736f4c3411",
+     "tech_name": "Crushing Bind"
+    },
+    {
+     "abs_t": 50.5333,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 46.933,
+     "tech": "tq_93e6772461",
+     "tech_name": "Step-in Grasp"
+    },
+    {
+     "abs_t": 66.075,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 62.475,
+     "tech": "tq_93e6772461",
+     "tech_name": "Step-in Grasp"
+    },
+    {
+     "abs_t": 82.6667,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 79.067,
+     "tech": "tq_736f4c3411",
+     "tech_name": "Crushing Bind"
+    },
+    {
+     "abs_t": 102.675,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 99.075,
+     "tech": "tq_93e6772461",
+     "tech_name": "Step-in Grasp"
+    }
+   ],
+   "render_seconds": 221.2,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 15,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 3,
+     "fusions": 4,
+     "guard_breaks": 10,
+     "hits": 51,
+     "minor": 17,
+     "points": 2,
+     "projectiles": 9,
+     "significant": 7,
+     "techniques": 80,
+     "ultimates": 4
+    },
+    {
+     "blocked": 1,
+     "combo": 12,
+     "counters": 2,
+     "discoveries": 2,
+     "dodges": 9,
+     "fusions": 3,
+     "guard_breaks": 7,
+     "hits": 51,
+     "minor": 20,
+     "points": 3,
+     "projectiles": 12,
+     "significant": 9,
+     "techniques": 67,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "ec844a2b7545f66e85415c0f6c368bc5264f42368dc7314da5436d5cd320a15f",
+   "video": "exports/elemental_ascension_1_2026/round_01/match_004.mp4",
+   "video_frames": 8315,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 138.583,
+   "winner": "ftr_41e957db5e"
   }
  },
  "name": "Elemental Ascension #1",
@@ -1055,6 +1180,6 @@
   "bracket_reveal": "exports/elemental_ascension_1_2026/bracket_reveal.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:21:24",
+ "updated": "2026-11-15T03:25:08",
  "version": 1
 }

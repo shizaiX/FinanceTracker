@@ -1,12 +1,16 @@
 {
- "count": 105,
+ "count": 138,
  "items": {
   "ability:ab_083a980255": {
-   "matches": 1,
+   "matches": 2,
    "wins": 0
   },
   "ability:ab_314ffb8ed5": {
    "matches": 2,
+   "wins": 1
+  },
+  "ability:ab_5b8e37c749": {
+   "matches": 1,
    "wins": 1
   },
   "ability:ab_66a6db4683": {
@@ -25,7 +29,15 @@
    "matches": 1,
    "wins": 1
   },
+  "ability:ab_a48e55e410": {
+   "matches": 1,
+   "wins": 0
+  },
   "ability:ab_b7f5981ab1": {
+   "matches": 1,
+   "wins": 1
+  },
+  "ability:ab_d2779be2be": {
    "matches": 1,
    "wins": 1
   },
@@ -67,6 +79,38 @@
    "projectiles": 3,
    "significant": 12,
    "techniques": 69,
+   "ultimates": 4
+  },
+  "fighter:ftr_41e957db5e": {
+   "blocked": 1,
+   "combo": 12,
+   "counters": 2,
+   "discoveries": 2,
+   "dodges": 9,
+   "fusions": 3,
+   "guard_breaks": 7,
+   "hits": 51,
+   "minor": 20,
+   "points": 3,
+   "projectiles": 12,
+   "significant": 9,
+   "techniques": 67,
+   "ultimates": 4
+  },
+  "fighter:ftr_4c073431e2": {
+   "blocked": 0,
+   "combo": 15,
+   "counters": 0,
+   "discoveries": 1,
+   "dodges": 3,
+   "fusions": 4,
+   "guard_breaks": 10,
+   "hits": 51,
+   "minor": 17,
+   "points": 2,
+   "projectiles": 9,
+   "significant": 7,
+   "techniques": 80,
    "ultimates": 4
   },
   "fighter:ftr_78982cc7dd": {
@@ -134,8 +178,11 @@
    "ultimates": 4
   },
   "global": {
-   "matches": 3,
-   "sim_seconds": 259.81
+   "matches": 4,
+   "sim_seconds": 358.89
+  },
+  "technique:tq_00f40b6a94": {
+   "uses": 5
   },
   "technique:tq_081b439bd8": {
    "points": 1,
@@ -145,11 +192,17 @@
    "points": 1,
    "uses": 6
   },
+  "technique:tq_0984bcf668": {
+   "uses": 2
+  },
   "technique:tq_09b699e7cc": {
    "uses": 3
   },
   "technique:tq_0bf927dd47": {
    "uses": 4
+  },
+  "technique:tq_0f9e2f9a78": {
+   "uses": 2
   },
   "technique:tq_104e58e197": {
    "points": 1,
@@ -159,14 +212,20 @@
    "uses": 1
   },
   "technique:tq_18f0000f5b": {
-   "uses": 10
+   "uses": 11
   },
   "technique:tq_1a6084a790": {
    "uses": 5
   },
+  "technique:tq_1d8b625638": {
+   "uses": 4
+  },
   "technique:tq_1ed20bbbf8": {
    "points": 1,
    "uses": 4
+  },
+  "technique:tq_21832c9b3b": {
+   "uses": 3
   },
   "technique:tq_28b0cc96f2": {
    "uses": 2
@@ -180,8 +239,17 @@
   "technique:tq_2e78fd12a0": {
    "uses": 3
   },
+  "technique:tq_30cdd29763": {
+   "uses": 2
+  },
+  "technique:tq_3143dcb886": {
+   "uses": 1
+  },
   "technique:tq_31c3c048c6": {
    "uses": 2
+  },
+  "technique:tq_31d11146f4": {
+   "uses": 6
   },
   "technique:tq_33c576fe8b": {
    "uses": 4
@@ -194,6 +262,9 @@
   },
   "technique:tq_39acc0d557": {
    "uses": 2
+  },
+  "technique:tq_3a0bc70899": {
+   "uses": 4
   },
   "technique:tq_3c933db9d0": {
    "uses": 2
@@ -230,13 +301,16 @@
    "uses": 5
   },
   "technique:tq_67ce54d889": {
-   "uses": 9
+   "uses": 11
+  },
+  "technique:tq_6953a9da21": {
+   "uses": 4
   },
   "technique:tq_6c84dacd57": {
    "uses": 3
   },
   "technique:tq_6caa2ed867": {
-   "uses": 20
+   "uses": 29
   },
   "technique:tq_6d399e4b94": {
    "points": 1,
@@ -255,6 +329,10 @@
   "technique:tq_70d4bdfa70": {
    "uses": 1
   },
+  "technique:tq_736f4c3411": {
+   "points": 2,
+   "uses": 8
+  },
   "technique:tq_73ac03aa7c": {
    "uses": 2
   },
@@ -267,8 +345,11 @@
   "technique:tq_754f4843c0": {
    "uses": 6
   },
-  "technique:tq_758cea3abf": {
+  "technique:tq_7565ae78f6": {
    "uses": 5
+  },
+  "technique:tq_758cea3abf": {
+   "uses": 15
   },
   "technique:tq_7a2f0fad01": {
    "uses": 6
@@ -281,6 +362,12 @@
   },
   "technique:tq_7e5659fa05": {
    "uses": 6
+  },
+  "technique:tq_7f2685e4e7": {
+   "uses": 2
+  },
+  "technique:tq_807f87b5da": {
+   "uses": 2
   },
   "technique:tq_80cc736e5c": {
    "uses": 1
@@ -296,12 +383,15 @@
    "uses": 1
   },
   "technique:tq_88d40087af": {
-   "uses": 32
+   "uses": 41
   },
   "technique:tq_88e06d7cfd": {
    "uses": 4
   },
   "technique:tq_8a463c215b": {
+   "uses": 3
+  },
+  "technique:tq_8ced634fa7": {
    "uses": 3
   },
   "technique:tq_8fd268bd4e": {
@@ -314,10 +404,14 @@
    "uses": 2
   },
   "technique:tq_93e6772461": {
-   "uses": 4
+   "points": 3,
+   "uses": 9
   },
   "technique:tq_96b2939d8b": {
    "uses": 3
+  },
+  "technique:tq_978f25037a": {
+   "uses": 4
   },
   "technique:tq_9b8fdf3a6f": {
    "points": 1,
@@ -326,14 +420,20 @@
   "technique:tq_a0d814adc5": {
    "uses": 1
   },
+  "technique:tq_a107d6b9ee": {
+   "uses": 4
+  },
   "technique:tq_aa0749c89b": {
    "uses": 1
   },
   "technique:tq_aa26a7fdda": {
-   "uses": 14
+   "uses": 20
   },
   "technique:tq_b238ad2f38": {
    "uses": 5
+  },
+  "technique:tq_b666b0d1ba": {
+   "uses": 2
   },
   "technique:tq_b7aa49eb97": {
    "uses": 4
@@ -344,6 +444,9 @@
   "technique:tq_b9ec222dca": {
    "points": 1,
    "uses": 8
+  },
+  "technique:tq_ba0f8d3ab2": {
+   "uses": 5
   },
   "technique:tq_bcb348360c": {
    "points": 1,
@@ -362,11 +465,23 @@
   "technique:tq_c0d9727758": {
    "uses": 2
   },
+  "technique:tq_c5369ffc75": {
+   "uses": 2
+  },
+  "technique:tq_c729164dc2": {
+   "uses": 1
+  },
+  "technique:tq_c8379326dd": {
+   "uses": 2
+  },
   "technique:tq_d177fe2e70": {
    "uses": 4
   },
   "technique:tq_d85d06728c": {
    "uses": 4
+  },
+  "technique:tq_da11a3fb83": {
+   "uses": 8
   },
   "technique:tq_de0d12bdd9": {
    "uses": 8
@@ -386,15 +501,24 @@
   "technique:tq_e4ca0daf98": {
    "uses": 3
   },
+  "technique:tq_e66dd35a08": {
+   "uses": 4
+  },
   "technique:tq_e739e73436": {
    "points": 1,
    "uses": 4
+  },
+  "technique:tq_e7bd9f4b43": {
+   "uses": 6
   },
   "technique:tq_e8364ef8f0": {
    "uses": 5
   },
   "technique:tq_eb00689759": {
    "uses": 5
+  },
+  "technique:tq_eb474cb8be": {
+   "uses": 4
   },
   "technique:tq_eba0989ebd": {
    "uses": 2
@@ -408,10 +532,16 @@
   "technique:tq_f24b88f366": {
    "uses": 3
   },
+  "technique:tq_f267ea87e7": {
+   "uses": 4
+  },
   "technique:tq_f6a8c95265": {
    "uses": 4
   },
   "technique:tq_fb388d70cc": {
+   "uses": 6
+  },
+  "technique:tq_fc40bd9697": {
    "uses": 6
   },
   "technique:tq_fd9a0ec542": {
@@ -419,6 +549,6 @@
   }
  },
  "schema": "stu.statistics",
- "updated": "2026-11-15T03:21:24",
+ "updated": "2026-11-15T03:25:08",
  "version": 1
 }
