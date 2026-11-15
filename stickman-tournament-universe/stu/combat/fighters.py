@@ -35,7 +35,12 @@ def choose_costume(theme, rng):
         parts.append(rng.choice(heads))
     lo, hi = rules.get("extras", (0, 1))
     k = min(len(others), rng.randint(lo, hi))
-    parts += rng.sample(others, k)
+    rare = {"peg_leg": 0.45, "hook_hand": 0.5, "parrot": 0.5}
+    pool2 = list(others)
+    for _ in range(k):
+        pick = rng.weighted(pool2, [rare.get(c, 1.0) for c in pool2])
+        parts.append(pick)
+        pool2.remove(pick)
     return parts
 STANCES = ["orthodox", "southpaw", "low", "upright"]
 SUFFIXES = ["tar", "ax", "ix", "ion", "ara", "eth", "yx", "os", "ra", "en", "is", "or", "ka", "us", "ia", "ex"]
