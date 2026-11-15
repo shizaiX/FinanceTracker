@@ -162,9 +162,9 @@ class Hud:
         top = self.H * SAFE_TOP + u(40)
         x = u(56) if side == 0 else self.W - u(56)
         al = "left" if side == 0 else "right"
-        y = top + u(196)
+        y = top + u(214)
         if tier == "ultimate":
-            text(cr, "ULTIMATE", x, y - u(30), u(20), (1, 0.85, 0.4), al, a, heavy=False, tracking=0.2)
+            text(cr, "ULTIMATE", x, y - u(27), u(19), (1, 0.85, 0.4), al, a, heavy=False, tracking=0.2)
         text(cr, name, x, y, u(30 if tier != "ultimate" else 34), color, al, a, outline=0.18, max_width=u(440))
 
     def discovery(self, cr, name, owner, color, age, dur, slot=0):
