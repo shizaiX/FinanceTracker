@@ -13,10 +13,15 @@ import cairo
 from ..animation.rig import HEAD_R, J
 from ..core.mathutil import clamp, hex_to_rgb, lerp, mix, smoothstep
 from ..core.rng import stable_noise
+from .arena_art import ArenaArt
 from .hud import Hud
+from ..themes.packs import WEAPONS, weapon_class
+from . import costume as COS
 from .vfx import EffectSystem, bolt_points, draw_bolt
+from .weapons import draw_energy_blade, draw_weapon, weapon_tip
 
 HALF = 7.2
+PHYSICAL_PROJ = {"bullet", "cannonball", "bomb", "bottle", "knife", "shuriken", "harpoon", "arrow"}
 
 
 def rgbs(cols):
@@ -55,33 +60,7 @@ class SceneRenderer:
     # ------------------------------------------------------------- static art
     def _build_static(self):
         W, H = self.W, self.H
-        ar = self.arena
-        self.sky = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
-        cr = cairo.Context(self.sky)
-        top, hor = hex_to_rgb(ar["sky"][0]), hex_to_rgb(ar["sky"][1])
-        g = cairo.LinearGradient(0, 0, 0, H * 0.75)
-        g.add_color_stop_rgb(0, *top)
-        g.add_color_stop_rgb(1, *hor)
-        cr.set_source(g)
-        cr.paint()
-        acc = hex_to_rgb(ar["accent"])
-        # celestial body
-        cx, cy, r = W * 0.74, H * 0.19, W * 0.085
-        g = cairo.RadialGradient(cx, cy, 0, cx, cy, r * 3.2)
-        g.add_color_stop_rgba(0, *mix(acc, (1, 1, 1), 0.6), 0.55)
-        g.add_color_stop_rgba(0.3, *acc, 0.18)
-        g.add_color_stop_rgba(1, *acc, 0)
-        cr.set_source(g)
-        cr.paint()
-        cr.arc(cx, cy, r, 0, 2 * math.pi)
-        cr.set_source_rgba(*mix(acc, (1, 1, 1), 0.55), 0.55)
-        cr.fill()
-        rr = random.Random(ar["name"])
-        for _ in range(120):
-            x, y = rr.uniform(0, W), rr.uniform(0, H * 0.55)
-            cr.arc(x, y, rr.uniform(0.6, 2.2), 0, 2 * math.pi)
-            cr.set_source_rgba(1, 1, 1, rr.uniform(0.15, 0.6))
-            cr.fill()
+        self.art = ArenaArt(self.arena, W, H)
         self.vignette = cairo.ImageSurface(cairo.FORMAT_ARGB32, W, H)
         cr = cairo.Context(self.vignette)
         g = cairo.RadialGradient(W / 2, H * 0.48, W * 0.35, W / 2, H * 0.48, H * 0.75)
@@ -89,155 +68,12 @@ class SceneRenderer:
         g.add_color_stop_rgba(1, 0, 0, 0, 0.62)
         cr.set_source(g)
         cr.paint()
-        # silhouette layers (world-space polylines)
-        rr = random.Random(ar["name"] + "layers")
-        self.far = [(x, 2.0 + 3.5 * abs(stable_noise(5, x * 0.18)) + 1.5 * stable_noise(9, x * 0.6)) for x in [i * 0.7 - 40 for i in range(115)]]
-        self.props = []
-        kind = ar.get("props", "spires")
-        x = -34.0
-        while x < 34:
-            x += rr.uniform(2.5, 5.5)
-            self.props.append((x, rr.uniform(0.7, 1.4), rr.randrange(1 << 20)))
-        self.prop_kind = kind
-
-    def _layer(self, cr, cam, p, scale):
-        z = cam.zoom * scale
-        cr.translate(self.W / 2, self.H / 2 + cam.cy * cam.zoom)
-        cr.scale(z, -z)
-        cr.translate(-cam.cx * p, 0)
 
     def draw_background(self, cr, cam, s):
-        ar = self.arena
-        cr.set_source_surface(self.sky, 0, -cam.cy * 8 + 10)
-        cr.paint()
-        far_c = hex_to_rgb(ar["far"])
-        mid_c = hex_to_rgb(ar["mid"])
-        acc = hex_to_rgb(ar["accent"])
-        cr.save()
-        self._layer(cr, cam, 0.12, 0.42)
-        cr.move_to(self.far[0][0], -2)
-        for x, y in self.far:
-            cr.line_to(x, max(0.5, y))
-        cr.line_to(self.far[-1][0], -2)
-        cr.close_path()
-        cr.set_source_rgb(*far_c)
-        cr.fill()
-        cr.restore()
-        # fog band
-        gy = self.H / 2 + cam.cy * cam.zoom
-        g = cairo.LinearGradient(0, gy - cam.zoom * 2.2, 0, gy)
-        g.add_color_stop_rgba(0, *acc, 0)
-        g.add_color_stop_rgba(1, *mix(acc, far_c, 0.5), 0.22)
-        cr.set_source(g)
-        cr.rectangle(0, gy - cam.zoom * 2.2, self.W, cam.zoom * 2.2)
-        cr.fill()
-        cr.save()
-        self._layer(cr, cam, 0.45, 0.7)
-        for (x, sc, seed) in self.props:
-            if abs(x - cam.cx * 0.45) > 14:
-                continue
-            self._prop(cr, x, sc, seed, mid_c, acc)
-        cr.restore()
+        self.art.draw_background(cr, cam, s)
 
-    def _prop(self, cr, x, sc, seed, col, acc):
-        r = random.Random(seed)
-        k = self.prop_kind
-        cr.set_source_rgb(*col)
-        if k in ("spires", "peaks", "crystals", "monoliths", "columns", "arches", "trees", "dunes"):
-            pass
-        if k == "spires" or k == "peaks":
-            h = 4.5 * sc
-            cr.move_to(x - 0.9 * sc, 0)
-            cr.line_to(x - 0.1, h)
-            cr.line_to(x + 0.25, h * 0.85)
-            cr.line_to(x + 0.9 * sc, 0)
-            cr.close_path()
-            cr.fill()
-        elif k == "crystals":
-            for j in range(3):
-                h = r.uniform(2, 4.5) * sc
-                ox = r.uniform(-0.8, 0.8)
-                cr.move_to(x + ox - 0.35, 0)
-                cr.line_to(x + ox, h)
-                cr.line_to(x + ox + 0.35, 0)
-                cr.close_path()
-                cr.set_source_rgba(*mix(col, acc, 0.25), 0.95)
-                cr.fill()
-        elif k == "trees":
-            cr.rectangle(x - 0.12, 0, 0.24, 2.6 * sc)
-            cr.fill()
-            for j in range(4):
-                cr.arc(x + r.uniform(-0.8, 0.8), 2.6 * sc + r.uniform(0, 1.2), r.uniform(0.7, 1.2) * sc, 0, 2 * math.pi)
-                cr.fill()
-        elif k == "arches":
-            h, w = 4.0 * sc, 1.6 * sc
-            cr.rectangle(x - w, 0, 0.3, h)
-            cr.rectangle(x + w - 0.3, 0, 0.3, h)
-            cr.rectangle(x - w - 0.5, h, 2 * w + 1.0, 0.35)
-            cr.rectangle(x - w - 0.2, h - 0.8, 2 * w + 0.4, 0.2)
-            cr.fill()
-        elif k == "columns":
-            h = 4.2 * sc
-            cr.rectangle(x - 0.3, 0, 0.6, h)
-            cr.rectangle(x - 0.5, h, 1.0, 0.3)
-            cr.fill()
-        elif k == "dunes":
-            cr.move_to(x - 3, 0)
-            cr.curve_to(x - 1.5, 1.6 * sc, x + 0.5, 1.8 * sc, x + 3, 0)
-            cr.close_path()
-            cr.fill()
-        else:  # monoliths
-            h = r.uniform(2.5, 5) * sc
-            cr.move_to(x - 0.5, 0)
-            cr.line_to(x - 0.4, h)
-            cr.line_to(x + 0.45, h * 0.95)
-            cr.line_to(x + 0.5, 0)
-            cr.close_path()
-            cr.fill()
-            cr.set_source_rgba(*acc, 0.35)
-            cr.rectangle(x - 0.05, h * 0.3, 0.1, h * 0.4)
-            cr.fill()
-
-    def draw_ground(self, cr, cam):
-        ar = self.arena
-        gcol = hex_to_rgb(ar["ground"])
-        acc = hex_to_rgb(ar["accent"])
-        x0, x1 = cam.cx - 12, cam.cx + 12
-        g = cairo.LinearGradient(0, 0, 0, -6)
-        g.add_color_stop_rgb(0, *mix(gcol, acc, 0.12))
-        g.add_color_stop_rgb(1, *mix(gcol, (0, 0, 0), 0.5))
-        cr.set_source(g)
-        cr.rectangle(x0, -8, x1 - x0, 8)
-        cr.fill()
-        # perspective floor lines (motion reference)
-        cr.set_line_width(0.02)
-        start = math.floor(x0)
-        for i in range(int(x1 - x0) + 2):
-            x = start + i
-            a = 0.10 if x % 2 else 0.18
-            cr.set_source_rgba(*acc, a)
-            cr.move_to(x, 0)
-            cr.line_to(cam.cx + (x - cam.cx) * 2.4, -5)
-            cr.stroke()
-        for d, a in ((-0.35, 0.12), (-0.9, 0.08), (-1.8, 0.05)):
-            cr.set_source_rgba(*acc, a)
-            cr.move_to(x0, d)
-            cr.line_to(x1, d)
-            cr.stroke()
-        cr.set_source_rgba(*mix(acc, (1, 1, 1), 0.3), 0.55)
-        cr.set_line_width(0.035)
-        cr.move_to(x0, 0)
-        cr.line_to(x1, 0)
-        cr.stroke()
-        # arena boundary posts
-        for side in (-1, 1):
-            x = side * HALF
-            g = cairo.LinearGradient(0, 0, 0, 3.2)
-            g.add_color_stop_rgba(0, *acc, 0.55)
-            g.add_color_stop_rgba(1, *acc, 0.0)
-            cr.set_source(g)
-            cr.rectangle(x - 0.06 if side < 0 else x - 0.06, 0, 0.12, 3.2)
-            cr.fill()
+    def draw_ground(self, cr, cam, s=0.0):
+        self.art.draw_ground(cr, cam, s)
 
     # ------------------------------------------------------------ sampling
     def _idx(self, s):
@@ -291,7 +127,8 @@ class SceneRenderer:
         cr.fill() if head_fill else cr.stroke()
 
     def draw_fighter(self, cr, side, s, fd, cam):
-        x, y, facing, joints, kind, flags, aura, weapon, tech_ab, phase, vx = fd
+        x, y, facing, joints, kind, flags, aura, weapon, tech_ab, phase, vx = fd[:11]
+        limb = fd[11] if len(fd) > 11 else ""
         if flags & 64:
             return
         P = self._pts(joints)
@@ -351,25 +188,52 @@ class SceneRenderer:
                         cr.line_to(*pts[k + 1])
                         cr.stroke()
         back = mix(col, (0.05, 0.05, 0.08), 0.38)
+        parts = spec.get("costume") or [spec.get("accessory", "headband")]
+
+        def hist(jn, k):
+            g = self.fighter_at(s - 0.02 * k, side)
+            return g[3][2 * J[jn]], g[3][2 * J[jn] + 1]
+        front_w, back_w, energy = weapon if isinstance(weapon, (tuple, list)) and len(weapon) == 3 else (None, None, None)
+        glow = ab_cols[0][1] if (tech_ab and ab_cols and kind == "technique" and phase in ("antic", "active")) else None
+        COS.draw_back(cr, parts, P, facing, s, col, sec, hist)
+        if back_w:
+            draw_weapon(cr, back_w, P[J["hand_b"]], P[J["elbow_b"]], facing, None, s)
         # glow + outline + core
         self._stroke_body(cr, P, col, col, 0.24, 0.13)
         self._stroke_body(cr, P, (0.02, 0.02, 0.04), (0.02, 0.02, 0.04), 0.115, 0.85)
         core = (1, 1, 1) if flash else mix(col, (1, 1, 1), 0.12)
         self._stroke_body(cr, P, core, (1, 1, 1) if flash else back, 0.075, 1.0)
-        self._accessory(cr, side, s, P, facing, col, sec)
+        COS.draw_limb_overrides(cr, parts, P, facing, col)
         # eye
         hx, hy = P[J["head"]]
         cx, cy = P[J["chest"]]
         ang = math.atan2(hy - cy, hx - cx)
         ex = hx + math.cos(ang - facing * 1.25) * HEAD_R * 0.45
         ey = hy + math.sin(ang - facing * 1.25) * HEAD_R * 0.45
-        cr.set_source_rgba(0.03, 0.03, 0.06, 0.95)
-        cr.set_line_width(0.035)
-        cr.move_to(ex - math.cos(ang - facing * 1.57) * 0.03, ey - math.sin(ang - facing * 1.57) * 0.03)
-        cr.line_to(ex + math.cos(ang - facing * 1.57) * 0.045, ey + math.sin(ang - facing * 1.57) * 0.045)
-        cr.stroke()
-        if flags & 512 and weapon:
-            self._weapon(cr, side, s, P, weapon, kind == "technique" and phase in ("active",))
+        if "eyepatch" not in parts and "ninja_mask" not in parts and "knight_helm" not in parts:
+            cr.set_source_rgba(0.03, 0.03, 0.06, 0.95)
+            cr.set_line_width(0.035)
+            cr.move_to(ex - math.cos(ang - facing * 1.57) * 0.03, ey - math.sin(ang - facing * 1.57) * 0.03)
+            cr.line_to(ex + math.cos(ang - facing * 1.57) * 0.045, ey + math.sin(ang - facing * 1.57) * 0.045)
+            cr.stroke()
+        COS.draw_front(cr, parts, P, facing, s, col, sec, hist)
+        # weapons in hand
+        active = kind == "technique" and phase == "active"
+        if front_w:
+            if active and self.blur and weapon_class(front_w) in ("blade", "polearm", "blunt", "claws", "staff"):
+                self._weapon_trail(cr, side, s, front_w, ab_cols[0] if (tech_ab and ab_cols) else None)
+            draw_weapon(cr, front_w, P[J["hand_f"]], P[J["elbow_f"]], facing, glow, s)
+            if weapon_class(front_w) == "fist":
+                draw_weapon(cr, front_w, P[J["hand_b"]], P[J["elbow_b"]], facing, glow, s)
+        if energy:
+            ecols = [rgbs(self.abilities[a]["colors"]) for a in energy if a in self.abilities]
+            if ecols:
+                if active and self.blur:
+                    self._weapon_trail(cr, side, s, None, ecols[0])
+                draw_energy_blade(cr, P[J["hand_f"]], P[J["elbow_f"]], facing, ecols[0])
+        # elemental / power infusion on the striking limb (fire fists, frost kicks, breath)
+        if glow is not None and limb in ("hand_f", "hand_b", "foot_f", "foot_b", "head") and not (front_w and limb == "hand_f"):
+            self._infused_limb(cr, side, s, P, limb, ab_cols, tech_ab, phase, facing)
         if kind == "technique" and phase == "antic" and tech_ab and ab_cols:
             hx2, hy2 = P[J["hand_f"]]
             r = 0.13 + 0.03 * math.sin(s * 40)
@@ -401,6 +265,80 @@ class SceneRenderer:
                 sx, sy = hx + math.cos(a) * 0.28, hy + 0.25 + math.sin(a) * 0.08
                 self._star(cr, sx, sy, 0.06, (1, 0.95, 0.4))
 
+    def _weapon_trail(self, cr, side, s, key, cols):
+        pts = []
+        for k in range(7):
+            g = self.fighter_at(s - 0.014 * k, side)
+            q = self._pts(g[3])
+            h, e = q[J["hand_f"]], q[J["elbow_f"]]
+            tip = weapon_tip(key or "katana", h, e)
+            mid_ = (h[0] + (tip[0] - h[0]) * 0.35, h[1] + (tip[1] - h[1]) * 0.35)
+            pts.append((tip, mid_))
+        L = sum(math.hypot(pts[k][0][0] - pts[k + 1][0][0], pts[k][0][1] - pts[k + 1][0][1]) for k in range(6))
+        if L < 0.3:
+            return
+        cr.move_to(*pts[0][0])
+        for p in pts[1:]:
+            cr.line_to(*p[0])
+        for p in reversed(pts):
+            cr.line_to(*p[1])
+        cr.close_path()
+        c1 = cols[1] if cols else (1, 1, 1)
+        c2 = cols[2] if cols else (0.7, 0.8, 1)
+        g = cairo.LinearGradient(pts[0][0][0], pts[0][0][1], pts[-1][0][0], pts[-1][0][1])
+        g.add_color_stop_rgba(0, *c1, 0.6)
+        g.add_color_stop_rgba(1, *c2, 0.0)
+        cr.set_source(g)
+        cr.fill()
+
+    def _infused_limb(self, cr, side, s, P, limb, ab_cols, tech_ab, phase, facing):
+        lx, ly = P[J[limb]]
+        if limb == "head":  # breath leaves the mouth
+            cx, cy = P[J["chest"]]
+            lx, ly = lx + facing * 0.15, ly - 0.03
+        c = ab_cols[0]
+        c2 = ab_cols[-1]
+        style = self.abilities[tech_ab[0]]["particle"] if tech_ab and tech_ab[0] in self.abilities else "spark"
+        strength = 1.0 if phase == "active" else 0.6
+        r = (0.16 if limb != "head" else 0.2) * strength
+        g = cairo.RadialGradient(lx, ly, 0, lx, ly, r * 2.2)
+        g.add_color_stop_rgba(0, 1, 1, 1, 0.95 * strength)
+        g.add_color_stop_rgba(0.35, *c[1], 0.75 * strength)
+        g.add_color_stop_rgba(1, *c2[2], 0)
+        cr.set_source(g)
+        cr.arc(lx, ly, r * 2.2, 0, 2 * math.pi)
+        cr.fill()
+        trail = []
+        for k in range(1, 7):
+            g2 = self.fighter_at(s - 0.016 * k, side)
+            trail.append((g2[3][2 * J[limb]], g2[3][2 * J[limb] + 1]))
+        for k, (px, py) in enumerate(trail):
+            fade = (1 - k / 7) * strength
+            jit = stable_noise(side * 31 + k, s * 12) * 0.05
+            col = (c if k % 2 == 0 else c2)[1]
+            if style in ("flame", "ember"):
+                cr.set_source_rgba(*mix(col, (1, 0.95, 0.6), 0.3), 0.7 * fade)
+                cr.arc(px + jit, py + 0.04 * k, 0.09 * fade + 0.02, 0, 2 * math.pi)
+                cr.fill()
+            elif style in ("spark", "ray"):
+                draw_bolt(cr, lx, ly, px + jit * 3, py - jit * 3, c, side * 97 + k + int(s * 40), 0.6 * fade, 0.025)
+            elif style in ("shard", "frost", "metal"):
+                cr.save()
+                cr.translate(px, py)
+                cr.rotate(k + s * 6)
+                cr.move_to(0, 0.06 * fade + 0.02)
+                cr.line_to(0.03, 0)
+                cr.line_to(0, -0.06 * fade - 0.02)
+                cr.line_to(-0.03, 0)
+                cr.close_path()
+                cr.set_source_rgba(*mix(col, (1, 1, 1), 0.3), 0.85 * fade)
+                cr.fill()
+                cr.restore()
+            else:
+                cr.set_source_rgba(*col, 0.6 * fade)
+                cr.arc(px + jit, py, 0.07 * fade + 0.015, 0, 2 * math.pi)
+                cr.fill()
+
     def _star(self, cr, x, y, r, col):
         cr.move_to(x + r, y)
         for k in range(1, 10):
@@ -417,155 +355,6 @@ class SceneRenderer:
             g = self.fighter_at(s - step * k, side)
             out.append((g[3][2 * J[joint]], g[3][2 * J[joint] + 1]))
         return out
-
-    def _accessory(self, cr, side, s, P, facing, col, sec):
-        kind = self.fighters[side].get("accessory", "headband")
-        hx, hy = P[J["head"]]
-        cr.set_line_cap(cairo.LINE_CAP_ROUND)
-        if kind in ("headband", "scarf", "ponytail"):
-            anchor_joint = "head" if kind != "scarf" else "chest"
-            trail = self._trail(s, side, anchor_joint, 7, 0.022)
-            ax, ay = P[J[anchor_joint]]
-            if kind == "scarf":
-                ay += 0.1
-            off_y = 0.04 if kind == "headband" else (0.09 if kind == "ponytail" else 0.0)
-            pts = [(ax - facing * 0.11, ay + off_y)]
-            for k in range(1, 7):
-                tx, ty = trail[k]
-                px = ax - facing * (0.11 + 0.075 * k) + (tx - trail[0][0]) * 0.55
-                py = ay + off_y + (ty - trail[0][1]) * 0.55 - 0.018 * k * k * 0.5 + 0.02 * math.sin(s * 9 + k)
-                pts.append((px, py))
-            for k in range(len(pts) - 1):
-                cr.set_line_width((0.07 if kind == "scarf" else 0.05) * (1 - k / 8))
-                cr.set_source_rgba(*sec, 0.95)
-                cr.move_to(*pts[k])
-                cr.line_to(*pts[k + 1])
-                cr.stroke()
-            if kind == "headband":
-                cr.set_source_rgba(*sec, 1)
-                cr.set_line_width(0.045)
-                cr.arc(hx, hy, HEAD_R + 0.005, math.pi * 0.05, math.pi * 0.95) if False else None
-                cr.move_to(hx - HEAD_R, hy + 0.04)
-                cr.line_to(hx + HEAD_R, hy + 0.04)
-                cr.stroke()
-        elif kind == "spikes":
-            for k in range(3):
-                a = math.pi / 2 + facing * (0.5 + 0.45 * k)
-                bx, by = hx + math.cos(a) * HEAD_R, hy + math.sin(a) * HEAD_R
-                tx, ty = hx + math.cos(a) * (HEAD_R + 0.13), hy + math.sin(a) * (HEAD_R + 0.13)
-                cr.move_to(bx + math.cos(a + 1.57) * 0.05, by + math.sin(a + 1.57) * 0.05)
-                cr.line_to(tx, ty)
-                cr.line_to(bx - math.cos(a + 1.57) * 0.05, by - math.sin(a + 1.57) * 0.05)
-                cr.close_path()
-                cr.set_source_rgba(*sec, 1)
-                cr.fill()
-        elif kind == "horns":
-            for d in (-1, 1):
-                cr.set_source_rgba(*sec, 1)
-                cr.set_line_width(0.035)
-                cr.move_to(hx + d * 0.07, hy + 0.1)
-                cr.curve_to(hx + d * 0.12, hy + 0.2, hx + d * 0.2, hy + 0.22, hx + d * 0.22, hy + 0.3)
-                cr.stroke()
-        elif kind == "halo":
-            cr.save()
-            cr.translate(hx, hy + HEAD_R + 0.1)
-            cr.scale(1, 0.3)
-            cr.arc(0, 0, 0.14, 0, 2 * math.pi)
-            cr.restore()
-            cr.set_source_rgba(*mix(sec, (1, 1, 0.8), 0.5), 0.9)
-            cr.set_line_width(0.03)
-            cr.stroke()
-        elif kind == "visor":
-            cr.set_source_rgba(*mix(sec, (1, 1, 1), 0.4), 1)
-            cr.set_line_width(0.05)
-            cr.move_to(hx - facing * 0.02, hy + 0.02)
-            cr.line_to(hx + facing * HEAD_R * 1.05, hy + 0.025)
-            cr.stroke()
-        elif kind == "topknot":
-            cr.arc(hx - facing * 0.04, hy + HEAD_R + 0.05, 0.06, 0, 2 * math.pi)
-            cr.set_source_rgba(*sec, 1)
-            cr.fill()
-
-    def _weapon(self, cr, side, s, P, ab_ids, active):
-        hx, hy = P[J["hand_f"]]
-        ex, ey = P[J["elbow_f"]]
-        dx, dy = hx - ex, hy - ey
-        n = math.hypot(dx, dy) or 1
-        dx, dy = dx / n, dy / n
-        ab = self.abilities.get(ab_ids[0]) if ab_ids else None
-        wtype = (ab or {}).get("weapon") or "energy"
-        cols = rgbs(ab["colors"]) if ab else [(1, 1, 1)] * 3
-        L = {"blade": 1.0, "spear": 1.35, "hammer": 0.95}.get(wtype, 0.95)
-        tx, ty = hx + dx * L, hy + dy * L
-        if active and self.blur:
-            pts = []
-            for k in range(7):
-                g = self.fighter_at(s - 0.014 * k, side)
-                q = self._pts(g[3])
-                ax, ay = q[J["hand_f"]]
-                bx, by = q[J["elbow_f"]]
-                ddx, ddy = ax - bx, ay - by
-                nn = math.hypot(ddx, ddy) or 1
-                pts.append((ax + ddx / nn * L, ay + ddy / nn * L, ax + ddx / nn * L * 0.35, ay + ddy / nn * L * 0.35))
-            cr.move_to(pts[0][0], pts[0][1])
-            for p in pts[1:]:
-                cr.line_to(p[0], p[1])
-            for p in reversed(pts):
-                cr.line_to(p[2], p[3])
-            cr.close_path()
-            g = cairo.LinearGradient(pts[0][0], pts[0][1], pts[-1][0], pts[-1][1])
-            g.add_color_stop_rgba(0, *cols[1], 0.55)
-            g.add_color_stop_rgba(1, *cols[2], 0.0)
-            cr.set_source(g)
-            cr.fill()
-        if wtype == "energy":
-            for w, c, a in ((0.22, cols[2], 0.3), (0.11, cols[1], 0.75), (0.045, cols[0], 1.0)):
-                cr.set_line_width(w)
-                cr.set_source_rgba(*c, a)
-                cr.move_to(hx, hy)
-                cr.line_to(tx, ty)
-                cr.stroke()
-            return
-        cr.set_line_cap(cairo.LINE_CAP_ROUND)
-        cr.set_source_rgba(0.02, 0.02, 0.04, 0.9)
-        cr.set_line_width(0.075)
-        cr.move_to(hx - dx * 0.15, hy - dy * 0.15)
-        cr.line_to(tx, ty)
-        cr.stroke()
-        cr.set_source_rgba(*cols[1], 1)
-        cr.set_line_width(0.04)
-        cr.move_to(hx - dx * 0.15, hy - dy * 0.15)
-        cr.line_to(tx, ty)
-        cr.stroke()
-        if wtype == "blade":
-            cr.set_source_rgba(*cols[0], 1)
-            cr.set_line_width(0.05)
-            cr.move_to(hx + dx * 0.12, hy + dy * 0.12)
-            cr.line_to(tx, ty)
-            cr.stroke()
-            cr.set_line_width(0.05)
-            cr.set_source_rgba(*cols[2], 1)
-            cr.move_to(hx + dx * 0.1 - dy * 0.1, hy + dy * 0.1 + dx * 0.1)
-            cr.line_to(hx + dx * 0.1 + dy * 0.1, hy + dy * 0.1 - dx * 0.1)
-            cr.stroke()
-        elif wtype == "spear":
-            cr.move_to(tx + dx * 0.22, ty + dy * 0.22)
-            cr.line_to(tx - dy * 0.07, ty + dx * 0.07)
-            cr.line_to(tx + dy * 0.07, ty - dx * 0.07)
-            cr.close_path()
-            cr.set_source_rgba(*cols[0], 1)
-            cr.fill()
-        elif wtype == "hammer":
-            cr.save()
-            cr.translate(tx, ty)
-            cr.rotate(math.atan2(dy, dx))
-            cr.rectangle(-0.12, -0.2, 0.24, 0.4)
-            cr.set_source_rgba(*cols[2], 1)
-            cr.fill_preserve()
-            cr.set_source_rgba(*cols[0], 1)
-            cr.set_line_width(0.025)
-            cr.stroke()
-            cr.restore()
 
     # ------------------------------------------------------------ entities
     def draw_zones(self, cr, fr, s):
@@ -619,6 +408,15 @@ class SceneRenderer:
                     cr.move_to(px, 0)
                     cr.curve_to(px + 0.1, 0.25, px + 0.25, 0.05 + 0.05 * math.sin(s * 2 + k), px + 0.32, 0.18)
                     cr.stroke()
+            elif kind == "toxic":
+                cr.set_source_rgba(*cols[1], 0.45 * a)
+                cr.rectangle(x0, -0.06, x1 - x0, 0.08)
+                cr.fill()
+                for k in range(int((x1 - x0) / 0.3)):
+                    ph = (s * 0.8 + k * 0.37) % 1.0
+                    cr.arc(x0 + 0.15 + k * 0.3, 0.05 + ph * 0.35, 0.04 * (1 - ph) + 0.01, 0, 2 * math.pi)
+                    cr.set_source_rgba(*cols[0], 0.7 * a * (1 - ph))
+                    cr.fill()
             elif kind in ("shadow", "well"):
                 cr.save()
                 cx = (x0 + x1) / 2
@@ -648,6 +446,17 @@ class SceneRenderer:
     def draw_env(self, cr, fr, s):
         for (eid, x, h, r, form, state, ab, et) in fr["e"]:
             cols = rgbs(self.abilities[ab[0]]["colors"]) if ab and ab[0] in self.abilities else [(1, 1, 1), (0.8, 0.7, 0.5), (0.4, 0.3, 0.2)]
+            if state == "warn" and form == "cannon_rain":
+                for k, ox in enumerate((-r * 0.8, 0.0, r * 0.8)):
+                    by = max(0.15, 10.0 - (et - 0.06 * k) * 22.0)
+                    cr.arc(x + ox, by, 0.18, 0, 2 * math.pi)
+                    cr.set_source_rgba(0.08, 0.08, 0.1, 1)
+                    cr.fill()
+                    cr.move_to(x + ox, by + 0.2)
+                    cr.line_to(x + ox, by + 1.2)
+                    cr.set_source_rgba(0.7, 0.7, 0.72, 0.35)
+                    cr.set_line_width(0.12)
+                    cr.stroke()
             if state == "warn":
                 pulse = 0.5 + 0.5 * math.sin(s * 30)
                 cr.save()
@@ -739,6 +548,23 @@ class SceneRenderer:
                     cr.move_to(x + k * w * 0.6, 0.1)
                     cr.curve_to(x + k * w * 0.6, h * 0.5, x + k * 0.2, h * 0.85, x - k * 0.05, h)
                     cr.stroke()
+            elif form == "cannon_rain":
+                pass
+            elif form == "tentacles":
+                for k, (ox, sc_) in enumerate(((-w * 0.7, 0.8), (0.0, 1.0), (w * 0.7, 0.75))):
+                    wig = 0.25 * math.sin(s * 5 + k * 2)
+                    pts = [(x + ox + wig * (j / 6) ** 2 * (1 if k % 2 else -1) + 0.3 * math.sin(j * 0.9 + s * 4 + k) * (j / 6),
+                            h * sc_ * j / 6) for j in range(7)]
+                    for j in range(6):
+                        cr.move_to(*pts[j])
+                        cr.line_to(*pts[j + 1])
+                        cr.set_source_rgba(*mix(cols[2], (0.3, 0.1, 0.3), 0.4), 1)
+                        cr.set_line_width(0.24 * (1 - j / 7) + 0.03)
+                        cr.stroke()
+                    for j in range(1, 6):
+                        cr.arc(pts[j][0] + 0.06 * (1 if k % 2 else -1), pts[j][1], 0.03, 0, 2 * math.pi)
+                        cr.set_source_rgba(1, 0.85, 0.85, 0.8)
+                        cr.fill()
             elif form == "light_pillar":
                 g = cairo.LinearGradient(x - w, 0, x + w, 0)
                 g.add_color_stop_rgba(0, *cols[2], 0)
@@ -772,15 +598,32 @@ class SceneRenderer:
             spd = math.hypot(vx, vy) or 1
             ux, uy = vx / spd, vy / spd
             ang = math.atan2(vy, vx)
-            # glow
-            g = cairo.RadialGradient(x, y, 0, x, y, r * 3.4)
-            g.add_color_stop_rgba(0, *c[1], 0.55)
-            g.add_color_stop_rgba(1, *c2[2], 0)
-            cr.set_source(g)
-            cr.arc(x, y, r * 3.4, 0, 2 * math.pi)
-            cr.fill()
-            # trail
-            for k in range(1, 7):
+            physical = style in PHYSICAL_PROJ
+            if physical:
+                # smoke / motion streak instead of an energy glow
+                tl = {"bullet": 1.6, "knife": 0.5, "shuriken": 0.4, "harpoon": 0.6}.get(style, 0.9)
+                g = cairo.LinearGradient(x, y, x - ux * tl, y - uy * tl)
+                sc_ = (1, 0.9, 0.6) if style == "bullet" else (0.75, 0.75, 0.78)
+                g.add_color_stop_rgba(0, *sc_, 0.75)
+                g.add_color_stop_rgba(1, *sc_, 0)
+                cr.set_source(g)
+                cr.set_line_width(0.05 if style == "bullet" else 0.09)
+                cr.move_to(x, y)
+                cr.line_to(x - ux * tl, y - uy * tl)
+                cr.stroke()
+                if style in ("bomb", "cannonball", "bottle"):
+                    for k in range(1, 6):
+                        cr.arc(x - ux * k * 0.22, y - uy * k * 0.22 + 0.02 * k, 0.05 + 0.03 * k, 0, 2 * math.pi)
+                        cr.set_source_rgba(0.6, 0.58, 0.55, 0.3 * (1 - k / 6))
+                        cr.fill()
+            else:
+                g = cairo.RadialGradient(x, y, 0, x, y, r * 3.4)
+                g.add_color_stop_rgba(0, *c[1], 0.55)
+                g.add_color_stop_rgba(1, *c2[2], 0)
+                cr.set_source(g)
+                cr.arc(x, y, r * 3.4, 0, 2 * math.pi)
+                cr.fill()
+            for k in (range(1, 7) if not physical else ()):
                 tx, ty = x - ux * k * r * 0.9, y - uy * k * r * 0.9
                 cr.set_source_rgba(*(c2[1] if k % 2 else c[1]), 0.5 * (1 - k / 7))
                 cr.arc(tx, ty, r * (1 - k / 8), 0, 2 * math.pi)
@@ -852,6 +695,66 @@ class SceneRenderer:
                 cr.arc(0, 0, r * 1.4, 0, 2 * math.pi)
                 cr.set_source_rgba(*c[1], 1)
                 cr.fill()
+            elif style == "bullet":
+                cr.set_source_rgba(1, 0.95, 0.75, 1)
+                cr.arc(0, 0, 0.05, 0, 2 * math.pi)
+                cr.fill()
+            elif style == "cannonball":
+                cr.rotate(-ang)
+                cr.arc(0, 0, 0.2, 0, 2 * math.pi)
+                cr.set_source_rgba(0.1, 0.1, 0.12, 1)
+                cr.fill()
+                cr.arc(-0.06, 0.06, 0.06, 0, 2 * math.pi)
+                cr.set_source_rgba(0.5, 0.5, 0.55, 0.8)
+                cr.fill()
+            elif style == "bomb":
+                cr.rotate(-ang + s * 6)
+                cr.arc(0, 0, 0.17, 0, 2 * math.pi)
+                cr.set_source_rgba(0.08, 0.08, 0.1, 1)
+                cr.fill()
+                cr.rectangle(-0.05, 0.14, 0.1, 0.07)
+                cr.set_source_rgba(0.4, 0.4, 0.42, 1)
+                cr.fill()
+                fl = 0.5 + 0.5 * math.sin(s * 50)
+                cr.arc(0.04, 0.27, 0.04 + 0.03 * fl, 0, 2 * math.pi)
+                cr.set_source_rgba(1, 0.8 * fl + 0.2, 0.2, 1)
+                cr.fill()
+            elif style == "bottle":
+                cr.rotate(s * 12)
+                cr.rectangle(-0.1, -0.06, 0.16, 0.12)
+                cr.set_source_rgba(0.35, 0.55, 0.25, 0.95)
+                cr.fill()
+                cr.rectangle(0.06, -0.025, 0.08, 0.05)
+                cr.fill()
+                cr.arc(0.16, 0, 0.05 + 0.02 * math.sin(s * 40), 0, 2 * math.pi)
+                cr.set_source_rgba(1, 0.6, 0.15, 1)
+                cr.fill()
+            elif style in ("knife", "harpoon"):
+                if style == "knife":
+                    cr.rotate(s * 25)
+                L_ = 0.36 if style == "knife" else 0.9
+                cr.rectangle(-L_ * 0.4, -0.02, L_ * 0.4, 0.04)
+                cr.set_source_rgba(0.35, 0.22, 0.12, 1)
+                cr.fill()
+                cr.move_to(0, -0.035)
+                cr.line_to(L_ * 0.6, 0)
+                cr.line_to(0, 0.035)
+                cr.close_path()
+                cr.set_source_rgba(0.9, 0.93, 0.97, 1)
+                cr.fill()
+            elif style == "shuriken":
+                cr.rotate(s * 30)
+                for k in range(4):
+                    cr.rotate(math.pi / 2)
+                    cr.move_to(0.04, 0.04)
+                    cr.line_to(0.2, 0)
+                    cr.line_to(0.04, -0.04)
+                cr.close_path()
+                cr.set_source_rgba(0.75, 0.78, 0.84, 1)
+                cr.fill()
+                cr.arc(0, 0, 0.03, 0, 2 * math.pi)
+                cr.set_source_rgba(0.1, 0.1, 0.12, 1)
+                cr.fill()
             elif style == "ray" or style == "arrow":
                 cr.set_line_width(0.06 if style == "ray" else 0.035)
                 cr.set_source_rgba(*c[0], 1)
@@ -915,42 +818,7 @@ class SceneRenderer:
                 cr.fill()
 
     def ambient(self, cr, cam, s):
-        kind = self.arena.get("ambient", "motes")
-        acc = hex_to_rgb(self.arena["accent"])
-        rr = random.Random(7)
-        x0 = cam.cx - 7
-        for k in range(46):
-            bx = rr.uniform(0, 14)
-            by = rr.uniform(0, 8)
-            sp = rr.uniform(0.3, 1.0)
-            if kind in ("ember", "bubbles", "motes"):
-                y = (by + s * sp * 0.8) % 8
-                x = x0 + (bx + 0.3 * math.sin(s * sp + k)) % 14
-                col = acc
-            elif kind in ("snow",):
-                y = 8 - (by + s * sp * 0.7) % 8
-                x = x0 + (bx + 0.4 * math.sin(s * 0.7 * sp + k) + s * 0.2) % 14
-                col = (1, 1, 1)
-            elif kind == "rain":
-                y = 8 - (by + s * 9 * sp) % 8
-                x = x0 + (bx - s * 1.5) % 14
-                cr.set_source_rgba(0.7, 0.8, 1, 0.25)
-                cr.set_line_width(0.012)
-                cr.move_to(x, y)
-                cr.line_to(x + 0.05, y + 0.35)
-                cr.stroke()
-                continue
-            elif kind == "leaves":
-                y = 8 - (by + s * sp * 0.5) % 8
-                x = x0 + (bx + s * 0.4 * sp) % 14
-                col = acc
-            else:
-                y = by + 0.2 * math.sin(s * sp + k)
-                x = x0 + (bx + s * 0.3 * sp) % 14
-                col = acc
-            cr.set_source_rgba(*col, 0.25 + 0.35 * sp)
-            cr.arc(x, y, 0.02 + 0.025 * sp, 0, 2 * math.pi)
-            cr.fill()
+        self.art.ambient(cr, cam, s)
 
     # ------------------------------------------------------------ overlays
     def _events_between(self, s0, s1, types):
@@ -1027,7 +895,7 @@ class SceneRenderer:
         cr.translate(self.W / 2, self.H / 2)
         cr.scale(cam.zoom, -cam.zoom)
         cr.translate(-cam.cx, -cam.cy)
-        self.draw_ground(cr, cam)
+        self.draw_ground(cr, cam, s)
         self.fx.draw_back(cr, s)
         self.draw_zones(cr, a, s)
         self.draw_env(cr, a, s)

@@ -14,6 +14,10 @@ import time
 
 from ..persistence.library import stable_id
 from .combinations import combination_for
+from ..themes.packs import WEAPONS, weapon_class
+
+GRAVITY_STYLES = {"bomb": 9.0, "bottle": 10.0, "cannonball": 6.0}
+PROJ_SPEED = {"bullet": 26.0, "cannonball": 13.0, "knife": 15.0, "shuriken": 15.0, "harpoon": 16.0, "arrow": 18.0}
 
 # ---------------------------------------------------------------------------
 # Component catalogues
@@ -28,11 +32,11 @@ DELIVERIES = {
     "slam":          dict(kind="area", limb="hand", reach=1.5, height="low", startup=0.30, active=0.08, recovery=0.40, dmg=12, poise=18, kb=(3.5, 4.0), knockdown=True, radius=1.5, variants=1),
     "grapple":       dict(kind="grab", limb="hand", reach=0.85, height="mid", startup=0.12, active=0.08, recovery=0.40, dmg=12, poise=20, kb=(6.0, 5.0), unblockable=True, ground_only=True, knockdown=True, variants=1),
     "charge":        dict(kind="melee", limb="body", reach=0.7, height="mid", startup=0.20, active=0.38, recovery=0.34, dmg=11, poise=16, kb=(6.0, 2.5), travel=9.5, ground_only=True, variants=1),
-    "projectile":    dict(kind="projectile", limb="hand", reach=9.0, height="mid", startup=0.22, active=0.06, recovery=0.30, dmg=7, poise=10, kb=(3.0, 1.0), speed=11.0, variants=3),
-    "beam":          dict(kind="beam", limb="hand", reach=8.0, height="mid", startup=0.40, active=0.55, recovery=0.42, dmg=12, poise=22, kb=(4.5, 1.0), hits=4, variants=1),
+    "projectile":    dict(kind="projectile", limb="hand", reach=9.0, height="mid", startup=0.22, active=0.06, recovery=0.30, dmg=7, poise=10, kb=(3.0, 1.0), speed=11.0, variants=6),
+    "beam":          dict(kind="beam", limb="hand", reach=8.0, height="mid", startup=0.40, active=0.55, recovery=0.42, dmg=12, poise=22, kb=(4.5, 1.0), hits=4, variants=3),
     "explosion":     dict(kind="area", limb="body", reach=1.7, height="mid", startup=0.34, active=0.10, recovery=0.40, dmg=10, poise=17, kb=(6.0, 3.5), radius=1.7, variants=1),
     "counter":       dict(kind="stance", limb="hand", reach=1.0, height="mid", startup=0.05, active=0.65, recovery=0.30, dmg=12, poise=20, kb=(5.0, 3.0), variants=1),
-    "summon_weapon": dict(kind="melee", limb="weapon", reach=1.65, height="mid", startup=0.19, active=0.12, recovery=0.30, dmg=11, poise=14, kb=(3.8, 1.5), variants=2),
+    "summon_weapon": dict(kind="melee", limb="weapon", reach=1.65, height="mid", startup=0.19, active=0.12, recovery=0.30, dmg=11, poise=14, kb=(3.8, 1.5), variants=4),
     "env_strike":    dict(kind="env", limb="hand", reach=8.0, height="low", startup=0.30, active=0.10, recovery=0.38, dmg=11, poise=16, kb=(1.5, 9.0), launcher=True, delay=0.42, min_range=1.4, ground_only=True, variants=1),
     "barrage":       dict(kind="melee", limb="hand", reach=0.95, height="mid", startup=0.10, active=0.60, recovery=0.30, dmg=3, poise=5, kb=(1.0, 0.3), hits=5, variants=1),
 }
@@ -208,8 +212,15 @@ def build_params(spec, abilities, combo):
         "guard_break": "pierce" in spec["modifiers"],
         "stun": eff.get("stun", 1.0),
     }
+    weapon, wcls, mouth, style = kit_of(abilities)
+    if spec["delivery"] == "summon_weapon" and weapon and wcls in ("blade", "polearm", "blunt", "staff", "claws"):
+        p["reach"] = round(0.6 + WEAPONS[weapon]["len"] * 0.95, 2)
     if d["kind"] == "projectile":
-        p["speed"] = round(d["speed"] * speed, 2)
+        p["speed"] = round(PROJ_SPEED.get(style, d["speed"]) * speed, 2)
+        if style in GRAVITY_STYLES:
+            p["gravity"] = GRAVITY_STYLES[style]
+        if style == "bullet":
+            p["startup"] = round(p["startup"] * 1.15, 3)
         p["count"] = 3 if "split" in spec["modifiers"] else 1
         p["homing"] = 2.4 * stats["control"] if "homing" in spec["modifiers"] else 0.0
         p["radius"] = 0.2 * (1.35 if "amplify" in spec["modifiers"] else 1.0)
@@ -262,8 +273,48 @@ def build_params(spec, abilities, combo):
         cost += 8
     p["cost"] = 0 if spec["timing"] == "finisher" else min(70, cost)
     p["focus_cost"] = 100 if spec["timing"] == "finisher" else 0
-    p["cooldown"] = round(0.6 + 0.9 * n_ab + 0.4 * len(spec["modifiers"]), 2)
+    p["cooldown"] = round((1.4 if n_ab == 0 else 0.6) + 0.9 * n_ab + 0.4 * len(spec["modifiers"]), 2)
+    if n_ab == 1 and abilities[0].get("physical") and spec["timing"] != "finisher":
+        # Weapons and martial skills are stamina, not magic: cheap and quick to repeat.
+        p["cost"] = min(p["cost"], 4 if d["kind"] in ("melee", "grab", "stance") else 9)
+        p["cooldown"] = round(min(p["cooldown"], 0.9 if d["kind"] in ("melee", "grab", "stance") else 1.2), 2)
     return p
+
+
+def kit_of(abilities):
+    """Primary weapon class / special origin implied by the abilities."""
+    weapon = next((a.get("weapon") for a in abilities if a.get("weapon")), None)
+    mouth = any(a.get("origin") == "mouth" for a in abilities)
+    style = abilities[0].get("projectile") if abilities else None
+    return weapon, weapon_class(weapon), mouth, style
+
+
+def choose_variant(delivery, abilities, fallback):
+    weapon, wcls, mouth, style = kit_of(abilities)
+    n = DELIVERIES[delivery]["variants"]
+    if delivery == "projectile":
+        if mouth:
+            return 4
+        if wcls in ("firearm", "bow") or style == "bullet":
+            return 3
+        if style in GRAVITY_STYLES:
+            return 5
+        if style in ("knife", "shuriken", "harpoon") or wcls == "staff":
+            return 1
+        return fallback % 3
+    if delivery == "beam":
+        if mouth:
+            return 1
+        if wcls == "staff":
+            return 2
+        return 0
+    if delivery == "summon_weapon":
+        if wcls == "polearm" or weapon in ("dagger", "kunai"):
+            return 2
+        if wcls == "blunt":
+            return 3
+        return fallback % 2
+    return fallback % n
 
 
 def tier_of(spec):
@@ -298,7 +349,7 @@ def make_technique(spec, abilities, rng, universe=None, origin="generated", meta
         "movement": spec["movement"],
         "modifiers": sorted(spec["modifiers"]),
         "timing": spec["timing"],
-        "variant": int(tid[-4:], 16) % DELIVERIES[spec["delivery"]]["variants"],
+        "variant": choose_variant(spec["delivery"], abilities, int(tid[-4:], 16)),
         "anim": f"anim_{spec['delivery']}",
         "params": build_params(spec, abilities, combo),
         "origin": origin,
@@ -320,7 +371,7 @@ def _delivery_weights(abilities, combo, context, allow_physical):
         if not abilities:
             w[d] = 1.0 if d in ("punch", "kick", "sweep", "uppercut", "grapple", "aerial_strike", "barrage", "charge") else 0.0
             continue
-        aff = sum(a["affinity"].get(d, 0.25) for a in abilities) / len(abilities)
+        aff = sum(a["affinity"].get(d, 0.08 if a.get("physical") else 0.25) for a in abilities) / len(abilities)
         if combo and d in combo["deliveries"]:
             aff += 0.9
         w[d] = aff
@@ -417,9 +468,16 @@ def compose_valid(abilities, rng, universe=None, tries=24, **kw):
     return None
 
 
-def build_repertoire(fighter_abilities, rng, universe, cfg):
-    """Canonical move set for a fighter: physical basics, single-ability
-    techniques, pair/triple fusions and one ultimate finisher."""
+MELEE_D = ("summon_weapon", "punch", "kick", "charge", "sweep", "uppercut", "grapple", "slam", "barrage", "counter")
+RANGED_D = ("projectile", "beam", "env_strike", "explosion")
+BASICS = ("punch", "kick", "grapple", "uppercut", "sweep", "aerial_strike", "barrage")
+
+
+def build_repertoire(fighter_abilities, rng, universe, cfg, physical_weight=0.2):
+    """Theme-first move set: every ability gets a close-range, a ranged and
+    extra techniques built from *its* weapons/powers; plain unarmed basics are
+    only added in proportion to how much fist-fighting suits the theme."""
+    import itertools
     combat = cfg["combat"]
     complexity = 1.0 if combat.get("combination_complexity") == "maximum" else 0.6
     out = []
@@ -430,16 +488,26 @@ def build_repertoire(fighter_abilities, rng, universe, cfg):
             seen.add(t["id"])
             out.append(t)
 
+    specials = combat.get("special_abilities_enabled", True)
     if combat.get("physical_combat_enabled", True):
-        for d in ("punch", "kick", "sweep", "uppercut", "grapple", "aerial_strike", "barrage"):
-            spec_rng = rng.stream("basic", d)
-            add(compose_valid([], spec_rng, universe, forced={"delivery": d}, complexity=complexity))
-    if combat.get("special_abilities_enabled", True):
+        n_basic = len(BASICS) if not specials else max(1, min(len(BASICS), round(len(BASICS) * physical_weight * 1.6)))
+        for d in BASICS[:n_basic]:
+            add(compose_valid([], rng.stream("basic", d), universe, forced={"delivery": d}, complexity=complexity))
+    if specials:
         variety = 3 if combat.get("attack_variety") == "maximum" else 2
         for a in fighter_abilities:
-            for i in range(variety + 1):
+            aff = a["affinity"]
+            melee = sorted(MELEE_D, key=lambda d: -aff.get(d, 0.0))
+            ranged = sorted(RANGED_D, key=lambda d: -aff.get(d, 0.0))
+            roles = [melee[0], ranged[0]]
+            if aff.get(melee[1], 0) >= 0.6:
+                roles.append(melee[1])
+            if aff.get(ranged[1], 0) >= 0.6:
+                roles.append(ranged[1])
+            for i, d in enumerate(roles):
+                add(compose_valid([a], rng.stream("role", a["id"], d, i), universe, forced={"delivery": d}, complexity=complexity))
+            for i in range(variety):
                 add(compose_valid([a], rng.stream("single", a["id"], i), universe, complexity=complexity))
-        import itertools
         n = len(fighter_abilities)
         for k in range(2, min(3, n) + 1):
             for group in itertools.combinations(fighter_abilities, k):

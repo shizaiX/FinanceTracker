@@ -35,6 +35,7 @@ from ..rendering.cards import BracketCard
 from ..rendering.encoder import cleanup_work, concat_videos, cut_clip, render_video
 from ..rendering.renderer import SceneRenderer
 from ..rendering.timemap import build_timemap
+from ..themes.arenas import tournament_arenas
 from ..themes.generator import load_or_create_theme
 from . import bracket as B
 from .metadata import match_metadata, tournament_metadata
@@ -111,8 +112,11 @@ class Tournament:
         fa, fb = self.fighters[m["a"]], self.fighters[m["b"]]
         stage = {"final": "final", "semifinals": "semifinal"}.get(m["round_name"], "round")
         archetype = choose_archetype(fa, fb, stage, rng.stream("archetype"))
-        arenas = self.theme["arenas"]
-        arena = arenas[(m["round"] * 3 + m["index"]) % len(arenas)] if m["round_name"] != "final" else arenas[-1]
+        arenas = self.state.get("arenas")
+        if not arenas:  # tournaments created before per-tournament arenas
+            arenas = tournament_arenas(self.theme, len(self.state["bracket"]["rounds"]), RNG(seed, "arenas"), self.state["slug"])
+            self.state["arenas"] = arenas
+        arena = arenas[min(m["round"], len(arenas) - 1)]
         techs = dict(self.u["techniques"].items)
         match = Match(self.cfg, fa, fb, self.theme, self.u, rng, techs, archetype, arena,
                       meta={"tournament": self.state["slug"], "match": m["id"]})
@@ -133,6 +137,7 @@ class Tournament:
                             float(cfg["creative"].get("screen_shake", 1.0)), "balanced")
         nl = B.next_opponent_line(self.state["bracket"], m["id"], self.names) if m["round_name"] != "final" else "CHAMPION OF THE TOURNAMENT"
         info = {"tournament_name": self.state["name"], "stage_label": self.stage_label(m), "next_line": nl,
+                "arena_name": res["arena"].get("name", ""),
                 "is_final": m["round_name"] == "final"}
         return {"cfg": cfg, "result": res, "abilities": self.abilities, "fighters": res["fighters"], "vframes": vfs,
                 "camera": cams, "arena": res["arena"], "info": info, "hook_t": hook_t}
@@ -389,8 +394,11 @@ def create_tournament(cfg, root=PROJECT_ROOT, universe=None, custom_abilities=No
     fighters = generate_fighters(theme, cfg, rng.stream("fighters"), u)
     br = B.build_bracket([f["id"] for f in fighters], rng.stream("bracket"), t["initial_matchmaking"])
     u["render_configs"].put(stable_id("rc", cfg["video"]), {"video": cfg["video"], "creative": cfg["creative"]})
+    arenas = tournament_arenas(theme, len(br["rounds"]), rng.stream("arenas"), slug)
+    for a in arenas:
+        u["arenas"].put(a["id"], dict(a, tournament=slug, theme=theme["key"]))
     state = {"schema": "stu.tournament", "version": 1, "slug": slug, "name": name, "theme": theme["key"], "root": root,
-             "config": cfg, "fighters": fighters, "bracket": br, "matches": {}, "steps": {}, "champion": None,
+             "config": cfg, "fighters": fighters, "bracket": br, "arenas": arenas, "matches": {}, "steps": {}, "champion": None,
              "created": time.strftime("%Y-%m-%dT%H:%M:%S")}
     os.makedirs(path, exist_ok=True)
     atomic_write_json(os.path.join(path, "state.json"), state)
@@ -399,5 +407,7 @@ def create_tournament(cfg, root=PROJECT_ROOT, universe=None, custom_abilities=No
     tour.save()
     log(f"Created tournament '{name}' -> {os.path.relpath(path, root)}")
     for f in fighters:
-        log(f"  {f['name']:<10} {' + '.join(f['ability_names']):<28} {f['personality']:<13} signature: {f['signature_move']}")
+        log(f"  {f['name']:<10} {' + '.join(f['ability_names']):<34} {f['personality']:<13} look: {', '.join(f.get('costume', []))}")
+    for r, a in enumerate(arenas):
+        log(f"  arena round {r + 1}: {a['name']} ({a['biome']}, {a['time_of_day']})")
     return tour

@@ -43,11 +43,19 @@ Settings live in `config.yaml`. Only `theme`, `participants` and `abilities_per_
 
 ## How it works (short)
 
-* **Themes** (`stu/themes`): a theme package maps ability names onto theme-independent *archetypes*. An archetype is a set of tags, delivery affinities, VFX and SFX profiles, and naming words.
-  * Built-in seed themes: elements, weapons, superpowers, cosmic.
-  * Any other theme name (for example "dragon pirates") gets its package generated procedurally.
+* **Themes** (`stu/themes`): a theme package defines the abilities, real weapons, costume parts, arena biomes and how much plain fist-fighting suits the theme.
+  * Built-in packs (`stu/themes/packs.py`): elements, pirates, dragons, ninjas, knights, wizards, weapons, superpowers, cosmic.
+  * Theme names are *composed* from packs: "space pirates" = cosmic + pirates, "dragon knights" = dragons + knights. Abilities, costumes and arenas of both packs are merged.
+  * A name that matches no pack at all gets a procedural package from the archetype catalogue (theme-flavoured names, generic looks).
   * `--abilities-list "Laser, Jetpack, …"` maps custom ability names onto archetypes through a keyword lexicon.
-  * Generated packages are saved in `themes/` and expanded later instead of being overwritten.
+  * Packages are saved in `themes/` and upgraded/expanded later instead of being overwritten.
+* **Theme-first combat**: every ability gets its own close-range and ranged techniques built from its weapon or power. Weapons and martial skills cost little energy, powers cost more. Plain unarmed moves only appear in proportion to the theme (elements ≈ 8 %, pirates/knights ≈ 5 % of techniques in testing).
+* **Visual identity** (`stu/rendering/{weapons,costume,arena_art}.py`):
+  * About 30 procedurally drawn weapons: cutlass, katana, longsword, dagger, claws, spear, harpoon, trident, lance, war hammer, anchor, axe, mace, staff, wand, flintlock, blunderbuss, musket, longbow, crossbow, shield, gauntlets…
+  * Weapon-specific animation: slashes, thrusts, overhead smashes, aimed shots with muzzle flash and smoke, lobbed bombs/bottles on real arcs, dragon breath from the mouth.
+  * Costume parts: tricorne, captain hat, bandana, eyepatch, beard, hook hand, peg leg, parrot, dragon horns, wings, tails, back spikes, knight helm, plume, cape, crown, wizard hat, hood, ninja mask, horned helmet, cowboy hat…
+  * Elemental strikes are visibly elemental: the striking fist/foot/mouth burns, crackles or frosts with a trail of the element.
+* **Arenas** (`stu/themes/arenas.py`): every tournament generates its own arenas (one per round) from the theme's biomes, with a new name, time of day, palette shift, weather and prop layout. Biomes include ship decks (sea, sailing ships, masts, rigging, cannons, railing), tropical coves, storm decks with lightning, treasure caves, volcano lairs, cloud peaks, frozen dens, dragon ruins, dojos, bamboo forests, neon rooftops, castle courtyards, tourney fields, arcane towers and enchanted forests.
 * **Techniques** (`stu/combat/techniques.py`): each technique is built from a movement, a delivery, modifiers, a timing and abilities. Every candidate goes through a validator first, which rejects logically or visually nonsensical constructions. Valid techniques get a content-hash id, so a technique is never stored twice.
 * **Fusions** (`stu/combat/combinations.py`): about 60 tag-reaction rules (heat+gas → Firestorm, electric+fluid → Conductive, …), plus form/effect infusion.
   * Rejected: redundant pairs, incompatible pairs, and triples that would be unreadable.

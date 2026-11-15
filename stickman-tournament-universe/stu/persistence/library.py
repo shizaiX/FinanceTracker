@@ -34,6 +34,7 @@ LIBRARIES = {
     "statistics": "library/statistics.json",
     "tournaments": "library/tournaments.json",
     "render_configs": "library/render_configs.json",
+    "arenas": "library/arenas.json",
 }
 
 REQUIRED_FIELDS = {

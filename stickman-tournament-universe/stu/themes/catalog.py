@@ -1,4 +1,6 @@
-"""Theme-independent ability archetypes + built-in theme seed knowledge.
+"""Theme-independent ability archetypes and the ability-name lexicon.
+
+Theme packs (abilities, costumes, weapons, biomes) live in packs.py.
 
 An *archetype* is a reusable mechanical/visual profile (tags, delivery
 affinities, VFX style, SFX voice). A *theme* maps its own ability names onto
@@ -188,65 +190,6 @@ ARCHETYPES = {
         "mod_affinity": {"multistage": 1.0, "amplify": 0.8},
         "stats": {"power": 1.15, "speed": 1.15, "control": 0.85, "defense": 0.95},
         "words": {"adj": ["Rapid", "Impact", "Meteor", "Haymaker"], "noun": ["Barrage", "Impact", "Rush", "Meteor"]},
-    },
-}
-
-ARENAS_GENERIC = [
-    {"name": "Ashen Caldera", "sky": ["#1a0505", "#5a1408"], "far": "#2a0b08", "mid": "#3d120a", "ground": "#1c0c08", "accent": "#ff6a2a", "ambient": "ember", "props": "spires"},
-    {"name": "Stormcrown Peak", "sky": ["#05081a", "#1d2a5c"], "far": "#101a3a", "mid": "#17244c", "ground": "#0c1226", "accent": "#7fc8ff", "ambient": "rain", "props": "peaks"},
-    {"name": "Frozen Sanctum", "sky": ["#061a2a", "#3b7ea8"], "far": "#14405e", "mid": "#1d5578", "ground": "#0e2b40", "accent": "#bff2ff", "ambient": "snow", "props": "crystals"},
-    {"name": "Elder Grove", "sky": ["#04140a", "#1f5a2e"], "far": "#0e2e16", "mid": "#164020", "ground": "#0a1d0e", "accent": "#a8ff7a", "ambient": "leaves", "props": "trees"},
-    {"name": "Abyssal Shrine", "sky": ["#07030f", "#2e0f4a"], "far": "#1a0a2c", "mid": "#26103e", "ground": "#100618", "accent": "#c77dff", "ambient": "motes", "props": "arches"},
-    {"name": "Sunken Coliseum", "sky": ["#020c14", "#0d4a63"], "far": "#082a3a", "mid": "#0c3a4f", "ground": "#06202c", "accent": "#5fe3ff", "ambient": "bubbles", "props": "columns"},
-    {"name": "Golden Dunes", "sky": ["#1a0c02", "#a85a14"], "far": "#5a300c", "mid": "#7a4412", "ground": "#2c1806", "accent": "#ffd27a", "ambient": "dust", "props": "dunes"},
-    {"name": "Starfall Rift", "sky": ["#000004", "#141040"], "far": "#0a0a24", "mid": "#141436", "ground": "#07071a", "accent": "#9ab0ff", "ambient": "stars", "props": "monoliths"},
-]
-
-THEME_SEEDS = {
-    "elements": {
-        "title": "Elemental",
-        "title_words": ["Elemental Chaos", "Primal Clash", "Elemental Ascension", "Storm of Elements"],
-        "abilities": [
-            ("Fire", "flame", {}), ("Water", "tide", {}), ("Ice", "frost", {}),
-            ("Lightning", "storm", {}), ("Earth", "stone", {}), ("Wind", "gale", {}),
-            ("Metal", "alloy", {}), ("Nature", "verdant", {}), ("Light", "radiance", {}),
-            ("Shadow", "umbra", {}), ("Gravity", "gravity", {}), ("Sound", "resonance", {}),
-        ],
-        "arenas": [0, 1, 2, 3, 4, 5, 6, 7],
-    },
-    "weapons": {
-        "title": "Armory",
-        "title_words": ["Steel Tournament", "Blade Royale", "Armory Clash"],
-        "abilities": [
-            ("Katana", "blade", {}), ("Spear", "polearm", {}), ("War Hammer", "hammer", {}),
-            ("Longbow", "archery", {}), ("Shield", "aegis", {}), ("Gauntlets", "kinetic", {}),
-            ("Chakrams", "alloy", {"weapon": None}), ("Twin Sabers", "blade", {"colors": ["#ffffff", "#ffb0b0", "#c8323c"]}),
-            ("Glaive", "polearm", {"colors": ["#ffffff", "#c8b0ff", "#6a3ad0"]}),
-            ("Kunai", "archery", {"projectile": "shard", "colors": ["#ffffff", "#b0b8c8", "#40485a"]}),
-        ],
-        "arenas": [6, 0, 4, 7, 1],
-    },
-    "superpowers": {
-        "title": "Superhuman",
-        "title_words": ["Super Showdown", "Power Surge", "Metahuman Masters"],
-        "abilities": [
-            ("Super Strength", "kinetic", {}), ("Speedster", "storm", {"colors": ["#ffffff", "#ffe38a", "#ff9f1a"]}),
-            ("Telekinesis", "gravity", {}), ("Laser Vision", "radiance", {"colors": ["#ffffff", "#ff9a9a", "#ff2a2a"]}),
-            ("Pyrokinesis", "flame", {}), ("Cryokinesis", "frost", {}), ("Force Field", "aegis", {}),
-            ("Sonic Scream", "resonance", {}), ("Phasing", "umbra", {}), ("Hydrokinesis", "tide", {}),
-        ],
-        "arenas": [7, 1, 5, 4, 0],
-    },
-    "cosmic": {
-        "title": "Cosmic",
-        "title_words": ["Cosmic Throne", "Galactic Gauntlet", "Nebula Wars"],
-        "abilities": [
-            ("Supernova", "flame", {"colors": ["#ffffff", "#ffd0f0", "#ff4fd8"]}),
-            ("Black Hole", "gravity", {}), ("Starlight", "radiance", {}), ("Comet", "stone", {"colors": ["#ffffff", "#a8c8ff", "#3a5ac8"]}),
-            ("Solar Wind", "gale", {"colors": ["#ffffff", "#fff0a0", "#ffb020"]}), ("Void", "umbra", {}),
-            ("Pulsar", "resonance", {"colors": ["#ffffff", "#a0fff0", "#20c8b0"]}), ("Plasma", "storm", {"colors": ["#ffffff", "#ffb8ff", "#c040ff"]}),
-        ],
-        "arenas": [7, 4, 1],
     },
 }
 

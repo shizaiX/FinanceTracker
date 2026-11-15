@@ -200,6 +200,19 @@ def sound(name, v=0):
         n = int(0.9 * SR)
         x = _sine_sweep(n, 600, 80, 0.6) * _env(n, 0.01, 0.6, 2) + _lp_fast(_noise(n, seed), 800) * _env(n, 0.01, 0.5) * 0.5
         return _norm(x, 0.5)
+    if name == "gunshot":
+        n = int(0.7 * SR)
+        crack = _hp_fast(_noise(n, seed), 1500) * _env(n, 0.0003, 0.03, 6)
+        boom = _lp_fast(_noise(n, seed + 1), 600) * _env(n, 0.001, 0.25, 3)
+        body = _sine_sweep(n, 160, 50) * _env(n, 0.001, 0.12)
+        return _norm(crack * 1.2 + boom * 0.8 + body * 0.6, 0.95)
+    if name == "slash":
+        n = int(0.35 * SR)
+        t = np.linspace(0, 1, n)
+        swish = _bp(_noise(n, seed), 1500, 7000) * np.sin(np.pi * np.clip(t * 1.6, 0, 1)) ** 2
+        tt = np.arange(n) / SR
+        ring = sum(np.sin(2 * np.pi * f * tt) * np.exp(-tt * 9) for f in (2300, 3410, 5200)) * (tt > 0.08)
+        return _norm(swish + ring * 0.35, 0.7)
     if name == "riser":
         n = int(1.0 * SR)
         t = np.linspace(0, 1, n)

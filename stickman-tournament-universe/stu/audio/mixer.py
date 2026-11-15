@@ -100,6 +100,8 @@ def _event_sound(buf, e, vt, abilities, speed, duck):
     if ty == "hit":
         lvl = e.get("level")
         base = DELIVERY_SOUND.get(e.get("delivery"), "punch")
+        if e.get("delivery") == "summon_weapon":
+            base = "slash"
         g = {"minor": 0.55, "combo": 0.65, "significant": 0.95}.get(lvl, 0.6)
         _place(buf, sound("heavy" if lvl == "significant" else base, hash(e["t"]) % 3), vt, g, pan, sp)
         if v:
@@ -120,13 +122,17 @@ def _event_sound(buf, e, vt, abilities, speed, duck):
         _place(buf, sound("heavy", 1), vt, 0.6, pan, sp)
     elif ty == "whoosh":
         if not e.get("quiet"):
-            _place(buf, sound("whoosh", hash(e["t"]) % 3), vt, 0.35, pan, sp)
+            name = "slash" if e.get("delivery") == "summon_weapon" else "whoosh"
+            _place(buf, sound(name, hash(e["t"]) % 3), vt, 0.35, pan, sp)
     elif ty in ("explode", "slam", "env_erupt"):
         _place(buf, sound("explosion", hash(e["t"]) % 2), vt, 0.6 if ty != "slam" else 0.75, pan, sp)
         if v:
             _place(buf, sound(v, 2), vt, 0.5, pan, sp)
     elif ty in ("projectile", "beam_start"):
-        _place(buf, sound(v or "whoosh", 0), vt, 0.55, pan, sp)
+        if e.get("weapon") == "firearm":
+            _place(buf, sound("gunshot", hash(e["t"]) % 2), vt, 0.85, pan, sp)
+        else:
+            _place(buf, sound(v or "whoosh", 0), vt, 0.55, pan, sp)
     elif ty == "cast":
         if e.get("tier") in ("fusion", "ultimate") or e.get("dur", 0) > 0.3:
             _place(buf, sound("charge"), vt, 0.32, pan, sp)

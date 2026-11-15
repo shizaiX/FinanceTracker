@@ -1,6 +1,62 @@
 {
- "count": 8,
+ "count": 16,
  "items": {
+  "cmb_138a7621f3": {
+   "abilities": [
+    "ab_947c3eebd3",
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Cannon Fire",
+    "Harpoon"
+   ],
+   "alt_words": [
+    "Searing",
+    "Forge"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "summon_weapon",
+    "kick"
+   ],
+   "effects": {
+    "power": 1.15
+   },
+   "id": "cmb_138a7621f3",
+   "reaction": "Searing",
+   "rules": [
+    "heat+sharp"
+   ]
+  },
+  "cmb_1ddbfbd2b9": {
+   "abilities": [
+    "ab_23c7b1db88",
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Rum Bottle",
+    "Throwing Knives"
+   ],
+   "alt_words": [
+    "Searing",
+    "Forge"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "summon_weapon",
+    "kick"
+   ],
+   "effects": {
+    "power": 1.15
+   },
+   "id": "cmb_1ddbfbd2b9",
+   "reaction": "Searing",
+   "rules": [
+    "heat+sharp"
+   ]
+  },
   "cmb_2a143201b2": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -29,6 +85,34 @@
     "organic+solid"
    ]
   },
+  "cmb_40795cf6a7": {
+   "abilities": [
+    "ab_812aff47de",
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Powder Keg",
+    "Harpoon"
+   ],
+   "alt_words": [
+    "Searing",
+    "Forge"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "summon_weapon",
+    "kick"
+   ],
+   "effects": {
+    "power": 1.15
+   },
+   "id": "cmb_40795cf6a7",
+   "reaction": "Searing",
+   "rules": [
+    "heat+sharp"
+   ]
+  },
   "cmb_450181fdb8": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -55,6 +139,34 @@
    "reaction": "Galvanic",
    "rules": [
     "electric+organic"
+   ]
+  },
+  "cmb_48037b2b0f": {
+   "abilities": [
+    "ab_314c439b4f",
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Throwing Knives",
+    "Flintlock"
+   ],
+   "alt_words": [
+    "Thousand Cuts",
+    "Needlepoint"
+   ],
+   "compatibility": 0.89,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "summon_weapon",
+    "projectile"
+   ],
+   "effects": {
+    "pierce": 1.0
+   },
+   "id": "cmb_48037b2b0f",
+   "reaction": "Thousand Cuts",
+   "rules": [
+    "sharp+precise"
    ]
   },
   "cmb_5fa009b440": {
@@ -113,6 +225,62 @@
     "heat+sharp"
    ]
   },
+  "cmb_8cda74f500": {
+   "abilities": [
+    "ab_37a318af5a",
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Bare-Knuckle Brawl",
+    "Blunderbuss"
+   ],
+   "alt_words": [
+    "Ricochet",
+    "Trick Shot"
+   ],
+   "compatibility": 0.89,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "projectile",
+    "kick"
+   ],
+   "effects": {
+    "speed": 1.2
+   },
+   "id": "cmb_8cda74f500",
+   "reaction": "Ricochet",
+   "rules": [
+    "kinetic+ranged"
+   ]
+  },
+  "cmb_910d0c198b": {
+   "abilities": [
+    "ab_2a2fa292ff",
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Cutlass",
+    "Kraken's Call"
+   ],
+   "alt_words": [
+    "Water Blade",
+    "Tide Cutter"
+   ],
+   "compatibility": 0.77,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "summon_weapon",
+    "projectile"
+   ],
+   "effects": {
+    "pierce": 1.0
+   },
+   "id": "cmb_910d0c198b",
+   "reaction": "Water Blade",
+   "rules": [
+    "sharp+fluid"
+   ]
+  },
   "cmb_a90e79cb8a": {
    "abilities": [
     "ab_83c4d6d552",
@@ -139,6 +307,64 @@
    "reaction": "Collapse",
    "rules": [
     "mass+force"
+   ]
+  },
+  "cmb_a9d58aef18": {
+   "abilities": [
+    "ab_31daa6369e",
+    "ab_947c3eebd3"
+   ],
+   "ability_names": [
+    "Anchor",
+    "Cannon Fire"
+   ],
+   "alt_words": [
+    "Magma",
+    "Molten"
+   ],
+   "compatibility": 0.89,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "env_strike",
+    "slam",
+    "punch"
+   ],
+   "effects": {
+    "area": 1.2,
+    "power": 1.25
+   },
+   "id": "cmb_a9d58aef18",
+   "reaction": "Magma",
+   "rules": [
+    "heat+ground"
+   ]
+  },
+  "cmb_b8e388788f": {
+   "abilities": [
+    "ab_31daa6369e",
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Anchor",
+    "Flintlock"
+   ],
+   "alt_words": [
+    "Ricochet",
+    "Trick Shot"
+   ],
+   "compatibility": 0.89,
+   "created": "2026-11-15T10:27:32",
+   "deliveries": [
+    "projectile",
+    "kick"
+   ],
+   "effects": {
+    "speed": 1.2
+   },
+   "id": "cmb_b8e388788f",
+   "reaction": "Ricochet",
+   "rules": [
+    "kinetic+ranged"
    ]
   },
   "cmb_f903034fa0": {
@@ -227,6 +453,6 @@
   }
  },
  "schema": "stu.combinations",
- "updated": "2026-11-15T03:11:25",
+ "updated": "2026-11-15T10:27:32",
  "version": 1
 }

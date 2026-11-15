@@ -1,0 +1,671 @@
+{
+ "abilities": [
+  {
+   "affinity": {
+    "aerial_strike": 0.8,
+    "barrage": 0.1,
+    "charge": 0.8,
+    "counter": 0.9,
+    "projectile": 0.6,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "blade",
+   "aura": "metal",
+   "colors": [
+    "#ffffff",
+    "#e3e9f2",
+    "#8aa0b8"
+   ],
+   "env_form": "spikes",
+   "id": "ab_2a2fa292ff",
+   "key": "cutlass",
+   "mobility": "dash",
+   "mod_affinity": {
+    "multistage": 1.0,
+    "pierce": 1.0,
+    "split": 0.6
+   },
+   "name": "Cutlass",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "crescent",
+   "stats": {
+    "control": 0.95,
+    "defense": 0.9,
+    "power": 1.1,
+    "speed": 1.1
+   },
+   "tags": [
+    "sharp",
+    "solid",
+    "precise"
+   ],
+   "theme": "pirates",
+   "voice": "metal",
+   "weapon": "cutlass",
+   "words": {
+    "adj": [
+     "Iaido",
+     "Severing",
+     "Crescent",
+     "Razor"
+    ],
+    "noun": [
+     "Edge",
+     "Cut",
+     "Crescent",
+     "Fang",
+     "Slash"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "counter": 0.55,
+    "explosion": 0.3,
+    "projectile": 1.0,
+    "punch": 0.35
+   },
+   "archetype": "firearm",
+   "aura": "dust",
+   "colors": [
+    "#fff6d0",
+    "#ffbe55",
+    "#8a5a2a"
+   ],
+   "env_form": "cannon_rain",
+   "id": "ab_9408408bac",
+   "key": "flintlock",
+   "mobility": "dash",
+   "mod_affinity": {
+    "chain": 0.3,
+    "pierce": 0.9,
+    "split": 0.6
+   },
+   "name": "Flintlock",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "bullet",
+   "stats": {
+    "control": 1.1,
+    "defense": 0.85,
+    "power": 1.1,
+    "speed": 1.05
+   },
+   "tags": [
+    "ranged",
+    "precise",
+    "volatile"
+   ],
+   "theme": "pirates",
+   "voice": "gunshot",
+   "weapon": "flintlock",
+   "words": {
+    "adj": [
+     "Deadeye",
+     "Smoking",
+     "Quickdraw",
+     "Point-Blank"
+    ],
+    "noun": [
+     "Shot",
+     "Volley",
+     "Broadside",
+     "Bullet"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "counter": 0.55,
+    "explosion": 0.3,
+    "projectile": 1.0,
+    "punch": 0.35
+   },
+   "archetype": "firearm",
+   "aura": "dust",
+   "colors": [
+    "#fff6d0",
+    "#ffbe55",
+    "#8a5a2a"
+   ],
+   "env_form": "cannon_rain",
+   "id": "ab_c2263f9e8c",
+   "key": "blunderbuss",
+   "mobility": "dash",
+   "mod_affinity": {
+    "chain": 0.3,
+    "pierce": 0.3,
+    "split": 1.4
+   },
+   "name": "Blunderbuss",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "bullet",
+   "stats": {
+    "control": 1.1,
+    "defense": 0.85,
+    "power": 1.1,
+    "speed": 1.05
+   },
+   "tags": [
+    "ranged",
+    "precise",
+    "volatile"
+   ],
+   "theme": "pirates",
+   "voice": "gunshot",
+   "weapon": "blunderbuss",
+   "words": {
+    "adj": [
+     "Scattershot",
+     "Boom",
+     "Grapeshot"
+    ],
+    "noun": [
+     "Blast",
+     "Spray",
+     "Boom"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "counter": 0.5,
+    "projectile": 1.0,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "thrown",
+   "aura": "gust",
+   "colors": [
+    "#ffffff",
+    "#c6ced8",
+    "#3a3f4a"
+   ],
+   "env_form": "sky_strike",
+   "id": "ab_314c439b4f",
+   "key": "throwing_knives",
+   "mobility": "dash",
+   "mod_affinity": {
+    "homing": 0.5,
+    "pierce": 0.7,
+    "split": 1.0
+   },
+   "name": "Throwing Knives",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "knife",
+   "stats": {
+    "control": 1.15,
+    "defense": 0.85,
+    "power": 0.95,
+    "speed": 1.2
+   },
+   "tags": [
+    "ranged",
+    "sharp",
+    "fast"
+   ],
+   "theme": "pirates",
+   "voice": "metal",
+   "weapon": "dagger",
+   "words": {
+    "adj": [
+     "Flicking",
+     "Fan of",
+     "Silent",
+     "Whistling"
+    ],
+    "noun": [
+     "Knives",
+     "Blades",
+     "Daggers",
+     "Throw"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "env_strike": 0.8,
+    "explosion": 0.9,
+    "projectile": 1.0
+   },
+   "archetype": "explosive",
+   "aura": "dust",
+   "colors": [
+    "#fff2c0",
+    "#ff8a2a",
+    "#3a2a22"
+   ],
+   "env_form": "cannon_rain",
+   "gravity": true,
+   "id": "ab_812aff47de",
+   "key": "powder_keg",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "delayed": 1.0,
+    "split": 0.5,
+    "trap": 0.8
+   },
+   "name": "Powder Keg",
+   "particle": "flame",
+   "physical": true,
+   "projectile": "bomb",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.85,
+    "power": 1.25,
+    "speed": 0.9
+   },
+   "tags": [
+    "volatile",
+    "heat",
+    "force"
+   ],
+   "theme": "pirates",
+   "voice": "fire",
+   "words": {
+    "adj": [
+     "Powder",
+     "Blasting",
+     "Fused",
+     "Kaboom"
+    ],
+    "noun": [
+     "Keg",
+     "Bomb",
+     "Barrage",
+     "Blast"
+    ]
+   },
+   "zone": "burning"
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "charge": 0.7,
+    "punch": 0.1,
+    "slam": 1.0,
+    "summon_weapon": 1.1,
+    "uppercut": 0.15
+   },
+   "archetype": "hammer",
+   "aura": "dust",
+   "colors": [
+    "#e0e4ea",
+    "#6a727c",
+    "#2a2f36"
+   ],
+   "env_form": "pillar",
+   "id": "ab_31daa6369e",
+   "key": "anchor",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 1.0,
+    "shield": 0.7
+   },
+   "name": "Anchor",
+   "particle": "rock",
+   "physical": true,
+   "projectile": "rock",
+   "stats": {
+    "control": 0.85,
+    "defense": 1.1,
+    "power": 1.3,
+    "speed": 0.8
+   },
+   "tags": [
+    "mass",
+    "heavy",
+    "kinetic",
+    "ground"
+   ],
+   "theme": "pirates",
+   "voice": "earth",
+   "weapon": "anchor",
+   "words": {
+    "adj": [
+     "Sunken",
+     "Iron",
+     "Deep"
+    ],
+    "noun": [
+     "Anchor",
+     "Drop",
+     "Plunge"
+    ]
+   },
+   "zone": "cracked"
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "charge": 1.0,
+    "projectile": 0.6,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "sweep": 0.8,
+    "uppercut": 0.1
+   },
+   "archetype": "polearm",
+   "aura": "dust",
+   "colors": [
+    "#ffffff",
+    "#ffe0b0",
+    "#c47b2a"
+   ],
+   "env_form": "spikes",
+   "id": "ab_a32aa0acc5",
+   "key": "harpoon",
+   "mobility": "dash",
+   "mod_affinity": {
+    "multistage": 0.9,
+    "pierce": 1.0
+   },
+   "name": "Harpoon",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "harpoon",
+   "stats": {
+    "control": 1.1,
+    "defense": 0.95,
+    "power": 1.05,
+    "speed": 1.0
+   },
+   "tags": [
+    "sharp",
+    "precise",
+    "kinetic"
+   ],
+   "theme": "pirates",
+   "voice": "metal",
+   "weapon": "harpoon",
+   "words": {
+    "adj": [
+     "Whaler's",
+     "Barbed",
+     "Reeling"
+    ],
+    "noun": [
+     "Harpoon",
+     "Spike",
+     "Line"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "charge": 0.9,
+    "grapple": 0.8,
+    "kick": 1.0,
+    "punch": 1.0,
+    "uppercut": 1.0
+   },
+   "archetype": "kinetic",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#ffd2a0",
+    "#c2552a"
+   ],
+   "env_form": "burst",
+   "id": "ab_37a318af5a",
+   "key": "bare_knuckle_brawl",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "multistage": 1.0
+   },
+   "name": "Bare-Knuckle Brawl",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "orb",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 1.15
+   },
+   "tags": [
+    "kinetic",
+    "force",
+    "fast"
+   ],
+   "theme": "pirates",
+   "voice": "sound",
+   "words": {
+    "adj": [
+     "Tavern",
+     "Knuckle",
+     "Deckhand"
+    ],
+    "noun": [
+     "Haymaker",
+     "Brawl",
+     "Knuckle"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "env_strike": 0.8,
+    "explosion": 0.9,
+    "projectile": 1.0
+   },
+   "archetype": "explosive",
+   "aura": "dust",
+   "colors": [
+    "#fff2c0",
+    "#ff8a2a",
+    "#3a2a22"
+   ],
+   "env_form": "cannon_rain",
+   "gravity": true,
+   "id": "ab_947c3eebd3",
+   "key": "cannon_fire",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "delayed": 1.0,
+    "split": 0.5,
+    "trap": 0.8
+   },
+   "name": "Cannon Fire",
+   "particle": "flame",
+   "physical": true,
+   "projectile": "cannonball",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.85,
+    "power": 1.25,
+    "speed": 0.9
+   },
+   "tags": [
+    "volatile",
+    "heat",
+    "force"
+   ],
+   "theme": "pirates",
+   "voice": "fire",
+   "words": {
+    "adj": [
+     "Broadside",
+     "Cannon",
+     "Thundering"
+    ],
+    "noun": [
+     "Cannonade",
+     "Broadside",
+     "Salvo"
+    ]
+   },
+   "zone": "burning"
+  },
+  {
+   "affinity": {
+    "beam": 0.9,
+    "env_strike": 0.8,
+    "grapple": 0.8,
+    "projectile": 0.9,
+    "summon_weapon": 0.6,
+    "sweep": 0.8
+   },
+   "archetype": "tide",
+   "aura": "droplet",
+   "colors": [
+    "#e0f0ff",
+    "#4a9ac0",
+    "#1d3a5a"
+   ],
+   "env_form": "tentacles",
+   "id": "ab_6d3b0c6f9e",
+   "key": "kraken_s_call",
+   "mobility": "slide",
+   "mod_affinity": {
+    "homing": 0.7,
+    "multistage": 0.7,
+    "reflect": 0.6,
+    "shield": 0.8,
+    "trap": 0.8
+   },
+   "name": "Kraken's Call",
+   "particle": "droplet",
+   "projectile": "orb",
+   "stats": {
+    "control": 1.15,
+    "defense": 1.0,
+    "power": 0.95,
+    "speed": 1.0
+   },
+   "tags": [
+    "fluid",
+    "flexible",
+    "conductive_medium"
+   ],
+   "theme": "pirates",
+   "voice": "water",
+   "words": {
+    "adj": [
+     "Kraken",
+     "Abyssal",
+     "Leviathan"
+    ],
+    "noun": [
+     "Tentacle",
+     "Grasp",
+     "Maw"
+    ]
+   },
+   "zone": "wet"
+  },
+  {
+   "affinity": {
+    "env_strike": 0.8,
+    "explosion": 0.9,
+    "projectile": 1.0
+   },
+   "archetype": "explosive",
+   "aura": "dust",
+   "colors": [
+    "#fff2c0",
+    "#ff8a2a",
+    "#3a2a22"
+   ],
+   "env_form": "cannon_rain",
+   "gravity": true,
+   "id": "ab_23c7b1db88",
+   "key": "rum_bottle",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "delayed": 1.0,
+    "split": 0.5,
+    "trap": 0.8
+   },
+   "name": "Rum Bottle",
+   "particle": "flame",
+   "physical": true,
+   "projectile": "bottle",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.85,
+    "power": 1.25,
+    "speed": 0.9
+   },
+   "tags": [
+    "volatile",
+    "heat",
+    "force"
+   ],
+   "theme": "pirates",
+   "voice": "fire",
+   "words": {
+    "adj": [
+     "Flaming",
+     "Drunken",
+     "Grog"
+    ],
+    "noun": [
+     "Bottle",
+     "Toss",
+     "Grog"
+    ]
+   },
+   "zone": "burning"
+  }
+ ],
+ "biomes": [
+  "ship_deck",
+  "tropical_cove",
+  "storm_deck",
+  "skull_cave"
+ ],
+ "costume_rules": {
+  "extras": [
+   1,
+   3
+  ],
+  "head": 1
+ },
+ "costumes": [
+  "tricorne",
+  "captain_hat",
+  "bandana",
+  "eyepatch",
+  "beard",
+  "hook_hand",
+  "peg_leg",
+  "parrot"
+ ],
+ "created": "2026-11-15T10:27:32",
+ "expansions": [],
+ "generated_by": "pack",
+ "key": "pirates",
+ "name": "pirates",
+ "packs": [
+  "pirates"
+ ],
+ "physical_weight": 0.18,
+ "schema": "stu.theme",
+ "title": "Pirate",
+ "title_words": [
+  "Skull & Cutlass Cup",
+  "Seven Seas Brawl",
+  "Black Flag Tournament",
+  "Plunder Royale"
+ ],
+ "updated": "2026-11-15T10:27:32",
+ "version": 1
+}

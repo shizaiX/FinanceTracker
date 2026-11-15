@@ -99,11 +99,29 @@ TEMPLATES = {
         {"limb": "hand_f", "lunge": 0.05, "keys": [
             P(S, lean=0.1, crouch=0.26, hfx=0.0, hfy=-0.32, hbx=-0.1, hby=-0.3),
             P(S, lean=-0.08, crouch=0.08, hfx=0.48, hfy=0.36, hbx=0.4, hby=0.3)]},
+        # 3: aim (pistols, rifles, bows, wands): raise, level, fire with recoil
+        {"limb": "hand_f", "lunge": 0.0, "keys": [
+            P(S, lean=0.0, crouch=0.12, hfx=0.4, hfy=0.3, hbx=0.08, hby=-0.12, ffx=0.34, fbx=-0.3),
+            P(S, lean=-0.06, crouch=0.12, hfx=0.6, hfy=0.12, hbx=0.05, hby=-0.14, ffx=0.34, fbx=-0.3)]},
+        # 4: breath (dragons, roars, laser eyes): rear back, lunge the head forward
+        {"limb": "head", "lunge": 0.1, "keys": [
+            P(S, lean=-0.32, crouch=0.12, head=0.35, hfx=0.28, hfy=0.18, hbx=-0.12, hby=0.24),
+            P(S, lean=0.42, crouch=0.22, head=-0.12, hfx=0.34, hfy=-0.18, hbx=0.14, hby=-0.26, ffx=0.46, fbx=-0.4)]},
+        # 5: lob (bombs, bottles, kegs): underhand wind-up, overhead release
+        {"limb": "hand_f", "lunge": 0.05, "keys": [
+            P(S, lean=0.25, crouch=0.22, hfx=-0.3, hfy=-0.3, hbx=0.2, hby=0.0),
+            P(S, lean=-0.15, crouch=0.06, hfx=0.36, hfy=0.5, hbx=-0.2, hby=-0.15, ffx=0.4)]},
     ],
     "beam": [
         {"limb": "hand_f", "lunge": 0.0, "keys": [
             P(S, lean=-0.1, crouch=0.25, hfx=-0.16, hfy=-0.32, hbx=-0.18, hby=-0.35, ffx=0.42, fbx=-0.42),
             P(S, lean=0.18, crouch=0.24, hfx=0.62, hfy=0.0, hbx=0.60, hby=-0.04, ffx=0.44, fbx=-0.44)]},
+        {"limb": "head", "lunge": 0.0, "keys": [
+            P(S, lean=-0.35, crouch=0.15, head=0.4, hfx=0.3, hfy=0.2, hbx=-0.1, hby=0.25, ffx=0.42, fbx=-0.42),
+            P(S, lean=0.38, crouch=0.24, head=-0.1, hfx=0.36, hfy=-0.2, hbx=0.1, hby=-0.28, ffx=0.46, fbx=-0.44)]},
+        {"limb": "hand_f", "lunge": 0.0, "keys": [
+            P(S, lean=-0.15, crouch=0.15, hfx=0.2, hfy=0.45, hbx=0.1, hby=-0.1, ffx=0.4, fbx=-0.4),
+            P(S, lean=0.15, crouch=0.2, hfx=0.6, hfy=0.15, hbx=0.0, hby=-0.15, ffx=0.42, fbx=-0.42)]},
     ],
     "explosion": [
         {"limb": "chest", "lunge": 0.0, "keys": [
@@ -122,6 +140,14 @@ TEMPLATES = {
         {"limb": "weapon", "lunge": 0.24, "keys": [
             P(S, lean=0.3, crouch=0.26, hfx=0.1, hfy=-0.5, hbx=0.0, hby=-0.4),
             P(S, lean=-0.12, crouch=0.06, hfx=0.4, hfy=0.55, hbx=-0.2, hby=0.1, ffx=0.46)]},
+        # 2: thrust (spears, harpoons, daggers, lances)
+        {"limb": "weapon", "lunge": 0.45, "keys": [
+            P(S, lean=-0.12, crouch=0.16, hfx=-0.08, hfy=0.02, hbx=-0.2, hby=0.0, ffx=0.3, fbx=-0.32),
+            P(S, lean=0.42, crouch=0.2, hfx=0.62, hfy=0.04, hbx=0.3, hby=0.0, ffx=0.56, fbx=-0.3)]},
+        # 3: overhead smash (anchors, hammers, axes, maces)
+        {"limb": "weapon", "lunge": 0.25, "keys": [
+            P(S, lean=-0.36, crouch=0.06, hfx=-0.1, hfy=0.6, hbx=-0.15, hby=0.55),
+            P(S, lean=0.66, crouch=0.36, hfx=0.48, hfy=-0.42, hbx=0.42, hby=-0.44, ffx=0.46, fbx=-0.34)]},
     ],
     "env_strike": [
         {"limb": "hand_f", "lunge": 0.05, "keys": [

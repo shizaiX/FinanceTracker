@@ -1,6 +1,277 @@
 {
- "count": 8,
+ "count": 16,
  "items": {
+  "ftr_032defa98e": {
+   "abilities": [
+    "ab_a32aa0acc5",
+    "ab_947c3eebd3"
+   ],
+   "ability_names": [
+    "Harpoon",
+    "Cannon Fire"
+   ],
+   "accessory": "bandana",
+   "build": 1.012,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "bandana",
+    "eyepatch",
+    "parrot",
+    "hook_hand"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_032defa98e",
+   "name": "SALEN",
+   "personality": "aggressive",
+   "rating": 1.0403,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_c0173d8c00",
+    "tq_c8dfdc8c38",
+    "tq_933b124a4e",
+    "tq_56795b53d0",
+    "tq_6c1aea198a",
+    "tq_5a25526686",
+    "tq_4bb3db27c7",
+    "tq_eee4adb234",
+    "tq_06af477a64",
+    "tq_2a6c6ada54",
+    "tq_c15d02af13",
+    "tq_7a5b215322",
+    "tq_23d41c0167",
+    "tq_f67dd50ff2",
+    "tq_12a0997578",
+    "tq_8e145f3b21"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "SEARING BLADE",
+   "stance": "orthodox",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.549,
+    "aggression": 0.813,
+    "caution": 0.223,
+    "counter": 0.258,
+    "creativity": 0.505,
+    "evasive": 0.29,
+    "range": 1.0,
+    "reaction": 0.134,
+    "read": 0.649,
+    "temperature": 0.55
+   },
+   "weapons": [
+    "harpoon"
+   ]
+  },
+  "ftr_069b2b5c2e": {
+   "abilities": [
+    "ab_9408408bac",
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Flintlock",
+    "Throwing Knives"
+   ],
+   "accessory": "captain_hat",
+   "build": 0.978,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "captain_hat",
+    "peg_leg",
+    "parrot"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_069b2b5c2e",
+   "name": "BULYX",
+   "personality": "counter",
+   "rating": 1.0736,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_b666b0d1ba",
+    "tq_e7ee16d0be",
+    "tq_5c4fcc53e9",
+    "tq_06701b8ce7",
+    "tq_69c933e1b6",
+    "tq_6f9ab8915f",
+    "tq_07680fdd47",
+    "tq_a213be7251",
+    "tq_0d75ed9320",
+    "tq_1b97ea7af5",
+    "tq_b392196754",
+    "tq_8202a2a596",
+    "tq_7fd1cd7b25",
+    "tq_2cc524ab4f"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "CHAIN THOUSAND CUTS BLADE",
+   "stance": "upright",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.504,
+    "aggression": 0.392,
+    "caution": 0.561,
+    "counter": 0.851,
+    "creativity": 0.464,
+    "evasive": 0.387,
+    "range": 1.4,
+    "reaction": 0.07,
+    "read": 0.522,
+    "temperature": 0.5
+   },
+   "weapons": [
+    "flintlock",
+    "dagger"
+   ]
+  },
+  "ftr_0b4a4b50ad": {
+   "abilities": [
+    "ab_812aff47de",
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Powder Keg",
+    "Harpoon"
+   ],
+   "accessory": "bandana",
+   "build": 1.013,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "bandana",
+    "eyepatch"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_0b4a4b50ad",
+   "name": "LINZKA",
+   "personality": "counter",
+   "rating": 1.0403,
+   "repertoire": [
+    "tq_833456066a",
+    "tq_01ce163b80",
+    "tq_527064ab2e",
+    "tq_bbd5dad983",
+    "tq_db1e6cc9ae",
+    "tq_168d47d8cc",
+    "tq_ef54cf00ff",
+    "tq_1efdf8b146",
+    "tq_076244e1e5",
+    "tq_6e960f1426",
+    "tq_937027eed3",
+    "tq_a5e8b657fb",
+    "tq_5a25526686",
+    "tq_0966bc8b18",
+    "tq_28ea00a127",
+    "tq_2761607efb"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "CASCADE SEARING EDGE",
+   "stance": "low",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.687,
+    "aggression": 0.403,
+    "caution": 0.662,
+    "counter": 0.98,
+    "creativity": 0.551,
+    "evasive": 0.466,
+    "range": 1.4,
+    "reaction": 0.087,
+    "read": 0.662,
+    "temperature": 0.5
+   },
+   "weapons": [
+    "harpoon"
+   ]
+  },
+  "ftr_115687ef77": {
+   "abilities": [
+    "ab_947c3eebd3",
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Cannon Fire",
+    "Anchor"
+   ],
+   "accessory": "bandana",
+   "build": 1.038,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "bandana",
+    "peg_leg",
+    "beard",
+    "parrot"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_115687ef77",
+   "name": "PLUNEX",
+   "personality": "defensive",
+   "rating": 1.0466,
+   "repertoire": [
+    "tq_8772a6277e",
+    "tq_d92b899c8a",
+    "tq_c3745c3fa7",
+    "tq_bc12b28d15",
+    "tq_a792ea5245",
+    "tq_6195a2eb3a",
+    "tq_a4e01a5a8a",
+    "tq_14f00f4d4b",
+    "tq_deb52c227d",
+    "tq_7d1f5c02f8",
+    "tq_1e40c6cbe4",
+    "tq_54d345f1be",
+    "tq_7ac25e3dc1",
+    "tq_6abeae4a66",
+    "tq_108d73587b",
+    "tq_f6e654270a",
+    "tq_81f8230892"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "GRAND MAGMA HAMMER",
+   "stance": "upright",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.542,
+    "aggression": 0.313,
+    "caution": 0.844,
+    "counter": 0.512,
+    "creativity": 0.358,
+    "evasive": 0.343,
+    "range": 1.8,
+    "reaction": 0.138,
+    "read": 0.534,
+    "temperature": 0.45
+   },
+   "weapons": [
+    "anchor"
+   ]
+  },
   "ftr_1addcf4dde": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -315,6 +586,74 @@
     "temperature": 0.4
    }
   },
+  "ftr_7ca9d3d1aa": {
+   "abilities": [
+    "ab_23c7b1db88",
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Rum Bottle",
+    "Throwing Knives"
+   ],
+   "accessory": "captain_hat",
+   "build": 0.985,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "captain_hat",
+    "parrot",
+    "beard",
+    "peg_leg"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_7ca9d3d1aa",
+   "name": "THRNKA",
+   "personality": "aggressive",
+   "rating": 1.0458,
+   "repertoire": [
+    "tq_22fcc57896",
+    "tq_01ce163b80",
+    "tq_b6beee6642",
+    "tq_0ecc06ecee",
+    "tq_a99bdd739e",
+    "tq_3d99c9189c",
+    "tq_3c800c5968",
+    "tq_0fe59f60fc",
+    "tq_16142b0643",
+    "tq_e2ddc5d1c9",
+    "tq_cdb4cf59c9",
+    "tq_5da3ade60d",
+    "tq_782bcd501d",
+    "tq_aaec4a4ba1",
+    "tq_f542d1d378",
+    "tq_9492bb3d09"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "SEARING BLADE",
+   "stance": "orthodox",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.734,
+    "aggression": 0.812,
+    "caution": 0.247,
+    "counter": 0.3,
+    "creativity": 0.49,
+    "evasive": 0.307,
+    "range": 1.0,
+    "reaction": 0.087,
+    "read": 0.716,
+    "temperature": 0.55
+   },
+   "weapons": [
+    "dagger"
+   ]
+  },
   "ftr_a0d4710ec7": {
    "abilities": [
     "ab_d903b6dc1c",
@@ -378,6 +717,139 @@
     "temperature": 0.45
    }
   },
+  "ftr_af7f24a1fc": {
+   "abilities": [
+    "ab_c2263f9e8c",
+    "ab_37a318af5a"
+   ],
+   "ability_names": [
+    "Blunderbuss",
+    "Bare-Knuckle Brawl"
+   ],
+   "accessory": "tricorne",
+   "build": 0.952,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "tricorne",
+    "peg_leg"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_af7f24a1fc",
+   "name": "BLUVKA",
+   "personality": "strategic",
+   "rating": 1.0761,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_fb388d70cc",
+    "tq_53505fb784",
+    "tq_4cdc317674",
+    "tq_1c756e09af",
+    "tq_9c5edd4489",
+    "tq_76543a5e90",
+    "tq_746a9a8be7",
+    "tq_b573c7c5df",
+    "tq_79a3b27047",
+    "tq_2725fc4ff5",
+    "tq_eb843f2226",
+    "tq_ccba7cae6d",
+    "tq_2e02abd604",
+    "tq_fb06126918",
+    "tq_37f2063724"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "RICOCHET SHOT",
+   "stance": "upright",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.46,
+    "aggression": 0.444,
+    "caution": 0.554,
+    "counter": 0.428,
+    "creativity": 0.753,
+    "evasive": 0.562,
+    "range": 3.2,
+    "reaction": 0.116,
+    "read": 0.646,
+    "temperature": 0.4
+   },
+   "weapons": [
+    "blunderbuss"
+   ]
+  },
+  "ftr_b21df646eb": {
+   "abilities": [
+    "ab_6d3b0c6f9e",
+    "ab_2a2fa292ff"
+   ],
+   "ability_names": [
+    "Kraken's Call",
+    "Cutlass"
+   ],
+   "accessory": "captain_hat",
+   "build": 1.013,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "captain_hat",
+    "eyepatch",
+    "peg_leg"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_b21df646eb",
+   "name": "KRAEX",
+   "personality": "aggressive",
+   "rating": 1.0528,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_fc40bd9697",
+    "tq_3f118da3c7",
+    "tq_470e85f3a5",
+    "tq_d8ad9c2ccc",
+    "tq_39b0ae5a54",
+    "tq_95553e4fed",
+    "tq_09ade35d88",
+    "tq_df79667a37",
+    "tq_111311ff6d",
+    "tq_3b490eb8a9",
+    "tq_0a695ce897",
+    "tq_63ce71ebb1",
+    "tq_11a9bea3a7",
+    "tq_14976a4e87",
+    "tq_e670b1b14e"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "CHAIN WATER BLADE GLAIVE",
+   "stance": "orthodox",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.747,
+    "aggression": 0.805,
+    "caution": 0.221,
+    "counter": 0.321,
+    "creativity": 0.466,
+    "evasive": 0.337,
+    "range": 1.0,
+    "reaction": 0.143,
+    "read": 0.462,
+    "temperature": 0.55
+   },
+   "weapons": [
+    "cutlass"
+   ]
+  },
   "ftr_b750bb35a2": {
    "abilities": [
     "ab_b7f5981ab1",
@@ -440,6 +912,73 @@
     "read": 0.623,
     "temperature": 0.6
    }
+  },
+  "ftr_bf10c96ec1": {
+   "abilities": [
+    "ab_31daa6369e",
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Anchor",
+    "Flintlock"
+   ],
+   "accessory": "bandana",
+   "build": 1.037,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "bandana",
+    "eyepatch",
+    "peg_leg"
+   ],
+   "created": "2026-11-15T10:27:32",
+   "id": "ftr_bf10c96ec1",
+   "name": "ANCUS",
+   "personality": "strategic",
+   "rating": 1.0696,
+   "repertoire": [
+    "tq_f39b10e16e",
+    "tq_08ea528438",
+    "tq_aeae6da289",
+    "tq_7d1f5c02f8",
+    "tq_cce4a5b66a",
+    "tq_6abeae4a66",
+    "tq_d28ea5b206",
+    "tq_5ce687f933",
+    "tq_d704519bc7",
+    "tq_ed831efceb",
+    "tq_5e06e6d7ca",
+    "tq_e632003065",
+    "tq_85b161dc56",
+    "tq_a46bf43e7b",
+    "tq_913765d325"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "SEEKING RICOCHET VOLLEY",
+   "stance": "low",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.751,
+    "aggression": 0.496,
+    "caution": 0.647,
+    "counter": 0.469,
+    "creativity": 0.792,
+    "evasive": 0.511,
+    "range": 3.2,
+    "reaction": 0.097,
+    "read": 0.758,
+    "temperature": 0.4
+   },
+   "weapons": [
+    "anchor",
+    "flintlock"
+   ]
   },
   "ftr_eb64da082f": {
    "abilities": [
@@ -506,6 +1045,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T03:36:07",
+ "updated": "2026-11-15T10:27:32",
  "version": 1
 }

@@ -20,7 +20,8 @@ from stu.config import load_config, resolve_auto  # noqa: E402
 from stu.core.rng import RNG  # noqa: E402
 from stu.persistence.library import Library, LibraryError, Universe  # noqa: E402
 from stu.qa.validate import validate_match  # noqa: E402
-from stu.themes.generator import load_or_create_theme  # noqa: E402
+from stu.themes.arenas import tournament_arenas  # noqa: E402
+from stu.themes.generator import generate_theme, load_or_create_theme  # noqa: E402
 from stu.tournament import bracket as B  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -41,7 +42,7 @@ def setup(seed, theme="elements", tmp=None):
 def run_match(seed, theme="elements"):
     cfg, u, th, fs, rng = setup(seed, theme)
     m = Match(cfg, fs[0], fs[1], th, u, rng.stream("m"), dict(u["techniques"].items),
-              choose_archetype(fs[0], fs[1], "round", rng), th["arenas"][0])
+              choose_archetype(fs[0], fs[1], "round", rng), tournament_arenas(th, 1, rng.stream("a"), "t")[0])
     return cfg, u, vars(m.run())
 
 
@@ -128,3 +129,34 @@ def test_config_requires_only_three_values():
     assert r["tournament"]["random_seed"] and r["combat"]["combat_speed"] == 1.0
     with pytest.raises(ValueError):
         load_config(None, [(["tournament", "participants"], 1)])
+
+
+def test_theme_packs_and_composition():
+    pir = generate_theme("pirates", RNG(1))
+    assert pir["generated_by"] == "pack" and "hook_hand" in pir["costumes"]
+    assert any(a.get("weapon") == "cutlass" for a in pir["abilities"])
+    assert any(a.get("projectile") == "bullet" for a in pir["abilities"])
+    combo = generate_theme("space pirates", RNG(1))
+    assert combo["generated_by"] == "composition" and set(combo["packs"]) == {"cosmic", "pirates"}
+    drag = generate_theme("dragons", RNG(1))
+    assert any(a.get("origin") == "mouth" for a in drag["abilities"])
+
+
+def test_new_arena_every_tournament():
+    th = generate_theme("pirates", RNG(1))
+    a1 = tournament_arenas(th, 3, RNG(1, "arenas"), "t1")
+    a2 = tournament_arenas(th, 3, RNG(2, "arenas"), "t2")
+    assert len({a["biome"] for a in a1}) == 3          # distinct scenes per round
+    assert [a["name"] for a in a1] != [a["name"] for a in a2] or [a["sky"] for a in a1] != [a["sky"] for a in a2]
+
+
+def test_theme_first_combat():
+    cfg, u, th, fs, rng = setup(2, "pirates")
+    themed = total = 0
+    for seed in (2, 3):
+        cfg, u, r = run_match(seed, "pirates")
+        for e in r["events"]:
+            if e["type"] == "technique":
+                total += 1
+                themed += bool(u["techniques"].get(e["tech"])["abilities"])
+    assert themed / total > 0.8

@@ -21,6 +21,22 @@ PERSONALITIES = {
     "counter":      dict(aggression=0.4, caution=0.6, evasive=0.45, counter=0.9, creativity=0.5, range=1.4, temperature=0.5),
 }
 ACCESSORIES = ["headband", "scarf", "spikes", "horns", "halo", "ponytail", "visor", "topknot"]
+
+
+def choose_costume(theme, rng):
+    """Theme costume: one headwear + extras (hook hands, peg legs, wings...)."""
+    from ..themes.packs import COSTUMES
+    pool = theme.get("costumes") or ACCESSORIES
+    rules = theme.get("costume_rules") or {"head": 1, "extras": (0, 1)}
+    parts = list(rules.get("always", []))
+    heads = [c for c in pool if COSTUMES.get(c) == "head" and c not in parts]
+    others = [c for c in pool if COSTUMES.get(c) != "head" and c not in parts]
+    if heads and not any(COSTUMES.get(c) == "head" for c in parts):
+        parts.append(rng.choice(heads))
+    lo, hi = rules.get("extras", (0, 1))
+    k = min(len(others), rng.randint(lo, hi))
+    parts += rng.sample(others, k)
+    return parts
 STANCES = ["orthodox", "southpaw", "low", "upright"]
 SUFFIXES = ["tar", "ax", "ix", "ion", "ara", "eth", "yx", "os", "ra", "en", "is", "or", "ka", "us", "ia", "ex"]
 CONNECT = ["", "", "r", "n", "v", "z", "k", "l"]
@@ -138,7 +154,7 @@ def generate_fighters(theme, cfg, rng, universe):
         traits["adaptability"] = round(fr.uniform(0.4, 0.9), 3)
         secondary = rgb_to_hex(tuple(min(1, c * 0.55 + 0.45) for c in hex_to_rgb(colors[i])))
         fid = stable_id("ftr", f"{theme['key']}:{t['random_seed']}:{name}")
-        repertoire = build_repertoire(g, fr.stream("repertoire"), universe, cfg)
+        repertoire = build_repertoire(g, fr.stream("repertoire"), universe, cfg, theme.get("physical_weight", 0.2))
         f = {
             "id": fid,
             "name": name,
@@ -147,7 +163,9 @@ def generate_fighters(theme, cfg, rng, universe):
             "ability_names": [a["name"] for a in g],
             "color": colors[i],
             "secondary": secondary,
-            "accessory": fr.choice(ACCESSORIES),
+            "costume": (costume := choose_costume(theme, fr.stream("costume"))),
+            "accessory": costume[0] if costume else fr.choice(ACCESSORIES),
+            "weapons": [a["weapon"] for a in g if a.get("weapon")],
             "stance": fr.choice(STANCES),
             "build": round(fr.uniform(0.94, 1.06), 3),
             "personality": personality,

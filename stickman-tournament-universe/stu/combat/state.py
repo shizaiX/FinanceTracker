@@ -116,7 +116,9 @@ class FighterState:
                        "opp_ranged": 0, "opp_melee": 0}
         self.discont = False
         self.aura = 0.0
-        self.weapon = next((a.get("weapon") for a in abilities if a.get("weapon")), None)
+        self.kit = [a["weapon"] for a in abilities if a.get("weapon")]
+        self.weapon = self.kit[0] if self.kit else None
+        self.physical_weight = 0.2
         self.stats = {"hits": 0, "minor": 0, "combo": 0, "significant": 0, "blocked": 0, "dodges": 0,
                       "techniques": 0, "fusions": 0, "ultimates": 0, "counters": 0, "discoveries": 0,
                       "guard_breaks": 0, "projectiles": 0, "points": 0}
@@ -136,7 +138,7 @@ class FighterState:
 
 class Projectile:
     __slots__ = ("id", "owner", "tech", "x", "y", "vx", "vy", "r", "ttl", "abilities", "style", "homing",
-                 "pierce", "detonate", "split_t", "alive", "hits", "age", "trail")
+                 "pierce", "detonate", "split_t", "alive", "hits", "age", "trail", "g")
 
     def __init__(self, owner, tech, x, y, vx, vy, r, abilities, style):
         self.id = next_uid()
@@ -153,6 +155,7 @@ class Projectile:
         self.alive = True
         self.hits = 1
         self.age = 0.0
+        self.g = p.get("gravity", 0.0)
 
 
 class Beam:

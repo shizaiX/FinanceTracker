@@ -14,6 +14,7 @@ from ..animation.rig import J, solve_local, to_world
 from ..core.mathutil import clamp, seg_seg_dist, smoothstep
 from . import ai
 from .director import Director
+from ..themes.packs import WEAPONS, weapon_class
 from .state import Action, Beam, Blast, EnvStrike, FighterState, Projectile, Zone
 
 SIM_HZ = 120
@@ -21,7 +22,6 @@ DT = 1.0 / SIM_HZ
 GRAVITY = -24.0
 HALF = 7.2
 START_X = 2.3
-WEAPON_LEN = {"blade": 1.0, "spear": 1.35, "hammer": 0.95, None: 0.95}
 
 ADVANTAGE = {("fluid", "heat"), ("heat", "cold"), ("heat", "organic"), ("electric", "fluid"), ("solid", "electric"),
              ("cold", "fluid"), ("organic", "ground"), ("radiant", "void"), ("void", "radiant"), ("sharp", "organic"),
@@ -57,6 +57,7 @@ class Match:
             abilities = [self.ab[i] for i in spec["abilities"] if i in self.ab]
             techs = [techs_by_id[t] for t in spec["repertoire"] if t in techs_by_id]
             f = FighterState(spec, side, abilities, techs, -START_X if side == 0 else START_X)
+            f.physical_weight = theme.get("physical_weight", 0.2)
             self.fighters.append(f)
         self.t = 0.0
         self.tick = 0
@@ -677,11 +678,19 @@ class Match:
 
     def _spawn_projectile(self, f, o, tech):
         p = tech["params"]
-        hx, hy = f.anim.joints[J["hand_f"]] if f.anim.joints else (f.x + 0.5 * f.facing, f.y + 1.3)
+        hx, hy = self.origin_point(f, tech)
         tx, ty = o.x, o.y + 1.1
         ang = math.atan2(ty - hy, (tx - hx) * f.facing)
         ang = clamp(ang, -0.5, 0.6)
         spd = p.get("speed", 11.0)
+        g = p.get("gravity", 0.0)
+        if g > 0:  # ballistic lob that lands on the opponent
+            dist = max(1.0, abs(tx - hx))
+            tflight = clamp(dist / spd, 0.35, 1.1)
+            vx_ = dist / tflight
+            vy_ = ((o.y + 0.6 - hy) + 0.5 * g * tflight * tflight) / tflight
+            spd = math.hypot(vx_, vy_)
+            ang = math.atan2(vy_, vx_)
         n = p.get("hits", 1) if tech["timing"] == "multi_hit" else 1
         for i in range(n):
             pr = Projectile(f.side, tech, hx + 0.15 * f.facing, hy, spd * math.cos(ang) * f.facing, spd * math.sin(ang),
@@ -691,7 +700,26 @@ class Match:
                 pr.age = -0.05 * i
             self.projectiles.append(pr)
         f.stats["projectiles"] += n
-        self.event("projectile", fighter=f.side, abilities=tech["abilities"], x=hx, y=hy, style=self._style(tech), tech=tech["id"])
+        self.event("projectile", fighter=f.side, abilities=tech["abilities"], x=hx, y=hy, style=self._style(tech), tech=tech["id"],
+                   weapon=weapon_class(self.tech_weapon(f, tech)), dir=f.facing)
+
+    def origin_point(self, f, tech):
+        """Where a projectile / beam leaves the body: hand, muzzle or mouth."""
+        j = f.anim.joints
+        if not j:
+            return f.x + 0.5 * f.facing, f.y + 1.3
+        if any(self.ab.get(a, {}).get("origin") == "mouth" for a in tech["abilities"]):
+            hx, hy = j[J["head"]]
+            return hx + 0.17 * f.facing, hy - 0.03
+        hx, hy = j[J["hand_f"]]
+        w = self.tech_weapon(f, tech)
+        if weapon_class(w) in ("firearm", "staff") and WEAPONS[w]["len"] > 0:
+            ex, ey = j[J["elbow_f"]]
+            dx, dy = hx - ex, hy - ey
+            n = math.hypot(dx, dy) or 1.0
+            L = WEAPONS[w]["len"]
+            return hx + dx / n * L, hy + dy / n * L
+        return hx, hy
 
     def _slam_impact(self, f, tech):
         p = tech["params"]
@@ -779,6 +807,8 @@ class Match:
             tgt = fs[1 - pr.owner]
             if pr.age < 0:
                 continue
+            if pr.g > 0:
+                pr.vy -= pr.g * dt
             if pr.homing > 0 and not tgt.hidden:
                 desired = math.atan2(tgt.y + 1.1 - pr.y, tgt.x - pr.x)
                 cur = math.atan2(pr.vy, pr.vx)
@@ -816,6 +846,8 @@ class Match:
                     pr.hits -= 1
                     if not pr.pierce:
                         pr.alive = False
+                        if pr.g > 0:
+                            self.event("explode", x=pr.x, y=pr.y, r=0.9, abilities=pr.abilities, low=False)
                         break
                 for q in self.projectiles:
                     if q is not pr and q.alive and q.owner != pr.owner and math.hypot(q.x - pr.x, q.y - pr.y) < q.r + pr.r:
@@ -834,6 +866,8 @@ class Match:
                     break
                 if pr.y < pr.r * 0.5:
                     pr.alive = False
+                    if pr.g > 0:  # bombs, kegs, cannonballs and bottles burst on landing
+                        self.blasts.append(Blast(pr.owner, pr.tech, pr.x, 0.3, 1.1, 0.0, pr.abilities, {"low": True, "trap": pr.tech["params"].get("trap")}))
                     self.event("impact", x=pr.x, y=0.05, abilities=pr.abilities, ground=True)
                     self._maybe_zone(pr.owner, pr.abilities, pr.x, 0.35, pr.tech["params"].get("trap"))
                     break
@@ -854,7 +888,7 @@ class Match:
                 self.event("beam_end", fighter=bm.owner, x=bm.x1, y=bm.y1, abilities=bm.abilities)
                 continue
             tgt = fs[1 - bm.owner]
-            hx, hy = f.anim.joints[J["hand_f"]] if f.anim.joints else (f.x, f.y + 1.3)
+            hx, hy = self.origin_point(f, bm.tech)
             bm.x0, bm.y0 = hx + 0.1 * f.facing, hy
             ang = math.atan2(tgt.y + 1.1 - hy, (tgt.x - hx) * f.facing)
             bm.angle = clamp(ang, -0.35, 0.35)
@@ -960,6 +994,8 @@ class Match:
                 elif z.kind == "electrified":
                     f.poise -= 12.0 * dt
                     f.hitflash = max(f.hitflash, 0.03)
+                elif z.kind == "toxic":
+                    f.poise -= 6.0 * dt
                 elif z.kind in ("vines", "shadow"):
                     f.slow_t = 0.1
                 elif z.kind == "well":
@@ -1025,13 +1061,24 @@ class Match:
                 return True
         return False
 
-    def _effector(self, f, limb, joints):
+    def tech_weapon(self, f, tech):
+        if tech:
+            for aid in tech["abilities"]:
+                w = self.ab.get(aid, {}).get("weapon")
+                if w:
+                    return w
+            if tech["abilities"]:
+                return None  # elemental / energy technique
+        return f.weapon
+
+    def _effector(self, f, limb, joints, tech=None):
         if limb == "weapon":
             hx, hy = joints[J["hand_f"]]
             ex, ey = joints[J["elbow_f"]]
             dx, dy = hx - ex, hy - ey
             n = math.hypot(dx, dy) or 1.0
-            L = WEAPON_LEN.get(f.weapon, 0.95)
+            w = self.tech_weapon(f, tech)
+            L = WEAPONS[w]["len"] if w in WEAPONS and WEAPONS[w]["len"] > 0 else 0.95
             return (hx, hy), (hx + dx / n * L, hy + dy / n * L)
         if limb == "body":
             limb = "chest"
@@ -1055,8 +1102,8 @@ class Match:
             r = 0.2
         if tech["delivery"] == "charge":
             limb, r = "chest", 0.32
-        a0, a1 = self._effector(f, limb, j)
-        b0, b1 = self._effector(f, limb, pj)
+        a0, a1 = self._effector(f, limb, j, tech)
+        b0, b1 = self._effector(f, limb, pj, tech)
         hit = False
         for s, e, rr in self._hurt_segments(o):
             if seg_seg_dist(b1, a1, s, e) <= r + rr or seg_seg_dist(a0, a1, s, e) <= r + rr:
@@ -1300,7 +1347,7 @@ class Match:
             f.no_regen = max(0.0, f.no_regen - dt)
             if self.state != "fight":
                 continue
-            regen = 8.0 + (34.0 if f.action.kind == "charge" else 0.0)
+            regen = 10.0 + (34.0 if f.action.kind == "charge" else 0.0)
             f.energy = min(100.0, f.energy + regen * dt)
             if f.action.kind == "charge":
                 f.focus = min(100.0, f.focus + 4.0 * dt)
@@ -1367,17 +1414,24 @@ class Match:
                 flags |= FLAG_DISCONT
             if k == "technique" and f.action.tech["tier"] == "ultimate":
                 flags |= FLAG_ULT
-            weapon = None
-            if k == "technique" and f.action.tech["delivery"] == "summon_weapon" and f.action.phase in ("antic", "active", "recovery"):
-                weapon = f.action.tech["abilities"]
+            tech = f.action.tech if k == "technique" else None
+            front = self.tech_weapon(f, tech) if tech and tech["abilities"] else (f.kit[0] if f.kit else None)
+            if tech and not tech["abilities"]:
+                front = None if not f.kit or weapon_class(f.kit[0]) in ("firearm", "bow") else f.kit[0]
+            back = next((w for w in f.kit if w != front), None)
+            if front and weapon_class(front) == "shield":
+                front, back = back, front
+            energy = None
+            if tech and tech["delivery"] == "summon_weapon" and not self.tech_weapon(f, tech) and f.action.phase in ("antic", "active", "recovery"):
+                energy = tech["abilities"]
+            weapon = (front, back, energy)
+            if front or back or energy:
                 flags |= FLAG_WEAPON
-            elif f.weapon:
-                weapon = f.ability_ids[:1]
-                flags |= FLAG_WEAPON
-            tech_ab = f.action.tech["abilities"] if k == "technique" else None
+            tech_ab = tech["abilities"] if tech else None
+            limb = template(tech["delivery"], f.action.data.get("variant", tech["variant"]))["limb"] if tech else ""
             joints = [round(c, 4) for pt in f.anim.joints for c in pt]
             fs.append((round(f.x, 4), round(f.y, 4), f.facing, joints, k, flags, round(f.aura, 3), weapon, tech_ab,
-                       f.action.phase if k == "technique" else "", round(f.vx, 3)))
+                       f.action.phase if k == "technique" else "", round(f.vx, 3), limb))
         rec = {
             "t": round(self.t, 5),
             "f": fs,

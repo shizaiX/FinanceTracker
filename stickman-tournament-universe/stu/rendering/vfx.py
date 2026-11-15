@@ -188,8 +188,15 @@ class EffectSystem:
             self.flashes.append((t, x, y, 0.9, 0.12, main[0]))
             self.bolts.append((t, x, 0.0, x, 2.4, 0.12, main, rng.randrange(1 << 20)))
         elif ty == "projectile":
-            self.flashes.append((t, x, y, 0.45, 0.08, main[0]))
-            self.burst(rng, t, x, y, n(6), ab, (1.5, 4))
+            if e.get("weapon") == "firearm":
+                d = e.get("dir", 1)
+                a0 = 0.0 if d > 0 else math.pi
+                self.flashes.append((t, x, y, 0.55, 0.07, (1, 0.9, 0.5)))
+                self.burst(rng, t, x, y, n(10), [], (3, 8), styles=["spark"], ang=(a0 - 0.4, a0 + 0.4))
+                self.burst(rng, t, x, y, n(7), [], (0.5, 1.8), styles=["smoke"], life=1.0, size=0.15)
+            else:
+                self.flashes.append((t, x, y, 0.45, 0.08, main[0]))
+                self.burst(rng, t, x, y, n(6), ab, (1.5, 4))
         elif ty == "impact":
             self.burst(rng, t, x, y, n(10 if not e.get("fizzle") else 6), ab, (2, 5))
             self.flashes.append((t, x, y, 0.35, 0.07, main[0]))

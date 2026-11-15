@@ -19,7 +19,7 @@
 | Config | `stu/config.py` | Defaults, overrides, validation, resolution of `auto` values |
 | Determinism | `stu/core/rng.py` | Named, independent random streams derived with SHA-256 from the seed |
 | Persistence | `stu/persistence/library.py` | Versioned JSON libraries: atomic writes, schema checks and migration, content-hash ids, merge-only updates, backup, import and export |
-| Themes | `stu/themes/{catalog,generator}.py` | Archetypes, built-in seed themes, procedural themes, theme expansion |
+| Themes | `stu/themes/{catalog,packs,generator,arenas}.py` | Archetypes, weapon/costume catalogues, theme packs, composition, procedural fallback, per-tournament arena generation |
 | Fighters | `stu/combat/fighters.py` | Names, distinct colours, accessories, personalities and traits, balanced loadout draft, repertoire |
 | Techniques | `stu/combat/techniques.py` | Component catalogues, validator, parameters, names, composer, repertoire builder |
 | Fusion | `stu/combat/combinations.py` | Reaction rules, compatibility scoring, combination records |
@@ -27,7 +27,7 @@
 | AI | `stu/combat/ai.py` | Utility decisions, reactive defense, adaptation, dynamic discovery |
 | Director | `stu/combat/director.py` | Phases, choreography archetypes, pacing and duration guarantees |
 | Animation | `stu/animation/{rig,poses}.py` | Skeleton, FK and 2-bone IK, foot planting, keypose templates, blending |
-| Rendering | `stu/rendering/*` | Time map, camera, VFX, scene, HUD, cards, encoder |
+| Rendering | `stu/rendering/*` | Time map, camera, VFX, scene, weapons, costumes, arena art, HUD, cards, encoder |
 | Audio | `stu/audio/*` | Synthesis and event-synchronised mixing |
 | Tournament | `stu/tournament/*` | Bracket with byes, pipeline and checkpoints, metadata |
 | QA | `stu/qa/validate.py` | Match, video and bracket validation, contact sheets |
@@ -92,5 +92,5 @@ config.yaml ─► resolve_auto ─► Universe (libraries) ─► theme package
   * `creative.subtitles` has no effect.
   * `video.export_individual_fights: false` currently also skips match rendering, so the complete tournament and highlights would come out without fights.
 * Only `single_elimination` and the `h264` codec are implemented. `subsequent_matchmaking` is always the winners bracket.
-* Procedural themes outside the seed knowledge reuse the archetype catalogue under theme-flavoured names. Their mechanics are coherent, but they cannot invent brand-new visual archetypes.
-* Weapons are drawn for blade, spear and hammer archetypes. Other weapon themes use energy weapons.
+* Theme names that match none of the packs (e.g. "candy") still fall back to the generic archetypes and generic costumes. New knowledge packs are plain data in `stu/themes/packs.py` and get weapons, costumes and arenas immediately; an LLM-backed pack generator that writes such data is the natural next step.
+* Energy blades are only used for powers without a physical weapon (e.g. an elemental "fire blade"); every pack weapon is drawn as itself.

@@ -1,0 +1,100 @@
+{
+ "count": 3,
+ "items": {
+  "arena_seven_seas_brawl_1_77_0": {
+   "accent": "#ffa74a",
+   "ambient": "motes",
+   "biome": "skull_cave",
+   "celestial": "moon",
+   "far": "#1a100e",
+   "far_type": "cave",
+   "ground": "#3a2822",
+   "ground_style": "stone",
+   "id": "arena_seven_seas_brawl_1_77_0",
+   "layout_seed": 213533010,
+   "lightning": false,
+   "mid": "#241713",
+   "name": "Cave of Lost Gold",
+   "props": "gold_pile",
+   "props_list": [
+    "gold_pile",
+    "chest",
+    "torch",
+    "bones",
+    "gold_pile"
+   ],
+   "ships": false,
+   "sky": [
+    "#07060a",
+    "#2a1612"
+   ],
+   "theme": "pirates",
+   "time_of_day": "night",
+   "tournament": "seven_seas_brawl_1_77"
+  },
+  "arena_seven_seas_brawl_1_77_1": {
+   "accent": "#ffeba0",
+   "ambient": "spray",
+   "biome": "ship_deck",
+   "celestial": "sun",
+   "far": "#152c5c",
+   "far_type": "sea",
+   "ground": "#6b5223",
+   "ground_style": "planks",
+   "id": "arena_seven_seas_brawl_1_77_1",
+   "layout_seed": 311480358,
+   "lightning": false,
+   "mid": "#312511",
+   "name": "The Drowned Maiden",
+   "props": "mast",
+   "props_list": [
+    "mast",
+    "cannon",
+    "barrel",
+    "crate",
+    "rigging"
+   ],
+   "ships": true,
+   "sky": [
+    "#331a4a",
+    "#ffae4a"
+   ],
+   "theme": "pirates",
+   "time_of_day": "dusk",
+   "tournament": "seven_seas_brawl_1_77"
+  },
+  "arena_seven_seas_brawl_1_77_2": {
+   "accent": "#9fc5ff",
+   "ambient": "rain",
+   "biome": "storm_deck",
+   "celestial": "moon",
+   "far": "#0f1726",
+   "far_type": "sea",
+   "ground": "#4a3620",
+   "ground_style": "planks",
+   "id": "arena_seven_seas_brawl_1_77_2",
+   "layout_seed": 999104789,
+   "lightning": true,
+   "mid": "#332313",
+   "name": "Deck of the Widowmaker",
+   "props": "mast",
+   "props_list": [
+    "mast",
+    "cannon",
+    "barrel",
+    "rigging"
+   ],
+   "ships": true,
+   "sky": [
+    "#05050f",
+    "#293146"
+   ],
+   "theme": "pirates",
+   "time_of_day": "night",
+   "tournament": "seven_seas_brawl_1_77"
+  }
+ },
+ "schema": "stu.arenas",
+ "updated": "2026-11-15T10:27:32",
+ "version": 1
+}

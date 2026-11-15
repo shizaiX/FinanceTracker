@@ -1,5 +1,5 @@
 {
- "count": 43,
+ "count": 50,
  "items": {
   "anim_aerial_strike_0": {
    "delivery": "aerial_strike",
@@ -160,6 +160,86 @@
    "limb": "hand_f",
    "lunge": 0.0,
    "variant": 0
+  },
+  "anim_beam_1": {
+   "delivery": "beam",
+   "keys": [
+    {
+     "crouch": 0.15,
+     "fbfree": 0.0,
+     "fbx": -0.42,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.42,
+     "ffy": 0.0,
+     "hbx": -0.1,
+     "hby": 0.25,
+     "head": 0.4,
+     "hfx": 0.3,
+     "hfy": 0.2,
+     "lean": -0.35,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.24,
+     "fbfree": 0.0,
+     "fbx": -0.44,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": 0.1,
+     "hby": -0.28,
+     "head": -0.1,
+     "hfx": 0.36,
+     "hfy": -0.2,
+     "lean": 0.38,
+     "rot": 0.0
+    }
+   ],
+   "limb": "head",
+   "lunge": 0.0,
+   "variant": 1
+  },
+  "anim_beam_2": {
+   "delivery": "beam",
+   "keys": [
+    {
+     "crouch": 0.15,
+     "fbfree": 0.0,
+     "fbx": -0.4,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.4,
+     "ffy": 0.0,
+     "hbx": 0.1,
+     "hby": -0.1,
+     "head": -0.05,
+     "hfx": 0.2,
+     "hfy": 0.45,
+     "lean": -0.15,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.42,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.42,
+     "ffy": 0.0,
+     "hbx": 0.0,
+     "hby": -0.15,
+     "head": -0.05,
+     "hfx": 0.6,
+     "hfy": 0.15,
+     "lean": 0.15,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.0,
+   "variant": 2
   },
   "anim_charge_0": {
    "delivery": "charge",
@@ -617,6 +697,126 @@
    "lunge": 0.05,
    "variant": 2
   },
+  "anim_projectile_3": {
+   "delivery": "projectile",
+   "keys": [
+    {
+     "crouch": 0.12,
+     "fbfree": 0.0,
+     "fbx": -0.3,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.34,
+     "ffy": 0.0,
+     "hbx": 0.08,
+     "hby": -0.12,
+     "head": -0.05,
+     "hfx": 0.4,
+     "hfy": 0.3,
+     "lean": 0.0,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.12,
+     "fbfree": 0.0,
+     "fbx": -0.3,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.34,
+     "ffy": 0.0,
+     "hbx": 0.05,
+     "hby": -0.14,
+     "head": -0.05,
+     "hfx": 0.6,
+     "hfy": 0.12,
+     "lean": -0.06,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.0,
+   "variant": 3
+  },
+  "anim_projectile_4": {
+   "delivery": "projectile",
+   "keys": [
+    {
+     "crouch": 0.12,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.12,
+     "hby": 0.24,
+     "head": 0.35,
+     "hfx": 0.28,
+     "hfy": 0.18,
+     "lean": -0.32,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.22,
+     "fbfree": 0.0,
+     "fbx": -0.4,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": 0.14,
+     "hby": -0.26,
+     "head": -0.12,
+     "hfx": 0.34,
+     "hfy": -0.18,
+     "lean": 0.42,
+     "rot": 0.0
+    }
+   ],
+   "limb": "head",
+   "lunge": 0.1,
+   "variant": 4
+  },
+  "anim_projectile_5": {
+   "delivery": "projectile",
+   "keys": [
+    {
+     "crouch": 0.22,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": 0.2,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": -0.3,
+     "hfy": -0.3,
+     "lean": 0.25,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.06,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.4,
+     "ffy": 0.0,
+     "hbx": -0.2,
+     "hby": -0.15,
+     "head": -0.05,
+     "hfx": 0.36,
+     "hfy": 0.5,
+     "lean": -0.15,
+     "rot": 0.0
+    }
+   ],
+   "limb": "hand_f",
+   "lunge": 0.05,
+   "variant": 5
+  },
   "anim_punch_0": {
    "delivery": "punch",
    "keys": [
@@ -856,6 +1056,86 @@
    "limb": "weapon",
    "lunge": 0.24,
    "variant": 1
+  },
+  "anim_summon_weapon_2": {
+   "delivery": "summon_weapon",
+   "keys": [
+    {
+     "crouch": 0.16,
+     "fbfree": 0.0,
+     "fbx": -0.32,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.3,
+     "ffy": 0.0,
+     "hbx": -0.2,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": -0.08,
+     "hfy": 0.02,
+     "lean": -0.12,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.2,
+     "fbfree": 0.0,
+     "fbx": -0.3,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.56,
+     "ffy": 0.0,
+     "hbx": 0.3,
+     "hby": 0.0,
+     "head": -0.05,
+     "hfx": 0.62,
+     "hfy": 0.04,
+     "lean": 0.42,
+     "rot": 0.0
+    }
+   ],
+   "limb": "weapon",
+   "lunge": 0.45,
+   "variant": 2
+  },
+  "anim_summon_weapon_3": {
+   "delivery": "summon_weapon",
+   "keys": [
+    {
+     "crouch": 0.06,
+     "fbfree": 0.0,
+     "fbx": -0.27,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.27,
+     "ffy": 0.0,
+     "hbx": -0.15,
+     "hby": 0.55,
+     "head": -0.05,
+     "hfx": -0.1,
+     "hfy": 0.6,
+     "lean": -0.36,
+     "rot": 0.0
+    },
+    {
+     "crouch": 0.36,
+     "fbfree": 0.0,
+     "fbx": -0.34,
+     "fby": 0.0,
+     "ffree": 0.0,
+     "ffx": 0.46,
+     "ffy": 0.0,
+     "hbx": 0.42,
+     "hby": -0.44,
+     "head": -0.05,
+     "hfx": 0.48,
+     "hfy": -0.42,
+     "lean": 0.66,
+     "rot": 0.0
+    }
+   ],
+   "limb": "weapon",
+   "lunge": 0.25,
+   "variant": 3
   },
   "anim_sweep_0": {
    "delivery": "sweep",
@@ -1359,6 +1639,6 @@
   }
  },
  "schema": "stu.animations",
- "updated": "2026-11-15T03:11:25",
+ "updated": "2026-11-15T10:27:32",
  "version": 1
 }

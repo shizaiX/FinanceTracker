@@ -25,13 +25,15 @@ def set_font(cr, size, heavy=True):
 
 
 def text(cr, s, x, y, size, color=(1, 1, 1), align="center", alpha=1.0, outline=0.16, heavy=True, scale=1.0,
-         glow=None, tracking=0.0):
+         glow=None, tracking=0.0, max_width=None):
     if alpha <= 0.01 or not s:
         return 0
     cr.save()
     set_font(cr, size, heavy)
     xb, yb, w, h, xa, ya = cr.text_extents(s)
     w += tracking * size * max(0, len(s) - 1)
+    if max_width and w * scale > max_width:
+        scale *= max_width / (w * scale)
     cr.translate(x, y)
     cr.scale(scale, scale)
     ox = {"center": -w / 2 - xb, "left": -xb, "right": -w - xb}[align]
@@ -111,9 +113,10 @@ class Hud:
             c = self.col[side]
             x = u(56) if side == 0 else W - u(56)
             al = "left" if side == 0 else "right"
-            text(cr, f["name"], x, top + u(28), u(58), c, al, alpha, glow=c)
+            text(cr, f["name"], x, top + u(28), u(58), c, al, alpha, glow=c, max_width=u(330))
             abil = " · ".join(a.upper() for a in f["ability_names"])
-            text(cr, abil, x, top + u(80), u(25), (0.88, 0.88, 0.92), al, alpha * 0.95, outline=0.2, heavy=False, tracking=0.04)
+            text(cr, abil, x, top + u(80), u(25), (0.88, 0.88, 0.92), al, alpha * 0.95, outline=0.2, heavy=False, tracking=0.04,
+                 max_width=u(330))
             # guard bar
             p = clamp((pa if side == 0 else pb) / 100.0, 0, 1)
             bw, bh = u(330), u(11)
@@ -207,6 +210,8 @@ class Hud:
         top = self.H * SAFE_TOP + self.u(20)
         text(cr, info.get("tournament_name", "").upper(), self.W / 2, top, self.u(34), (1, 0.88, 0.55), "center", alpha, tracking=0.1)
         text(cr, info.get("stage_label", ""), self.W / 2, top + self.u(46), self.u(28), (0.9, 0.9, 0.95), "center", alpha, heavy=False, tracking=0.08)
+        if info.get("arena_name"):
+            text(cr, info["arena_name"].upper(), self.W / 2, top + self.u(86), self.u(24), (0.75, 0.85, 1.0), "center", alpha * 0.9, heavy=False, tracking=0.12)
 
     def hook(self, cr, age):
         a = clamp(age / 0.15, 0, 1)

@@ -65,6 +65,13 @@ def tech_utility(f, o, tech, dist, m):
         return 0.0
     ph = m.director.phase_index(m.fight_t)
     u = 1.0 * fit * TIER_PHASE[tech["tier"]][ph]
+    # Theme first: plain unarmed moves are only as common as the theme allows.
+    if tech["tier"] == "basic":
+        u *= 0.15 + 1.4 * f.physical_weight
+    elif d in ("punch", "kick", "barrage", "uppercut") and not any(a.get("physical") for a in f.abilities if a["id"] in tech["abilities"]):
+        u *= 0.45 + 2.0 * f.physical_weight  # powers are thrown, breathed, cast — not mainly punched
+    elif kind in ("melee", "grab"):
+        u *= 1.15
     tr = f.traits
     if kind in ("melee", "grab"):
         u *= 0.55 + tr["aggression"] * m.director.aggression(m.fight_t)
@@ -266,7 +273,7 @@ def choose_response(f, o, m, delivery, height, remaining, tech, rng):
     fast = None
     dist = abs(o.x - f.x)
     if delivery in ("punch", "kick", "summon_weapon", "barrage", "charge", "aerial_strike", "uppercut"):
-        for t in f.techs:
+        for t in sorted(f.techs, key=lambda t: (not t["abilities"], t["params"]["startup"])):
             pp = t["params"]
             if (t["kind"] == "melee" and t["movement"] == "none" and pp["startup"] < remaining - 0.02 and
                     dist <= pp["reach"] + 0.05 and pp["cost"] <= f.energy and not DELIVERIES[t["delivery"]].get("air_only")):
