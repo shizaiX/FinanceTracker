@@ -1572,10 +1572,10 @@
    "stats_recorded": true,
    "timeline_hash": "b2a84d802e754acb7515487ce0cb4fa63ca6a831fd00e18828eff448b5d6de80",
    "video": "exports/elements_1122603931/final/match_007.mp4",
-   "video_frames": 7437,
+   "video_frames": 7797,
    "video_issues": [],
    "video_ok": true,
-   "video_seconds": 123.95,
+   "video_seconds": 129.95,
    "winner": "ftr_0ca39a12b5"
   }
  },
@@ -1584,7 +1584,6 @@
  "schema": "stu.tournament",
  "slug": "elements_1122603931",
  "steps": {
-  "champion": "exports/elements_1122603931/champion.mp4",
   "complete": "exports/elements_1122603931/complete_tournament.mp4",
   "highlights": "exports/elements_1122603931/highlights.mp4",
   "intro_bracket_01": {
@@ -1602,9 +1601,13 @@
   "intro_roster": {
    "frames": 321,
    "path": "tournaments/elements_1122603931/intros/roster.mp4"
+  },
+  "outro_champion": {
+   "frames": 360,
+   "path": "tournaments/elements_1122603931/intros/champion.mp4"
   }
  },
  "theme": "elements",
- "updated": "2026-11-15T21:08:39",
+ "updated": "2026-11-15T23:18:47",
  "version": 1
 }

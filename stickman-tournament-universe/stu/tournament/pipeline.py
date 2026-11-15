@@ -172,12 +172,15 @@ class Tournament:
                 # match of the tournament, the bracket before the first match of each stage.
                 intros = self.stage_intros(m)
                 intro_frames = sum(fr for _, fr in intros)
-                if intros:
-                    concat_videos([p for p, _ in intros] + [fight_only], out)
+                # The final ends with the champion reveal in the same video.
+                outros = [self.champion_clip(rec["winner"])] if m["round_name"] == "final" else []
+                outro_frames = sum(fr for _, fr in outros)
+                if intros or outros:
+                    concat_videos([p for p, _ in intros] + [fight_only] + [p for p, _ in outros], out)
                 else:
                     os.replace(fight_only, out)
                 shrink_to(out, self.cfg["video"].get("max_file_mb", 95), self.cfg["video"], log=log)
-                total = n + intro_frames
+                total = n + intro_frames + outro_frames
                 vissues = validate_video(out, self.cfg, expected_frames=total)
                 fps = self.cfg["video"]["fps"]
                 rec.update({"video": os.path.relpath(out, self.root), "video_frames": total, "video_seconds": round(total / fps, 3),
@@ -285,6 +288,13 @@ class Tournament:
         self.save()
         return out, probe.n
 
+    def champion_clip(self, champ):
+        wins = [r for r in self.state["matches"].values() if r.get("winner") == champ and r.get("scores")]
+        rec = f"{len(wins)} WINS · " + " · ".join(f"{max(r['scores'])}-{min(r['scores'])}" for r in wins)
+        name = self.state["name"].upper()
+        return self.render_clip("outro_champion", lambda: BracketCard(self.cfg, self.state, name, rec, 6.0, champ),
+                                os.path.join(self.path, "intros", "champion.mp4"), audio_kind="champion")
+
     def stage_intros(self, m):
         """Intro clips to put in front of match m (empty unless m opens a stage)."""
         br = self.state["bracket"]
@@ -352,9 +362,6 @@ class Tournament:
         cf = self.fighters[champ]
         log(f"CHAMPION: {cf['name']}")
         if render:
-            wins = [r for r in self.state["matches"].values() if r.get("winner") == champ]
-            rec = f"{len(wins)} WINS · " + " · ".join(f"{max(r['scores'])}-{min(r['scores'])}" for r in wins)
-            self.render_card("champion", self.state["name"].upper(), rec, os.path.join(self.export_dir, "champion.mp4"), 6.0, champion=champ)
             self.finalize_exports()
         self._finish_history()
 
@@ -368,7 +375,6 @@ class Tournament:
                     rec = self.state["matches"].get(mid)
                     if rec and rec.get("video"):
                         parts.append(os.path.join(self.root, rec["video"]))
-            parts.append(os.path.join(self.root, self.state["steps"]["champion"]))
             out = os.path.join(self.export_dir, "complete_tournament.mp4")
             try:
                 concat_videos(parts, out)
@@ -388,7 +394,7 @@ class Tournament:
                 out = os.path.join(hdir, f"{mid}_finish.mp4")
                 cut_clip(os.path.join(self.root, rec["video"]), rec["ko_video_t"] - 2.2, 5.5, out, v)
                 clips.append(out)
-            champ_card = os.path.join(self.root, self.state["steps"]["champion"])
+            champ_card, _ = self.champion_clip(self.state["champion"])
             clips.append(champ_card)
             out = os.path.join(self.export_dir, "highlights.mp4")
             concat_videos(clips, out, reencode=True, video_cfg=v)
