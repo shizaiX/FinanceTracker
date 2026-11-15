@@ -62,6 +62,8 @@ class Tournament:
         self.u = universe or Universe(self.root)
         self.cfg = self.state["config"]
         self.theme = self.u.load_theme(self.state["theme"])
+        from ..themes.ai_pack import register_theme_assets
+        register_theme_assets(self.theme)
         self.abilities = {a["id"]: a for a in self.theme["abilities"]}
         self.fighters = {f["id"]: f for f in self.state["fighters"]}
         self.names = {fid: f["name"] for fid, f in self.fighters.items()}
@@ -375,7 +377,8 @@ def create_tournament(cfg, root=PROJECT_ROOT, universe=None, custom_abilities=No
     t = cfg["tournament"]
     probe_rng = RNG(seed if seed is not None else 0, "theme")
     needed = t["participants"] * t["abilities_per_fighter"] if raw_unique is True else t["abilities_per_fighter"] + 1
-    theme = load_or_create_theme(u, t["theme"], probe_rng, needed, custom_abilities)
+    theme = load_or_create_theme(u, t["theme"], probe_rng, needed, custom_abilities,
+                                 mode=cfg["creative"].get("theme_generator", "auto"), log=log)
     cfg = resolve_auto(cfg, len(theme["abilities"]))
     seed = cfg["tournament"]["random_seed"]
     rng = RNG(seed)

@@ -32,7 +32,8 @@ exports/<tournament>/
 | `python -m stu validate tournaments/<slug>` | Run QA again on all outputs |
 | `python -m stu new … --no-render` | Simulate and validate without rendering |
 | `python -m stu new … --preview` | Quick 540×960 @ 30 fps draft, not for publishing |
-| `python -m stu themes list` / `themes create "<any theme>"` | Show the saved themes, or generate a new theme package |
+| `python -m stu themes list` / `themes create "<any theme>"` | Show the saved themes, or generate a new theme pack (Claude-designed when credentials are available) |
+| `python -m stu themes prompt "<theme>"` / `themes import "<theme>" pack.json` | Print the pack-design prompt + JSON schema (e.g. to use in claude.ai), and import a pack JSON through the same validator |
 | `python -m stu library stats \| backup \| export f.zip \| import f.zip` | Manage the persistent libraries |
 | `python -m stu new … --set video.fps=60 --set tournament.points_to_win=3` | Override any setting |
 | `python -m pytest tests -q` | Run the test suite |
@@ -45,10 +46,12 @@ Settings live in `config.yaml`. Only `theme`, `participants` and `abilities_per_
 
 * **Themes** (`stu/themes`): a theme package defines the abilities, real weapons, costume parts, arena biomes and how much plain fist-fighting suits the theme.
   * Built-in packs (`stu/themes/packs.py`): elements, pirates, dragons, ninjas, knights, wizards, weapons, superpowers, cosmic.
-  * Theme names are *composed* from packs: "space pirates" = cosmic + pirates, "dragon knights" = dragons + knights. Abilities, costumes and arenas of both packs are merged.
-  * A name that matches no pack at all gets a procedural package from the archetype catalogue (theme-flavoured names, generic looks).
+  * **New themes are designed by Claude** (`stu/themes/ai_pack.py`): any theme name that isn't a built-in pack is sent once to Claude (`claude-opus-5-5`, structured JSON output). Claude picks abilities, their weapons, powers and projectiles, the costume parts, how much fist-fighting suits the theme and 3–5 arenas. It can also define brand-new weapons (from weapon class, length, head, guard, stock and colours) and brand-new arena biomes (backdrop, props, floor, weather, sky colours, name templates). The JSON schema's enums are the engine's drawable catalogues and the result is validated again locally, so everything generated can be simulated and rendered. The pack is saved to `themes/` and reused, so Claude is called once per theme. Needs `pip install anthropic` and credentials (`ANTHROPIC_API_KEY` or `ant auth login`). The request enables server-side refusal fallbacks. `creative.theme_generator`: `auto` (default) / `claude` / `offline`.
+  * Without credentials, names are *composed* from packs ("space pirates" = cosmic + pirates) or, if nothing matches, built procedurally from the archetype catalogue with generic looks.
+  * Included example: `themes/wild_west.json` was designed in this format (revolvers, a coach gun, bowie knives, tomahawks, dynamite, lassos, dust devils, stampedes; main street, canyon railway and saloon arenas). `tests/fixtures/wild_west_pack.json` is the raw pack.
   * `--abilities-list "Laser, Jetpack, …"` maps custom ability names onto archetypes through a keyword lexicon.
   * Packages are saved in `themes/` and upgraded/expanded later instead of being overwritten.
+* **No out-of-theme weapons**: a physical ability without a melee weapon (rum bottle, pistol, keg, …) can never "summon a blade"; glowing energy blades are reserved for supernatural powers. Saved repertoires are re-validated before every fight.
 * **Theme-first combat**: every ability gets its own close-range and ranged techniques built from its weapon or power. Weapons and martial skills cost little energy, powers cost more. Plain unarmed moves only appear in proportion to the theme (elements ≈ 8 %, pirates/knights ≈ 5 % of techniques in testing).
 * **Visual identity** (`stu/rendering/{weapons,costume,arena_art}.py`):
   * About 30 procedurally drawn weapons: cutlass, katana, longsword, dagger, claws, spear, harpoon, trident, lance, war hammer, anchor, axe, mace, staff, wand, flintlock, blunderbuss, musket, longbow, crossbow, shield, gauntlets…

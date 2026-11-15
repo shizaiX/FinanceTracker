@@ -112,8 +112,22 @@ def _pack_fields(key, packs):
             "physical_weight": sum(p.get("physical_weight", 0.2) for p in ps) / len(ps), "packs": packs}
 
 
-def generate_theme(name: str, rng, custom_abilities=None):
+def generate_theme(name: str, rng, custom_abilities=None, mode="offline", log=print):
     key = theme_key(name)
+    if mode in ("auto", "claude") and not custom_abilities and key not in THEME_PACKS:
+        from .ai_pack import generate_with_claude, pack_to_theme
+        log(f"  theme '{name}' is new: asking Claude to design a theme pack ...")
+        data = generate_with_claude(name, log=log)
+        if data is not None:
+            try:
+                theme = pack_to_theme(name, data, make_ability, theme_key)
+                log(f"  Claude designed '{theme['title']}': {len(theme['abilities'])} abilities, "
+                    f"{len(theme['weapons'])} new weapons, {len(theme['biome_defs'])} new arenas")
+                return theme
+            except (ValueError, KeyError, TypeError) as ex:
+                log(f"  (generated pack rejected by validation: {ex} — using offline theme generator)")
+        elif mode == "claude":
+            raise RuntimeError("creative.theme_generator is 'claude' but no pack could be generated")
     packs = matched_packs(name)
     abilities = []
     if custom_abilities:
@@ -160,8 +174,10 @@ def generate_theme(name: str, rng, custom_abilities=None):
 
 def upgrade_theme(theme, rng):
     """Bring packages saved by older engine versions up to date (merge only)."""
+    if theme.get("generated_by") in ("claude", "imported"):
+        return False
     changed = False
-    fresh = generate_theme(theme["name"], rng)
+    fresh = generate_theme(theme["name"], rng, mode="offline")
     for k in ("costumes", "costume_rules", "biomes", "physical_weight", "packs", "generated_by"):
         if k not in theme:
             theme[k] = fresh[k]
@@ -177,12 +193,13 @@ def upgrade_theme(theme, rng):
     return changed
 
 
-def load_or_create_theme(universe, name, rng, needed_abilities=0, custom_abilities=None):
+def load_or_create_theme(universe, name, rng, needed_abilities=0, custom_abilities=None, mode="offline", log=print):
+    from .ai_pack import register_theme_assets
     key = theme_key(name)
     theme = universe.load_theme(key)
     created = False
     if theme is None:
-        theme = generate_theme(name, rng.stream("theme", key), custom_abilities)
+        theme = generate_theme(name, rng.stream("theme", key), custom_abilities, mode=mode, log=log)
         created = True
     elif upgrade_theme(theme, rng.stream("theme", key)):
         created = True
@@ -203,6 +220,7 @@ def load_or_create_theme(universe, name, rng, needed_abilities=0, custom_abiliti
         universe["abilities"]._validate(ab["id"], ab)
         universe["abilities"].items[ab["id"]] = ab
     universe["abilities"].dirty = True
+    register_theme_assets(theme)
     if created:
         universe.save_theme(theme)
     return theme

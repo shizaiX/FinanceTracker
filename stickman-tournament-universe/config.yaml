@@ -48,3 +48,7 @@ creative:
   sound_effects: true
   music: "optional"
   subtitles: false
+  # Unknown themes: "auto" asks Claude to design a new theme pack when Anthropic
+  # credentials are available (else offline generator); "claude" requires it;
+  # "offline" never calls the API.
+  theme_generator: "auto"

@@ -160,3 +160,73 @@ def test_theme_first_combat():
                 total += 1
                 themed += bool(u["techniques"].get(e["tech"])["abilities"])
     assert themed / total > 0.8
+
+
+def test_physical_abilities_never_get_energy_blades():
+    from stu.combat.techniques import validate
+    th = generate_theme("pirates", RNG(1))
+    ab = {a["name"]: a for a in th["abilities"]}
+    spec = lambda names: {"delivery": "summon_weapon", "movement": "none", "modifiers": [], "timing": "instant",
+                          "abilities": [ab[n]["id"] for n in names]}
+    assert not validate(spec(["Rum Bottle"]), [ab["Rum Bottle"]])[0]       # bottle is not a sword
+    assert not validate(spec(["Flintlock"]), [ab["Flintlock"]])[0]         # pistol is not a sword
+    assert validate(spec(["Cutlass"]), [ab["Cutlass"]])[0]
+    el = generate_theme("elements", RNG(1))
+    fire = next(a for a in el["abilities"] if a["name"] == "Fire")
+    assert validate(dict(spec([]), abilities=[fire["id"]]), [fire])[0]      # a supernatural fire blade is fine
+
+
+def test_simultaneous_callouts_get_separate_slots():
+    from stu.rendering.renderer import SceneRenderer
+    evs = [{"type": "callout", "t": 1.0, "name": "A", "abilities": [], "fighter": 0, "tier": "fusion", "tech": "a"},
+           {"type": "callout", "t": 1.2, "name": "B", "abilities": [], "fighter": 1, "tier": "fusion", "tech": "b"},
+           {"type": "callout", "t": 1.3, "name": "C", "abilities": [], "fighter": 0, "tier": "fusion", "tech": "c"}]
+    fake = SceneRenderer.__new__(SceneRenderer)
+    fake.events, fake.abilities = evs, {}
+    fake.fighters = [{"name": "X"}, {"name": "Y"}]
+    items = fake._layout_callouts()
+    for i, a in enumerate(items):
+        for b in items[i + 1:]:
+            overlap = a["t"] < b["t"] + b["dur"] and b["t"] < a["t"] + a["dur"]
+            assert not (overlap and a["slot"] == b["slot"]), (a["name"], b["name"])
+
+
+def test_claude_theme_pack_generation(monkeypatch, tmp_path):
+    """Exercises the real Claude code path with a mocked SDK client."""
+    import json as _json
+    import types
+    import anthropic
+    from stu.combat.techniques import DELIVERIES
+    from stu.themes.packs import WEAPONS
+    fixture = os.path.join(ROOT, "tests", "fixtures", "wild_west_pack.json")
+    calls = []
+
+    class FakeMessages:
+        def create(self, **kw):
+            calls.append(kw)
+            _json.dumps(kw["output_config"]["format"]["schema"])  # schema must be serialisable
+            return types.SimpleNamespace(stop_reason="end_turn", model=kw["model"],
+                                         content=[types.SimpleNamespace(type="text", text=open(fixture).read())])
+
+    class FakeClient:
+        def __init__(self, *a, **k):
+            self.beta = types.SimpleNamespace(messages=FakeMessages())
+
+    monkeypatch.setattr(anthropic, "Anthropic", FakeClient)
+    u = Universe(str(tmp_path))
+    th = load_or_create_theme(u, "wild west", RNG(3), 0, mode="auto", log=lambda *_: None)
+    assert calls and calls[0]["model"] == "claude-opus-5-5"
+    assert th["generated_by"] == "claude" and len(th["abilities"]) >= 10
+    assert "wild_west_bowie_knife" in WEAPONS and any(b.startswith("wild_west_") for b in th["biomes"])
+    # saved and reused: a second load must not call Claude again
+    calls.clear()
+    th2 = load_or_create_theme(Universe(str(tmp_path)), "wild west", RNG(3), 0, mode="auto", log=lambda *_: None)
+    assert not calls and th2["key"] == th["key"]
+    # the generated theme fights validly
+    cfg = load_config(os.path.join(ROOT, "config.yaml"), [(["tournament", "random_seed"], 4), (["tournament", "theme"], "wild west")])
+    cfg = resolve_auto(cfg, len(th["abilities"]))
+    fs = generate_fighters(th, cfg, RNG(4).stream("f"), u)
+    arena = tournament_arenas(th, 1, RNG(4).stream("a"), "t")[0]
+    m = Match(cfg, fs[0], fs[1], th, u, RNG(4).stream("m"), dict(u["techniques"].items), "rivalry", arena)
+    r = vars(m.run())
+    assert validate_match(r, cfg) == []

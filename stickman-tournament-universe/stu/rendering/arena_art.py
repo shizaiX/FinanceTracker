@@ -374,6 +374,49 @@ class ArenaArt:
             cr.fill()
             cr.set_source_rgb(*col)
 
+    def _far_town(self, cr, s, cam):
+        """Wooden storefronts with false fronts, signs, lit windows and porches."""
+        self._far_dunes(cr, s, cam)
+        r = random.Random(self.r_seed + 11)
+        x = -42.0
+        wood = mix(self.mid, (0.45, 0.28, 0.14), 0.45)
+        while x < 42:
+            w = r.uniform(3.2, 5.0)
+            h = r.uniform(3.2, 5.2)
+            c = mix(wood, (0, 0, 0), r.uniform(0.0, 0.3))
+            cr.rectangle(x, -1, w, h + 1)
+            cr.set_source_rgb(*c)
+            cr.fill()
+            cr.move_to(x - 0.1, h)  # stepped false front
+            cr.line_to(x + 0.4, h)
+            cr.line_to(x + 0.4, h + 0.6)
+            cr.line_to(x + w - 0.4, h + 0.6)
+            cr.line_to(x + w - 0.4, h)
+            cr.line_to(x + w + 0.1, h)
+            cr.line_to(x + w + 0.1, h - 0.15)
+            cr.line_to(x - 0.1, h - 0.15)
+            cr.close_path()
+            cr.fill()
+            cr.rectangle(x + w * 0.2, h - 0.75, w * 0.6, 0.5)  # sign board
+            cr.set_source_rgb(*mix(c, (0.9, 0.8, 0.55), 0.35))
+            cr.fill()
+            for k in range(2):  # lit windows
+                wx = x + w * (0.22 + 0.4 * k)
+                lit = 0.55 + 0.45 * stable_noise(int(x * 7) + k, s * 0.4)
+                cr.rectangle(wx, 1.6, w * 0.18, 0.9)
+                cr.set_source_rgba(*mix(self.acc, (1, 0.85, 0.5), 0.5), 0.35 + 0.4 * lit)
+                cr.fill()
+            cr.rectangle(x + w * 0.42, 0, w * 0.16, 1.4)  # door
+            cr.set_source_rgb(*mix(c, (0, 0, 0), 0.5))
+            cr.fill()
+            cr.rectangle(x - 0.2, 1.4, w + 0.4, 0.12)  # porch roof
+            cr.set_source_rgb(*mix(c, (0, 0, 0), 0.25))
+            cr.fill()
+            for px in (x, x + w):
+                cr.rectangle(px - 0.05, 0, 0.1, 1.4)
+                cr.fill()
+            x += w + r.uniform(0.3, 1.5)
+
     def _far_dojo_wall(self, cr, s, cam):
         x0, x1 = cam.cx * 0.12 - 40, cam.cx * 0.12 + 40
         cr.set_source_rgb(*mix(self.mid, (0, 0, 0), 0.2))

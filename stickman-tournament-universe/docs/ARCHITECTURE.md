@@ -92,5 +92,5 @@ config.yaml ─► resolve_auto ─► Universe (libraries) ─► theme package
   * `creative.subtitles` has no effect.
   * `video.export_individual_fights: false` currently also skips match rendering, so the complete tournament and highlights would come out without fights.
 * Only `single_elimination` and the `h264` codec are implemented. `subsequent_matchmaking` is always the winners bracket.
-* Theme names that match none of the packs (e.g. "candy") still fall back to the generic archetypes and generic costumes. New knowledge packs are plain data in `stu/themes/packs.py` and get weapons, costumes and arenas immediately; an LLM-backed pack generator that writes such data is the natural next step.
+* New themes are designed by Claude, but only from drawable building blocks. The building blocks are: archetypes, ~30 costume parts, weapon classes, projectile styles, 12 backdrops, 26 prop types and 9 floor styles. Claude can invent new *combinations* and new parametric weapons and biomes, but not new costume shapes or prop drawings; those need code in `stu/rendering/costume.py` / `arena_art.py`. Without API credentials, unknown names (e.g. "candy") fall back to generic archetypes and looks.
 * Energy blades are only used for powers without a physical weapon (e.g. an elemental "fire blade"); every pack weapon is drawn as itself.

@@ -163,11 +163,11 @@ class Hud:
         if sub:
             text(cr, sub, self.W / 2, y + self.u(size * 0.75), self.u(46), (1, 1, 1), "center", a, scale=sc)
 
-    def callout(self, cr, name, color, age, dur, new=False, tier="fusion"):
+    def callout(self, cr, name, color, age, dur, new=False, tier="fusion", slot=0, owner=None):
         sc, a = pop(age, dur, 0.14, 0.3)
         if a <= 0:
             return
-        y = self.H * 0.27
+        y = self.H * 0.27 + slot * self.u(150)
         size = 62 if tier != "ultimate" else 72
         if len(name) > 22:
             size *= 22 / len(name)
@@ -175,7 +175,9 @@ class Hud:
             text(cr, "NEW TECHNIQUE DISCOVERED", self.W / 2, y - self.u(62), self.u(28), (1, 0.92, 0.5), "center", a, heavy=False, tracking=0.08)
         elif tier == "ultimate":
             text(cr, "ULTIMATE", self.W / 2, y - self.u(66), self.u(32), (1, 0.85, 0.4), "center", a, tracking=0.25)
-        text(cr, name, self.W / 2, y, self.u(size), color, "center", a, scale=sc, glow=color)
+        text(cr, name, self.W / 2, y, self.u(size), color, "center", a, scale=sc, glow=color, max_width=self.u(960))
+        if owner:
+            text(cr, owner, self.W / 2, y + self.u(48), self.u(24), (0.85, 0.85, 0.9), "center", a * 0.85, heavy=False, tracking=0.1)
 
     def intro_card(self, cr, side, age, dur):
         sc, a = pop(age, dur, 0.2, 0.25)

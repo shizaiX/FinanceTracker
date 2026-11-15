@@ -1,5 +1,5 @@
 {
- "count": 23,
+ "count": 34,
  "items": {
   "ab_083a980255": {
    "affinity": {
@@ -405,6 +405,178 @@
    },
    "zone": null
   },
+  "ab_3971868237": {
+   "affinity": {
+    "env_strike": 1.0,
+    "grapple": 1.0,
+    "projectile": 0.7,
+    "summon_weapon": 0.6,
+    "sweep": 0.8
+   },
+   "archetype": "verdant",
+   "aura": "leaf",
+   "colors": [
+    "#fff0d0",
+    "#d8b070",
+    "#7a5a2a"
+   ],
+   "description": "Ropes opponents and yanks them in.",
+   "env_form": "vines",
+   "id": "ab_3971868237",
+   "key": "lasso",
+   "mobility": "glide",
+   "mod_affinity": {
+    "homing": 0.6,
+    "multistage": 0.6,
+    "shield": 0.7,
+    "trap": 1.0
+   },
+   "name": "Lasso",
+   "particle": "leaf",
+   "physical": true,
+   "projectile": "seed",
+   "stats": {
+    "control": 1.25,
+    "defense": 1.0,
+    "power": 0.95,
+    "speed": 0.95
+   },
+   "tags": [
+    "organic",
+    "bind",
+    "flexible"
+   ],
+   "theme": "wild_west",
+   "voice": "nature",
+   "weapon": null,
+   "words": {
+    "adj": [
+     "Roping",
+     "Wrangler",
+     "Hogtie"
+    ],
+    "noun": [
+     "Lasso",
+     "Loop",
+     "Snare"
+    ]
+   },
+   "zone": null
+  },
+  "ab_4054369a54": {
+   "affinity": {
+    "counter": 0.55,
+    "explosion": 0.3,
+    "projectile": 1.0,
+    "punch": 0.35
+   },
+   "archetype": "firearm",
+   "aura": "dust",
+   "colors": [
+    "#fff6d8",
+    "#ffbf5a",
+    "#7a4a1e"
+   ],
+   "description": "A fast revolver drawn from the hip.",
+   "env_form": "cannon_rain",
+   "id": "ab_4054369a54",
+   "key": "six_shooter",
+   "mobility": "dash",
+   "mod_affinity": {
+    "chain": 0.3,
+    "pierce": 0.9,
+    "split": 0.6
+   },
+   "name": "Six-Shooter",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "bullet",
+   "stats": {
+    "control": 1.1,
+    "defense": 0.85,
+    "power": 1.1,
+    "speed": 1.05
+   },
+   "tags": [
+    "ranged",
+    "precise",
+    "volatile"
+   ],
+   "theme": "wild_west",
+   "voice": "gunshot",
+   "weapon": "revolver",
+   "words": {
+    "adj": [
+     "Quickdraw",
+     "Fanned",
+     "High-Noon",
+     "Deadeye"
+    ],
+    "noun": [
+     "Shot",
+     "Draw",
+     "Volley",
+     "Six"
+    ]
+   },
+   "zone": null
+  },
+  "ab_438a12f8ec": {
+   "affinity": {
+    "counter": 0.55,
+    "explosion": 0.3,
+    "projectile": 1.0,
+    "punch": 0.35
+   },
+   "archetype": "firearm",
+   "aura": "dust",
+   "colors": [
+    "#ffffff",
+    "#e0c08a",
+    "#4a3020"
+   ],
+   "description": "Lever-action rifle.",
+   "env_form": "cannon_rain",
+   "id": "ab_438a12f8ec",
+   "key": "rifle",
+   "mobility": "dash",
+   "mod_affinity": {
+    "chain": 0.3,
+    "pierce": 0.9,
+    "split": 0.6
+   },
+   "name": "Rifle",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "bullet",
+   "stats": {
+    "control": 1.1,
+    "defense": 0.85,
+    "power": 1.1,
+    "speed": 1.05
+   },
+   "tags": [
+    "ranged",
+    "precise",
+    "volatile"
+   ],
+   "theme": "wild_west",
+   "voice": "gunshot",
+   "weapon": "musket",
+   "words": {
+    "adj": [
+     "Long-Range",
+     "Lever-Action",
+     "Marksman"
+    ],
+    "noun": [
+     "Shot",
+     "Snipe",
+     "Round"
+    ]
+   },
+   "zone": null
+  },
   "ab_5b8e37c749": {
    "affinity": {
     "env_strike": 1.0,
@@ -579,6 +751,121 @@
    },
    "zone": "wet"
   },
+  "ab_719c4f68f0": {
+   "affinity": {
+    "beam": 1.0,
+    "explosion": 0.7,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "summon_weapon": 0.7
+   },
+   "archetype": "radiance",
+   "aura": "ray",
+   "colors": [
+    "#fffbe0",
+    "#ffd84a",
+    "#a8781a"
+   ],
+   "description": "Blinding glints of gold.",
+   "env_form": "light_pillar",
+   "id": "ab_719c4f68f0",
+   "key": "gold_rush",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "homing": 0.7,
+    "pierce": 1.0,
+    "reflect": 1.0,
+    "split": 0.8
+   },
+   "name": "Gold Rush",
+   "particle": "ray",
+   "physical": false,
+   "projectile": "ray",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.15
+   },
+   "tags": [
+    "radiant",
+    "energy",
+    "fast",
+    "precise"
+   ],
+   "theme": "wild_west",
+   "voice": "light",
+   "weapon": null,
+   "words": {
+    "adj": [
+     "Gilded",
+     "Glinting",
+     "Prospector's"
+    ],
+    "noun": [
+     "Nugget",
+     "Glint",
+     "Fever"
+    ]
+   },
+   "zone": null
+  },
+  "ab_7618b55636": {
+   "affinity": {
+    "charge": 0.9,
+    "grapple": 0.8,
+    "kick": 1.0,
+    "punch": 1.0,
+    "uppercut": 1.0
+   },
+   "archetype": "kinetic",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#ffd2a0",
+    "#a8582a"
+   ],
+   "description": "Rough-and-tumble tavern fighting.",
+   "env_form": "burst",
+   "id": "ab_7618b55636",
+   "key": "saloon_brawl",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "multistage": 1.0
+   },
+   "name": "Saloon Brawl",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "orb",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 1.15
+   },
+   "tags": [
+    "kinetic",
+    "force",
+    "fast"
+   ],
+   "theme": "wild_west",
+   "voice": "sound",
+   "weapon": null,
+   "words": {
+    "adj": [
+     "Barroom",
+     "Haymaking",
+     "Rowdy"
+    ],
+    "noun": [
+     "Brawl",
+     "Haymaker",
+     "Chair"
+    ]
+   },
+   "zone": null
+  },
   "ab_812aff47de": {
    "affinity": {
     "env_strike": 0.8,
@@ -635,6 +922,64 @@
     ]
    },
    "zone": "burning"
+  },
+  "ab_83b0be5959": {
+   "affinity": {
+    "barrage": 0.1,
+    "charge": 0.7,
+    "punch": 0.1,
+    "slam": 1.0,
+    "summon_weapon": 1.1,
+    "uppercut": 0.15
+   },
+   "archetype": "hammer",
+   "aura": "dust",
+   "colors": [
+    "#ffffff",
+    "#b8c0c8",
+    "#6b4122"
+   ],
+   "description": "Throwing hatchet.",
+   "env_form": "pillar",
+   "id": "ab_83b0be5959",
+   "key": "tomahawk",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 1.0,
+    "shield": 0.7
+   },
+   "name": "Tomahawk",
+   "particle": "rock",
+   "physical": true,
+   "projectile": "knife",
+   "stats": {
+    "control": 0.85,
+    "defense": 1.1,
+    "power": 1.3,
+    "speed": 0.8
+   },
+   "tags": [
+    "mass",
+    "heavy",
+    "kinetic",
+    "ground"
+   ],
+   "theme": "wild_west",
+   "voice": "earth",
+   "weapon": "wild_west_tomahawk",
+   "words": {
+    "adj": [
+     "Thrown",
+     "Feathered",
+     "Whirling"
+    ],
+    "noun": [
+     "Chop",
+     "Hatchet",
+     "Throw"
+    ]
+   },
+   "zone": null
   },
   "ab_83c4d6d552": {
    "affinity": {
@@ -755,6 +1100,63 @@
    },
    "zone": null
   },
+  "ab_92e02be1e1": {
+   "affinity": {
+    "env_strike": 0.8,
+    "explosion": 0.9,
+    "projectile": 1.0
+   },
+   "archetype": "explosive",
+   "aura": "dust",
+   "colors": [
+    "#fff0c0",
+    "#ff5a3a",
+    "#5a1a10"
+   ],
+   "description": "Lit sticks of dynamite lobbed in arcs.",
+   "env_form": "cannon_rain",
+   "gravity": true,
+   "id": "ab_92e02be1e1",
+   "key": "dynamite",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "delayed": 1.0,
+    "split": 0.5,
+    "trap": 0.8
+   },
+   "name": "Dynamite",
+   "particle": "flame",
+   "physical": true,
+   "projectile": "bomb",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.85,
+    "power": 1.25,
+    "speed": 0.9
+   },
+   "tags": [
+    "volatile",
+    "heat",
+    "force"
+   ],
+   "theme": "wild_west",
+   "voice": "fire",
+   "weapon": null,
+   "words": {
+    "adj": [
+     "Lit",
+     "Short-Fuse",
+     "Blasting"
+    ],
+    "noun": [
+     "Stick",
+     "Charge",
+     "Kaboom"
+    ]
+   },
+   "zone": "burning"
+  },
   "ab_9408408bac": {
    "affinity": {
     "counter": 0.55,
@@ -866,6 +1268,122 @@
     ]
    },
    "zone": "burning"
+  },
+  "ab_979cd296a1": {
+   "affinity": {
+    "charge": 0.8,
+    "env_strike": 1.0,
+    "projectile": 0.6,
+    "punch": 0.9,
+    "slam": 1.0,
+    "uppercut": 0.8
+   },
+   "archetype": "stone",
+   "aura": "dust",
+   "colors": [
+    "#fff0d8",
+    "#b07848",
+    "#5a3a20"
+   ],
+   "description": "The rumble of a cattle stampede shaking the ground.",
+   "env_form": "pillar",
+   "id": "ab_979cd296a1",
+   "key": "stampede",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "multistage": 0.5,
+    "shield": 1.0,
+    "trap": 0.6
+   },
+   "name": "Stampede",
+   "particle": "rock",
+   "physical": false,
+   "projectile": "rock",
+   "stats": {
+    "control": 0.9,
+    "defense": 1.2,
+    "power": 1.2,
+    "speed": 0.85
+   },
+   "tags": [
+    "solid",
+    "mass",
+    "ground",
+    "heavy"
+   ],
+   "theme": "wild_west",
+   "voice": "earth",
+   "weapon": null,
+   "words": {
+    "adj": [
+     "Thundering",
+     "Trampling",
+     "Rumbling"
+    ],
+    "noun": [
+     "Stampede",
+     "Herd",
+     "Charge"
+    ]
+   },
+   "zone": "cracked"
+  },
+  "ab_a1e532f1cf": {
+   "affinity": {
+    "counter": 0.55,
+    "explosion": 0.3,
+    "projectile": 1.0,
+    "punch": 0.35
+   },
+   "archetype": "firearm",
+   "aura": "dust",
+   "colors": [
+    "#fff2c8",
+    "#d89a4a",
+    "#5a3a1a"
+   ],
+   "description": "Short double-barrel shotgun.",
+   "env_form": "cannon_rain",
+   "id": "ab_a1e532f1cf",
+   "key": "scattergun",
+   "mobility": "dash",
+   "mod_affinity": {
+    "chain": 0.3,
+    "pierce": 0.9,
+    "split": 0.6
+   },
+   "name": "Scattergun",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "bullet",
+   "stats": {
+    "control": 1.1,
+    "defense": 0.85,
+    "power": 1.1,
+    "speed": 1.05
+   },
+   "tags": [
+    "ranged",
+    "precise",
+    "volatile"
+   ],
+   "theme": "wild_west",
+   "voice": "gunshot",
+   "weapon": "wild_west_coach_gun",
+   "words": {
+    "adj": [
+     "Double-Barrel",
+     "Buckshot",
+     "Scatter"
+    ],
+    "noun": [
+     "Blast",
+     "Spread",
+     "Boom"
+    ]
+   },
+   "zone": null
   },
   "ab_a32aa0acc5": {
    "affinity": {
@@ -1042,6 +1560,64 @@
     ]
    },
    "zone": "wet"
+  },
+  "ab_a94a09fdfb": {
+   "affinity": {
+    "aerial_strike": 1.0,
+    "explosion": 0.7,
+    "kick": 1.0,
+    "projectile": 0.9,
+    "sweep": 0.7
+   },
+   "archetype": "gale",
+   "aura": "gust",
+   "colors": [
+    "#fff2d8",
+    "#e0b878",
+    "#8a5a2a"
+   ],
+   "description": "Desert whirlwinds whipped up from the dust.",
+   "env_form": "column",
+   "id": "ab_a94a09fdfb",
+   "key": "dust_devil",
+   "mobility": "glide",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "homing": 0.8,
+    "multistage": 0.8,
+    "reflect": 0.9
+   },
+   "name": "Dust Devil",
+   "particle": "gust",
+   "physical": false,
+   "projectile": "crescent",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.85,
+    "power": 0.9,
+    "speed": 1.25
+   },
+   "tags": [
+    "gas",
+    "fast",
+    "force"
+   ],
+   "theme": "wild_west",
+   "voice": "wind",
+   "weapon": null,
+   "words": {
+    "adj": [
+     "Whirling",
+     "Prairie",
+     "Choking"
+    ],
+    "noun": [
+     "Twister",
+     "Dust",
+     "Gust"
+    ]
+   },
+   "zone": null
   },
   "ab_b7f5981ab1": {
    "affinity": {
@@ -1333,9 +1909,69 @@
     ]
    },
    "zone": null
+  },
+  "ab_ec70958f2d": {
+   "affinity": {
+    "aerial_strike": 0.8,
+    "barrage": 0.1,
+    "charge": 0.8,
+    "counter": 0.9,
+    "projectile": 0.6,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "blade",
+   "aura": "metal",
+   "colors": [
+    "#ffffff",
+    "#c9d0d8",
+    "#5b4127"
+   ],
+   "description": "A heavy hunting knife.",
+   "env_form": "spikes",
+   "id": "ab_ec70958f2d",
+   "key": "bowie_knife",
+   "mobility": "dash",
+   "mod_affinity": {
+    "multistage": 1.0,
+    "pierce": 1.0,
+    "split": 0.6
+   },
+   "name": "Bowie Knife",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "knife",
+   "stats": {
+    "control": 0.95,
+    "defense": 0.9,
+    "power": 1.1,
+    "speed": 1.1
+   },
+   "tags": [
+    "sharp",
+    "solid",
+    "precise"
+   ],
+   "theme": "wild_west",
+   "voice": "metal",
+   "weapon": "wild_west_bowie_knife",
+   "words": {
+    "adj": [
+     "Frontier",
+     "Skinning",
+     "Gleaming"
+    ],
+    "noun": [
+     "Cut",
+     "Slash",
+     "Edge"
+    ]
+   },
+   "zone": null
   }
  },
  "schema": "stu.abilities",
- "updated": "2026-11-15T10:27:32",
+ "updated": "2026-11-15T11:22:31",
  "version": 1
 }

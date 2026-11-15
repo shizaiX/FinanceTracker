@@ -56,6 +56,33 @@ class SceneRenderer:
         self.surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, self.W, self.H)
         self._build_static()
         self.ko = next((e for e in self.events if e["type"] == "ko"), None)
+        self.callouts = self._layout_callouts()
+
+    def _layout_callouts(self, dur=1.25, slots=2):
+        items = []
+        for e in self.events:
+            if e["type"] == "callout":
+                cols = rgbs(self.abilities[e["abilities"][0]]["colors"]) if e.get("abilities") and e["abilities"][0] in self.abilities else [(1, 1, 1)] * 3
+                new = any(d["type"] == "discovery" and abs(d["t"] - e["t"]) < 1.0 and d.get("tech") == e.get("tech") for d in self.events)
+                items.append({"t": e["t"], "name": e["name"], "color": mix(cols[1], (1, 1, 1), 0.2), "new": new, "tier": e.get("tier"),
+                              "owner": self.fighters[e["fighter"]]["name"] if "fighter" in e else None})
+            elif e["type"] == "discovery" and not any(c["type"] == "callout" and c.get("tech") == e.get("tech") and abs(c["t"] - e["t"]) < 1.0
+                                                     for c in self.events):
+                items.append({"t": e["t"], "name": e["name"], "color": (1, 0.92, 0.6), "new": True, "tier": None,
+                              "owner": self.fighters[e["fighter"]]["name"] if "fighter" in e else None})
+        items.sort(key=lambda c: c["t"])
+        busy = [None] * slots
+        for c in items:
+            c["dur"] = dur
+            free = [i for i in range(slots) if busy[i] is None or busy[i]["t"] + busy[i]["dur"] <= c["t"]]
+            if free:
+                c["slot"] = free[0]
+            else:  # all slots taken: the oldest callout ends now and yields its slot
+                i = min(range(slots), key=lambda k: busy[k]["t"])
+                busy[i]["dur"] = max(0.15, c["t"] - busy[i]["t"])
+                c["slot"] = i
+            busy[c["slot"]] = c
+        return items
 
     # ------------------------------------------------------------- static art
     def _build_static(self):
@@ -845,7 +872,16 @@ class SceneRenderer:
         round_no = 1 + sum(1 for e in self._events_between(0, s, ("round_start",)))
         if seg == "fight":
             hud.draw_scoreboard(cr, a["h"], clamp((s - fs) / 0.4, 0, 1), round_no)
-        for e in self._events_between(s - 1.6, s, ("fight", "round_start", "score", "ko", "callout", "discovery", "guard_break", "counter")):
+        # Technique callouts use layout slots so simultaneous ones never overlap,
+        # and they yield to the big announcement banners.
+        banner = any(s - e["t"] < {"fight": 0.85, "round_start": 1.2, "score": 1.5, "ko": 1.6}[e["type"]]
+                     for e in self._events_between(s - 1.6, s, ("fight", "round_start", "score", "ko")))
+        if not banner:
+            for c in self.callouts:
+                age = s - c["t"]
+                if 0 <= age <= c["dur"]:
+                    hud.callout(cr, c["name"], c["color"], age, c["dur"], new=c["new"], tier=c["tier"], slot=c["slot"], owner=c["owner"])
+        for e in self._events_between(s - 1.6, s, ("fight", "round_start", "score", "ko", "guard_break", "counter")):
             age = s - e["t"]
             ty = e["type"]
             if ty == "fight":
@@ -862,13 +898,6 @@ class SceneRenderer:
             elif ty == "ko":
                 c = self.fcol[e["attacker"]]
                 hud.banner(cr, "K.O.!", None, c, age, 1.6, size=230)
-            elif ty == "callout":
-                cols = rgbs(self.abilities[e["abilities"][0]]["colors"]) if e.get("abilities") else [(1, 1, 1)] * 3
-                new = any(d["type"] == "discovery" and abs(d["t"] - e["t"]) < 1.0 and d.get("tech") == e.get("tech") for d in self.events)
-                hud.callout(cr, e["name"], mix(cols[1], (1, 1, 1), 0.2), age, 1.25, new=new, tier=e.get("tier"))
-            elif ty == "discovery":
-                if not any(c["type"] == "callout" and c.get("tech") == e.get("tech") and abs(c["t"] - e["t"]) < 1.0 for c in self.events):
-                    hud.callout(cr, e["name"], (1, 0.92, 0.6), age, 1.25, new=True)
             elif ty == "guard_break":
                 hud.banner(cr, "GUARD BREAK", None, (1, 0.6, 0.35), age, 0.7, y=self.H * 0.6, size=64)
             elif ty == "counter":

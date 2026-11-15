@@ -65,6 +65,7 @@ DEFAULTS = {
         "sound_effects": True,
         "music": "optional",
         "subtitles": False,
+        "theme_generator": "auto",
     },
 }
 

@@ -62,9 +62,11 @@ def main(argv=None):
     p_res.add_argument("--max-matches", type=int)
     p_val = sub.add_parser("validate", help="re-run QA on a tournament's outputs")
     p_val.add_argument("path")
-    p_th = sub.add_parser("themes")
-    p_th.add_argument("action", choices=["list", "create", "show"])
+    p_th = sub.add_parser("themes", help="list / create (Claude-designed if new) / prompt / import theme packs")
+    p_th.add_argument("action", choices=["list", "create", "show", "prompt", "import"])
     p_th.add_argument("name", nargs="?")
+    p_th.add_argument("file", nargs="?", help="pack JSON for `themes import <name> <file>`")
+    p_th.add_argument("--offline", action="store_true", help="never call the Claude API")
     p_lib = sub.add_parser("library")
     p_lib.add_argument("action", choices=["stats", "backup", "export", "import"])
     p_lib.add_argument("file", nargs="?")
@@ -99,14 +101,36 @@ def main(argv=None):
         if args.action == "list":
             for k in u.list_themes():
                 th = u.load_theme(k)
-                print(f"{k:<16} {len(th['abilities']):>3} abilities  {', '.join(a['name'] for a in th['abilities'])}")
+                print(f"{k:<18} {th.get('generated_by', '?'):<12} {len(th['abilities']):>3} abilities  "
+                      f"{', '.join(a['name'] for a in th['abilities'])}")
         elif args.action in ("create", "show"):
             from .core.rng import RNG
             from .themes.generator import load_or_create_theme
-            th = load_or_create_theme(u, args.name, RNG(args.name), 0)
+            th = load_or_create_theme(u, args.name, RNG(args.name), 0, mode="offline" if args.offline else "auto")
             u.save_all()
-            print(json.dumps({"key": th["key"], "abilities": [(a["name"], a["archetype"], a["tags"]) for a in th["abilities"]],
-                              "arenas": [a["name"] for a in th["arenas"]]}, indent=1))
+            print(json.dumps({"key": th["key"], "generated_by": th.get("generated_by"),
+                              "abilities": [(a["name"], a["archetype"], a.get("weapon")) for a in th["abilities"]],
+                              "costumes": th.get("costumes"), "biomes": th.get("biomes"),
+                              "new_weapons": list(th.get("weapons", {})), "new_biomes": list(th.get("biome_defs", {}))}, indent=1))
+        elif args.action == "prompt":
+            from .themes.ai_pack import build_prompt, pack_schema
+            print(build_prompt(args.name))
+            print("\nJSON schema:\n" + json.dumps(pack_schema(), indent=1))
+        elif args.action == "import":
+            from .themes.ai_pack import pack_to_theme, register_theme_assets
+            from .themes.generator import make_ability, theme_key
+            with open(args.file) as f:
+                data = json.load(f)
+            th = pack_to_theme(args.name, data, make_ability, theme_key)
+            th["generated_by"] = "imported"
+            register_theme_assets(th)
+            for ab in th["abilities"]:
+                u["abilities"].items[ab["id"]] = ab
+            u["abilities"].dirty = True
+            u.save_theme(th)
+            u.save_all()
+            print(f"imported theme '{th['key']}' with {len(th['abilities'])} abilities, {len(th['weapons'])} new weapons, "
+                  f"{len(th['biome_defs'])} new arenas")
     elif args.cmd == "library":
         u = Universe(PROJECT_ROOT)
         if args.action == "stats":

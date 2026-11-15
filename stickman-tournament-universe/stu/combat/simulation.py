@@ -13,6 +13,7 @@ from ..animation.poses import action_pose, template
 from ..animation.rig import J, solve_local, to_world
 from ..core.mathutil import clamp, seg_seg_dist, smoothstep
 from . import ai
+from .techniques import validate
 from .director import Director
 from ..themes.packs import WEAPONS, weapon_class
 from .state import Action, Beam, Blast, EnvStrike, FighterState, Projectile, Zone
@@ -56,6 +57,8 @@ class Match:
         for side, spec in enumerate(specs):
             abilities = [self.ab[i] for i in spec["abilities"] if i in self.ab]
             techs = [techs_by_id[t] for t in spec["repertoire"] if t in techs_by_id]
+            # Re-validate saved repertoires against the current rules (older libraries may hold now-invalid moves).
+            techs = [t for t in techs if validate(dict(t["signature"]), [self.ab[i] for i in t["abilities"] if i in self.ab])[0]]
             f = FighterState(spec, side, abilities, techs, -START_X if side == 0 else START_X)
             f.physical_weight = theme.get("physical_weight", 0.2)
             self.fighters.append(f)

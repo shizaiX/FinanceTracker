@@ -147,6 +147,12 @@ def validate(tech_spec, abilities):
         return False, f"{d} needs an ability"
     if d == "summon_weapon" and not abilities:
         return False, "weapon must be summoned by an ability"
+    if d == "summon_weapon":
+        # Only real melee weapons are swung; an energy blade is reserved for
+        # supernatural powers. A rum bottle, keg or pistol never becomes a sword.
+        melee = [a for a in abilities if weapon_class(a.get("weapon")) in ("blade", "polearm", "blunt", "claws", "staff")]
+        if not melee and any(a.get("physical") for a in abilities):
+            return False, "physical ability without a melee weapon cannot swing a blade"
     if len(mods) > 3:
         return False, "too many modifiers"
     if timing == "finisher" and len(abilities) < 1:
