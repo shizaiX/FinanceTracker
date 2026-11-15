@@ -31,7 +31,7 @@ from ..core.rng import RNG
 from ..persistence.library import Universe, atomic_write_json, stable_id
 from ..qa.validate import contact_sheet, validate_match, validate_video
 from ..rendering.camera import build_camera
-from ..rendering.cards import BracketCard
+from ..rendering.cards import BracketCard, RosterCard
 from ..rendering.encoder import cleanup_work, concat_videos, cut_clip, render_video
 from ..rendering.renderer import SceneRenderer
 from ..rendering.timemap import build_timemap
@@ -166,13 +166,26 @@ class Tournament:
                 log(f"  rendering {m['id']}: {n} frames ({n / self.cfg['video']['fps']:.1f}s video)")
                 build_audio(res, ctx["vframes"], self.cfg["video"]["fps"], self.abilities, self.cfg["creative"], wav)
                 t0 = time.time()
-                render_video(lambda: SceneRenderer(ctx), n, out, self.cfg["video"], work, audio_path=wav, log=log)
-                vissues = validate_video(out, self.cfg, expected_frames=n)
-                rec.update({"video": os.path.relpath(out, self.root), "video_frames": n, "video_seconds": round(n / self.cfg["video"]["fps"], 3),
+                fight_only = os.path.join(work, "fight.mp4")
+                render_video(lambda: SceneRenderer(ctx), n, fight_only, self.cfg["video"], work, audio_path=wav, log=log)
+                # Stage intros live in the same video: roster + bracket before the first
+                # match of the tournament, the bracket before the first match of each stage.
+                intros = self.stage_intros(m)
+                intro_frames = sum(fr for _, fr in intros)
+                if intros:
+                    concat_videos([p for p, _ in intros] + [fight_only], out)
+                else:
+                    os.replace(fight_only, out)
+                total = n + intro_frames
+                vissues = validate_video(out, self.cfg, expected_frames=total)
+                fps = self.cfg["video"]["fps"]
+                rec.update({"video": os.path.relpath(out, self.root), "video_frames": total, "video_seconds": round(total / fps, 3),
+                            "intro_seconds": round(intro_frames / fps, 3),
                             "video_issues": vissues, "video_ok": not vissues, "render_seconds": round(time.time() - t0, 1)})
-                rec["ko_video_t"] = next((k / self.cfg["video"]["fps"] for k, vf in enumerate(ctx["vframes"])
-                                          if vf.segment == "fight" and res["final_point_t"] is not None
-                                          and vf.sim_t >= res["fight_start"] + res["final_point_t"]), None)
+                ko = next((k / fps for k, vf in enumerate(ctx["vframes"])
+                           if vf.segment == "fight" and res["final_point_t"] is not None
+                           and vf.sim_t >= res["fight_start"] + res["final_point_t"]), None)
+                rec["ko_video_t"] = None if ko is None else ko + intro_frames / fps
                 # contact sheet of key moments for manual review
                 keys, labels = [], []
                 for e in res["events"]:
@@ -252,6 +265,47 @@ class Tournament:
             w.writeframes(pcm.tobytes())
         return path
 
+    def render_clip(self, key, factory, out, audio_kind="bracket"):
+        """Render a presentation clip once (resumable); returns (path, frames)."""
+        done = self.state["steps"].get(key)
+        probe = factory()
+        if done and os.path.exists(os.path.join(self.root, done["path"] if isinstance(done, dict) else done)):
+            return os.path.join(self.root, done["path"] if isinstance(done, dict) else done), probe.n
+        work = os.path.join(self.path, "work", key)
+        os.makedirs(work, exist_ok=True)
+        wav = self._card_audio(probe.n, audio_kind, os.path.join(work, "a.wav"))
+        os.makedirs(os.path.dirname(out), exist_ok=True)
+        render_video(factory, probe.n, out, self.cfg["video"], work, audio_path=wav, chunk=10**9, workers=1, log=log)
+        issues = validate_video(out, self.cfg, expected_frames=probe.n)
+        if issues:
+            log(f"  clip QA issues: {issues}")
+        cleanup_work(work)
+        self.state["steps"][key] = {"path": os.path.relpath(out, self.root), "frames": probe.n}
+        self.save()
+        return out, probe.n
+
+    def stage_intros(self, m):
+        """Intro clips to put in front of match m (empty unless m opens a stage)."""
+        br = self.state["bracket"]
+        first = next((mid for mid in br["rounds"][m["round"]] if br["matches"][mid]["status"] != "bye"), None)
+        if first != m["id"]:
+            return []
+        clips = []
+        idir = os.path.join(self.path, "intros")
+        name = self.state["name"].upper()
+        if m["round"] == 0:
+            clips.append(self.render_clip("intro_roster", lambda: RosterCard(self.cfg, self.state, self.abilities, self.state["name"]),
+                                          os.path.join(idir, "roster.mp4")))
+            sub = "THE BRACKET IS SET"
+        else:
+            label = STAGE_LABEL.get(m["round_name"], m["round_name"].replace("_", " ").upper())
+            sub = f"{label}S" if label in ("SEMIFINAL", "QUARTERFINAL") else label
+        r = m["round"]
+        clips.append(self.render_clip(f"intro_bracket_{r + 1:02d}",
+                                      lambda: BracketCard(self.cfg, self.state, name, sub, 5.0, None, r),
+                                      os.path.join(idir, f"bracket_{r + 1:02d}.mp4")))
+        return clips
+
     def render_card(self, key, title, subtitle, out, duration=6.0, champion=None, upto_round=None):
         done = self.state["steps"].get(key)
         if done and os.path.exists(os.path.join(self.root, done)):
@@ -276,9 +330,6 @@ class Tournament:
     def run(self, render=True, max_matches=None):
         log(f"Tournament '{self.state['name']}' ({self.state['theme']}, {len(self.fighters)} fighters, seed {self.cfg['tournament']['random_seed']})")
         br = self.state["bracket"]
-        if render:
-            self.render_card("bracket_reveal", self.state["name"].upper(), "THE BRACKET IS SET",
-                             os.path.join(self.export_dir, "bracket_reveal.mp4"), upto_round=0)
         done = 0
         while True:
             ready = B.ready_matches(br)
@@ -286,11 +337,6 @@ class Tournament:
                 break
             m = ready[0]
             prev_round = m["round"]
-            if render and m["round"] > 0:
-                key = f"bracket_round_{m['round'] + 1:02d}"
-                label = STAGE_LABEL.get(m["round_name"], m["round_name"].replace("_", " ").upper())
-                self.render_card(key, self.state["name"].upper(), f"{label}S" if label in ("SEMIFINAL", "QUARTERFINAL") else label,
-                                 os.path.join(self.export_dir, f"{key}.mp4"), upto_round=m["round"])
             log(f"Match {m['id']} ({self.stage_label(m)}): {self.names[m['a']]} vs {self.names[m['b']]}")
             self.run_match(m, render=render)
             done += 1
@@ -315,11 +361,8 @@ class Tournament:
         v = self.cfg["video"]
         br = self.state["bracket"]
         if v.get("export_complete_tournament", True) and not self.state["steps"].get("complete"):
-            parts = [os.path.join(self.root, self.state["steps"]["bracket_reveal"])]
+            parts = []  # stage intros (roster, brackets) are already inside the match videos
             for r, mids in enumerate(br["rounds"]):
-                key = f"bracket_round_{r + 1:02d}"
-                if r > 0 and self.state["steps"].get(key):
-                    parts.append(os.path.join(self.root, self.state["steps"][key]))
                 for mid in mids:
                     rec = self.state["matches"].get(mid)
                     if rec and rec.get("video"):

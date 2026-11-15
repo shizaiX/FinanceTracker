@@ -142,3 +142,180 @@ class BracketCard:
             cr.arc(P["head"][0], P["head"][1] - u(10), u(26) + (w - u(11)) / 2, 0, 2 * math.pi)
             cr.fill()
         return self.surface
+
+
+class RosterCard:
+    """Fighter presentation slide: format title on top, then an animated grid of
+    background cards, each with the fighter (in costume and colours), its name
+    and its abilities, so viewers know who is in the tournament."""
+
+    def __init__(self, cfg, state, abilities, theme_title, duration=None):
+        self.W, self.H = cfg["video"]["width"], cfg["video"]["height"]
+        self.fps = cfg["video"]["fps"]
+        self.state = state
+        self.abilities = abilities
+        self.fighters = state["fighters"]
+        n = len(self.fighters)
+        self.duration = duration or (3.6 + 0.22 * n)
+        self.n = int(self.duration * self.fps)
+        self.title = theme_title
+        self.format_line = f"{n} FIGHTERS · {state['config']['tournament']['tournament_format'].replace('_', ' ').upper()}"
+        k = state["config"]["tournament"]["abilities_per_fighter"]
+        self.sub = f"{k} {'ABILITY' if k == 1 else 'ABILITIES'} EACH · FIRST TO {state['config']['tournament']['points_to_win']} POINTS"
+        self.cols = 2 if n <= 8 else (3 if n <= 12 else 4)
+        self.rows = math.ceil(n / self.cols)
+        self.surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, self.W, self.H)
+
+    def u(self, v):
+        return v * self.W / 1080.0
+
+    def _figure(self, cr, f, t, cx, base, scale, appear):
+        from ..animation.poses import STANCES, POSES, blend_pose_safe
+        from ..animation.rig import HEAD_R, J, solve_local, to_world
+        from . import costume as COS
+        from .weapons import draw_weapon
+        col = hex_to_rgb(f["color"])
+        sec = hex_to_rgb(f["secondary"])
+        st = STANCES.get(f.get("stance"), STANCES["orthodox"])
+        pose = dict(st)
+        b = math.sin(t * 2 * math.pi * 0.9 + hash(f["name"]) % 7)
+        pose["crouch"] += 0.02 * b
+        pose["hfy"] += 0.015 * b
+        if t < appear + 0.6:  # small hop as the card arrives
+            pose = blend_pose_safe(POSES["victory"], pose, smoothstep((t - appear) / 0.6))
+        P = to_world(solve_local(pose, f.get("build", 1.0)), 0.0, 0.0, 0.0, 1)
+        cr.save()
+        cr.translate(cx, base)
+        cr.scale(scale, -scale)
+        cr.set_line_cap(cairo.LINE_CAP_ROUND)
+        cr.set_line_join(cairo.LINE_JOIN_ROUND)
+        parts = f.get("costume") or [f.get("accessory", "headband")]
+        hist = lambda jn, k: P[J[jn]]
+        COS.draw_back(cr, parts, P, 1, t, col, sec, hist)
+        kit = f.get("weapons") or []
+        if len(kit) > 1:
+            draw_weapon(cr, kit[1], P[J["hand_b"]], P[J["elbow_b"]], 1, None, t)
+
+        def body(width, c, back, a):
+            hx, hy = P[J["head"]]
+            chx, chy = P[J["chest"]]
+            d = math.hypot(hx - chx, hy - chy) or 1
+            neck = (hx - (hx - chx) / d * HEAD_R, hy - (hy - chy) / d * HEAD_R)
+            for chain, cc in (((P[J["hip"]], P[J["knee_b"]], P[J["foot_b"]]), back), ((P[J["chest"]], P[J["elbow_b"]], P[J["hand_b"]]), back),
+                              ((P[J["hip"]], P[J["chest"]], neck), c), ((P[J["hip"]], P[J["knee_f"]], P[J["foot_f"]]), c),
+                              ((P[J["chest"]], P[J["elbow_f"]], P[J["hand_f"]]), c)):
+                cr.set_source_rgba(*cc, a)
+                cr.set_line_width(width)
+                cr.move_to(*chain[0])
+                for q in chain[1:]:
+                    cr.line_to(*q)
+                cr.stroke()
+            cr.arc(hx, hy, HEAD_R + (width - 0.075) * 0.5, 0, 2 * math.pi)
+            cr.set_source_rgba(*c, a)
+            cr.fill()
+        body(0.24, col, col, 0.15)
+        body(0.115, (0.02, 0.02, 0.04), (0.02, 0.02, 0.04), 0.85)
+        body(0.075, mix(col, (1, 1, 1), 0.12), mix(col, (0.05, 0.05, 0.08), 0.38), 1.0)
+        COS.draw_limb_overrides(cr, parts, P, 1, col)
+        COS.draw_front(cr, parts, P, 1, t, col, sec, hist)
+        if kit:
+            draw_weapon(cr, kit[0], P[J["hand_f"]], P[J["elbow_f"]], 1, None, t)
+        cr.restore()
+
+    def render(self, k):
+        t = k / self.fps
+        cr = cairo.Context(self.surface)
+        W, H, u = self.W, self.H, self.u
+        g = cairo.LinearGradient(0, 0, 0, H)
+        g.add_color_stop_rgb(0, 0.03, 0.02, 0.08)
+        g.add_color_stop_rgb(1, 0.09, 0.03, 0.11)
+        cr.set_source(g)
+        cr.paint()
+        top = H * 0.085
+        a0 = clamp(t / 0.35, 0, 1)
+        text(cr, self.format_line, W / 2, top + u(10), u(54), (1, 0.85, 0.4), "center", a0, glow=(1, 0.6, 0.2), max_width=u(980))
+        text(cr, self.title.upper(), W / 2, top + u(80), u(36), (1, 1, 1), "center", clamp((t - 0.15) / 0.3, 0, 1), heavy=False,
+             tracking=0.12)
+        text(cr, self.sub, W / 2, top + u(126), u(24), (0.8, 0.8, 0.88), "center", clamp((t - 0.3) / 0.3, 0, 1), heavy=False, tracking=0.08)
+        gx0, gx1 = u(40), W - u(40)
+        gy0, gy1 = H * 0.2, H * 0.92
+        gap = u(22)
+        cw = (gx1 - gx0 - gap * (self.cols - 1)) / self.cols
+        ch = min((gy1 - gy0 - gap * (self.rows - 1)) / self.rows, cw * 1.45)
+        total_h = ch * self.rows + gap * (self.rows - 1)
+        gy0 += (gy1 - gy0 - total_h) / 2
+        for i, f in enumerate(self.fighters):
+            r, c = divmod(i, self.cols)
+            x = gx0 + c * (cw + gap)
+            y = gy0 + r * (ch + gap)
+            appear = 0.55 + 0.16 * i
+            p = clamp((t - appear) / 0.45, 0, 1)
+            if p <= 0:
+                continue
+            e = ease_out_back(p, 1.3)
+            col = hex_to_rgb(f["color"])
+            cr.save()
+            cr.translate(x + cw / 2, y + ch / 2 + (1 - e) * u(60))
+            sc = 0.85 + 0.15 * e
+            cr.scale(sc, sc)
+            cr.translate(-cw / 2, -ch / 2)
+            # background card
+            rad = u(22)
+            cr.new_sub_path()
+            cr.arc(cw - rad, rad, rad, -math.pi / 2, 0)
+            cr.arc(cw - rad, ch - rad, rad, 0, math.pi / 2)
+            cr.arc(rad, ch - rad, rad, math.pi / 2, math.pi)
+            cr.arc(rad, rad, rad, math.pi, 1.5 * math.pi)
+            cr.close_path()
+            g = cairo.LinearGradient(0, 0, 0, ch)
+            g.add_color_stop_rgba(0, *mix(col, (0, 0, 0), 0.55), 0.95 * p)
+            g.add_color_stop_rgba(1, *mix(col, (0, 0, 0), 0.85), 0.95 * p)
+            cr.set_source(g)
+            cr.fill_preserve()
+            cr.set_source_rgba(*col, 0.85 * p)
+            cr.set_line_width(u(3))
+            cr.stroke()
+            wide = cw / ch > 1.1
+            fx, fbase, fh = (cw * 0.24, ch * 0.88, ch * 0.78) if wide else (cw / 2, ch * 0.56, ch * 0.46)
+            gg = cairo.RadialGradient(fx, fbase - fh * 0.5, 0, fx, fbase - fh * 0.5, fh * 0.7)
+            gg.add_color_stop_rgba(0, *col, 0.35 * p)
+            gg.add_color_stop_rgba(1, *col, 0)
+            cr.set_source(gg)
+            cr.rectangle(0, 0, cw, ch)
+            cr.fill()
+            self._figure(cr, f, t, fx, fbase, fh / 1.75, appear)
+            abil = [self.abilities.get(aid) for aid in f["abilities"] if self.abilities.get(aid)]
+            if wide:
+                tx, tw = cw * 0.47, cw * 0.48
+                name_size = min(u(52), ch * 0.17, tw * 0.2)
+                text(cr, f["name"], tx, ch * 0.27, name_size, col, "left", p, glow=col, max_width=tw)
+                pers = f.get("personality", "").upper()
+                text(cr, pers, tx, ch * 0.27 + name_size * 0.85, name_size * 0.42, (0.8, 0.8, 0.86), "left", p * 0.9, heavy=False,
+                     tracking=0.1, max_width=tw)
+                y0, avail = ch * 0.56, ch * 0.36
+                pill_x, pw = tx, tw
+            else:
+                name_size = min(u(46), cw * 0.15)
+                text(cr, f["name"], cw / 2, ch * 0.66, name_size, col, "center", p, glow=col, max_width=cw * 0.9)
+                y0, avail = ch * 0.78, ch * 0.2
+                pw = cw * 0.82
+                pill_x = cw / 2 - pw / 2
+            line_h = min(u(44), avail / max(1, len(abil)))
+            size = min(u(30), line_h * 0.72)
+            for j, ab in enumerate(abil):
+                acol = hex_to_rgb(ab["colors"][1])
+                yy = y0 + j * line_h
+                r_ = size * 0.62
+                cr.new_sub_path()
+                cr.arc(pill_x + pw - r_, yy, r_, -math.pi / 2, math.pi / 2)
+                cr.arc(pill_x + r_, yy, r_, math.pi / 2, 1.5 * math.pi)
+                cr.close_path()
+                cr.set_source_rgba(*mix(acol, (0, 0, 0), 0.55), 0.95 * p)
+                cr.fill_preserve()
+                cr.set_source_rgba(*acol, 0.7 * p)
+                cr.set_line_width(u(2))
+                cr.stroke()
+                text(cr, ab["name"].upper(), pill_x + pw / 2, yy, size * 0.78, mix(acol, (1, 1, 1), 0.35), "center", p, outline=0.12,
+                     max_width=pw * 0.88, tracking=0.05)
+            cr.restore()
+        return self.surface

@@ -6,3 +6,4 @@ tournaments/*/work/
 library/backups/
 *.part.mp4
 .pytest_cache/
+tournaments/*/intros/
