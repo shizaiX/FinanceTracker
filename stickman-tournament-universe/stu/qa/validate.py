@@ -66,6 +66,22 @@ def validate_match(res, cfg, techniques=None):
                     max_jump = max(max_jump, jump)
     if bad_len:
         issues.append(f"{bad_len} bone-length violations (limb stretching)")
+    # stuck / invisible fighters
+    for side in (0, 1):
+        hidden_run = stuck_run = 0
+        prev_kind = None
+        for fr in frames:
+            fd = fr["f"][side]
+            hidden_run = hidden_run + 1 if fd[5] & 64 else 0
+            if hidden_run > 120 and fr["s"] != "intro":
+                issues.append(f"fighter {side} invisible for more than 1 s (t={fr['t']:.1f})")
+                break
+            kind = fd[4]
+            stuck_run = stuck_run + 1 if kind == prev_kind and kind in ("hitstun", "broken", "grabbed", "technique") else 0
+            prev_kind = kind
+            if stuck_run > 120 * 6:
+                issues.append(f"fighter {side} stuck in '{kind}' for more than 6 s (t={fr['t']:.1f})")
+                break
     if max_jump > 0.35:
         issues.append(f"non-ability teleport detected (root moved {max_jump:.2f} m in one tick)")
     # collision timing: every hit must be near the defender's body at that tick

@@ -815,10 +815,43 @@
    ]
   }
  ],
+ "biomes": [
+  "caldera",
+  "storm_peak",
+  "frozen_sanctum",
+  "elder_grove",
+  "abyssal_shrine",
+  "sunken_coliseum",
+  "golden_dunes",
+  "starfall_rift"
+ ],
+ "costume_rules": {
+  "extras": [
+   0,
+   2
+  ],
+  "head": 1
+ },
+ "costumes": [
+  "headband",
+  "scarf",
+  "spikes",
+  "horns",
+  "halo",
+  "ponytail",
+  "visor",
+  "topknot",
+  "cape"
+ ],
  "created": "2026-11-15T03:11:25",
  "expansions": [],
+ "generated_by": "pack",
  "key": "elements",
  "name": "elements",
+ "packs": [
+  "elements"
+ ],
+ "physical_weight": 0.12,
  "schema": "stu.theme",
  "title": "Elemental",
  "title_words": [
@@ -827,6 +860,6 @@
   "Elemental Ascension",
   "Storm of Elements"
  ],
- "updated": "2026-11-15T03:11:25",
+ "updated": "2026-11-15T11:31:44",
  "version": 1
 }

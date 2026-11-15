@@ -129,6 +129,10 @@ class FighterState:
         return self.action.kind in self.FREE_KINDS
 
     def set_action(self, action, blend=0.08):
+        # Any interruption of a teleport (hit, knockdown, burst, ...) brings the
+        # fighter back into the world at its current position.
+        if self.hidden and action.kind not in ("teleport", "intro"):
+            self.hidden = False
         self.action = action
         a = self.anim
         a.blend_from = dict(a.local)

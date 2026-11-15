@@ -352,12 +352,12 @@ class Match:
             return
         if k == "hitstun":
             if a.advance(dt):
-                if not f.grounded:
+                if not f.grounded and a.t < 3.0:
                     a.dur += 0.1
                     a.phase_dur += 0.1
                     a.pi = 0
                     return
-                f.set_action(Action("idle"), blend=0.12)
+                f.set_action(Action("idle") if f.grounded else Action("jump", 3.0, data={"flip": False, "flip_dir": 1}), blend=0.12)
                 f.combo_taken = 0
             return
         if k == "knockdown":
@@ -670,8 +670,10 @@ class Match:
         if d == "counter" and a.data.get("triggered") and not a.data.get("struck"):
             if a.phase_t - a.data["trig_t"] > 0.07:
                 a.data["struck"] = True
-                hx, hy = f.anim.joints[J["hand_f"]] if f.anim.joints else (o.x, 1.2)
-                self.apply_hit(f, o, tech, "counter", hx, hy, extra={"counter": True})
+                if abs(o.x - f.x) <= p["reach"] + 0.45 and not o.hidden:
+                    self.apply_hit(f, o, tech, "counter", o.x - 0.15 * f.facing, o.y + 1.1, extra={"counter": True})
+                else:
+                    self.event("whoosh", fighter=f.side, delivery="counter", abilities=tech["abilities"], limb="hand_f")
 
     # --------------------------------------------------------- spawning
     def _style(self, tech):
@@ -839,7 +841,7 @@ class Match:
                 px, py = pr.x, pr.y
                 pr.x += pr.vx * dt / n
                 pr.y += pr.vy * dt / n
-                if pr.hits > 0 and not tgt.hidden and self.state == "fight" and self._circle_hits(tgt, (px, py), (pr.x, pr.y), pr.r):
+                if pr.hits > 0 and not tgt.hidden and not tgt.discont and self.state == "fight" and self._circle_hits(tgt, (px, py), (pr.x, pr.y), pr.r):
                     res = self.apply_hit(fs[pr.owner], tgt, pr.tech, "projectile", pr.x, pr.y, proj=pr)
                     if res == "reflected":
                         break

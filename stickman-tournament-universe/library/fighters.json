@@ -1,6 +1,61 @@
 {
- "count": 16,
+ "count": 24,
  "items": {
+  "ftr_02491fc11c": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "accessory": "headband",
+   "build": 0.945,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "headband",
+    "cape"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_02491fc11c",
+   "name": "GRALIX",
+   "personality": "strategic",
+   "rating": 1.045,
+   "repertoire": [
+    "tq_26da0dd4ce",
+    "tq_2fddd9240f",
+    "tq_7c48471882",
+    "tq_736f4c3411",
+    "tq_ac14fac6aa",
+    "tq_fc5ce5fd0b",
+    "tq_4acd5d0d44",
+    "tq_dbd055d396",
+    "tq_a6a95eaa84"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "GRAND CRUSHING ERUPTION",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.524,
+    "aggression": 0.429,
+    "caution": 0.661,
+    "counter": 0.429,
+    "creativity": 0.799,
+    "evasive": 0.45,
+    "range": 3.2,
+    "reaction": 0.106,
+    "read": 0.761,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
   "ftr_032defa98e": {
    "abilities": [
     "ab_a32aa0acc5",
@@ -405,6 +460,62 @@
     "temperature": 0.45
    }
   },
+  "ftr_33a29bb1fa": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "accessory": "halo",
+   "build": 0.95,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "halo",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_33a29bb1fa",
+   "name": "LIGKIX",
+   "personality": "unpredictable",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_2192a4c6a7",
+    "tq_4d8c0b2ce3",
+    "tq_1218dddc1d",
+    "tq_d9588b1324",
+    "tq_a8e6bd4d11",
+    "tq_ae4911569b",
+    "tq_428a64e60d",
+    "tq_549a275fb9",
+    "tq_18216a49c4"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "CHAIN DAWN RAY",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.437,
+    "aggression": 0.617,
+    "caution": 0.402,
+    "counter": 0.451,
+    "creativity": 0.847,
+    "evasive": 0.566,
+    "range": 2.0,
+    "reaction": 0.135,
+    "read": 0.731,
+    "temperature": 1.0
+   },
+   "weapons": []
+  },
   "ftr_41e957db5e": {
    "abilities": [
     "ab_5b8e37c749",
@@ -530,6 +641,171 @@
     "read": 0.636,
     "temperature": 0.6
    }
+  },
+  "ftr_5b227f29b6": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "accessory": "horns",
+   "build": 0.964,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "horns",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_5b227f29b6",
+   "name": "QUALEX",
+   "personality": "strategic",
+   "rating": 1.043,
+   "repertoire": [
+    "tq_22fcc57896",
+    "tq_d4b17af9f0",
+    "tq_eef056934b",
+    "tq_06bb27b84b",
+    "tq_f709ebf7b5",
+    "tq_f3964876d8",
+    "tq_cba9789788",
+    "tq_67d427d856",
+    "tq_99dc4f2d3a"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "CHAIN TITAN CANNON",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.441,
+    "aggression": 0.515,
+    "caution": 0.612,
+    "counter": 0.527,
+    "creativity": 0.606,
+    "evasive": 0.575,
+    "range": 3.2,
+    "reaction": 0.126,
+    "read": 0.497,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_65a1ea9441": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "accessory": "headband",
+   "build": 0.951,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "headband"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_65a1ea9441",
+   "name": "SHALOR",
+   "personality": "defensive",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_14bfdca58e",
+    "tq_68e0e06828",
+    "tq_768910fc1e",
+    "tq_fb5ce9e957",
+    "tq_83124e775b",
+    "tq_c53a6c320f",
+    "tq_5b75f3cdbc",
+    "tq_62f1034cb9",
+    "tq_95776159d5"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "NIGHT QUAKE",
+   "stance": "orthodox",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.544,
+    "aggression": 0.315,
+    "caution": 0.878,
+    "counter": 0.529,
+    "creativity": 0.392,
+    "evasive": 0.424,
+    "range": 1.8,
+    "reaction": 0.073,
+    "read": 0.711,
+    "temperature": 0.45
+   },
+   "weapons": []
+  },
+  "ftr_704c6c0ae5": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "accessory": "topknot",
+   "build": 1.056,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "topknot",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_704c6c0ae5",
+   "name": "METROS",
+   "personality": "defensive",
+   "rating": 1.038,
+   "repertoire": [
+    "tq_214fe9abd2",
+    "tq_fcc15f1dd6",
+    "tq_e616806684",
+    "tq_99f11ca32e",
+    "tq_d5398f95bd",
+    "tq_869b69c1bb",
+    "tq_164bca2196",
+    "tq_f6f4b807f3"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "SNARE IRON CRASH",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.793,
+    "aggression": 0.354,
+    "caution": 0.822,
+    "counter": 0.525,
+    "creativity": 0.352,
+    "evasive": 0.421,
+    "range": 1.8,
+    "reaction": 0.102,
+    "read": 0.685,
+    "temperature": 0.45
+   },
+   "weapons": []
   },
   "ftr_78982cc7dd": {
    "abilities": [
@@ -663,6 +939,62 @@
    "weapons": [
     "dagger"
    ]
+  },
+  "ftr_9238648791": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "accessory": "visor",
+   "build": 1.026,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "visor",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_9238648791",
+   "name": "ICEKYX",
+   "personality": "strategic",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_8772a6277e",
+    "tq_bfaf1d2700",
+    "tq_2775d468f8",
+    "tq_4febaeb29a",
+    "tq_4a12a0a345",
+    "tq_16aac025fc",
+    "tq_4faf79f0c0",
+    "tq_66b5f53f3c",
+    "tq_2a3e243301"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "GRAND FROZEN LANCE",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.71,
+    "aggression": 0.48,
+    "caution": 0.566,
+    "counter": 0.463,
+    "creativity": 0.66,
+    "evasive": 0.491,
+    "range": 3.2,
+    "reaction": 0.099,
+    "read": 0.6,
+    "temperature": 0.4
+   },
+   "weapons": []
   },
   "ftr_a0d4710ec7": {
    "abilities": [
@@ -864,6 +1196,61 @@
     "cutlass"
    ]
   },
+  "ftr_b567af483e": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "accessory": "halo",
+   "build": 1.027,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "halo",
+    "scarf"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_b567af483e",
+   "name": "WATIA",
+   "personality": "defensive",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_3802b772aa",
+    "tq_8c305220c4",
+    "tq_85d07f2f30",
+    "tq_d7646ee7f2",
+    "tq_fc74682db5",
+    "tq_c196ad67ac",
+    "tq_2462dac1de",
+    "tq_c626a46650"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "SNARE SURGING CRASH",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.647,
+    "aggression": 0.347,
+    "caution": 0.774,
+    "counter": 0.518,
+    "creativity": 0.392,
+    "evasive": 0.344,
+    "range": 1.8,
+    "reaction": 0.147,
+    "read": 0.63,
+    "temperature": 0.45
+   },
+   "weapons": []
+  },
   "ftr_b750bb35a2": {
    "abilities": [
     "ab_b7f5981ab1",
@@ -996,6 +1383,60 @@
     "flintlock"
    ]
   },
+  "ftr_d4ed259a4e": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "accessory": "horns",
+   "build": 1.036,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "horns"
+   ],
+   "created": "2026-11-15T11:31:44",
+   "id": "ftr_d4ed259a4e",
+   "name": "NATZUS",
+   "personality": "defensive",
+   "rating": 1.026,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_243e797a42",
+    "tq_32699f0da3",
+    "tq_b35ab4df99",
+    "tq_b8b1b81c44",
+    "tq_3eb1cc243d",
+    "tq_dd91e98018",
+    "tq_495c0de79b",
+    "tq_986c5e0dea"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "SNARE BRIAR NOVA",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.49,
+    "aggression": 0.376,
+    "caution": 0.701,
+    "counter": 0.56,
+    "creativity": 0.428,
+    "evasive": 0.441,
+    "range": 1.8,
+    "reaction": 0.144,
+    "read": 0.672,
+    "temperature": 0.45
+   },
+   "weapons": []
+  },
   "ftr_eb64da082f": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -1061,6 +1502,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T10:55:10",
+ "updated": "2026-11-15T11:31:44",
  "version": 1
 }
