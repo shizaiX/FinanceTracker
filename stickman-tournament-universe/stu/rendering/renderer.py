@@ -57,6 +57,27 @@ class SceneRenderer:
         self._build_static()
         self.ko = next((e for e in self.events if e["type"] == "ko"), None)
         self.callouts = self._layout_callouts()
+        self.attack_labels, self.discoveries = self._layout_labels()
+
+    def _layout_labels(self):
+        names = {e.get("tech"): e["name"] for e in self.events if e["type"] in ("callout", "discovery") and e.get("name")}
+        labels = [[], []]
+        for e in self.events:
+            if e["type"] == "technique" and not e.get("feint"):
+                name = e.get("name") or names.get(e.get("tech"))
+                if not name:
+                    continue
+                ab = e.get("abilities") or []
+                col = mix(rgbs(self.abilities[ab[0]]["colors"])[1], (1, 1, 1), 0.25) if ab and ab[0] in self.abilities else (0.92, 0.92, 0.95)
+                labels[e["fighter"]].append({"t": e["t"], "name": name, "color": col, "tier": e.get("tier"), "dur": 1.8})
+        disc = []
+        for e in self.events:
+            if e["type"] == "discovery":
+                side = e.get("fighter", 0)
+                slot = sum(1 for d in disc if e["t"] - d["t"] < d["dur"])
+                disc.append({"t": e["t"], "name": e["name"], "owner": self.fighters[side]["name"],
+                             "color": mix(self.fcol[side], (1, 1, 1), 0.15), "dur": 2.4, "slot": min(slot, 1)})
+        return labels, disc
 
     def _layout_callouts(self, dur=1.25, slots=2):
         items = []
@@ -872,15 +893,20 @@ class SceneRenderer:
         round_no = 1 + sum(1 for e in self._events_between(0, s, ("round_start",)))
         if seg == "fight":
             hud.draw_scoreboard(cr, a["h"], clamp((s - fs) / 0.4, 0, 1), round_no)
-        # Technique callouts use layout slots so simultaneous ones never overlap,
-        # and they yield to the big announcement banners.
-        banner = any(s - e["t"] < {"fight": 0.85, "round_start": 1.2, "score": 1.5, "ko": 1.6}[e["type"]]
-                     for e in self._events_between(s - 1.6, s, ("fight", "round_start", "score", "ko")))
-        if not banner:
-            for c in self.callouts:
-                age = s - c["t"]
-                if 0 <= age <= c["dur"]:
-                    hud.callout(cr, c["name"], c["color"], age, c["dur"], new=c["new"], tier=c["tier"], slot=c["slot"], owner=c["owner"])
+        # Attack names: small, under each fighter's score; discoveries: below the arena floor.
+        if seg in ("fight", "outro"):
+            for side in (0, 1):
+                lab = None
+                for L in self.attack_labels[side]:
+                    if L["t"] <= s:
+                        lab = L
+                    else:
+                        break
+                if lab and s - lab["t"] <= lab["dur"]:
+                    hud.attack_label(cr, side, lab["name"], lab["color"], s - lab["t"], lab["dur"], lab["tier"])
+            for d in self.discoveries:
+                if 0 <= s - d["t"] <= d["dur"]:
+                    hud.discovery(cr, d["name"], d["owner"], d["color"], s - d["t"], d["dur"], d["slot"])
         for e in self._events_between(s - 1.6, s, ("fight", "round_start", "score", "ko", "guard_break", "counter")):
             age = s - e["t"]
             ty = e["type"]

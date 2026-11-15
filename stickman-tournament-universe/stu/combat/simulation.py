@@ -240,7 +240,8 @@ class Match:
             f.stats["ultimates"] += 1
         if tech["tier"] in ("fusion", "ultimate") and not feint:
             self.event("callout", fighter=f.side, name=tech["name"], tier=tech["tier"], abilities=tech["abilities"], tech=tech["id"])
-        self.event("technique", fighter=f.side, tech=tech["id"], delivery=tech["delivery"], tier=tech["tier"], feint=feint)
+        self.event("technique", fighter=f.side, tech=tech["id"], delivery=tech["delivery"], tier=tech["tier"], feint=feint,
+                   name=tech["name"], abilities=tech["abilities"])
 
     def start_move(self, f, toward, dur, speed, then_back=False):
         d = 1 if (self.opp(f).x > f.x) == toward else -1

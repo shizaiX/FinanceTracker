@@ -399,11 +399,9 @@ def create_tournament(cfg, root=PROJECT_ROOT, universe=None, custom_abilities=No
         u["animations"].put(k, v)
     name = t["name"]
     if name in (None, "auto"):
-        # Tournaments are never numbered: pick a theme title, preferring ones not used yet.
-        used = {x.get("name") for x in u["tournaments"].values()}
-        used |= {Tournament_name for Tournament_name in _existing_names(root)}
-        fresh = [w for w in theme["title_words"] if w not in used]
-        name = rng.stream("name").choice(fresh or theme["title_words"])
+        # Tournaments are never numbered.
+        # The tournament title is just the theme (no numbering, no extra words).
+        name = theme["name"].strip().title()
     slug = f"{slugify(name)}_{seed}"
     path = os.path.join(root, "tournaments", slug)
     if os.path.exists(os.path.join(path, "state.json")):

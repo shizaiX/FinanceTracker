@@ -1,5 +1,5 @@
 {
- "count": 9,
+ "count": 12,
  "items": {
   "arena_elemental_ascension_2_1156271972_0": {
    "accent": "#ff5329",
@@ -82,6 +82,89 @@
    "theme": "elements",
    "time_of_day": "night",
    "tournament": "elemental_ascension_2_1156271972"
+  },
+  "arena_elements_827232095_0": {
+   "accent": "#ffcf7a",
+   "ambient": "dust",
+   "biome": "golden_dunes",
+   "celestial": "sun",
+   "far": "#5a2e0b",
+   "far_type": "dunes",
+   "ground": "#2c1705",
+   "ground_style": "sand",
+   "id": "arena_elements_827232095_0",
+   "layout_seed": 10541527,
+   "lightning": false,
+   "mid": "#703d10",
+   "name": "Sunscorched Dunes",
+   "props": "monolith",
+   "props_list": [
+    "monolith",
+    "column"
+   ],
+   "ships": false,
+   "sky": [
+    "#1a0b01",
+    "#a85714"
+   ],
+   "theme": "elements",
+   "time_of_day": "day",
+   "tournament": "elements_827232095"
+  },
+  "arena_elements_827232095_1": {
+   "accent": "#9aaeff",
+   "ambient": "stars",
+   "biome": "starfall_rift",
+   "celestial": "moon",
+   "far": "#0a0a24",
+   "far_type": "mountains",
+   "ground": "#07071a",
+   "ground_style": "metal",
+   "id": "arena_elements_827232095_1",
+   "layout_seed": 925926794,
+   "lightning": false,
+   "mid": "#16163b",
+   "name": "Starfall Rift",
+   "props": "monolith",
+   "props_list": [
+    "monolith",
+    "floating_rock"
+   ],
+   "ships": false,
+   "sky": [
+    "#000004",
+    "#141040"
+   ],
+   "theme": "elements",
+   "time_of_day": "night",
+   "tournament": "elements_827232095"
+  },
+  "arena_elements_827232095_2": {
+   "accent": "#5fe2ff",
+   "ambient": "bubbles",
+   "biome": "sunken_coliseum",
+   "celestial": "moon",
+   "far": "#08293a",
+   "far_type": "sea",
+   "ground": "#051f2c",
+   "ground_style": "stone",
+   "id": "arena_elements_827232095_2",
+   "layout_seed": 568036749,
+   "lightning": false,
+   "mid": "#0a3447",
+   "name": "Tidal Coliseum",
+   "props": "column",
+   "props_list": [
+    "column"
+   ],
+   "ships": false,
+   "sky": [
+    "#010b14",
+    "#0c4963"
+   ],
+   "theme": "elements",
+   "time_of_day": "night",
+   "tournament": "elements_827232095"
   },
   "arena_primal_clash_1156271972_0": {
    "accent": "#ff5329",
@@ -259,6 +342,6 @@
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-15T12:36:00",
+ "updated": "2026-11-15T18:05:12",
  "version": 1
 }

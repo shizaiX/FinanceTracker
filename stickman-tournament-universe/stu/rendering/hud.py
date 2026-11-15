@@ -153,6 +153,31 @@ class Hud:
         text(cr, f"{sa} - {sb}", W / 2, top + u(40), u(54), (1, 1, 1), "center", alpha)
         text(cr, f"ROUND {round_no}", W / 2, top + u(92), u(24), (0.85, 0.85, 0.9), "center", alpha * 0.9, heavy=False)
 
+    def attack_label(self, cr, side, name, color, age, dur, tier=None):
+        """Name of the attack a fighter is using, small, under its score pips."""
+        sc, a = pop(age, dur, 0.12, 0.35)
+        if a <= 0:
+            return
+        u = self.u
+        top = self.H * SAFE_TOP + u(40)
+        x = u(56) if side == 0 else self.W - u(56)
+        al = "left" if side == 0 else "right"
+        y = top + u(196)
+        if tier == "ultimate":
+            text(cr, "ULTIMATE", x, y - u(30), u(20), (1, 0.85, 0.4), al, a, heavy=False, tracking=0.2)
+        text(cr, name, x, y, u(30 if tier != "ultimate" else 34), color, al, a, outline=0.18, max_width=u(440))
+
+    def discovery(self, cr, name, owner, color, age, dur, slot=0):
+        """New-technique notice below the arena floor, in the discoverer's colour."""
+        sc, a = pop(age, dur, 0.15, 0.4)
+        if a <= 0:
+            return
+        u = self.u
+        y = self.H * 0.742 + slot * u(74)
+        text(cr, f"{owner} DISCOVERED A NEW TECHNIQUE", self.W / 2, y, u(22), color, "center", a * 0.9, heavy=False,
+             tracking=0.08, max_width=u(900))
+        text(cr, name, self.W / 2, y + u(36), u(36), color, "center", a, outline=0.18, max_width=u(900))
+
     # ---- announcement templates ---------------------------------------------
     def banner(self, cr, title, sub, color, age, dur, y=None, size=150):
         sc, a = pop(age, dur)
