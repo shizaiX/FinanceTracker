@@ -1,5 +1,5 @@
 {
- "count": 4,
+ "count": 5,
  "items": {
   "elemental_ascension_1_2026": {
    "champion": "ftr_25872decc9",
@@ -17,6 +17,15 @@
    "name": "Elemental Ascension",
    "participants": 8,
    "seed": 1156271972,
+   "theme": "elements"
+  },
+  "elements_1122603931": {
+   "champion": "ftr_0ca39a12b5",
+   "champion_name": "SOURAX",
+   "finished": "2026-11-15T21:08:39",
+   "name": "Elements",
+   "participants": 8,
+   "seed": 1122603931,
    "theme": "elements"
   },
   "elements_827232095": {
@@ -39,6 +48,6 @@
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-15T18:35:22",
+ "updated": "2026-11-15T21:08:39",
  "version": 1
 }

@@ -277,10 +277,12 @@
    "build": 1.034,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "points_against": 5,
+    "points_for": 9,
+    "tournaments": [
+     "elements_1122603931"
+    ],
+    "wins": 3
    },
    "color": "#ff3b3b",
    "costume": [
@@ -593,10 +595,12 @@
    "accessory": "visor",
    "build": 1.02,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "elements_1122603931"
+    ],
     "wins": 0
    },
    "color": "#1fe08a",
@@ -649,10 +653,12 @@
    "accessory": "horns",
    "build": 1.001,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "elements_1122603931"
+    ],
     "wins": 0
    },
    "color": "#a35cff",
@@ -762,11 +768,13 @@
    "accessory": "halo",
    "build": 0.973,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 8,
+    "tournaments": [
+     "elements_1122603931"
+    ],
+    "wins": 2
    },
    "color": "#ffe23d",
    "costume": [
@@ -879,11 +887,13 @@
    "accessory": "headband",
    "build": 1.025,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 5,
+    "tournaments": [
+     "elements_1122603931"
+    ],
+    "wins": 1
    },
    "color": "#8cff3a",
    "costume": [
@@ -1244,10 +1254,12 @@
    "accessory": "horns",
    "build": 0.952,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "elements_1122603931"
+    ],
     "wins": 0
    },
    "color": "#3a7bff",
@@ -1625,10 +1637,12 @@
    "accessory": "spikes",
    "build": 1.03,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "elements_1122603931"
+    ],
     "wins": 0
    },
    "color": "#2ee9ff",
@@ -2445,11 +2459,13 @@
    "accessory": "halo",
    "build": 0.953,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 3,
+    "tournaments": [
+     "elements_1122603931"
+    ],
+    "wins": 1
    },
    "color": "#ff9a1f",
    "costume": [
@@ -2492,6 +2508,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T20:34:36",
+ "updated": "2026-11-15T21:08:39",
  "version": 1
 }

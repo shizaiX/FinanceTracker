@@ -86,13 +86,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_ee22d6d9b9"
    },
    "m002": {
     "a": "ftr_36a9b2adda",
@@ -101,13 +104,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_36a9b2adda"
    },
    "m003": {
     "a": "ftr_4618ed9ed0",
@@ -116,13 +122,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_4618ed9ed0"
    },
    "m004": {
     "a": "ftr_69bd43a820",
@@ -131,58 +140,70 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_0ca39a12b5"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_ee22d6d9b9",
+    "b": "ftr_36a9b2adda",
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     0,
+     3
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_36a9b2adda"
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_4618ed9ed0",
+    "b": "ftr_0ca39a12b5",
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_0ca39a12b5"
    },
    "m007": {
-    "a": null,
-    "b": null,
+    "a": "ftr_36a9b2adda",
+    "b": "ftr_0ca39a12b5",
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_0ca39a12b5"
    }
   },
   "order": [
@@ -212,7 +233,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_0ca39a12b5",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -283,9 +304,9 @@
    "accessory": "visor",
    "build": 1.02,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -340,10 +361,10 @@
    "build": 1.034,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 5,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 0
+    "wins": 3
    },
    "color": "#ff3b3b",
    "costume": [
@@ -394,11 +415,11 @@
    "accessory": "halo",
    "build": 0.973,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 8,
     "tournaments": [],
-    "wins": 0
+    "wins": 2
    },
    "color": "#ffe23d",
    "costume": [
@@ -448,9 +469,9 @@
    "accessory": "horns",
    "build": 0.952,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -503,9 +524,9 @@
    "accessory": "horns",
    "build": 1.001,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -558,8 +579,8 @@
    "accessory": "spikes",
    "build": 1.03,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -610,11 +631,11 @@
    "accessory": "halo",
    "build": 0.953,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff9a1f",
    "costume": [
@@ -665,11 +686,11 @@
    "accessory": "headband",
    "build": 1.025,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 5,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#8cff3a",
    "costume": [
@@ -711,13 +732,879 @@
    "weapons": []
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "domination",
+   "arena": "Scarlet Caldera",
+   "contact_sheet": "tournaments/elements_1122603931/qa/m001_contact.png",
+   "discoveries": [
+    "tq_b4c2fcb362",
+    "tq_2449a2ac04",
+    "tq_3fb6e8bb7f",
+    "tq_7e471a51c0",
+    "tq_45d2e7feb0",
+    "tq_0487f693f3"
+   ],
+   "final_point_t": 108.017,
+   "intro_seconds": 10.35,
+   "ko_video_t": 150.66666666666666,
+   "points": [
+    {
+     "abs_t": 35.2083,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 31.608,
+     "tech": "tq_1cdfeeede1",
+     "tech_name": "Solar Eruption"
+    },
+    {
+     "abs_t": 52.3333,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 48.733,
+     "tech": "tq_85ec74ff17",
+     "tech_name": "GUARDED ZEPHYR NOVA"
+    },
+    {
+     "abs_t": 74.9833,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 71.383,
+     "tech": "tq_87c373795a",
+     "tech_name": "Cyclone Bind"
+    },
+    {
+     "abs_t": 97.475,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 93.875,
+     "tech": "tq_1cdfeeede1",
+     "tech_name": "Solar Eruption"
+    },
+    {
+     "abs_t": 111.6167,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 108.017,
+     "tech": "tq_30e5c51f61",
+     "tech_name": "Piercing Dawn Crescent"
+    }
+   ],
+   "render_seconds": 362.3,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 23,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 16,
+     "hits": 64,
+     "minor": 11,
+     "points": 3,
+     "projectiles": 7,
+     "significant": 11,
+     "techniques": 63,
+     "ultimates": 4
+    },
+    {
+     "blocked": 1,
+     "combo": 2,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 8,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 36,
+     "minor": 17,
+     "points": 2,
+     "projectiles": 15,
+     "significant": 13,
+     "techniques": 63,
+     "ultimates": 5
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "41fe92875f2510666d869846740baa18dec46ace7b3026d74bad4c437c4b1d00",
+   "video": "exports/elements_1122603931/round_01/match_001.mp4",
+   "video_frames": 9681,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 161.35,
+   "winner": "ftr_ee22d6d9b9"
+  },
+  "m002": {
+   "archetype": "rivalry",
+   "arena": "Scarlet Caldera",
+   "contact_sheet": "tournaments/elements_1122603931/qa/m002_contact.png",
+   "discoveries": [
+    "tq_24fdf43991",
+    "tq_2a8958a9e9",
+    "tq_90cb18b993",
+    "tq_4602fd0d2c",
+    "tq_ed82ccc322",
+    "tq_853b4acfef",
+    "tq_f3ce405c6a",
+    "tq_5ec7dc8c39",
+    "tq_7afc03008c",
+    "tq_85f51f0a07",
+    "tq_811470a77b",
+    "tq_cbaa9afe28",
+    "tq_492e0d8f0f"
+   ],
+   "final_point_t": 68.492,
+   "intro_seconds": 0.0,
+   "ko_video_t": 86.7,
+   "points": [
+    {
+     "abs_t": 18.05,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 14.45,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 38.1417,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 34.542,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 72.0917,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 68.492,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    }
+   ],
+   "render_seconds": 232.8,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 64,
+     "counters": 1,
+     "discoveries": 9,
+     "dodges": 11,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 91,
+     "minor": 20,
+     "points": 3,
+     "projectiles": 6,
+     "significant": 1,
+     "techniques": 40,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 6,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 8,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 20,
+     "minor": 13,
+     "points": 0,
+     "projectiles": 11,
+     "significant": 1,
+     "techniques": 37,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "8aa3d87598e08174dab121786fed715b6169960e0884af6052538633edf3be31",
+   "video": "exports/elements_1122603931/round_01/match_002.mp4",
+   "video_frames": 5843,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 97.383,
+   "winner": "ftr_36a9b2adda"
+  },
+  "m003": {
+   "archetype": "rivalry",
+   "arena": "Scarlet Caldera",
+   "contact_sheet": "tournaments/elements_1122603931/qa/m003_contact.png",
+   "discoveries": [
+    "tq_5af71a0b94",
+    "tq_ee19580dd2",
+    "tq_9079a113d2",
+    "tq_3ef6d62bd1",
+    "tq_73fd7d7414",
+    "tq_b2444d2422",
+    "tq_b588127425",
+    "tq_848da60da2",
+    "tq_20fc06f347",
+    "tq_f1ee8cc4e1",
+    "tq_32491c762f",
+    "tq_d60992e456"
+   ],
+   "final_point_t": 83.717,
+   "intro_seconds": 0.0,
+   "ko_video_t": 109.75,
+   "points": [
+    {
+     "abs_t": 21.1083,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 17.508,
+     "tech": "tq_243e797a42",
+     "tech_name": "Briar Bind"
+    },
+    {
+     "abs_t": 39.9917,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 36.392,
+     "tech": "tq_32699f0da3",
+     "tech_name": "Snare Thorned Eruption"
+    },
+    {
+     "abs_t": 75.25,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 1,
+     "t": 71.65,
+     "tech": "tq_c6d0cd223f",
+     "tech_name": "GRAND ECLIPSE RAY"
+    },
+    {
+     "abs_t": 87.3167,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 83.717,
+     "tech": "tq_b35ab4df99",
+     "tech_name": "Snare Thorned Reaper"
+    }
+   ],
+   "render_seconds": 287.8,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 80,
+     "counters": 0,
+     "discoveries": 6,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 12,
+     "hits": 118,
+     "minor": 21,
+     "points": 3,
+     "projectiles": 4,
+     "significant": 2,
+     "techniques": 51,
+     "ultimates": 3
+    },
+    {
+     "blocked": 3,
+     "combo": 2,
+     "counters": 4,
+     "discoveries": 6,
+     "dodges": 17,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 26,
+     "minor": 18,
+     "points": 1,
+     "projectiles": 6,
+     "significant": 3,
+     "techniques": 41,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "e3ab9cc910b0872e2acbe3ebfda1e111fdb5050ce6a952c4b02e47591ae23a43",
+   "video": "exports/elements_1122603931/round_01/match_003.mp4",
+   "video_frames": 7226,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 120.433,
+   "winner": "ftr_4618ed9ed0"
+  },
+  "m004": {
+   "archetype": "tech_vs_power",
+   "arena": "Scarlet Caldera",
+   "contact_sheet": "tournaments/elements_1122603931/qa/m004_contact.png",
+   "discoveries": [
+    "tq_760fe63226",
+    "tq_50bb89d4fe",
+    "tq_9b78014480",
+    "tq_7de31dca0c",
+    "tq_1569a43a42",
+    "tq_148de6fa0c",
+    "tq_420b242a70",
+    "tq_1a1073122d",
+    "tq_298db05bea",
+    "tq_1a7a0e10fe",
+    "tq_0a44595e91",
+    "tq_183a9b2a5a",
+    "tq_d14b3d14f8",
+    "tq_31c84c8380"
+   ],
+   "final_point_t": 69.775,
+   "intro_seconds": 0.0,
+   "ko_video_t": 90.13333333333334,
+   "points": [
+    {
+     "abs_t": 25.05,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 21.45,
+     "tech": "tq_760fe63226",
+     "tech_name": "Iron Grasp"
+    },
+    {
+     "abs_t": 36.4833,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 32.883,
+     "tech": "tq_50bb89d4fe",
+     "tech_name": "Grand Sonic Nova"
+    },
+    {
+     "abs_t": 48.4833,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 44.883,
+     "tech": "tq_c20635fd94",
+     "tech_name": "Guarded Echo Comet"
+    },
+    {
+     "abs_t": 73.375,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 69.775,
+     "tech": "tq_055f978d89",
+     "tech_name": "RESONANT HAMMER"
+    }
+   ],
+   "render_seconds": 256.4,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 16,
+     "counters": 0,
+     "discoveries": 10,
+     "dodges": 12,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 38,
+     "minor": 17,
+     "points": 1,
+     "projectiles": 9,
+     "significant": 2,
+     "techniques": 34,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 58,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 3,
+     "fusions": 0,
+     "guard_breaks": 6,
+     "hits": 91,
+     "minor": 22,
+     "points": 3,
+     "projectiles": 2,
+     "significant": 2,
+     "techniques": 44,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "7d5047b127807575ecd2ac831571af616661980c477a5313805f98aa651e8aae",
+   "video": "exports/elements_1122603931/round_01/match_004.mp4",
+   "video_frames": 6048,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 100.8,
+   "winner": "ftr_0ca39a12b5"
+  },
+  "m005": {
+   "archetype": "underdog",
+   "arena": "Abyssal Shrine",
+   "contact_sheet": "tournaments/elements_1122603931/qa/m005_contact.png",
+   "discoveries": [
+    "tq_dd7e417c02",
+    "tq_50bff34542",
+    "tq_ace84df24a",
+    "tq_de765d1ca4",
+    "tq_e4c422872d",
+    "tq_5c26107c12",
+    "tq_1401e5026a",
+    "tq_b13106dcc9",
+    "tq_4c1b26d7ef",
+    "tq_70d7382e1b",
+    "tq_ec765a5ab5",
+    "tq_99eaa59e05",
+    "tq_a8f38f53f5",
+    "tq_c4d65ef34b"
+   ],
+   "final_point_t": 66.25,
+   "intro_seconds": 5.0,
+   "ko_video_t": 89.91666666666667,
+   "points": [
+    {
+     "abs_t": 30.8917,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 27.292,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 51.3333,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 47.733,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 69.85,
+     "final": true,
+     "score": [
+      0,
+      3
+     ],
+     "scorer": 1,
+     "t": 66.25,
+     "tech": "tq_90f37e1691",
+     "tech_name": "ARC CRASH"
+    }
+   ],
+   "render_seconds": 201.2,
+   "scores": [
+    0,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 5,
+     "combo": 11,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 11,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 24,
+     "minor": 11,
+     "points": 0,
+     "projectiles": 5,
+     "significant": 2,
+     "techniques": 45,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 38,
+     "counters": 0,
+     "discoveries": 10,
+     "dodges": 12,
+     "fusions": 0,
+     "guard_breaks": 7,
+     "hits": 68,
+     "minor": 18,
+     "points": 3,
+     "projectiles": 4,
+     "significant": 3,
+     "techniques": 42,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "4bfbf2f8aeb88742d779d79342b4c9183c7dee0f5cb874421c0e3c4413ad2b19",
+   "video": "exports/elements_1122603931/semifinals/match_005.mp4",
+   "video_frames": 6035,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 100.583,
+   "winner": "ftr_36a9b2adda"
+  },
+  "m006": {
+   "archetype": "rivalry",
+   "arena": "Abyssal Shrine",
+   "contact_sheet": "tournaments/elements_1122603931/qa/m006_contact.png",
+   "discoveries": [
+    "tq_c03f5e8f9d",
+    "tq_b78ea46abd",
+    "tq_5496041bb5",
+    "tq_7987bd8757",
+    "tq_01dbaa9c74",
+    "tq_67f501f7fd",
+    "tq_19c5c1fd59"
+   ],
+   "final_point_t": 80.792,
+   "intro_seconds": 0.0,
+   "ko_video_t": 111.08333333333333,
+   "points": [
+    {
+     "abs_t": 16.0167,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 12.417,
+     "tech": "tq_243e797a42",
+     "tech_name": "Briar Bind"
+    },
+    {
+     "abs_t": 43.5417,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 39.942,
+     "tech": "tq_dff0599e26",
+     "tech_name": "Resonant Talon"
+    },
+    {
+     "abs_t": 61.875,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 58.275,
+     "tech": "tq_dff0599e26",
+     "tech_name": "Resonant Talon"
+    },
+    {
+     "abs_t": 72.85,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 69.25,
+     "tech": "tq_b35ab4df99",
+     "tech_name": "Snare Thorned Reaper"
+    },
+    {
+     "abs_t": 84.3917,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 80.792,
+     "tech": "tq_c20635fd94",
+     "tech_name": "Guarded Echo Comet"
+    }
+   ],
+   "render_seconds": 260.7,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 57,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 14,
+     "hits": 92,
+     "minor": 10,
+     "points": 2,
+     "projectiles": 1,
+     "significant": 9,
+     "techniques": 43,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 90,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 14,
+     "hits": 125,
+     "minor": 15,
+     "points": 3,
+     "projectiles": 3,
+     "significant": 3,
+     "techniques": 43,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "63ebdb8d177debdea46799b90174f9a915bfe2c6cd13830744416501ec2d3657",
+   "video": "exports/elements_1122603931/semifinals/match_006.mp4",
+   "video_frames": 7306,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 121.767,
+   "winner": "ftr_0ca39a12b5"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "Verdant Grove",
+   "contact_sheet": "tournaments/elements_1122603931/qa/m007_contact.png",
+   "discoveries": [
+    "tq_19c3729bc9",
+    "tq_ed80c5b07d",
+    "tq_6523441d00",
+    "tq_24c73b4b94",
+    "tq_87c4f18011",
+    "tq_b93ef59749",
+    "tq_b48898ff6d",
+    "tq_8beff2e4c8",
+    "tq_2acd4ce461",
+    "tq_eb30228d3c",
+    "tq_1045bbb168"
+   ],
+   "final_point_t": 82.933,
+   "intro_seconds": 5.0,
+   "ko_video_t": 113.28333333333333,
+   "points": [
+    {
+     "abs_t": 16.825,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 13.225,
+     "tech": "tq_7c64fc4af8",
+     "tech_name": "Arc Comet"
+    },
+    {
+     "abs_t": 39.9333,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 36.333,
+     "tech": "tq_8772a6277e",
+     "tech_name": "Dashing Knuckle"
+    },
+    {
+     "abs_t": 57.65,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 54.05,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 72.9083,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 69.308,
+     "tech": "tq_055f978d89",
+     "tech_name": "RESONANT HAMMER"
+    },
+    {
+     "abs_t": 86.5333,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 82.933,
+     "tech": "tq_c20635fd94",
+     "tech_name": "Guarded Echo Comet"
+    }
+   ],
+   "render_seconds": 266.0,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 67,
+     "counters": 2,
+     "discoveries": 6,
+     "dodges": 12,
+     "fusions": 0,
+     "guard_breaks": 6,
+     "hits": 97,
+     "minor": 19,
+     "points": 2,
+     "projectiles": 2,
+     "significant": 3,
+     "techniques": 42,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 46,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 2,
+     "fusions": 0,
+     "guard_breaks": 6,
+     "hits": 78,
+     "minor": 20,
+     "points": 3,
+     "projectiles": 4,
+     "significant": 3,
+     "techniques": 50,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "b2a84d802e754acb7515487ce0cb4fa63ca6a831fd00e18828eff448b5d6de80",
+   "video": "exports/elements_1122603931/final/match_007.mp4",
+   "video_frames": 7437,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 123.95,
+   "winner": "ftr_0ca39a12b5"
+  }
+ },
  "name": "Elements",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "elements_1122603931",
- "steps": {},
+ "steps": {
+  "champion": "exports/elements_1122603931/champion.mp4",
+  "complete": "exports/elements_1122603931/complete_tournament.mp4",
+  "highlights": "exports/elements_1122603931/highlights.mp4",
+  "intro_bracket_01": {
+   "frames": 300,
+   "path": "tournaments/elements_1122603931/intros/bracket_01.mp4"
+  },
+  "intro_bracket_02": {
+   "frames": 300,
+   "path": "tournaments/elements_1122603931/intros/bracket_02.mp4"
+  },
+  "intro_bracket_03": {
+   "frames": 300,
+   "path": "tournaments/elements_1122603931/intros/bracket_03.mp4"
+  },
+  "intro_roster": {
+   "frames": 321,
+   "path": "tournaments/elements_1122603931/intros/roster.mp4"
+  }
+ },
  "theme": "elements",
- "updated": "2026-11-15T20:34:36",
+ "updated": "2026-11-15T21:08:39",
  "version": 1
 }
