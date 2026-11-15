@@ -44,13 +44,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_b750bb35a2"
    },
    "m004": {
     "a": "ftr_4c073431e2",
@@ -83,7 +86,7 @@
     "winner": null
    },
    "m006": {
-    "a": null,
+    "a": "ftr_b750bb35a2",
     "b": null,
     "id": "m006",
     "index": 1,
@@ -212,9 +215,9 @@
    "accessory": "spikes",
    "build": 0.97,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -457,10 +460,10 @@
    "build": 0.996,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff9a1f",
    "created": "2026-11-15T03:11:25",
@@ -924,6 +927,124 @@
    "video_ok": true,
    "video_seconds": 114.483,
    "winner": "ftr_1addcf4dde"
+  },
+  "m003": {
+   "archetype": "underdog",
+   "arena": "Frozen Sanctum",
+   "contact_sheet": "tournaments/elemental_ascension_1_2026/qa/m003_contact.png",
+   "discoveries": [],
+   "final_point_t": 82.175,
+   "ko_video_t": 110.46666666666667,
+   "points": [
+    {
+     "abs_t": 26.3167,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 22.717,
+     "tech": "tq_bcb348360c",
+     "tech_name": "Dashing Suplex"
+    },
+    {
+     "abs_t": 44.8333,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 41.233,
+     "tech": "tq_b9ec222dca",
+     "tech_name": "Hidden Sweep"
+    },
+    {
+     "abs_t": 57.6083,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 54.008,
+     "tech": "tq_647b2aab25",
+     "tech_name": "Collapse Grasp"
+    },
+    {
+     "abs_t": 72.8583,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 69.258,
+     "tech": "tq_6d399e4b94",
+     "tech_name": "Guarded Chrome Palm"
+    },
+    {
+     "abs_t": 85.775,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 82.175,
+     "tech": "tq_08ea528438",
+     "tech_name": "Dashing Crescent"
+    }
+   ],
+   "render_seconds": 201.8,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 15,
+     "counters": 6,
+     "discoveries": 0,
+     "dodges": 2,
+     "fusions": 4,
+     "guard_breaks": 6,
+     "hits": 47,
+     "minor": 14,
+     "points": 2,
+     "projectiles": 0,
+     "significant": 10,
+     "techniques": 55,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 15,
+     "counters": 0,
+     "discoveries": 0,
+     "dodges": 4,
+     "fusions": 2,
+     "guard_breaks": 5,
+     "hits": 52,
+     "minor": 18,
+     "points": 3,
+     "projectiles": 15,
+     "significant": 11,
+     "techniques": 64,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "890a3f2767f1fb7a9eb615afd35af6dbe04c4a8e03618c3308f27718a5ecae32",
+   "video": "exports/elemental_ascension_1_2026/round_01/match_003.mp4",
+   "video_frames": 7268,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 121.133,
+   "winner": "ftr_b750bb35a2"
   }
  },
  "name": "Elemental Ascension #1",
@@ -934,6 +1055,6 @@
   "bracket_reveal": "exports/elemental_ascension_1_2026/bracket_reveal.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:18:00",
+ "updated": "2026-11-15T03:21:24",
  "version": 1
 }

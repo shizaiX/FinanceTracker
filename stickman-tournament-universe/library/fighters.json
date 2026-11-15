@@ -256,9 +256,9 @@
    "accessory": "spikes",
    "build": 0.97,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -379,10 +379,10 @@
    "build": 0.996,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff9a1f",
    "created": "2026-11-15T03:11:25",
@@ -490,6 +490,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T03:18:00",
+ "updated": "2026-11-15T03:21:24",
  "version": 1
 }
