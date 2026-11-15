@@ -1,9 +1,9 @@
 {
- "count": 454,
+ "count": 590,
  "items": {
   "ability:ab_083a980255": {
-   "matches": 3,
-   "wins": 0
+   "matches": 5,
+   "wins": 1
   },
   "ability:ab_23c7b1db88": {
    "matches": 3,
@@ -18,7 +18,7 @@
    "wins": 4
   },
   "ability:ab_314ffb8ed5": {
-   "matches": 4,
+   "matches": 6,
    "wins": 1
   },
   "ability:ab_31daa6369e": {
@@ -30,12 +30,12 @@
    "wins": 1
   },
   "ability:ab_5b8e37c749": {
-   "matches": 3,
-   "wins": 1
+   "matches": 6,
+   "wins": 4
   },
   "ability:ab_66a6db4683": {
-   "matches": 4,
-   "wins": 3
+   "matches": 8,
+   "wins": 5
   },
   "ability:ab_6d3b0c6f9e": {
    "matches": 1,
@@ -46,11 +46,11 @@
    "wins": 0
   },
   "ability:ab_83c4d6d552": {
-   "matches": 5,
-   "wins": 2
+   "matches": 7,
+   "wins": 3
   },
   "ability:ab_871ffa40a3": {
-   "matches": 1,
+   "matches": 2,
    "wins": 0
   },
   "ability:ab_9408408bac": {
@@ -66,31 +66,31 @@
    "wins": 0
   },
   "ability:ab_a337bbb9cf": {
-   "matches": 6,
+   "matches": 7,
    "wins": 4
   },
   "ability:ab_a48e55e410": {
-   "matches": 3,
-   "wins": 1
+   "matches": 7,
+   "wins": 3
   },
   "ability:ab_b7f5981ab1": {
-   "matches": 3,
-   "wins": 2
+   "matches": 6,
+   "wins": 5
   },
   "ability:ab_c2263f9e8c": {
    "matches": 2,
    "wins": 1
   },
   "ability:ab_d2779be2be": {
-   "matches": 2,
-   "wins": 1
+   "matches": 4,
+   "wins": 2
   },
   "ability:ab_d903b6dc1c": {
-   "matches": 2,
-   "wins": 0
+   "matches": 5,
+   "wins": 1
   },
   "ability:ab_e33ef84aee": {
-   "matches": 6,
+   "matches": 7,
    "wins": 6
   },
   "fighter:ftr_02491fc11c": {
@@ -189,6 +189,22 @@
    "techniques": 144,
    "ultimates": 9
   },
+  "fighter:ftr_1f6daced5a": {
+   "blocked": 2,
+   "combo": 263,
+   "counters": 3,
+   "discoveries": 9,
+   "dodges": 14,
+   "fusions": 4,
+   "guard_breaks": 30,
+   "hits": 367,
+   "minor": 57,
+   "points": 8,
+   "projectiles": 32,
+   "significant": 9,
+   "techniques": 136,
+   "ultimates": 11
+  },
   "fighter:ftr_25872decc9": {
    "blocked": 0,
    "combo": 51,
@@ -236,6 +252,22 @@
    "significant": 10,
    "techniques": 118,
    "ultimates": 7
+  },
+  "fighter:ftr_49a5a3a257": {
+   "blocked": 0,
+   "combo": 7,
+   "counters": 0,
+   "discoveries": 5,
+   "dodges": 8,
+   "fusions": 0,
+   "guard_breaks": 0,
+   "hits": 25,
+   "minor": 14,
+   "points": 0,
+   "projectiles": 3,
+   "significant": 4,
+   "techniques": 41,
+   "ultimates": 2
   },
   "fighter:ftr_4c073431e2": {
    "blocked": 0,
@@ -285,6 +317,22 @@
    "techniques": 46,
    "ultimates": 3
   },
+  "fighter:ftr_667eded3a4": {
+   "blocked": 0,
+   "combo": 158,
+   "counters": 0,
+   "discoveries": 17,
+   "dodges": 14,
+   "fusions": 7,
+   "guard_breaks": 27,
+   "hits": 275,
+   "minor": 73,
+   "points": 9,
+   "projectiles": 38,
+   "significant": 8,
+   "techniques": 135,
+   "ultimates": 9
+  },
   "fighter:ftr_704c6c0ae5": {
    "blocked": 9,
    "combo": 91,
@@ -333,6 +381,38 @@
    "techniques": 199,
    "ultimates": 7
   },
+  "fighter:ftr_83a07aa0dc": {
+   "blocked": 0,
+   "combo": 20,
+   "counters": 0,
+   "discoveries": 9,
+   "dodges": 16,
+   "fusions": 3,
+   "guard_breaks": 5,
+   "hits": 80,
+   "minor": 41,
+   "points": 3,
+   "projectiles": 2,
+   "significant": 11,
+   "techniques": 81,
+   "ultimates": 5
+  },
+  "fighter:ftr_906e079792": {
+   "blocked": 0,
+   "combo": 24,
+   "counters": 0,
+   "discoveries": 5,
+   "dodges": 4,
+   "fusions": 4,
+   "guard_breaks": 2,
+   "hits": 54,
+   "minor": 27,
+   "points": 1,
+   "projectiles": 2,
+   "significant": 0,
+   "techniques": 45,
+   "ultimates": 1
+  },
   "fighter:ftr_9238648791": {
    "blocked": 1,
    "combo": 23,
@@ -364,6 +444,22 @@
    "significant": 7,
    "techniques": 67,
    "ultimates": 3
+  },
+  "fighter:ftr_a6eb3ebe03": {
+   "blocked": 1,
+   "combo": 7,
+   "counters": 1,
+   "discoveries": 10,
+   "dodges": 14,
+   "fusions": 4,
+   "guard_breaks": 2,
+   "hits": 40,
+   "minor": 17,
+   "points": 3,
+   "projectiles": 8,
+   "significant": 11,
+   "techniques": 75,
+   "ultimates": 4
   },
   "fighter:ftr_af7f24a1fc": {
    "blocked": 0,
@@ -429,6 +525,22 @@
    "techniques": 188,
    "ultimates": 8
   },
+  "fighter:ftr_bdf2fa7dc7": {
+   "blocked": 0,
+   "combo": 7,
+   "counters": 0,
+   "discoveries": 3,
+   "dodges": 4,
+   "fusions": 2,
+   "guard_breaks": 8,
+   "hits": 35,
+   "minor": 14,
+   "points": 0,
+   "projectiles": 8,
+   "significant": 6,
+   "techniques": 40,
+   "ultimates": 2
+  },
   "fighter:ftr_bf10c96ec1": {
    "blocked": 0,
    "combo": 39,
@@ -444,6 +556,22 @@
    "significant": 9,
    "techniques": 179,
    "ultimates": 10
+  },
+  "fighter:ftr_ca27331eff": {
+   "blocked": 0,
+   "combo": 33,
+   "counters": 3,
+   "discoveries": 0,
+   "dodges": 5,
+   "fusions": 1,
+   "guard_breaks": 10,
+   "hits": 57,
+   "minor": 10,
+   "points": 1,
+   "projectiles": 11,
+   "significant": 3,
+   "techniques": 40,
+   "ultimates": 2
   },
   "fighter:ftr_d4ed259a4e": {
    "blocked": 0,
@@ -478,8 +606,8 @@
    "ultimates": 4
   },
   "global": {
-   "matches": 21,
-   "sim_seconds": 1733.7400000000002
+   "matches": 28,
+   "sim_seconds": 2253.36
   },
   "technique:tq_00849d93bb": {
    "uses": 1
@@ -499,8 +627,14 @@
   "technique:tq_024dcc1035": {
    "uses": 1
   },
+  "technique:tq_0299aa0686": {
+   "uses": 1
+  },
   "technique:tq_02a22320cb": {
    "uses": 2
+  },
+  "technique:tq_03166e0c2a": {
+   "uses": 1
   },
   "technique:tq_03784c7d69": {
    "uses": 4
@@ -517,6 +651,9 @@
   },
   "technique:tq_06bb27b84b": {
    "uses": 9
+  },
+  "technique:tq_070f3ea449": {
+   "uses": 4
   },
   "technique:tq_076244e1e5": {
    "uses": 1
@@ -556,17 +693,29 @@
   "technique:tq_0b18b5e318": {
    "uses": 2
   },
+  "technique:tq_0b8ac79836": {
+   "uses": 2
+  },
   "technique:tq_0bf927dd47": {
    "uses": 4
   },
+  "technique:tq_0cb1e39f4c": {
+   "uses": 2
+  },
   "technique:tq_0d75ed9320": {
    "uses": 11
+  },
+  "technique:tq_0d934b60c6": {
+   "uses": 3
   },
   "technique:tq_0dc5babc59": {
    "uses": 1
   },
   "technique:tq_0de043e0e3": {
    "points": 1,
+   "uses": 6
+  },
+  "technique:tq_0eae427e39": {
    "uses": 6
   },
   "technique:tq_0ecc06ecee": {
@@ -577,6 +726,10 @@
   },
   "technique:tq_0fe59f60fc": {
    "uses": 16
+  },
+  "technique:tq_100308bf34": {
+   "points": 1,
+   "uses": 7
   },
   "technique:tq_104e58e197": {
    "points": 1,
@@ -603,11 +756,23 @@
   "technique:tq_12a0997578": {
    "uses": 7
   },
+  "technique:tq_1319cfe3ae": {
+   "uses": 10
+  },
+  "technique:tq_13b2a3fe90": {
+   "uses": 4
+  },
   "technique:tq_14bfdca58e": {
    "uses": 4
   },
+  "technique:tq_14e860d8f4": {
+   "uses": 3
+  },
   "technique:tq_14f00f4d4b": {
    "uses": 5
+  },
+  "technique:tq_15415ad3de": {
+   "uses": 1
   },
   "technique:tq_155abc9275": {
    "uses": 2
@@ -633,12 +798,28 @@
   "technique:tq_16aac025fc": {
    "uses": 1
   },
+  "technique:tq_171d295001": {
+   "uses": 1
+  },
+  "technique:tq_173042f92c": {
+   "uses": 3
+  },
+  "technique:tq_175952b39b": {
+   "uses": 3
+  },
   "technique:tq_18216a49c4": {
    "points": 4,
    "uses": 10
   },
+  "technique:tq_183d067c7b": {
+   "uses": 1
+  },
   "technique:tq_18ec0b946b": {
    "uses": 1
+  },
+  "technique:tq_18edccf11c": {
+   "points": 3,
+   "uses": 11
   },
   "technique:tq_18f0000f5b": {
    "uses": 19
@@ -650,7 +831,11 @@
    "uses": 3
   },
   "technique:tq_1b00fc8add": {
-   "uses": 4
+   "uses": 6
+  },
+  "technique:tq_1b339c67a9": {
+   "points": 3,
+   "uses": 15
   },
   "technique:tq_1b97ea7af5": {
    "uses": 6
@@ -658,7 +843,17 @@
   "technique:tq_1c756e09af": {
    "uses": 12
   },
+  "technique:tq_1c92c04267": {
+   "points": 1,
+   "uses": 5
+  },
+  "technique:tq_1d32b1716e": {
+   "uses": 2
+  },
   "technique:tq_1d8b625638": {
+   "uses": 4
+  },
+  "technique:tq_1ddb2f17e2": {
    "uses": 4
   },
   "technique:tq_1e40c6cbe4": {
@@ -671,6 +866,9 @@
   "technique:tq_1efdf8b146": {
    "uses": 3
   },
+  "technique:tq_1f6f8abcde": {
+   "uses": 9
+  },
   "technique:tq_2017b1fef3": {
    "uses": 3
   },
@@ -678,6 +876,9 @@
    "uses": 4
   },
   "technique:tq_20a53e677b": {
+   "uses": 2
+  },
+  "technique:tq_20e5cc0c4e": {
    "uses": 2
   },
   "technique:tq_21012d8912": {
@@ -702,7 +903,10 @@
    "uses": 4
   },
   "technique:tq_243e797a42": {
-   "uses": 8
+   "uses": 13
+  },
+  "technique:tq_24585e4b5e": {
+   "uses": 1
   },
   "technique:tq_2462dac1de": {
    "uses": 10
@@ -726,8 +930,14 @@
   "technique:tq_2775d468f8": {
    "uses": 8
   },
+  "technique:tq_278e9e0ab2": {
+   "uses": 15
+  },
   "technique:tq_284afe5b74": {
    "uses": 2
+  },
+  "technique:tq_2863e1046d": {
+   "uses": 3
   },
   "technique:tq_28b0cc96f2": {
    "uses": 2
@@ -751,8 +961,14 @@
   "technique:tq_2a9dd7f851": {
    "uses": 2
   },
+  "technique:tq_2ba1a8c2bc": {
+   "uses": 4
+  },
   "technique:tq_2bd95a03dd": {
    "uses": 2
+  },
+  "technique:tq_2cbe5a6600": {
+   "uses": 1
   },
   "technique:tq_2cc524ab4f": {
    "points": 2,
@@ -780,6 +996,9 @@
   "technique:tq_3143dcb886": {
    "uses": 1
   },
+  "technique:tq_317cfaf853": {
+   "uses": 2
+  },
   "technique:tq_31c3c048c6": {
    "uses": 5
   },
@@ -787,7 +1006,7 @@
    "uses": 6
   },
   "technique:tq_32699f0da3": {
-   "uses": 4
+   "uses": 6
   },
   "technique:tq_33c576fe8b": {
    "uses": 4
@@ -813,7 +1032,7 @@
    "uses": 8
   },
   "technique:tq_3802b772aa": {
-   "uses": 4
+   "uses": 6
   },
   "technique:tq_39acc0d557": {
    "uses": 9
@@ -830,12 +1049,21 @@
   "technique:tq_3b490eb8a9": {
    "uses": 3
   },
+  "technique:tq_3b789dd73b": {
+   "uses": 1
+  },
   "technique:tq_3b8e2ea91e": {
    "uses": 1
+  },
+  "technique:tq_3bcda0e76e": {
+   "uses": 2
   },
   "technique:tq_3c800c5968": {
    "points": 3,
    "uses": 14
+  },
+  "technique:tq_3c84257d11": {
+   "uses": 1
   },
   "technique:tq_3c933db9d0": {
    "uses": 2
@@ -845,6 +1073,9 @@
   },
   "technique:tq_3d99c9189c": {
    "uses": 14
+  },
+  "technique:tq_3da9bbaea2": {
+   "uses": 1
   },
   "technique:tq_3ea60312ed": {
    "uses": 5
@@ -858,8 +1089,15 @@
   "technique:tq_3f118da3c7": {
    "uses": 4
   },
+  "technique:tq_4189f89f76": {
+   "uses": 5
+  },
+  "technique:tq_41a1e39b9c": {
+   "uses": 2
+  },
   "technique:tq_425e8dece5": {
-   "uses": 3
+   "points": 1,
+   "uses": 14
   },
   "technique:tq_428a64e60d": {
    "uses": 8
@@ -882,6 +1120,9 @@
   "technique:tq_48bcbacb40": {
    "uses": 2
   },
+  "technique:tq_49136171c0": {
+   "uses": 1
+  },
   "technique:tq_495c0de79b": {
    "uses": 6
   },
@@ -891,6 +1132,13 @@
   "technique:tq_4a6b7823f2": {
    "uses": 1
   },
+  "technique:tq_4a6b7b5dbc": {
+   "uses": 1
+  },
+  "technique:tq_4ab7d0402d": {
+   "points": 1,
+   "uses": 8
+  },
   "technique:tq_4acd5d0d44": {
    "uses": 7
   },
@@ -898,6 +1146,9 @@
    "uses": 9
   },
   "technique:tq_4bda62490d": {
+   "uses": 2
+  },
+  "technique:tq_4bdaf07f4e": {
    "uses": 2
   },
   "technique:tq_4ca64982b2": {
@@ -915,7 +1166,13 @@
   "technique:tq_4f91ff1ec9": {
    "uses": 5
   },
+  "technique:tq_4fa8674b11": {
+   "uses": 2
+  },
   "technique:tq_4faf79f0c0": {
+   "uses": 6
+  },
+  "technique:tq_5004e6b1fe": {
    "uses": 6
   },
   "technique:tq_527064ab2e": {
@@ -924,11 +1181,18 @@
   "technique:tq_53505fb784": {
    "uses": 4
   },
+  "technique:tq_5371d898e0": {
+   "uses": 3
+  },
   "technique:tq_549a275fb9": {
    "uses": 7
   },
   "technique:tq_54d345f1be": {
    "uses": 2
+  },
+  "technique:tq_555cb0a644": {
+   "points": 3,
+   "uses": 9
   },
   "technique:tq_5583e4f5ed": {
    "uses": 2
@@ -943,7 +1207,7 @@
    "uses": 7
   },
   "technique:tq_5ac37d9cf7": {
-   "uses": 2
+   "uses": 12
   },
   "technique:tq_5b75f3cdbc": {
    "uses": 5
@@ -954,9 +1218,15 @@
   "technique:tq_5c4fcc53e9": {
    "uses": 15
   },
+  "technique:tq_5cc4e84ef4": {
+   "uses": 5
+  },
   "technique:tq_5ce687f933": {
    "points": 2,
    "uses": 8
+  },
+  "technique:tq_5d5cb4d711": {
+   "uses": 1
   },
   "technique:tq_5da3ade60d": {
    "uses": 11
@@ -970,15 +1240,36 @@
   "technique:tq_6195a2eb3a": {
    "uses": 6
   },
+  "technique:tq_6298b1651a": {
+   "uses": 3
+  },
+  "technique:tq_62d49d8096": {
+   "uses": 12
+  },
   "technique:tq_62f1034cb9": {
    "uses": 4
   },
   "technique:tq_63ce71ebb1": {
    "uses": 10
   },
+  "technique:tq_63dc85125f": {
+   "uses": 10
+  },
+  "technique:tq_641cf051cf": {
+   "uses": 1
+  },
   "technique:tq_647b2aab25": {
    "points": 1,
    "uses": 3
+  },
+  "technique:tq_64fe916872": {
+   "uses": 4
+  },
+  "technique:tq_657969df30": {
+   "uses": 3
+  },
+  "technique:tq_658f18564e": {
+   "uses": 1
   },
   "technique:tq_66b5f53f3c": {
    "uses": 3
@@ -1003,6 +1294,9 @@
   "technique:tq_6953a9da21": {
    "uses": 7
   },
+  "technique:tq_69ac89fbd0": {
+   "uses": 1
+  },
   "technique:tq_69c933e1b6": {
    "uses": 16
   },
@@ -1023,6 +1317,12 @@
   "technique:tq_6c5d80f44b": {
    "uses": 1
   },
+  "technique:tq_6c64e51fd5": {
+   "uses": 2
+  },
+  "technique:tq_6c7b897187": {
+   "uses": 2
+  },
   "technique:tq_6c84dacd57": {
    "uses": 3
   },
@@ -1030,14 +1330,20 @@
    "uses": 51
   },
   "technique:tq_6cdffac969": {
-   "uses": 3
+   "uses": 5
   },
   "technique:tq_6d399e4b94": {
    "points": 1,
    "uses": 6
   },
+  "technique:tq_6dfd208b09": {
+   "uses": 1
+  },
   "technique:tq_6e960f1426": {
    "uses": 4
+  },
+  "technique:tq_6ea5a61eb8": {
+   "uses": 8
   },
   "technique:tq_6ebb4431c3": {
    "uses": 5
@@ -1061,9 +1367,15 @@
   "technique:tq_7210168597": {
    "uses": 2
   },
+  "technique:tq_7281b79f8d": {
+   "uses": 1
+  },
+  "technique:tq_72b140de90": {
+   "uses": 1
+  },
   "technique:tq_736f4c3411": {
    "points": 2,
-   "uses": 15
+   "uses": 27
   },
   "technique:tq_73ac03aa7c": {
    "uses": 6
@@ -1089,11 +1401,20 @@
   "technique:tq_758cea3abf": {
    "uses": 15
   },
+  "technique:tq_75ad1638d7": {
+   "uses": 20
+  },
   "technique:tq_76543a5e90": {
    "uses": 3
   },
   "technique:tq_768910fc1e": {
    "uses": 5
+  },
+  "technique:tq_7705f14597": {
+   "uses": 1
+  },
+  "technique:tq_780329e4d5": {
+   "uses": 9
   },
   "technique:tq_782bcd501d": {
    "uses": 5
@@ -1123,6 +1444,9 @@
    "uses": 2
   },
   "technique:tq_7c9e15f58d": {
+   "uses": 1
+  },
+  "technique:tq_7d1e91e866": {
    "uses": 1
   },
   "technique:tq_7d1f5c02f8": {
@@ -1181,7 +1505,13 @@
   "technique:tq_838cc8bc1d": {
    "uses": 1
   },
+  "technique:tq_84f0b84859": {
+   "uses": 1
+  },
   "technique:tq_85602eedb9": {
+   "uses": 1
+  },
+  "technique:tq_85618df1e3": {
    "uses": 1
   },
   "technique:tq_85ab3c92ba": {
@@ -1191,8 +1521,8 @@
    "uses": 13
   },
   "technique:tq_85d07f2f30": {
-   "points": 1,
-   "uses": 8
+   "points": 2,
+   "uses": 15
   },
   "technique:tq_8658aa7da1": {
    "uses": 4
@@ -1204,7 +1534,10 @@
    "uses": 1
   },
   "technique:tq_8772a6277e": {
-   "uses": 6
+   "uses": 11
+  },
+  "technique:tq_8785a56269": {
+   "uses": 8
   },
   "technique:tq_88d40087af": {
    "uses": 68
@@ -1212,17 +1545,29 @@
   "technique:tq_88e06d7cfd": {
    "uses": 7
   },
+  "technique:tq_8994ab3083": {
+   "uses": 1
+  },
+  "technique:tq_8a28f2999d": {
+   "uses": 2
+  },
   "technique:tq_8a463c215b": {
    "uses": 3
   },
   "technique:tq_8c03f17324": {
    "uses": 2
   },
+  "technique:tq_8c27676286": {
+   "uses": 1
+  },
   "technique:tq_8c305220c4": {
    "uses": 2
   },
+  "technique:tq_8c456fd22f": {
+   "uses": 2
+  },
   "technique:tq_8ced634fa7": {
-   "uses": 3
+   "uses": 8
   },
   "technique:tq_8e145f3b21": {
    "points": 2,
@@ -1230,6 +1575,9 @@
   },
   "technique:tq_8e7f7a9834": {
    "uses": 2
+  },
+  "technique:tq_8f6f1e0272": {
+   "uses": 1
   },
   "technique:tq_8fd268bd4e": {
    "uses": 3
@@ -1243,6 +1591,9 @@
   "technique:tq_913765d325": {
    "points": 3,
    "uses": 10
+  },
+  "technique:tq_913a5c33ee": {
+   "uses": 11
   },
   "technique:tq_9166fa9ff8": {
    "points": 1,
@@ -1258,9 +1609,19 @@
    "points": 1,
    "uses": 1
   },
+  "technique:tq_9372763cc0": {
+   "uses": 1
+  },
   "technique:tq_93e6772461": {
    "points": 5,
    "uses": 21
+  },
+  "technique:tq_93f71b2e2a": {
+   "points": 2,
+   "uses": 17
+  },
+  "technique:tq_946a671cee": {
+   "uses": 1
   },
   "technique:tq_948fa6df69": {
    "uses": 6
@@ -1276,6 +1637,9 @@
   },
   "technique:tq_95776159d5": {
    "points": 1,
+   "uses": 3
+  },
+  "technique:tq_95e1802f0d": {
    "uses": 3
   },
   "technique:tq_96b2939d8b": {
@@ -1296,6 +1660,9 @@
   "technique:tq_99f11ca32e": {
    "uses": 2
   },
+  "technique:tq_9a3c8dbf0a": {
+   "uses": 2
+  },
   "technique:tq_9aed22cb53": {
    "uses": 1
   },
@@ -1306,11 +1673,17 @@
    "points": 1,
    "uses": 28
   },
+  "technique:tq_9c2673aed6": {
+   "uses": 1
+  },
   "technique:tq_9c5edd4489": {
    "uses": 19
   },
   "technique:tq_9ed83535a2": {
    "uses": 5
+  },
+  "technique:tq_a05343d3a4": {
+   "uses": 6
   },
   "technique:tq_a0d814adc5": {
    "uses": 1
@@ -1318,9 +1691,18 @@
   "technique:tq_a107d6b9ee": {
    "uses": 4
   },
+  "technique:tq_a193646f31": {
+   "uses": 2
+  },
   "technique:tq_a213be7251": {
    "points": 1,
    "uses": 11
+  },
+  "technique:tq_a39d7b3dbe": {
+   "uses": 7
+  },
+  "technique:tq_a3b792bebe": {
+   "uses": 2
   },
   "technique:tq_a3f59c7054": {
    "uses": 1
@@ -1328,17 +1710,30 @@
   "technique:tq_a46bf43e7b": {
    "uses": 15
   },
+  "technique:tq_a48547f1bb": {
+   "points": 2,
+   "uses": 11
+  },
   "technique:tq_a497973119": {
    "uses": 1
   },
   "technique:tq_a4e01a5a8a": {
    "uses": 1
   },
+  "technique:tq_a515090e56": {
+   "uses": 2
+  },
+  "technique:tq_a57d59d753": {
+   "uses": 2
+  },
   "technique:tq_a5e8b657fb": {
    "uses": 4
   },
   "technique:tq_a6a95eaa84": {
    "points": 1,
+   "uses": 2
+  },
+  "technique:tq_a6b3d44cc2": {
    "uses": 2
   },
   "technique:tq_a8e6bd4d11": {
@@ -1370,11 +1765,24 @@
   "technique:tq_ac14fac6aa": {
    "uses": 4
   },
+  "technique:tq_ac33698912": {
+   "uses": 3
+  },
+  "technique:tq_accc88ddbf": {
+   "uses": 1
+  },
   "technique:tq_ae4911569b": {
    "uses": 3
   },
+  "technique:tq_aea387fd27": {
+   "uses": 11
+  },
   "technique:tq_aeae6da289": {
    "uses": 11
+  },
+  "technique:tq_aee972a3ac": {
+   "points": 1,
+   "uses": 2
   },
   "technique:tq_b10da8d8ff": {
    "uses": 3
@@ -1392,7 +1800,7 @@
    "uses": 8
   },
   "technique:tq_b35ab4df99": {
-   "uses": 5
+   "uses": 8
   },
   "technique:tq_b392196754": {
    "uses": 16
@@ -1413,14 +1821,26 @@
    "points": 3,
    "uses": 14
   },
+  "technique:tq_b708f9ba43": {
+   "uses": 3
+  },
+  "technique:tq_b76228b731": {
+   "uses": 2
+  },
   "technique:tq_b7aa49eb97": {
-   "uses": 8
+   "uses": 13
+  },
+  "technique:tq_b7ac97a430": {
+   "uses": 6
   },
   "technique:tq_b7d833e1c8": {
    "uses": 1
   },
   "technique:tq_b7ff6c935b": {
    "uses": 9
+  },
+  "technique:tq_b877e2352d": {
+   "uses": 1
   },
   "technique:tq_b8b1b81c44": {
    "uses": 4
@@ -1464,6 +1884,9 @@
   "technique:tq_c079ee74ce": {
    "uses": 1
   },
+  "technique:tq_c07bfc67d9": {
+   "uses": 1
+  },
   "technique:tq_c0d9727758": {
    "uses": 2
   },
@@ -1479,8 +1902,14 @@
   "technique:tq_c3745c3fa7": {
    "uses": 5
   },
+  "technique:tq_c3c81f7cd4": {
+   "uses": 1
+  },
   "technique:tq_c476176687": {
    "uses": 2
+  },
+  "technique:tq_c4fa46706d": {
+   "uses": 9
   },
   "technique:tq_c5369ffc75": {
    "uses": 5
@@ -1492,10 +1921,22 @@
   "technique:tq_c729164dc2": {
    "uses": 2
   },
+  "technique:tq_c7abb7db31": {
+   "uses": 1
+  },
   "technique:tq_c8379326dd": {
    "uses": 2
   },
+  "technique:tq_c8d79ba29d": {
+   "uses": 3
+  },
   "technique:tq_c8dfdc8c38": {
+   "uses": 8
+  },
+  "technique:tq_c94514178c": {
+   "uses": 1
+  },
+  "technique:tq_c9a5a7f69d": {
    "uses": 8
   },
   "technique:tq_ca9cd39276": {
@@ -1516,17 +1957,32 @@
   "technique:tq_cdb4cf59c9": {
    "uses": 8
   },
+  "technique:tq_cdd2dfb071": {
+   "uses": 8
+  },
+  "technique:tq_ce5757ca19": {
+   "uses": 2
+  },
+  "technique:tq_ce65c77375": {
+   "uses": 1
+  },
   "technique:tq_cef113e0ec": {
    "points": 1,
    "uses": 3
   },
   "technique:tq_cf37366e8a": {
    "points": 1,
-   "uses": 5
+   "uses": 6
+  },
+  "technique:tq_cf41d247f7": {
+   "uses": 1
   },
   "technique:tq_d177fe2e70": {
    "points": 1,
    "uses": 11
+  },
+  "technique:tq_d20ad02ecc": {
+   "uses": 2
   },
   "technique:tq_d28ea5b206": {
    "uses": 12
@@ -1537,11 +1993,18 @@
   "technique:tq_d3cf03b08f": {
    "uses": 2
   },
+  "technique:tq_d48c53679a": {
+   "points": 1,
+   "uses": 9
+  },
   "technique:tq_d4b17af9f0": {
    "uses": 3
   },
   "technique:tq_d5398f95bd": {
    "uses": 6
+  },
+  "technique:tq_d594f513d3": {
+   "uses": 1
   },
   "technique:tq_d704519bc7": {
    "uses": 17
@@ -1552,11 +2015,18 @@
   "technique:tq_d7646ee7f2": {
    "uses": 6
   },
+  "technique:tq_d7808d8b37": {
+   "points": 1,
+   "uses": 2
+  },
   "technique:tq_d85d06728c": {
    "uses": 4
   },
   "technique:tq_d8ad9c2ccc": {
    "uses": 11
+  },
+  "technique:tq_d8be0c6cc9": {
+   "uses": 10
   },
   "technique:tq_d92b899c8a": {
    "uses": 1
@@ -1567,6 +2037,9 @@
   },
   "technique:tq_da11a3fb83": {
    "uses": 10
+  },
+  "technique:tq_da6f82df29": {
+   "uses": 6
   },
   "technique:tq_db1e6cc9ae": {
    "uses": 2
@@ -1580,8 +2053,11 @@
   "technique:tq_dd91e98018": {
    "uses": 1
   },
+  "technique:tq_ddd18aec72": {
+   "uses": 3
+  },
   "technique:tq_de0d12bdd9": {
-   "uses": 8
+   "uses": 19
   },
   "technique:tq_de39c215cf": {
    "uses": 3
@@ -1600,6 +2076,9 @@
   },
   "technique:tq_dfdf7e8f2e": {
    "uses": 2
+  },
+  "technique:tq_dfefe6ea81": {
+   "uses": 1
   },
   "technique:tq_e07b3c77ad": {
    "uses": 15
@@ -1620,12 +2099,21 @@
   "technique:tq_e3a33fb9b5": {
    "uses": 1
   },
+  "technique:tq_e47cdfddf9": {
+   "uses": 1
+  },
+  "technique:tq_e49b28eed8": {
+   "uses": 2
+  },
   "technique:tq_e4ad086d52": {
    "points": 1,
    "uses": 4
   },
   "technique:tq_e4ca0daf98": {
    "uses": 3
+  },
+  "technique:tq_e5fe244942": {
+   "uses": 8
   },
   "technique:tq_e616806684": {
    "points": 1,
@@ -1640,9 +2128,18 @@
   "technique:tq_e670b1b14e": {
    "uses": 2
   },
+  "technique:tq_e6e20fc05e": {
+   "uses": 2
+  },
+  "technique:tq_e712a767e7": {
+   "uses": 3
+  },
   "technique:tq_e739e73436": {
    "points": 1,
    "uses": 4
+  },
+  "technique:tq_e7438c2036": {
+   "uses": 7
   },
   "technique:tq_e7bd9f4b43": {
    "uses": 29
@@ -1653,11 +2150,18 @@
   "technique:tq_e8364ef8f0": {
    "uses": 5
   },
+  "technique:tq_e88e7076e4": {
+   "uses": 1
+  },
+  "technique:tq_e8dba48c3a": {
+   "uses": 2
+  },
   "technique:tq_e9b472eea0": {
    "uses": 1
   },
   "technique:tq_eb00689759": {
-   "uses": 5
+   "points": 2,
+   "uses": 15
   },
   "technique:tq_eb474cb8be": {
    "uses": 4
@@ -1672,10 +2176,16 @@
    "uses": 3
   },
   "technique:tq_ebfe45f9a3": {
-   "uses": 1
+   "uses": 5
+  },
+  "technique:tq_eccaf25c16": {
+   "uses": 6
   },
   "technique:tq_ed831efceb": {
    "uses": 24
+  },
+  "technique:tq_ee7d2ba4ac": {
+   "uses": 1
   },
   "technique:tq_eee4adb234": {
    "uses": 7
@@ -1692,6 +2202,9 @@
   "technique:tq_f1c733fe74": {
    "uses": 5
   },
+  "technique:tq_f20879d141": {
+   "uses": 1
+  },
   "technique:tq_f216eb6c06": {
    "uses": 4
   },
@@ -1705,7 +2218,14 @@
    "uses": 4
   },
   "technique:tq_f39b10e16e": {
-   "uses": 8
+   "uses": 12
+  },
+  "technique:tq_f41df14a84": {
+   "points": 1,
+   "uses": 4
+  },
+  "technique:tq_f46fc8c4a8": {
+   "uses": 4
   },
   "technique:tq_f542d1d378": {
    "points": 2,
@@ -1727,6 +2247,9 @@
    "points": 3,
    "uses": 10
   },
+  "technique:tq_f7049146b0": {
+   "uses": 2
+  },
   "technique:tq_f709ebf7b5": {
    "uses": 14
   },
@@ -1738,7 +2261,8 @@
    "uses": 17
   },
   "technique:tq_fb5ce9e957": {
-   "uses": 7
+   "points": 1,
+   "uses": 11
   },
   "technique:tq_fc40bd9697": {
    "uses": 10
@@ -1754,9 +2278,12 @@
   },
   "technique:tq_fd9a0ec542": {
    "uses": 8
+  },
+  "technique:tq_fe6439c5fe": {
+   "uses": 1
   }
  },
  "schema": "stu.statistics",
- "updated": "2026-11-15T12:05:04",
+ "updated": "2026-11-15T18:32:50",
  "version": 1
 }

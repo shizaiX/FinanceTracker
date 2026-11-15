@@ -87,13 +87,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_83a07aa0dc"
    },
    "m002": {
     "a": "ftr_1f6daced5a",
@@ -102,13 +105,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_1f6daced5a"
    },
    "m003": {
     "a": "ftr_667eded3a4",
@@ -117,13 +123,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_667eded3a4"
    },
    "m004": {
     "a": "ftr_ca27331eff",
@@ -132,58 +141,70 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_a6eb3ebe03"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_83a07aa0dc",
+    "b": "ftr_1f6daced5a",
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     0,
+     3
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_1f6daced5a"
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_667eded3a4",
+    "b": "ftr_a6eb3ebe03",
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_667eded3a4"
    },
    "m007": {
-    "a": null,
-    "b": null,
+    "a": "ftr_1f6daced5a",
+    "b": "ftr_667eded3a4",
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_667eded3a4"
    }
   },
   "order": [
@@ -213,7 +234,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_667eded3a4",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -287,10 +308,10 @@
    "build": 0.956,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 0
+    "wins": 3
    },
    "color": "#ff9a1f",
    "costume": [
@@ -351,9 +372,9 @@
    "accessory": "horns",
    "build": 1.019,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -417,9 +438,9 @@
    "accessory": "ponytail",
    "build": 1.006,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -483,11 +504,11 @@
    "accessory": "horns",
    "build": 1.036,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#1fe08a",
    "costume": [
@@ -549,11 +570,11 @@
    "accessory": "ponytail",
    "build": 0.942,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff3b3b",
    "costume": [
@@ -614,8 +635,8 @@
    "accessory": "horns",
    "build": 1.02,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -678,11 +699,11 @@
    "accessory": "topknot",
    "build": 0.965,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 8,
     "tournaments": [],
-    "wins": 0
+    "wins": 2
    },
    "color": "#a35cff",
    "costume": [
@@ -742,8 +763,8 @@
    "accessory": "horns",
    "build": 1.007,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -796,15 +817,792 @@
    "weapons": []
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "high_speed_duel",
+   "arena": "Sunscorched Dunes",
+   "contact_sheet": "tournaments/elements_827232095/qa/m001_contact.png",
+   "discoveries": [
+    "tq_6c64e51fd5",
+    "tq_fad06d5ce3",
+    "tq_8c27676286",
+    "tq_5d2a46721b",
+    "tq_f20879d141",
+    "tq_641cf051cf",
+    "tq_b877e2352d",
+    "tq_f8f4682d9c",
+    "tq_037adfac32",
+    "tq_658f18564e"
+   ],
+   "final_point_t": 79.308,
+   "ko_video_t": 100.06666666666666,
+   "points": [
+    {
+     "abs_t": 24.075,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 20.475,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 51.6417,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 48.042,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 75.3333,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 1,
+     "t": 71.733,
+     "tech": "tq_85d07f2f30",
+     "tech_name": "Surging Bind"
+    },
+    {
+     "abs_t": 82.9083,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 79.308,
+     "tech": "tq_1c92c04267",
+     "tech_name": "SNARE COLLAPSE QUAKE"
+    }
+   ],
+   "render_seconds": 254.8,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 12,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 12,
+     "fusions": 2,
+     "guard_breaks": 5,
+     "hits": 44,
+     "minor": 15,
+     "points": 3,
+     "projectiles": 1,
+     "significant": 9,
+     "techniques": 45,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 24,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 4,
+     "fusions": 4,
+     "guard_breaks": 2,
+     "hits": 54,
+     "minor": 27,
+     "points": 1,
+     "projectiles": 2,
+     "significant": 0,
+     "techniques": 45,
+     "ultimates": 1
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "775740e3f59c7c910ec5f0fe50c6c6fcaf58caf92fc657c35ae8c78090ee5b68",
+   "video": "exports/elements_827232095/round_01/match_001.mp4",
+   "video_frames": 6644,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 110.733,
+   "winner": "ftr_83a07aa0dc"
+  },
+  "m002": {
+   "archetype": "high_speed_duel",
+   "arena": "Sunscorched Dunes",
+   "contact_sheet": "tournaments/elements_827232095/qa/m002_contact.png",
+   "discoveries": [
+    "tq_5004e6b1fe",
+    "tq_e8dba48c3a",
+    "tq_2cbe5a6600",
+    "tq_2487166cf7",
+    "tq_9df7aca053",
+    "tq_49136171c0",
+    "tq_ef1a815f30",
+    "tq_3b812b2344",
+    "tq_171d295001"
+   ],
+   "final_point_t": 70.15,
+   "ko_video_t": 90.5,
+   "points": [
+    {
+     "abs_t": 27.925,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 24.325,
+     "tech": "tq_100308bf34",
+     "tech_name": "Grand Eclipse Bolt"
+    },
+    {
+     "abs_t": 40.1917,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 36.592,
+     "tech": "tq_18edccf11c",
+     "tech_name": "INK ORB"
+    },
+    {
+     "abs_t": 73.75,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 70.15,
+     "tech": "tq_a48547f1bb",
+     "tech_name": "Tidal Suplex"
+    }
+   ],
+   "render_seconds": 226.6,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 2,
+     "combo": 61,
+     "counters": 3,
+     "discoveries": 4,
+     "dodges": 7,
+     "fusions": 1,
+     "guard_breaks": 8,
+     "hits": 93,
+     "minor": 20,
+     "points": 3,
+     "projectiles": 11,
+     "significant": 1,
+     "techniques": 44,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 7,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 8,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 25,
+     "minor": 14,
+     "points": 0,
+     "projectiles": 3,
+     "significant": 4,
+     "techniques": 41,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "751d5d2c2d83dbee1b41bedccec1c6fa1500970eca6ad91b010ce3c8d5df6f16",
+   "video": "exports/elements_827232095/round_01/match_002.mp4",
+   "video_frames": 6070,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 101.167,
+   "winner": "ftr_1f6daced5a"
+  },
+  "m003": {
+   "archetype": "domination",
+   "arena": "Sunscorched Dunes",
+   "contact_sheet": "tournaments/elements_827232095/qa/m003_contact.png",
+   "discoveries": [
+    "tq_85618df1e3",
+    "tq_fe6439c5fe",
+    "tq_d6cc83e0ae",
+    "tq_84f0b84859",
+    "tq_b4517cb0d2",
+    "tq_24585e4b5e",
+    "tq_3b789dd73b",
+    "tq_c7abb7db31"
+   ],
+   "final_point_t": 71.958,
+   "ko_video_t": 92.95,
+   "points": [
+    {
+     "abs_t": 31.1333,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 27.533,
+     "tech": "tq_4ab7d0402d",
+     "tech_name": "Snare Glacial Spire"
+    },
+    {
+     "abs_t": 43.8417,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 40.242,
+     "tech": "tq_555cb0a644",
+     "tech_name": "GRAND STEAM BURST"
+    },
+    {
+     "abs_t": 75.5583,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 71.958,
+     "tech": "tq_d48c53679a",
+     "tech_name": "Rime Bind"
+    }
+   ],
+   "render_seconds": 213.5,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 28,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 3,
+     "fusions": 5,
+     "guard_breaks": 10,
+     "hits": 67,
+     "minor": 25,
+     "points": 3,
+     "projectiles": 16,
+     "significant": 1,
+     "techniques": 41,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 7,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 4,
+     "fusions": 2,
+     "guard_breaks": 8,
+     "hits": 35,
+     "minor": 14,
+     "points": 0,
+     "projectiles": 8,
+     "significant": 6,
+     "techniques": 40,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "330a9ee76017462e60a2bd8d1a5153c5209f57a2811bdf156e648aafc2b817b1",
+   "video": "exports/elements_827232095/round_01/match_003.mp4",
+   "video_frames": 6217,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 103.617,
+   "winner": "ftr_667eded3a4"
+  },
+  "m004": {
+   "archetype": "counter_clinic",
+   "arena": "Sunscorched Dunes",
+   "contact_sheet": "tournaments/elements_827232095/qa/m004_contact.png",
+   "discoveries": [
+    "tq_12ece7206d",
+    "tq_d594f513d3",
+    "tq_43a1240886",
+    "tq_ee7d2ba4ac",
+    "tq_65f7f9de8e",
+    "tq_3e19eb6b95",
+    "tq_004a86fadf",
+    "tq_9c2673aed6"
+   ],
+   "final_point_t": 71.475,
+   "ko_video_t": 94.38333333333334,
+   "points": [
+    {
+     "abs_t": 34.1417,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 30.542,
+     "tech": "tq_aee972a3ac",
+     "tech_name": "Grand Basalt Crash"
+    },
+    {
+     "abs_t": 45.2,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 41.6,
+     "tech": "tq_fb5ce9e957",
+     "tech_name": "Eclipse Grasp"
+    },
+    {
+     "abs_t": 61.0667,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 57.467,
+     "tech": "tq_425e8dece5",
+     "tech_name": "Echo Grasp"
+    },
+    {
+     "abs_t": 75.075,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 71.475,
+     "tech": "tq_f41df14a84",
+     "tech_name": "GRAND COLLAPSE QUAKE"
+    }
+   ],
+   "render_seconds": 235.8,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 33,
+     "counters": 3,
+     "discoveries": 0,
+     "dodges": 5,
+     "fusions": 1,
+     "guard_breaks": 10,
+     "hits": 57,
+     "minor": 10,
+     "points": 1,
+     "projectiles": 11,
+     "significant": 3,
+     "techniques": 40,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 3,
+     "counters": 0,
+     "discoveries": 8,
+     "dodges": 6,
+     "fusions": 2,
+     "guard_breaks": 2,
+     "hits": 25,
+     "minor": 7,
+     "points": 3,
+     "projectiles": 4,
+     "significant": 10,
+     "techniques": 39,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "f1a576d0ee0a9cc037f814e365890dfcd8e73ba3887caac35a37efc4857f512f",
+   "video": "exports/elements_827232095/round_01/match_004.mp4",
+   "video_frames": 6303,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 105.05,
+   "winner": "ftr_a6eb3ebe03"
+  },
+  "m005": {
+   "archetype": "counter_clinic",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/elements_827232095/qa/m005_contact.png",
+   "discoveries": [
+    "tq_7d1e91e866",
+    "tq_0eae427e39",
+    "tq_e27705b5d3",
+    "tq_b0506f89d4",
+    "tq_72b140de90",
+    "tq_6f88fd58dd"
+   ],
+   "final_point_t": 66.217,
+   "ko_video_t": 84.23333333333333,
+   "points": [
+    {
+     "abs_t": 14.5583,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 10.958,
+     "tech": "tq_a48547f1bb",
+     "tech_name": "Tidal Suplex"
+    },
+    {
+     "abs_t": 30.6583,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 27.058,
+     "tech": "tq_93f71b2e2a",
+     "tech_name": "Torrent Volley"
+    },
+    {
+     "abs_t": 69.8167,
+     "final": true,
+     "score": [
+      0,
+      3
+     ],
+     "scorer": 1,
+     "t": 66.217,
+     "tech": "tq_18edccf11c",
+     "tech_name": "INK ORB"
+    }
+   ],
+   "render_seconds": 201.5,
+   "scores": [
+    0,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 8,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 4,
+     "fusions": 1,
+     "guard_breaks": 0,
+     "hits": 36,
+     "minor": 26,
+     "points": 0,
+     "projectiles": 1,
+     "significant": 2,
+     "techniques": 36,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 122,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 2,
+     "fusions": 0,
+     "guard_breaks": 16,
+     "hits": 164,
+     "minor": 21,
+     "points": 3,
+     "projectiles": 10,
+     "significant": 2,
+     "techniques": 42,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "911caaf86f27127e486c1a5a84f4ad51061fcb56919e8687f6fc370178fbb0eb",
+   "video": "exports/elements_827232095/semifinals/match_005.mp4",
+   "video_frames": 5694,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 94.9,
+   "winner": "ftr_1f6daced5a"
+  },
+  "m006": {
+   "archetype": "underdog",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/elements_827232095/qa/m006_contact.png",
+   "discoveries": [
+    "tq_8c456fd22f",
+    "tq_15a153142e",
+    "tq_77012de8ae",
+    "tq_aa6f6d2954",
+    "tq_1dee2d67cc",
+    "tq_362f7e12c1",
+    "tq_c3c81f7cd4",
+    "tq_7c99fda948"
+   ],
+   "final_point_t": 68.917,
+   "ko_video_t": 89.33333333333333,
+   "points": [
+    {
+     "abs_t": 15.2583,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 11.658,
+     "tech": "tq_1b339c67a9",
+     "tech_name": "Frozen Suplex"
+    },
+    {
+     "abs_t": 37.95,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 34.35,
+     "tech": "tq_1b339c67a9",
+     "tech_name": "Frozen Suplex"
+    },
+    {
+     "abs_t": 72.5167,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 68.917,
+     "tech": "tq_d7808d8b37",
+     "tech_name": "Cascade Scorching Ascension"
+    }
+   ],
+   "render_seconds": 207.5,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 65,
+     "counters": 0,
+     "discoveries": 6,
+     "dodges": 4,
+     "fusions": 1,
+     "guard_breaks": 12,
+     "hits": 105,
+     "minor": 22,
+     "points": 3,
+     "projectiles": 6,
+     "significant": 3,
+     "techniques": 46,
+     "ultimates": 3
+    },
+    {
+     "blocked": 1,
+     "combo": 4,
+     "counters": 1,
+     "discoveries": 2,
+     "dodges": 8,
+     "fusions": 2,
+     "guard_breaks": 0,
+     "hits": 15,
+     "minor": 10,
+     "points": 0,
+     "projectiles": 4,
+     "significant": 1,
+     "techniques": 36,
+     "ultimates": 1
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "cc98bb698026a11443405d737fcfccd0d6872a5a73e82445cedbf5efea96f50c",
+   "video": "exports/elements_827232095/semifinals/match_006.mp4",
+   "video_frames": 6000,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 100.0,
+   "winner": "ftr_667eded3a4"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "Tidal Coliseum",
+   "contact_sheet": "tournaments/elements_827232095/qa/m007_contact.png",
+   "discoveries": [
+    "tq_9372763cc0",
+    "tq_c66dff67d4",
+    "tq_14e860d8f4",
+    "tq_be29036848",
+    "tq_25de21b79c",
+    "tq_955f03162b",
+    "tq_2555fbd21c",
+    "tq_dc5a844971",
+    "tq_91fcf6c3fb"
+   ],
+   "final_point_t": 91.583,
+   "ko_video_t": 118.05,
+   "points": [
+    {
+     "abs_t": 27.7667,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 24.167,
+     "tech": "tq_93f71b2e2a",
+     "tech_name": "Torrent Volley"
+    },
+    {
+     "abs_t": 42.4167,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 38.817,
+     "tech": "tq_1b339c67a9",
+     "tech_name": "Frozen Suplex"
+    },
+    {
+     "abs_t": 57.175,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 53.575,
+     "tech": "tq_18edccf11c",
+     "tech_name": "INK ORB"
+    },
+    {
+     "abs_t": 78.725,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 75.125,
+     "tech": "tq_555cb0a644",
+     "tech_name": "GRAND STEAM BURST"
+    },
+    {
+     "abs_t": 95.1833,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 91.583,
+     "tech": "tq_555cb0a644",
+     "tech_name": "GRAND STEAM BURST"
+    }
+   ],
+   "render_seconds": 271.5,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 80,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 5,
+     "fusions": 3,
+     "guard_breaks": 6,
+     "hits": 110,
+     "minor": 16,
+     "points": 2,
+     "projectiles": 11,
+     "significant": 6,
+     "techniques": 50,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 65,
+     "counters": 0,
+     "discoveries": 6,
+     "dodges": 7,
+     "fusions": 1,
+     "guard_breaks": 5,
+     "hits": 103,
+     "minor": 26,
+     "points": 3,
+     "projectiles": 16,
+     "significant": 4,
+     "techniques": 48,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "9a4e04deca67f3c373b10ff6f7faca647c80e2808c386a16455d570768a7baa8",
+   "video": "exports/elements_827232095/final/match_007.mp4",
+   "video_frames": 7723,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 128.717,
+   "winner": "ftr_667eded3a4"
+  }
+ },
  "name": "Elements",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "elements_827232095",
  "steps": {
-  "bracket_reveal": "exports/elements_827232095/bracket_reveal.mp4"
+  "bracket_reveal": "exports/elements_827232095/bracket_reveal.mp4",
+  "bracket_round_02": "exports/elements_827232095/bracket_round_02.mp4",
+  "bracket_round_03": "exports/elements_827232095/bracket_round_03.mp4",
+  "champion": "exports/elements_827232095/champion.mp4",
+  "complete": "exports/elements_827232095/complete_tournament.mp4",
+  "highlights": "exports/elements_827232095/highlights.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T18:05:20",
+ "updated": "2026-11-15T18:35:22",
  "version": 1
 }

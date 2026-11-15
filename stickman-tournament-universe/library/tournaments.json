@@ -1,5 +1,5 @@
 {
- "count": 3,
+ "count": 4,
  "items": {
   "elemental_ascension_1_2026": {
    "champion": "ftr_25872decc9",
@@ -19,6 +19,15 @@
    "seed": 1156271972,
    "theme": "elements"
   },
+  "elements_827232095": {
+   "champion": "ftr_667eded3a4",
+   "champion_name": "ICELOS",
+   "finished": "2026-11-15T18:35:22",
+   "name": "Elements",
+   "participants": 8,
+   "seed": 827232095,
+   "theme": "elements"
+  },
   "seven_seas_brawl_1_77": {
    "champion": "ftr_7ca9d3d1aa",
    "champion_name": "THRNKA",
@@ -30,6 +39,6 @@
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-15T12:07:01",
+ "updated": "2026-11-15T18:35:22",
  "version": 1
 }
