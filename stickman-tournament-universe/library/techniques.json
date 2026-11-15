@@ -1,5 +1,5 @@
 {
- "count": 260,
+ "count": 281,
  "items": {
   "tq_00849d93bb": {
    "abilities": [
@@ -951,6 +951,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_0b18b5e318": {
+   "abilities": [
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Flintlock"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T10:39:55",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 0.67,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.22
+    },
+    "fighter": "ftr_069b2b5c2e",
+    "match": "m004",
+    "t": 49.94,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_0b18b5e318",
+   "kind": "melee",
+   "modifiers": [
+    "multistage",
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Feint Cascade Point-Blank Knuckle",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 9.5,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.07,
+    "reach": 0.95,
+    "recovery": 0.218,
+    "stages": 3,
+    "startup": 0.118,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_9408408bac"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "multistage",
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
+  },
   "tq_0bf927dd47": {
    "abilities": [
     "ab_871ffa40a3"
@@ -1062,6 +1135,150 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_0dc5babc59": {
+   "abilities": [
+    "ab_812aff47de",
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Powder Keg",
+    "Harpoon"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": "cmb_40795cf6a7",
+   "created": "2026-11-15T10:31:57",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.16,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.47,
+     "opp_zoning": 0.53
+    },
+    "fighter": "ftr_0b4a4b50ad",
+    "match": "m002",
+    "t": 31.78,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_0dc5babc59",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Searing Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 2.4,
+    "cost": 30,
+    "dmg": 15.71,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.0,
+    "reach": 1.93,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.193,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_812aff47de",
+     "ab_a32aa0acc5"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 2
+  },
+  "tq_0de043e0e3": {
+   "abilities": [
+    "ab_23c7b1db88"
+   ],
+   "ability_names": [
+    "Rum Bottle"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-15T10:49:38",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 3.32,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m007",
+    "t": 28.45,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_0de043e0e3",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Piercing Flaming Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.5,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.55,
+    "reach": 1.15,
+    "recovery": 0.286,
+    "stages": 1,
+    "startup": 0.166,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_23c7b1db88"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_0ecc06ecee": {
    "abilities": [
     "ab_23c7b1db88"
@@ -1121,6 +1338,81 @@
    "tier": "infused",
    "timing": "multi_hit",
    "variant": 5
+  },
+  "tq_0f2dabe0cb": {
+   "abilities": [
+    "ab_2a2fa292ff",
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call",
+    "Cutlass"
+   ],
+   "anim": "anim_counter",
+   "combination": "cmb_910d0c198b",
+   "created": "2026-11-15T10:39:54",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 3.2,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.64,
+     "opp_zoning": 0.36
+    },
+    "fighter": "ftr_b21df646eb",
+    "match": "m004",
+    "t": 30.38,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_0f2dabe0cb",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Water Blade Riposte",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 2.8,
+    "cost": 36,
+    "dmg": 13.28,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 22.14,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.049,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Water Blade",
+   "signature": {
+    "abilities": [
+     "ab_2a2fa292ff",
+     "ab_6d3b0c6f9e"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_0f9e2f9a78": {
    "abilities": [
@@ -1349,6 +1641,82 @@
     "delivery": "sweep",
     "modifiers": [],
     "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_10cc62128f": {
+   "abilities": [
+    "ab_947c3eebd3",
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Cannon Fire",
+    "Harpoon"
+   ],
+   "anim": "anim_explosion",
+   "combination": "cmb_138a7621f3",
+   "created": "2026-11-15T10:35:52",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.58,
+     "opp_zoning": 0.42
+    },
+    "fighter": "ftr_032defa98e",
+    "match": "m003",
+    "t": 65.78,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_10cc62128f",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Snare Searing Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.8,
+    "cost": 36,
+    "dmg": 14.28,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 24.28,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.404,
+    "stages": 1,
+    "startup": 0.346,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_947c3eebd3",
+     "ab_a32aa0acc5"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "leap",
     "timing": "instant"
    },
    "tier": "fusion",
@@ -2842,6 +3210,79 @@
    "timing": "instant",
    "variant": 5
   },
+  "tq_2554c81ced": {
+   "abilities": [
+    "ab_23c7b1db88"
+   ],
+   "ability_names": [
+    "Rum Bottle"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T10:43:24",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.98,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.3,
+     "opp_zoning": 0.7
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m005",
+    "t": 8.93,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_2554c81ced",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Charged Snare Drunken Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 19.58,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 33.28,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.706,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_23c7b1db88"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_2725fc4ff5": {
    "abilities": [
     "ab_37a318af5a"
@@ -4145,6 +4586,81 @@
    "timing": "finisher",
    "variant": 2
   },
+  "tq_3aa982bc1d": {
+   "abilities": [
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Anchor"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T10:49:38",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 0.61,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.48,
+     "opp_zoning": 0.52
+    },
+    "fighter": "ftr_bf10c96ec1",
+    "match": "m007",
+    "t": 37.02,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_3aa982bc1d",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Deep Parry",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 16.85,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 28.08,
+    "reach": 1.0,
+    "recovery": 0.314,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.054,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "reflect"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_3b490eb8a9": {
    "abilities": [
     "ab_2a2fa292ff"
@@ -4795,6 +5311,83 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_4551e056b4": {
+   "abilities": [
+    "ab_314c439b4f",
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Throwing Knives",
+    "Flintlock"
+   ],
+   "anim": "anim_env_strike",
+   "combination": "cmb_48037b2b0f",
+   "created": "2026-11-15T10:39:54",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 4.78,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_069b2b5c2e",
+    "match": "m004",
+    "t": 13.47,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_4551e056b4",
+   "kind": "env",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Thousand Cuts Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.8,
+    "cost": 36,
+    "delay": 0.42,
+    "dmg": 12.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.71,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.371,
+    "stages": 1,
+    "startup": 0.288,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": "Thousand Cuts",
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f",
+     "ab_9408408bac"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_470e85f3a5": {
    "abilities": [
     "ab_6d3b0c6f9e"
@@ -4917,6 +5510,81 @@
      "amplify"
     ],
     "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_4a7bb7ff38": {
+   "abilities": [
+    "ab_23c7b1db88",
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Rum Bottle",
+    "Throwing Knives"
+   ],
+   "anim": "anim_charge",
+   "combination": "cmb_1ddbfbd2b9",
+   "created": "2026-11-15T10:43:25",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 4.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.32,
+     "opp_zoning": 0.68
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m005",
+    "t": 35.95,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_4a7bb7ff38",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Searing Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 2.8,
+    "cost": 36,
+    "dmg": 15.03,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.86,
+    "reach": 0.7,
+    "recovery": 0.337,
+    "stages": 2,
+    "startup": 0.197,
+    "stun": 1.0,
+    "travel": 9.73460322766162,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_23c7b1db88",
+     "ab_314c439b4f"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "fusion",
@@ -6590,6 +7258,87 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_6b6a77f9f3": {
+   "abilities": [
+    "ab_23c7b1db88",
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Rum Bottle",
+    "Throwing Knives"
+   ],
+   "anim": "anim_projectile",
+   "combination": "cmb_1ddbfbd2b9",
+   "created": "2026-11-15T10:43:25",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 2.57,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.3,
+     "opp_zoning": 0.7
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m005",
+    "t": 64.09,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_6b6a77f9f3",
+   "kind": "projectile",
+   "modifiers": [
+    "split"
+   ],
+   "movement": "none",
+   "name": "Charged Triple Searing Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.8,
+    "cost": 44,
+    "count": 3,
+    "detonate": 0.0,
+    "dmg": 13.87,
+    "focus_cost": 0,
+    "gravity": 10.0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 19.81,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 11.55,
+    "stages": 1,
+    "startup": 0.433,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_23c7b1db88",
+     "ab_314c439b4f"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "split"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "fusion",
+   "timing": "charged",
+   "variant": 5
+  },
   "tq_6c1aea198a": {
    "abilities": [
     "ab_a32aa0acc5"
@@ -8060,6 +8809,83 @@
    "timing": "instant",
    "variant": 3
   },
+  "tq_7c7d23e7ea": {
+   "abilities": [
+    "ab_23c7b1db88",
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Rum Bottle",
+    "Throwing Knives"
+   ],
+   "anim": "anim_kick",
+   "combination": "cmb_1ddbfbd2b9",
+   "created": "2026-11-15T10:31:57",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.62,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.63,
+     "opp_zoning": 0.37
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m002",
+    "t": 45.0,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_7c7d23e7ea",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Charged Chain Searing Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 3.2,
+    "cost": 50,
+    "dmg": 19.81,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 25.75,
+    "reach": 1.15,
+    "recovery": 0.277,
+    "stages": 1,
+    "startup": 0.315,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_23c7b1db88",
+     "ab_314c439b4f"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "charged"
+   },
+   "tier": "fusion",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_7c9e15f58d": {
    "abilities": [
     "ab_83c4d6d552",
@@ -8295,6 +9121,82 @@
    },
    "tier": "infused",
    "timing": "multi_hit",
+   "variant": 0
+  },
+  "tq_7e9414cbbd": {
+   "abilities": [
+    "ab_31daa6369e",
+    "ab_947c3eebd3"
+   ],
+   "ability_names": [
+    "Cannon Fire",
+    "Anchor"
+   ],
+   "anim": "anim_env_strike",
+   "combination": "cmb_a9d58aef18",
+   "created": "2026-11-15T10:27:38",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.51,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.29,
+     "opp_zoning": 0.71
+    },
+    "fighter": "ftr_115687ef77",
+    "match": "m001",
+    "t": 34.75,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_7e9414cbbd",
+   "kind": "env",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "backstep",
+   "name": "Delayed Magma Spire",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.8,
+    "cost": 36,
+    "delay": 0.77,
+    "dmg": 18.93,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 27.54,
+    "radius": 0.96,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Magma",
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e",
+     "ab_947c3eebd3"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
    "variant": 0
   },
   "tq_7f2685e4e7": {
@@ -8739,6 +9641,81 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_82464154d0": {
+   "abilities": [
+    "ab_812aff47de",
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Harpoon",
+    "Powder Keg"
+   ],
+   "anim": "anim_sweep",
+   "combination": "cmb_40795cf6a7",
+   "created": "2026-11-15T10:31:57",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.55,
+     "opp_zoning": 0.45
+    },
+    "fighter": "ftr_0b4a4b50ad",
+    "match": "m002",
+    "t": 70.91,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_82464154d0",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "step",
+   "name": "Snare Searing Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 2.8,
+    "cost": 36,
+    "dmg": 11.43,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 18.57,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": "Searing",
+   "signature": {
+    "abilities": [
+     "ab_812aff47de",
+     "ab_a32aa0acc5"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_833456066a": {
    "abilities": [],
    "ability_names": [],
@@ -9161,6 +10138,79 @@
     "delivery": "counter",
     "modifiers": [
      "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_8c03f17324": {
+   "abilities": [
+    "ab_23c7b1db88"
+   ],
+   "ability_names": [
+    "Rum Bottle"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T10:43:24",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 4.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m005",
+    "t": 0.3,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_8c03f17324",
+   "kind": "area",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Drunken Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay_blast": 0.6,
+    "dmg": 13.5,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 22.95,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.353,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_23c7b1db88"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed"
     ],
     "movement": "none",
     "timing": "instant"
@@ -11036,6 +12086,84 @@
    "timing": "feint",
    "variant": 1
   },
+  "tq_b3f6b8707f": {
+   "abilities": [
+    "ab_31daa6369e",
+    "ab_947c3eebd3"
+   ],
+   "ability_names": [
+    "Cannon Fire",
+    "Anchor"
+   ],
+   "anim": "anim_env_strike",
+   "combination": "cmb_a9d58aef18",
+   "created": "2026-11-15T10:27:38",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.43,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.27,
+     "opp_zoning": 0.73
+    },
+    "fighter": "ftr_115687ef77",
+    "match": "m001",
+    "t": 55.53,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_b3f6b8707f",
+   "kind": "env",
+   "modifiers": [
+    "amplify",
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Magma Pillar",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 3.2,
+    "cost": 42,
+    "delay": 0.77,
+    "dmg": 18.93,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 27.54,
+    "radius": 1.34,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Magma",
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e",
+     "ab_947c3eebd3"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify",
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_b573c7c5df": {
    "abilities": [
     "ab_37a318af5a"
@@ -11249,6 +12377,81 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_b7d833e1c8": {
+   "abilities": [
+    "ab_314c439b4f",
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Flintlock",
+    "Throwing Knives"
+   ],
+   "anim": "anim_punch",
+   "combination": "cmb_48037b2b0f",
+   "created": "2026-11-15T10:46:34",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.4,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.59,
+     "opp_zoning": 0.41
+    },
+    "fighter": "ftr_069b2b5c2e",
+    "match": "m006",
+    "t": 63.02,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_b7d833e1c8",
+   "kind": "melee",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "step",
+   "name": "Feint Delayed Thousand Cuts Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.8,
+    "cost": 36,
+    "delay_blast": 0.6,
+    "dmg": 8.86,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 12.18,
+    "reach": 0.95,
+    "recovery": 0.215,
+    "stages": 1,
+    "startup": 0.115,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Thousand Cuts",
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f",
+     "ab_9408408bac"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "step",
+    "timing": "feint"
+   },
+   "tier": "fusion",
+   "timing": "feint",
+   "variant": 2
   },
   "tq_b7ff6c935b": {
    "abilities": [],
@@ -11759,6 +12962,85 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_bf7be271ee": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T10:43:24",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 4.1,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_af7f24a1fc",
+    "match": "m005",
+    "t": 1.91,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_bf7be271ee",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed",
+    "homing"
+   ],
+   "movement": "leap",
+   "name": "Rapid Seeking Boom Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 5.2,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 2.64,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 7.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 27.3,
+    "stages": 1,
+    "startup": 0.274,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed",
+     "homing"
+    ],
+    "movement": "leap",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 3
+  },
   "tq_c0173d8c00": {
    "abilities": [],
    "ability_names": [],
@@ -12032,6 +13314,81 @@
     "delivery": "counter",
     "modifiers": [
      "reflect"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_c6104833c0": {
+   "abilities": [
+    "ab_23c7b1db88"
+   ],
+   "ability_names": [
+    "Rum Bottle"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T10:43:24",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 3.42,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m005",
+    "t": 2.37,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_c6104833c0",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Chain Drunken Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.85,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.7,
+    "recovery": 0.347,
+    "stages": 1,
+    "startup": 0.208,
+    "stun": 1.0,
+    "travel": 9.01249133147988,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_23c7b1db88"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "chain",
+     "pierce"
     ],
     "movement": "none",
     "timing": "instant"
@@ -12975,6 +14332,87 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_dbd23741e8": {
+   "abilities": [
+    "ab_314c439b4f",
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Flintlock",
+    "Throwing Knives"
+   ],
+   "anim": "anim_projectile",
+   "combination": "cmb_48037b2b0f",
+   "created": "2026-11-15T10:46:34",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.05,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.57,
+     "opp_zoning": 0.43
+    },
+    "fighter": "ftr_069b2b5c2e",
+    "match": "m006",
+    "t": 25.59,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_dbd23741e8",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "dash",
+   "name": "Rapid Chain Thousand Cuts Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 2.8,
+    "cost": 36,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 4.84,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 6.92,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.293,
+    "speed": 29.25,
+    "stages": 1,
+    "startup": 0.267,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Thousand Cuts",
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f",
+     "ab_9408408bac"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "fusion",
+   "timing": "multi_hit",
+   "variant": 3
   },
   "tq_de0d12bdd9": {
    "abilities": [],
@@ -14817,6 +16255,83 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_f6c0aacbb3": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T10:31:57",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 4.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_7ca9d3d1aa",
+    "match": "m002",
+    "t": 0.3,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_f6c0aacbb3",
+   "kind": "projectile",
+   "modifiers": [
+    "homing"
+   ],
+   "movement": "dash",
+   "name": "Feint Seeking Flicking Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 2.76,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "homing"
+    ],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_f6e654270a": {
    "abilities": [
     "ab_31daa6369e",
@@ -14867,6 +16382,82 @@
     "abilities": [
      "ab_31daa6369e",
      "ab_947c3eebd3"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_fa614ff713": {
+   "abilities": [
+    "ab_314c439b4f",
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Throwing Knives",
+    "Flintlock"
+   ],
+   "anim": "anim_charge",
+   "combination": "cmb_48037b2b0f",
+   "created": "2026-11-15T10:46:34",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 1.33,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.6,
+     "opp_zoning": 0.4
+    },
+    "fighter": "ftr_069b2b5c2e",
+    "match": "m006",
+    "t": 57.36,
+    "tournament": "seven_seas_brawl_1_77"
+   },
+   "id": "tq_fa614ff713",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Thousand Cuts Ram",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 2.8,
+    "cost": 36,
+    "dmg": 12.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.71,
+    "reach": 0.7,
+    "recovery": 0.332,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.192,
+    "stun": 1.0,
+    "travel": 10.076271631908302,
+    "unblockable": false
+   },
+   "reaction": "Thousand Cuts",
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f",
+     "ab_9408408bac"
     ],
     "delivery": "charge",
     "modifiers": [
@@ -15248,6 +16839,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-15T10:27:32",
+ "updated": "2026-11-15T10:53:08",
  "version": 1
 }

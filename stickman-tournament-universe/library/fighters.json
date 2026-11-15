@@ -13,10 +13,12 @@
    "accessory": "bandana",
    "build": 1.012,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
     "wins": 0
    },
    "color": "#1fe08a",
@@ -82,11 +84,13 @@
    "accessory": "captain_hat",
    "build": 0.978,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 3,
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
+    "wins": 1
    },
    "color": "#ffe23d",
    "costume": [
@@ -149,10 +153,12 @@
    "accessory": "bandana",
    "build": 1.013,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
     "wins": 0
    },
    "color": "#ff3b3b",
@@ -215,10 +221,12 @@
    "accessory": "bandana",
    "build": 1.038,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
     "wins": 0
    },
    "color": "#8cff3a",
@@ -599,10 +607,12 @@
    "build": 0.985,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "points_against": 2,
+    "points_for": 9,
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
+    "wins": 3
    },
    "color": "#a35cff",
    "costume": [
@@ -729,11 +739,13 @@
    "accessory": "tricorne",
    "build": 0.952,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 3,
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
+    "wins": 1
    },
    "color": "#ff9a1f",
    "costume": [
@@ -795,10 +807,12 @@
    "accessory": "captain_hat",
    "build": 1.013,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
     "wins": 0
    },
    "color": "#2ee9ff",
@@ -925,11 +939,13 @@
    "accessory": "bandana",
    "build": 1.037,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 6,
+    "tournaments": [
+     "seven_seas_brawl_1_77"
+    ],
+    "wins": 2
    },
    "color": "#3a7bff",
    "costume": [
@@ -1045,6 +1061,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T10:27:32",
+ "updated": "2026-11-15T10:55:10",
  "version": 1
 }

@@ -96,13 +96,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_af7f24a1fc"
    },
    "m002": {
     "a": "ftr_7ca9d3d1aa",
@@ -111,13 +114,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_7ca9d3d1aa"
    },
    "m003": {
     "a": "ftr_bf10c96ec1",
@@ -126,13 +132,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_bf10c96ec1"
    },
    "m004": {
     "a": "ftr_b21df646eb",
@@ -141,58 +150,70 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     0,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_069b2b5c2e"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_af7f24a1fc",
+    "b": "ftr_7ca9d3d1aa",
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     0,
+     3
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_7ca9d3d1aa"
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_bf10c96ec1",
+    "b": "ftr_069b2b5c2e",
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_bf10c96ec1"
    },
    "m007": {
-    "a": null,
-    "b": null,
+    "a": "ftr_7ca9d3d1aa",
+    "b": "ftr_bf10c96ec1",
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_7ca9d3d1aa"
    }
   },
   "order": [
@@ -222,7 +243,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_7ca9d3d1aa",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -294,8 +315,8 @@
    "accessory": "captain_hat",
    "build": 1.013,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -362,10 +383,10 @@
    "build": 0.985,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 0
+    "wins": 3
    },
    "color": "#a35cff",
    "costume": [
@@ -429,11 +450,11 @@
    "accessory": "bandana",
    "build": 1.037,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 6,
     "tournaments": [],
-    "wins": 0
+    "wins": 2
    },
    "color": "#3a7bff",
    "costume": [
@@ -496,9 +517,9 @@
    "accessory": "bandana",
    "build": 1.012,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -565,11 +586,11 @@
    "accessory": "tricorne",
    "build": 0.952,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff9a1f",
    "costume": [
@@ -631,9 +652,9 @@
    "accessory": "bandana",
    "build": 1.013,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -697,11 +718,11 @@
    "accessory": "captain_hat",
    "build": 0.978,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ffe23d",
    "costume": [
@@ -764,9 +785,9 @@
    "accessory": "bandana",
    "build": 1.038,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -822,15 +843,779 @@
    ]
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "chess_match",
+   "arena": "Cave of Lost Gold",
+   "contact_sheet": "tournaments/seven_seas_brawl_1_77/qa/m001_contact.png",
+   "discoveries": [
+    "tq_7e9414cbbd",
+    "tq_b3f6b8707f"
+   ],
+   "final_point_t": 89.267,
+   "ko_video_t": 114.33333333333333,
+   "points": [
+    {
+     "abs_t": 18.0333,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 14.433,
+     "tech": "tq_6abeae4a66",
+     "tech_name": "Piercing Sunken Comet"
+    },
+    {
+     "abs_t": 38.575,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 34.975,
+     "tech": "tq_37f2063724",
+     "tech_name": "RICOCHET SHOT"
+    },
+    {
+     "abs_t": 62.7167,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 59.117,
+     "tech": "tq_81f8230892",
+     "tech_name": "GRAND MAGMA HAMMER"
+    },
+    {
+     "abs_t": 79.0667,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 75.467,
+     "tech": "tq_37f2063724",
+     "tech_name": "RICOCHET SHOT"
+    },
+    {
+     "abs_t": 92.8667,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 89.267,
+     "tech": "tq_37f2063724",
+     "tech_name": "RICOCHET SHOT"
+    }
+   ],
+   "render_seconds": 256.0,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 11,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 2,
+     "fusions": 10,
+     "guard_breaks": 5,
+     "hits": 42,
+     "minor": 16,
+     "points": 2,
+     "projectiles": 33,
+     "significant": 8,
+     "techniques": 70,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 12,
+     "counters": 0,
+     "discoveries": 0,
+     "dodges": 5,
+     "fusions": 10,
+     "guard_breaks": 2,
+     "hits": 41,
+     "minor": 18,
+     "points": 3,
+     "projectiles": 37,
+     "significant": 6,
+     "techniques": 70,
+     "ultimates": 5
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "bc98409caab11a4b67e1d33d674222d872f8581423830231a1ac56478548cfc5",
+   "video": "exports/seven_seas_brawl_1_77/round_01/match_001.mp4",
+   "video_frames": 7500,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 125.0,
+   "winner": "ftr_af7f24a1fc"
+  },
+  "m002": {
+   "archetype": "domination",
+   "arena": "Cave of Lost Gold",
+   "contact_sheet": "tournaments/seven_seas_brawl_1_77/qa/m002_contact.png",
+   "discoveries": [
+    "tq_f6c0aacbb3",
+    "tq_0dc5babc59",
+    "tq_7c7d23e7ea",
+    "tq_82464154d0"
+   ],
+   "final_point_t": 79.1,
+   "ko_video_t": 99.11666666666666,
+   "points": [
+    {
+     "abs_t": 18.9,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 15.3,
+     "tech": "tq_3c800c5968",
+     "tech_name": "Delayed Grog Eruption"
+    },
+    {
+     "abs_t": 38.9083,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 35.308,
+     "tech": "tq_937027eed3",
+     "tech_name": "Cascade Barbed Rush"
+    },
+    {
+     "abs_t": 52.1333,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 48.533,
+     "tech": "tq_f542d1d378",
+     "tech_name": "Chain Searing Blade"
+    },
+    {
+     "abs_t": 67.9,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 64.3,
+     "tech": "tq_2761607efb",
+     "tech_name": "CASCADE SEARING EDGE"
+    },
+    {
+     "abs_t": 82.7,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 79.1,
+     "tech": "tq_3c800c5968",
+     "tech_name": "Delayed Grog Eruption"
+    }
+   ],
+   "render_seconds": 232.8,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 40,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 7,
+     "fusions": 7,
+     "guard_breaks": 6,
+     "hits": 72,
+     "minor": 21,
+     "points": 3,
+     "projectiles": 21,
+     "significant": 2,
+     "techniques": 66,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 10,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 7,
+     "fusions": 12,
+     "guard_breaks": 1,
+     "hits": 32,
+     "minor": 17,
+     "points": 2,
+     "projectiles": 5,
+     "significant": 2,
+     "techniques": 54,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "5262da140f0b072b74baeeba793020fbacefb616d7d73018fec38508699f607d",
+   "video": "exports/seven_seas_brawl_1_77/round_01/match_002.mp4",
+   "video_frames": 6588,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 109.8,
+   "winner": "ftr_7ca9d3d1aa"
+  },
+  "m003": {
+   "archetype": "domination",
+   "arena": "Cave of Lost Gold",
+   "contact_sheet": "tournaments/seven_seas_brawl_1_77/qa/m003_contact.png",
+   "discoveries": [
+    "tq_10cc62128f"
+   ],
+   "final_point_t": 84.125,
+   "ko_video_t": 107.83333333333333,
+   "points": [
+    {
+     "abs_t": 26.15,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 22.55,
+     "tech": "tq_5ce687f933",
+     "tech_name": "Charged Deep Crash"
+    },
+    {
+     "abs_t": 46.125,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 42.525,
+     "tech": "tq_8e145f3b21",
+     "tech_name": "SEARING BLADE"
+    },
+    {
+     "abs_t": 61.0833,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 57.483,
+     "tech": "tq_8e145f3b21",
+     "tech_name": "SEARING BLADE"
+    },
+    {
+     "abs_t": 71.1917,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 67.592,
+     "tech": "tq_913765d325",
+     "tech_name": "SEEKING RICOCHET VOLLEY"
+    },
+    {
+     "abs_t": 87.725,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 84.125,
+     "tech": "tq_913765d325",
+     "tech_name": "SEEKING RICOCHET VOLLEY"
+    }
+   ],
+   "render_seconds": 239.9,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 22,
+     "counters": 3,
+     "discoveries": 0,
+     "dodges": 3,
+     "fusions": 12,
+     "guard_breaks": 4,
+     "hits": 54,
+     "minor": 22,
+     "points": 3,
+     "projectiles": 19,
+     "significant": 3,
+     "techniques": 66,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 4,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 3,
+     "fusions": 10,
+     "guard_breaks": 1,
+     "hits": 33,
+     "minor": 13,
+     "points": 2,
+     "projectiles": 13,
+     "significant": 13,
+     "techniques": 73,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "47790f8df3029b5974fbdcc51aa6901d2397b0e6b5c987fe734d65460d0d8c1e",
+   "video": "exports/seven_seas_brawl_1_77/round_01/match_003.mp4",
+   "video_frames": 7110,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 118.5,
+   "winner": "ftr_bf10c96ec1"
+  },
+  "m004": {
+   "archetype": "tech_vs_power",
+   "arena": "Cave of Lost Gold",
+   "contact_sheet": "tournaments/seven_seas_brawl_1_77/qa/m004_contact.png",
+   "discoveries": [
+    "tq_4551e056b4",
+    "tq_0f2dabe0cb",
+    "tq_0b18b5e318"
+   ],
+   "final_point_t": 72.958,
+   "ko_video_t": 92.03333333333333,
+   "points": [
+    {
+     "abs_t": 26.3583,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 22.758,
+     "tech": "tq_a213be7251",
+     "tech_name": "Fan of Volley"
+    },
+    {
+     "abs_t": 42.3917,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 38.792,
+     "tech": "tq_2cc524ab4f",
+     "tech_name": "CHAIN THOUSAND CUTS BLADE"
+    },
+    {
+     "abs_t": 76.5583,
+     "final": true,
+     "score": [
+      0,
+      3
+     ],
+     "scorer": 1,
+     "t": 72.958,
+     "tech": "tq_2cc524ab4f",
+     "tech_name": "CHAIN THOUSAND CUTS BLADE"
+    }
+   ],
+   "render_seconds": 201.2,
+   "scores": [
+    0,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 0,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 0,
+     "fusions": 3,
+     "guard_breaks": 0,
+     "hits": 12,
+     "minor": 10,
+     "points": 0,
+     "projectiles": 3,
+     "significant": 2,
+     "techniques": 66,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 11,
+     "counters": 8,
+     "discoveries": 2,
+     "dodges": 3,
+     "fusions": 9,
+     "guard_breaks": 4,
+     "hits": 52,
+     "minor": 30,
+     "points": 3,
+     "projectiles": 15,
+     "significant": 4,
+     "techniques": 67,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "7b795567ac7de9ec092433b38ea1ccc792b0059e5080a94ed399af0f34923067",
+   "video": "exports/seven_seas_brawl_1_77/round_01/match_004.mp4",
+   "video_frames": 6163,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 102.717,
+   "winner": "ftr_069b2b5c2e"
+  },
+  "m005": {
+   "archetype": "tech_vs_power",
+   "arena": "The Drowned Maiden",
+   "contact_sheet": "tournaments/seven_seas_brawl_1_77/qa/m005_contact.png",
+   "discoveries": [
+    "tq_8c03f17324",
+    "tq_bf7be271ee",
+    "tq_c6104833c0",
+    "tq_2554c81ced",
+    "tq_4a7bb7ff38",
+    "tq_6b6a77f9f3"
+   ],
+   "final_point_t": 66.433,
+   "ko_video_t": 83.5,
+   "points": [
+    {
+     "abs_t": 15.4417,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 11.842,
+     "tech": "tq_b6beee6642",
+     "tech_name": "Flaming Blade"
+    },
+    {
+     "abs_t": 34.2833,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 30.683,
+     "tech": "tq_b6beee6642",
+     "tech_name": "Flaming Blade"
+    },
+    {
+     "abs_t": 70.0333,
+     "final": true,
+     "score": [
+      0,
+      3
+     ],
+     "scorer": 1,
+     "t": 66.433,
+     "tech": "tq_f542d1d378",
+     "tech_name": "Chain Searing Blade"
+    }
+   ],
+   "render_seconds": 187.3,
+   "scores": [
+    0,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 7,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 4,
+     "fusions": 6,
+     "guard_breaks": 0,
+     "hits": 32,
+     "minor": 25,
+     "points": 0,
+     "projectiles": 44,
+     "significant": 0,
+     "techniques": 60,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 32,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 1,
+     "fusions": 5,
+     "guard_breaks": 4,
+     "hits": 65,
+     "minor": 22,
+     "points": 3,
+     "projectiles": 31,
+     "significant": 4,
+     "techniques": 69,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "21a84a853197da8811bb6a6e49c2bb763223c03fac9bdc9d19436026ddd35422",
+   "video": "exports/seven_seas_brawl_1_77/semifinals/match_005.mp4",
+   "video_frames": 5651,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 94.183,
+   "winner": "ftr_7ca9d3d1aa"
+  },
+  "m006": {
+   "archetype": "chess_match",
+   "arena": "The Drowned Maiden",
+   "contact_sheet": "tournaments/seven_seas_brawl_1_77/qa/m006_contact.png",
+   "discoveries": [
+    "tq_dbd23741e8",
+    "tq_fa614ff713",
+    "tq_b7d833e1c8"
+   ],
+   "final_point_t": 68.883,
+   "ko_video_t": 86.33333333333333,
+   "points": [
+    {
+     "abs_t": 34.1167,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 30.517,
+     "tech": "tq_5ce687f933",
+     "tech_name": "Charged Deep Crash"
+    },
+    {
+     "abs_t": 51.7083,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 48.108,
+     "tech": "tq_6abeae4a66",
+     "tech_name": "Piercing Sunken Comet"
+    },
+    {
+     "abs_t": 72.4833,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 68.883,
+     "tech": "tq_913765d325",
+     "tech_name": "SEEKING RICOCHET VOLLEY"
+    }
+   ],
+   "render_seconds": 175.1,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 8,
+     "counters": 2,
+     "discoveries": 0,
+     "dodges": 3,
+     "fusions": 10,
+     "guard_breaks": 3,
+     "hits": 32,
+     "minor": 13,
+     "points": 3,
+     "projectiles": 21,
+     "significant": 5,
+     "techniques": 69,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 5,
+     "counters": 2,
+     "discoveries": 3,
+     "dodges": 2,
+     "fusions": 9,
+     "guard_breaks": 1,
+     "hits": 27,
+     "minor": 20,
+     "points": 0,
+     "projectiles": 14,
+     "significant": 1,
+     "techniques": 64,
+     "ultimates": 1
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "2f47b6271355527336e20e40abfc88e3eec5c413688e8819fff20885511557a7",
+   "video": "exports/seven_seas_brawl_1_77/semifinals/match_006.mp4",
+   "video_frames": 5820,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 97.0,
+   "winner": "ftr_bf10c96ec1"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "Deck of the Widowmaker",
+   "contact_sheet": "tournaments/seven_seas_brawl_1_77/qa/m007_contact.png",
+   "discoveries": [
+    "tq_0de043e0e3",
+    "tq_3aa982bc1d"
+   ],
+   "final_point_t": 64.283,
+   "ko_video_t": 83.58333333333333,
+   "points": [
+    {
+     "abs_t": 19.1833,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 15.583,
+     "tech": "tq_3c800c5968",
+     "tech_name": "Delayed Grog Eruption"
+    },
+    {
+     "abs_t": 33.15,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 29.55,
+     "tech": "tq_b6beee6642",
+     "tech_name": "Flaming Blade"
+    },
+    {
+     "abs_t": 67.8833,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 64.283,
+     "tech": "tq_0de043e0e3",
+     "tech_name": "Piercing Flaming Kick"
+    }
+   ],
+   "render_seconds": 208.1,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 44,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 1,
+     "fusions": 4,
+     "guard_breaks": 7,
+     "hits": 86,
+     "minor": 27,
+     "points": 3,
+     "projectiles": 36,
+     "significant": 5,
+     "techniques": 64,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 9,
+     "counters": 4,
+     "discoveries": 1,
+     "dodges": 3,
+     "fusions": 6,
+     "guard_breaks": 0,
+     "hits": 27,
+     "minor": 17,
+     "points": 0,
+     "projectiles": 9,
+     "significant": 1,
+     "techniques": 44,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "5c36549463d0c5e621cf4795133c4f790a6a49c61b216ff1c5a54bb62488c38c",
+   "video": "exports/seven_seas_brawl_1_77/final/match_007.mp4",
+   "video_frames": 5655,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 94.25,
+   "winner": "ftr_7ca9d3d1aa"
+  }
+ },
  "name": "Seven Seas Brawl #1",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "seven_seas_brawl_1_77",
  "steps": {
-  "bracket_reveal": "exports/seven_seas_brawl_1_77/bracket_reveal.mp4"
+  "bracket_reveal": "exports/seven_seas_brawl_1_77/bracket_reveal.mp4",
+  "bracket_round_02": "exports/seven_seas_brawl_1_77/bracket_round_02.mp4",
+  "bracket_round_03": "exports/seven_seas_brawl_1_77/bracket_round_03.mp4",
+  "champion": "exports/seven_seas_brawl_1_77/champion.mp4",
+  "complete": "exports/seven_seas_brawl_1_77/complete_tournament.mp4",
+  "highlights": "exports/seven_seas_brawl_1_77/highlights.mp4"
  },
  "theme": "pirates",
- "updated": "2026-11-15T10:27:38",
+ "updated": "2026-11-15T10:55:10",
  "version": 1
 }

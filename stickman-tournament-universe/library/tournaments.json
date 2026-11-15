@@ -1,5 +1,5 @@
 {
- "count": 1,
+ "count": 2,
  "items": {
   "elemental_ascension_1_2026": {
    "champion": "ftr_25872decc9",
@@ -9,9 +9,18 @@
    "participants": 8,
    "seed": 2026,
    "theme": "elements"
+  },
+  "seven_seas_brawl_1_77": {
+   "champion": "ftr_7ca9d3d1aa",
+   "champion_name": "THRNKA",
+   "finished": "2026-11-15T10:55:10",
+   "name": "Seven Seas Brawl #1",
+   "participants": 8,
+   "seed": 77,
+   "theme": "pirates"
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-15T03:36:07",
+ "updated": "2026-11-15T10:55:10",
  "version": 1
 }
