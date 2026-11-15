@@ -32,7 +32,7 @@ from ..persistence.library import Universe, atomic_write_json, stable_id
 from ..qa.validate import contact_sheet, validate_match, validate_video
 from ..rendering.camera import build_camera
 from ..rendering.cards import BracketCard, RosterCard
-from ..rendering.encoder import cleanup_work, concat_videos, cut_clip, render_video
+from ..rendering.encoder import cleanup_work, concat_videos, cut_clip, render_video, shrink_to
 from ..rendering.renderer import SceneRenderer
 from ..rendering.timemap import build_timemap
 from ..themes.arenas import tournament_arenas
@@ -176,6 +176,7 @@ class Tournament:
                     concat_videos([p for p, _ in intros] + [fight_only], out)
                 else:
                     os.replace(fight_only, out)
+                shrink_to(out, self.cfg["video"].get("max_file_mb", 95), self.cfg["video"], log=log)
                 total = n + intro_frames
                 vissues = validate_video(out, self.cfg, expected_frames=total)
                 fps = self.cfg["video"]["fps"]

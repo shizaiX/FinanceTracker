@@ -53,6 +53,7 @@ DEFAULTS = {
         "codec": "h264",
         "quality": "high",
         "render_workers": "auto",
+        "max_file_mb": 95,
     },
     "creative": {
         "choreography": "procedural",

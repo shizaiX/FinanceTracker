@@ -125,3 +125,18 @@ def cut_clip(src, start, dur, out_path, video_cfg):
            "-c:a", "aac", "-b:a", "192k", "-ar", "48000", "-ac", "2", out_path]
     subprocess.run(cmd, check=True)
     return out_path
+
+
+def shrink_to(path, max_mb, video_cfg, log=print):
+    """Re-encode a finished video until it is below max_mb (phone apps refuse to
+    share very large files). Resolution, frame rate and audio stay unchanged."""
+    crf = video_cfg["encoder"]["crf"]
+    while os.path.getsize(path) > max_mb * 1024 * 1024 and crf < 30:
+        crf += 3
+        tmp = path + ".shrink.mp4"
+        subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", path, "-c:v", "libx264", "-crf", str(crf), "-preset", "slow",
+                        "-pix_fmt", "yuv420p", "-profile:v", "high", "-r", str(video_cfg["fps"]), "-c:a", "copy",
+                        "-movflags", "+faststart", tmp], check=True)
+        os.replace(tmp, path)
+        log(f"    re-encoded at crf {crf}: {os.path.getsize(path) / 2**20:.0f} MB")
+    return path
