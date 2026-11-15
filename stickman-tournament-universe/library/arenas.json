@@ -1,5 +1,5 @@
 {
- "count": 12,
+ "count": 15,
  "items": {
   "arena_elemental_ascension_2_1156271972_0": {
    "accent": "#ff5329",
@@ -82,6 +82,88 @@
    "theme": "elements",
    "time_of_day": "night",
    "tournament": "elemental_ascension_2_1156271972"
+  },
+  "arena_elements_1122603931_0": {
+   "accent": "#ff8f29",
+   "ambient": "ember",
+   "biome": "caldera",
+   "celestial": "moon",
+   "far": "#2a1008",
+   "far_type": "volcanoes",
+   "ground": "#1c0f08",
+   "ground_style": "lava",
+   "id": "arena_elements_1122603931_0",
+   "layout_seed": 520130084,
+   "lightning": false,
+   "mid": "#3e1b0a",
+   "name": "Scarlet Caldera",
+   "props": "rock_spire",
+   "props_list": [
+    "rock_spire"
+   ],
+   "ships": false,
+   "sky": [
+    "#1a0804",
+    "#5a2208"
+   ],
+   "theme": "elements",
+   "time_of_day": "night",
+   "tournament": "elements_1122603931"
+  },
+  "arena_elements_1122603931_1": {
+   "accent": "#af7dff",
+   "ambient": "motes",
+   "biome": "abyssal_shrine",
+   "celestial": "moon",
+   "far": "#130a2c",
+   "far_type": "mountains",
+   "ground": "#0c0618",
+   "ground_style": "stone",
+   "id": "arena_elements_1122603931_1",
+   "layout_seed": 1008441772,
+   "lightning": false,
+   "mid": "#211145",
+   "name": "Abyssal Shrine",
+   "props": "arch",
+   "props_list": [
+    "arch",
+    "monolith"
+   ],
+   "ships": false,
+   "sky": [
+    "#04020f",
+    "#230f4a"
+   ],
+   "theme": "elements",
+   "time_of_day": "night",
+   "tournament": "elements_1122603931"
+  },
+  "arena_elements_1122603931_2": {
+   "accent": "#a4ff7a",
+   "ambient": "leaves",
+   "biome": "elder_grove",
+   "celestial": "sun",
+   "far": "#0e2e16",
+   "far_type": "forest",
+   "ground": "#0a1d0e",
+   "ground_style": "grass",
+   "id": "arena_elements_1122603931_2",
+   "layout_seed": 666532113,
+   "lightning": false,
+   "mid": "#184725",
+   "name": "Verdant Grove",
+   "props": "tree",
+   "props_list": [
+    "tree"
+   ],
+   "ships": false,
+   "sky": [
+    "#03140a",
+    "#1f5a2f"
+   ],
+   "theme": "elements",
+   "time_of_day": "day",
+   "tournament": "elements_1122603931"
   },
   "arena_elements_827232095_0": {
    "accent": "#ffcf7a",
@@ -342,6 +424,6 @@
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-15T18:05:12",
+ "updated": "2026-11-15T20:34:36",
  "version": 1
 }

@@ -1,5 +1,5 @@
 {
- "count": 32,
+ "count": 40,
  "items": {
   "ftr_02491fc11c": {
    "abilities": [
@@ -266,6 +266,61 @@
     "harpoon"
    ]
   },
+  "ftr_0ca39a12b5": {
+   "abilities": [
+    "ab_d903b6dc1c"
+   ],
+   "ability_names": [
+    "Sound"
+   ],
+   "accessory": "topknot",
+   "build": 1.034,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "topknot",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_0ca39a12b5",
+   "name": "SOURAX",
+   "personality": "aggressive",
+   "rating": 1.004,
+   "repertoire": [
+    "tq_8772a6277e",
+    "tq_6af325e394",
+    "tq_f8eeb498c7",
+    "tq_0788eeda3e",
+    "tq_86024eaf45",
+    "tq_dff0599e26",
+    "tq_bfb3e865fb",
+    "tq_c20635fd94",
+    "tq_055f978d89"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "RESONANT HAMMER",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.814,
+    "aggression": 0.766,
+    "caution": 0.252,
+    "counter": 0.303,
+    "creativity": 0.425,
+    "evasive": 0.275,
+    "range": 1.0,
+    "reaction": 0.142,
+    "read": 0.765,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
   "ftr_115687ef77": {
    "abilities": [
     "ab_947c3eebd3",
@@ -528,6 +583,117 @@
     "temperature": 0.45
    }
   },
+  "ftr_2c75f83a6d": {
+   "abilities": [
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Wind"
+   ],
+   "accessory": "visor",
+   "build": 1.02,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "visor",
+    "cape",
+    "scarf"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_2c75f83a6d",
+   "name": "VORKA",
+   "personality": "aggressive",
+   "rating": 1.003,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_00ea8f41ea",
+    "tq_39d05f41ac",
+    "tq_8785a56269",
+    "tq_2fc340fea3",
+    "tq_05d4aaeafe",
+    "tq_87c373795a",
+    "tq_b8696be1b0",
+    "tq_85ec74ff17"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "GUARDED ZEPHYR NOVA",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.455,
+    "aggression": 0.743,
+    "caution": 0.26,
+    "counter": 0.286,
+    "creativity": 0.458,
+    "evasive": 0.337,
+    "range": 1.0,
+    "reaction": 0.136,
+    "read": 0.702,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
+  "ftr_303cc77290": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "accessory": "horns",
+   "build": 1.001,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "horns",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_303cc77290",
+   "name": "SHAZEN",
+   "personality": "technical",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_68e0e06828",
+    "tq_840e3da3fa",
+    "tq_080784985b",
+    "tq_74f75dca2a",
+    "tq_6dfd208b09",
+    "tq_36558c2598",
+    "tq_49635247c8",
+    "tq_c6d0cd223f"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "GRAND ECLIPSE RAY",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.832,
+    "aggression": 0.606,
+    "caution": 0.606,
+    "counter": 0.523,
+    "creativity": 0.68,
+    "evasive": 0.474,
+    "range": 1.6,
+    "reaction": 0.099,
+    "read": 0.683,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
   "ftr_33a29bb1fa": {
    "abilities": [
     "ab_e33ef84aee"
@@ -582,6 +748,60 @@
     "range": 2.0,
     "reaction": 0.135,
     "read": 0.731,
+    "temperature": 1.0
+   },
+   "weapons": []
+  },
+  "ftr_36a9b2adda": {
+   "abilities": [
+    "ab_871ffa40a3"
+   ],
+   "ability_names": [
+    "Lightning"
+   ],
+   "accessory": "halo",
+   "build": 0.973,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "halo"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_36a9b2adda",
+   "name": "LIGROR",
+   "personality": "unpredictable",
+   "rating": 0.995,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_4bdaf07f4e",
+    "tq_b920f1ee76",
+    "tq_7c64fc4af8",
+    "tq_c9cf21d0f4",
+    "tq_0b6c35fdc8",
+    "tq_701ed194ed",
+    "tq_c7697f79b5",
+    "tq_90f37e1691"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "ARC CRASH",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.804,
+    "aggression": 0.591,
+    "caution": 0.404,
+    "counter": 0.35,
+    "creativity": 0.98,
+    "evasive": 0.551,
+    "range": 2.0,
+    "reaction": 0.079,
+    "read": 0.69,
     "temperature": 1.0
    },
    "weapons": []
@@ -648,6 +868,61 @@
     "read": 0.696,
     "temperature": 1.0
    }
+  },
+  "ftr_4618ed9ed0": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "accessory": "headband",
+   "build": 1.025,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "headband",
+    "scarf"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_4618ed9ed0",
+   "name": "BLOLION",
+   "personality": "aggressive",
+   "rating": 1.026,
+   "repertoire": [
+    "tq_14bfdca58e",
+    "tq_24bb712700",
+    "tq_32699f0da3",
+    "tq_b35ab4df99",
+    "tq_0c0bf8165a",
+    "tq_89aa7c2e8f",
+    "tq_87487e3055",
+    "tq_243e797a42",
+    "tq_f398d69f12"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "THORNED QUAKE",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.837,
+    "aggression": 0.94,
+    "caution": 0.224,
+    "counter": 0.327,
+    "creativity": 0.504,
+    "evasive": 0.333,
+    "range": 1.0,
+    "reaction": 0.136,
+    "read": 0.52,
+    "temperature": 0.55
+   },
+   "weapons": []
   },
   "ftr_49a5a3a257": {
    "abilities": [
@@ -956,6 +1231,61 @@
     "reaction": 0.071,
     "read": 0.503,
     "temperature": 1.0
+   },
+   "weapons": []
+  },
+  "ftr_69bd43a820": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "accessory": "horns",
+   "build": 0.952,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "horns",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_69bd43a820",
+   "name": "METION",
+   "personality": "technical",
+   "rating": 1.038,
+   "repertoire": [
+    "tq_e739e73436",
+    "tq_3631ba1aee",
+    "tq_bf41563e24",
+    "tq_36093992c7",
+    "tq_fb016510ab",
+    "tq_5fc90648a1",
+    "tq_40d9546079",
+    "tq_74af290828"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "FORGED CRASH",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.726,
+    "aggression": 0.525,
+    "caution": 0.539,
+    "counter": 0.618,
+    "creativity": 0.707,
+    "evasive": 0.471,
+    "range": 1.6,
+    "reaction": 0.088,
+    "read": 0.73,
+    "temperature": 0.4
    },
    "weapons": []
   },
@@ -1281,6 +1611,58 @@
     "range": 3.2,
     "reaction": 0.101,
     "read": 0.589,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_910dabf37b": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "accessory": "spikes",
+   "build": 1.03,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "spikes"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_910dabf37b",
+   "name": "RIPEX",
+   "personality": "strategic",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_26da0dd4ce",
+    "tq_d8be0c6cc9",
+    "tq_f07f362e4b",
+    "tq_f267ea87e7",
+    "tq_dc4f4306b9",
+    "tq_ba515849f8",
+    "tq_8916aa985e"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "PIERCING TORRENT LANCE",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.454,
+    "aggression": 0.559,
+    "caution": 0.621,
+    "counter": 0.539,
+    "creativity": 0.794,
+    "evasive": 0.507,
+    "range": 3.2,
+    "reaction": 0.083,
+    "read": 0.52,
     "temperature": 0.4
    },
    "weapons": []
@@ -2052,9 +2434,64 @@
     "read": 0.649,
     "temperature": 0.5
    }
+  },
+  "ftr_ee22d6d9b9": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "accessory": "halo",
+   "build": 0.953,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "halo",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_ee22d6d9b9",
+   "name": "SUNZIS",
+   "personality": "defensive",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_77a59f10f7",
+    "tq_7e5a8c8031",
+    "tq_290c1bbe67",
+    "tq_2cbdc598ce",
+    "tq_1afcb96ade",
+    "tq_97886837c0",
+    "tq_1cdfeeede1",
+    "tq_6bcbb68ab0"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "GRAND SOLAR CANNON",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.451,
+    "aggression": 0.366,
+    "caution": 0.869,
+    "counter": 0.597,
+    "creativity": 0.371,
+    "evasive": 0.388,
+    "range": 1.8,
+    "reaction": 0.079,
+    "read": 0.499,
+    "temperature": 0.45
+   },
+   "weapons": []
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T18:35:22",
+ "updated": "2026-11-15T20:34:36",
  "version": 1
 }

@@ -1,0 +1,723 @@
+{
+ "arenas": [
+  {
+   "accent": "#ff8f29",
+   "ambient": "ember",
+   "biome": "caldera",
+   "celestial": "moon",
+   "far": "#2a1008",
+   "far_type": "volcanoes",
+   "ground": "#1c0f08",
+   "ground_style": "lava",
+   "id": "arena_elements_1122603931_0",
+   "layout_seed": 520130084,
+   "lightning": false,
+   "mid": "#3e1b0a",
+   "name": "Scarlet Caldera",
+   "props": "rock_spire",
+   "props_list": [
+    "rock_spire"
+   ],
+   "ships": false,
+   "sky": [
+    "#1a0804",
+    "#5a2208"
+   ],
+   "time_of_day": "night"
+  },
+  {
+   "accent": "#af7dff",
+   "ambient": "motes",
+   "biome": "abyssal_shrine",
+   "celestial": "moon",
+   "far": "#130a2c",
+   "far_type": "mountains",
+   "ground": "#0c0618",
+   "ground_style": "stone",
+   "id": "arena_elements_1122603931_1",
+   "layout_seed": 1008441772,
+   "lightning": false,
+   "mid": "#211145",
+   "name": "Abyssal Shrine",
+   "props": "arch",
+   "props_list": [
+    "arch",
+    "monolith"
+   ],
+   "ships": false,
+   "sky": [
+    "#04020f",
+    "#230f4a"
+   ],
+   "time_of_day": "night"
+  },
+  {
+   "accent": "#a4ff7a",
+   "ambient": "leaves",
+   "biome": "elder_grove",
+   "celestial": "sun",
+   "far": "#0e2e16",
+   "far_type": "forest",
+   "ground": "#0a1d0e",
+   "ground_style": "grass",
+   "id": "arena_elements_1122603931_2",
+   "layout_seed": 666532113,
+   "lightning": false,
+   "mid": "#184725",
+   "name": "Verdant Grove",
+   "props": "tree",
+   "props_list": [
+    "tree"
+   ],
+   "ships": false,
+   "sky": [
+    "#03140a",
+    "#1f5a2f"
+   ],
+   "time_of_day": "day"
+  }
+ ],
+ "bracket": {
+  "matches": {
+   "m001": {
+    "a": "ftr_ee22d6d9b9",
+    "b": "ftr_2c75f83a6d",
+    "id": "m001",
+    "index": 0,
+    "round": 0,
+    "round_name": "quarterfinals",
+    "scores": null,
+    "src": [
+     null,
+     null
+    ],
+    "status": "pending",
+    "winner": null
+   },
+   "m002": {
+    "a": "ftr_36a9b2adda",
+    "b": "ftr_910dabf37b",
+    "id": "m002",
+    "index": 1,
+    "round": 0,
+    "round_name": "quarterfinals",
+    "scores": null,
+    "src": [
+     null,
+     null
+    ],
+    "status": "pending",
+    "winner": null
+   },
+   "m003": {
+    "a": "ftr_4618ed9ed0",
+    "b": "ftr_303cc77290",
+    "id": "m003",
+    "index": 2,
+    "round": 0,
+    "round_name": "quarterfinals",
+    "scores": null,
+    "src": [
+     null,
+     null
+    ],
+    "status": "pending",
+    "winner": null
+   },
+   "m004": {
+    "a": "ftr_69bd43a820",
+    "b": "ftr_0ca39a12b5",
+    "id": "m004",
+    "index": 3,
+    "round": 0,
+    "round_name": "quarterfinals",
+    "scores": null,
+    "src": [
+     null,
+     null
+    ],
+    "status": "pending",
+    "winner": null
+   },
+   "m005": {
+    "a": null,
+    "b": null,
+    "id": "m005",
+    "index": 0,
+    "round": 1,
+    "round_name": "semifinals",
+    "scores": null,
+    "src": [
+     "m001",
+     "m002"
+    ],
+    "status": "pending",
+    "winner": null
+   },
+   "m006": {
+    "a": null,
+    "b": null,
+    "id": "m006",
+    "index": 1,
+    "round": 1,
+    "round_name": "semifinals",
+    "scores": null,
+    "src": [
+     "m003",
+     "m004"
+    ],
+    "status": "pending",
+    "winner": null
+   },
+   "m007": {
+    "a": null,
+    "b": null,
+    "id": "m007",
+    "index": 0,
+    "round": 2,
+    "round_name": "final",
+    "scores": null,
+    "src": [
+     "m005",
+     "m006"
+    ],
+    "status": "pending",
+    "winner": null
+   }
+  },
+  "order": [
+   "m001",
+   "m002",
+   "m003",
+   "m004",
+   "m005",
+   "m006",
+   "m007"
+  ],
+  "participants": 8,
+  "rounds": [
+   [
+    "m001",
+    "m002",
+    "m003",
+    "m004"
+   ],
+   [
+    "m005",
+    "m006"
+   ],
+   [
+    "m007"
+   ]
+  ],
+  "size": 8
+ },
+ "champion": null,
+ "config": {
+  "combat": {
+   "adaptive_ai": true,
+   "attack_variety": "maximum",
+   "cinematic_finishers": true,
+   "combat_speed": 1.0,
+   "combination_complexity": "maximum",
+   "environmental_interactions": true,
+   "fighting_style": "auto",
+   "physical_combat_enabled": true,
+   "special_abilities_enabled": true
+  },
+  "creative": {
+   "camera": "cinematic_dynamic",
+   "choreography": "procedural",
+   "motion_blur": "subtle",
+   "music": "procedural",
+   "particle_effects": true,
+   "screen_shake": 1.0,
+   "slow_motion": "dramatic",
+   "sound_effects": true,
+   "subtitles": false,
+   "theme_generator": "auto",
+   "visual_effects": "high_quality"
+  },
+  "resolved_at": "2026-11-15T20:34:36",
+  "tournament": {
+   "abilities_per_fighter": 1,
+   "abilities_unique": true,
+   "initial_matchmaking": "random",
+   "maximum_fight_duration_seconds": 120,
+   "minimum_fight_duration_seconds": 63,
+   "name": "auto",
+   "participants": 8,
+   "points_to_win": 3,
+   "random_seed": 1122603931,
+   "subsequent_matchmaking": "winners_bracket",
+   "target_fight_duration_seconds": 75,
+   "theme": "elements",
+   "tournament_format": "single_elimination"
+  },
+  "video": {
+   "codec": "h264",
+   "encoder": {
+    "crf": 18,
+    "preset": "medium"
+   },
+   "export_complete_tournament": true,
+   "export_highlights": true,
+   "export_individual_fights": true,
+   "fps": 60,
+   "height": 1920,
+   "orientation": "vertical",
+   "quality": "high",
+   "render_workers": 4,
+   "width": 1080
+  }
+ },
+ "created": "2026-11-15T20:34:36",
+ "fighters": [
+  {
+   "abilities": [
+    "ab_d2779be2be"
+   ],
+   "ability_names": [
+    "Wind"
+   ],
+   "accessory": "visor",
+   "build": 1.02,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "visor",
+    "cape",
+    "scarf"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_2c75f83a6d",
+   "name": "VORKA",
+   "personality": "aggressive",
+   "rating": 1.003,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_00ea8f41ea",
+    "tq_39d05f41ac",
+    "tq_8785a56269",
+    "tq_2fc340fea3",
+    "tq_05d4aaeafe",
+    "tq_87c373795a",
+    "tq_b8696be1b0",
+    "tq_85ec74ff17"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "GUARDED ZEPHYR NOVA",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.455,
+    "aggression": 0.743,
+    "caution": 0.26,
+    "counter": 0.286,
+    "creativity": 0.458,
+    "evasive": 0.337,
+    "range": 1.0,
+    "reaction": 0.136,
+    "read": 0.702,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
+  {
+   "abilities": [
+    "ab_d903b6dc1c"
+   ],
+   "ability_names": [
+    "Sound"
+   ],
+   "accessory": "topknot",
+   "build": 1.034,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "topknot",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_0ca39a12b5",
+   "name": "SOURAX",
+   "personality": "aggressive",
+   "rating": 1.004,
+   "repertoire": [
+    "tq_8772a6277e",
+    "tq_6af325e394",
+    "tq_f8eeb498c7",
+    "tq_0788eeda3e",
+    "tq_86024eaf45",
+    "tq_dff0599e26",
+    "tq_bfb3e865fb",
+    "tq_c20635fd94",
+    "tq_055f978d89"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "RESONANT HAMMER",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.814,
+    "aggression": 0.766,
+    "caution": 0.252,
+    "counter": 0.303,
+    "creativity": 0.425,
+    "evasive": 0.275,
+    "range": 1.0,
+    "reaction": 0.142,
+    "read": 0.765,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
+  {
+   "abilities": [
+    "ab_871ffa40a3"
+   ],
+   "ability_names": [
+    "Lightning"
+   ],
+   "accessory": "halo",
+   "build": 0.973,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "halo"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_36a9b2adda",
+   "name": "LIGROR",
+   "personality": "unpredictable",
+   "rating": 0.995,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_4bdaf07f4e",
+    "tq_b920f1ee76",
+    "tq_7c64fc4af8",
+    "tq_c9cf21d0f4",
+    "tq_0b6c35fdc8",
+    "tq_701ed194ed",
+    "tq_c7697f79b5",
+    "tq_90f37e1691"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "ARC CRASH",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.804,
+    "aggression": 0.591,
+    "caution": 0.404,
+    "counter": 0.35,
+    "creativity": 0.98,
+    "evasive": 0.551,
+    "range": 2.0,
+    "reaction": 0.079,
+    "read": 0.69,
+    "temperature": 1.0
+   },
+   "weapons": []
+  },
+  {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "accessory": "horns",
+   "build": 0.952,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "horns",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_69bd43a820",
+   "name": "METION",
+   "personality": "technical",
+   "rating": 1.038,
+   "repertoire": [
+    "tq_e739e73436",
+    "tq_3631ba1aee",
+    "tq_bf41563e24",
+    "tq_36093992c7",
+    "tq_fb016510ab",
+    "tq_5fc90648a1",
+    "tq_40d9546079",
+    "tq_74af290828"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "FORGED CRASH",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.726,
+    "aggression": 0.525,
+    "caution": 0.539,
+    "counter": 0.618,
+    "creativity": 0.707,
+    "evasive": 0.471,
+    "range": 1.6,
+    "reaction": 0.088,
+    "read": 0.73,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "accessory": "horns",
+   "build": 1.001,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "horns",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_303cc77290",
+   "name": "SHAZEN",
+   "personality": "technical",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_68e0e06828",
+    "tq_840e3da3fa",
+    "tq_080784985b",
+    "tq_74f75dca2a",
+    "tq_6dfd208b09",
+    "tq_36558c2598",
+    "tq_49635247c8",
+    "tq_c6d0cd223f"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "GRAND ECLIPSE RAY",
+   "stance": "low",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.832,
+    "aggression": 0.606,
+    "caution": 0.606,
+    "counter": 0.523,
+    "creativity": 0.68,
+    "evasive": 0.474,
+    "range": 1.6,
+    "reaction": 0.099,
+    "read": 0.683,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "accessory": "spikes",
+   "build": 1.03,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "spikes"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_910dabf37b",
+   "name": "RIPEX",
+   "personality": "strategic",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_26da0dd4ce",
+    "tq_d8be0c6cc9",
+    "tq_f07f362e4b",
+    "tq_f267ea87e7",
+    "tq_dc4f4306b9",
+    "tq_ba515849f8",
+    "tq_8916aa985e"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "PIERCING TORRENT LANCE",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.454,
+    "aggression": 0.559,
+    "caution": 0.621,
+    "counter": 0.539,
+    "creativity": 0.794,
+    "evasive": 0.507,
+    "range": 3.2,
+    "reaction": 0.083,
+    "read": 0.52,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "accessory": "halo",
+   "build": 0.953,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "halo",
+    "cape"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_ee22d6d9b9",
+   "name": "SUNZIS",
+   "personality": "defensive",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_77a59f10f7",
+    "tq_7e5a8c8031",
+    "tq_290c1bbe67",
+    "tq_2cbdc598ce",
+    "tq_1afcb96ade",
+    "tq_97886837c0",
+    "tq_1cdfeeede1",
+    "tq_6bcbb68ab0"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "GRAND SOLAR CANNON",
+   "stance": "upright",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.451,
+    "aggression": 0.366,
+    "caution": 0.869,
+    "counter": 0.597,
+    "creativity": 0.371,
+    "evasive": 0.388,
+    "range": 1.8,
+    "reaction": 0.079,
+    "read": 0.499,
+    "temperature": 0.45
+   },
+   "weapons": []
+  },
+  {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "accessory": "headband",
+   "build": 1.025,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "headband",
+    "scarf"
+   ],
+   "created": "2026-11-15T20:34:36",
+   "id": "ftr_4618ed9ed0",
+   "name": "BLOLION",
+   "personality": "aggressive",
+   "rating": 1.026,
+   "repertoire": [
+    "tq_14bfdca58e",
+    "tq_24bb712700",
+    "tq_32699f0da3",
+    "tq_b35ab4df99",
+    "tq_0c0bf8165a",
+    "tq_89aa7c2e8f",
+    "tq_87487e3055",
+    "tq_243e797a42",
+    "tq_f398d69f12"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "THORNED QUAKE",
+   "stance": "southpaw",
+   "theme": "elements",
+   "traits": {
+    "adaptability": 0.837,
+    "aggression": 0.94,
+    "caution": 0.224,
+    "counter": 0.327,
+    "creativity": 0.504,
+    "evasive": 0.333,
+    "range": 1.0,
+    "reaction": 0.136,
+    "read": 0.52,
+    "temperature": 0.55
+   },
+   "weapons": []
+  }
+ ],
+ "matches": {},
+ "name": "Elements",
+ "root": "/home/user/FinanceTracker/stickman-tournament-universe",
+ "schema": "stu.tournament",
+ "slug": "elements_1122603931",
+ "steps": {},
+ "theme": "elements",
+ "updated": "2026-11-15T20:34:36",
+ "version": 1
+}
