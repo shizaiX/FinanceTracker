@@ -13,9 +13,9 @@
    "accessory": "topknot",
    "build": 1.039,
    "career": {
-    "losses": 0,
-    "points_against": 1,
-    "points_for": 3,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 5,
     "tournaments": [],
     "wins": 1
    },
@@ -74,10 +74,10 @@
    "build": 0.961,
    "career": {
     "losses": 0,
-    "points_against": 2,
-    "points_for": 3,
+    "points_against": 4,
+    "points_for": 6,
     "tournaments": [],
-    "wins": 1
+    "wins": 2
    },
    "color": "#3a7bff",
    "created": "2026-11-15T03:11:25",
@@ -490,6 +490,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T03:25:08",
+ "updated": "2026-11-15T03:29:04",
  "version": 1
 }

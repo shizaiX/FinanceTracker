@@ -1,6 +1,77 @@
 {
- "count": 130,
+ "count": 134,
  "items": {
+  "tq_00849d93bb": {
+   "abilities": [
+    "ab_66a6db4683",
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light",
+    "Shadow"
+   ],
+   "anim": "anim_explosion",
+   "combination": "cmb_fffa7dc6e4",
+   "created": "2026-11-15T03:25:16",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.54,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.9,
+     "opp_zoning": 0.1
+    },
+    "fighter": "ftr_25872decc9",
+    "match": "m005",
+    "t": 79.13,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_00849d93bb",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Eclipse Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.4,
+    "cost": 30,
+    "dmg": 13.5,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 22.95,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.391,
+    "stages": 1,
+    "startup": 0.326,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Eclipse",
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683",
+     "ab_e33ef84aee"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_00f40b6a94": {
    "abilities": [
     "ab_5b8e37c749"
@@ -6106,6 +6177,78 @@
    "timing": "multi_hit",
    "variant": 1
   },
+  "tq_cb2de0d3cc": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T03:25:15",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 3.61,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.71,
+     "opp_zoning": 0.29
+    },
+    "fighter": "ftr_25872decc9",
+    "match": "m005",
+    "t": 7.61,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_cb2de0d3cc",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Dawn Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.292,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_d177fe2e70": {
    "abilities": [
     "ab_b7f5981ab1"
@@ -6163,6 +6306,79 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_d2b9efe64e": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T03:25:16",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 3.62,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_1addcf4dde",
+    "match": "m005",
+    "t": 74.48,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_d2b9efe64e",
+   "kind": "env",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "backstep",
+   "name": "Charged Grand Basalt Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "delay": 0.42,
+    "dmg": 20.67,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 30.07,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.635,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "backstep",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_d85d06728c": {
@@ -7381,6 +7597,80 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_fd7136e035": {
+   "abilities": [
+    "ab_314ffb8ed5",
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth",
+    "Nature"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": "cmb_2a143201b2",
+   "created": "2026-11-15T03:25:16",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.73,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.96,
+     "opp_zoning": 0.04
+    },
+    "fighter": "ftr_1addcf4dde",
+    "match": "m005",
+    "t": 59.01,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_fd7136e035",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Ironwood Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 2.8,
+    "cost": 44,
+    "dmg": 21.3,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 27.1,
+    "reach": 1.65,
+    "recovery": 0.306,
+    "stages": 1,
+    "startup": 0.394,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Ironwood",
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5",
+     "ab_83c4d6d552"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "fusion",
+   "timing": "charged",
+   "variant": 1
+  },
   "tq_fd9a0ec542": {
    "abilities": [
     "ab_83c4d6d552"
@@ -7441,6 +7731,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-15T03:25:08",
+ "updated": "2026-11-15T03:29:04",
  "version": 1
 }

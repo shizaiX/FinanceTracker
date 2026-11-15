@@ -80,13 +80,16 @@
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_25872decc9"
    },
    "m006": {
     "a": "ftr_b750bb35a2",
@@ -104,7 +107,7 @@
     "winner": null
    },
    "m007": {
-    "a": null,
+    "a": "ftr_25872decc9",
     "b": null,
     "id": "m007",
     "index": 0,
@@ -402,10 +405,10 @@
    "build": 0.961,
    "career": {
     "losses": 0,
-    "points_against": 2,
-    "points_for": 3,
+    "points_against": 4,
+    "points_for": 6,
     "tournaments": [],
-    "wins": 1
+    "wins": 2
    },
    "color": "#3a7bff",
    "created": "2026-11-15T03:11:25",
@@ -645,9 +648,9 @@
    "accessory": "topknot",
    "build": 1.039,
    "career": {
-    "losses": 0,
-    "points_against": 1,
-    "points_for": 3,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 5,
     "tournaments": [],
     "wins": 1
    },
@@ -1170,6 +1173,129 @@
    "video_ok": true,
    "video_seconds": 138.583,
    "winner": "ftr_41e957db5e"
+  },
+  "m005": {
+   "archetype": "tech_vs_power",
+   "arena": "Elder Grove",
+   "contact_sheet": "tournaments/elemental_ascension_1_2026/qa/m005_contact.png",
+   "discoveries": [
+    "tq_cb2de0d3cc",
+    "tq_fd7136e035",
+    "tq_d2b9efe64e",
+    "tq_00849d93bb"
+   ],
+   "final_point_t": 99.017,
+   "ko_video_t": 128.95,
+   "points": [
+    {
+     "abs_t": 23.85,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 20.25,
+     "tech": "tq_93e6772461",
+     "tech_name": "Step-in Grasp"
+    },
+    {
+     "abs_t": 47.6833,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 44.083,
+     "tech": "tq_93e6772461",
+     "tech_name": "Step-in Grasp"
+    },
+    {
+     "abs_t": 71.0333,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 1,
+     "t": 67.433,
+     "tech": "tq_67ce54d889",
+     "tech_name": "Twin Suplex"
+    },
+    {
+     "abs_t": 86.475,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 82.875,
+     "tech": "tq_c0173d8c00",
+     "tech_name": "Spinning Heel"
+    },
+    {
+     "abs_t": 102.6167,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 99.017,
+     "tech": "tq_96b2939d8b",
+     "tech_name": "Radiant Bind"
+    }
+   ],
+   "render_seconds": 226.8,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 19,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 5,
+     "fusions": 3,
+     "guard_breaks": 5,
+     "hits": 71,
+     "minor": 28,
+     "points": 3,
+     "projectiles": 0,
+     "significant": 16,
+     "techniques": 71,
+     "ultimates": 5
+    },
+    {
+     "blocked": 1,
+     "combo": 10,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 5,
+     "fusions": 4,
+     "guard_breaks": 2,
+     "hits": 48,
+     "minor": 27,
+     "points": 2,
+     "projectiles": 0,
+     "significant": 7,
+     "techniques": 78,
+     "ultimates": 5
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "19605d7975d7a252de7e92d042ffd7b366d08c5b24d4ff6bf8d07592fe0ab63b",
+   "video": "exports/elemental_ascension_1_2026/semifinals/match_005.mp4",
+   "video_frames": 8377,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 139.617,
+   "winner": "ftr_25872decc9"
   }
  },
  "name": "Elemental Ascension #1",
@@ -1181,6 +1307,6 @@
   "bracket_round_02": "exports/elemental_ascension_1_2026/bracket_round_02.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:25:15",
+ "updated": "2026-11-15T03:29:04",
  "version": 1
 }
