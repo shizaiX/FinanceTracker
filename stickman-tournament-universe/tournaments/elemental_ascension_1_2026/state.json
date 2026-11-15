@@ -26,13 +26,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_1addcf4dde"
    },
    "m003": {
     "a": "ftr_78982cc7dd",
@@ -66,7 +69,7 @@
    },
    "m005": {
     "a": "ftr_25872decc9",
-    "b": null,
+    "b": "ftr_1addcf4dde",
     "id": "m005",
     "index": 0,
     "round": 1,
@@ -575,9 +578,9 @@
    "accessory": "ponytail",
    "build": 1.002,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -637,10 +640,10 @@
    "build": 1.039,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 1,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#8cff3a",
    "created": "2026-11-15T03:11:25",
@@ -811,6 +814,116 @@
    "video_ok": true,
    "video_seconds": 132.4,
    "winner": "ftr_25872decc9"
+  },
+  "m002": {
+   "archetype": "chess_match",
+   "arena": "Stormcrown Peak",
+   "contact_sheet": "tournaments/elemental_ascension_1_2026/qa/m002_contact.png",
+   "discoveries": [
+    "tq_b238ad2f38",
+    "tq_18ec0b946b",
+    "tq_1428775c57"
+   ],
+   "final_point_t": 82.475,
+   "ko_video_t": 103.81666666666666,
+   "points": [
+    {
+     "abs_t": 31.6333,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 28.033,
+     "tech": "tq_c0173d8c00",
+     "tech_name": "Spinning Heel"
+    },
+    {
+     "abs_t": 53.2417,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 49.642,
+     "tech": "tq_7078a0321f",
+     "tech_name": "IRONWOOD BLADE"
+    },
+    {
+     "abs_t": 68.0583,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 0,
+     "t": 64.458,
+     "tech": "tq_e739e73436",
+     "tech_name": "Cascade Snap Strike"
+    },
+    {
+     "abs_t": 86.075,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 82.475,
+     "tech": "tq_7078a0321f",
+     "tech_name": "IRONWOOD BLADE"
+    }
+   ],
+   "render_seconds": 181.2,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 2,
+     "combo": 19,
+     "counters": 0,
+     "discoveries": 0,
+     "dodges": 6,
+     "fusions": 5,
+     "guard_breaks": 3,
+     "hits": 57,
+     "minor": 27,
+     "points": 1,
+     "projectiles": 0,
+     "significant": 7,
+     "techniques": 67,
+     "ultimates": 3
+    },
+    {
+     "blocked": 1,
+     "combo": 1,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 1,
+     "fusions": 3,
+     "guard_breaks": 1,
+     "hits": 32,
+     "minor": 17,
+     "points": 3,
+     "projectiles": 0,
+     "significant": 10,
+     "techniques": 66,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "d91b9a8a9872e4dc86e2858253cdefb875ae61563baa0fc35cfc851dfc1d0465",
+   "video": "exports/elemental_ascension_1_2026/round_01/match_002.mp4",
+   "video_frames": 6869,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 114.483,
+   "winner": "ftr_1addcf4dde"
   }
  },
  "name": "Elemental Ascension #1",
@@ -821,6 +934,6 @@
   "bracket_reveal": "exports/elemental_ascension_1_2026/bracket_reveal.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:14:57",
+ "updated": "2026-11-15T03:18:00",
  "version": 1
 }

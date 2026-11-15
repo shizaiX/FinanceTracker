@@ -1,5 +1,5 @@
 {
- "count": 124,
+ "count": 127,
  "items": {
   "tq_00f40b6a94": {
    "abilities": [
@@ -513,6 +513,152 @@
     "timing": "instant"
    },
    "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_1428775c57": {
+   "abilities": [
+    "ab_314ffb8ed5",
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth",
+    "Nature"
+   ],
+   "anim": "anim_env_strike",
+   "combination": "cmb_2a143201b2",
+   "created": "2026-11-15T03:14:57",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.62,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.08,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_1addcf4dde",
+    "match": "m002",
+    "t": 62.19,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_1428775c57",
+   "kind": "env",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "backstep",
+   "name": "Grand Ironwood Pillar",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.8,
+    "cost": 36,
+    "delay": 0.42,
+    "dmg": 14.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 21.36,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.388,
+    "stages": 1,
+    "startup": 0.311,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Ironwood",
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5",
+     "ab_83c4d6d552"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_18ec0b946b": {
+   "abilities": [
+    "ab_314ffb8ed5",
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Nature",
+    "Earth"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": "cmb_2a143201b2",
+   "created": "2026-11-15T03:14:57",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_1addcf4dde",
+    "match": "m002",
+    "t": 36.6,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_18ec0b946b",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Ironwood Dive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 2.4,
+    "cost": 38,
+    "dmg": 14.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.03,
+    "reach": 1.1,
+    "recovery": 0.225,
+    "stages": 1,
+    "startup": 0.104,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": "Ironwood",
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5",
+     "ab_83c4d6d552"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "fusion",
    "timing": "instant",
    "variant": 1
   },
@@ -4967,6 +5113,84 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_b238ad2f38": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T03:14:57",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 2.58,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_1addcf4dde",
+    "match": "m002",
+    "t": 34.96,
+    "tournament": "elemental_ascension_1_2026"
+   },
+   "id": "tq_b238ad2f38",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Feint Snare Thorned Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_b666b0d1ba": {
    "abilities": [],
    "ability_names": [],
@@ -6998,6 +7222,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-15T03:14:57",
+ "updated": "2026-11-15T03:18:00",
  "version": 1
 }
