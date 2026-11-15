@@ -252,16 +252,16 @@ class Tournament:
             w.writeframes(pcm.tobytes())
         return path
 
-    def render_card(self, key, title, subtitle, out, duration=6.0, champion=None):
+    def render_card(self, key, title, subtitle, out, duration=6.0, champion=None, upto_round=None):
         done = self.state["steps"].get(key)
         if done and os.path.exists(os.path.join(self.root, done)):
             return os.path.join(self.root, done)
-        card = BracketCard(self.cfg, self.state, title, subtitle, duration, champion)
+        card = BracketCard(self.cfg, self.state, title, subtitle, duration, champion, upto_round)
         work = os.path.join(self.path, "work", key)
         os.makedirs(work, exist_ok=True)
         wav = self._card_audio(card.n, "champion" if champion else "bracket", os.path.join(work, "a.wav"))
         os.makedirs(os.path.dirname(out), exist_ok=True)
-        render_video(lambda: BracketCard(self.cfg, self.state, title, subtitle, duration, champion), card.n, out, self.cfg["video"], work,
+        render_video(lambda: BracketCard(self.cfg, self.state, title, subtitle, duration, champion, upto_round), card.n, out, self.cfg["video"], work,
                      audio_path=wav, chunk=10**9, workers=1, log=log)
         issues = validate_video(out, self.cfg, expected_frames=card.n)
         if issues:
@@ -278,7 +278,7 @@ class Tournament:
         br = self.state["bracket"]
         if render:
             self.render_card("bracket_reveal", self.state["name"].upper(), "THE BRACKET IS SET",
-                             os.path.join(self.export_dir, "bracket_reveal.mp4"))
+                             os.path.join(self.export_dir, "bracket_reveal.mp4"), upto_round=0)
         done = 0
         while True:
             ready = B.ready_matches(br)
@@ -290,7 +290,7 @@ class Tournament:
                 key = f"bracket_round_{m['round'] + 1:02d}"
                 label = STAGE_LABEL.get(m["round_name"], m["round_name"].replace("_", " ").upper())
                 self.render_card(key, self.state["name"].upper(), f"{label}S" if label in ("SEMIFINAL", "QUARTERFINAL") else label,
-                                 os.path.join(self.export_dir, f"{key}.mp4"))
+                                 os.path.join(self.export_dir, f"{key}.mp4"), upto_round=m["round"])
             log(f"Match {m['id']} ({self.stage_label(m)}): {self.names[m['a']]} vs {self.names[m['b']]}")
             self.run_match(m, render=render)
             done += 1

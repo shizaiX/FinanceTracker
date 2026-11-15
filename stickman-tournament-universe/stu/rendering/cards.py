@@ -13,7 +13,7 @@ from .hud import text
 class BracketCard:
     """Animated bracket. `highlight_round` = round whose results are revealed."""
 
-    def __init__(self, cfg, state, title, subtitle, duration=6.0, champion=None):
+    def __init__(self, cfg, state, title, subtitle, duration=6.0, champion=None, upto_round=None):
         self.W, self.H = cfg["video"]["width"], cfg["video"]["height"]
         self.fps = cfg["video"]["fps"]
         self.state = state
@@ -21,6 +21,7 @@ class BracketCard:
         self.subtitle = subtitle
         self.n = int(duration * self.fps)
         self.champion = champion
+        self.upto = upto_round  # rounds >= upto are shown without results (no spoilers)
         self.surface = cairo.ImageSurface(cairo.FORMAT_ARGB32, self.W, self.H)
         self.f = {f["id"]: f for f in state["fighters"]}
 
@@ -67,12 +68,13 @@ class BracketCard:
                 appear = clamp((t - 0.4 - 0.12 * i - 0.5 * r) / 0.35, 0, 1)
                 if appear <= 0:
                     continue
+                hide = self.upto is not None and m["round"] >= self.upto
                 for slot, key in ((0, "a"), (1, "b")):
-                    fid = m[key]
+                    fid = m[key] if not (self.upto is not None and m["round"] > self.upto) else None
                     yy = y + (slot - 0.5) * u(52 if r == 0 else 46)
                     name = self.f[fid]["name"] if fid else ("BYE" if r == 0 else "?")
                     col = hex_to_rgb(self.f[fid]["color"]) if fid else (0.5, 0.5, 0.55)
-                    lost = m["winner"] and fid and m["winner"] != fid
+                    lost = (not hide) and m["winner"] and fid and m["winner"] != fid
                     a = appear * (0.35 if lost else 1.0)
                     cr.set_source_rgba(*mix(col, (0, 0, 0), 0.75), 0.85 * a)
                     cr.rectangle(x, yy - u(21), col_w - u(26), u(42))
@@ -82,7 +84,7 @@ class BracketCard:
                     cr.fill()
                     size = 30 if nR <= 3 else 24
                     text(cr, name, x + u(18), yy, u(size), col if not lost else (0.6, 0.6, 0.65), "left", a, outline=0.12)
-                    if m["scores"] and fid:
+                    if m["scores"] and fid and not hide:
                         sc = m["scores"][slot]
                         text(cr, str(sc), x + col_w - u(40), yy, u(28), (1, 1, 1), "right", a)
                 if r > 0:
