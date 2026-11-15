@@ -1514,9 +1514,10 @@
   "bracket_round_02": "exports/elemental_ascension_1_2026/bracket_round_02.mp4",
   "bracket_round_03": "exports/elemental_ascension_1_2026/bracket_round_03.mp4",
   "champion": "exports/elemental_ascension_1_2026/champion.mp4",
-  "complete": "exports/elemental_ascension_1_2026/complete_tournament.mp4"
+  "complete": "exports/elemental_ascension_1_2026/complete_tournament.mp4",
+  "highlights": "exports/elemental_ascension_1_2026/highlights.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T03:34:32",
+ "updated": "2026-11-15T03:36:07",
  "version": 1
 }

@@ -16,7 +16,9 @@
     "losses": 1,
     "points_against": 4,
     "points_for": 5,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 1
    },
    "color": "#8cff3a",
@@ -76,7 +78,9 @@
     "losses": 0,
     "points_against": 4,
     "points_for": 9,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 3
    },
    "color": "#3a7bff",
@@ -137,7 +141,9 @@
     "losses": 1,
     "points_against": 5,
     "points_for": 3,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 1
    },
    "color": "#2ee9ff",
@@ -198,7 +204,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 2,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 0
    },
    "color": "#a35cff",
@@ -259,7 +267,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 2,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 0
    },
    "color": "#ff3b3b",
@@ -320,7 +330,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 1,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 0
    },
    "color": "#1fe08a",
@@ -381,7 +393,9 @@
     "losses": 1,
     "points_against": 5,
     "points_for": 6,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 2
    },
    "color": "#ff9a1f",
@@ -442,7 +456,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 2,
-    "tournaments": [],
+    "tournaments": [
+     "elemental_ascension_1_2026"
+    ],
     "wins": 0
    },
    "color": "#ffe23d",
@@ -490,6 +506,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T03:34:11",
+ "updated": "2026-11-15T03:36:07",
  "version": 1
 }

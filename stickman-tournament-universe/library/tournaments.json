@@ -1,0 +1,17 @@
+{
+ "count": 1,
+ "items": {
+  "elemental_ascension_1_2026": {
+   "champion": "ftr_25872decc9",
+   "champion_name": "LIGRION",
+   "finished": "2026-11-15T03:36:07",
+   "name": "Elemental Ascension #1",
+   "participants": 8,
+   "seed": 2026,
+   "theme": "elements"
+  }
+ },
+ "schema": "stu.tournaments",
+ "updated": "2026-11-15T03:36:07",
+ "version": 1
+}
