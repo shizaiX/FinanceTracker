@@ -1,5 +1,5 @@
 {
- "count": 2,
+ "count": 3,
  "items": {
   "elemental_ascension_1_2026": {
    "champion": "ftr_25872decc9",
@@ -8,6 +8,15 @@
    "name": "Elemental Ascension #1",
    "participants": 8,
    "seed": 2026,
+   "theme": "elements"
+  },
+  "elemental_ascension_2_1156271972": {
+   "champion": "ftr_33a29bb1fa",
+   "champion_name": "LIGKIX",
+   "finished": "2026-11-15T12:07:01",
+   "name": "Elemental Ascension #2",
+   "participants": 8,
+   "seed": 1156271972,
    "theme": "elements"
   },
   "seven_seas_brawl_1_77": {
@@ -21,6 +30,6 @@
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-15T10:55:10",
+ "updated": "2026-11-15T12:07:01",
  "version": 1
 }

@@ -11,10 +11,12 @@
    "accessory": "headband",
    "build": 0.945,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
     "wins": 0
    },
    "color": "#ff3b3b",
@@ -471,10 +473,12 @@
    "build": 0.95,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "points_against": 5,
+    "points_for": 9,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
+    "wins": 3
    },
    "color": "#ffe23d",
    "costume": [
@@ -652,11 +656,13 @@
    "accessory": "horns",
    "build": 0.964,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 5,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
+    "wins": 1
    },
    "color": "#ff9a1f",
    "costume": [
@@ -708,10 +714,12 @@
    "accessory": "headband",
    "build": 0.951,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
     "wins": 0
    },
    "color": "#a35cff",
@@ -762,11 +770,13 @@
    "accessory": "topknot",
    "build": 1.056,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 6,
+    "points_for": 8,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
+    "wins": 2
    },
    "color": "#3a7bff",
    "costume": [
@@ -950,10 +960,12 @@
    "accessory": "visor",
    "build": 1.026,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
     "wins": 0
    },
    "color": "#1fe08a",
@@ -1206,11 +1218,13 @@
    "accessory": "halo",
    "build": 1.027,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 4,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
+    "wins": 1
    },
    "color": "#2ee9ff",
    "costume": [
@@ -1393,10 +1407,12 @@
    "accessory": "horns",
    "build": 1.036,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "elemental_ascension_2_1156271972"
+    ],
     "wins": 0
    },
    "color": "#8cff3a",
@@ -1502,6 +1518,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T11:31:44",
+ "updated": "2026-11-15T12:07:01",
  "version": 1
 }

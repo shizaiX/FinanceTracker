@@ -1,5 +1,5 @@
 {
- "count": 347,
+ "count": 473,
  "items": {
   "tq_00849d93bb": {
    "abilities": [
@@ -135,6 +135,74 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_01b2821b5b": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T11:51:43",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.04,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_02491fc11c",
+    "match": "m004",
+    "t": 3.53,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_01b2821b5b",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Charged Crushing Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 30,
+    "dmg": 21.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 32.42,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.623,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_083a980255"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_01ce163b80": {
    "abilities": [],
    "ability_names": [],
@@ -185,6 +253,359 @@
    "tier": "basic",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_0227b9bd0d": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T11:47:45",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.77,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.1,
+     "opp_zoning": 0.9
+    },
+    "fighter": "ftr_9238648791",
+    "match": "m003",
+    "t": 21.33,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_0227b9bd0d",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Boreal Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_024dcc1035": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.68,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 53.27,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_024dcc1035",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "dash",
+   "name": "Rapid Grand Iron Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 5.2,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 7.42,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.246,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 0
+  },
+  "tq_02a22320cb": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 0.65,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.73,
+     "opp_zoning": 0.27
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 18.78,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_02a22320cb",
+   "kind": "beam",
+   "modifiers": [
+    "amplify",
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Grand Dawn Ray",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.381,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.44799999999999995
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "amplify",
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_03784c7d69": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:55:06",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 3.02,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.22
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 14.86,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_03784c7d69",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Solar Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_0407b5ecaf": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.81,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.29,
+     "opp_zoning": 0.71
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m002",
+    "t": 20.01,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_0407b5ecaf",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Abyssal Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.34,
+    "stages": 1,
+    "startup": 0.17,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_06701b8ce7": {
    "abilities": [
@@ -472,6 +893,73 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_080784985b": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 68.16,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_080784985b",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Eclipse Grasp",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_081b439bd8": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -654,6 +1142,77 @@
    "timing": "feint",
    "variant": 2
   },
+  "tq_091a9af830": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 2.16,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 34.14,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_091a9af830",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Prism Rising Fist",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 15.12,
+    "reach": 0.85,
+    "recovery": 0.35,
+    "stages": 2,
+    "startup": 0.143,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_0966bc8b18": {
    "abilities": [
     "ab_812aff47de",
@@ -707,6 +1266,77 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_09724a0eb0": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 2.86,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.76,
+     "opp_zoning": 0.24
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m006",
+    "t": 78.55,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_09724a0eb0",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Cascade Basalt Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 18.14,
+    "reach": 0.85,
+    "recovery": 0.372,
+    "stages": 2,
+    "startup": 0.159,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -872,6 +1502,79 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_0a215f4e09": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 7.97,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m002",
+    "t": 8.07,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_0a215f4e09",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Rapid Abyssal Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.5,
+    "cost": 14,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 4.49,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 6.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.3,
+    "speed": 11.0,
+    "stages": 1,
+    "startup": 0.242,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
    "variant": 0
   },
   "tq_0a695ce897": {
@@ -1134,6 +1837,73 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_0c222997c8": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 1.36,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 52.0,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_0c222997c8",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Solar Suplex",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.114,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_0d75ed9320": {
    "abilities": [
@@ -1843,6 +2613,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_1111fffd12": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.31,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.92,
+     "opp_zoning": 0.08
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 23.06,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_1111fffd12",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Piercing Steel Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.5,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.07,
+    "reach": 0.95,
+    "recovery": 0.222,
+    "stages": 1,
+    "startup": 0.122,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_111311ff6d": {
    "abilities": [
     "ab_2a2fa292ff"
@@ -2403,6 +3244,296 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_15415ad3de": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-15T11:47:46",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.24,
+     "opp_zoning": 0.76
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m003",
+    "t": 62.28,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_15415ad3de",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Tectonic Rising Fist",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 18.14,
+    "reach": 0.85,
+    "recovery": 0.372,
+    "stages": 2,
+    "startup": 0.159,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_155abc9275": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:51:43",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 2.54,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.84,
+     "opp_zoning": 0.16
+    },
+    "fighter": "ftr_02491fc11c",
+    "match": "m004",
+    "t": 31.33,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_155abc9275",
+   "kind": "area",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Event Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay_blast": 0.6,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.11,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.353,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_083a980255"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_156237e245": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:51:44",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 3.36,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_02491fc11c",
+    "match": "m004",
+    "t": 47.45,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_156237e245",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Charged Crushing Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 18.01,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 30.62,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.706,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_083a980255"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_157c4a45c4": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 4.19,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.88,
+     "opp_zoning": 0.12
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m006",
+    "t": 11.57,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_157c4a45c4",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Charged Snare Basalt Orb",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 28,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 13.15,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 18.79,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.31,
+    "speed": 9.35,
+    "stages": 1,
+    "startup": 0.466,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 1
+  },
   "tq_16142b0643": {
    "abilities": [
     "ab_314c439b4f"
@@ -2939,6 +4070,141 @@
    "timing": "multi_hit",
    "variant": 2
   },
+  "tq_1afcb96ade": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 2.21,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.25,
+     "opp_zoning": 0.75
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 6.58,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_1afcb96ade",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Solar Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_1b00fc8add": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 0.2,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.6,
+     "opp_zoning": 0.4
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 9.11,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_1b00fc8add",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Briar Rush",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 3.08,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.13,
+    "reach": 0.95,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.102,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_1b97ea7af5": {
    "abilities": [
     "ab_314c439b4f"
@@ -3178,6 +4444,77 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_1e91ab7921": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.9,
+     "opp_zoning": 0.1
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 12.88,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_1e91ab7921",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "teleport",
+   "name": "Cascade Dawn Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 3,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_1ed20bbbf8": {
    "abilities": [
     "ab_e33ef84aee"
@@ -3309,6 +4646,80 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_1f6d8d6895": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.76,
+     "opp_zoning": 0.24
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 54.64,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_1f6d8d6895",
+   "kind": "beam",
+   "modifiers": [
+    "amplify",
+    "pierce"
+   ],
+   "movement": "teleport",
+   "name": "Grand Dawn Cannon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.381,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.44799999999999995
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "amplify",
+     "pierce"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_2017b1fef3": {
    "abilities": [
     "ab_b7f5981ab1"
@@ -3361,6 +4772,290 @@
      "shield"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_204a9af636": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 1.1,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.43,
+     "opp_zoning": 0.57
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 10.2,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_204a9af636",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Solar Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.28,
+    "reach": 0.7,
+    "recovery": 0.331,
+    "stages": 1,
+    "startup": 0.19,
+    "stun": 1.0,
+    "travel": 10.187615030025428,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "charge",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_20a53e677b": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:55:06",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.05,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 9.16,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_20a53e677b",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "teleport",
+   "name": "Piercing Prism Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_20f9b84f30": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 0.55,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 90.73,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_20f9b84f30",
+   "kind": "beam",
+   "modifiers": [
+    "amplify",
+    "pierce"
+   ],
+   "movement": "leap",
+   "name": "Charged Grand Radiant Cannon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 4.7,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 8.61,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.762,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.44799999999999995
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "amplify",
+     "pierce"
+    ],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_21012d8912": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 2.56,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 1.71,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_21012d8912",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "step",
+   "name": "Cascade Iron Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 16.63,
+    "reach": 0.85,
+    "recovery": 0.364,
+    "stages": 2,
+    "startup": 0.153,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "step",
     "timing": "instant"
    },
    "tier": "infused",
@@ -3576,6 +5271,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_232b63b34b": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.51,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.41,
+     "opp_zoning": 0.59
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 68.55,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_232b63b34b",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Piercing Forged Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.63,
+    "reach": 1.65,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.193,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_23d41c0167": {
    "abilities": [
     "ab_947c3eebd3"
@@ -3757,6 +5523,78 @@
    "tier": "infused",
    "timing": "multi_hit",
    "variant": 1
+  },
+  "tq_2545ac3d46": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.94,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 34.15,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_2545ac3d46",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "backstep",
+   "name": "Reflecting Radiant Riposte",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.292,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_2554c81ced": {
    "abilities": [
@@ -4056,6 +5894,78 @@
    "timing": "multi_hit",
    "variant": 1
   },
+  "tq_284afe5b74": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.9,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.25,
+     "opp_zoning": 0.75
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m002",
+    "t": 15.79,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_284afe5b74",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "slide",
+   "name": "Snare Surging Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.34,
+    "stages": 1,
+    "startup": 0.17,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "slide",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_28b0cc96f2": {
    "abilities": [
     "ab_871ffa40a3"
@@ -4225,6 +6135,152 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_2901d792ec": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T11:51:44",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.98,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.84,
+     "opp_zoning": 0.16
+    },
+    "fighter": "ftr_02491fc11c",
+    "match": "m004",
+    "t": 74.96,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_2901d792ec",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "aerial_dash",
+   "name": "Charged Grand Event Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 36,
+    "dmg": 21.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 32.42,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.623,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_083a980255"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "aerial_dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_291c5e3547": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.53,
+     "opp_zoning": 0.47
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 25.84,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_291c5e3547",
+   "kind": "melee",
+   "modifiers": [
+    "delayed",
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Rapid Delayed Hollow Knuckle",
+   "origin": "discovered",
+   "params": {
+    "active": 0.5,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay_blast": 0.6,
+    "dmg": 4.91,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 6.75,
+    "reach": 0.95,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.128,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "delayed",
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 1
+  },
   "tq_2a3e243301": {
    "abilities": [
     "ab_5b8e37c749"
@@ -4392,6 +6448,78 @@
     "delivery": "punch",
     "modifiers": [],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
+  "tq_2bd95a03dd": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:47:46",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 4.77,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.24,
+     "opp_zoning": 0.76
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m003",
+    "t": 55.54,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_2bd95a03dd",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "dash",
+   "name": "Guarded Basalt Fist",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.37,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.26,
+    "reach": 0.95,
+    "recovery": 0.227,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.127,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "dash",
     "timing": "instant"
    },
    "tier": "infused",
@@ -4585,6 +6713,145 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_2e8f8d949a": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-15T11:51:43",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.25,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_02491fc11c",
+    "match": "m004",
+    "t": 11.75,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_2e8f8d949a",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Singular Meteor Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 13.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.63,
+    "reach": 1.1,
+    "recovery": 0.225,
+    "stages": 1,
+    "startup": 0.104,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_083a980255"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_2ef880d1dd": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.76,
+     "opp_zoning": 0.24
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 54.61,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_2ef880d1dd",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Piercing Solar Ram",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.28,
+    "reach": 0.7,
+    "recovery": 0.331,
+    "stages": 1,
+    "startup": 0.19,
+    "stun": 1.0,
+    "travel": 10.187615030025428,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_2f8ae6a8e0": {
@@ -4784,6 +7051,77 @@
    "timing": "charged",
    "variant": 1
   },
+  "tq_30e5c51f61": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 1.02,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.22
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 33.12,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_30e5c51f61",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Piercing Dawn Crescent",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 1,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_3143dcb886": {
    "abilities": [
     "ab_d2779be2be"
@@ -4970,6 +7308,77 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_32508bf009": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 4.93,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.39,
+     "opp_zoning": 0.61
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 53.52,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_32508bf009",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Feint Piercing Chrome Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.5,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.07,
+    "reach": 0.95,
+    "recovery": 0.222,
+    "stages": 1,
+    "startup": 0.122,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 0
+  },
   "tq_32699f0da3": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -5081,6 +7490,151 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_3464d34f1b": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 2.38,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 34.48,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_3464d34f1b",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Radiant Crash",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 19.44,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.286,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_34b2d7cd0d": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.48,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m005",
+    "t": 21.29,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_34b2d7cd0d",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "leap",
+   "name": "Delayed Torrent Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.3,
+    "speed": 11.0,
+    "stages": 1,
+    "startup": 0.22,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_35e670b90a": {
    "abilities": [],
    "ability_names": [],
@@ -5184,6 +7738,78 @@
    "tier": "ultimate",
    "timing": "finisher",
    "variant": 1
+  },
+  "tq_366cdee039": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 7.21,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.22
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 31.9,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_366cdee039",
+   "kind": "beam",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "teleport",
+   "name": "Piercing Dawn Ray",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.381,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_37f2063724": {
    "abilities": [
@@ -5618,6 +8244,78 @@
    "tier": "infused",
    "timing": "feint",
    "variant": 2
+  },
+  "tq_3b8e2ea91e": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 1.51,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 50.43,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_3b8e2ea91e",
+   "kind": "beam",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "leap",
+   "name": "Rapid Piercing Dawn Ray",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 4.05,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.42,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.419,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "leap",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 0
   },
   "tq_3c800c5968": {
    "abilities": [
@@ -6399,6 +9097,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_464b9b4ead": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.29,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 10.51,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_464b9b4ead",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Eclipse Riposte",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_470e85f3a5": {
    "abilities": [
     "ab_6d3b0c6f9e"
@@ -6465,6 +9235,78 @@
    "timing": "feint",
    "variant": 0
   },
+  "tq_4797156ed5": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.51,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.92,
+     "opp_zoning": 0.08
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 17.92,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_4797156ed5",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Steel Mirror",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.303,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.051,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_482d961188": {
    "abilities": [
     "ab_66a6db4683",
@@ -6524,6 +9366,85 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_48bcbacb40": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:40:29",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 5.1,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 0.44,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_48bcbacb40",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify",
+    "split"
+   ],
+   "movement": "dash",
+   "name": "Triple Radiant Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 26,
+    "count": 3,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.292,
+    "speed": 12.65,
+    "stages": 1,
+    "startup": 0.209,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify",
+     "split"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -6590,6 +9511,82 @@
    "timing": "feint",
    "variant": 2
   },
+  "tq_49deb47f5a": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.76,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.56,
+     "opp_zoning": 0.44
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 27.63,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_49deb47f5a",
+   "kind": "env",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "backstep",
+   "name": "Delayed Hollow Pillar",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay": 0.77,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.373,
+    "stages": 1,
+    "startup": 0.29,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_4a12a0a345": {
    "abilities": [
     "ab_5b8e37c749"
@@ -6647,6 +9644,79 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_4a6b7823f2": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.55,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 11.67,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_4a6b7823f2",
+   "kind": "env",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Briar Spire",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay": 0.77,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 16.42,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.384,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_4a7bb7ff38": {
@@ -6897,6 +9967,74 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_4bda62490d": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T11:51:43",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 2.31,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.66,
+     "opp_zoning": 0.34
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m004",
+    "t": 46.37,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_4bda62490d",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Iron Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 19.01,
+    "reach": 0.7,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.204,
+    "stun": 1.0,
+    "travel": 9.259454627568514,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "charge",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_4ca64982b2": {
    "abilities": [
     "ab_a337bbb9cf",
@@ -7085,6 +10223,83 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_4ec9442d9e": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.81,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.85,
+     "opp_zoning": 0.15
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 49.83,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_4ec9442d9e",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "leap",
+   "name": "Grand Iron Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.32,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 11.88,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_4f91ff1ec9": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -7254,6 +10469,77 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_512d35163c": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.0,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.73,
+     "opp_zoning": 0.27
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 48.12,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_512d35163c",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Piercing Dawn Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_527064ab2e": {
    "abilities": [
@@ -7618,6 +10904,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_571ab76bf4": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:51:44",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 2.97,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_02491fc11c",
+    "match": "m004",
+    "t": 47.28,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_571ab76bf4",
+   "kind": "area",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "leap",
+   "name": "Guarded Crushing Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.11,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.353,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_083a980255"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_57cae987ca": {
    "abilities": [],
    "ability_names": [],
@@ -7787,6 +11146,73 @@
     "modifiers": [
      "trap"
     ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_5ac37d9cf7": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 0.76,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.66,
+     "opp_zoning": 0.34
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 45.16,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_5ac37d9cf7",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Night Grasp",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
     "movement": "step",
     "timing": "instant"
    },
@@ -8147,6 +11573,78 @@
    },
    "tier": "infused",
    "timing": "feint",
+   "variant": 0
+  },
+  "tq_5fc90648a1": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 2.67,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.2,
+     "opp_zoning": 0.8
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 6.28,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_5fc90648a1",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Grand Iron Crash",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.38,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.404,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_6195a2eb3a": {
@@ -8784,6 +12282,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_6900253206": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.56,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.81,
+     "opp_zoning": 0.19
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 33.42,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_6900253206",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Steel Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.63,
+    "reach": 1.65,
+    "recovery": 0.303,
+    "stages": 2,
+    "startup": 0.193,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_6953a9da21": {
    "abilities": [
     "ab_5b8e37c749",
@@ -8905,6 +12474,73 @@
      "shield"
     ],
     "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_69feb211c7": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 2.02,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.9,
+     "opp_zoning": 0.1
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 15.24,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_69feb211c7",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Iron Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 9.5,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 15.44,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "dash",
     "timing": "instant"
    },
    "tier": "infused",
@@ -9108,6 +12744,80 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_6c5d80f44b": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.78,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.81,
+     "opp_zoning": 0.19
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 33.17,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_6c5d80f44b",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Feint Piercing Iron Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.63,
+    "reach": 1.65,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.193,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_6c84dacd57": {
    "abilities": [
     "ab_083a980255"
@@ -9210,6 +12920,73 @@
     "timing": "instant"
    },
    "tier": "basic",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_6cdffac969": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.63,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 14.37,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_6cdffac969",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Solar Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 1,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "kick",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -9619,6 +13396,221 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_70dccafb89": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.74,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.89,
+     "opp_zoning": 0.11
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 13.38,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_70dccafb89",
+   "kind": "area",
+   "modifiers": [
+    "delayed",
+    "shield"
+   ],
+   "movement": "dash",
+   "name": "Charged Delayed Forged Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 34,
+    "delay_blast": 0.6,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 29.28,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.404,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.692,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed",
+     "shield"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_71c0eee887": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.87,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.56,
+     "opp_zoning": 0.44
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m002",
+    "t": 61.02,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_71c0eee887",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "dash",
+   "name": "Chain Surging Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.29,
+    "reach": 0.95,
+    "recovery": 0.22,
+    "stages": 1,
+    "startup": 0.12,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_7210168597": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.94,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.87,
+     "opp_zoning": 0.13
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 37.92,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_7210168597",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Charged Briar Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 11.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.36,
+    "reach": 0.95,
+    "recovery": 0.222,
+    "stages": 1,
+    "startup": 0.244,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 2
+  },
   "tq_736f4c3411": {
    "abilities": [
     "ab_083a980255"
@@ -9729,6 +13721,82 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_73d4fc6c6b": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T11:47:46",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.05,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.24,
+     "opp_zoning": 0.76
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m003",
+    "t": 42.8,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_73d4fc6c6b",
+   "kind": "env",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Delayed Titan Pillar",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay": 0.77,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 20.74,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -10580,6 +14648,150 @@
    "timing": "instant",
    "variant": 3
   },
+  "tq_7ae7e05361": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.73,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.29,
+     "opp_zoning": 0.71
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m002",
+    "t": 19.62,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_7ae7e05361",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "leap",
+   "name": "Cascade Tidal Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 1.65,
+    "recovery": 0.3,
+    "stages": 2,
+    "startup": 0.19,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_7b26cc5c50": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.88,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.82,
+     "opp_zoning": 0.18
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 43.78,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_7b26cc5c50",
+   "kind": "area",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "dash",
+   "name": "Guarded Iron Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.2,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.404,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.346,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_7c48471882": {
    "abilities": [
     "ab_083a980255"
@@ -10885,6 +15097,77 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_7dcb535bc8": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.31,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 35.81,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_7dcb535bc8",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Piercing Verdant Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 1.65,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.193,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_7e5659fa05": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -11021,6 +15304,153 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_7ec53a8d9d": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.27,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 11.52,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_7ec53a8d9d",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Dawn Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.292,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_7f0d19a060": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.53,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.73,
+     "opp_zoning": 0.27
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 89.25,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_7f0d19a060",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Grand Prism Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 2.38,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -11340,6 +15770,142 @@
    "timing": "finisher",
    "variant": 0
   },
+  "tq_81ba942abe": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.77,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.16,
+     "opp_rushdown": 0.85,
+     "opp_zoning": 0.15
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 40.52,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_81ba942abe",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Solar Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 19.44,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.286,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_81c197d041": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 2.65,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.16,
+     "opp_rushdown": 0.85,
+     "opp_zoning": 0.15
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 39.08,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_81c197d041",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Solar Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_81f8230892": {
    "abilities": [
     "ab_31daa6369e",
@@ -11655,6 +16221,153 @@
    "timing": "feint",
    "variant": 1
   },
+  "tq_838cc8bc1d": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.56,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.82,
+     "opp_zoning": 0.18
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 34.3,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_838cc8bc1d",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Steel Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.5,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.07,
+    "reach": 0.95,
+    "recovery": 0.222,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.122,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_85602eedb9": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 4.43,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.65,
+     "opp_zoning": 0.35
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 48.59,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_85602eedb9",
+   "kind": "melee",
+   "modifiers": [
+    "delayed",
+    "shield"
+   ],
+   "movement": "teleport",
+   "name": "Charged Guarded Night Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 42,
+    "delay_blast": 0.6,
+    "dmg": 12.53,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.23,
+    "reach": 0.95,
+    "recovery": 0.216,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.232,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "delayed",
+     "shield"
+    ],
+    "movement": "teleport",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 2
+  },
   "tq_85ab3c92ba": {
    "abilities": [],
    "ability_names": [],
@@ -11936,6 +16649,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_874d2e4616": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-15T11:55:06",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 8.65,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 3.03,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_874d2e4616",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Solar Uppercut",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 15.12,
+    "reach": 0.85,
+    "recovery": 0.35,
+    "stages": 1,
+    "startup": 0.143,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_8772a6277e": {
    "abilities": [],
    "ability_names": [],
@@ -12143,6 +16923,81 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_8bc1ab4262": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.52,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.8,
+     "opp_zoning": 0.2
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 46.86,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_8bc1ab4262",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Charged Snare Dawn Hammer",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 18.79,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 28.19,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.571,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_8c03f17324": {
@@ -12387,6 +17242,73 @@
    "timing": "finisher",
    "variant": 2
   },
+  "tq_8e7f7a9834": {
+   "abilities": [
+    "ab_083a980255"
+   ],
+   "ability_names": [
+    "Gravity"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-15T11:51:44",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 3.65,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.84,
+     "opp_zoning": 0.16
+    },
+    "fighter": "ftr_02491fc11c",
+    "match": "m004",
+    "t": 53.33,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_8e7f7a9834",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Singular Meteor Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 13.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.63,
+    "reach": 1.1,
+    "recovery": 0.225,
+    "stages": 1,
+    "startup": 0.104,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_083a980255"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_8fd268bd4e": {
    "abilities": [
     "ab_083a980255"
@@ -12613,6 +17535,144 @@
    "timing": "finisher",
    "variant": 2
   },
+  "tq_9166fa9ff8": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.78,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.71,
+     "opp_zoning": 0.29
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 85.6,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_9166fa9ff8",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "teleport",
+   "name": "Charged Piercing Prism Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 36,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.92,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.362,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "teleport",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_926d462ac1": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.37,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 44.08,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_926d462ac1",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Briar Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 1.65,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.193,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_933b124a4e": {
    "abilities": [
     "ab_a32aa0acc5"
@@ -12786,6 +17846,158 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_946fc36b46": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.84,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.82,
+     "opp_zoning": 0.18
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 43.35,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_946fc36b46",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "step",
+   "name": "Snare Steel Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.5,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 15.44,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_948fa6df69": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:47:45",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 8.22,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_9238648791",
+    "match": "m003",
+    "t": 7.85,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_948fa6df69",
+   "kind": "projectile",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Piercing Glacial Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_9492bb3d09": {
    "abilities": [
     "ab_23c7b1db88",
@@ -12842,6 +18054,82 @@
    "tier": "ultimate",
    "timing": "finisher",
    "variant": 2
+  },
+  "tq_94d65d38ae": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T11:47:45",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 8.48,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_9238648791",
+    "match": "m003",
+    "t": 9.5,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_94d65d38ae",
+   "kind": "env",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Frozen Pillar",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay": 0.77,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.384,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_95553e4fed": {
    "abilities": [
@@ -12949,6 +18237,81 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_95b604bfc8": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.85,
+     "opp_zoning": 0.15
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 47.39,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_95b604bfc8",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Grand Forged Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.2,
+    "radius": 2.38,
+    "reach": 1.7,
+    "recovery": 0.404,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.346,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "amplify",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_96b2939d8b": {
@@ -13374,6 +18737,150 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_9aed22cb53": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T11:47:45",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.21,
+     "opp_zoning": 0.79
+    },
+    "fighter": "ftr_9238648791",
+    "match": "m003",
+    "t": 30.19,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_9aed22cb53",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Snare Boreal Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 19.44,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.404,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_9b10f6b914": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:55:06",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.79,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.8,
+     "opp_zoning": 0.2
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 16.02,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_9b10f6b914",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Piercing Prism Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_9b8fdf3a6f": {
    "abilities": [],
    "ability_names": [],
@@ -13483,6 +18990,83 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 3
+  },
+  "tq_9ed83535a2": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:47:45",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 7.08,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_9238648791",
+    "match": "m003",
+    "t": 7.06,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_9ed83535a2",
+   "kind": "projectile",
+   "modifiers": [
+    "split"
+   ],
+   "movement": "backstep",
+   "name": "Feint Triple Glacial Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 3,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "split"
+    ],
+    "movement": "backstep",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
   },
   "tq_a0177db8d2": {
    "abilities": [
@@ -13668,6 +19252,81 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_a1a8515ac9": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 0.81,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m002",
+    "t": 42.61,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_a1a8515ac9",
+   "kind": "melee",
+   "modifiers": [
+    "multistage",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Torrent Ram",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.42,
+    "reach": 0.7,
+    "recovery": 0.34,
+    "shield": 1.8,
+    "stages": 2,
+    "startup": 0.2,
+    "stun": 1.0,
+    "travel": 9.5,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "multistage",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_a213be7251": {
    "abilities": [
     "ab_314c439b4f"
@@ -13726,6 +19385,78 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_a3f59c7054": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 5.1,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m002",
+    "t": 6.13,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_a3f59c7054",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "step",
+   "name": "Snare Torrent Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.34,
+    "stages": 1,
+    "startup": 0.17,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_a46bf43e7b": {
    "abilities": [
@@ -13792,6 +19523,78 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_a497973119": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 0.92,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.36,
+     "opp_zoning": 0.64
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 16.73,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_a497973119",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Night Riposte",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_a4e01a5a8a": {
    "abilities": [
@@ -14145,6 +19948,81 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_a9eca8a865": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 4.66,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m005",
+    "t": 49.3,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_a9eca8a865",
+   "kind": "beam",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Surging Cannon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 4.46,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 8.18,
+    "reach": 8.0,
+    "recovery": 0.42,
+    "stages": 1,
+    "startup": 0.8,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_aa0749c89b": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -14310,6 +20188,218 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_aaffce3412": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T11:47:46",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 4.77,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.25,
+     "opp_zoning": 0.75
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m003",
+    "t": 59.14,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_aaffce3412",
+   "kind": "env",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Grand Titan Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay": 0.42,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 20.74,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_abe53df66d": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 1.07,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.21,
+     "opp_rushdown": 0.88,
+     "opp_zoning": 0.12
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 48.43,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_abe53df66d",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Radiant Bind",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.114,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_ac0512dd38": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.01,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 6.66,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_ac0512dd38",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Briar Mirror",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.303,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.051,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -14495,6 +20585,218 @@
    "timing": "multi_hit",
    "variant": 3
   },
+  "tq_b01158b5c9": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.72,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m005",
+    "t": 58.67,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b01158b5c9",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Rapid Chain Tidal Knuckle",
+   "origin": "discovered",
+   "params": {
+    "active": 0.5,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 4.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 6.41,
+    "reach": 0.95,
+    "recovery": 0.22,
+    "stages": 1,
+    "startup": 0.132,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 1
+  },
+  "tq_b10da8d8ff": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.76,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 9.76,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b10da8d8ff",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "leap",
+   "name": "Rapid Guarded Steel Knuckle",
+   "origin": "discovered",
+   "params": {
+    "active": 0.5,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 5.4,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.43,
+    "reach": 0.95,
+    "recovery": 0.222,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.134,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "leap",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 0
+  },
+  "tq_b20c3b677e": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 1.69,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 34.44,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b20c3b677e",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Chrome Hammer",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.38,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.404,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_b238ad2f38": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -14572,6 +20874,148 @@
    "tier": "infused",
    "timing": "feint",
    "variant": 1
+  },
+  "tq_b2e0677c86": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.62,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.87,
+     "opp_zoning": 0.13
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 37.57,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b2e0677c86",
+   "kind": "stance",
+   "modifiers": [
+    "reflect",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Reflecting Briar Mirror",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.303,
+    "reflect": true,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.051,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_b312150446": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 1.18,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 1.06,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b312150446",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Solar Barrage",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.4,
+    "reach": 0.95,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.095,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_b35ab4df99": {
    "abilities": [
@@ -14768,6 +21212,150 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_b426e4312e": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.67,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.77,
+     "opp_zoning": 0.23
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 32.19,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b426e4312e",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Rapid Piercing Prism Crescent",
+   "origin": "discovered",
+   "params": {
+    "active": 0.5,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 6.14,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.98,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 1,
+    "startup": 0.168,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 2
+  },
+  "tq_b48bbed66b": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.45,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.73,
+     "opp_zoning": 0.27
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 48.74,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b48bbed66b",
+   "kind": "area",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "leap",
+   "name": "Guarded Solar Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_b573c7c5df": {
    "abilities": [
     "ab_37a318af5a"
@@ -14925,6 +21513,79 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_b74b008d21": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.76,
+     "opp_zoning": 0.24
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 19.92,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b74b008d21",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Charged Snare Dawn Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 15.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 26.62,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.648,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_b7aa49eb97": {
@@ -15167,6 +21828,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_b921a371cf": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:55:06",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 2.84,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.82,
+     "opp_zoning": 0.18
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m005",
+    "t": 18.67,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_b921a371cf",
+   "kind": "area",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Charged Guarded Tidal Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 14.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 25.29,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.4,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.68,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_b9ec222dca": {
    "abilities": [],
    "ability_names": [],
@@ -15265,6 +21999,74 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_badb4d196c": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 1.94,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.22
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 38.98,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_badb4d196c",
+   "kind": "beam",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Charged Solar Lance",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 4.7,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 8.61,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.762,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_bbd5dad983": {
@@ -15813,6 +22615,145 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_c03f6619ab": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.65,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.21,
+     "opp_rushdown": 0.88,
+     "opp_zoning": 0.12
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 47.0,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_c03f6619ab",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Charged Dawn Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 30,
+    "dmg": 15.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 26.62,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.648,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_c079ee74ce": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-15T11:47:46",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 2.14,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.29,
+     "opp_zoning": 0.71
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m003",
+    "t": 44.95,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_c079ee74ce",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "step",
+   "name": "Cascade Granite Uppercut",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 18.14,
+    "reach": 0.85,
+    "recovery": 0.372,
+    "stages": 2,
+    "startup": 0.159,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_c0d9727758": {
    "abilities": [
     "ab_871ffa40a3"
@@ -15991,6 +22932,150 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_c1f8cd4f0c": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.5,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m005",
+    "t": 70.51,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_c1f8cd4f0c",
+   "kind": "area",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Surging Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay_blast": 0.6,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.44,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.4,
+    "stages": 1,
+    "startup": 0.34,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_c3573299f8": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.98,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.44,
+     "opp_zoning": 0.56
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 78.62,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_c3573299f8",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Chrome Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 18.95,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 24.12,
+    "reach": 1.65,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.387,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_c3745c3fa7": {
    "abilities": [
     "ab_947c3eebd3"
@@ -16045,6 +23130,148 @@
      "pierce"
     ],
     "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_c476176687": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:55:06",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.77,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m005",
+    "t": 9.58,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_c476176687",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Cascade Torrent Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.29,
+    "reach": 0.95,
+    "recovery": 0.22,
+    "stages": 3,
+    "startup": 0.12,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_c4e4fa0a2d": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.16,
+     "opp_rushdown": 0.85,
+     "opp_zoning": 0.15
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 40.69,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_c4e4fa0a2d",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "wall_jump",
+   "name": "Piercing Radiant Crescent",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 1,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "wall_jump",
     "timing": "instant"
    },
    "tier": "infused",
@@ -16478,6 +23705,146 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_ca9cd39276": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 1.29,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.7,
+     "opp_zoning": 0.3
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 68.96,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_ca9cd39276",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Dawn Barrage",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.4,
+    "reach": 0.95,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.095,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_caea6d1964": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 2.12,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.42,
+     "opp_zoning": 0.58
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 61.16,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_caea6d1964",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Charged Guarded Forged Ram",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 18.95,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 27.56,
+    "reach": 0.7,
+    "recovery": 0.344,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.407,
+    "stun": 1.0,
+    "travel": 9.259454627568514,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_cb2de0d3cc": {
    "abilities": [
     "ab_e33ef84aee"
@@ -16786,6 +24153,142 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_cef113e0ec": {
+   "abilities": [
+    "ab_a48e55e410"
+   ],
+   "ability_names": [
+    "Water"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 2.1,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_b567af483e",
+    "match": "m005",
+    "t": 21.53,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_cef113e0ec",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Surging Talon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.39,
+    "reach": 1.1,
+    "recovery": 0.22,
+    "stages": 1,
+    "startup": 0.1,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a48e55e410"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_cf37366e8a": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T11:47:45",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 5.12,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.15,
+     "opp_zoning": 0.85
+    },
+    "fighter": "ftr_9238648791",
+    "match": "m003",
+    "t": 27.59,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_cf37366e8a",
+   "kind": "env",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Boreal Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "delay": 0.42,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.384,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_d177fe2e70": {
    "abilities": [
     "ab_b7f5981ab1"
@@ -16971,6 +24474,152 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_d385af3990": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 0.0,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.21,
+     "opp_rushdown": 0.89,
+     "opp_zoning": 0.11
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 48.99,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_d385af3990",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "dash",
+   "name": "Guarded Radiant Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.88,
+    "reach": 0.95,
+    "recovery": 0.214,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.114,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_d3cf03b08f": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.66,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 35.32,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_d3cf03b08f",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Chain Solar Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_d4b17af9f0": {
    "abilities": [
     "ab_83c4d6d552"
@@ -17145,6 +24794,73 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_d746e96c05": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.79,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.33,
+     "opp_zoning": 0.67
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 7.66,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_d746e96c05",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "wall_jump",
+   "name": "Dawn Meteor Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.2,
+    "reach": 1.1,
+    "recovery": 0.214,
+    "stages": 1,
+    "startup": 0.095,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "wall_jump",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_d7646ee7f2": {
    "abilities": [
@@ -17369,6 +25085,81 @@
     "timing": "instant"
    },
    "tier": "basic",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_d94fb98962": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 1.18,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.81,
+     "opp_zoning": 0.19
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m007",
+    "t": 33.87,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_d94fb98962",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Chain Forged Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 19.01,
+    "reach": 0.7,
+    "recovery": 0.344,
+    "stages": 2,
+    "startup": 0.204,
+    "stun": 1.0,
+    "travel": 9.259454627568514,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "chain",
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -17781,6 +25572,78 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_de39c215cf": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.48,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.6,
+     "opp_zoning": 0.4
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 8.37,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_de39c215cf",
+   "kind": "stance",
+   "modifiers": [
+    "absorb"
+   ],
+   "movement": "backstep",
+   "name": "Devouring Wild Parry",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.051,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_de9636454d": {
    "abilities": [],
    "ability_names": [],
@@ -18009,6 +25872,73 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_dfdf7e8f2e": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:51:43",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 3.19,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m004",
+    "t": 36.2,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_dfdf7e8f2e",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Charged Iron Fist",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 13.78,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.95,
+    "reach": 0.95,
+    "recovery": 0.222,
+    "stages": 1,
+    "startup": 0.244,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_e07b3c77ad": {
    "abilities": [
     "ab_66a6db4683"
@@ -18060,6 +25990,218 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_e09a8f2e32": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-15T11:51:43",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 2.19,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m004",
+    "t": 15.75,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e09a8f2e32",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Iron Talon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.82,
+    "reach": 1.1,
+    "recovery": 0.222,
+    "stages": 1,
+    "startup": 0.102,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_e11d80a323": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 2.46,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 14.62,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e11d80a323",
+   "kind": "beam",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Chain Dawn Ray",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.381,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_e142dbd720": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 1.74,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.7,
+     "opp_zoning": 0.3
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 68.85,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e142dbd720",
+   "kind": "beam",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "backstep",
+   "name": "Rapid Piercing Radiant Lance",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 4.05,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.42,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.419,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "backstep",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
    "variant": 0
   },
   "tq_e230fa13ac": {
@@ -18185,6 +26327,162 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_e3a33fb9b5": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:47:46",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 5.83,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.22,
+     "opp_zoning": 0.78
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m003",
+    "t": 78.88,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e3a33fb9b5",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Rapid Snare Tectonic Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 5.67,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 8.1,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.31,
+    "speed": 9.35,
+    "stages": 1,
+    "startup": 0.256,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 0
+  },
+  "tq_e4ad086d52": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.58,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.4,
+     "opp_zoning": 0.6
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 29.9,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e4ad086d52",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Chain Steel Orb",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.32,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 11.88,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_e4ca0daf98": {
    "abilities": [
@@ -18545,6 +26843,83 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_e760e69e4c": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.97,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.09,
+     "opp_rushdown": 0.92,
+     "opp_zoning": 0.08
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 16.88,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e760e69e4c",
+   "kind": "projectile",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "teleport",
+   "name": "Feint Piercing Radiant Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 28,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.292,
+    "speed": 12.65,
+    "stages": 1,
+    "startup": 0.209,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "teleport",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 0
+  },
   "tq_e7bd9f4b43": {
    "abilities": [],
    "ability_names": [],
@@ -18705,6 +27080,223 @@
    "tier": "infused",
    "timing": "feint",
    "variant": 0
+  },
+  "tq_e8a929cb61": {
+   "abilities": [
+    "ab_83c4d6d552"
+   ],
+   "ability_names": [
+    "Earth"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-15T11:47:46",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 2.94,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.22,
+     "opp_zoning": 0.78
+    },
+    "fighter": "ftr_5b227f29b6",
+    "match": "m003",
+    "t": 75.56,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e8a929cb61",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Titan Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.74,
+    "reach": 0.7,
+    "recovery": 0.351,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.212,
+    "stun": 1.0,
+    "travel": 8.758567234428243,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_83c4d6d552"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_e9944da88f": {
+   "abilities": [
+    "ab_314ffb8ed5"
+   ],
+   "ability_names": [
+    "Nature"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_d4ed259a4e",
+    "match": "m001",
+    "t": 53.14,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e9944da88f",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "step",
+   "name": "Snare Wild Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314ffb8ed5"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_e9b472eea0": {
+   "abilities": [
+    "ab_a337bbb9cf"
+   ],
+   "ability_names": [
+    "Metal"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:58:00",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.17,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.39,
+     "opp_zoning": 0.61
+    },
+    "fighter": "ftr_704c6c0ae5",
+    "match": "m006",
+    "t": 75.02,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_e9b472eea0",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "step",
+   "name": "Guarded Forged Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.5,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.07,
+    "reach": 0.95,
+    "recovery": 0.222,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.122,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a337bbb9cf"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_eb00689759": {
    "abilities": [],
@@ -18998,6 +27590,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_ebfe45f9a3": {
+   "abilities": [
+    "ab_66a6db4683"
+   ],
+   "ability_names": [
+    "Shadow"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-15T11:44:30",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.87,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_65a1ea9441",
+    "match": "m002",
+    "t": 47.23,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_ebfe45f9a3",
+   "kind": "stance",
+   "modifiers": [
+    "absorb"
+   ],
+   "movement": "none",
+   "name": "Devouring Umbral Parry",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_66a6db4683"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_ed831efceb": {
    "abilities": [
     "ab_9408408bac"
@@ -19227,6 +27891,153 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_f13ee44002": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:55:06",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 2.58,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.6,
+     "opp_zoning": 0.4
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 7.77,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_f13ee44002",
+   "kind": "beam",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Charged Chain Solar Cannon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 4.7,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 8.61,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.762,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_f1c733fe74": {
+   "abilities": [
+    "ab_5b8e37c749"
+   ],
+   "ability_names": [
+    "Ice"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-15T11:47:45",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 2.33,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_9238648791",
+    "match": "m003",
+    "t": 15.94,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_f1c733fe74",
+   "kind": "beam",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "backstep",
+   "name": "Piercing Frozen Cannon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 8.0,
+    "recovery": 0.424,
+    "stages": 1,
+    "startup": 0.407,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5b8e37c749"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_f216eb6c06": {
@@ -19493,6 +28304,75 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_f3aa6e9a61": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-15T11:40:30",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.34,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m001",
+    "t": 51.77,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_f3aa6e9a61",
+   "kind": "env",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Charged Radiant Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 22,
+    "delay": 0.42,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 25.06,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.37,
+    "stages": 1,
+    "startup": 0.571,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_f49077d9ba": {
    "abilities": [
     "ab_5b8e37c749",
@@ -19634,6 +28514,73 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_f5c23acabc": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-15T11:55:07",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 0.52,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m005",
+    "t": 58.24,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_f5c23acabc",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Charged Solar Knuckle",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 30,
+    "dmg": 12.53,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.23,
+    "reach": 0.95,
+    "recovery": 0.214,
+    "stages": 1,
+    "startup": 0.229,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
   },
   "tq_f67dd50ff2": {
    "abilities": [
@@ -20091,6 +29038,81 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_fa8cd2ab90": {
+   "abilities": [
+    "ab_e33ef84aee"
+   ],
+   "ability_names": [
+    "Light"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-15T12:01:37",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.79,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.2,
+     "opp_rushdown": 0.9,
+     "opp_zoning": 0.1
+    },
+    "fighter": "ftr_33a29bb1fa",
+    "match": "m007",
+    "t": 74.26,
+    "tournament": "elemental_ascension_2_1156271972"
+   },
+   "id": "tq_fa8cd2ab90",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Radiant Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 19.44,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.286,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e33ef84aee"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -20680,6 +29702,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-15T11:31:44",
+ "updated": "2026-11-15T12:05:04",
  "version": 1
 }

@@ -86,13 +86,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_33a29bb1fa"
    },
    "m002": {
     "a": "ftr_b567af483e",
@@ -101,13 +104,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_b567af483e"
    },
    "m003": {
     "a": "ftr_5b227f29b6",
@@ -116,13 +122,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_5b227f29b6"
    },
    "m004": {
     "a": "ftr_02491fc11c",
@@ -131,58 +140,70 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_704c6c0ae5"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_33a29bb1fa",
+    "b": "ftr_b567af483e",
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_33a29bb1fa"
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_5b227f29b6",
+    "b": "ftr_704c6c0ae5",
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_704c6c0ae5"
    },
    "m007": {
-    "a": null,
-    "b": null,
+    "a": "ftr_33a29bb1fa",
+    "b": "ftr_704c6c0ae5",
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_33a29bb1fa"
    }
   },
   "order": [
@@ -212,7 +233,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_33a29bb1fa",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -283,9 +304,9 @@
    "accessory": "headband",
    "build": 0.945,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -338,9 +359,9 @@
    "accessory": "headband",
    "build": 0.951,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -392,9 +413,9 @@
    "accessory": "horns",
    "build": 1.036,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -446,11 +467,11 @@
    "accessory": "topknot",
    "build": 1.056,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 6,
+    "points_for": 8,
     "tournaments": [],
-    "wins": 0
+    "wins": 2
    },
    "color": "#3a7bff",
    "costume": [
@@ -501,11 +522,11 @@
    "accessory": "halo",
    "build": 1.027,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 4,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#2ee9ff",
    "costume": [
@@ -557,10 +578,10 @@
    "build": 0.95,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 5,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 0
+    "wins": 3
    },
    "color": "#ffe23d",
    "costume": [
@@ -612,9 +633,9 @@
    "accessory": "visor",
    "build": 1.026,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -668,11 +689,11 @@
    "accessory": "horns",
    "build": 0.964,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 5,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff9a1f",
    "costume": [
@@ -715,15 +736,944 @@
    "weapons": []
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "underdog",
+   "arena": "Burning Caldera",
+   "contact_sheet": "tournaments/elemental_ascension_2_1156271972/qa/m001_contact.png",
+   "discoveries": [
+    "tq_48bcbacb40",
+    "tq_1afcb96ade",
+    "tq_ac0512dd38",
+    "tq_d746e96c05",
+    "tq_de39c215cf",
+    "tq_1b00fc8add",
+    "tq_204a9af636",
+    "tq_7ec53a8d9d",
+    "tq_4a6b7823f2",
+    "tq_6cdffac969",
+    "tq_e11d80a323",
+    "tq_02a22320cb",
+    "tq_b74b008d21",
+    "tq_b426e4312e",
+    "tq_2545ac3d46",
+    "tq_3464d34f1b",
+    "tq_7dcb535bc8",
+    "tq_b2e0677c86",
+    "tq_7210168597",
+    "tq_926d462ac1",
+    "tq_512d35163c",
+    "tq_b48bbed66b",
+    "tq_3b8e2ea91e",
+    "tq_f3aa6e9a61",
+    "tq_0c222997c8",
+    "tq_e9944da88f",
+    "tq_2ef880d1dd",
+    "tq_1f6d8d6895",
+    "tq_e142dbd720",
+    "tq_ca9cd39276",
+    "tq_9166fa9ff8",
+    "tq_7f0d19a060",
+    "tq_20f9b84f30"
+   ],
+   "final_point_t": 100.075,
+   "ko_video_t": 128.63333333333333,
+   "points": [
+    {
+     "abs_t": 27.8667,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 24.267,
+     "tech": "tq_d9588b1324",
+     "tech_name": "Dawn Blade"
+    },
+    {
+     "abs_t": 60.5583,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 56.958,
+     "tech": "tq_18216a49c4",
+     "tech_name": "CHAIN DAWN RAY"
+    },
+    {
+     "abs_t": 78.7083,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 0,
+     "t": 75.108,
+     "tech": "tq_986c5e0dea",
+     "tech_name": "SNARE BRIAR NOVA"
+    },
+    {
+     "abs_t": 94.5,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 90.9,
+     "tech": "tq_986c5e0dea",
+     "tech_name": "SNARE BRIAR NOVA"
+    },
+    {
+     "abs_t": 103.675,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 100.075,
+     "tech": "tq_9166fa9ff8",
+     "tech_name": "Charged Piercing Prism Edge"
+    }
+   ],
+   "render_seconds": 237.5,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 6,
+     "counters": 1,
+     "discoveries": 9,
+     "dodges": 9,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 36,
+     "minor": 17,
+     "points": 2,
+     "projectiles": 6,
+     "significant": 10,
+     "techniques": 60,
+     "ultimates": 4
+    },
+    {
+     "blocked": 2,
+     "combo": 62,
+     "counters": 0,
+     "discoveries": 24,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 9,
+     "hits": 102,
+     "minor": 18,
+     "points": 3,
+     "projectiles": 3,
+     "significant": 10,
+     "techniques": 57,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "5ea682320f6ad81145d3844f14ff076821883fe52cd789fdd20efbd249fa8e14",
+   "video": "exports/elemental_ascension_2_1156271972/round_01/match_001.mp4",
+   "video_frames": 8358,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 139.3,
+   "winner": "ftr_33a29bb1fa"
+  },
+  "m002": {
+   "archetype": "domination",
+   "arena": "Burning Caldera",
+   "contact_sheet": "tournaments/elemental_ascension_2_1156271972/qa/m002_contact.png",
+   "discoveries": [
+    "tq_a3f59c7054",
+    "tq_0a215f4e09",
+    "tq_464b9b4ead",
+    "tq_284afe5b74",
+    "tq_a497973119",
+    "tq_7ae7e05361",
+    "tq_0407b5ecaf",
+    "tq_291c5e3547",
+    "tq_49deb47f5a",
+    "tq_a1a8515ac9",
+    "tq_5ac37d9cf7",
+    "tq_ebfe45f9a3",
+    "tq_85602eedb9",
+    "tq_71c0eee887",
+    "tq_080784985b"
+   ],
+   "final_point_t": 80.592,
+   "ko_video_t": 103.43333333333334,
+   "points": [
+    {
+     "abs_t": 32.8167,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 29.217,
+     "tech": "tq_0407b5ecaf",
+     "tech_name": "Abyssal Sweep"
+    },
+    {
+     "abs_t": 54.7583,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 51.158,
+     "tech": "tq_95776159d5",
+     "tech_name": "NIGHT QUAKE"
+    },
+    {
+     "abs_t": 72.9,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 69.3,
+     "tech": "tq_85d07f2f30",
+     "tech_name": "Surging Bind"
+    },
+    {
+     "abs_t": 84.1917,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 80.592,
+     "tech": "tq_c626a46650",
+     "tech_name": "SNARE SURGING CRASH"
+    }
+   ],
+   "render_seconds": 192.8,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 26,
+     "counters": 0,
+     "discoveries": 7,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 54,
+     "minor": 19,
+     "points": 3,
+     "projectiles": 31,
+     "significant": 2,
+     "techniques": 49,
+     "ultimates": 3
+    },
+    {
+     "blocked": 2,
+     "combo": 0,
+     "counters": 2,
+     "discoveries": 8,
+     "dodges": 9,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 17,
+     "minor": 5,
+     "points": 1,
+     "projectiles": 5,
+     "significant": 9,
+     "techniques": 46,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "8088d06196c82d4c4d2eee2f95db2f731b7b6e672d8e03992f4b6087113e26ad",
+   "video": "exports/elemental_ascension_2_1156271972/round_01/match_002.mp4",
+   "video_frames": 6846,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 114.1,
+   "winner": "ftr_b567af483e"
+  },
+  "m003": {
+   "archetype": "chess_match",
+   "arena": "Burning Caldera",
+   "contact_sheet": "tournaments/elemental_ascension_2_1156271972/qa/m003_contact.png",
+   "discoveries": [
+    "tq_9ed83535a2",
+    "tq_948fa6df69",
+    "tq_94d65d38ae",
+    "tq_f1c733fe74",
+    "tq_0227b9bd0d",
+    "tq_cf37366e8a",
+    "tq_9aed22cb53",
+    "tq_73d4fc6c6b",
+    "tq_c079ee74ce",
+    "tq_2bd95a03dd",
+    "tq_aaffce3412",
+    "tq_15415ad3de",
+    "tq_e8a929cb61",
+    "tq_e3a33fb9b5"
+   ],
+   "final_point_t": 103.5,
+   "ko_video_t": 139.01666666666668,
+   "points": [
+    {
+     "abs_t": 35.1833,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 31.583,
+     "tech": "tq_67d427d856",
+     "tech_name": "Granite Bind"
+    },
+    {
+     "abs_t": 72.7583,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 69.158,
+     "tech": "tq_cf37366e8a",
+     "tech_name": "Boreal Eruption"
+    },
+    {
+     "abs_t": 86.5,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 82.9,
+     "tech": "tq_99dc4f2d3a",
+     "tech_name": "CHAIN TITAN CANNON"
+    },
+    {
+     "abs_t": 96.7417,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 93.142,
+     "tech": "tq_2a3e243301",
+     "tech_name": "GRAND FROZEN LANCE"
+    },
+    {
+     "abs_t": 107.1,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 103.5,
+     "tech": "tq_99dc4f2d3a",
+     "tech_name": "CHAIN TITAN CANNON"
+    }
+   ],
+   "render_seconds": 235.3,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 4,
+     "counters": 0,
+     "discoveries": 7,
+     "dodges": 3,
+     "fusions": 0,
+     "guard_breaks": 5,
+     "hits": 29,
+     "minor": 7,
+     "points": 3,
+     "projectiles": 13,
+     "significant": 10,
+     "techniques": 48,
+     "ultimates": 5
+    },
+    {
+     "blocked": 1,
+     "combo": 23,
+     "counters": 1,
+     "discoveries": 7,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 7,
+     "hits": 57,
+     "minor": 16,
+     "points": 2,
+     "projectiles": 27,
+     "significant": 9,
+     "techniques": 59,
+     "ultimates": 5
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "7c5267b3e9e1130b645709badac4e65d3e9b4143ab4dbf10e25be6c75c68f2ca",
+   "video": "exports/elemental_ascension_2_1156271972/round_01/match_003.mp4",
+   "video_frames": 8982,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 149.7,
+   "winner": "ftr_5b227f29b6"
+  },
+  "m004": {
+   "archetype": "tech_vs_power",
+   "arena": "Burning Caldera",
+   "contact_sheet": "tournaments/elemental_ascension_2_1156271972/qa/m004_contact.png",
+   "discoveries": [
+    "tq_01b2821b5b",
+    "tq_2e8f8d949a",
+    "tq_e09a8f2e32",
+    "tq_155abc9275",
+    "tq_dfdf7e8f2e",
+    "tq_4bda62490d",
+    "tq_571ab76bf4",
+    "tq_156237e245",
+    "tq_8e7f7a9834",
+    "tq_2901d792ec"
+   ],
+   "final_point_t": 75.742,
+   "ko_video_t": 97.71666666666667,
+   "points": [
+    {
+     "abs_t": 29.25,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 25.65,
+     "tech": "tq_e09a8f2e32",
+     "tech_name": "Iron Talon"
+    },
+    {
+     "abs_t": 44.175,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 40.575,
+     "tech": "tq_a6a95eaa84",
+     "tech_name": "GRAND CRUSHING ERUPTION"
+    },
+    {
+     "abs_t": 59.5,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 55.9,
+     "tech": "tq_f6f4b807f3",
+     "tech_name": "SNARE IRON CRASH"
+    },
+    {
+     "abs_t": 79.3417,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 75.742,
+     "tech": "tq_e09a8f2e32",
+     "tech_name": "Iron Talon"
+    }
+   ],
+   "render_seconds": 194.2,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 0,
+     "counters": 0,
+     "discoveries": 7,
+     "dodges": 9,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 18,
+     "minor": 11,
+     "points": 1,
+     "projectiles": 4,
+     "significant": 6,
+     "techniques": 44,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 24,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 6,
+     "hits": 52,
+     "minor": 9,
+     "points": 3,
+     "projectiles": 6,
+     "significant": 10,
+     "techniques": 46,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "40d6f4f28e339dbcae90f373bd1a2a99fb612ee0589bfae9da9ccd2dcf360fb4",
+   "video": "exports/elemental_ascension_2_1156271972/round_01/match_004.mp4",
+   "video_frames": 6503,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 108.383,
+   "winner": "ftr_704c6c0ae5"
+  },
+  "m005": {
+   "archetype": "tech_vs_power",
+   "arena": "Elder Grove",
+   "contact_sheet": "tournaments/elemental_ascension_2_1156271972/qa/m005_contact.png",
+   "discoveries": [
+    "tq_874d2e4616",
+    "tq_f13ee44002",
+    "tq_20a53e677b",
+    "tq_c476176687",
+    "tq_03784c7d69",
+    "tq_9b10f6b914",
+    "tq_b921a371cf",
+    "tq_34b2d7cd0d",
+    "tq_cef113e0ec",
+    "tq_366cdee039",
+    "tq_30e5c51f61",
+    "tq_091a9af830",
+    "tq_d3cf03b08f",
+    "tq_badb4d196c",
+    "tq_8bc1ab4262",
+    "tq_a9eca8a865",
+    "tq_f5c23acabc",
+    "tq_b01158b5c9",
+    "tq_c1f8cd4f0c"
+   ],
+   "final_point_t": 76.925,
+   "ko_video_t": 98.06666666666666,
+   "points": [
+    {
+     "abs_t": 28.3333,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 24.733,
+     "tech": "tq_cef113e0ec",
+     "tech_name": "Surging Talon"
+    },
+    {
+     "abs_t": 43.9,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 40.3,
+     "tech": "tq_18216a49c4",
+     "tech_name": "CHAIN DAWN RAY"
+    },
+    {
+     "abs_t": 53.7083,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 50.108,
+     "tech": "tq_18216a49c4",
+     "tech_name": "CHAIN DAWN RAY"
+    },
+    {
+     "abs_t": 80.525,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 76.925,
+     "tech": "tq_d9588b1324",
+     "tech_name": "Dawn Blade"
+    }
+   ],
+   "render_seconds": 171.3,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 43,
+     "counters": 0,
+     "discoveries": 12,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 69,
+     "minor": 17,
+     "points": 3,
+     "projectiles": 2,
+     "significant": 4,
+     "techniques": 42,
+     "ultimates": 3
+    },
+    {
+     "blocked": 2,
+     "combo": 21,
+     "counters": 0,
+     "discoveries": 7,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 49,
+     "minor": 23,
+     "points": 1,
+     "projectiles": 23,
+     "significant": 2,
+     "techniques": 44,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "360ac3a22b626c7b60df6fc4e43a9473ead7ed8eff413dc205cde876a9e6c0cb",
+   "video": "exports/elemental_ascension_2_1156271972/semifinals/match_005.mp4",
+   "video_frames": 6524,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 108.733,
+   "winner": "ftr_33a29bb1fa"
+  },
+  "m006": {
+   "archetype": "domination",
+   "arena": "Elder Grove",
+   "contact_sheet": "tournaments/elemental_ascension_2_1156271972/qa/m006_contact.png",
+   "discoveries": [
+    "tq_5fc90648a1",
+    "tq_157c4a45c4",
+    "tq_e4ad086d52",
+    "tq_b20c3b677e",
+    "tq_32508bf009",
+    "tq_caea6d1964",
+    "tq_232b63b34b",
+    "tq_e9b472eea0",
+    "tq_09724a0eb0",
+    "tq_c3573299f8"
+   ],
+   "final_point_t": 86.992,
+   "ko_video_t": 113.11666666666666,
+   "points": [
+    {
+     "abs_t": 17.85,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 14.25,
+     "tech": "tq_e616806684",
+     "tech_name": "Chain Iron Shot"
+    },
+    {
+     "abs_t": 38.8167,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 35.217,
+     "tech": "tq_e4ad086d52",
+     "tech_name": "Chain Steel Orb"
+    },
+    {
+     "abs_t": 47.075,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 0,
+     "t": 43.475,
+     "tech": "tq_99dc4f2d3a",
+     "tech_name": "CHAIN TITAN CANNON"
+    },
+    {
+     "abs_t": 65.4833,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 61.883,
+     "tech": "tq_99dc4f2d3a",
+     "tech_name": "CHAIN TITAN CANNON"
+    },
+    {
+     "abs_t": 90.5917,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 86.992,
+     "tech": "tq_f6f4b807f3",
+     "tech_name": "SNARE IRON CRASH"
+    }
+   ],
+   "render_seconds": 207.4,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 13,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 37,
+     "minor": 17,
+     "points": 2,
+     "projectiles": 8,
+     "significant": 4,
+     "techniques": 40,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 42,
+     "counters": 0,
+     "discoveries": 8,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 5,
+     "hits": 68,
+     "minor": 13,
+     "points": 3,
+     "projectiles": 10,
+     "significant": 5,
+     "techniques": 45,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "a332312546335084ef84e5d1aad937a317f98fec15040016c52e24de891629ca",
+   "video": "exports/elemental_ascension_2_1156271972/semifinals/match_006.mp4",
+   "video_frames": 7427,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 123.783,
+   "winner": "ftr_704c6c0ae5"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/elemental_ascension_2_1156271972/qa/m007_contact.png",
+   "discoveries": [
+    "tq_b312150446",
+    "tq_21012d8912",
+    "tq_b10da8d8ff",
+    "tq_1e91ab7921",
+    "tq_70dccafb89",
+    "tq_69feb211c7",
+    "tq_e760e69e4c",
+    "tq_4797156ed5",
+    "tq_1111fffd12",
+    "tq_6c5d80f44b",
+    "tq_6900253206",
+    "tq_d94fb98962",
+    "tq_838cc8bc1d",
+    "tq_81c197d041",
+    "tq_81ba942abe",
+    "tq_c4e4fa0a2d",
+    "tq_946fc36b46",
+    "tq_7b26cc5c50",
+    "tq_c03f6619ab",
+    "tq_95b604bfc8",
+    "tq_abe53df66d",
+    "tq_d385af3990",
+    "tq_4ec9442d9e",
+    "tq_024dcc1035",
+    "tq_fa8cd2ab90"
+   ],
+   "final_point_t": 94.892,
+   "ko_video_t": 121.55,
+   "points": [
+    {
+     "abs_t": 27.5083,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 23.908,
+     "tech": "tq_69feb211c7",
+     "tech_name": "Iron Sweep"
+    },
+    {
+     "abs_t": 58.075,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 54.475,
+     "tech": "tq_abe53df66d",
+     "tech_name": "Radiant Bind"
+    },
+    {
+     "abs_t": 79.925,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 76.325,
+     "tech": "tq_f6f4b807f3",
+     "tech_name": "SNARE IRON CRASH"
+    },
+    {
+     "abs_t": 88.0167,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 84.417,
+     "tech": "tq_18216a49c4",
+     "tech_name": "CHAIN DAWN RAY"
+    },
+    {
+     "abs_t": 98.4917,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 94.892,
+     "tech": "tq_30e5c51f61",
+     "tech_name": "Piercing Dawn Crescent"
+    }
+   ],
+   "render_seconds": 204.6,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 33,
+     "counters": 0,
+     "discoveries": 10,
+     "dodges": 8,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 55,
+     "minor": 13,
+     "points": 3,
+     "projectiles": 2,
+     "significant": 3,
+     "techniques": 49,
+     "ultimates": 3
+    },
+    {
+     "blocked": 9,
+     "combo": 25,
+     "counters": 1,
+     "discoveries": 15,
+     "dodges": 10,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 45,
+     "minor": 6,
+     "points": 2,
+     "projectiles": 8,
+     "significant": 8,
+     "techniques": 58,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "23f1d2c24bb5af81de93efc4ae850ecfc5209bd551052a6db1ee7e0690d4b30c",
+   "video": "exports/elemental_ascension_2_1156271972/final/match_007.mp4",
+   "video_frames": 7934,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 132.233,
+   "winner": "ftr_33a29bb1fa"
+  }
+ },
  "name": "Elemental Ascension #2",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "elemental_ascension_2_1156271972",
  "steps": {
-  "bracket_reveal": "exports/elemental_ascension_2_1156271972/bracket_reveal.mp4"
+  "bracket_reveal": "exports/elemental_ascension_2_1156271972/bracket_reveal.mp4",
+  "bracket_round_02": "exports/elemental_ascension_2_1156271972/bracket_round_02.mp4",
+  "bracket_round_03": "exports/elemental_ascension_2_1156271972/bracket_round_03.mp4",
+  "champion": "exports/elemental_ascension_2_1156271972/champion.mp4",
+  "complete": "exports/elemental_ascension_2_1156271972/complete_tournament.mp4",
+  "highlights": "exports/elemental_ascension_2_1156271972/highlights.mp4"
  },
  "theme": "elements",
- "updated": "2026-11-15T11:40:29",
+ "updated": "2026-11-15T12:07:01",
  "version": 1
 }
