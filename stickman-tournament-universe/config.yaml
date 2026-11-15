@@ -1,0 +1,50 @@
+# Stickman Tournament Universe — tournament configuration.
+# Only the first three keys under `tournament` are essential. Everything else
+# may be "auto" (or removed entirely) and is resolved by the engine.
+tournament:
+  theme: "elements"
+  participants: 8
+  abilities_per_fighter: 2
+  # ---- optional advanced settings ----
+  name: "auto"
+  abilities_unique: "auto"
+  points_to_win: 3
+  minimum_fight_duration_seconds: 63
+  target_fight_duration_seconds: 75
+  maximum_fight_duration_seconds: 120
+  initial_matchmaking: "random"
+  subsequent_matchmaking: "winners_bracket"
+  tournament_format: "single_elimination"
+  random_seed: null
+combat:
+  fighting_style: "auto"
+  combat_speed: "auto"
+  attack_variety: "maximum"
+  combination_complexity: "maximum"
+  physical_combat_enabled: true
+  special_abilities_enabled: true
+  environmental_interactions: true
+  cinematic_finishers: true
+  adaptive_ai: true
+video:
+  width: 1080
+  height: 1920
+  fps: 60
+  orientation: "vertical"
+  export_individual_fights: true
+  export_complete_tournament: true
+  export_highlights: true
+  codec: "h264"
+  quality: "high"
+  render_workers: "auto"
+creative:
+  choreography: "procedural"
+  camera: "cinematic_dynamic"
+  visual_effects: "high_quality"
+  particle_effects: true
+  screen_shake: "auto"
+  slow_motion: "auto"
+  motion_blur: "subtle"
+  sound_effects: true
+  music: "optional"
+  subtitles: false

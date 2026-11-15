@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+exports/
+tournaments/*/cache/
+tournaments/*/work/
+library/backups/
+*.part.mp4
+.pytest_cache/
