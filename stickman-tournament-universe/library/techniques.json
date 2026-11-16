@@ -1,5 +1,5 @@
 {
- "count": 1086,
+ "count": 1098,
  "items": {
   "tq_004a86fadf": {
    "abilities": [
@@ -16927,6 +16927,84 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_39b8593766": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T22:54:27",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 4.18,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.44,
+     "opp_zoning": 0.56
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m007",
+    "t": 79.89,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_39b8593766",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "teleport",
+   "name": "Chain Eclipse Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.213,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_39c0b8951a": {
    "abilities": [
     "ab_31daa6369e"
@@ -18164,6 +18242,79 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_3db77b6f58": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T22:54:27",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.41,
+     "opp_zoning": 0.59
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m007",
+    "t": 40.74,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_3db77b6f58",
+   "kind": "area",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Hollow Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay_blast": 0.6,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.329,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_3e19eb6b95": {
@@ -28879,6 +29030,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_6ab1afcffa": {
+   "abilities": [
+    "ab_7c1c039513"
+   ],
+   "ability_names": [
+    "Sonic Rune"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T22:51:45",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.33,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.44,
+     "opp_zoning": 0.56
+    },
+    "fighter": "ftr_f8c83d8398",
+    "match": "m006",
+    "t": 7.8,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_6ab1afcffa",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Echo Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "stages": 1,
+    "startup": 0.187,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_7c1c039513"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_6abeae4a66": {
    "abilities": [
     "ab_31daa6369e"
@@ -34145,6 +34363,80 @@
     "delivery": "sweep",
     "modifiers": [],
     "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_7bfe026496": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T22:54:27",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.85,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.38,
+     "opp_zoning": 0.62
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m007",
+    "t": 8.65,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_7bfe026496",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Piercing Night Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 2.02,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.184,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -39438,6 +39730,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_8a48faf6a7": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T22:51:45",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.35,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m006",
+    "t": 1.23,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_8a48faf6a7",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "teleport",
+   "name": "Piercing Umbral Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 2.02,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.184,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_8abffd40b9": {
    "abilities": [
     "ab_37a318af5a"
@@ -39508,6 +39871,78 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_8af54f6de4": {
+   "abilities": [
+    "ab_e862609f42"
+   ],
+   "ability_names": [
+    "Chain Lightning"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-16T22:54:27",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 2.62,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.53,
+     "opp_zoning": 0.47
+    },
+    "fighter": "ftr_b37fd53043",
+    "match": "m007",
+    "t": 20.24,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_8af54f6de4",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Feint Chain Thunder Crescent",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.34,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.74,
+    "reach": 1.15,
+    "recovery": 0.27,
+    "stages": 1,
+    "startup": 0.15,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_e862609f42"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
   },
   "tq_8b65019a31": {
    "abilities": [
@@ -41656,6 +42091,82 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_938be43d25": {
+   "abilities": [
+    "ab_57591f87b0"
+   ],
+   "ability_names": [
+    "Frost Nova"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-16T23:51:13",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 4.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_1d487fb44b",
+    "match": "m005",
+    "t": 0.31,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_938be43d25",
+   "kind": "env",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Boreal Pillar",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay": 0.42,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.384,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_57591f87b0"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_93e21556cd": {
    "abilities": [
     "ab_4d7ecb9f90"
@@ -42624,6 +43135,82 @@
    "timing": "finisher",
    "variant": 0
   },
+  "tq_95900b62c2": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-16T22:51:45",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.96,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m006",
+    "t": 54.84,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_95900b62c2",
+   "kind": "env",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Umbral Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay": 0.77,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.373,
+    "stages": 1,
+    "startup": 0.29,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_95a87a5160": {
    "abilities": [
     "ab_37a318af5a"
@@ -42930,6 +43517,73 @@
     "delivery": "grapple",
     "modifiers": [],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_96f1baa32c": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-16T22:54:27",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 2.71,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.44,
+     "opp_zoning": 0.56
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m007",
+    "t": 77.67,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_96f1baa32c",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Umbral Grasp",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "teleport",
     "timing": "instant"
    },
    "tier": "infused",
@@ -53291,6 +53945,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_c2a4a16628": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-16T22:54:27",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 0.71,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.41,
+     "opp_zoning": 0.59
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m007",
+    "t": 23.41,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_c2a4a16628",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Umbral Grasp",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_c3573299f8": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -62650,6 +63371,73 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_e73b4c716e": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T22:51:45",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 4.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_8d611d6433",
+    "match": "m006",
+    "t": 0.3,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_e73b4c716e",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Charged Hollow Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.92,
+    "reach": 2.02,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.368,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_990b7774d2"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_e7438c2036": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -63355,6 +64143,80 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_ea21756d5e": {
+   "abilities": [
+    "ab_7c1c039513"
+   ],
+   "ability_names": [
+    "Sonic Rune"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T22:51:45",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 3.0,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.4,
+     "opp_zoning": 0.6
+    },
+    "fighter": "ftr_f8c83d8398",
+    "match": "m006",
+    "t": 61.27,
+    "tournament": "wizards_1938789504"
+   },
+   "id": "tq_ea21756d5e",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "step",
+   "name": "Cascade Echo Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "stages": 2,
+    "startup": 0.187,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_7c1c039513"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "multistage"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_eb00689759": {
    "abilities": [],
@@ -69266,6 +70128,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-16T22:48:14",
+ "updated": "2026-11-16T23:51:14",
  "version": 1
 }

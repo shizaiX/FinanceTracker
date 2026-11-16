@@ -581,7 +581,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "wizards_1938789504"
+    ],
     "wins": 0
    },
    "color": "#ff9a1f",
@@ -697,10 +699,12 @@
    "accessory": "wizard_hat",
    "build": 1.052,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 3,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 4,
+    "tournaments": [
+     "wizards_1938789504"
+    ],
     "wins": 1
    },
    "color": "#2ee9ff",
@@ -1845,7 +1849,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 2,
-    "tournaments": [],
+    "tournaments": [
+     "wizards_1938789504"
+    ],
     "wins": 0
    },
    "color": "#8cff3a",
@@ -2386,10 +2392,12 @@
    "build": 1.034,
    "career": {
     "losses": 0,
-    "points_against": 2,
-    "points_for": 3,
-    "tournaments": [],
-    "wins": 1
+    "points_against": 3,
+    "points_for": 9,
+    "tournaments": [
+     "wizards_1938789504"
+    ],
+    "wins": 3
    },
    "color": "#1fe08a",
    "costume": [
@@ -2889,11 +2897,13 @@
    "accessory": "wizard_hat",
    "build": 0.982,
    "career": {
-    "losses": 0,
-    "points_against": 2,
-    "points_for": 3,
-    "tournaments": [],
-    "wins": 1
+    "losses": 1,
+    "points_against": 6,
+    "points_for": 7,
+    "tournaments": [
+     "wizards_1938789504"
+    ],
+    "wins": 2
    },
    "color": "#ffe23d",
    "costume": [
@@ -3443,7 +3453,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "wizards_1938789504"
+    ],
     "wins": 0
    },
    "color": "#a35cff",
@@ -3735,10 +3747,12 @@
    "accessory": "hood",
    "build": 1.024,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 3,
-    "tournaments": [],
+    "tournaments": [
+     "wizards_1938789504"
+    ],
     "wins": 1
    },
    "color": "#ff3b3b",
@@ -3795,7 +3809,9 @@
     "losses": 1,
     "points_against": 3,
     "points_for": 2,
-    "tournaments": [],
+    "tournaments": [
+     "wizards_1938789504"
+    ],
     "wins": 0
    },
    "color": "#3a7bff",
@@ -3901,6 +3917,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T22:48:14",
+ "updated": "2026-11-16T23:00:25",
  "version": 1
 }

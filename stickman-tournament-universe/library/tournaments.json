@@ -1,5 +1,5 @@
 {
- "count": 7,
+ "count": 8,
  "items": {
   "cyberpunk_752562980": {
    "champion": "ftr_26c2f4593f",
@@ -63,9 +63,18 @@
    "participants": 8,
    "seed": 77,
    "theme": "pirates"
+  },
+  "wizards_1938789504": {
+   "champion": "ftr_8d611d6433",
+   "champion_name": "ABYKARA",
+   "finished": "2026-11-16T23:00:25",
+   "name": "Wizards",
+   "participants": 8,
+   "seed": 1938789504,
+   "theme": "wizards"
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-16T17:55:09",
+ "updated": "2026-11-16T23:00:25",
  "version": 1
 }
