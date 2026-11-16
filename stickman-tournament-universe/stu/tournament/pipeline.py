@@ -128,6 +128,7 @@ class Tournament:
         log(f"  simulated {m['id']} {fa['name']} vs {fb['name']} [{archetype}] -> {res['scores'][0]}-{res['scores'][1]}"
             f" final point @ {res['final_point_t']:.1f}s ({time.time() - t0:.1f}s cpu)")
         os.makedirs(os.path.dirname(cp), exist_ok=True)
+        self.u.save_all()  # persist discovered techniques before the (long) render
         with gzip.open(cp, "wb", compresslevel=5) as f:
             pickle.dump(res, f, protocol=pickle.HIGHEST_PROTOCOL)
         return res

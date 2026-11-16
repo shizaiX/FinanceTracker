@@ -90,13 +90,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_b37fd53043"
    },
    "m002": {
     "a": "ftr_17641b71c4",
@@ -105,13 +108,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     0,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_1d487fb44b"
    },
    "m003": {
     "a": "ftr_fa25f68a5b",
@@ -120,13 +126,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_8d611d6433"
    },
    "m004": {
     "a": "ftr_f8c83d8398",
@@ -135,17 +144,20 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_f8c83d8398"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_b37fd53043",
+    "b": "ftr_1d487fb44b",
     "id": "m005",
     "index": 0,
     "round": 1,
@@ -159,8 +171,8 @@
     "winner": null
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_8d611d6433",
+    "b": "ftr_f8c83d8398",
     "id": "m006",
     "index": 1,
     "round": 1,
@@ -289,8 +301,8 @@
    "accessory": "wizard_hat",
    "build": 1.056,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -347,9 +359,9 @@
    "career": {
     "losses": 0,
     "points_against": 0,
-    "points_for": 0,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff3b3b",
    "costume": [
@@ -402,8 +414,8 @@
    "accessory": "hood",
    "build": 1.032,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -460,10 +472,10 @@
    "build": 0.982,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ffe23d",
    "costume": [
@@ -516,9 +528,9 @@
    "accessory": "wizard_hat",
    "build": 0.96,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -573,9 +585,9 @@
    "accessory": "hood",
    "build": 0.961,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -632,9 +644,9 @@
    "career": {
     "losses": 0,
     "points_against": 0,
-    "points_for": 0,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#2ee9ff",
    "costume": [
@@ -688,10 +700,10 @@
    "build": 1.034,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#1fe08a",
    "costume": [
@@ -735,13 +747,472 @@
    ]
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "underdog",
+   "arena": "Tower of Stars",
+   "contact_sheet": "tournaments/wizards_1938789504/qa/m001_contact.png",
+   "discoveries": [
+    "tq_8d0ee545fb",
+    "tq_ce7c2b318d",
+    "tq_6c44dd76e3",
+    "tq_ca8a3e2b9a"
+   ],
+   "final_point_t": 89.075,
+   "intro_seconds": 10.35,
+   "ko_video_t": 126.19999999999999,
+   "points": [
+    {
+     "abs_t": 34.775,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 31.175,
+     "tech": "tq_a71c4cc71b",
+     "tech_name": "Snare Wild Bolt"
+    },
+    {
+     "abs_t": 51.6583,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 48.058,
+     "tech": "tq_a648519009",
+     "tech_name": "Arc Edge"
+    },
+    {
+     "abs_t": 61.9917,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 58.392,
+     "tech": "tq_0a4941924c",
+     "tech_name": "Seeking Thorned Shot"
+    },
+    {
+     "abs_t": 74.0583,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 70.458,
+     "tech": "tq_c655ff7030",
+     "tech_name": "CHAIN THUNDER RAY"
+    },
+    {
+     "abs_t": 92.675,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 89.075,
+     "tech": "tq_4740876f0d",
+     "tech_name": "Chain Voltaic Blade"
+    }
+   ],
+   "render_seconds": 235.4,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 27,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 5,
+     "hits": 52,
+     "minor": 12,
+     "points": 3,
+     "projectiles": 8,
+     "significant": 5,
+     "techniques": 47,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 14,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 44,
+     "minor": 17,
+     "points": 2,
+     "projectiles": 25,
+     "significant": 8,
+     "techniques": 66,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "5fd15732abdd84d5bc02b7db6c4929230f0cbcba87262ad32a58f3dd8cf9892f",
+   "video": "exports/wizards_1938789504/round_01/match_001.mp4",
+   "video_frames": 8212,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 136.867,
+   "winner": "ftr_b37fd53043"
+  },
+  "m002": {
+   "archetype": "tech_vs_power",
+   "arena": "Tower of Stars",
+   "contact_sheet": "tournaments/wizards_1938789504/qa/m002_contact.png",
+   "discoveries": [
+    "tq_e63cdaf9b6",
+    "tq_126eef45ba",
+    "tq_6b8f554b3f",
+    "tq_bfa2c6acca"
+   ],
+   "final_point_t": 68.908,
+   "intro_seconds": 0.0,
+   "ko_video_t": 86.16666666666667,
+   "points": [
+    {
+     "abs_t": 28.4833,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 24.883,
+     "tech": "tq_a1218be4ec",
+     "tech_name": "Triple Frozen Volley"
+    },
+    {
+     "abs_t": 44.175,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 40.575,
+     "tech": "tq_a1218be4ec",
+     "tech_name": "Triple Frozen Volley"
+    },
+    {
+     "abs_t": 72.5083,
+     "final": true,
+     "score": [
+      0,
+      3
+     ],
+     "scorer": 1,
+     "t": 68.908,
+     "tech": "tq_a0789b1749",
+     "tech_name": "Charged Snare Glacial Orb"
+    }
+   ],
+   "render_seconds": 146.3,
+   "scores": [
+    0,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 1,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 10,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 9,
+     "minor": 6,
+     "points": 0,
+     "projectiles": 4,
+     "significant": 2,
+     "techniques": 29,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 12,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 0,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 44,
+     "minor": 22,
+     "points": 3,
+     "projectiles": 29,
+     "significant": 4,
+     "techniques": 57,
+     "ultimates": 0
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "6f32b30a64e99a6c5b28b1ca7bf502dbd324c2637f738615f31b5e4aa26dc6e1",
+   "video": "exports/wizards_1938789504/round_01/match_002.mp4",
+   "video_frames": 5810,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 96.833,
+   "winner": "ftr_1d487fb44b"
+  },
+  "m003": {
+   "archetype": "rivalry",
+   "arena": "Tower of Stars",
+   "contact_sheet": "tournaments/wizards_1938789504/qa/m003_contact.png",
+   "discoveries": [
+    "tq_6b157bb592",
+    "tq_b90178b9a8",
+    "tq_319a51611c",
+    "tq_db52bb2286"
+   ],
+   "final_point_t": 94.175,
+   "intro_seconds": 0.0,
+   "ko_video_t": 124.41666666666667,
+   "points": [
+    {
+     "abs_t": 37.475,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 33.875,
+     "tech": "tq_07656bb064",
+     "tech_name": "Umbral Bolt"
+    },
+    {
+     "abs_t": 54.975,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 51.375,
+     "tech": "tq_61c8804c89",
+     "tech_name": "GRAND SOLAR HAMMER"
+    },
+    {
+     "abs_t": 72.725,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 69.125,
+     "tech": "tq_61c8804c89",
+     "tech_name": "GRAND SOLAR HAMMER"
+    },
+    {
+     "abs_t": 84.525,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 80.925,
+     "tech": "tq_098d47ec87",
+     "tech_name": "DELAYED HOLLOW SPIRE"
+    },
+    {
+     "abs_t": 97.775,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 94.175,
+     "tech": "tq_db52bb2286",
+     "tech_name": "Charged Piercing Eclipse Edge"
+    }
+   ],
+   "render_seconds": 217.3,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 100,
+     "counters": 0,
+     "discoveries": 1,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 11,
+     "hits": 147,
+     "minor": 28,
+     "points": 2,
+     "projectiles": 30,
+     "significant": 6,
+     "techniques": 62,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 19,
+     "counters": 4,
+     "discoveries": 3,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 45,
+     "minor": 14,
+     "points": 3,
+     "projectiles": 16,
+     "significant": 7,
+     "techniques": 69,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "336e41fcfa44a35db85cdd31fcdcea9ffcfefd2cf58ac1fa1dcaa3d9beddfaa1",
+   "video": "exports/wizards_1938789504/round_01/match_003.mp4",
+   "video_frames": 8105,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 135.083,
+   "winner": "ftr_8d611d6433"
+  },
+  "m004": {
+   "archetype": "domination",
+   "arena": "Tower of Stars",
+   "contact_sheet": "tournaments/wizards_1938789504/qa/m004_contact.png",
+   "discoveries": [
+    "tq_e11b522e2a",
+    "tq_18ecde77f7",
+    "tq_1e5150c905",
+    "tq_df057eabdf",
+    "tq_6d245aeee7"
+   ],
+   "final_point_t": 67.65,
+   "intro_seconds": 0.0,
+   "ko_video_t": 86.75,
+   "points": [
+    {
+     "abs_t": 15.9667,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 12.367,
+     "tech": "tq_781841b6f2",
+     "tech_name": "Delayed Echo Volley"
+    },
+    {
+     "abs_t": 41.4417,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 37.842,
+     "tech": "tq_781841b6f2",
+     "tech_name": "Delayed Echo Volley"
+    },
+    {
+     "abs_t": 71.25,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 67.65,
+     "tech": "tq_781841b6f2",
+     "tech_name": "Delayed Echo Volley"
+    }
+   ],
+   "render_seconds": 164.1,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 31,
+     "counters": 2,
+     "discoveries": 2,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 62,
+     "minor": 19,
+     "points": 3,
+     "projectiles": 17,
+     "significant": 5,
+     "techniques": 50,
+     "ultimates": 3
+    },
+    {
+     "blocked": 1,
+     "combo": 18,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 31,
+     "minor": 11,
+     "points": 0,
+     "projectiles": 6,
+     "significant": 2,
+     "techniques": 32,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "93549a8554c67d61baffda00a91974b148cbd87f129deecb8a4094d3e6cb9424",
+   "video": "exports/wizards_1938789504/round_01/match_004.mp4",
+   "video_frames": 5845,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 97.417,
+   "winner": "ftr_f8c83d8398"
+  }
+ },
  "name": "Wizards",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "wizards_1938789504",
- "steps": {},
+ "steps": {
+  "intro_bracket_01": {
+   "frames": 300,
+   "path": "tournaments/wizards_1938789504/intros/bracket_01.mp4"
+  },
+  "intro_roster": {
+   "frames": 321,
+   "path": "tournaments/wizards_1938789504/intros/roster.mp4"
+  }
+ },
  "theme": "wizards",
- "updated": "2026-11-16T22:35:21",
+ "updated": "2026-11-16T22:48:14",
  "version": 1
 }

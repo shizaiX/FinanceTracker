@@ -578,8 +578,8 @@
    "accessory": "hood",
    "build": 1.032,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -699,9 +699,9 @@
    "career": {
     "losses": 0,
     "points_against": 0,
-    "points_for": 0,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#2ee9ff",
    "costume": [
@@ -1842,9 +1842,9 @@
    "accessory": "wizard_hat",
    "build": 0.96,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -2386,10 +2386,10 @@
    "build": 1.034,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#1fe08a",
    "costume": [
@@ -2890,10 +2890,10 @@
    "build": 0.982,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ffe23d",
    "costume": [
@@ -3440,8 +3440,8 @@
    "accessory": "wizard_hat",
    "build": 1.056,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -3737,9 +3737,9 @@
    "career": {
     "losses": 0,
     "points_against": 0,
-    "points_for": 0,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff3b3b",
    "costume": [
@@ -3792,9 +3792,9 @@
    "accessory": "hood",
    "build": 0.961,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -3901,6 +3901,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T22:35:21",
+ "updated": "2026-11-16T22:48:14",
  "version": 1
 }
