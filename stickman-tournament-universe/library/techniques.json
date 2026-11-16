@@ -1,5 +1,5 @@
 {
- "count": 832,
+ "count": 871,
  "items": {
   "tq_004a86fadf": {
    "abilities": [
@@ -991,6 +991,73 @@
      "trap"
     ],
     "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_03a43fc252": {
+   "abilities": [
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-16T08:52:45",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 0.61,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_414f6737b8",
+    "match": "m002",
+    "t": 42.39,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_03a43fc252",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Leviathan Suplex",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 0.85,
+    "recovery": 0.4,
+    "stages": 1,
+    "startup": 0.12,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_6d3b0c6f9e"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -2575,6 +2642,85 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_0a8a64e616": {
+   "abilities": [
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T09:19:38",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 2.29,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.82,
+     "opp_zoning": 0.18
+    },
+    "fighter": "ftr_414f6737b8",
+    "match": "m007",
+    "t": 51.9,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_0a8a64e616",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed",
+    "homing"
+   ],
+   "movement": "none",
+   "name": "Feint Seeking Abyssal Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 26,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 2.76,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.3,
+    "speed": 11.0,
+    "stages": 1,
+    "startup": 0.22,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_6d3b0c6f9e"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed",
+     "homing"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
    "variant": 0
   },
   "tq_0a9d7d696e": {
@@ -6957,6 +7103,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_1b15fa2698": {
+   "abilities": [
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-16T09:19:38",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 3.05,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_414f6737b8",
+    "match": "m007",
+    "t": 28.47,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_1b15fa2698",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Kraken Barrage",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 3.08,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.13,
+    "reach": 0.95,
+    "recovery": 0.3,
+    "stages": 1,
+    "startup": 0.1,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_6d3b0c6f9e"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_1b339c67a9": {
    "abilities": [
     "ab_5b8e37c749"
@@ -7960,6 +8173,78 @@
    "timing": "multi_hit",
    "variant": 2
   },
+  "tq_1f7c92fad1": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T09:14:15",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 4.33,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.46,
+     "opp_zoning": 0.54
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m006",
+    "t": 76.92,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_1f7c92fad1",
+   "kind": "stance",
+   "modifiers": [
+    "absorb"
+   ],
+   "movement": "none",
+   "name": "Devouring Flicking Riposte",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_2017b1fef3": {
    "abilities": [
     "ab_b7f5981ab1"
@@ -8651,6 +8936,81 @@
    "timing": "charged",
    "variant": 2
   },
+  "tq_22fa91586b": {
+   "abilities": [
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-16T08:52:44",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 11.67,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.69,
+     "opp_zoning": 0.31
+    },
+    "fighter": "ftr_414f6737b8",
+    "match": "m002",
+    "t": 23.44,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_22fa91586b",
+   "kind": "beam",
+   "modifiers": [
+    "amplify",
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Grand Abyssal Cannon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 3.08,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.64,
+    "reach": 8.0,
+    "recovery": 0.42,
+    "stages": 1,
+    "startup": 0.4,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.44799999999999995
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_6d3b0c6f9e"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "amplify",
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_22fcc57896": {
    "abilities": [],
    "ability_names": [],
@@ -8772,6 +9132,78 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_234422da83": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T09:19:37",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 4.99,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.5,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m007",
+    "t": 6.72,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_234422da83",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Fan of Mirror",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_23d41c0167": {
    "abilities": [
@@ -13356,6 +13788,153 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_38f1393708": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T09:09:25",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 3.43,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.69,
+     "opp_zoning": 0.31
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m005",
+    "t": 35.87,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_38f1393708",
+   "kind": "area",
+   "modifiers": [
+    "delayed",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Delayed Boom Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay_blast": 0.6,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.2,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.396,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.334,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_3985d4c5c4": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T09:19:38",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.87,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.09,
+     "opp_rushdown": 0.64,
+     "opp_zoning": 0.36
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m007",
+    "t": 30.13,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_3985d4c5c4",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Cascade Silent Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 0.94,
+    "recovery": 0.289,
+    "stages": 2,
+    "startup": 0.178,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_39acc0d557": {
    "abilities": [
     "ab_e33ef84aee"
@@ -13462,6 +14041,73 @@
     "delivery": "beam",
     "modifiers": [],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_39c5e95af4": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T08:42:32",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.96,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.08,
+     "opp_rushdown": 0.61,
+     "opp_zoning": 0.39
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m001",
+    "t": 65.06,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_39c5e95af4",
+   "kind": "stance",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Grapeshot Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "stages": 1,
+    "startup": 0.049,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "counter",
+    "modifiers": [],
+    "movement": "backstep",
     "timing": "instant"
    },
    "tier": "infused",
@@ -14502,6 +15148,73 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_3e7987ab37": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-16T09:19:38",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.49,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.1,
+     "opp_rushdown": 0.65,
+     "opp_zoning": 0.35
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m007",
+    "t": 26.25,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_3e7987ab37",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Fan of Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.29,
+    "reach": 0.95,
+    "recovery": 0.212,
+    "stages": 1,
+    "startup": 0.113,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_3ea60312ed": {
    "abilities": [
     "ab_66a6db4683"
@@ -14741,6 +15454,73 @@
    "timing": "charged",
    "variant": 1
   },
+  "tq_3efaec5aaa": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-16T09:09:25",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 4.13,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m005",
+    "t": 38.11,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_3efaec5aaa",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Rapid Boom Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.5,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 5.4,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.43,
+    "reach": 0.95,
+    "recovery": 0.218,
+    "stages": 1,
+    "startup": 0.13,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 2
+  },
   "tq_3f118da3c7": {
    "abilities": [
     "ab_6d3b0c6f9e"
@@ -14861,6 +15641,154 @@
     "delivery": "beam",
     "modifiers": [],
     "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_406d26f57e": {
+   "abilities": [
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Anchor"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-16T09:14:14",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 8.87,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.25,
+     "opp_zoning": 0.75
+    },
+    "fighter": "ftr_5276d80fb8",
+    "match": "m006",
+    "t": 19.79,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_406d26f57e",
+   "kind": "env",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Grand Deep Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay": 0.42,
+    "dmg": 15.44,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 22.46,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.397,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_40a81c6643": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T09:09:25",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 4.97,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.66,
+     "opp_zoning": 0.34
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m005",
+    "t": 58.12,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_40a81c6643",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "shield"
+   ],
+   "movement": "backstep",
+   "name": "Devouring Boom Mirror",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.049,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "shield"
+    ],
+    "movement": "backstep",
     "timing": "instant"
    },
    "tier": "infused",
@@ -15533,6 +16461,83 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_4430373812": {
+   "abilities": [
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Flintlock"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T08:42:33",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 4.31,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.66,
+     "opp_zoning": 0.34
+    },
+    "fighter": "ftr_e6842ed598",
+    "match": "m001",
+    "t": 113.03,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_4430373812",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Feint Grand Smoking Orb",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.32,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 11.88,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 27.3,
+    "stages": 1,
+    "startup": 0.248,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_9408408bac"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 3
   },
   "tq_445ec564c8": {
    "abilities": [
@@ -17622,6 +18627,79 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_4e83359c81": {
+   "abilities": [
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T09:09:25",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.53,
+     "opp_zoning": 0.47
+    },
+    "fighter": "ftr_414f6737b8",
+    "match": "m005",
+    "t": 81.98,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_4e83359c81",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Abyssal Rush",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.42,
+    "reach": 0.7,
+    "recovery": 0.34,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.2,
+    "stun": 1.0,
+    "travel": 9.5,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_6d3b0c6f9e"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_4ec9442d9e": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -18136,6 +19214,86 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_50f90f9f7f": {
+   "abilities": [
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Flintlock"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T08:42:32",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.76,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.57,
+     "opp_zoning": 0.43
+    },
+    "fighter": "ftr_e6842ed598",
+    "match": "m001",
+    "t": 39.26,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_50f90f9f7f",
+   "kind": "projectile",
+   "modifiers": [
+    "pierce",
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Snare Deadeye Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.32,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 11.88,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 27.3,
+    "stages": 1,
+    "startup": 0.248,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_9408408bac"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "pierce",
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 3
+  },
   "tq_512d35163c": {
    "abilities": [
     "ab_e33ef84aee"
@@ -18434,6 +19592,78 @@
      "trap"
     ],
     "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_541865303c": {
+   "abilities": [
+    "ab_2a2fa292ff"
+   ],
+   "ability_names": [
+    "Cutlass"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T09:00:40",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.54,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.72,
+     "opp_zoning": 0.28
+    },
+    "fighter": "ftr_fc577d4a4e",
+    "match": "m004",
+    "t": 70.36,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_541865303c",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Chain Severing Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.63,
+    "reach": 1.38,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.184,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2a2fa292ff"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -18895,6 +20125,78 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_5763ecc182": {
+   "abilities": [
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Harpoon"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-16T08:56:36",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.81,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.85,
+     "opp_zoning": 0.15
+    },
+    "fighter": "ftr_2f1df243a3",
+    "match": "m003",
+    "t": 36.5,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_5763ecc182",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Charged Grand Reeling Hammer",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 19.73,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 29.6,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.4,
+    "stages": 1,
+    "startup": 0.6,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a32aa0acc5"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_57cae987ca": {
@@ -23944,6 +25246,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_736b05adb8": {
+   "abilities": [
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-16T09:19:38",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 1.23,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_414f6737b8",
+    "match": "m007",
+    "t": 54.9,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_736b05adb8",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "step",
+   "name": "Snare Leviathan Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.34,
+    "stages": 1,
+    "startup": 0.17,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_6d3b0c6f9e"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_736f4c3411": {
    "abilities": [
     "ab_083a980255"
@@ -24636,6 +26010,81 @@
     "timing": "instant"
    },
    "tier": "basic",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_75a896346e": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T08:42:32",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.32,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.06,
+     "opp_rushdown": 0.62,
+     "opp_zoning": 0.38
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m001",
+    "t": 49.4,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_75a896346e",
+   "kind": "stance",
+   "modifiers": [
+    "reflect",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Scattershot Riposte",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "reflect": true,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.049,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -27135,6 +28584,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7fa336136e": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-16T08:42:32",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.06,
+     "opp_rushdown": 0.62,
+     "opp_zoning": 0.38
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m001",
+    "t": 47.82,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_7fa336136e",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Grapeshot Barrage",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 3.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 0.95,
+    "recovery": 0.297,
+    "stages": 1,
+    "startup": 0.098,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_7fd1cd7b25": {
    "abilities": [
     "ab_314c439b4f",
@@ -28166,6 +29682,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_848bc53bf6": {
+   "abilities": [
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Anchor"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-16T09:00:40",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 4.38,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.68,
+     "opp_zoning": 0.32
+    },
+    "fighter": "ftr_5276d80fb8",
+    "match": "m004",
+    "t": 47.5,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_848bc53bf6",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Charged Snare Iron Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 24.43,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 36.64,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.418,
+    "stages": 1,
+    "startup": 0.649,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_848da60da2": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -28542,6 +30131,83 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_859881c651": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T09:14:15",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.14,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.43,
+     "opp_zoning": 0.57
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m006",
+    "t": 56.0,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_859881c651",
+   "kind": "projectile",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Whistling Orb",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 10.41,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 14.88,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.413,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 1
   },
   "tq_85ab3c92ba": {
    "abilities": [],
@@ -29144,6 +30810,73 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_87644d94de": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T09:14:15",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.96,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.47,
+     "opp_zoning": 0.53
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m006",
+    "t": 77.68,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_87644d94de",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Fan of Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 0.94,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.178,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_8772a6277e": {
    "abilities": [],
@@ -29941,6 +31674,77 @@
      "shield"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_8abffd40b9": {
+   "abilities": [
+    "ab_37a318af5a"
+   ],
+   "ability_names": [
+    "Bare-Knuckle Brawl"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-16T08:52:45",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 3.92,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.57,
+     "opp_zoning": 0.43
+    },
+    "fighter": "ftr_13baa79cca",
+    "match": "m002",
+    "t": 69.36,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_8abffd40b9",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Cascade Knuckle Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.39,
+    "reach": 0.85,
+    "recovery": 0.35,
+    "stages": 2,
+    "startup": 0.143,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_37a318af5a"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
     "timing": "instant"
    },
    "tier": "infused",
@@ -31675,6 +33479,77 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_943b1eadbb": {
+   "abilities": [
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Harpoon"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T08:56:36",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.3,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.89,
+     "opp_zoning": 0.11
+    },
+    "fighter": "ftr_2f1df243a3",
+    "match": "m003",
+    "t": 29.78,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_943b1eadbb",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Piercing Reeling Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.47,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.88,
+    "reach": 1.93,
+    "recovery": 0.3,
+    "stages": 1,
+    "startup": 0.19,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a32aa0acc5"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_946a671cee": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -32516,6 +34391,84 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_976c597970": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T09:14:15",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.74,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.52,
+     "opp_zoning": 0.48
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m006",
+    "t": 84.1,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_976c597970",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "backstep",
+   "name": "Snare Fan of Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_97886837c0": {
    "abilities": [
@@ -35480,6 +37433,73 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_aa0c9a94d9": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-16T09:19:37",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.8,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m007",
+    "t": 1.42,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_aa0c9a94d9",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Whistling Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.29,
+    "reach": 0.95,
+    "recovery": 0.212,
+    "stages": 1,
+    "startup": 0.113,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_aa26a7fdda": {
    "abilities": [],
    "ability_names": [],
@@ -36669,6 +38689,86 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_b08abcc258": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T08:56:36",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.21,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m003",
+    "t": 71.02,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_b08abcc258",
+   "kind": "projectile",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Piercing Fan of Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_b098224680": {
    "abilities": [
@@ -38879,6 +40979,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_b8e982b7f4": {
+   "abilities": [
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Anchor"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T09:00:39",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.99,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_5276d80fb8",
+    "match": "m004",
+    "t": 3.7,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_b8e982b7f4",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "backstep",
+   "name": "Guarded Deep Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 16.85,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 28.08,
+    "reach": 1.0,
+    "recovery": 0.314,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.054,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_b920f1ee76": {
    "abilities": [
     "ab_871ffa40a3"
@@ -40992,6 +43164,74 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_c4d63827ed": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T09:09:25",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 4.46,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.68,
+     "opp_zoning": 0.32
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m005",
+    "t": 43.63,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_c4d63827ed",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Boom Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.2,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.334,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_c4d65ef34b": {
    "abilities": [
     "ab_e33ef84aee"
@@ -42577,6 +44817,74 @@
      "pierce"
     ],
     "movement": "leap",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 0
+  },
+  "tq_cbaf20fa1d": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-16T09:14:14",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 3.84,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.47,
+     "opp_zoning": 0.53
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m006",
+    "t": 18.33,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_cbaf20fa1d",
+   "kind": "beam",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Rapid Silent Lance",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 3.85,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.05,
+    "reach": 8.0,
+    "recovery": 0.405,
+    "stages": 1,
+    "startup": 0.413,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "beam",
+    "modifiers": [],
+    "movement": "backstep",
     "timing": "multi_hit"
    },
    "tier": "infused",
@@ -44592,6 +46900,74 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_d85d1a9ed8": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T08:42:33",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.06,
+     "opp_rushdown": 0.6,
+     "opp_zoning": 0.4
+    },
+    "fighter": "ftr_f092bf26af",
+    "match": "m001",
+    "t": 96.18,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_d85d1a9ed8",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Charged Scattershot Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 29.28,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.668,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c2263f9e8c"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_d8ad9c2ccc": {
    "abilities": [
     "ab_6d3b0c6f9e"
@@ -44982,6 +47358,78 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_db15388f10": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T08:56:35",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.71,
+     "opp_zoning": 0.29
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m003",
+    "t": 6.12,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_db15388f10",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "dash",
+   "name": "Chain Fan of Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 0.94,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.178,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_db1e6cc9ae": {
    "abilities": [
@@ -46809,6 +49257,73 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_e312c5529d": {
+   "abilities": [
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Harpoon"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T08:56:36",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 1.52,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_2f1df243a3",
+    "match": "m003",
+    "t": 57.13,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_e312c5529d",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Charged Reeling Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 18.09,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.02,
+    "reach": 1.93,
+    "recovery": 0.3,
+    "stages": 1,
+    "startup": 0.38,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a32aa0acc5"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 2
+  },
   "tq_e3a33fb9b5": {
    "abilities": [
     "ab_83c4d6d552"
@@ -48587,6 +51102,74 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_eb8b0352cb": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T09:19:38",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.41,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.65,
+     "opp_zoning": 0.35
+    },
+    "fighter": "ftr_89031061bd",
+    "match": "m007",
+    "t": 48.92,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_eb8b0352cb",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Charged Whistling Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 14.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 25.29,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.638,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_314c439b4f"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_eba0989ebd": {
@@ -50655,6 +53238,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_f3e29f7893": {
+   "abilities": [
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Anchor"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T09:14:15",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 2.64,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.28,
+     "opp_zoning": 0.72
+    },
+    "fighter": "ftr_5276d80fb8",
+    "match": "m006",
+    "t": 80.81,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_f3e29f7893",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Sunken Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 15.44,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 22.46,
+    "reach": 0.7,
+    "recovery": 0.356,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.216,
+    "stun": 1.0,
+    "travel": 8.497058314499201,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_f41df14a84": {
    "abilities": [
     "ab_83c4d6d552",
@@ -50716,6 +53372,77 @@
    "tier": "ultimate",
    "timing": "finisher",
    "variant": 0
+  },
+  "tq_f42ca23d67": {
+   "abilities": [
+    "ab_2a2fa292ff"
+   ],
+   "ability_names": [
+    "Cutlass"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T09:00:40",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.65,
+     "opp_zoning": 0.35
+    },
+    "fighter": "ftr_fc577d4a4e",
+    "match": "m004",
+    "t": 50.27,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_f42ca23d67",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "leap",
+   "name": "Cascade Iaido Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.63,
+    "reach": 1.38,
+    "recovery": 0.294,
+    "stages": 2,
+    "startup": 0.184,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2a2fa292ff"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_f46fc8c4a8": {
    "abilities": [
@@ -51425,6 +54152,81 @@
    "tier": "infused",
    "timing": "charged",
    "variant": 2
+  },
+  "tq_f74992f729": {
+   "abilities": [
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Anchor"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T09:14:14",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 4.96,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.32,
+     "opp_zoning": 0.68
+    },
+    "fighter": "ftr_5276d80fb8",
+    "match": "m006",
+    "t": 44.59,
+    "tournament": "pirates_801535867"
+   },
+   "id": "tq_f74992f729",
+   "kind": "melee",
+   "modifiers": [
+    "pierce",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Sunken Ram",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 22.39,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 32.57,
+    "reach": 0.7,
+    "recovery": 0.356,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.432,
+    "stun": 1.0,
+    "travel": 8.497058314499201,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_31daa6369e"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "pierce",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
   },
   "tq_f8eeb498c7": {
    "abilities": [
@@ -52611,6 +55413,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-16T08:38:15",
+ "updated": "2026-11-16T09:22:43",
  "version": 1
 }

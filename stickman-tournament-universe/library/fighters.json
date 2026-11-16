@@ -404,10 +404,12 @@
    "accessory": "captain_hat",
    "build": 0.996,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "pirates_801535867"
+    ],
     "wins": 0
    },
    "color": "#ff9a1f",
@@ -710,10 +712,12 @@
    "accessory": "bandana",
    "build": 1.029,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "pirates_801535867"
+    ],
     "wins": 0
    },
    "color": "#ffe23d",
@@ -940,10 +944,12 @@
    "build": 1.024,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "points_against": 2,
+    "points_for": 9,
+    "tournaments": [
+     "pirates_801535867"
+    ],
+    "wins": 3
    },
    "color": "#2ee9ff",
    "costume": [
@@ -1246,11 +1252,13 @@
    "accessory": "bandana",
    "build": 0.982,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 5,
+    "tournaments": [
+     "pirates_801535867"
+    ],
+    "wins": 1
    },
    "color": "#1fe08a",
    "costume": [
@@ -1801,11 +1809,13 @@
    "accessory": "tricorne",
    "build": 0.997,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 6,
+    "points_for": 6,
+    "tournaments": [
+     "pirates_801535867"
+    ],
+    "wins": 2
    },
    "color": "#3a7bff",
    "costume": [
@@ -2684,10 +2694,12 @@
    "accessory": "bandana",
    "build": 0.954,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "pirates_801535867"
+    ],
     "wins": 0
    },
    "color": "#ff3b3b",
@@ -2861,11 +2873,13 @@
    "accessory": "tricorne",
    "build": 1.027,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 4,
+    "tournaments": [
+     "pirates_801535867"
+    ],
+    "wins": 1
    },
    "color": "#8cff3a",
    "costume": [
@@ -2919,10 +2933,12 @@
    "accessory": "captain_hat",
    "build": 0.964,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "pirates_801535867"
+    ],
     "wins": 0
    },
    "color": "#a35cff",
@@ -2969,6 +2985,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T08:38:15",
+ "updated": "2026-11-16T09:25:27",
  "version": 1
 }
