@@ -404,10 +404,12 @@
    "accessory": "visor",
    "build": 1.035,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
     "wins": 0
    },
    "color": "#1fe08a",
@@ -458,11 +460,13 @@
    "accessory": "ninja_mask",
    "build": 0.991,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 3,
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
+    "wins": 1
    },
    "color": "#a35cff",
    "costume": [
@@ -766,10 +770,12 @@
    "build": 1.042,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "points_against": 1,
+    "points_for": 9,
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
+    "wins": 3
    },
    "color": "#8cff3a",
    "costume": [
@@ -1421,11 +1427,13 @@
    "accessory": "hood",
    "build": 0.947,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 4,
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
+    "wins": 1
    },
    "color": "#3a7bff",
    "costume": [
@@ -1834,11 +1842,13 @@
    "accessory": "headband",
    "build": 1.058,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 7,
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
+    "wins": 2
    },
    "color": "#ffe23d",
    "costume": [
@@ -2091,10 +2101,12 @@
    "accessory": "visor",
    "build": 0.958,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
     "wins": 0
    },
    "color": "#ff9a1f",
@@ -2973,10 +2985,12 @@
    "accessory": "spikes",
    "build": 0.961,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
     "wins": 0
    },
    "color": "#2ee9ff",
@@ -3029,10 +3043,12 @@
    "accessory": "ninja_mask",
    "build": 1.016,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "cyberpunk_752562980"
+    ],
     "wins": 0
    },
    "color": "#ff3b3b",
@@ -3430,6 +3446,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T17:25:31",
+ "updated": "2026-11-16T17:55:09",
  "version": 1
 }

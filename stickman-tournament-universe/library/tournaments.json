@@ -1,6 +1,15 @@
 {
- "count": 6,
+ "count": 7,
  "items": {
+  "cyberpunk_752562980": {
+   "champion": "ftr_26c2f4593f",
+   "champion_name": "NEOVIA",
+   "finished": "2026-11-16T17:55:09",
+   "name": "Cyberpunk",
+   "participants": 8,
+   "seed": 752562980,
+   "theme": "cyberpunk"
+  },
   "elemental_ascension_1_2026": {
    "champion": "ftr_25872decc9",
    "champion_name": "LIGRION",
@@ -57,6 +66,6 @@
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-16T11:33:34",
+ "updated": "2026-11-16T17:55:09",
  "version": 1
 }

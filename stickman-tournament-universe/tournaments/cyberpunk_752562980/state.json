@@ -92,13 +92,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_71572f9ded"
    },
    "m002": {
     "a": "ftr_4f50a00640",
@@ -107,13 +110,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_4f50a00640"
    },
    "m003": {
     "a": "ftr_1300a82c32",
@@ -122,13 +128,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_1300a82c32"
    },
    "m004": {
     "a": "ftr_26c2f4593f",
@@ -137,58 +146,70 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_26c2f4593f"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_71572f9ded",
+    "b": "ftr_4f50a00640",
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_71572f9ded"
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_1300a82c32",
+    "b": "ftr_26c2f4593f",
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     0,
+     3
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_26c2f4593f"
    },
    "m007": {
-    "a": null,
-    "b": null,
+    "a": "ftr_71572f9ded",
+    "b": "ftr_26c2f4593f",
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_26c2f4593f"
    }
   },
   "order": [
@@ -218,7 +239,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_26c2f4593f",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -291,10 +312,10 @@
    "build": 1.042,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 1,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 0
+    "wins": 3
    },
    "color": "#8cff3a",
    "costume": [
@@ -348,8 +369,8 @@
    "accessory": "visor",
    "build": 1.035,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -402,11 +423,11 @@
    "accessory": "hood",
    "build": 0.947,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 4,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#3a7bff",
    "costume": [
@@ -459,11 +480,11 @@
    "accessory": "headband",
    "build": 1.058,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 7,
     "tournaments": [],
-    "wins": 0
+    "wins": 2
    },
    "color": "#ffe23d",
    "costume": [
@@ -515,9 +536,9 @@
    "accessory": "spikes",
    "build": 0.961,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -571,8 +592,8 @@
    "accessory": "visor",
    "build": 0.958,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -624,11 +645,11 @@
    "accessory": "ninja_mask",
    "build": 0.991,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#a35cff",
    "costume": [
@@ -681,9 +702,9 @@
    "accessory": "ninja_mask",
    "build": 1.016,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -726,13 +747,818 @@
    "weapons": []
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "underdog",
+   "arena": "Sector Seven",
+   "contact_sheet": "tournaments/cyberpunk_752562980/qa/m001_contact.png",
+   "discoveries": [
+    "tq_c55203c762",
+    "tq_1022e58968",
+    "tq_7c48da60f7",
+    "tq_177692ad9c",
+    "tq_fcc0978172",
+    "tq_941d3b6c94"
+   ],
+   "final_point_t": 78.292,
+   "intro_seconds": 10.35,
+   "ko_video_t": 108.41666666666666,
+   "points": [
+    {
+     "abs_t": 29.275,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 25.675,
+     "tech": "tq_eb00689759",
+     "tech_name": "Cascade Dashing Palm"
+    },
+    {
+     "abs_t": 50.825,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 47.225,
+     "tech": "tq_131068a48e",
+     "tech_name": "CHAIN CHARGED RAY"
+    },
+    {
+     "abs_t": 70.95,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 67.35,
+     "tech": "tq_b30a967113",
+     "tech_name": "Snare Mono Reaper"
+    },
+    {
+     "abs_t": 81.8917,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 78.292,
+     "tech": "tq_008dc9c2e0",
+     "tech_name": "SNARE LASHING PILLAR"
+    }
+   ],
+   "render_seconds": 247.6,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 7,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 1,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 38,
+     "minor": 19,
+     "points": 3,
+     "projectiles": 20,
+     "significant": 7,
+     "techniques": 64,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 11,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 10,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 24,
+     "minor": 10,
+     "points": 1,
+     "projectiles": 23,
+     "significant": 2,
+     "techniques": 43,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "b10e0343cab9ae88e703d0988494ef11dac71f7376597483f0ed89c24169cdd7",
+   "video": "exports/cyberpunk_752562980/round_01/match_001.mp4",
+   "video_frames": 7145,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 119.083,
+   "winner": "ftr_71572f9ded"
+  },
+  "m002": {
+   "archetype": "counter_clinic",
+   "arena": "Sector Seven",
+   "contact_sheet": "tournaments/cyberpunk_752562980/qa/m002_contact.png",
+   "discoveries": [
+    "tq_f59db338d9",
+    "tq_7ec2180b90",
+    "tq_f789a18cd3",
+    "tq_422b97600d",
+    "tq_50b5f5cee1",
+    "tq_92d6a0abc8",
+    "tq_4404c0299e",
+    "tq_87820f1668",
+    "tq_9773c4beb9",
+    "tq_2837fa7e32",
+    "tq_d96ed5ef38"
+   ],
+   "final_point_t": 96.183,
+   "intro_seconds": 0.0,
+   "ko_video_t": 124.16666666666667,
+   "points": [
+    {
+     "abs_t": 34.7417,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 31.142,
+     "tech": "tq_f4e1ee29c0",
+     "tech_name": "Charged Piercing Twin Glaive"
+    },
+    {
+     "abs_t": 56.65,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 53.05,
+     "tech": "tq_f62528d8e8",
+     "tech_name": "Cascade Targeting Glaive"
+    },
+    {
+     "abs_t": 76.8083,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 73.208,
+     "tech": "tq_f62528d8e8",
+     "tech_name": "Cascade Targeting Glaive"
+    },
+    {
+     "abs_t": 84.35,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 80.75,
+     "tech": "tq_92d6a0abc8",
+     "tech_name": "Chain Twin Glaive"
+    },
+    {
+     "abs_t": 99.7833,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 96.183,
+     "tech": "tq_c40567d29d",
+     "tech_name": "RETRACTABLE NOVA"
+    }
+   ],
+   "render_seconds": 273.2,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 2,
+     "combo": 7,
+     "counters": 4,
+     "discoveries": 6,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 37,
+     "minor": 10,
+     "points": 3,
+     "projectiles": 8,
+     "significant": 13,
+     "techniques": 76,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 19,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 10,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 51,
+     "minor": 25,
+     "points": 2,
+     "projectiles": 8,
+     "significant": 2,
+     "techniques": 59,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "657f94dee8c79d7744817c0667bd681e9c20b41ce47ff5d72f0c108696fff7e3",
+   "video": "exports/cyberpunk_752562980/round_01/match_002.mp4",
+   "video_frames": 8090,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 134.833,
+   "winner": "ftr_4f50a00640"
+  },
+  "m003": {
+   "archetype": "high_speed_duel",
+   "arena": "Sector Seven",
+   "contact_sheet": "tournaments/cyberpunk_752562980/qa/m003_contact.png",
+   "discoveries": [
+    "tq_200c4e5b5e",
+    "tq_b1b1149b03",
+    "tq_7f896bc55c",
+    "tq_6212ac967c",
+    "tq_6ee7df6239",
+    "tq_4793066bfc",
+    "tq_d9b2f3b700"
+   ],
+   "final_point_t": 64.542,
+   "intro_seconds": 0.0,
+   "ko_video_t": 82.0,
+   "points": [
+    {
+     "abs_t": 25.5167,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 21.917,
+     "tech": "tq_1d70ead950",
+     "tech_name": "Cascade Hydraulic Ram"
+    },
+    {
+     "abs_t": 45.1583,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 41.558,
+     "tech": "tq_9c43257e9e",
+     "tech_name": "Charged Cascade Piston Crescent"
+    },
+    {
+     "abs_t": 68.1417,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 64.542,
+     "tech": "tq_1d70ead950",
+     "tech_name": "Cascade Hydraulic Ram"
+    }
+   ],
+   "render_seconds": 201.8,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 23,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 5,
+     "hits": 55,
+     "minor": 19,
+     "points": 3,
+     "projectiles": 1,
+     "significant": 5,
+     "techniques": 58,
+     "ultimates": 1
+    },
+    {
+     "blocked": 1,
+     "combo": 1,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 8,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 12,
+     "minor": 10,
+     "points": 0,
+     "projectiles": 1,
+     "significant": 1,
+     "techniques": 43,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "45281faa33a98db600279a197848c78cd469a0536b8edd832bd8248b7eeb540c",
+   "video": "exports/cyberpunk_752562980/round_01/match_003.mp4",
+   "video_frames": 5561,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 92.683,
+   "winner": "ftr_1300a82c32"
+  },
+  "m004": {
+   "archetype": "high_speed_duel",
+   "arena": "Sector Seven",
+   "contact_sheet": "tournaments/cyberpunk_752562980/qa/m004_contact.png",
+   "discoveries": [
+    "tq_7f71013701",
+    "tq_35895d1de6",
+    "tq_e891e5de31",
+    "tq_364240ff44",
+    "tq_050f1cfd7e",
+    "tq_88b933e132",
+    "tq_7949c372e2"
+   ],
+   "final_point_t": 71.508,
+   "intro_seconds": 0.0,
+   "ko_video_t": 94.03333333333333,
+   "points": [
+    {
+     "abs_t": 14.5667,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 10.967,
+     "tech": "tq_26247fc7f2",
+     "tech_name": "Triple Neon Shot"
+    },
+    {
+     "abs_t": 39.7333,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 36.133,
+     "tech": "tq_caa7f2df41",
+     "tech_name": "Piercing Razor Edge"
+    },
+    {
+     "abs_t": 75.1083,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 71.508,
+     "tech": "tq_caa7f2df41",
+     "tech_name": "Piercing Razor Edge"
+    }
+   ],
+   "render_seconds": 211.1,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 30,
+     "counters": 5,
+     "discoveries": 1,
+     "dodges": 1,
+     "fusions": 0,
+     "guard_breaks": 9,
+     "hits": 65,
+     "minor": 18,
+     "points": 3,
+     "projectiles": 14,
+     "significant": 5,
+     "techniques": 64,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 2,
+     "counters": 1,
+     "discoveries": 6,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 10,
+     "minor": 7,
+     "points": 0,
+     "projectiles": 2,
+     "significant": 1,
+     "techniques": 51,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "f29e0a9728255d8ec2b28dba6171eb79587fdba54c9d9baa006eeea991e6e7e3",
+   "video": "exports/cyberpunk_752562980/round_01/match_004.mp4",
+   "video_frames": 6282,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 104.7,
+   "winner": "ftr_26c2f4593f"
+  },
+  "m005": {
+   "archetype": "rivalry",
+   "arena": "Megacorp Tower Roof",
+   "contact_sheet": "tournaments/cyberpunk_752562980/qa/m005_contact.png",
+   "discoveries": [
+    "tq_8027cf9cc6",
+    "tq_7457cc9469",
+    "tq_ff3599344a",
+    "tq_6c06baeff4",
+    "tq_d8cfe22157",
+    "tq_3b6d576be4",
+    "tq_775810d793",
+    "tq_68e4404e62"
+   ],
+   "final_point_t": 79.992,
+   "intro_seconds": 5.0,
+   "ko_video_t": 106.81666666666666,
+   "points": [
+    {
+     "abs_t": 26.0,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 22.4,
+     "tech": "tq_461a971e41",
+     "tech_name": "Live-Wire Suplex"
+    },
+    {
+     "abs_t": 46.2,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 42.6,
+     "tech": "tq_c40567d29d",
+     "tech_name": "RETRACTABLE NOVA"
+    },
+    {
+     "abs_t": 64.2583,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 60.658,
+     "tech": "tq_461a971e41",
+     "tech_name": "Live-Wire Suplex"
+    },
+    {
+     "abs_t": 83.5917,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 79.992,
+     "tech": "tq_b30a967113",
+     "tech_name": "Snare Mono Reaper"
+    }
+   ],
+   "render_seconds": 250.4,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 1,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 1,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 35,
+     "minor": 15,
+     "points": 3,
+     "projectiles": 22,
+     "significant": 12,
+     "techniques": 66,
+     "ultimates": 1
+    },
+    {
+     "blocked": 0,
+     "combo": 6,
+     "counters": 4,
+     "discoveries": 6,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 24,
+     "minor": 8,
+     "points": 1,
+     "projectiles": 4,
+     "significant": 8,
+     "techniques": 40,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "3039f719caef3681f3ba9cfbbf2c7510d77ffdd303ff9facd3fa77b7deda1f29",
+   "video": "exports/cyberpunk_752562980/semifinals/match_005.mp4",
+   "video_frames": 7050,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 117.5,
+   "winner": "ftr_71572f9ded"
+  },
+  "m006": {
+   "archetype": "high_speed_duel",
+   "arena": "Megacorp Tower Roof",
+   "contact_sheet": "tournaments/cyberpunk_752562980/qa/m006_contact.png",
+   "discoveries": [
+    "tq_558f16e43b",
+    "tq_a80b8b9b47",
+    "tq_66e2c2ea5f",
+    "tq_dfbdf9c2d3",
+    "tq_f3eeb88308"
+   ],
+   "final_point_t": 64.2,
+   "intro_seconds": 0.0,
+   "ko_video_t": 81.4,
+   "points": [
+    {
+     "abs_t": 16.7917,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 13.192,
+     "tech": "tq_caa7f2df41",
+     "tech_name": "Piercing Razor Edge"
+    },
+    {
+     "abs_t": 42.425,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 38.825,
+     "tech": "tq_caa7f2df41",
+     "tech_name": "Piercing Razor Edge"
+    },
+    {
+     "abs_t": 67.8,
+     "final": true,
+     "score": [
+      0,
+      3
+     ],
+     "scorer": 1,
+     "t": 64.2,
+     "tech": "tq_83e2d93d57",
+     "tech_name": "NEON BURST"
+    }
+   ],
+   "render_seconds": 210.4,
+   "scores": [
+    0,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 1,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 1,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 11,
+     "minor": 8,
+     "points": 0,
+     "projectiles": 0,
+     "significant": 2,
+     "techniques": 53,
+     "ultimates": 0
+    },
+    {
+     "blocked": 0,
+     "combo": 22,
+     "counters": 6,
+     "discoveries": 3,
+     "dodges": 2,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 52,
+     "minor": 22,
+     "points": 3,
+     "projectiles": 20,
+     "significant": 2,
+     "techniques": 60,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "5c5e28094de5dc0abff96a7976e8b0eb528c9c16dd2d94b9001907fbd8450168",
+   "video": "exports/cyberpunk_752562980/semifinals/match_006.mp4",
+   "video_frames": 5524,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 92.067,
+   "winner": "ftr_26c2f4593f"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "The Black Core",
+   "contact_sheet": "tournaments/cyberpunk_752562980/qa/m007_contact.png",
+   "discoveries": [
+    "tq_00a1aab0e6",
+    "tq_f4d01a0fda",
+    "tq_797910d88b",
+    "tq_05d17d7f38",
+    "tq_94d1226ac9"
+   ],
+   "final_point_t": 73.025,
+   "intro_seconds": 5.0,
+   "ko_video_t": 100.18333333333334,
+   "points": [
+    {
+     "abs_t": 29.2917,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 25.692,
+     "tech": "tq_0ba369f420",
+     "tech_name": "Charged Piercing Neon Shot"
+    },
+    {
+     "abs_t": 51.5583,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 47.958,
+     "tech": "tq_83e2d93d57",
+     "tech_name": "NEON BURST"
+    },
+    {
+     "abs_t": 66.7333,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 0,
+     "t": 63.133,
+     "tech": "tq_01ce163b80",
+     "tech_name": "Cascade Swift Kick"
+    },
+    {
+     "abs_t": 76.625,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 73.025,
+     "tech": "tq_94d1226ac9",
+     "tech_name": "Razor Bind"
+    }
+   ],
+   "render_seconds": 248.5,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 7,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 3,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 33,
+     "minor": 16,
+     "points": 1,
+     "projectiles": 16,
+     "significant": 8,
+     "techniques": 58,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 10,
+     "counters": 5,
+     "discoveries": 2,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 32,
+     "minor": 10,
+     "points": 3,
+     "projectiles": 8,
+     "significant": 5,
+     "techniques": 47,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "bbcbbc9478749f55ca2a8b3c4bd847efbb53aa5136929952e24f7b14db501fc4",
+   "video": "exports/cyberpunk_752562980/final/match_007.mp4",
+   "video_frames": 7012,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 116.867,
+   "winner": "ftr_26c2f4593f"
+  }
+ },
  "name": "Cyberpunk",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "cyberpunk_752562980",
- "steps": {},
+ "steps": {
+  "complete": "exports/cyberpunk_752562980/complete_tournament.mp4",
+  "highlights": "exports/cyberpunk_752562980/highlights.mp4",
+  "intro_bracket_01": {
+   "frames": 300,
+   "path": "tournaments/cyberpunk_752562980/intros/bracket_01.mp4"
+  },
+  "intro_bracket_02": {
+   "frames": 300,
+   "path": "tournaments/cyberpunk_752562980/intros/bracket_02.mp4"
+  },
+  "intro_bracket_03": {
+   "frames": 300,
+   "path": "tournaments/cyberpunk_752562980/intros/bracket_03.mp4"
+  },
+  "intro_roster": {
+   "frames": 321,
+   "path": "tournaments/cyberpunk_752562980/intros/roster.mp4"
+  },
+  "outro_champion": {
+   "frames": 360,
+   "path": "tournaments/cyberpunk_752562980/intros/champion.mp4"
+  }
+ },
  "theme": "cyberpunk",
- "updated": "2026-11-16T17:25:31",
+ "updated": "2026-11-16T17:55:09",
  "version": 1
 }

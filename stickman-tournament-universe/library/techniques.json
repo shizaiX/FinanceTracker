@@ -1,5 +1,5 @@
 {
- "count": 955,
+ "count": 1004,
  "items": {
   "tq_004a86fadf": {
    "abilities": [
@@ -206,6 +206,82 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_00a1aab0e6": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-16T17:49:04",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.8,
+     "opp_zoning": 0.2
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m007",
+    "t": 16.48,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_00a1aab0e6",
+   "kind": "env",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "backstep",
+   "name": "Charged Delayed Mono Spire",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay": 0.77,
+    "dmg": 16.36,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 23.8,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.384,
+    "stages": 1,
+    "startup": 0.611,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "backstep",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_00ea8f41ea": {
@@ -1325,6 +1401,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_050f1cfd7e": {
+   "abilities": [
+    "ab_d09f3e9b2c"
+   ],
+   "ability_names": [
+    "Nano Shield"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-16T17:37:44",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.79,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_121ac33d61",
+    "match": "m004",
+    "t": 57.42,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_050f1cfd7e",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "slide",
+   "name": "Hexagonal Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.347,
+    "stages": 1,
+    "startup": 0.176,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d09f3e9b2c"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "slide",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_055f978d89": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -1378,6 +1521,73 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_05d17d7f38": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-16T17:49:04",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.03,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.23
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m007",
+    "t": 61.82,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_05d17d7f38",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Live-Wire Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_05d4aaeafe": {
@@ -4232,6 +4442,74 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_1022e58968": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T17:25:31",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 1.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.25,
+     "opp_zoning": 0.75
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m001",
+    "t": 5.26,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_1022e58968",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Lashing Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.42,
+    "reach": 0.7,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.204,
+    "stun": 1.0,
+    "travel": 9.259454627568514,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "charge",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_1045bbb168": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -6813,6 +7091,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_177692ad9c": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-16T17:25:32",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 4.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.25,
+     "opp_zoning": 0.75
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m001",
+    "t": 52.52,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_177692ad9c",
+   "kind": "env",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Lashing Spire",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "delay": 0.77,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 16.42,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.384,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_18216a49c4": {
    "abilities": [
     "ab_e33ef84aee"
@@ -8966,6 +9317,74 @@
      "absorb"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_200c4e5b5e": {
+   "abilities": [
+    "ab_3d83d43f1a"
+   ],
+   "ability_names": [
+    "Drone Swarm"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-16T17:34:19",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 1.36,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_8819d76f8d",
+    "match": "m003",
+    "t": 2.67,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_200c4e5b5e",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Swarming Crash",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 18.47,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.29,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_3d83d43f1a"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "leap",
     "timing": "instant"
    },
    "tier": "infused",
@@ -11550,6 +11969,85 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_2837fa7e32": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:29:43",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 4.03,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.65,
+     "opp_zoning": 0.35
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m002",
+    "t": 86.66,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_2837fa7e32",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed",
+    "split"
+   ],
+   "movement": "dash",
+   "name": "Charged Delayed Chrome Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 3,
+    "detonate": 0.75,
+    "dmg": 12.06,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 17.23,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.426,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed",
+     "split"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 2
   },
   "tq_284afe5b74": {
    "abilities": [
@@ -14427,6 +14925,78 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_35895d1de6": {
+   "abilities": [
+    "ab_d09f3e9b2c"
+   ],
+   "ability_names": [
+    "Nano Shield"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T17:37:44",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.1,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.55,
+     "opp_zoning": 0.45
+    },
+    "fighter": "ftr_121ac33d61",
+    "match": "m004",
+    "t": 24.26,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_35895d1de6",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "backstep",
+   "name": "Reflecting Reactive Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.306,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.052,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d09f3e9b2c"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_35e670b90a": {
    "abilities": [],
    "ability_names": [],
@@ -14714,6 +15284,82 @@
     "modifiers": [
      "multistage",
      "pierce"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_364240ff44": {
+   "abilities": [
+    "ab_d09f3e9b2c"
+   ],
+   "ability_names": [
+    "Nano Shield"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-16T17:37:44",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.11,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_121ac33d61",
+    "match": "m004",
+    "t": 56.5,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_364240ff44",
+   "kind": "env",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Hexagonal Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay": 0.42,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 16.42,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.388,
+    "stages": 1,
+    "startup": 0.311,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d09f3e9b2c"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify",
+     "trap"
     ],
     "movement": "none",
     "timing": "instant"
@@ -15809,6 +16455,84 @@
    },
    "tier": "infused",
    "timing": "feint",
+   "variant": 2
+  },
+  "tq_3b6d576be4": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 1.35,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m005",
+    "t": 67.44,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_3b6d576be4",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Lashing Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 2
   },
   "tq_3b789dd73b": {
@@ -17528,6 +18252,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_422b97600d": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T17:29:42",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 0.59,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.71,
+     "opp_zoning": 0.29
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m002",
+    "t": 19.62,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_422b97600d",
+   "kind": "stance",
+   "modifiers": [
+    "absorb"
+   ],
+   "movement": "none",
+   "name": "Devouring Retractable Parry",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_425e8dece5": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -17966,6 +18762,74 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_4404c0299e": {
+   "abilities": [
+    "ab_b42e7257a9"
+   ],
+   "ability_names": [
+    "Optic Laser"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T17:29:43",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 0.97,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.88,
+     "opp_zoning": 0.12
+    },
+    "fighter": "ftr_d1a75f9202",
+    "match": "m002",
+    "t": 61.72,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_4404c0299e",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Burning Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.28,
+    "reach": 0.7,
+    "recovery": 0.331,
+    "stages": 1,
+    "startup": 0.19,
+    "stun": 1.0,
+    "travel": 10.187615030025428,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b42e7257a9"
+    ],
+    "delivery": "charge",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_4430373812": {
    "abilities": [
@@ -18518,6 +19382,81 @@
    "tier": "infused",
    "timing": "feint",
    "variant": 0
+  },
+  "tq_4793066bfc": {
+   "abilities": [
+    "ab_4d7ecb9f90"
+   ],
+   "ability_names": [
+    "Chrome Fist"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-16T17:34:19",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.34,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.97,
+     "opp_zoning": 0.03
+    },
+    "fighter": "ftr_1300a82c32",
+    "match": "m003",
+    "t": 39.88,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_4793066bfc",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Chain Piston Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 9.94,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.66,
+    "reach": 0.95,
+    "recovery": 0.214,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.114,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_4d7ecb9f90"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_4797156ed5": {
    "abilities": [
@@ -20957,6 +21896,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_50b5f5cee1": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T17:29:42",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.75,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m002",
+    "t": 24.72,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_50b5f5cee1",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Snare Chrome Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.2,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.329,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_50bb89d4fe": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -21950,6 +22962,73 @@
    },
    "tier": "fusion",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_558f16e43b": {
+   "abilities": [
+    "ab_4d7ecb9f90"
+   ],
+   "ability_names": [
+    "Chrome Fist"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-16T17:45:31",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 2.52,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_1300a82c32",
+    "match": "m006",
+    "t": 2.43,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_558f16e43b",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Hydraulic Bind",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 24.84,
+    "reach": 0.85,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.114,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_4d7ecb9f90"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_56795b53d0": {
@@ -23821,6 +24900,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_6212ac967c": {
+   "abilities": [
+    "ab_3d83d43f1a"
+   ],
+   "ability_names": [
+    "Drone Swarm"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-16T17:34:19",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.96,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_8819d76f8d",
+    "match": "m003",
+    "t": 34.82,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_6212ac967c",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Buzzing Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.334,
+    "stages": 1,
+    "startup": 0.164,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_3d83d43f1a"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_6298b1651a": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -24859,6 +26010,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_66e2c2ea5f": {
+   "abilities": [
+    "ab_4d7ecb9f90"
+   ],
+   "ability_names": [
+    "Chrome Fist"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-16T17:45:31",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 0.7,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_1300a82c32",
+    "match": "m006",
+    "t": 5.82,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_66e2c2ea5f",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Piston Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.39,
+    "reach": 0.85,
+    "recovery": 0.35,
+    "stages": 2,
+    "startup": 0.143,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_4d7ecb9f90"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_675d1c682f": {
    "abilities": [
     "ab_9408408bac"
@@ -25147,6 +26369,74 @@
      "absorb",
      "shield"
     ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_68e4404e62": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 9.01,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.47,
+     "opp_zoning": 0.53
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m005",
+    "t": 75.0,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_68e4404e62",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Retractable Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 19.01,
+    "reach": 0.7,
+    "recovery": 0.334,
+    "stages": 1,
+    "startup": 0.193,
+    "stun": 1.0,
+    "travel": 9.96368405761644,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "charge",
+    "modifiers": [],
     "movement": "none",
     "timing": "instant"
    },
@@ -25910,6 +27200,78 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_6c06baeff4": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 1.1,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.53,
+     "opp_zoning": 0.47
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m005",
+    "t": 56.76,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_6c06baeff4",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Twin Ram",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 19.01,
+    "reach": 0.7,
+    "recovery": 0.334,
+    "stages": 2,
+    "startup": 0.193,
+    "stun": 1.0,
+    "travel": 9.96368405761644,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_6c1aea198a": {
@@ -26808,6 +28170,77 @@
     "delivery": "punch",
     "modifiers": [
      "multistage"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_6ee7df6239": {
+   "abilities": [
+    "ab_3d83d43f1a"
+   ],
+   "ability_names": [
+    "Drone Swarm"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T17:34:19",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.43,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_8819d76f8d",
+    "match": "m003",
+    "t": 35.45,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_6ee7df6239",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Piercing Hunter Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 1.65,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.184,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_3d83d43f1a"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
     ],
     "movement": "step",
     "timing": "instant"
@@ -28056,6 +29489,81 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7457cc9469": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.32,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.53,
+     "opp_zoning": 0.47
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m005",
+    "t": 49.77,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_7457cc9469",
+   "kind": "stance",
+   "modifiers": [
+    "reflect",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Twin Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "reflect": true,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_746a9a8be7": {
    "abilities": [
     "ab_37a318af5a"
@@ -29004,6 +30512,73 @@
    "timing": "multi_hit",
    "variant": 0
   },
+  "tq_775810d793": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 8.03,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.49,
+     "opp_zoning": 0.51
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m005",
+    "t": 72.09,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_775810d793",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Twin Flurry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 3.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 0.95,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.097,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_77a59f10f7": {
    "abilities": [
     "ab_e33ef84aee"
@@ -29294,6 +30869,149 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_7949c372e2": {
+   "abilities": [
+    "ab_d09f3e9b2c"
+   ],
+   "ability_names": [
+    "Nano Shield"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-16T17:37:44",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 0.62,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.78,
+     "opp_zoning": 0.22
+    },
+    "fighter": "ftr_121ac33d61",
+    "match": "m004",
+    "t": 70.9,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_7949c372e2",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Cascade Nano Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 14.36,
+    "reach": 0.85,
+    "recovery": 0.368,
+    "stages": 2,
+    "startup": 0.156,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d09f3e9b2c"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_797910d88b": {
+   "abilities": [
+    "ab_fdc06d2d56"
+   ],
+   "ability_names": [
+    "Neon Katana"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T17:49:04",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.51,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_26c2f4593f",
+    "match": "m007",
+    "t": 43.57,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_797910d88b",
+   "kind": "stance",
+   "modifiers": [
+    "absorb"
+   ],
+   "movement": "none",
+   "name": "Devouring Neon Parry",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_fdc06d2d56"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_7987bd8757": {
@@ -29920,6 +31638,78 @@
     ],
     "delivery": "explosion",
     "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_7c48da60f7": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-16T17:25:31",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 1.28,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.22,
+     "opp_zoning": 0.78
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m001",
+    "t": 15.06,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_7c48da60f7",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Lashing Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
     "movement": "none",
     "timing": "instant"
    },
@@ -30924,6 +32714,81 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7ec2180b90": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T17:29:42",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 3.08,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m002",
+    "t": 13.19,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_7ec2180b90",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "shield"
+   ],
+   "movement": "backstep",
+   "name": "Guarded Chrome Riposte",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "shield"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_7ec53a8d9d": {
    "abilities": [
     "ab_e33ef84aee"
@@ -31127,6 +32992,153 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7f71013701": {
+   "abilities": [
+    "ab_d09f3e9b2c"
+   ],
+   "ability_names": [
+    "Nano Shield"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:37:43",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_121ac33d61",
+    "match": "m004",
+    "t": 7.54,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_7f71013701",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Feint Reactive Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.5,
+    "cost": 14,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.228,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d09f3e9b2c"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
+  },
+  "tq_7f896bc55c": {
+   "abilities": [
+    "ab_3d83d43f1a"
+   ],
+   "ability_names": [
+    "Drone Swarm"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T17:34:19",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.74,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.93,
+     "opp_zoning": 0.07
+    },
+    "fighter": "ftr_8819d76f8d",
+    "match": "m003",
+    "t": 31.44,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_7f896bc55c",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "aerial_dash",
+   "name": "Charged Piercing Hunter Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 42,
+    "dmg": 16.36,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.83,
+    "reach": 1.65,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.368,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_3d83d43f1a"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "aerial_dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_7fa336136e": {
    "abilities": [
     "ab_c2263f9e8c"
@@ -31262,6 +33274,83 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 3
+  },
+  "tq_8027cf9cc6": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 0.46,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.32,
+     "opp_zoning": 0.68
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m005",
+    "t": 18.0,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_8027cf9cc6",
+   "kind": "projectile",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Chrome Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 12.06,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 17.23,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.426,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
   },
   "tq_8061f94314": {
    "abilities": [
@@ -33773,6 +35862,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_87820f1668": {
+   "abilities": [
+    "ab_b42e7257a9"
+   ],
+   "ability_names": [
+    "Optic Laser"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-16T17:29:43",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 3.76,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_d1a75f9202",
+    "match": "m002",
+    "t": 68.91,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_87820f1668",
+   "kind": "beam",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "teleport",
+   "name": "Charged Piercing Burning Ray",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.9,
+    "cost": 36,
+    "dmg": 4.7,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 8.61,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.762,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b42e7257a9"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "teleport",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 1
+  },
   "tq_8785a56269": {
    "abilities": [
     "ab_d2779be2be"
@@ -34015,6 +36176,73 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_88b933e132": {
+   "abilities": [
+    "ab_d09f3e9b2c"
+   ],
+   "ability_names": [
+    "Nano Shield"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-16T17:37:44",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.05,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.77,
+     "opp_zoning": 0.23
+    },
+    "fighter": "ftr_121ac33d61",
+    "match": "m004",
+    "t": 61.52,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_88b933e132",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Hexagonal Meteor Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.39,
+    "reach": 1.1,
+    "recovery": 0.225,
+    "stages": 1,
+    "startup": 0.104,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d09f3e9b2c"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_88d40087af": {
@@ -36334,6 +38562,80 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_92d6a0abc8": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T17:29:43",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.55,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.69,
+     "opp_zoning": 0.31
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m002",
+    "t": 60.69,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_92d6a0abc8",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Chain Twin Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.63,
+    "reach": 1.12,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.184,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_93075bb48f": {
    "abilities": [
     "ab_d09f3e9b2c"
@@ -36758,6 +39060,84 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_941d3b6c94": {
+   "abilities": [
+    "ab_81b962a721"
+   ],
+   "ability_names": [
+    "Rail Rifle"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:25:32",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 6.21,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.43,
+     "opp_zoning": 0.57
+    },
+    "fighter": "ftr_ccc4196e94",
+    "match": "m001",
+    "t": 62.74,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_941d3b6c94",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Feint Snare Charged Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.32,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 11.88,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 11.55,
+    "stages": 1,
+    "startup": 0.216,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_81b962a721"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 3
+  },
   "tq_943b1eadbb": {
    "abilities": [
     "ab_a32aa0acc5"
@@ -37095,6 +39475,73 @@
    "tier": "ultimate",
    "timing": "finisher",
    "variant": 2
+  },
+  "tq_94d1226ac9": {
+   "abilities": [
+    "ab_fdc06d2d56"
+   ],
+   "ability_names": [
+    "Neon Katana"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-16T17:49:05",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 3.62,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.53,
+     "opp_zoning": 0.47
+    },
+    "fighter": "ftr_26c2f4593f",
+    "match": "m007",
+    "t": 70.2,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_94d1226ac9",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Razor Bind",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_fdc06d2d56"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_94d65d38ae": {
    "abilities": [
@@ -37748,6 +40195,74 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_9773c4beb9": {
+   "abilities": [
+    "ab_b42e7257a9"
+   ],
+   "ability_names": [
+    "Optic Laser"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T17:29:43",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.92,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.87,
+     "opp_zoning": 0.13
+    },
+    "fighter": "ftr_d1a75f9202",
+    "match": "m002",
+    "t": 70.64,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_9773c4beb9",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Red-Eye Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b42e7257a9"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_97886837c0": {
    "abilities": [
@@ -40771,6 +43286,83 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_a80b8b9b47": {
+   "abilities": [
+    "ab_fdc06d2d56"
+   ],
+   "ability_names": [
+    "Neon Katana"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:45:31",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 2.37,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_26c2f4593f",
+    "match": "m006",
+    "t": 4.48,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_a80b8b9b47",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Rapid Grand Razor Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 5.2,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 7.42,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.234,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_fdc06d2d56"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 1
+  },
   "tq_a8e6bd4d11": {
    "abilities": [
     "ab_e33ef84aee"
@@ -42805,6 +45397,73 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_b1b1149b03": {
+   "abilities": [
+    "ab_4d7ecb9f90"
+   ],
+   "ability_names": [
+    "Chrome Fist"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-16T17:34:19",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 2.36,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_1300a82c32",
+    "match": "m003",
+    "t": 7.89,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_b1b1149b03",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Feint Chrome Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.15,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 1,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_4d7ecb9f90"
+    ],
+    "delivery": "kick",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
   },
   "tq_b20068d760": {
    "abilities": [
@@ -47556,6 +50215,73 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_c55203c762": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-16T17:25:31",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 1.25,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m001",
+    "t": 3.25,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_c55203c762",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Mono Rush",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 3.08,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.13,
+    "reach": 0.95,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.102,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_c6104833c0": {
    "abilities": [
     "ab_23c7b1db88"
@@ -51520,6 +54246,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_d8cfe22157": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.81,
+     "opp_zoning": 0.19
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m005",
+    "t": 58.12,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_d8cfe22157",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Snare Mono Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.344,
+    "stages": 1,
+    "startup": 0.173,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_d92b899c8a": {
    "abilities": [],
    "ability_names": [],
@@ -51693,6 +54491,144 @@
     "delivery": "summon_weapon",
     "modifiers": [],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_d96ed5ef38": {
+   "abilities": [
+    "ab_b42e7257a9"
+   ],
+   "ability_names": [
+    "Optic Laser"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-16T17:29:43",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.66,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.87,
+     "opp_zoning": 0.13
+    },
+    "fighter": "ftr_d1a75f9202",
+    "match": "m002",
+    "t": 94.81,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_d96ed5ef38",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Red-Eye Talon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.2,
+    "reach": 1.1,
+    "recovery": 0.214,
+    "stages": 1,
+    "startup": 0.095,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b42e7257a9"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_d9b2f3b700": {
+   "abilities": [
+    "ab_3d83d43f1a"
+   ],
+   "ability_names": [
+    "Drone Swarm"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-16T17:34:19",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.95,
+     "opp_zoning": 0.05
+    },
+    "fighter": "ftr_8819d76f8d",
+    "match": "m003",
+    "t": 51.01,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_d9b2f3b700",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "aerial_dash",
+   "name": "Piercing Swarming Crescent",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.15,
+    "recovery": 0.275,
+    "stages": 1,
+    "startup": 0.155,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_3d83d43f1a"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "aerial_dash",
     "timing": "instant"
    },
    "tier": "infused",
@@ -53141,6 +56077,78 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_dfbdf9c2d3": {
+   "abilities": [
+    "ab_fdc06d2d56"
+   ],
+   "ability_names": [
+    "Neon Katana"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-16T17:45:31",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 3.03,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.07,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_26c2f4593f",
+    "match": "m006",
+    "t": 8.97,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_dfbdf9c2d3",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Razor Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_fdc06d2d56"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_dfdf7e8f2e": {
    "abilities": [
@@ -55344,6 +58352,77 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_e891e5de31": {
+   "abilities": [
+    "ab_fdc06d2d56"
+   ],
+   "ability_names": [
+    "Neon Katana"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T17:37:44",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.7,
+     "opp_zoning": 0.3
+    },
+    "fighter": "ftr_26c2f4593f",
+    "match": "m004",
+    "t": 43.24,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_e891e5de31",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "leap",
+   "name": "Charged Cascade Razor Edge",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 18.95,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 24.12,
+    "reach": 1.55,
+    "recovery": 0.294,
+    "stages": 2,
+    "startup": 0.368,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_fdc06d2d56"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 1
   },
   "tq_e8a929cb61": {
    "abilities": [
@@ -58367,6 +61446,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_f3eeb88308": {
+   "abilities": [
+    "ab_fdc06d2d56"
+   ],
+   "ability_names": [
+    "Neon Katana"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-16T17:45:31",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.03,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.96,
+     "opp_zoning": 0.04
+    },
+    "fighter": "ftr_26c2f4593f",
+    "match": "m006",
+    "t": 33.2,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_f3eeb88308",
+   "kind": "melee",
+   "modifiers": [
+    "multistage",
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Piercing Neon Blade",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.63,
+    "reach": 1.55,
+    "recovery": 0.294,
+    "stages": 2,
+    "startup": 0.184,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_fdc06d2d56"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "multistage",
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_f41df14a84": {
    "abilities": [
     "ab_83c4d6d552",
@@ -58641,6 +61793,86 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_f4d01a0fda": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:49:04",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.55,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.77,
+     "opp_zoning": 0.23
+    },
+    "fighter": "ftr_71572f9ded",
+    "match": "m007",
+    "t": 43.17,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_f4d01a0fda",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Snare Live-Wire Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_cdd47ae697"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_f4e1ee29c0": {
    "abilities": [
     "ab_2978036b85"
@@ -58762,6 +61994,82 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_f59db338d9": {
+   "abilities": [
+    "ab_b42e7257a9"
+   ],
+   "ability_names": [
+    "Optic Laser"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-16T17:29:42",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 1.02,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_d1a75f9202",
+    "match": "m002",
+    "t": 6.58,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_f59db338d9",
+   "kind": "area",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Delayed Red-Eye Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay_blast": 0.6,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b42e7257a9"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_f5c23acabc": {
    "abilities": [
@@ -59401,6 +62709,73 @@
    "tier": "infused",
    "timing": "charged",
    "variant": 0
+  },
+  "tq_f789a18cd3": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-16T17:29:42",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.92,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.73,
+     "opp_zoning": 0.27
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m002",
+    "t": 16.79,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_f789a18cd3",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Retractable Talon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.82,
+    "reach": 1.1,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.097,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_f8a8ba3e69": {
    "abilities": [],
@@ -60360,6 +63735,84 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_fcc0978172": {
+   "abilities": [
+    "ab_81b962a721"
+   ],
+   "ability_names": [
+    "Rail Rifle"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-16T17:25:32",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.98,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.07,
+     "opp_rushdown": 0.45,
+     "opp_zoning": 0.55
+    },
+    "fighter": "ftr_ccc4196e94",
+    "match": "m001",
+    "t": 58.23,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_fcc0978172",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "dash",
+   "name": "Rapid Chain Charged Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 5.2,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 7.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 11.55,
+    "stages": 1,
+    "startup": 0.238,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_81b962a721"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 3
+  },
   "tq_fcc15f1dd6": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -60698,9 +64151,82 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_ff3599344a": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-16T17:41:18",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.52,
+     "opp_zoning": 0.48
+    },
+    "fighter": "ftr_4f50a00640",
+    "match": "m005",
+    "t": 54.59,
+    "tournament": "cyberpunk_752562980"
+   },
+   "id": "tq_ff3599344a",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Charged Guarded Retractable Ram",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 18.95,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 27.56,
+    "reach": 0.7,
+    "recovery": 0.334,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.387,
+    "stun": 1.0,
+    "travel": 9.96368405761644,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2978036b85"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-16T17:25:31",
+ "updated": "2026-11-16T17:52:22",
  "version": 1
 }
