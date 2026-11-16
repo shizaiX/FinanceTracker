@@ -1,5 +1,5 @@
 {
- "count": 56,
+ "count": 64,
  "items": {
   "ftr_02491fc11c": {
    "abilities": [
@@ -568,6 +568,63 @@
    },
    "weapons": []
   },
+  "ftr_17641b71c4": {
+   "abilities": [
+    "ab_6e48ad3e5a"
+   ],
+   "ability_names": [
+    "Earth Golem"
+   ],
+   "accessory": "hood",
+   "build": 1.032,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "hood",
+    "beard"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_17641b71c4",
+   "name": "EARZARA",
+   "personality": "defensive",
+   "rating": 1.043,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_4898d7a13e",
+    "tq_5a741970de",
+    "tq_9e71559dd3",
+    "tq_9514e2f59c",
+    "tq_489aa4883a",
+    "tq_b4014e1fef",
+    "tq_d049d3d805",
+    "tq_d6784e48e8"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "GRAND TITAN RAY",
+   "stance": "low",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.863,
+    "aggression": 0.359,
+    "caution": 0.759,
+    "counter": 0.53,
+    "creativity": 0.44,
+    "evasive": 0.395,
+    "range": 1.8,
+    "reaction": 0.125,
+    "read": 0.662,
+    "temperature": 0.45
+   },
+   "weapons": [
+    "staff"
+   ]
+  },
   "ftr_1addcf4dde": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -629,6 +686,63 @@
     "read": 0.494,
     "temperature": 0.4
    }
+  },
+  "ftr_1d487fb44b": {
+   "abilities": [
+    "ab_57591f87b0"
+   ],
+   "ability_names": [
+    "Frost Nova"
+   ],
+   "accessory": "wizard_hat",
+   "build": 1.052,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "wizard_hat",
+    "beard"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_1d487fb44b",
+   "name": "FRONOS",
+   "personality": "strategic",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_30b69b0d3b",
+    "tq_a0789b1749",
+    "tq_a3f00b3c96",
+    "tq_f6179780f4",
+    "tq_a2ea71b21c",
+    "tq_8dd96a7be7",
+    "tq_a1218be4ec",
+    "tq_6f7f3e6158"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "GUARDED GLACIAL NOVA",
+   "stance": "upright",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.499,
+    "aggression": 0.572,
+    "caution": 0.571,
+    "counter": 0.467,
+    "creativity": 0.61,
+    "evasive": 0.573,
+    "range": 3.2,
+    "reaction": 0.1,
+    "read": 0.471,
+    "temperature": 0.4
+   },
+   "weapons": [
+    "staff"
+   ]
   },
   "ftr_1f6daced5a": {
    "abilities": [
@@ -1718,6 +1832,63 @@
    },
    "weapons": []
   },
+  "ftr_68c41ef1db": {
+   "abilities": [
+    "ab_3b283219c4"
+   ],
+   "ability_names": [
+    "Wild Growth"
+   ],
+   "accessory": "wizard_hat",
+   "build": 0.96,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "wizard_hat",
+    "beard"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_68c41ef1db",
+   "name": "WILZION",
+   "personality": "unpredictable",
+   "rating": 1.026,
+   "repertoire": [
+    "tq_85ab3c92ba",
+    "tq_9b07e8f0cb",
+    "tq_f9d35c64f0",
+    "tq_2277d77414",
+    "tq_a71c4cc71b",
+    "tq_68a5563c4a",
+    "tq_0a4941924c",
+    "tq_af3e4f4fc4",
+    "tq_cea2fbbd91"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "SNARE BRIAR QUAKE",
+   "stance": "orthodox",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.675,
+    "aggression": 0.603,
+    "caution": 0.386,
+    "counter": 0.444,
+    "creativity": 0.911,
+    "evasive": 0.632,
+    "range": 2.0,
+    "reaction": 0.071,
+    "read": 0.718,
+    "temperature": 1.0
+   },
+   "weapons": [
+    "staff"
+   ]
+  },
   "ftr_69bd43a820": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -2204,6 +2375,63 @@
     "dagger"
    ]
   },
+  "ftr_8d611d6433": {
+   "abilities": [
+    "ab_990b7774d2"
+   ],
+   "ability_names": [
+    "Necromancy"
+   ],
+   "accessory": "wizard_hat",
+   "build": 1.034,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "wizard_hat",
+    "cape"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_8d611d6433",
+   "name": "ABYKARA",
+   "personality": "unpredictable",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_49bf277cb6",
+    "tq_f50abc1e5b",
+    "tq_1253145a16",
+    "tq_1af9736ad4",
+    "tq_637c154466",
+    "tq_6a86d1d774",
+    "tq_07656bb064",
+    "tq_63e3ed891b",
+    "tq_098d47ec87"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "DELAYED HOLLOW SPIRE",
+   "stance": "southpaw",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.643,
+    "aggression": 0.552,
+    "caution": 0.456,
+    "counter": 0.388,
+    "creativity": 0.98,
+    "evasive": 0.597,
+    "range": 2.0,
+    "reaction": 0.076,
+    "read": 0.736,
+    "temperature": 1.0
+   },
+   "weapons": [
+    "staff"
+   ]
+  },
   "ftr_906e079792": {
    "abilities": [
     "ab_a48e55e410",
@@ -2649,6 +2877,63 @@
    },
    "weapons": [
     "cutlass"
+   ]
+  },
+  "ftr_b37fd53043": {
+   "abilities": [
+    "ab_e862609f42"
+   ],
+   "ability_names": [
+    "Chain Lightning"
+   ],
+   "accessory": "wizard_hat",
+   "build": 0.982,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "wizard_hat",
+    "cape"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_b37fd53043",
+   "name": "VOLZETH",
+   "personality": "defensive",
+   "rating": 0.995,
+   "repertoire": [
+    "tq_22fcc57896",
+    "tq_4740876f0d",
+    "tq_35c11b67ad",
+    "tq_491fa26c31",
+    "tq_05b640efc2",
+    "tq_5764a2719b",
+    "tq_a648519009",
+    "tq_36185d6fcd",
+    "tq_c655ff7030"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "CHAIN THUNDER RAY",
+   "stance": "upright",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.405,
+    "aggression": 0.298,
+    "caution": 0.75,
+    "counter": 0.629,
+    "creativity": 0.386,
+    "evasive": 0.345,
+    "range": 1.8,
+    "reaction": 0.127,
+    "read": 0.617,
+    "temperature": 0.45
+   },
+   "weapons": [
+    "staff"
    ]
   },
   "ftr_b567af483e": {
@@ -3145,6 +3430,62 @@
    },
    "weapons": []
   },
+  "ftr_e4e82d9e71": {
+   "abilities": [
+    "ab_e90e6724c8"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "accessory": "wizard_hat",
+   "build": 1.056,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "wizard_hat",
+    "beard",
+    "cape"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_e4e82d9e71",
+   "name": "TELZARA",
+   "personality": "counter",
+   "rating": 1.045,
+   "repertoire": [
+    "tq_57cae987ca",
+    "tq_add83418d0",
+    "tq_3f3e61f974",
+    "tq_77fe111709",
+    "tq_9bde550083",
+    "tq_7ae16c4d5d",
+    "tq_3887bf57a1",
+    "tq_7a1009681b",
+    "tq_cc739ab3f4"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "SNARE SINGULAR NOVA",
+   "stance": "upright",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.786,
+    "aggression": 0.414,
+    "caution": 0.526,
+    "counter": 0.976,
+    "creativity": 0.522,
+    "evasive": 0.413,
+    "range": 1.4,
+    "reaction": 0.139,
+    "read": 0.58,
+    "temperature": 0.5
+   },
+   "weapons": []
+  },
   "ftr_e6842ed598": {
    "abilities": [
     "ab_9408408bac"
@@ -3384,6 +3725,120 @@
     "blunderbuss"
    ]
   },
+  "ftr_f8c83d8398": {
+   "abilities": [
+    "ab_7c1c039513"
+   ],
+   "ability_names": [
+    "Sonic Rune"
+   ],
+   "accessory": "hood",
+   "build": 1.024,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "hood",
+    "cape"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_f8c83d8398",
+   "name": "SONRAX",
+   "personality": "evasive",
+   "rating": 1.004,
+   "repertoire": [
+    "tq_85ab3c92ba",
+    "tq_e6808d88e3",
+    "tq_0bdfd79a9e",
+    "tq_7831bd5d26",
+    "tq_781841b6f2",
+    "tq_ad5df913a0",
+    "tq_7cc97033a8",
+    "tq_44cb44b873",
+    "tq_f39d718afd"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "SONIC SPIRE",
+   "stance": "low",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.423,
+    "aggression": 0.522,
+    "caution": 0.618,
+    "counter": 0.392,
+    "creativity": 0.55,
+    "evasive": 0.892,
+    "range": 2.6,
+    "reaction": 0.087,
+    "read": 0.727,
+    "temperature": 0.6
+   },
+   "weapons": [
+    "wand"
+   ]
+  },
+  "ftr_fa25f68a5b": {
+   "abilities": [
+    "ab_b9dd8e180f"
+   ],
+   "ability_names": [
+    "Arcane Missiles"
+   ],
+   "accessory": "hood",
+   "build": 0.961,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "hood",
+    "cape"
+   ],
+   "created": "2026-11-16T22:35:21",
+   "id": "ftr_fa25f68a5b",
+   "name": "AURRKA",
+   "personality": "aggressive",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_8772a6277e",
+    "tq_eb375a6452",
+    "tq_3feeed986b",
+    "tq_434fd32e42",
+    "tq_cb4ca18bbb",
+    "tq_eba85b554d",
+    "tq_b2e90f81df",
+    "tq_ff7247d752",
+    "tq_61c8804c89"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "GRAND SOLAR HAMMER",
+   "stance": "southpaw",
+   "theme": "wizards",
+   "traits": {
+    "adaptability": 0.591,
+    "aggression": 0.778,
+    "caution": 0.22,
+    "counter": 0.277,
+    "creativity": 0.512,
+    "evasive": 0.273,
+    "range": 1.0,
+    "reaction": 0.077,
+    "read": 0.511,
+    "temperature": 0.55
+   },
+   "weapons": [
+    "wand"
+   ]
+  },
   "ftr_fc577d4a4e": {
    "abilities": [
     "ab_2a2fa292ff"
@@ -3446,6 +3901,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T17:55:09",
+ "updated": "2026-11-16T22:35:21",
  "version": 1
 }

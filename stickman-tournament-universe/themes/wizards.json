@@ -1,0 +1,611 @@
+{
+ "abilities": [
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "beam": 0.6,
+    "charge": 0.7,
+    "env_strike": 0.6,
+    "explosion": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "punch": 0.15,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "flame",
+   "aura": "flame",
+   "colors": [
+    "#fff3b0",
+    "#ff8a1f",
+    "#ff3d00"
+   ],
+   "env_form": "geyser",
+   "id": "ab_c3b153b905",
+   "key": "fireball",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "chain": 0.7,
+    "delayed": 0.9,
+    "split": 0.8,
+    "trap": 0.6
+   },
+   "name": "Fireball",
+   "particle": "flame",
+   "physical": true,
+   "projectile": "orb",
+   "stats": {
+    "control": 0.8,
+    "defense": 0.8,
+    "power": 1.15,
+    "speed": 1.0
+   },
+   "tags": [
+    "heat",
+    "energy",
+    "volatile"
+   ],
+   "theme": "wizards",
+   "voice": "fire",
+   "weapon": "wand",
+   "words": {
+    "adj": [
+     "Blazing",
+     "Infernal",
+     "Scorching",
+     "Cinder"
+    ],
+    "noun": [
+     "Inferno",
+     "Ember",
+     "Blaze",
+     "Pyre",
+     "Flare"
+    ]
+   },
+   "zone": "burning"
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "env_strike": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "punch": 0.1,
+    "slam": 0.7,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "frost",
+   "aura": "frost",
+   "colors": [
+    "#ffffff",
+    "#9fe8ff",
+    "#3a8dde"
+   ],
+   "env_form": "spikes",
+   "id": "ab_57591f87b0",
+   "key": "frost_nova",
+   "mobility": "slide",
+   "mod_affinity": {
+    "pierce": 0.8,
+    "shield": 0.9,
+    "split": 1.0,
+    "trap": 0.9
+   },
+   "name": "Frost Nova",
+   "particle": "shard",
+   "physical": true,
+   "projectile": "shard",
+   "stats": {
+    "control": 1.1,
+    "defense": 1.05,
+    "power": 1.0,
+    "speed": 0.95
+   },
+   "tags": [
+    "cold",
+    "solid",
+    "crystal",
+    "sharp"
+   ],
+   "theme": "wizards",
+   "voice": "ice",
+   "weapon": "staff",
+   "words": {
+    "adj": [
+     "Glacial",
+     "Frozen",
+     "Rime",
+     "Boreal"
+    ],
+    "noun": [
+     "Glacier",
+     "Frost",
+     "Rime",
+     "Shard",
+     "Blizzard"
+    ]
+   },
+   "zone": "frozen"
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "beam": 1.0,
+    "explosion": 0.7,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "radiance",
+   "aura": "ray",
+   "colors": [
+    "#ffffff",
+    "#d8a8ff",
+    "#7a3ad0"
+   ],
+   "env_form": "light_pillar",
+   "id": "ab_b9dd8e180f",
+   "key": "arcane_missiles",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "homing": 0.7,
+    "pierce": 1.0,
+    "reflect": 1.0,
+    "split": 0.8
+   },
+   "name": "Arcane Missiles",
+   "particle": "ray",
+   "physical": true,
+   "projectile": "ray",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.15
+   },
+   "tags": [
+    "radiant",
+    "energy",
+    "fast",
+    "precise"
+   ],
+   "theme": "wizards",
+   "voice": "light",
+   "weapon": "wand",
+   "words": {
+    "adj": [
+     "Solar",
+     "Radiant",
+     "Prism",
+     "Dawn"
+    ],
+    "noun": [
+     "Halo",
+     "Prism",
+     "Sunburst",
+     "Lance",
+     "Aurora"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "beam": 1.0,
+    "charge": 0.9,
+    "env_strike": 0.8,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "punch": 0.15,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "storm",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#bfe9ff",
+    "#4aa8ff"
+   ],
+   "env_form": "sky_strike",
+   "id": "ab_e862609f42",
+   "key": "chain_lightning",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "chain": 1.0,
+    "homing": 0.6,
+    "multistage": 0.9,
+    "pierce": 0.9
+   },
+   "name": "Chain Lightning",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "bolt",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.8,
+    "power": 1.05,
+    "speed": 1.2
+   },
+   "tags": [
+    "electric",
+    "energy",
+    "fast"
+   ],
+   "theme": "wizards",
+   "voice": "electric",
+   "weapon": "staff",
+   "words": {
+    "adj": [
+     "Voltaic",
+     "Thunder",
+     "Arc",
+     "Static"
+    ],
+    "noun": [
+     "Thunder",
+     "Volt",
+     "Arc",
+     "Tempest",
+     "Surge"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "counter": 1.0,
+    "env_strike": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.8,
+    "punch": 0.15,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "umbra",
+   "aura": "wisp",
+   "colors": [
+    "#e6c8ff",
+    "#9d4dff",
+    "#2a0a4a"
+   ],
+   "env_form": "hands",
+   "id": "ab_990b7774d2",
+   "key": "necromancy",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "absorb": 1.0,
+    "delayed": 0.9,
+    "homing": 0.9,
+    "trap": 0.8
+   },
+   "name": "Necromancy",
+   "particle": "wisp",
+   "physical": true,
+   "projectile": "void",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.1
+   },
+   "tags": [
+    "void",
+    "stealth",
+    "bind"
+   ],
+   "theme": "wizards",
+   "voice": "shadow",
+   "weapon": "staff",
+   "words": {
+    "adj": [
+     "Umbral",
+     "Eclipse",
+     "Hollow",
+     "Night"
+    ],
+    "noun": [
+     "Eclipse",
+     "Shade",
+     "Abyss",
+     "Phantom",
+     "Dusk"
+    ]
+   },
+   "zone": "shadow"
+  },
+  {
+   "affinity": {
+    "aerial_strike": 0.8,
+    "explosion": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.7,
+    "slam": 1.0
+   },
+   "archetype": "gravity",
+   "aura": "ring",
+   "colors": [
+    "#ffe3ff",
+    "#d36bff",
+    "#5b1f8a"
+   ],
+   "env_form": "well",
+   "id": "ab_e90e6724c8",
+   "key": "telekinesis",
+   "mobility": "float",
+   "mod_affinity": {
+    "absorb": 0.8,
+    "amplify": 1.0,
+    "delayed": 0.8,
+    "trap": 0.7
+   },
+   "name": "Telekinesis",
+   "particle": "ring",
+   "projectile": "void",
+   "stats": {
+    "control": 1.15,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 0.9
+   },
+   "tags": [
+    "mass",
+    "force",
+    "void",
+    "gravity"
+   ],
+   "theme": "wizards",
+   "voice": "gravity",
+   "words": {
+    "adj": [
+     "Singular",
+     "Graviton",
+     "Crushing",
+     "Event"
+    ],
+    "noun": [
+     "Singularity",
+     "Horizon",
+     "Collapse",
+     "Orbit",
+     "Nova"
+    ]
+   },
+   "zone": "well"
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "charge": 0.8,
+    "env_strike": 1.0,
+    "projectile": 0.6,
+    "punch": 0.15,
+    "slam": 1.0,
+    "summon_weapon": 1.1,
+    "uppercut": 0.15
+   },
+   "archetype": "stone",
+   "aura": "dust",
+   "colors": [
+    "#f0d9a8",
+    "#b0804a",
+    "#5b3a1e"
+   ],
+   "env_form": "pillar",
+   "id": "ab_6e48ad3e5a",
+   "key": "earth_golem",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "multistage": 0.5,
+    "shield": 1.0,
+    "trap": 0.6
+   },
+   "name": "Earth Golem",
+   "particle": "rock",
+   "physical": true,
+   "projectile": "rock",
+   "stats": {
+    "control": 0.9,
+    "defense": 1.2,
+    "power": 1.2,
+    "speed": 0.85
+   },
+   "tags": [
+    "solid",
+    "mass",
+    "ground",
+    "heavy"
+   ],
+   "theme": "wizards",
+   "voice": "earth",
+   "weapon": "staff",
+   "words": {
+    "adj": [
+     "Titan",
+     "Granite",
+     "Tectonic",
+     "Basalt"
+    ],
+    "noun": [
+     "Quake",
+     "Monolith",
+     "Bastion",
+     "Boulder",
+     "Rift"
+    ]
+   },
+   "zone": "cracked"
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "env_strike": 1.0,
+    "grapple": 1.0,
+    "projectile": 0.7,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "sweep": 0.8,
+    "uppercut": 0.1
+   },
+   "archetype": "verdant",
+   "aura": "leaf",
+   "colors": [
+    "#e9ffd0",
+    "#7fd34a",
+    "#2f7d1f"
+   ],
+   "env_form": "vines",
+   "id": "ab_3b283219c4",
+   "key": "wild_growth",
+   "mobility": "glide",
+   "mod_affinity": {
+    "homing": 0.6,
+    "multistage": 0.6,
+    "shield": 0.7,
+    "trap": 1.0
+   },
+   "name": "Wild Growth",
+   "particle": "leaf",
+   "physical": true,
+   "projectile": "seed",
+   "stats": {
+    "control": 1.25,
+    "defense": 1.0,
+    "power": 0.95,
+    "speed": 0.95
+   },
+   "tags": [
+    "organic",
+    "bind",
+    "flexible"
+   ],
+   "theme": "wizards",
+   "voice": "nature",
+   "weapon": "staff",
+   "words": {
+    "adj": [
+     "Thorned",
+     "Verdant",
+     "Wild",
+     "Briar"
+    ],
+    "noun": [
+     "Thorn",
+     "Briar",
+     "Grove",
+     "Root",
+     "Bloom"
+    ]
+   },
+   "zone": "vines"
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "beam": 0.8,
+    "counter": 0.7,
+    "explosion": 1.0,
+    "projectile": 0.9,
+    "punch": 0.15,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "resonance",
+   "aura": "wave",
+   "colors": [
+    "#ffffff",
+    "#ffc2e0",
+    "#ff4f9a"
+   ],
+   "env_form": "burst",
+   "id": "ab_7c1c039513",
+   "key": "sonic_rune",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 1.0,
+    "chain": 0.8,
+    "multistage": 0.7,
+    "reflect": 0.8
+   },
+   "name": "Sonic Rune",
+   "particle": "wave",
+   "physical": true,
+   "projectile": "wave",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.05
+   },
+   "tags": [
+    "wave",
+    "force",
+    "energy"
+   ],
+   "theme": "wizards",
+   "voice": "sound",
+   "weapon": "wand",
+   "words": {
+    "adj": [
+     "Sonic",
+     "Echo",
+     "Resonant",
+     "Shrieking"
+    ],
+    "noun": [
+     "Echo",
+     "Crescendo",
+     "Pulse",
+     "Shockwave",
+     "Chorus"
+    ]
+   },
+   "zone": null
+  }
+ ],
+ "biomes": [
+  "arcane_tower",
+  "enchanted_forest",
+  "starfall_rift"
+ ],
+ "costume_rules": {
+  "extras": [
+   1,
+   2
+  ],
+  "head": 1
+ },
+ "costumes": [
+  "wizard_hat",
+  "hood",
+  "beard",
+  "cape"
+ ],
+ "created": "2026-11-16T22:35:21",
+ "expansions": [],
+ "generated_by": "pack",
+ "key": "wizards",
+ "name": "wizards",
+ "packs": [
+  "wizards"
+ ],
+ "physical_weight": 0.1,
+ "range_mix": 0.65,
+ "schema": "stu.theme",
+ "title": "Arcane",
+ "title_words": [
+  "Arcane Duel",
+  "Spellbinder Cup",
+  "Tower of Mages"
+ ],
+ "updated": "2026-11-16T22:35:21",
+ "version": 1
+}

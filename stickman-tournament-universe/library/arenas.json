@@ -1,5 +1,5 @@
 {
- "count": 21,
+ "count": 24,
  "items": {
   "arena_cyberpunk_752562980_0": {
    "accent": "#ff3dd9",
@@ -602,9 +602,95 @@
    "theme": "pirates",
    "time_of_day": "night",
    "tournament": "seven_seas_brawl_1_77"
+  },
+  "arena_wizards_1938789504_0": {
+   "accent": "#bb7dff",
+   "ambient": "motes",
+   "biome": "arcane_tower",
+   "celestial": "moon",
+   "far": "#160e2e",
+   "far_type": "mountains",
+   "ground": "#282236",
+   "ground_style": "stone",
+   "id": "arena_wizards_1938789504_0",
+   "layout_seed": 1024981366,
+   "lightning": false,
+   "mid": "#20163a",
+   "name": "Tower of Stars",
+   "props": "crystals",
+   "props_list": [
+    "crystals",
+    "monolith",
+    "floating_rock"
+   ],
+   "ships": false,
+   "sky": [
+    "#080318",
+    "#321a6a"
+   ],
+   "theme": "wizards",
+   "time_of_day": "night",
+   "tournament": "wizards_1938789504"
+  },
+  "arena_wizards_1938789504_1": {
+   "accent": "#9ab9ff",
+   "ambient": "stars",
+   "biome": "starfall_rift",
+   "celestial": "moon",
+   "far": "#0a0c24",
+   "far_type": "mountains",
+   "ground": "#07081a",
+   "ground_style": "metal",
+   "id": "arena_wizards_1938789504_1",
+   "layout_seed": 620584091,
+   "lightning": false,
+   "mid": "#151838",
+   "name": "Nebula Rift",
+   "props": "monolith",
+   "props_list": [
+    "monolith",
+    "floating_rock"
+   ],
+   "ships": false,
+   "sky": [
+    "#000004",
+    "#101040"
+   ],
+   "theme": "wizards",
+   "time_of_day": "night",
+   "tournament": "wizards_1938789504"
+  },
+  "arena_wizards_1938789504_2": {
+   "accent": "#a8ffe1",
+   "ambient": "motes",
+   "biome": "enchanted_forest",
+   "celestial": "moon",
+   "far": "#0e2e1d",
+   "far_type": "forest",
+   "ground": "#0a1d10",
+   "ground_style": "grass",
+   "id": "arena_wizards_1938789504_2",
+   "layout_seed": 333215318,
+   "lightning": false,
+   "mid": "#194929",
+   "name": "Faerie Wood",
+   "props": "tree",
+   "props_list": [
+    "tree",
+    "mushroom",
+    "tree"
+   ],
+   "ships": false,
+   "sky": [
+    "#03140b",
+    "#1f5a44"
+   ],
+   "theme": "wizards",
+   "time_of_day": "night",
+   "tournament": "wizards_1938789504"
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-16T17:25:31",
+ "updated": "2026-11-16T22:35:21",
  "version": 1
 }
