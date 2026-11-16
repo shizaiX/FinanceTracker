@@ -1,0 +1,43 @@
+{
+ "title": "Cyberpunk",
+ "title_words": ["Neon Overdrive", "Chrome Circuit", "Night City Brawl"],
+ "physical_weight": 0.15,
+ "abilities": [
+  {"name": "Neon Katana", "archetype": "blade", "weapon": "neon_katana", "origin": "hand", "physical": true, "projectile": "crescent", "env_form": "inherit", "zone": "none", "colors": ["#ffffff", "#ff3df2", "#7a0a8a"], "adjectives": ["Neon", "Glitched", "Razor"], "nouns": ["Slash", "Edge", "Cut"], "description": "A katana with a glowing neon edge."},
+  {"name": "Wrist Blades", "archetype": "blade", "weapon": "wrist_blades", "origin": "hand", "physical": true, "projectile": "inherit", "env_form": "inherit", "zone": "none", "colors": ["#ffffff", "#7af0ff", "#1a5a8a"], "adjectives": ["Retractable", "Chrome", "Twin"], "nouns": ["Slash", "Fang", "Flurry"], "description": "Cyber-implanted blades that spring out of the forearms."},
+  {"name": "Smart Pistol", "archetype": "firearm", "weapon": "smart_pistol", "origin": "hand", "physical": true, "projectile": "bullet", "env_form": "inherit", "zone": "none", "colors": ["#ffffff", "#ffd23f", "#6a4a0a"], "adjectives": ["Target-Locked", "Auto-Aim", "Tracking"], "nouns": ["Shot", "Burst", "Lock"], "description": "A pistol with homing smart rounds."},
+  {"name": "Rail Rifle", "archetype": "firearm", "weapon": "rail_rifle", "origin": "hand", "physical": true, "projectile": "ray", "env_form": "inherit", "zone": "none", "colors": ["#ffffff", "#5fe3ff", "#0a3a6a"], "adjectives": ["Charged", "Magnetic", "Piercing"], "nouns": ["Rail", "Slug", "Lance"], "description": "A magnetic rail rifle that fires through cover."},
+  {"name": "Quickhack", "archetype": "storm", "weapon": "none", "origin": "hand", "physical": false, "projectile": "bolt", "env_form": "sky_strike", "zone": "none", "colors": ["#ffffff", "#3dff9a", "#0a6a3a"], "adjectives": ["Overclocked", "Short-Circuit", "Viral"], "nouns": ["Hack", "Overload", "Glitch"], "description": "Hacks the opponent's implants with data surges."},
+  {"name": "Shock Whip", "archetype": "verdant", "weapon": "none", "origin": "hand", "physical": true, "projectile": "inherit", "env_form": "vines", "zone": "none", "colors": ["#ffffff", "#ff5a5a", "#7a0a1a"], "adjectives": ["Mono", "Live-Wire", "Lashing"], "nouns": ["Whip", "Lash", "Snare"], "description": "A thin electrified cable that wraps and pulls."},
+  {"name": "Chrome Fist", "archetype": "kinetic", "weapon": "gauntlets", "origin": "hand", "physical": true, "projectile": "inherit", "env_form": "inherit", "zone": "none", "colors": ["#ffffff", "#c8d2e0", "#4a5a6a"], "adjectives": ["Hydraulic", "Piston", "Chrome"], "nouns": ["Punch", "Slam", "Breaker"], "description": "Hydraulic cyber-arms that hit like a truck."},
+  {"name": "EMP Grenade", "archetype": "explosive", "weapon": "none", "origin": "hand", "physical": true, "projectile": "bomb", "env_form": "burst", "zone": "none", "colors": ["#ffffff", "#7a8aff", "#1a1a6a"], "adjectives": ["Pulse", "Static", "Blackout"], "nouns": ["Pulse", "Blast", "Surge"], "description": "Electromagnetic grenades that fry circuits."},
+  {"name": "Holo Decoy", "archetype": "umbra", "weapon": "none", "origin": "hand", "physical": false, "projectile": "void", "env_form": "hands", "zone": "shadow", "colors": ["#ffffff", "#b06bff", "#3a0a6a"], "adjectives": ["Phantom", "Mirrored", "Flickering"], "nouns": ["Decoy", "Ghost", "Echo"], "description": "Holographic clones and cloaked teleports."},
+  {"name": "Drone Swarm", "archetype": "archery", "weapon": "none", "origin": "hand", "physical": false, "projectile": "disc", "env_form": "sky_strike", "zone": "none", "colors": ["#ffffff", "#ffa23d", "#6a3a0a"], "adjectives": ["Swarming", "Hunter", "Buzzing"], "nouns": ["Drones", "Swarm", "Strike"], "description": "A cloud of attack drones."},
+  {"name": "Nano Shield", "archetype": "aegis", "weapon": "none", "origin": "hand", "physical": false, "projectile": "inherit", "env_form": "burst", "zone": "none", "colors": ["#ffffff", "#5fffe8", "#0a6a5a"], "adjectives": ["Hexagonal", "Nano", "Reactive"], "nouns": ["Barrier", "Ward", "Field"], "description": "A nanite force field that reflects attacks."},
+  {"name": "Optic Laser", "archetype": "radiance", "weapon": "none", "origin": "mouth", "physical": false, "projectile": "ray", "env_form": "light_pillar", "zone": "none", "colors": ["#ffffff", "#ff3d6a", "#7a0a2a"], "adjectives": ["Targeting", "Red-Eye", "Burning"], "nouns": ["Beam", "Laser", "Scan"], "description": "Laser beams fired from cybernetic eyes."}
+ ],
+ "new_weapons": [
+  {"key": "neon_katana", "class": "blade", "length_m": 1.0, "head": "none", "curve": 0.06, "blade_width": 0.05, "guard": "tsuba", "stock": "none", "colors": ["#ffffff", "#ff3df2", "#1a1a2a"]},
+  {"key": "wrist_blades", "class": "blade", "length_m": 0.55, "head": "none", "curve": 0.12, "blade_width": 0.05, "guard": "none", "stock": "none", "colors": ["#ffffff", "#7af0ff", "#2a3a4a"]},
+  {"key": "smart_pistol", "class": "firearm", "length_m": 0.4, "head": "none", "curve": 0, "blade_width": 0, "guard": "none", "stock": "pistol", "colors": ["#ffd23f", "#2a2a3a", "#1a1a2a"]},
+  {"key": "rail_rifle", "class": "firearm", "length_m": 1.05, "head": "none", "curve": 0, "blade_width": 0, "guard": "none", "stock": "rifle", "colors": ["#5fe3ff", "#3a4a5a", "#1a1a2a"]}
+ ],
+ "costumes": ["visor", "hood", "ninja_mask", "spikes", "headband", "cape", "scarf"],
+ "always_costumes": [],
+ "extras_min": 0, "extras_max": 2,
+ "existing_biomes": ["night_rooftops"],
+ "new_biomes": [
+  {"key": "neon_streets", "far": "city", "props": ["antenna", "crate", "barrel", "lantern"], "ground": "metal", "ambient": "rain",
+   "day_sky_top": "#0a0418", "day_sky_horizon": "#4a0a5a", "night_sky_top": "#02020a", "night_sky_horizon": "#2a0a4a",
+   "far_color": "#120a24", "mid_color": "#1a1030", "ground_color": "#14121e", "accent_color": "#ff3df2",
+   "name_templates": ["{adj} Strip", "Sector {noun}"], "adjectives": ["Neon", "Rain-Soaked", "Midnight"], "nouns": ["Seven", "Zero", "Nova"], "lightning": false, "ships": false},
+  {"key": "data_core", "far": "city", "props": ["monolith", "crystals", "antenna"], "ground": "metal", "ambient": "motes",
+   "day_sky_top": "#020a12", "day_sky_horizon": "#0a3a4a", "night_sky_top": "#01040a", "night_sky_horizon": "#0a2a3a",
+   "far_color": "#06141e", "mid_color": "#0a2030", "ground_color": "#081218", "accent_color": "#3dfff0",
+   "name_templates": ["The {adj} Core", "{noun} Mainframe"], "adjectives": ["Black", "Quantum", "Firewalled"], "nouns": ["Helix", "Omega"], "lightning": false, "ships": false},
+  {"key": "megacorp_tower", "far": "city", "props": ["antenna", "chimney", "banner"], "ground": "tiles", "ambient": "rain",
+   "day_sky_top": "#0a0410", "day_sky_horizon": "#5a1a2a", "night_sky_top": "#020206", "night_sky_horizon": "#3a0a1a",
+   "far_color": "#10060c", "mid_color": "#1a0a14", "ground_color": "#1a1218", "accent_color": "#ffb23d",
+   "name_templates": ["{adj} Tower Roof", "Top of {noun} Plaza"], "adjectives": ["Megacorp", "Golden", "Corporate"], "nouns": ["Zenith", "Apex", "Crown"], "lightning": true, "ships": false}
+ ]
+}

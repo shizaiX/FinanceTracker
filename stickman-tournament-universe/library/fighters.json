@@ -1,5 +1,5 @@
 {
- "count": 48,
+ "count": 56,
  "items": {
   "ftr_02491fc11c": {
    "abilities": [
@@ -394,6 +394,117 @@
     "anchor"
    ]
   },
+  "ftr_121ac33d61": {
+   "abilities": [
+    "ab_d09f3e9b2c"
+   ],
+   "ability_names": [
+    "Nano Shield"
+   ],
+   "accessory": "visor",
+   "build": 1.035,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "visor"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_121ac33d61",
+   "name": "NANZIS",
+   "personality": "technical",
+   "rating": 1.028,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_23ffb5508e",
+    "tq_deb364debb",
+    "tq_9148a48c4a",
+    "tq_8c90e2af64",
+    "tq_93075bb48f",
+    "tq_3a6b9e511e",
+    "tq_9a4dedbb56",
+    "tq_b20068d760"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "DELAYED REACTIVE ERUPTION",
+   "stance": "southpaw",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.535,
+    "aggression": 0.602,
+    "caution": 0.559,
+    "counter": 0.545,
+    "creativity": 0.735,
+    "evasive": 0.467,
+    "range": 1.6,
+    "reaction": 0.091,
+    "read": 0.67,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_1300a82c32": {
+   "abilities": [
+    "ab_4d7ecb9f90"
+   ],
+   "ability_names": [
+    "Chrome Fist"
+   ],
+   "accessory": "ninja_mask",
+   "build": 0.991,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "ninja_mask",
+    "cape"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_1300a82c32",
+   "name": "CHRLYX",
+   "personality": "aggressive",
+   "rating": 1.044,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_15b9456676",
+    "tq_d2dab955f1",
+    "tq_8b65019a31",
+    "tq_9c43257e9e",
+    "tq_1d70ead950",
+    "tq_8734cb0b49",
+    "tq_93e21556cd",
+    "tq_887ba6001c"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "SNARE PISTON PILLAR",
+   "stance": "low",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.62,
+    "aggression": 0.975,
+    "caution": 0.286,
+    "counter": 0.321,
+    "creativity": 0.574,
+    "evasive": 0.327,
+    "range": 1.0,
+    "reaction": 0.141,
+    "read": 0.501,
+    "temperature": 0.55
+   },
+   "weapons": [
+    "gauntlets"
+   ]
+  },
   "ftr_13baa79cca": {
    "abilities": [
     "ab_37a318af5a"
@@ -643,6 +754,64 @@
     "read": 0.481,
     "temperature": 0.45
    }
+  },
+  "ftr_26c2f4593f": {
+   "abilities": [
+    "ab_fdc06d2d56"
+   ],
+   "ability_names": [
+    "Neon Katana"
+   ],
+   "accessory": "visor",
+   "build": 1.042,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "visor",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_26c2f4593f",
+   "name": "NEOVIA",
+   "personality": "technical",
+   "rating": 1.027,
+   "repertoire": [
+    "tq_f8a8ba3e69",
+    "tq_33c576fe8b",
+    "tq_caa7f2df41",
+    "tq_0ba369f420",
+    "tq_049a5b14ec",
+    "tq_d5b6fe077a",
+    "tq_26247fc7f2",
+    "tq_d81f644d3d",
+    "tq_83e2d93d57"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "NEON BURST",
+   "stance": "southpaw",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.788,
+    "aggression": 0.526,
+    "caution": 0.508,
+    "counter": 0.483,
+    "creativity": 0.83,
+    "evasive": 0.425,
+    "range": 1.6,
+    "reaction": 0.118,
+    "read": 0.659,
+    "temperature": 0.4
+   },
+   "weapons": [
+    "cyberpunk_neon_katana"
+   ]
   },
   "ftr_2c75f83a6d": {
    "abilities": [
@@ -1242,6 +1411,63 @@
     "temperature": 0.6
    }
   },
+  "ftr_4f50a00640": {
+   "abilities": [
+    "ab_2978036b85"
+   ],
+   "ability_names": [
+    "Wrist Blades"
+   ],
+   "accessory": "hood",
+   "build": 0.947,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "hood",
+    "cape",
+    "scarf"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_4f50a00640",
+   "name": "WRIZION",
+   "personality": "unpredictable",
+   "rating": 1.027,
+   "repertoire": [
+    "tq_d20ad02ecc",
+    "tq_b666b0d1ba",
+    "tq_63398d5b5b",
+    "tq_9d701961c2",
+    "tq_a7ffd49acb",
+    "tq_f4e1ee29c0",
+    "tq_694f3a7468",
+    "tq_c40567d29d"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "RETRACTABLE NOVA",
+   "stance": "orthodox",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.405,
+    "aggression": 0.529,
+    "caution": 0.407,
+    "counter": 0.444,
+    "creativity": 0.944,
+    "evasive": 0.481,
+    "range": 2.0,
+    "reaction": 0.115,
+    "read": 0.692,
+    "temperature": 1.0
+   },
+   "weapons": [
+    "cyberpunk_wrist_blades"
+   ]
+  },
   "ftr_5276d80fb8": {
    "abilities": [
     "ab_31daa6369e"
@@ -1598,6 +1824,62 @@
    },
    "weapons": []
   },
+  "ftr_71572f9ded": {
+   "abilities": [
+    "ab_cdd47ae697"
+   ],
+   "ability_names": [
+    "Shock Whip"
+   ],
+   "accessory": "headband",
+   "build": 1.058,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "headband",
+    "cape"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_71572f9ded",
+   "name": "SNANOR",
+   "personality": "counter",
+   "rating": 1.026,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_01ce163b80",
+    "tq_461a971e41",
+    "tq_295abccf9d",
+    "tq_b30a967113",
+    "tq_c65d3ce109",
+    "tq_acdbe269d1",
+    "tq_3867d0e309",
+    "tq_12743e346d",
+    "tq_008dc9c2e0"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "SNARE LASHING PILLAR",
+   "stance": "upright",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.658,
+    "aggression": 0.368,
+    "caution": 0.634,
+    "counter": 0.98,
+    "creativity": 0.457,
+    "evasive": 0.5,
+    "range": 1.4,
+    "reaction": 0.142,
+    "read": 0.541,
+    "temperature": 0.5
+   },
+   "weapons": []
+  },
   "ftr_78982cc7dd": {
    "abilities": [
     "ab_d903b6dc1c",
@@ -1795,6 +2077,59 @@
     "range": 1.0,
     "reaction": 0.071,
     "read": 0.789,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
+  "ftr_8819d76f8d": {
+   "abilities": [
+    "ab_3d83d43f1a"
+   ],
+   "ability_names": [
+    "Drone Swarm"
+   ],
+   "accessory": "visor",
+   "build": 0.958,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "visor"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_8819d76f8d",
+   "name": "DROZION",
+   "personality": "aggressive",
+   "rating": 1.013,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_8406eb889f",
+    "tq_58819b2f17",
+    "tq_19952d229e",
+    "tq_07859575c9",
+    "tq_1d6fd98480",
+    "tq_6c42b0a87b",
+    "tq_48cb53c305"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "GUARDED SWARMING ERUPTION",
+   "stance": "southpaw",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.71,
+    "aggression": 0.744,
+    "caution": 0.235,
+    "counter": 0.336,
+    "creativity": 0.455,
+    "evasive": 0.286,
+    "range": 1.0,
+    "reaction": 0.148,
+    "read": 0.542,
     "temperature": 0.55
    },
    "weapons": []
@@ -2628,6 +2963,116 @@
    },
    "weapons": []
   },
+  "ftr_ccc4196e94": {
+   "abilities": [
+    "ab_81b962a721"
+   ],
+   "ability_names": [
+    "Rail Rifle"
+   ],
+   "accessory": "spikes",
+   "build": 0.961,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "spikes",
+    "scarf"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_ccc4196e94",
+   "name": "RAILEX",
+   "personality": "evasive",
+   "rating": 1.037,
+   "repertoire": [
+    "tq_214fe9abd2",
+    "tq_3049926c4c",
+    "tq_4ec6c62112",
+    "tq_42849d8ecb",
+    "tq_da6ea47d84",
+    "tq_b16265f1af",
+    "tq_4e39b19b0a",
+    "tq_131068a48e"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "CHAIN CHARGED RAY",
+   "stance": "low",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.524,
+    "aggression": 0.476,
+    "caution": 0.483,
+    "counter": 0.426,
+    "creativity": 0.662,
+    "evasive": 0.868,
+    "range": 2.6,
+    "reaction": 0.096,
+    "read": 0.575,
+    "temperature": 0.6
+   },
+   "weapons": [
+    "cyberpunk_rail_rifle"
+   ]
+  },
+  "ftr_d1a75f9202": {
+   "abilities": [
+    "ab_b42e7257a9"
+   ],
+   "ability_names": [
+    "Optic Laser"
+   ],
+   "accessory": "ninja_mask",
+   "build": 1.016,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "ninja_mask",
+    "scarf"
+   ],
+   "created": "2026-11-16T17:25:31",
+   "id": "ftr_d1a75f9202",
+   "name": "OPTNIS",
+   "personality": "counter",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_a05343d3a4",
+    "tq_23ffb5508e",
+    "tq_f62528d8e8",
+    "tq_48dcb2f8f6",
+    "tq_e4ae26be47",
+    "tq_eb3a75b462",
+    "tq_f9d1ba821c",
+    "tq_ad3ef4e96d"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "GRAND BURNING SPIRE",
+   "stance": "orthodox",
+   "theme": "cyberpunk",
+   "traits": {
+    "adaptability": 0.635,
+    "aggression": 0.357,
+    "caution": 0.598,
+    "counter": 0.813,
+    "creativity": 0.452,
+    "evasive": 0.506,
+    "range": 1.4,
+    "reaction": 0.093,
+    "read": 0.549,
+    "temperature": 0.5
+   },
+   "weapons": []
+  },
   "ftr_d4ed259a4e": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -2985,6 +3430,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T11:33:34",
+ "updated": "2026-11-16T17:25:31",
  "version": 1
 }

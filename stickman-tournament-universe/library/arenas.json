@@ -1,6 +1,94 @@
 {
- "count": 18,
+ "count": 21,
  "items": {
+  "arena_cyberpunk_752562980_0": {
+   "accent": "#ff3dd9",
+   "ambient": "rain",
+   "biome": "cyberpunk_neon_streets",
+   "celestial": "moon",
+   "far": "#150a24",
+   "far_type": "city",
+   "ground": "#15121e",
+   "ground_style": "metal",
+   "id": "arena_cyberpunk_752562980_0",
+   "layout_seed": 218295363,
+   "lightning": false,
+   "mid": "#231339",
+   "name": "Sector Seven",
+   "props": "antenna",
+   "props_list": [
+    "antenna",
+    "crate",
+    "barrel",
+    "lantern"
+   ],
+   "ships": false,
+   "sky": [
+    "#02010a",
+    "#310a4a"
+   ],
+   "theme": "cyberpunk",
+   "time_of_day": "night",
+   "tournament": "cyberpunk_752562980"
+  },
+  "arena_cyberpunk_752562980_1": {
+   "accent": "#ffcd3d",
+   "ambient": "rain",
+   "biome": "cyberpunk_megacorp_tower",
+   "celestial": "sun",
+   "far": "#10060a",
+   "far_type": "city",
+   "ground": "#1a1216",
+   "ground_style": "tiles",
+   "id": "arena_cyberpunk_752562980_1",
+   "layout_seed": 42526279,
+   "lightning": true,
+   "mid": "#1c0a13",
+   "name": "Megacorp Tower Roof",
+   "props": "antenna",
+   "props_list": [
+    "antenna",
+    "chimney",
+    "banner"
+   ],
+   "ships": false,
+   "sky": [
+    "#0b0410",
+    "#5a1a21"
+   ],
+   "theme": "cyberpunk",
+   "time_of_day": "day",
+   "tournament": "cyberpunk_752562980"
+  },
+  "arena_cyberpunk_752562980_2": {
+   "accent": "#3dfff2",
+   "ambient": "motes",
+   "biome": "cyberpunk_data_core",
+   "celestial": "sun",
+   "far": "#05131e",
+   "far_type": "city",
+   "ground": "#081118",
+   "ground_style": "metal",
+   "id": "arena_cyberpunk_752562980_2",
+   "layout_seed": 266734949,
+   "lightning": false,
+   "mid": "#081c2b",
+   "name": "The Black Core",
+   "props": "monolith",
+   "props_list": [
+    "monolith",
+    "crystals",
+    "antenna"
+   ],
+   "ships": false,
+   "sky": [
+    "#020912",
+    "#0a394a"
+   ],
+   "theme": "cyberpunk",
+   "time_of_day": "day",
+   "tournament": "cyberpunk_752562980"
+  },
   "arena_elemental_ascension_2_1156271972_0": {
    "accent": "#ff5329",
    "ambient": "ember",
@@ -517,6 +605,6 @@
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-16T08:38:15",
+ "updated": "2026-11-16T17:25:31",
  "version": 1
 }
