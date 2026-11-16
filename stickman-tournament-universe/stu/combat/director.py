@@ -96,12 +96,20 @@ class Director:
         return d
 
     # ---- modulation ---------------------------------------------------------
+    def urgency(self, ft, sa, sb):
+        """0 = relaxed, 1 = the worst-case remaining points no longer fit before
+        the maximum duration (each point costs ~ min gap + reset time)."""
+        rem = (self.ptw - sa) + (self.ptw - sb) - 1
+        slack = (self.max_d - 6.0) - ft - rem * (self.min_gap + 2.0)
+        return clamp(-slack / 15.0, 0.0, 1.0)
+
     def lethality(self, ft, sa, sb):
         d = self.desired_next(ft, sa, sb)
         x = (ft - d) / 9.0
         L = clamp(math.exp(x * 0.9), 0.4, 3.2)
         if ft > self.max_d - 14:
             L *= 2.5
+        L *= 1.0 + 2.0 * self.urgency(ft, sa, sb)
         return L * [0.85, 1.0, 1.08, 1.15][self.phase_index(ft)]
 
     def defense(self, ft, sa, sb):
@@ -110,13 +118,17 @@ class Director:
         v = clamp(1.12 - 0.22 * x, 0.55, 1.25)
         if ft > self.max_d - 14:
             v *= 0.5
+        v *= 1.0 - 0.45 * self.urgency(ft, sa, sb)
         return v
 
     def aggression(self, ft):
         return self.arch["aggr"][self.phase_index(ft)]
 
-    def can_score(self, ft, attacker_score):
-        if ft - self.last_point < self.min_gap:
+    def can_score(self, ft, attacker_score, sa=None, sb=None):
+        gap = self.min_gap
+        if sa is not None and self.urgency(ft, sa, sb) > 0:
+            gap = 3.0  # running out of time: points may follow each other faster
+        if ft - self.last_point < gap:
             return False
         if attacker_score >= self.ptw - 1 and ft < self.min_d + 0.5:
             return False

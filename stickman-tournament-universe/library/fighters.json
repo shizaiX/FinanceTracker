@@ -1,5 +1,5 @@
 {
- "count": 40,
+ "count": 48,
  "items": {
   "ftr_02491fc11c": {
    "abilities": [
@@ -394,6 +394,63 @@
     "anchor"
    ]
   },
+  "ftr_13baa79cca": {
+   "abilities": [
+    "ab_37a318af5a"
+   ],
+   "ability_names": [
+    "Bare-Knuckle Brawl"
+   ],
+   "accessory": "captain_hat",
+   "build": 0.996,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "captain_hat",
+    "parrot",
+    "peg_leg",
+    "eyepatch"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_13baa79cca",
+   "name": "KNUEX",
+   "personality": "evasive",
+   "rating": 1.044,
+   "repertoire": [
+    "tq_fb41ded7ff",
+    "tq_fc40bd9697",
+    "tq_7e11d7705a",
+    "tq_95a87a5160",
+    "tq_890810bf0c",
+    "tq_fbd276a25e",
+    "tq_f257b93f97",
+    "tq_b27efc57b5",
+    "tq_e29e7e483c"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "DECKHAND SPIRE",
+   "stance": "southpaw",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.494,
+    "aggression": 0.499,
+    "caution": 0.545,
+    "counter": 0.393,
+    "creativity": 0.577,
+    "evasive": 0.925,
+    "range": 2.6,
+    "reaction": 0.115,
+    "read": 0.707,
+    "temperature": 0.6
+   },
+   "weapons": []
+  },
   "ftr_1addcf4dde": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -643,6 +700,64 @@
    },
    "weapons": []
   },
+  "ftr_2f1df243a3": {
+   "abilities": [
+    "ab_a32aa0acc5"
+   ],
+   "ability_names": [
+    "Harpoon"
+   ],
+   "accessory": "bandana",
+   "build": 1.029,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "bandana",
+    "hook_hand",
+    "beard"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_2f1df243a3",
+   "name": "HARKARA",
+   "personality": "defensive",
+   "rating": 1.028,
+   "repertoire": [
+    "tq_214fe9abd2",
+    "tq_8912640284",
+    "tq_012248d2e5",
+    "tq_d73f59f749",
+    "tq_d6c4541daf",
+    "tq_41a1645b19",
+    "tq_41b826debb",
+    "tq_b202cab149",
+    "tq_296c0bb762"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "BARBED SPIRE",
+   "stance": "low",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.596,
+    "aggression": 0.391,
+    "caution": 0.722,
+    "counter": 0.604,
+    "creativity": 0.373,
+    "evasive": 0.45,
+    "range": 1.8,
+    "reaction": 0.092,
+    "read": 0.532,
+    "temperature": 0.45
+   },
+   "weapons": [
+    "harpoon"
+   ]
+  },
   "ftr_303cc77290": {
    "abilities": [
     "ab_66a6db4683"
@@ -811,6 +926,64 @@
     "reaction": 0.079,
     "read": 0.69,
     "temperature": 1.0
+   },
+   "weapons": []
+  },
+  "ftr_414f6737b8": {
+   "abilities": [
+    "ab_6d3b0c6f9e"
+   ],
+   "ability_names": [
+    "Kraken's Call"
+   ],
+   "accessory": "captain_hat",
+   "build": 1.024,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "captain_hat",
+    "hook_hand",
+    "beard",
+    "eyepatch"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_414f6737b8",
+   "name": "KRANTAR",
+   "personality": "technical",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_de0d12bdd9",
+    "tq_b666b0d1ba",
+    "tq_7bb06b483a",
+    "tq_9cf1bfadbc",
+    "tq_0d91680416",
+    "tq_b51a8df9f9",
+    "tq_c75cf475b8",
+    "tq_5f70aa5bd1",
+    "tq_f1e8297c7c",
+    "tq_60b59b8ac2"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "ABYSSAL RAY",
+   "stance": "southpaw",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.647,
+    "aggression": 0.537,
+    "caution": 0.563,
+    "counter": 0.527,
+    "creativity": 0.728,
+    "evasive": 0.458,
+    "range": 1.6,
+    "reaction": 0.149,
+    "read": 0.681,
+    "temperature": 0.4
    },
    "weapons": []
   },
@@ -1062,6 +1235,65 @@
     "read": 0.636,
     "temperature": 0.6
    }
+  },
+  "ftr_5276d80fb8": {
+   "abilities": [
+    "ab_31daa6369e"
+   ],
+   "ability_names": [
+    "Anchor"
+   ],
+   "accessory": "bandana",
+   "build": 0.982,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "bandana",
+    "hook_hand",
+    "parrot",
+    "eyepatch"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_5276d80fb8",
+   "name": "ANCLIS",
+   "personality": "counter",
+   "rating": 1.031,
+   "repertoire": [
+    "tq_85ab3c92ba",
+    "tq_d92b899c8a",
+    "tq_b03043f99c",
+    "tq_a773738067",
+    "tq_1bb9737e56",
+    "tq_6d0b02db18",
+    "tq_2083bc0d18",
+    "tq_580350a96b",
+    "tq_074537cbdb"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "GUARDED SUNKEN BURST",
+   "stance": "low",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.777,
+    "aggression": 0.401,
+    "caution": 0.558,
+    "counter": 0.949,
+    "creativity": 0.452,
+    "evasive": 0.517,
+    "range": 1.4,
+    "reaction": 0.138,
+    "read": 0.703,
+    "temperature": 0.5
+   },
+   "weapons": [
+    "anchor"
+   ]
   },
   "ftr_5b227f29b6": {
    "abilities": [
@@ -1558,6 +1790,62 @@
     "temperature": 0.55
    },
    "weapons": []
+  },
+  "ftr_89031061bd": {
+   "abilities": [
+    "ab_314c439b4f"
+   ],
+   "ability_names": [
+    "Throwing Knives"
+   ],
+   "accessory": "tricorne",
+   "build": 0.997,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "tricorne",
+    "beard",
+    "parrot"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_89031061bd",
+   "name": "THRZOS",
+   "personality": "defensive",
+   "rating": 1.039,
+   "repertoire": [
+    "tq_26da0dd4ce",
+    "tq_c0173d8c00",
+    "tq_4a4331160a",
+    "tq_a213be7251",
+    "tq_ee2322e3c9",
+    "tq_e269686d31",
+    "tq_2908bdffeb"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "FLICKING RAY",
+   "stance": "orthodox",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.688,
+    "aggression": 0.381,
+    "caution": 0.905,
+    "counter": 0.636,
+    "creativity": 0.368,
+    "evasive": 0.433,
+    "range": 1.8,
+    "reaction": 0.103,
+    "read": 0.501,
+    "temperature": 0.45
+   },
+   "weapons": [
+    "dagger"
+   ]
   },
   "ftr_906e079792": {
    "abilities": [
@@ -2386,6 +2674,63 @@
    },
    "weapons": []
   },
+  "ftr_e6842ed598": {
+   "abilities": [
+    "ab_9408408bac"
+   ],
+   "ability_names": [
+    "Flintlock"
+   ],
+   "accessory": "bandana",
+   "build": 0.954,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "bandana",
+    "eyepatch",
+    "beard"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_e6842ed598",
+   "name": "BRONYX",
+   "personality": "evasive",
+   "rating": 1.037,
+   "repertoire": [
+    "tq_85ab3c92ba",
+    "tq_3049926c4c",
+    "tq_f339c022bd",
+    "tq_b098224680",
+    "tq_11f816628b",
+    "tq_88df4a5fab",
+    "tq_675d1c682f",
+    "tq_3a10c2665f"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "GRAND DEADEYE NOVA",
+   "stance": "low",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.611,
+    "aggression": 0.549,
+    "caution": 0.566,
+    "counter": 0.452,
+    "creativity": 0.683,
+    "evasive": 0.833,
+    "range": 2.6,
+    "reaction": 0.112,
+    "read": 0.609,
+    "temperature": 0.6
+   },
+   "weapons": [
+    "flintlock"
+   ]
+  },
   "ftr_eb64da082f": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -2505,9 +2850,125 @@
     "temperature": 0.45
    },
    "weapons": []
+  },
+  "ftr_f092bf26af": {
+   "abilities": [
+    "ab_c2263f9e8c"
+   ],
+   "ability_names": [
+    "Blunderbuss"
+   ],
+   "accessory": "tricorne",
+   "build": 1.027,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "tricorne",
+    "beard",
+    "peg_leg",
+    "hook_hand"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_f092bf26af",
+   "name": "SPRTAR",
+   "personality": "strategic",
+   "rating": 1.037,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_dca4784b11",
+    "tq_eff82652a6",
+    "tq_de1bd0116a",
+    "tq_815d0b46aa",
+    "tq_a4e02a370a",
+    "tq_4b6c197dc8",
+    "tq_257b763739"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "SCATTERSHOT SPIRE",
+   "stance": "orthodox",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.6,
+    "aggression": 0.526,
+    "caution": 0.648,
+    "counter": 0.512,
+    "creativity": 0.694,
+    "evasive": 0.533,
+    "range": 3.2,
+    "reaction": 0.116,
+    "read": 0.626,
+    "temperature": 0.4
+   },
+   "weapons": [
+    "blunderbuss"
+   ]
+  },
+  "ftr_fc577d4a4e": {
+   "abilities": [
+    "ab_2a2fa292ff"
+   ],
+   "ability_names": [
+    "Cutlass"
+   ],
+   "accessory": "captain_hat",
+   "build": 0.964,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "captain_hat",
+    "beard",
+    "peg_leg"
+   ],
+   "created": "2026-11-16T08:38:15",
+   "id": "ftr_fc577d4a4e",
+   "name": "CUTLOS",
+   "personality": "technical",
+   "rating": 1.027,
+   "repertoire": [
+    "tq_f39b10e16e",
+    "tq_35e670b90a",
+    "tq_69984c69ae",
+    "tq_71df1188ca",
+    "tq_445ec564c8",
+    "tq_8d63fba1cc",
+    "tq_63ce71ebb1",
+    "tq_06c3e932cb",
+    "tq_9636dc0433"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "SNARE CRESCENT QUAKE",
+   "stance": "low",
+   "theme": "pirates",
+   "traits": {
+    "adaptability": 0.423,
+    "aggression": 0.543,
+    "caution": 0.582,
+    "counter": 0.632,
+    "creativity": 0.733,
+    "evasive": 0.54,
+    "range": 1.6,
+    "reaction": 0.129,
+    "read": 0.759,
+    "temperature": 0.4
+   },
+   "weapons": [
+    "cutlass"
+   ]
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-15T21:08:39",
+ "updated": "2026-11-16T08:38:15",
  "version": 1
 }

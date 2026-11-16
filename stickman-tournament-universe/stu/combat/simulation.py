@@ -1229,7 +1229,7 @@ class Match:
         sudden = self.director.sudden_death(ft)
         scoring = (broken and p["dmg"] >= 6.5) or (finisher and dfd.poise - dmg_poise <= 40) or (sudden and p["dmg"] >= 6)
         if scoring:
-            if self.director.can_score(ft, att.score) or (sudden and ft - self.director.last_point > 3):
+            if self.director.can_score(ft, att.score, sa, sb) or (sudden and ft - self.director.last_point > 3):
                 self.score_point(att, dfd, tech, x, y, kind)
                 return "score"
             # Too early for a decisive point: heavy damage, the defender survives.
