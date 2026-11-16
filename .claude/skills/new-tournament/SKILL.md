@@ -23,6 +23,15 @@ use them. Otherwise ask with **one** AskUserQuestion call containing three quest
 
 Any number of fighters >= 2 is valid; non powers of two get byes automatically.
 
+If the user asks for ideas first, show the list from the `theme-ideas` skill
+(`.claude/skills/theme-ideas/SKILL.md`).
+
+If the chosen theme has no saved pack (`stickman-tournament-universe/themes/<key>.json`) and no
+Anthropic API key is available, design the pack yourself in the format of
+`stickman-tournament-universe/tests/fixtures/wild_west_pack.json` (original names only, no real
+franchises), save it under `themes/packs_src/<key>_pack.json` and import it with
+`python -m stu themes import "<theme>" themes/packs_src/<key>_pack.json` before rendering.
+
 ## 2. Render
 
 ```bash
