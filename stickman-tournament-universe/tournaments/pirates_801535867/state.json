@@ -890,10 +890,8 @@
    "timeline_hash": "32a637057402d73b5dc63b7b861c993801eeb4cec2538be00d55ef9461f1d020",
    "video": "exports/pirates_801535867/round_01/match_001.mp4",
    "video_frames": 10016,
-   "video_issues": [
-    "frame count 10017 != expected 10016 (missing frames)"
-   ],
-   "video_ok": false,
+   "video_issues": [],
+   "video_ok": true,
    "video_seconds": 166.933,
    "winner": "ftr_f092bf26af"
   },
@@ -1620,6 +1618,6 @@
   }
  },
  "theme": "pirates",
- "updated": "2026-11-16T09:25:27",
+ "updated": "2026-11-16T09:34:16",
  "version": 1
 }

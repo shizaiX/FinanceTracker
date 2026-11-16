@@ -135,7 +135,7 @@ def shrink_to(path, max_mb, video_cfg, log=print):
         crf += 3
         tmp = path + ".shrink.mp4"
         subprocess.run([FFMPEG, "-y", "-loglevel", "error", "-i", path, "-c:v", "libx264", "-crf", str(crf), "-preset", "slow",
-                        "-pix_fmt", "yuv420p", "-profile:v", "high", "-r", str(video_cfg["fps"]), "-c:a", "copy",
+                        "-pix_fmt", "yuv420p", "-profile:v", "high", "-fps_mode", "passthrough", "-c:a", "copy",
                         "-movflags", "+faststart", tmp], check=True)
         os.replace(tmp, path)
         log(f"    re-encoded at crf {crf}: {os.path.getsize(path) / 2**20:.0f} MB")
