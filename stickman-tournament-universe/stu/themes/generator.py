@@ -109,7 +109,8 @@ def _pack_fields(key, packs):
         biomes += [b for b in p.get("biomes", []) if b not in biomes]
     rules = copy.deepcopy(ps[0].get("costume_rules", {"head": 1, "extras": (0, 2)}))
     return {"costumes": costumes, "costume_rules": rules, "biomes": biomes,
-            "physical_weight": sum(p.get("physical_weight", 0.2) for p in ps) / len(ps), "packs": packs}
+            "physical_weight": sum(p.get("physical_weight", 0.2) for p in ps) / len(ps), "packs": packs,
+            "range_mix": next((p["range_mix"] for p in ps if "range_mix" in p), None)}
 
 
 def generate_theme(name: str, rng, custom_abilities=None, mode="offline", log=print):
@@ -167,6 +168,7 @@ def generate_theme(name: str, rng, custom_abilities=None, mode="offline", log=pr
         "key": key, "name": name, "title": title, "title_words": title_words, "abilities": abilities,
         "costumes": fields.get("costumes", GENERIC_COSTUMES), "costume_rules": fields.get("costume_rules", {"head": 1, "extras": (0, 1)}),
         "biomes": fields.get("biomes", rng.sample(GENERIC_BIOMES, 4)), "physical_weight": fields.get("physical_weight", 0.2),
+        "range_mix": fields.get("range_mix"),
         "packs": packs, "generated_by": "pack" if len(packs) == 1 else ("composition" if packs else "procedural"),
         "created": time.strftime("%Y-%m-%dT%H:%M:%S"), "expansions": [],
     }

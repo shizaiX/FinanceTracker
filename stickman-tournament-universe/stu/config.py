@@ -41,6 +41,9 @@ DEFAULTS = {
         "environmental_interactions": True,
         "cinematic_finishers": True,
         "adaptive_ai": True,
+        # Share of fighting time spent in long-range mode (0..1), e.g. 0.65 = 65 % ranged /
+        # 35 % close combat. "auto" uses the theme's value (wizards: 0.65) or free choice.
+        "range_mix": "auto",
     },
     "video": {
         "width": 1080,

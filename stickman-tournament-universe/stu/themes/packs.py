@@ -209,7 +209,7 @@ THEME_PACKS = {
         "biomes": ["castle_courtyard", "tourney_field", "dragon_ruins"],
     },
     "wizards": {
-        "title": "Arcane", "physical_weight": 0.1,
+        "title": "Arcane", "physical_weight": 0.1, "range_mix": 0.65,
         "title_words": ["Arcane Duel", "Spellbinder Cup", "Tower of Mages"],
         "abilities": [
             ("Fireball", "flame", {"weapon": "wand"}), ("Frost Nova", "frost", {"weapon": "staff"}),

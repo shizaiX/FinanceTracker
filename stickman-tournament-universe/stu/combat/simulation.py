@@ -45,6 +45,8 @@ class Match:
         self.rng = rng
         self.meta = meta or {}
         self.half = HALF
+        rm = cfg["combat"].get("range_mix", "auto")
+        self.range_mix = float(rm) if isinstance(rm, (int, float)) else theme.get("range_mix")
         self.arena = arena
         self.ab = {a["id"]: a for a in theme["abilities"]}
         self.ptw = cfg["tournament"]["points_to_win"]
@@ -243,7 +245,7 @@ class Match:
         if tech["tier"] in ("fusion", "ultimate") and not feint:
             self.event("callout", fighter=f.side, name=tech["name"], tier=tech["tier"], abilities=tech["abilities"], tech=tech["id"])
         self.event("technique", fighter=f.side, tech=tech["id"], delivery=tech["delivery"], tier=tech["tier"], feint=feint,
-                   name=tech["name"], abilities=tech["abilities"])
+                   name=tech["name"], abilities=tech["abilities"], mode=f.range_mode)
 
     def start_move(self, f, toward, dur, speed, then_back=False):
         d = 1 if (self.opp(f).x > f.x) == toward else -1

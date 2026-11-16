@@ -65,6 +65,16 @@ def tech_utility(f, o, tech, dist, m):
         return 0.0
     ph = m.director.phase_index(m.fight_t)
     u = 1.0 * fit * TIER_PHASE[tech["tier"]][ph]
+    # Range mode (theme / config range mix): favour the current mode strongly
+    # without making the other one impossible.
+    if f.range_mode == "ranged":
+        u *= 3.0 if kind in ("projectile", "beam", "env") else 0.08
+        if mv == "backstep" and dist < 3.0:
+            u *= 2.0  # shoot while backing off
+    elif f.range_mode == "melee":
+        u *= 2.0 if kind in ("melee", "grab", "area", "stance") else 0.6
+        if f.charge_in and tech["movement"] in ("dash", "teleport", "leap", "aerial_dash") and kind in ("melee", "grab"):
+            u *= 2.0  # charge in
     # Theme first: plain unarmed moves are only as common as the theme allows.
     if tech["tier"] == "basic":
         u *= 0.15 + 1.4 * f.physical_weight
@@ -128,6 +138,36 @@ def think(f, o, m):
             f.think_cd = 0.0
         return
     desired = tr["range"] * (0.8 if m.director.phase_index(m.fight_t) >= 2 else 1.0)
+    if m.range_mix is not None:
+        if m.fight_t >= f.mode_until:
+            # Each fighter independently re-rolls its mode every few seconds;
+            # over a fight this converges to the configured ranged share.
+            # Close-combat phases are short charges, ranged phases last longer;
+            # the probability is calibrated so the share of *attacks* matches the mix
+            # (close combat produces attacks faster, hence the +0.1 bias).
+            target = min(0.97, m.range_mix + 0.1)
+            dr, dm = 5.0, 3.0
+            p_r = target * dm / (target * dm + (1 - target) * dr)
+            new = "ranged" if rng.random() < p_r else "melee"
+            f.charge_in = new == "melee" and f.range_mode != "melee"
+            f.range_mode = new
+            f.mode_until = m.fight_t + (rng.uniform(3.2, 6.8) if new == "ranged" else rng.uniform(2.0, 4.0))
+        desired = max(4.2, desired) if f.range_mode == "ranged" else 1.0
+        if f.range_mode == "melee" and f.charge_in and dist > 2.2 and f.grounded and rng.chance(0.6):
+            f.charge_in = False
+            m.start_move(f, toward=True, dur=min(0.6, dist / 8.0), speed=8.0)  # rush in
+            m.event("dash", fighter=f.side, x=f.x, abilities=f.ability_ids)
+            return
+        if dist < 2.2:
+            f.charge_in = False
+        if f.range_mode == "ranged" and dist < 3.2 and f.grounded and o.action.kind not in ("broken", "grabbed"):
+            # Keep the distance: dash back, or jump over when cornered.
+            if rng.chance(0.55):
+                if abs(f.x) > m.half - 1.4:
+                    m.start_jump(f, forward=True, flip=True, evade=True)
+                else:
+                    m.start_move(f, toward=False, dur=rng.uniform(0.3, 0.55), speed=6.5)
+                return
     aggr = tr["aggression"] * m.director.aggression(m.fight_t)
     if dist > desired + 0.4:
         opts.append((("approach", None), 0.55 + 0.55 * aggr + 0.1 * (dist - desired)))
@@ -313,6 +353,8 @@ def choose_response(f, o, m, delivery, height, remaining, tech, rng):
         opts.append(("teleport", 0.3 + tr["evasive"] * 0.6))
     if abs(f.x) > m.half - 0.9:
         opts = [(n, w * (0.3 if n == "backstep" else 1.0)) for n, w in opts]
+    if f.range_mode == "ranged":  # keep the distance instead of trading up close
+        opts = [(n, w * (0.3 if n in ("counter", "interrupt") else 1.4 if n in ("backstep", "jump", "teleport") else 1.0)) for n, w in opts]
     resp = rng.weighted([n for n, _ in opts], [w for _, w in opts])
     if resp == "block":
         m.start_block(f, max(0.25, remaining + 0.25))

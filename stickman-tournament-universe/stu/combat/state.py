@@ -119,6 +119,9 @@ class FighterState:
         self.kit = [a["weapon"] for a in abilities if a.get("weapon")]
         self.weapon = self.kit[0] if self.kit else None
         self.physical_weight = 0.2
+        self.range_mode = None      # "ranged" | "melee" | None (free)
+        self.mode_until = 0.0
+        self.charge_in = False
         self.stats = {"hits": 0, "minor": 0, "combo": 0, "significant": 0, "blocked": 0, "dodges": 0,
                       "techniques": 0, "fusions": 0, "ultimates": 0, "counters": 0, "discoveries": 0,
                       "guard_breaks": 0, "projectiles": 0, "points": 0}
