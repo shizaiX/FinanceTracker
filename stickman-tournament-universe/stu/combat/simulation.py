@@ -131,6 +131,8 @@ class Match:
                 f.think_cd -= dt
                 can_cancel = (f.action.kind == "technique" and f.action.phase == "recovery" and f.action.data.get("hit")
                               and o.action.kind in ("hitstun", "broken") and f.action.phase_p > 0.25)
+                if f.action.kind in ("block", "charge") and o.action.kind in ("broken", "grabbed"):
+                    f.think_cd = 0.0  # stop guarding/charging: the opponent is stunned
                 if (f.free or can_cancel) and f.think_cd <= 0:
                     ai.think(f, o, self)
         for f in fs:
@@ -790,6 +792,8 @@ class Match:
         a, b = self.fighters
         if a.hidden or b.hidden:
             return
+        if self.state in ("point_pause", "reset", "ready", "outro"):
+            return  # between points fighters walk through each other back to their marks
         if a.y > 0.9 or b.y > 0.9:
             return
         if "grabbed" in (a.action.kind, b.action.kind):
@@ -1240,6 +1244,15 @@ class Match:
             self._knock(att, dfd, tech, (6.5, 4.5), knockdown=True)
             return "hit"
         dfd.poise -= dmg_poise
+        if broken:
+            # Already stunned: weak hits add damage but never re-stun (no stun locks);
+            # the stun runs out normally unless a strong hit scores.
+            dfd.poise = max(0.0, dfd.poise)
+            dfd.combo_taken += 1
+            att.stats["combo"] += 1
+            self.event("hit", level="combo", fighter=dfd.side, attacker=att.side, x=x, y=y, abilities=abil, tech=tech["id"],
+                       dmg=p["dmg"], combo=dfd.combo_taken, delivery=tech["delivery"])
+            return "hit"
         if dfd.poise <= 0:
             self.event("hit", level="significant", fighter=dfd.side, attacker=att.side, x=x, y=y, abilities=abil, tech=tech["id"], dmg=p["dmg"])
             self._guard_break(att, dfd, x, y, abil)

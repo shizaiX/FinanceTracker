@@ -97,16 +97,13 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": [
-     3,
-     2
-    ],
+    "scores": null,
     "src": [
      null,
      null
     ],
-    "status": "done",
-    "winner": "ftr_f092bf26af"
+    "status": "pending",
+    "winner": null
    },
    "m002": {
     "a": "ftr_414f6737b8",
@@ -115,16 +112,13 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": [
-     3,
-     1
-    ],
+    "scores": null,
     "src": [
      null,
      null
     ],
-    "status": "done",
-    "winner": "ftr_414f6737b8"
+    "status": "pending",
+    "winner": null
    },
    "m003": {
     "a": "ftr_2f1df243a3",
@@ -133,16 +127,13 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": [
-     1,
-     3
-    ],
+    "scores": null,
     "src": [
      null,
      null
     ],
-    "status": "done",
-    "winner": "ftr_89031061bd"
+    "status": "pending",
+    "winner": null
    },
    "m004": {
     "a": "ftr_fc577d4a4e",
@@ -151,70 +142,58 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": [
-     2,
-     3
-    ],
+    "scores": null,
     "src": [
      null,
      null
     ],
-    "status": "done",
-    "winner": "ftr_5276d80fb8"
+    "status": "pending",
+    "winner": null
    },
    "m005": {
-    "a": "ftr_f092bf26af",
-    "b": "ftr_414f6737b8",
+    "a": null,
+    "b": null,
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": [
-     1,
-     3
-    ],
+    "scores": null,
     "src": [
      "m001",
      "m002"
     ],
-    "status": "done",
-    "winner": "ftr_414f6737b8"
+    "status": "pending",
+    "winner": null
    },
    "m006": {
-    "a": "ftr_89031061bd",
-    "b": "ftr_5276d80fb8",
+    "a": null,
+    "b": null,
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": [
-     3,
-     2
-    ],
+    "scores": null,
     "src": [
      "m003",
      "m004"
     ],
-    "status": "done",
-    "winner": "ftr_89031061bd"
+    "status": "pending",
+    "winner": null
    },
    "m007": {
-    "a": "ftr_414f6737b8",
-    "b": "ftr_89031061bd",
+    "a": null,
+    "b": null,
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": [
-     3,
-     0
-    ],
+    "scores": null,
     "src": [
      "m005",
      "m006"
     ],
-    "status": "done",
-    "winner": "ftr_414f6737b8"
+    "status": "pending",
+    "winner": null
    }
   },
   "order": [
@@ -244,7 +223,7 @@
   ],
   "size": 8
  },
- "champion": "ftr_414f6737b8",
+ "champion": null,
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -270,7 +249,7 @@
    "theme_generator": "auto",
    "visual_effects": "high_quality"
   },
-  "resolved_at": "2026-11-16T08:42:32",
+  "resolved_at": "2026-11-16T10:49:20",
   "tournament": {
    "abilities_per_fighter": 1,
    "abilities_unique": true,
@@ -304,7 +283,7 @@
    "width": 1080
   }
  },
- "created": "2026-11-16T08:42:32",
+ "created": "2026-11-16T10:49:20",
  "fighters": [
   {
    "abilities": [
@@ -316,11 +295,11 @@
    "accessory": "bandana",
    "build": 0.982,
    "career": {
-    "losses": 1,
-    "points_against": 5,
-    "points_for": 5,
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
-    "wins": 1
+    "wins": 0
    },
    "color": "#1fe08a",
    "costume": [
@@ -329,7 +308,7 @@
     "parrot",
     "eyepatch"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_5276d80fb8",
    "name": "ANCLIS",
    "personality": "counter",
@@ -375,9 +354,9 @@
    "accessory": "bandana",
    "build": 0.954,
    "career": {
-    "losses": 1,
-    "points_against": 3,
-    "points_for": 2,
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
     "wins": 0
    },
@@ -387,7 +366,7 @@
     "eyepatch",
     "beard"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_e6842ed598",
    "name": "BRONYX",
    "personality": "evasive",
@@ -433,10 +412,10 @@
    "build": 1.024,
    "career": {
     "losses": 0,
-    "points_against": 2,
-    "points_for": 9,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
-    "wins": 3
+    "wins": 0
    },
    "color": "#2ee9ff",
    "costume": [
@@ -445,7 +424,7 @@
     "beard",
     "eyepatch"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_414f6737b8",
    "name": "KRANTAR",
    "personality": "technical",
@@ -490,11 +469,11 @@
    "accessory": "tricorne",
    "build": 1.027,
    "career": {
-    "losses": 1,
-    "points_against": 5,
-    "points_for": 4,
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
-    "wins": 1
+    "wins": 0
    },
    "color": "#8cff3a",
    "costume": [
@@ -503,7 +482,7 @@
     "peg_leg",
     "hook_hand"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_f092bf26af",
    "name": "SPRTAR",
    "personality": "strategic",
@@ -548,11 +527,11 @@
    "accessory": "tricorne",
    "build": 0.997,
    "career": {
-    "losses": 1,
-    "points_against": 6,
-    "points_for": 6,
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
-    "wins": 2
+    "wins": 0
    },
    "color": "#3a7bff",
    "costume": [
@@ -560,7 +539,7 @@
     "beard",
     "parrot"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_89031061bd",
    "name": "THRZOS",
    "personality": "defensive",
@@ -604,9 +583,9 @@
    "accessory": "captain_hat",
    "build": 0.964,
    "career": {
-    "losses": 1,
-    "points_against": 3,
-    "points_for": 2,
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
     "wins": 0
    },
@@ -616,7 +595,7 @@
     "beard",
     "peg_leg"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_fc577d4a4e",
    "name": "CUTLOS",
    "personality": "technical",
@@ -662,9 +641,9 @@
    "accessory": "bandana",
    "build": 1.029,
    "career": {
-    "losses": 1,
-    "points_against": 3,
-    "points_for": 1,
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
     "wins": 0
    },
@@ -674,7 +653,7 @@
     "hook_hand",
     "beard"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_2f1df243a3",
    "name": "HARKARA",
    "personality": "defensive",
@@ -720,9 +699,9 @@
    "accessory": "captain_hat",
    "build": 0.996,
    "career": {
-    "losses": 1,
-    "points_against": 3,
-    "points_for": 1,
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
     "tournaments": [],
     "wins": 0
    },
@@ -733,7 +712,7 @@
     "peg_leg",
     "eyepatch"
    ],
-   "created": "2026-11-16T08:42:32",
+   "created": "2026-11-16T10:49:20",
    "id": "ftr_13baa79cca",
    "name": "KNUEX",
    "personality": "evasive",
@@ -768,856 +747,13 @@
    "weapons": []
   }
  ],
- "matches": {
-  "m001": {
-   "archetype": "rivalry",
-   "arena": "Deck of the Black Doubloon",
-   "contact_sheet": "tournaments/pirates_801535867/qa/m001_contact.png",
-   "discoveries": [
-    "tq_50f90f9f7f",
-    "tq_7fa336136e",
-    "tq_75a896346e",
-    "tq_39c5e95af4",
-    "tq_d85d1a9ed8",
-    "tq_4430373812"
-   ],
-   "final_point_t": 114.108,
-   "intro_seconds": 10.35,
-   "ko_video_t": 156.26666666666665,
-   "points": [
-    {
-     "abs_t": 34.3167,
-     "final": false,
-     "score": [
-      0,
-      1
-     ],
-     "scorer": 1,
-     "t": 30.717,
-     "tech": "tq_675d1c682f",
-     "tech_name": "Snare Quickdraw Crash"
-    },
-    {
-     "abs_t": 74.7417,
-     "final": false,
-     "score": [
-      1,
-      1
-     ],
-     "scorer": 0,
-     "t": 71.142,
-     "tech": "tq_4b6c197dc8",
-     "tech_name": "Cascade Grapeshot Rising Fist"
-    },
-    {
-     "abs_t": 92.0833,
-     "final": false,
-     "score": [
-      1,
-      2
-     ],
-     "scorer": 1,
-     "t": 88.483,
-     "tech": "tq_88df4a5fab",
-     "tech_name": "Delayed Quickdraw Orb"
-    },
-    {
-     "abs_t": 110.6,
-     "final": false,
-     "score": [
-      2,
-      2
-     ],
-     "scorer": 0,
-     "t": 107.0,
-     "tech": "tq_815d0b46aa",
-     "tech_name": "Feint Guarded Scattershot Knuckle"
-    },
-    {
-     "abs_t": 117.7083,
-     "final": true,
-     "score": [
-      3,
-      2
-     ],
-     "scorer": 0,
-     "t": 114.108,
-     "tech": "tq_257b763739",
-     "tech_name": "SCATTERSHOT SPIRE"
-    }
-   ],
-   "render_seconds": 609.1,
-   "scores": [
-    3,
-    2
-   ],
-   "sim_issues": [],
-   "stats": [
-    {
-     "blocked": 0,
-     "combo": 7,
-     "counters": 1,
-     "discoveries": 4,
-     "dodges": 3,
-     "fusions": 0,
-     "guard_breaks": 12,
-     "hits": 40,
-     "minor": 9,
-     "points": 3,
-     "projectiles": 19,
-     "significant": 9,
-     "techniques": 82,
-     "ultimates": 3
-    },
-    {
-     "blocked": 2,
-     "combo": 2,
-     "counters": 2,
-     "discoveries": 2,
-     "dodges": 0,
-     "fusions": 0,
-     "guard_breaks": 3,
-     "hits": 28,
-     "minor": 9,
-     "points": 2,
-     "projectiles": 21,
-     "significant": 12,
-     "techniques": 82,
-     "ultimates": 4
-    }
-   ],
-   "stats_recorded": true,
-   "timeline_hash": "32a637057402d73b5dc63b7b861c993801eeb4cec2538be00d55ef9461f1d020",
-   "video": "exports/pirates_801535867/round_01/match_001.mp4",
-   "video_frames": 10016,
-   "video_issues": [],
-   "video_ok": true,
-   "video_seconds": 166.933,
-   "winner": "ftr_f092bf26af"
-  },
-  "m002": {
-   "archetype": "counter_clinic",
-   "arena": "Deck of the Black Doubloon",
-   "contact_sheet": "tournaments/pirates_801535867/qa/m002_contact.png",
-   "discoveries": [
-    "tq_22fa91586b",
-    "tq_03a43fc252",
-    "tq_8abffd40b9"
-   ],
-   "final_point_t": 78.992,
-   "intro_seconds": 0.0,
-   "ko_video_t": 103.33333333333333,
-   "points": [
-    {
-     "abs_t": 32.4583,
-     "final": false,
-     "score": [
-      1,
-      0
-     ],
-     "scorer": 0,
-     "t": 28.858,
-     "tech": "tq_7bb06b483a",
-     "tech_name": "Kraken Sweep"
-    },
-    {
-     "abs_t": 47.9667,
-     "final": false,
-     "score": [
-      1,
-      1
-     ],
-     "scorer": 1,
-     "t": 44.367,
-     "tech": "tq_e29e7e483c",
-     "tech_name": "DECKHAND SPIRE"
-    },
-    {
-     "abs_t": 67.8417,
-     "final": false,
-     "score": [
-      2,
-      1
-     ],
-     "scorer": 0,
-     "t": 64.242,
-     "tech": "tq_0d91680416",
-     "tech_name": "Kraken Suplex"
-    },
-    {
-     "abs_t": 82.5917,
-     "final": true,
-     "score": [
-      3,
-      1
-     ],
-     "scorer": 0,
-     "t": 78.992,
-     "tech": "tq_60b59b8ac2",
-     "tech_name": "ABYSSAL RAY"
-    }
-   ],
-   "render_seconds": 228.0,
-   "scores": [
-    3,
-    1
-   ],
-   "sim_issues": [],
-   "stats": [
-    {
-     "blocked": 0,
-     "combo": 27,
-     "counters": 1,
-     "discoveries": 2,
-     "dodges": 2,
-     "fusions": 0,
-     "guard_breaks": 12,
-     "hits": 66,
-     "minor": 20,
-     "points": 3,
-     "projectiles": 4,
-     "significant": 4,
-     "techniques": 41,
-     "ultimates": 4
-    },
-    {
-     "blocked": 1,
-     "combo": 3,
-     "counters": 0,
-     "discoveries": 1,
-     "dodges": 13,
-     "fusions": 0,
-     "guard_breaks": 0,
-     "hits": 23,
-     "minor": 11,
-     "points": 1,
-     "projectiles": 6,
-     "significant": 8,
-     "techniques": 42,
-     "ultimates": 2
-    }
-   ],
-   "stats_recorded": true,
-   "timeline_hash": "e968d28ed8f320ed530db481e926c2a36638a178d86ba1b078aee8d169c97ba5",
-   "video": "exports/pirates_801535867/round_01/match_002.mp4",
-   "video_frames": 6841,
-   "video_issues": [],
-   "video_ok": true,
-   "video_seconds": 114.017,
-   "winner": "ftr_414f6737b8"
-  },
-  "m003": {
-   "archetype": "chess_match",
-   "arena": "Deck of the Black Doubloon",
-   "contact_sheet": "tournaments/pirates_801535867/qa/m003_contact.png",
-   "discoveries": [
-    "tq_db15388f10",
-    "tq_943b1eadbb",
-    "tq_5763ecc182",
-    "tq_e312c5529d",
-    "tq_b08abcc258"
-   ],
-   "final_point_t": 73.908,
-   "intro_seconds": 0.0,
-   "ko_video_t": 100.25,
-   "points": [
-    {
-     "abs_t": 23.3917,
-     "final": false,
-     "score": [
-      1,
-      0
-     ],
-     "scorer": 0,
-     "t": 19.792,
-     "tech": "tq_41a1645b19",
-     "tech_name": "Piercing Whaler's Glaive"
-    },
-    {
-     "abs_t": 43.1167,
-     "final": false,
-     "score": [
-      1,
-      1
-     ],
-     "scorer": 1,
-     "t": 39.517,
-     "tech": "tq_2908bdffeb",
-     "tech_name": "FLICKING RAY"
-    },
-    {
-     "abs_t": 65.025,
-     "final": false,
-     "score": [
-      1,
-      2
-     ],
-     "scorer": 1,
-     "t": 61.425,
-     "tech": "tq_4a4331160a",
-     "tech_name": "Piercing Silent Edge"
-    },
-    {
-     "abs_t": 77.5083,
-     "final": true,
-     "score": [
-      1,
-      3
-     ],
-     "scorer": 1,
-     "t": 73.908,
-     "tech": "tq_2908bdffeb",
-     "tech_name": "FLICKING RAY"
-    }
-   ],
-   "render_seconds": 241.1,
-   "scores": [
-    1,
-    3
-   ],
-   "sim_issues": [],
-   "stats": [
-    {
-     "blocked": 0,
-     "combo": 10,
-     "counters": 0,
-     "discoveries": 3,
-     "dodges": 1,
-     "fusions": 0,
-     "guard_breaks": 1,
-     "hits": 35,
-     "minor": 19,
-     "points": 1,
-     "projectiles": 7,
-     "significant": 4,
-     "techniques": 62,
-     "ultimates": 2
-    },
-    {
-     "blocked": 2,
-     "combo": 14,
-     "counters": 11,
-     "discoveries": 2,
-     "dodges": 3,
-     "fusions": 0,
-     "guard_breaks": 3,
-     "hits": 40,
-     "minor": 15,
-     "points": 3,
-     "projectiles": 4,
-     "significant": 5,
-     "techniques": 62,
-     "ultimates": 4
-    }
-   ],
-   "stats_recorded": true,
-   "timeline_hash": "2b35ea49b70f3df736ec318f07d87cf5b79008720fa1f697134cbb467250dfa7",
-   "video": "exports/pirates_801535867/round_01/match_003.mp4",
-   "video_frames": 6655,
-   "video_issues": [],
-   "video_ok": true,
-   "video_seconds": 110.917,
-   "winner": "ftr_89031061bd"
-  },
-  "m004": {
-   "archetype": "tech_vs_power",
-   "arena": "Deck of the Black Doubloon",
-   "contact_sheet": "tournaments/pirates_801535867/qa/m004_contact.png",
-   "discoveries": [
-    "tq_b8e982b7f4",
-    "tq_848bc53bf6",
-    "tq_f42ca23d67",
-    "tq_541865303c"
-   ],
-   "final_point_t": 85.842,
-   "intro_seconds": 0.0,
-   "ko_video_t": 115.4,
-   "points": [
-    {
-     "abs_t": 18.3417,
-     "final": false,
-     "score": [
-      1,
-      0
-     ],
-     "scorer": 0,
-     "t": 14.742,
-     "tech": "tq_69984c69ae",
-     "tech_name": "Crescent Glaive"
-    },
-    {
-     "abs_t": 35.3667,
-     "final": false,
-     "score": [
-      1,
-      1
-     ],
-     "scorer": 1,
-     "t": 31.767,
-     "tech": "tq_6d0b02db18",
-     "tech_name": "Sunken Edge"
-    },
-    {
-     "abs_t": 60.6667,
-     "final": false,
-     "score": [
-      2,
-      1
-     ],
-     "scorer": 0,
-     "t": 57.067,
-     "tech": "tq_06c3e932cb",
-     "tech_name": "Rapid Chain Razor Glaive"
-    },
-    {
-     "abs_t": 79.1583,
-     "final": false,
-     "score": [
-      2,
-      2
-     ],
-     "scorer": 1,
-     "t": 75.558,
-     "tech": "tq_074537cbdb",
-     "tech_name": "GUARDED SUNKEN BURST"
-    },
-    {
-     "abs_t": 89.4417,
-     "final": true,
-     "score": [
-      2,
-      3
-     ],
-     "scorer": 1,
-     "t": 85.842,
-     "tech": "tq_074537cbdb",
-     "tech_name": "GUARDED SUNKEN BURST"
-    }
-   ],
-   "render_seconds": 521.7,
-   "scores": [
-    2,
-    3
-   ],
-   "sim_issues": [],
-   "stats": [
-    {
-     "blocked": 0,
-     "combo": 59,
-     "counters": 2,
-     "discoveries": 2,
-     "dodges": 6,
-     "fusions": 0,
-     "guard_breaks": 6,
-     "hits": 92,
-     "minor": 23,
-     "points": 2,
-     "projectiles": 17,
-     "significant": 3,
-     "techniques": 76,
-     "ultimates": 4
-    },
-    {
-     "blocked": 0,
-     "combo": 16,
-     "counters": 3,
-     "discoveries": 2,
-     "dodges": 3,
-     "fusions": 0,
-     "guard_breaks": 2,
-     "hits": 39,
-     "minor": 12,
-     "points": 3,
-     "projectiles": 7,
-     "significant": 6,
-     "techniques": 57,
-     "ultimates": 5
-    }
-   ],
-   "stats_recorded": true,
-   "timeline_hash": "3f8ea6a7efbdb712acf9986f02fff80c156517c9298f0e6f79e7f531f5405aed",
-   "video": "exports/pirates_801535867/round_01/match_004.mp4",
-   "video_frames": 7564,
-   "video_issues": [],
-   "video_ok": true,
-   "video_seconds": 126.067,
-   "winner": "ftr_5276d80fb8"
-  },
-  "m005": {
-   "archetype": "rivalry",
-   "arena": "Cave of Lost Gold",
-   "contact_sheet": "tournaments/pirates_801535867/qa/m005_contact.png",
-   "discoveries": [
-    "tq_38f1393708",
-    "tq_3efaec5aaa",
-    "tq_c4d63827ed",
-    "tq_40a81c6643",
-    "tq_4e83359c81"
-   ],
-   "final_point_t": 84.167,
-   "intro_seconds": 5.0,
-   "ko_video_t": 114.83333333333333,
-   "points": [
-    {
-     "abs_t": 25.6833,
-     "final": false,
-     "score": [
-      0,
-      1
-     ],
-     "scorer": 1,
-     "t": 22.083,
-     "tech": "tq_7bb06b483a",
-     "tech_name": "Kraken Sweep"
-    },
-    {
-     "abs_t": 51.7333,
-     "final": false,
-     "score": [
-      1,
-      1
-     ],
-     "scorer": 0,
-     "t": 48.133,
-     "tech": "tq_4b6c197dc8",
-     "tech_name": "Cascade Grapeshot Rising Fist"
-    },
-    {
-     "abs_t": 72.05,
-     "final": false,
-     "score": [
-      1,
-      2
-     ],
-     "scorer": 1,
-     "t": 68.45,
-     "tech": "tq_60b59b8ac2",
-     "tech_name": "ABYSSAL RAY"
-    },
-    {
-     "abs_t": 87.7667,
-     "final": true,
-     "score": [
-      1,
-      3
-     ],
-     "scorer": 1,
-     "t": 84.167,
-     "tech": "tq_60b59b8ac2",
-     "tech_name": "ABYSSAL RAY"
-    }
-   ],
-   "render_seconds": 286.3,
-   "scores": [
-    1,
-    3
-   ],
-   "sim_issues": [],
-   "stats": [
-    {
-     "blocked": 0,
-     "combo": 2,
-     "counters": 2,
-     "discoveries": 4,
-     "dodges": 13,
-     "fusions": 0,
-     "guard_breaks": 1,
-     "hits": 18,
-     "minor": 10,
-     "points": 1,
-     "projectiles": 7,
-     "significant": 4,
-     "techniques": 47,
-     "ultimates": 3
-    },
-    {
-     "blocked": 0,
-     "combo": 24,
-     "counters": 0,
-     "discoveries": 1,
-     "dodges": 2,
-     "fusions": 0,
-     "guard_breaks": 9,
-     "hits": 70,
-     "minor": 22,
-     "points": 3,
-     "projectiles": 7,
-     "significant": 12,
-     "techniques": 59,
-     "ultimates": 4
-    }
-   ],
-   "stats_recorded": true,
-   "timeline_hash": "655822cc88a8be3df56910d8ccc69c34f55095af498be8f718a1bf515976fc89",
-   "video": "exports/pirates_801535867/semifinals/match_005.mp4",
-   "video_frames": 7530,
-   "video_issues": [],
-   "video_ok": true,
-   "video_seconds": 125.5,
-   "winner": "ftr_414f6737b8"
-  },
-  "m006": {
-   "archetype": "underdog",
-   "arena": "Cave of Lost Gold",
-   "contact_sheet": "tournaments/pirates_801535867/qa/m006_contact.png",
-   "discoveries": [
-    "tq_cbaf20fa1d",
-    "tq_406d26f57e",
-    "tq_f74992f729",
-    "tq_859881c651",
-    "tq_1f7c92fad1",
-    "tq_87644d94de",
-    "tq_f3e29f7893",
-    "tq_976c597970"
-   ],
-   "final_point_t": 89.733,
-   "intro_seconds": 0.0,
-   "ko_video_t": 117.71666666666667,
-   "points": [
-    {
-     "abs_t": 33.85,
-     "final": false,
-     "score": [
-      0,
-      1
-     ],
-     "scorer": 1,
-     "t": 30.25,
-     "tech": "tq_6abeae4a66",
-     "tech_name": "Piercing Sunken Comet"
-    },
-    {
-     "abs_t": 53.6083,
-     "final": false,
-     "score": [
-      1,
-      1
-     ],
-     "scorer": 0,
-     "t": 50.008,
-     "tech": "tq_2908bdffeb",
-     "tech_name": "FLICKING RAY"
-    },
-    {
-     "abs_t": 65.4667,
-     "final": false,
-     "score": [
-      1,
-      2
-     ],
-     "scorer": 1,
-     "t": 61.867,
-     "tech": "tq_074537cbdb",
-     "tech_name": "GUARDED SUNKEN BURST"
-    },
-    {
-     "abs_t": 75.1583,
-     "final": false,
-     "score": [
-      2,
-      2
-     ],
-     "scorer": 0,
-     "t": 71.558,
-     "tech": "tq_2908bdffeb",
-     "tech_name": "FLICKING RAY"
-    },
-    {
-     "abs_t": 93.3333,
-     "final": true,
-     "score": [
-      3,
-      2
-     ],
-     "scorer": 0,
-     "t": 89.733,
-     "tech": "tq_4a4331160a",
-     "tech_name": "Piercing Silent Edge"
-    }
-   ],
-   "render_seconds": 319.9,
-   "scores": [
-    3,
-    2
-   ],
-   "sim_issues": [],
-   "stats": [
-    {
-     "blocked": 0,
-     "combo": 12,
-     "counters": 5,
-     "discoveries": 5,
-     "dodges": 5,
-     "fusions": 0,
-     "guard_breaks": 1,
-     "hits": 43,
-     "minor": 20,
-     "points": 3,
-     "projectiles": 20,
-     "significant": 7,
-     "techniques": 49,
-     "ultimates": 4
-    },
-    {
-     "blocked": 0,
-     "combo": 9,
-     "counters": 0,
-     "discoveries": 3,
-     "dodges": 7,
-     "fusions": 0,
-     "guard_breaks": 5,
-     "hits": 35,
-     "minor": 9,
-     "points": 2,
-     "projectiles": 11,
-     "significant": 10,
-     "techniques": 58,
-     "ultimates": 2
-    }
-   ],
-   "stats_recorded": true,
-   "timeline_hash": "12e8209e01750bfd4e5099e40429970a837e9540be1e20a0a74d7bf2888de33b",
-   "video": "exports/pirates_801535867/semifinals/match_006.mp4",
-   "video_frames": 7703,
-   "video_issues": [],
-   "video_ok": true,
-   "video_seconds": 128.383,
-   "winner": "ftr_89031061bd"
-  },
-  "m007": {
-   "archetype": "final_thriller",
-   "arena": "Cutthroat Island",
-   "contact_sheet": "tournaments/pirates_801535867/qa/m007_contact.png",
-   "discoveries": [
-    "tq_aa0c9a94d9",
-    "tq_234422da83",
-    "tq_3e7987ab37",
-    "tq_1b15fa2698",
-    "tq_3985d4c5c4",
-    "tq_eb8b0352cb",
-    "tq_0a8a64e616",
-    "tq_736b05adb8"
-   ],
-   "final_point_t": 65.975,
-   "intro_seconds": 5.0,
-   "ko_video_t": 93.18333333333334,
-   "points": [
-    {
-     "abs_t": 21.7333,
-     "final": false,
-     "score": [
-      1,
-      0
-     ],
-     "scorer": 0,
-     "t": 18.133,
-     "tech": "tq_0d91680416",
-     "tech_name": "Kraken Suplex"
-    },
-    {
-     "abs_t": 39.5917,
-     "final": false,
-     "score": [
-      2,
-      0
-     ],
-     "scorer": 0,
-     "t": 35.992,
-     "tech": "tq_7bb06b483a",
-     "tech_name": "Kraken Sweep"
-    },
-    {
-     "abs_t": 69.575,
-     "final": true,
-     "score": [
-      3,
-      0
-     ],
-     "scorer": 0,
-     "t": 65.975,
-     "tech": "tq_60b59b8ac2",
-     "tech_name": "ABYSSAL RAY"
-    }
-   ],
-   "render_seconds": 234.6,
-   "scores": [
-    3,
-    0
-   ],
-   "sim_issues": [],
-   "stats": [
-    {
-     "blocked": 1,
-     "combo": 26,
-     "counters": 3,
-     "discoveries": 3,
-     "dodges": 2,
-     "fusions": 0,
-     "guard_breaks": 3,
-     "hits": 56,
-     "minor": 20,
-     "points": 3,
-     "projectiles": 4,
-     "significant": 4,
-     "techniques": 46,
-     "ultimates": 3
-    },
-    {
-     "blocked": 0,
-     "combo": 10,
-     "counters": 4,
-     "discoveries": 5,
-     "dodges": 5,
-     "fusions": 0,
-     "guard_breaks": 0,
-     "hits": 32,
-     "minor": 21,
-     "points": 0,
-     "projectiles": 5,
-     "significant": 1,
-     "techniques": 52,
-     "ultimates": 3
-    }
-   ],
-   "stats_recorded": true,
-   "timeline_hash": "2b9533362ba334a53f0c493dc52b6a961a4a233938c48f5515c6c1b960635cec",
-   "video": "exports/pirates_801535867/final/match_007.mp4",
-   "video_frames": 6591,
-   "video_issues": [],
-   "video_ok": true,
-   "video_seconds": 109.85,
-   "winner": "ftr_414f6737b8"
-  }
- },
+ "matches": {},
  "name": "Pirates",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "pirates_801535867",
- "steps": {
-  "complete": "exports/pirates_801535867/complete_tournament.mp4",
-  "highlights": "exports/pirates_801535867/highlights.mp4",
-  "intro_bracket_01": {
-   "frames": 300,
-   "path": "tournaments/pirates_801535867/intros/bracket_01.mp4"
-  },
-  "intro_bracket_02": {
-   "frames": 300,
-   "path": "tournaments/pirates_801535867/intros/bracket_02.mp4"
-  },
-  "intro_bracket_03": {
-   "frames": 300,
-   "path": "tournaments/pirates_801535867/intros/bracket_03.mp4"
-  },
-  "intro_roster": {
-   "frames": 321,
-   "path": "tournaments/pirates_801535867/intros/roster.mp4"
-  },
-  "outro_champion": {
-   "frames": 360,
-   "path": "tournaments/pirates_801535867/intros/champion.mp4"
-  }
- },
+ "steps": {},
  "theme": "pirates",
- "updated": "2026-11-16T09:34:16",
+ "updated": "2026-11-16T10:49:20",
  "version": 1
 }

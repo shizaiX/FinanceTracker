@@ -65,7 +65,7 @@ def build_camera(result, vframes, width, height, fps, shake_scale=1.0, style="ba
                 span = max(span, min(8.0, abs(pr[1] - tx) * 2))
         tz = width / (span + base_div)
         tz = min(tz, height * 0.42 / max(2.2, top - ty + 1.2))
-        tz = clamp(tz, 128.0, 275.0)
+        tz = clamp(tz, 55.0, 275.0)
         stiff = 5.0
         # Intro: present each fighter, then the pair.
         if vf.segment == "intro":
@@ -139,6 +139,20 @@ def build_camera(result, vframes, width, height, fps, shake_scale=1.0, style="ba
         bars = 0.0
         if vf.speed < 0.6 and vf.segment in ("fight", "outro"):
             bars = 1.0
+        # Guard rail: whatever the smoothing does, both visible fighters stay in frame.
+        if vf.segment in ("fight", "hook", "outro") or (vf.segment == "intro" and s >= 2.65):
+            pts = [p_ for p_, h in ((xa, hid_a), (xb, hid_b)) if not h] or [tx]
+            lo, hi = min(pts) - 0.95, max(pts) + 0.95
+            if (hi - lo) * zoom > width:
+                zoom = width / (hi - lo)
+                vz = 0.0
+            half = width / 2 / zoom
+            if lo < cx - half:
+                cx = lo + half
+                vx = 0.0
+            elif hi > cx + half:
+                cx = hi - half
+                vx = 0.0
         prev_bars = keys[-1].bars if keys else 0.0
         bars = lerp(prev_bars, bars, 0.15)
         keys.append(CameraKey(cx, cy, zoom, sx, sy, rot, bars))

@@ -117,6 +117,16 @@ def think(f, o, m):
         u = tech_utility(f, o, tech, dist, m)
         if u > 0.02:
             opts.append((("tech", tech), u))
+    if o.action.kind in ("broken", "grabbed"):
+        # The opponent is stunned: no blocking, waiting or charging — go for the
+        # punish right away (close the distance if nothing reaches yet).
+        if opts:
+            choice = max(opts, key=lambda x: x[1])[0]
+            m.start_technique(f, o, choice[1])
+        else:
+            m.start_move(f, toward=True, dur=0.25, speed=7.0 if dist > 2.5 else 4.0)
+            f.think_cd = 0.0
+        return
     desired = tr["range"] * (0.8 if m.director.phase_index(m.fight_t) >= 2 else 1.0)
     aggr = tr["aggression"] * m.director.aggression(m.fight_t)
     if dist > desired + 0.4:
@@ -239,6 +249,8 @@ def _threats(f, o, m):
 def react(f, o, m):
     if not (f.free or (f.action.kind == "technique" and f.action.phase == "antic" and f.action.phase_p < 0.3)):
         return
+    if o.action.kind in ("broken", "grabbed"):
+        return  # nothing to defend against a stunned opponent
     rng = m.rng_ai[f.side]
     tr = f.traits
     for key, delivery, height, remaining, tech in _threats(f, o, m):
