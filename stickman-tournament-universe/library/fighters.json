@@ -405,12 +405,12 @@
    "build": 0.996,
    "career": {
     "losses": 1,
-    "points_against": 3,
-    "points_for": 1,
+    "points_against": 4,
+    "points_for": 5,
     "tournaments": [
      "pirates_801535867"
     ],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ff9a1f",
    "costume": [
@@ -713,12 +713,12 @@
    "build": 1.029,
    "career": {
     "losses": 1,
-    "points_against": 3,
-    "points_for": 1,
+    "points_against": 5,
+    "points_for": 4,
     "tournaments": [
      "pirates_801535867"
     ],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ffe23d",
    "costume": [
@@ -943,13 +943,13 @@
    "accessory": "captain_hat",
    "build": 1.024,
    "career": {
-    "losses": 0,
-    "points_against": 2,
-    "points_for": 9,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [
      "pirates_801535867"
     ],
-    "wins": 3
+    "wins": 0
    },
    "color": "#2ee9ff",
    "costume": [
@@ -1252,13 +1252,13 @@
    "accessory": "bandana",
    "build": 0.982,
    "career": {
-    "losses": 1,
-    "points_against": 5,
-    "points_for": 5,
+    "losses": 0,
+    "points_against": 3,
+    "points_for": 9,
     "tournaments": [
      "pirates_801535867"
     ],
-    "wins": 1
+    "wins": 3
    },
    "color": "#1fe08a",
    "costume": [
@@ -1810,12 +1810,12 @@
    "build": 0.997,
    "career": {
     "losses": 1,
-    "points_against": 6,
-    "points_for": 6,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [
      "pirates_801535867"
     ],
-    "wins": 2
+    "wins": 0
    },
    "color": "#3a7bff",
    "costume": [
@@ -2695,12 +2695,12 @@
    "build": 0.954,
    "career": {
     "losses": 1,
-    "points_against": 3,
-    "points_for": 2,
+    "points_against": 7,
+    "points_for": 6,
     "tournaments": [
      "pirates_801535867"
     ],
-    "wins": 0
+    "wins": 2
    },
    "color": "#ff3b3b",
    "costume": [
@@ -2874,12 +2874,12 @@
    "build": 1.027,
    "career": {
     "losses": 1,
-    "points_against": 5,
-    "points_for": 4,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [
      "pirates_801535867"
     ],
-    "wins": 1
+    "wins": 0
    },
    "color": "#8cff3a",
    "costume": [
@@ -2985,6 +2985,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T09:25:27",
+ "updated": "2026-11-16T11:33:34",
  "version": 1
 }

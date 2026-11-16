@@ -38,7 +38,7 @@
    "theme": "elements"
   },
   "pirates_801535867": {
-   "champion": "ftr_414f6737b8",
+   "champion": "ftr_5276d80fb8",
    "champion_name": "KRANTAR",
    "finished": "2026-11-16T09:25:27",
    "name": "Pirates",
@@ -57,6 +57,6 @@
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-16T09:25:27",
+ "updated": "2026-11-16T11:33:34",
  "version": 1
 }
