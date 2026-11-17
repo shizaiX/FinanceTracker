@@ -1,6 +1,15 @@
 {
- "count": 8,
+ "count": 9,
  "items": {
+  "cosmic_powers_1867555067": {
+   "champion": "ftr_f70388dfe5",
+   "champion_name": "BLAKA",
+   "finished": "2026-11-17T22:34:39",
+   "name": "Cosmic Powers",
+   "participants": 8,
+   "seed": 1867555067,
+   "theme": "cosmic_powers"
+  },
   "cyberpunk_752562980": {
    "champion": "ftr_26c2f4593f",
    "champion_name": "NEOVIA",
@@ -75,6 +84,6 @@
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-16T23:00:25",
+ "updated": "2026-11-17T22:34:39",
  "version": 1
 }
