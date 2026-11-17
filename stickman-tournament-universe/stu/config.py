@@ -52,7 +52,7 @@ DEFAULTS = {
         "orientation": "vertical",
         "export_individual_fights": True,
         "export_complete_tournament": True,
-        "export_highlights": True,
+        "export_highlights": False,  # highlight reels only on request
         "codec": "h264",
         "quality": "high",
         "render_workers": "auto",

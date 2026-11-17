@@ -1,0 +1,514 @@
+{
+ "abilities": [
+  {
+   "affinity": {
+    "beam": 0.6,
+    "charge": 0.7,
+    "env_strike": 0.6,
+    "explosion": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "punch": 0.8
+   },
+   "archetype": "flame",
+   "aura": "flame",
+   "colors": [
+    "#ffffff",
+    "#ffd0f0",
+    "#ff4fd8"
+   ],
+   "env_form": "geyser",
+   "id": "ab_d1219420b0",
+   "key": "supernova",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "chain": 0.7,
+    "delayed": 0.9,
+    "split": 0.8,
+    "trap": 0.6
+   },
+   "name": "Supernova",
+   "particle": "flame",
+   "projectile": "orb",
+   "stats": {
+    "control": 0.8,
+    "defense": 0.8,
+    "power": 1.15,
+    "speed": 1.0
+   },
+   "tags": [
+    "heat",
+    "energy",
+    "volatile"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "fire",
+   "words": {
+    "adj": [
+     "Blazing",
+     "Infernal",
+     "Scorching",
+     "Cinder"
+    ],
+    "noun": [
+     "Inferno",
+     "Ember",
+     "Blaze",
+     "Pyre",
+     "Flare"
+    ]
+   },
+   "zone": "burning"
+  },
+  {
+   "affinity": {
+    "aerial_strike": 0.8,
+    "explosion": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.7,
+    "slam": 1.0
+   },
+   "archetype": "gravity",
+   "aura": "ring",
+   "colors": [
+    "#ffe3ff",
+    "#d36bff",
+    "#5b1f8a"
+   ],
+   "env_form": "well",
+   "id": "ab_5401f34434",
+   "key": "black_hole",
+   "mobility": "float",
+   "mod_affinity": {
+    "absorb": 0.8,
+    "amplify": 1.0,
+    "delayed": 0.8,
+    "trap": 0.7
+   },
+   "name": "Black Hole",
+   "particle": "ring",
+   "projectile": "void",
+   "stats": {
+    "control": 1.15,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 0.9
+   },
+   "tags": [
+    "mass",
+    "force",
+    "void",
+    "gravity"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "gravity",
+   "words": {
+    "adj": [
+     "Singular",
+     "Graviton",
+     "Crushing",
+     "Event"
+    ],
+    "noun": [
+     "Singularity",
+     "Horizon",
+     "Collapse",
+     "Orbit",
+     "Nova"
+    ]
+   },
+   "zone": "well"
+  },
+  {
+   "affinity": {
+    "beam": 1.0,
+    "explosion": 0.7,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "summon_weapon": 0.7
+   },
+   "archetype": "radiance",
+   "aura": "ray",
+   "colors": [
+    "#ffffff",
+    "#fff4b8",
+    "#ffd23f"
+   ],
+   "env_form": "light_pillar",
+   "id": "ab_bdb37efa7b",
+   "key": "starlight",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "homing": 0.7,
+    "pierce": 1.0,
+    "reflect": 1.0,
+    "split": 0.8
+   },
+   "name": "Starlight",
+   "particle": "ray",
+   "projectile": "ray",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.15
+   },
+   "tags": [
+    "radiant",
+    "energy",
+    "fast",
+    "precise"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "light",
+   "words": {
+    "adj": [
+     "Solar",
+     "Radiant",
+     "Prism",
+     "Dawn"
+    ],
+    "noun": [
+     "Halo",
+     "Prism",
+     "Sunburst",
+     "Lance",
+     "Aurora"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "charge": 0.8,
+    "env_strike": 1.0,
+    "projectile": 0.6,
+    "punch": 0.9,
+    "slam": 1.0,
+    "uppercut": 0.8
+   },
+   "archetype": "stone",
+   "aura": "dust",
+   "colors": [
+    "#ffffff",
+    "#a8c8ff",
+    "#3a5ac8"
+   ],
+   "env_form": "pillar",
+   "id": "ab_f7d35950c8",
+   "key": "comet",
+   "mobility": "dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "multistage": 0.5,
+    "shield": 1.0,
+    "trap": 0.6
+   },
+   "name": "Comet",
+   "particle": "rock",
+   "projectile": "rock",
+   "stats": {
+    "control": 0.9,
+    "defense": 1.2,
+    "power": 1.2,
+    "speed": 0.85
+   },
+   "tags": [
+    "solid",
+    "mass",
+    "ground",
+    "heavy"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "earth",
+   "words": {
+    "adj": [
+     "Titan",
+     "Granite",
+     "Tectonic",
+     "Basalt"
+    ],
+    "noun": [
+     "Quake",
+     "Monolith",
+     "Bastion",
+     "Boulder",
+     "Rift"
+    ]
+   },
+   "zone": "cracked"
+  },
+  {
+   "affinity": {
+    "aerial_strike": 1.0,
+    "explosion": 0.7,
+    "kick": 1.0,
+    "projectile": 0.9,
+    "sweep": 0.7
+   },
+   "archetype": "gale",
+   "aura": "gust",
+   "colors": [
+    "#ffffff",
+    "#fff0a0",
+    "#ffb020"
+   ],
+   "env_form": "column",
+   "id": "ab_8fc8381c10",
+   "key": "solar_wind",
+   "mobility": "glide",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "homing": 0.8,
+    "multistage": 0.8,
+    "reflect": 0.9
+   },
+   "name": "Solar Wind",
+   "particle": "gust",
+   "projectile": "crescent",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.85,
+    "power": 0.9,
+    "speed": 1.25
+   },
+   "tags": [
+    "gas",
+    "fast",
+    "force"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "wind",
+   "words": {
+    "adj": [
+     "Cyclone",
+     "Zephyr",
+     "Howling",
+     "Skyward"
+    ],
+    "noun": [
+     "Gale",
+     "Cyclone",
+     "Tempest",
+     "Zephyr",
+     "Vortex"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "counter": 1.0,
+    "env_strike": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.8,
+    "punch": 0.8
+   },
+   "archetype": "umbra",
+   "aura": "wisp",
+   "colors": [
+    "#e6c8ff",
+    "#9d4dff",
+    "#2a0a4a"
+   ],
+   "env_form": "hands",
+   "id": "ab_dfa244faa2",
+   "key": "void",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "absorb": 1.0,
+    "delayed": 0.9,
+    "homing": 0.9,
+    "trap": 0.8
+   },
+   "name": "Void",
+   "particle": "wisp",
+   "projectile": "void",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.1
+   },
+   "tags": [
+    "void",
+    "stealth",
+    "bind"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "shadow",
+   "words": {
+    "adj": [
+     "Umbral",
+     "Eclipse",
+     "Hollow",
+     "Night"
+    ],
+    "noun": [
+     "Eclipse",
+     "Shade",
+     "Abyss",
+     "Phantom",
+     "Dusk"
+    ]
+   },
+   "zone": "shadow"
+  },
+  {
+   "affinity": {
+    "beam": 0.8,
+    "counter": 0.7,
+    "explosion": 1.0,
+    "projectile": 0.9,
+    "punch": 0.8
+   },
+   "archetype": "resonance",
+   "aura": "wave",
+   "colors": [
+    "#ffffff",
+    "#a0fff0",
+    "#20c8b0"
+   ],
+   "env_form": "burst",
+   "id": "ab_46f985d967",
+   "key": "pulsar",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 1.0,
+    "chain": 0.8,
+    "multistage": 0.7,
+    "reflect": 0.8
+   },
+   "name": "Pulsar",
+   "particle": "wave",
+   "projectile": "wave",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.05
+   },
+   "tags": [
+    "wave",
+    "force",
+    "energy"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "sound",
+   "words": {
+    "adj": [
+     "Sonic",
+     "Echo",
+     "Resonant",
+     "Shrieking"
+    ],
+    "noun": [
+     "Echo",
+     "Crescendo",
+     "Pulse",
+     "Shockwave",
+     "Chorus"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "beam": 1.0,
+    "charge": 0.9,
+    "env_strike": 0.8,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "punch": 0.9
+   },
+   "archetype": "storm",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#ffb8ff",
+    "#c040ff"
+   ],
+   "env_form": "sky_strike",
+   "id": "ab_b5782b751b",
+   "key": "plasma",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "chain": 1.0,
+    "homing": 0.6,
+    "multistage": 0.9,
+    "pierce": 0.9
+   },
+   "name": "Plasma",
+   "particle": "spark",
+   "projectile": "bolt",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.8,
+    "power": 1.05,
+    "speed": 1.2
+   },
+   "tags": [
+    "electric",
+    "energy",
+    "fast"
+   ],
+   "theme": "cosmic_powers",
+   "voice": "electric",
+   "words": {
+    "adj": [
+     "Voltaic",
+     "Thunder",
+     "Arc",
+     "Static"
+    ],
+    "noun": [
+     "Thunder",
+     "Volt",
+     "Arc",
+     "Tempest",
+     "Surge"
+    ]
+   },
+   "zone": null
+  }
+ ],
+ "biomes": [
+  "starfall_rift",
+  "sky_peaks",
+  "abyssal_shrine"
+ ],
+ "costume_rules": {
+  "extras": [
+   0,
+   2
+  ],
+  "head": 1
+ },
+ "costumes": [
+  "halo",
+  "visor",
+  "horns",
+  "cape",
+  "spikes"
+ ],
+ "created": "2026-11-17T22:13:00",
+ "expansions": [],
+ "generated_by": "pack",
+ "key": "cosmic_powers",
+ "name": "cosmic powers",
+ "packs": [
+  "cosmic"
+ ],
+ "physical_weight": 0.1,
+ "range_mix": null,
+ "schema": "stu.theme",
+ "title": "Cosmic",
+ "title_words": [
+  "Cosmic Throne",
+  "Galactic Gauntlet",
+  "Nebula Wars"
+ ],
+ "updated": "2026-11-17T22:13:00",
+ "version": 1
+}

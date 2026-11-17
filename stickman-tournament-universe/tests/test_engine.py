@@ -230,3 +230,20 @@ def test_claude_theme_pack_generation(monkeypatch, tmp_path):
     m = Match(cfg, fs[0], fs[1], th, u, RNG(4).stream("m"), dict(u["techniques"].items), "rivalry", arena)
     r = vars(m.run())
     assert validate_match(r, cfg) == []
+
+
+def test_theme_generation_falls_back_without_credentials(monkeypatch, tmp_path):
+    import anthropic
+
+    class NoAuthMessages:
+        def create(self, **kw):
+            raise TypeError("Could not resolve authentication method")
+
+    class NoAuthClient:
+        def __init__(self, *a, **k):
+            import types
+            self.beta = types.SimpleNamespace(messages=NoAuthMessages())
+
+    monkeypatch.setattr(anthropic, "Anthropic", NoAuthClient)
+    th = load_or_create_theme(Universe(str(tmp_path)), "cosmic powers", RNG(1), 0, mode="auto", log=lambda *_: None)
+    assert th["generated_by"] in ("composition", "pack", "procedural") and len(th["abilities"]) >= 4

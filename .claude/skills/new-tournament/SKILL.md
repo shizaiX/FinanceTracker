@@ -60,8 +60,10 @@ Commit and push the new tournament state (videos in `exports/` are git-ignored):
 ## 4. Deliver
 
 Send every match video with SendUserFile, in bracket order, in two or three batches:
-`exports/<slug>/round_01/*.mp4`, `semifinals/*.mp4` (or other round folders), `final/match_*.mp4`,
-then `highlights.mp4`. Use absolute paths.
+`exports/<slug>/round_01/*.mp4`, `semifinals/*.mp4` (or other round folders), `final/match_*.mp4`.
+Use absolute paths. Highlight reels are not made by default (`video.export_highlights: false`);
+only when the user asks for highlights, render them with `--set video.export_highlights=true`
+(or `Tournament.finalize_exports()` on an existing tournament) and send `highlights.mp4`.
 
 - Match 1 already contains the fighter roster and the bracket.
 - The first match of every later stage starts with the bracket.

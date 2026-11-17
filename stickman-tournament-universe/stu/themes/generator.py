@@ -86,9 +86,20 @@ def _variant_ability(theme_key_, a, b, rng):
     return make_ability(theme_key_, f"{adj} {noun}", a["archetype"], over)
 
 
+# Names from the theme-ideas list that mean exactly one built-in pack.
+PACK_NAMES = {"cosmic_powers": "cosmic", "cosmic_power": "cosmic", "space": "cosmic", "superheroes": "superpowers",
+              "superhero": "superpowers", "super_heroes": "superpowers", "element": "elements", "dragon": "dragons",
+              "pirate": "pirates", "ninja": "ninjas", "knight": "knights", "wizard": "wizards", "mages": "wizards"}
+
+
+def pack_key(name):
+    key = theme_key(name)
+    return PACK_NAMES.get(key, key)
+
+
 def matched_packs(name):
     low = name.lower()
-    key = theme_key(name)
+    key = pack_key(name)
     if key in THEME_PACKS:
         return [key]
     hits = []
@@ -115,7 +126,7 @@ def _pack_fields(key, packs):
 
 def generate_theme(name: str, rng, custom_abilities=None, mode="offline", log=print):
     key = theme_key(name)
-    if mode in ("auto", "claude") and not custom_abilities and key not in THEME_PACKS:
+    if mode in ("auto", "claude") and not custom_abilities and pack_key(name) not in THEME_PACKS:
         from .ai_pack import generate_with_claude, pack_to_theme
         log(f"  theme '{name}' is new: asking Claude to design a theme pack ...")
         data = generate_with_claude(name, log=log)

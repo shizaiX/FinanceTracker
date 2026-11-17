@@ -33,7 +33,7 @@ video:
   orientation: "vertical"
   export_individual_fights: true
   export_complete_tournament: true
-  export_highlights: true
+  export_highlights: false   # only on request
   codec: "h264"
   quality: "high"
   render_workers: "auto"

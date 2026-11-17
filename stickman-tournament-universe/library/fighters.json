@@ -1,5 +1,5 @@
 {
- "count": 64,
+ "count": 80,
  "items": {
   "ftr_02491fc11c": {
    "abilities": [
@@ -814,6 +814,116 @@
    },
    "weapons": []
   },
+  "ftr_22812ca13f": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "accessory": "visor",
+   "build": 0.982,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "visor"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_22812ca13f",
+   "name": "COMRRA",
+   "personality": "strategic",
+   "rating": 1.043,
+   "repertoire": [
+    "tq_eb00689759",
+    "tq_3531bd276b",
+    "tq_b9e79ca94b",
+    "tq_1baf21b290",
+    "tq_701f22c5a9",
+    "tq_b95ce67c73",
+    "tq_2150e57b17",
+    "tq_ce1a19b0fc"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "TECTONIC ERUPTION",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.815,
+    "aggression": 0.52,
+    "caution": 0.604,
+    "counter": 0.536,
+    "creativity": 0.677,
+    "evasive": 0.454,
+    "range": 3.2,
+    "reaction": 0.091,
+    "read": 0.66,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_234bdb3537": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "accessory": "spikes",
+   "build": 0.947,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "spikes",
+    "cape",
+    "scarf"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_234bdb3537",
+   "name": "NOVYX",
+   "personality": "technical",
+   "rating": 1.045,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_c0173d8c00",
+    "tq_2e9b266e32",
+    "tq_b6b01f9db3",
+    "tq_6cfc032cd6",
+    "tq_631f7fb387",
+    "tq_85a46943dd",
+    "tq_31dc60d724",
+    "tq_906364dfc9",
+    "tq_a0073fc114"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "GRAND CRUSHING HAMMER",
+   "stance": "low",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.561,
+    "aggression": 0.585,
+    "caution": 0.612,
+    "counter": 0.612,
+    "creativity": 0.859,
+    "evasive": 0.566,
+    "range": 1.6,
+    "reaction": 0.072,
+    "read": 0.481,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
   "ftr_25872decc9": {
    "abilities": [
     "ab_66a6db4683",
@@ -1112,6 +1222,63 @@
    },
    "weapons": []
   },
+  "ftr_322790d75e": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "accessory": "spikes",
+   "build": 1.006,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "spikes",
+    "cape",
+    "scarf"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_322790d75e",
+   "name": "CRYRA",
+   "personality": "defensive",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_14bfdca58e",
+    "tq_4f3f22e953",
+    "tq_c224eb2884",
+    "tq_e6e602ee55",
+    "tq_60fcca0de1",
+    "tq_502804be6c",
+    "tq_52665f658c",
+    "tq_21249ff559",
+    "tq_4a3aec9342",
+    "tq_1ac08ebbb0"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "SNARE RIME HAMMER",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.697,
+    "aggression": 0.359,
+    "caution": 0.739,
+    "counter": 0.667,
+    "creativity": 0.343,
+    "evasive": 0.365,
+    "range": 1.8,
+    "reaction": 0.14,
+    "read": 0.671,
+    "temperature": 0.45
+   },
+   "weapons": []
+  },
   "ftr_33a29bb1fa": {
    "abilities": [
     "ab_e33ef84aee"
@@ -1223,6 +1390,61 @@
     "reaction": 0.079,
     "read": 0.69,
     "temperature": 1.0
+   },
+   "weapons": []
+  },
+  "ftr_40b2568b15": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "accessory": "visor",
+   "build": 1.048,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "visor",
+    "cape"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_40b2568b15",
+   "name": "STALARA",
+   "personality": "defensive",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_f636b55c96",
+    "tq_5eaa178421",
+    "tq_ab7ba603f3",
+    "tq_7c33f71c86",
+    "tq_2afded385e",
+    "tq_960077fd0f",
+    "tq_149bda6e98",
+    "tq_bec8613c13"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "GRAND PRISM SPIRE",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.598,
+    "aggression": 0.392,
+    "caution": 0.728,
+    "counter": 0.685,
+    "creativity": 0.378,
+    "evasive": 0.401,
+    "range": 1.8,
+    "reaction": 0.079,
+    "read": 0.498,
+    "temperature": 0.45
    },
    "weapons": []
   },
@@ -1348,6 +1570,63 @@
     "read": 0.696,
     "temperature": 1.0
    }
+  },
+  "ftr_42ae3b4723": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "accessory": "halo",
+   "build": 1.025,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "halo",
+    "cape",
+    "scarf"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_42ae3b4723",
+   "name": "COMNION",
+   "personality": "technical",
+   "rating": 1.043,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_fc40bd9697",
+    "tq_41574d9e0e",
+    "tq_3e33bb6170",
+    "tq_9a15814348",
+    "tq_d9c140f8c4",
+    "tq_bf06349b3a",
+    "tq_09d4a63b1f",
+    "tq_10c3057dae",
+    "tq_2a94179d6d"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "TECTONIC CANNON",
+   "stance": "southpaw",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.421,
+    "aggression": 0.562,
+    "caution": 0.607,
+    "counter": 0.546,
+    "creativity": 0.841,
+    "evasive": 0.533,
+    "range": 1.6,
+    "reaction": 0.146,
+    "read": 0.502,
+    "temperature": 0.4
+   },
+   "weapons": []
   },
   "ftr_4618ed9ed0": {
    "abilities": [
@@ -1713,6 +1992,60 @@
    },
    "weapons": []
   },
+  "ftr_64d6eb0d58": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "accessory": "visor",
+   "build": 0.945,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "visor"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_64d6eb0d58",
+   "name": "LANIX",
+   "personality": "unpredictable",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_f8a8ba3e69",
+    "tq_b666b0d1ba",
+    "tq_4c2ce0caba",
+    "tq_ec4e4298e6",
+    "tq_dcf16d501a",
+    "tq_ec211afe07",
+    "tq_24e5903e50",
+    "tq_e86e23d024",
+    "tq_36c60a10fc"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "GRAND PRISM LANCE",
+   "stance": "southpaw",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.699,
+    "aggression": 0.571,
+    "caution": 0.387,
+    "counter": 0.418,
+    "creativity": 0.964,
+    "evasive": 0.602,
+    "range": 2.0,
+    "reaction": 0.101,
+    "read": 0.797,
+    "temperature": 1.0
+   },
+   "weapons": []
+  },
   "ftr_65a1ea9441": {
    "abilities": [
     "ab_66a6db4683"
@@ -2067,6 +2400,62 @@
    },
    "weapons": []
   },
+  "ftr_72b7558332": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "accessory": "halo",
+   "build": 1.033,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "halo",
+    "scarf"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_72b7558332",
+   "name": "SHARUS",
+   "personality": "strategic",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_a272c38faa",
+    "tq_fc40bd9697",
+    "tq_d7fc60baec",
+    "tq_636fb9beb8",
+    "tq_7ba07fbd13",
+    "tq_bd1fbb1e31",
+    "tq_6342f2d9bc",
+    "tq_7eec3d8b24",
+    "tq_43d39aee32",
+    "tq_d68c507790"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "HOLLOW ERUPTION",
+   "stance": "upright",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.475,
+    "aggression": 0.465,
+    "caution": 0.746,
+    "counter": 0.449,
+    "creativity": 0.618,
+    "evasive": 0.441,
+    "range": 3.2,
+    "reaction": 0.108,
+    "read": 0.594,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
   "ftr_78982cc7dd": {
    "abilities": [
     "ab_d903b6dc1c",
@@ -2129,6 +2518,61 @@
     "read": 0.551,
     "temperature": 0.4
    }
+  },
+  "ftr_7b8a832a57": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "accessory": "halo",
+   "build": 1.022,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "halo",
+    "cape"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_7b8a832a57",
+   "name": "VORARA",
+   "personality": "defensive",
+   "rating": 1.003,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_6e26dee2a4",
+    "tq_3d28b4735c",
+    "tq_d452b012e4",
+    "tq_e420d884d9",
+    "tq_0fbcbb657a",
+    "tq_9504debb86",
+    "tq_4ee00badc9",
+    "tq_ddbbee1b16"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "GRAND HOWLING RAY",
+   "stance": "southpaw",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.52,
+    "aggression": 0.316,
+    "caution": 0.687,
+    "counter": 0.637,
+    "creativity": 0.405,
+    "evasive": 0.403,
+    "range": 1.8,
+    "reaction": 0.089,
+    "read": 0.727,
+    "temperature": 0.45
+   },
+   "weapons": []
   },
   "ftr_7ca9d3d1aa": {
    "abilities": [
@@ -2200,6 +2644,61 @@
     "dagger"
    ]
   },
+  "ftr_7efb0c2eb5": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "accessory": "spikes",
+   "build": 0.955,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "spikes",
+    "cape"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_7efb0c2eb5",
+   "name": "PLAZOS",
+   "personality": "defensive",
+   "rating": 0.995,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_516ac0f236",
+    "tq_88d7cf4e65",
+    "tq_4ba22e9ae6",
+    "tq_6773359e30",
+    "tq_f79b1af399",
+    "tq_be13e9821a",
+    "tq_6ffd0593bb",
+    "tq_360b2f4af7"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "VOLTAIC ERUPTION",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.737,
+    "aggression": 0.379,
+    "caution": 0.884,
+    "counter": 0.543,
+    "creativity": 0.347,
+    "evasive": 0.449,
+    "range": 1.8,
+    "reaction": 0.113,
+    "read": 0.528,
+    "temperature": 0.45
+   },
+   "weapons": []
+  },
   "ftr_83a07aa0dc": {
    "abilities": [
     "ab_d2779be2be",
@@ -2265,6 +2764,60 @@
     "reaction": 0.071,
     "read": 0.789,
     "temperature": 0.55
+   },
+   "weapons": []
+  },
+  "ftr_87da5c14fa": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "accessory": "horns",
+   "build": 1.052,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "horns"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_87da5c14fa",
+   "name": "FORLKA",
+   "personality": "evasive",
+   "rating": 1.028,
+   "repertoire": [
+    "tq_f39b10e16e",
+    "tq_c0173d8c00",
+    "tq_af3dc71a8d",
+    "tq_03b66134a4",
+    "tq_201d8ad617",
+    "tq_2ad06605a4",
+    "tq_600dc31738",
+    "tq_113801a729",
+    "tq_8da7b5d2e3"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "GUARDED WARDEN NOVA",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.482,
+    "aggression": 0.539,
+    "caution": 0.523,
+    "counter": 0.358,
+    "creativity": 0.672,
+    "evasive": 0.926,
+    "range": 2.6,
+    "reaction": 0.07,
+    "read": 0.594,
+    "temperature": 0.6
    },
    "weapons": []
   },
@@ -2747,6 +3300,60 @@
     "reaction": 0.086,
     "read": 0.768,
     "temperature": 0.45
+   },
+   "weapons": []
+  },
+  "ftr_ae784a08d2": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "accessory": "halo",
+   "build": 0.982,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "halo",
+    "cape"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_ae784a08d2",
+   "name": "PULVKA",
+   "personality": "strategic",
+   "rating": 1.004,
+   "repertoire": [
+    "tq_e739e73436",
+    "tq_454a111708",
+    "tq_9852b9b2c9",
+    "tq_c6b6ab5065",
+    "tq_710dd7360f",
+    "tq_3579857136",
+    "tq_95145c7754",
+    "tq_e41169b939"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "SONIC CRASH",
+   "stance": "low",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.496,
+    "aggression": 0.457,
+    "caution": 0.566,
+    "counter": 0.46,
+    "creativity": 0.771,
+    "evasive": 0.444,
+    "range": 3.2,
+    "reaction": 0.128,
+    "read": 0.462,
+    "temperature": 0.4
    },
    "weapons": []
   },
@@ -3270,6 +3877,60 @@
    },
    "weapons": []
   },
+  "ftr_cb4d38e568": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "accessory": "horns",
+   "build": 1.056,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "horns"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_cb4d38e568",
+   "name": "PYRVTAR",
+   "personality": "strategic",
+   "rating": 0.964,
+   "repertoire": [
+    "tq_14bfdca58e",
+    "tq_48788c83b9",
+    "tq_5a62cc47b2",
+    "tq_7471cb7aef",
+    "tq_b0566615a7",
+    "tq_3479457aef",
+    "tq_b830ccc7a8",
+    "tq_0c2c3fa374",
+    "tq_0bd135b161"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "SCORCHING QUAKE",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.712,
+    "aggression": 0.539,
+    "caution": 0.746,
+    "counter": 0.555,
+    "creativity": 0.78,
+    "evasive": 0.453,
+    "range": 3.2,
+    "reaction": 0.123,
+    "read": 0.743,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
   "ftr_ccc4196e94": {
    "abilities": [
     "ab_81b962a721"
@@ -3384,6 +4045,60 @@
    },
    "weapons": []
   },
+  "ftr_d43c0d6541": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "accessory": "horns",
+   "build": 1.05,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "horns",
+    "cape"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_d43c0d6541",
+   "name": "VOITAR",
+   "personality": "strategic",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_d20ad02ecc",
+    "tq_d7fc60baec",
+    "tq_d7a9fb5d8b",
+    "tq_ba7807de44",
+    "tq_78a5f25767",
+    "tq_ae73e7f2e0",
+    "tq_82c8237ded",
+    "tq_9e24493dd4"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "GRAND UMBRAL HAMMER",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.856,
+    "aggression": 0.48,
+    "caution": 0.699,
+    "counter": 0.469,
+    "creativity": 0.709,
+    "evasive": 0.469,
+    "range": 3.2,
+    "reaction": 0.079,
+    "read": 0.566,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
   "ftr_d4ed259a4e": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -3437,6 +4152,61 @@
     "reaction": 0.144,
     "read": 0.672,
     "temperature": 0.45
+   },
+   "weapons": []
+  },
+  "ftr_dce9efc63e": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "accessory": "spikes",
+   "build": 1.054,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "spikes"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_dce9efc63e",
+   "name": "PULZOR",
+   "personality": "unpredictable",
+   "rating": 1.004,
+   "repertoire": [
+    "tq_2192a4c6a7",
+    "tq_fb388d70cc",
+    "tq_79b5692026",
+    "tq_fd0c68b790",
+    "tq_d6dddad67a",
+    "tq_8e6fc19835",
+    "tq_65b10e0da5",
+    "tq_b432e175bb",
+    "tq_eabef511b1",
+    "tq_c561eef377"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "SNARE ECHO BURST",
+   "stance": "southpaw",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.77,
+    "aggression": 0.593,
+    "caution": 0.425,
+    "counter": 0.382,
+    "creativity": 0.898,
+    "evasive": 0.597,
+    "range": 2.0,
+    "reaction": 0.082,
+    "read": 0.642,
+    "temperature": 1.0
    },
    "weapons": []
   },
@@ -3737,6 +4507,116 @@
     "blunderbuss"
    ]
   },
+  "ftr_f69323f032": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "accessory": "spikes",
+   "build": 1.01,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "spikes",
+    "cape",
+    "scarf"
+   ],
+   "created": "2026-11-17T22:12:18",
+   "id": "ftr_f69323f032",
+   "name": "BLAZOR",
+   "personality": "strategic",
+   "rating": 1.045,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_c0173d8c00",
+    "tq_3c2f496edb",
+    "tq_28fc9158e7",
+    "tq_e62680b85b",
+    "tq_707a5d038b",
+    "tq_ac0c83336a",
+    "tq_6d1bff41c8",
+    "tq_051a60b54b",
+    "tq_e442bae054"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "SNARE CRUSHING HAMMER",
+   "stance": "low",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.559,
+    "aggression": 0.511,
+    "caution": 0.717,
+    "counter": 0.426,
+    "creativity": 0.776,
+    "evasive": 0.527,
+    "range": 3.2,
+    "reaction": 0.092,
+    "read": 0.796,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_f70388dfe5": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "accessory": "horns",
+   "build": 0.985,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "horns"
+   ],
+   "created": "2026-11-17T22:13:00",
+   "id": "ftr_f70388dfe5",
+   "name": "BLAKA",
+   "personality": "unpredictable",
+   "rating": 1.045,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_71a9897827",
+    "tq_8b1bd5ae52",
+    "tq_e62680b85b",
+    "tq_95c85d6d80",
+    "tq_b9ac9d4b8b",
+    "tq_ac0c83336a",
+    "tq_1dd1617023"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "GRAND SINGULAR PILLAR",
+   "stance": "orthodox",
+   "theme": "cosmic_powers",
+   "traits": {
+    "adaptability": 0.509,
+    "aggression": 0.572,
+    "caution": 0.376,
+    "counter": 0.348,
+    "creativity": 0.814,
+    "evasive": 0.564,
+    "range": 2.0,
+    "reaction": 0.099,
+    "read": 0.761,
+    "temperature": 1.0
+   },
+   "weapons": []
+  },
   "ftr_f8c83d8398": {
    "abilities": [
     "ab_7c1c039513"
@@ -3917,6 +4797,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-16T23:00:25",
+ "updated": "2026-11-17T22:13:00",
  "version": 1
 }

@@ -1,6 +1,175 @@
 {
- "count": 24,
+ "count": 30,
  "items": {
+  "arena_cosmic_powers_1009208920_0": {
+   "accent": "#ff4fc6",
+   "ambient": "rain",
+   "biome": "night_rooftops",
+   "celestial": "moon",
+   "far": "#0f0e22",
+   "far_type": "city",
+   "ground": "#2b2a3a",
+   "ground_style": "tiles",
+   "id": "arena_cosmic_powers_1009208920_0",
+   "layout_seed": 952087273,
+   "lightning": false,
+   "mid": "#131222",
+   "name": "Neon Rooftops",
+   "props": "chimney",
+   "props_list": [
+    "chimney",
+    "lantern",
+    "antenna"
+   ],
+   "ships": false,
+   "sky": [
+    "#04040e",
+    "#1d1a3a"
+   ],
+   "theme": "cosmic_powers",
+   "time_of_day": "night",
+   "tournament": "cosmic_powers_1009208920"
+  },
+  "arena_cosmic_powers_1009208920_1": {
+   "accent": "#ce7dff",
+   "ambient": "motes",
+   "biome": "abyssal_shrine",
+   "celestial": "moon",
+   "far": "#1b0a2c",
+   "far_type": "mountains",
+   "ground": "#110618",
+   "ground_style": "stone",
+   "id": "arena_cosmic_powers_1009208920_1",
+   "layout_seed": 360303390,
+   "lightning": false,
+   "mid": "#270f3c",
+   "name": "Abyssal Shrine",
+   "props": "arch",
+   "props_list": [
+    "arch",
+    "monolith"
+   ],
+   "ships": false,
+   "sky": [
+    "#07020f",
+    "#310f4a"
+   ],
+   "theme": "cosmic_powers",
+   "time_of_day": "night",
+   "tournament": "cosmic_powers_1009208920"
+  },
+  "arena_cosmic_powers_1009208920_2": {
+   "accent": "#7fdaff",
+   "ambient": "rain",
+   "biome": "storm_peak",
+   "celestial": "moon",
+   "far": "#101f3a",
+   "far_type": "mountains",
+   "ground": "#0c1526",
+   "ground_style": "stone",
+   "id": "arena_cosmic_powers_1009208920_2",
+   "layout_seed": 856803691,
+   "lightning": true,
+   "mid": "#182e50",
+   "name": "Stormcrown Peak",
+   "props": "rock_spire",
+   "props_list": [
+    "rock_spire"
+   ],
+   "ships": false,
+   "sky": [
+    "#040a1a",
+    "#1c325c"
+   ],
+   "theme": "cosmic_powers",
+   "time_of_day": "night",
+   "tournament": "cosmic_powers_1009208920"
+  },
+  "arena_cosmic_powers_1867555067_0": {
+   "accent": "#bd7dff",
+   "ambient": "motes",
+   "biome": "abyssal_shrine",
+   "celestial": "moon",
+   "far": "#170a2c",
+   "far_type": "mountains",
+   "ground": "#0e0618",
+   "ground_style": "stone",
+   "id": "arena_cosmic_powers_1867555067_0",
+   "layout_seed": 81743547,
+   "lightning": false,
+   "mid": "#251142",
+   "name": "Hollow Shrine",
+   "props": "arch",
+   "props_list": [
+    "arch",
+    "monolith"
+   ],
+   "ships": false,
+   "sky": [
+    "#06020f",
+    "#290f4a"
+   ],
+   "theme": "cosmic_powers",
+   "time_of_day": "night",
+   "tournament": "cosmic_powers_1867555067"
+  },
+  "arena_cosmic_powers_1867555067_1": {
+   "accent": "#9a9dff",
+   "ambient": "stars",
+   "biome": "starfall_rift",
+   "celestial": "moon",
+   "far": "#0e0a24",
+   "far_type": "mountains",
+   "ground": "#0a071a",
+   "ground_style": "metal",
+   "id": "arena_cosmic_powers_1867555067_1",
+   "layout_seed": 1036261338,
+   "lightning": false,
+   "mid": "#1d163c",
+   "name": "Void Rift",
+   "props": "monolith",
+   "props_list": [
+    "monolith",
+    "floating_rock"
+   ],
+   "ships": false,
+   "sky": [
+    "#000004",
+    "#1c1040"
+   ],
+   "theme": "cosmic_powers",
+   "time_of_day": "night",
+   "tournament": "cosmic_powers_1867555067"
+  },
+  "arena_cosmic_powers_1867555067_2": {
+   "accent": "#ffffff",
+   "ambient": "motes",
+   "biome": "sky_peaks",
+   "celestial": "sun",
+   "far": "#8aafe0",
+   "far_type": "clouds",
+   "ground": "#5a5a62",
+   "ground_style": "stone",
+   "id": "arena_cosmic_powers_1867555067_2",
+   "layout_seed": 272237649,
+   "lightning": false,
+   "mid": "#47536b",
+   "name": "Peak of Skies",
+   "props": "floating_rock",
+   "props_list": [
+    "floating_rock",
+    "rock_spire",
+    "floating_rock"
+   ],
+   "ships": false,
+   "sky": [
+    "#3979e0",
+    "#e0f0ff"
+   ],
+   "theme": "cosmic_powers",
+   "time_of_day": "day",
+   "tournament": "cosmic_powers_1867555067"
+  },
   "arena_cyberpunk_752562980_0": {
    "accent": "#ff3dd9",
    "ambient": "rain",
@@ -691,6 +860,6 @@
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-16T22:35:21",
+ "updated": "2026-11-17T22:13:00",
  "version": 1
 }

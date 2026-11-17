@@ -275,6 +275,10 @@ def generate_with_claude(theme_name, log=print):
     except anthropic.APIStatusError as e:
         log(f"  (Claude API error {e.status_code} — using offline theme generator)")
         return None
+    except (TypeError, anthropic.AnthropicError) as e:
+        # e.g. no credentials configured at all (the SDK raises before sending)
+        log(f"  (Claude API not available: {type(e).__name__} — using offline theme generator)")
+        return None
     if response.stop_reason == "refusal":
         log("  (Claude declined to design this theme — using offline theme generator)")
         return None

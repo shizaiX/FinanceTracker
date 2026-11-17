@@ -1,5 +1,5 @@
 {
- "count": 1098,
+ "count": 1246,
  "items": {
   "tq_004a86fadf": {
    "abilities": [
@@ -282,6 +282,78 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_00b1405b64": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.07,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_234bdb3537",
+    "match": "m001",
+    "t": 72.36,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_00b1405b64",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Grand Crushing Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 22.36,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.311,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_00ea8f41ea": {
@@ -1201,6 +1273,71 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_03b66134a4": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_03b66134a4",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Piercing Warden Bolt",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 26,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 10.26,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.228,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2ffd7e8347"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify",
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_0407b5ecaf": {
    "abilities": [
     "ab_a48e55e410"
@@ -1462,6 +1599,64 @@
     "delivery": "sweep",
     "modifiers": [],
     "movement": "slide",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_051a60b54b": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_051a60b54b",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Grand Graviton Nova",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.11,
+    "radius": 2.38,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.353,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -3081,6 +3276,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_09d4a63b1f": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "id": "tq_09d4a63b1f",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Feint Tectonic Fist",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.37,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.26,
+    "reach": 0.95,
+    "recovery": 0.227,
+    "stages": 1,
+    "startup": 0.127,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 0
+  },
   "tq_0a215f4e09": {
    "abilities": [
     "ab_a48e55e410"
@@ -3751,6 +3999,61 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_0bd135b161": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_0bd135b161",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "SCORCHING QUAKE",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 0,
+    "dmg": 28.32,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 42.48,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.4,
+    "stages": 1,
+    "startup": 0.69,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_0bdfd79a9e": {
    "abilities": [
     "ab_7c1c039513"
@@ -3992,6 +4295,59 @@
     "delivery": "grapple",
     "modifiers": [],
     "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_0c2c3fa374": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "counter",
+   "id": "tq_0c2c3fa374",
+   "kind": "stance",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Cinder Mirror",
+   "origin": "generated",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 24.84,
+    "reach": 1.0,
+    "recovery": 0.3,
+    "stages": 1,
+    "startup": 0.05,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "counter",
+    "modifiers": [],
+    "movement": "backstep",
     "timing": "instant"
    },
    "tier": "infused",
@@ -4617,6 +4973,64 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_0fbcbb657a": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "id": "tq_0fbcbb657a",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "leap",
+   "name": "Charged Chain Skyward Strike",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 11.28,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.5,
+    "reach": 0.95,
+    "recovery": 0.21,
+    "stages": 1,
+    "startup": 0.222,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 1
+  },
   "tq_0fe59f60fc": {
    "abilities": [
     "ab_23c7b1db88"
@@ -4996,6 +5410,134 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_10aaebf654": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 2.54,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 46.05,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_10aaebf654",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Static Grasp",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 13.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 22.68,
+    "reach": 0.85,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.113,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_10c3057dae": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "id": "tq_10c3057dae",
+   "kind": "melee",
+   "modifiers": [
+    "delayed",
+    "shield"
+   ],
+   "movement": "step",
+   "name": "Delayed Basalt Fist",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay_blast": 0.6,
+    "dmg": 10.37,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.26,
+    "reach": 0.95,
+    "recovery": 0.227,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.127,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "delayed",
+     "shield"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_10cc62128f": {
    "abilities": [
     "ab_947c3eebd3",
@@ -5268,6 +5810,60 @@
    "tier": "infused",
    "timing": "feint",
    "variant": 1
+  },
+  "tq_113801a729": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_113801a729",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Charged Aegis Crash",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 17.85,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 26.78,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.623,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2ffd7e8347"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
   },
   "tq_11a9bea3a7": {
    "abilities": [
@@ -5849,6 +6445,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_12f9cf35e2": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 0.81,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.62,
+     "opp_zoning": 0.38
+    },
+    "fighter": "ftr_d43c0d6541",
+    "match": "m001",
+    "t": 45.32,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_12f9cf35e2",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "teleport",
+   "name": "Chain Eclipse Knuckle",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.88,
+    "reach": 0.95,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_131068a48e": {
    "abilities": [
     "ab_81b962a721"
@@ -6370,6 +7038,64 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_149bda6e98": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "sweep",
+   "id": "tq_149bda6e98",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Solar Sweep",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.2,
+    "recovery": 0.331,
+    "stages": 1,
+    "startup": 0.162,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -8432,6 +9158,66 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_1ac08ebbb0": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_1ac08ebbb0",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "SNARE RIME HAMMER",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 0,
+    "dmg": 24.62,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 36.94,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.404,
+    "stages": 1,
+    "startup": 0.702,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_1af9736ad4": {
    "abilities": [
     "ab_990b7774d2"
@@ -8797,6 +9583,64 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_1baf21b290": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "id": "tq_1baf21b290",
+   "kind": "melee",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Feint Delayed Tectonic Strike",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay_blast": 0.6,
+    "dmg": 10.37,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.26,
+    "reach": 0.95,
+    "recovery": 0.227,
+    "stages": 1,
+    "startup": 0.127,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
   },
   "tq_1bb9737e56": {
    "abilities": [
@@ -9275,6 +10119,68 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_1dd1617023": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "env_strike",
+   "id": "tq_1dd1617023",
+   "kind": "env",
+   "modifiers": [
+    "amplify",
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "GRAND SINGULAR PILLAR",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 0,
+    "delay": 0.77,
+    "dmg": 25.96,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 37.76,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.388,
+    "stages": 1,
+    "startup": 0.716,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify",
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
    "variant": 0
   },
   "tq_1ddb2f17e2": {
@@ -10083,6 +10989,67 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_201d8ad617": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "counter",
+   "id": "tq_201d8ad617",
+   "kind": "stance",
+   "modifiers": [
+    "reflect",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Reflecting Rampart Parry",
+   "origin": "generated",
+   "params": {
+    "active": 0.65,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.306,
+    "reflect": true,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.052,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2ffd7e8347"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_204a9af636": {
    "abilities": [
     "ab_e33ef84aee"
@@ -10558,6 +11525,64 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_21249ff559": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "counter",
+   "id": "tq_21249ff559",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Boreal Riposte",
+   "origin": "generated",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.303,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.051,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_214fe9abd2": {
    "abilities": [],
    "ability_names": [],
@@ -10604,6 +11629,65 @@
    "tier": "basic",
    "timing": "feint",
    "variant": 0
+  },
+  "tq_2150e57b17": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_2150e57b17",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Granite Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.5,
+    "cost": 14,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 9.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 12.96,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.31,
+    "speed": 9.35,
+    "stages": 1,
+    "startup": 0.233,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_21794a24b6": {
    "abilities": [
@@ -11827,6 +12911,63 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_24e5903e50": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "summon_weapon",
+   "id": "tq_24e5903e50",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "leap",
+   "name": "Feint Piercing Radiant Glaive",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_052ff1bbbb"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "leap",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 0
+  },
   "tq_24fdf43991": {
    "abilities": [
     "ab_871ffa40a3"
@@ -13038,6 +14179,64 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_28fc9158e7": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_28fc9158e7",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "dash",
+   "name": "Grand Crushing Burst",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.11,
+    "radius": 2.38,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.353,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_2901d792ec": {
    "abilities": [
     "ab_083a980255"
@@ -13109,6 +14308,73 @@
    "tier": "infused",
    "timing": "charged",
    "variant": 0
+  },
+  "tq_290313dbbe": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 1.01,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_72b7558332",
+    "match": "m001",
+    "t": 52.19,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_290313dbbe",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Umbral Knuckle",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.88,
+    "reach": 0.95,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_2908bdffeb": {
    "abilities": [
@@ -13663,6 +14929,61 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_2a94179d6d": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "beam",
+   "id": "tq_2a94179d6d",
+   "kind": "beam",
+   "modifiers": [],
+   "movement": "none",
+   "name": "TECTONIC CANNON",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.5,
+    "cost": 0,
+    "dmg": 7.39,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.54,
+    "reach": 8.0,
+    "recovery": 0.434,
+    "stages": 1,
+    "startup": 0.974,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "beam",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_2a9dd7f851": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -13787,6 +15108,130 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_2ad06605a4": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_2ad06605a4",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Delayed Aegis Bolt",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 26,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.228,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2ffd7e8347"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_2afded385e": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_2afded385e",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Chain Solar Crescent",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 1,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_2ba1a8c2bc": {
    "abilities": [
@@ -13919,6 +15364,79 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_2c6c8dc89a": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.66,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_72b7558332",
+    "match": "m001",
+    "t": 51.59,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_2c6c8dc89a",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "teleport",
+   "name": "Snare Hollow Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.329,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_2cbdc598ce": {
    "abilities": [
@@ -14307,6 +15825,65 @@
     ],
     "delivery": "aerial_strike",
     "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_2e9b266e32": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_2e9b266e32",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "aerial_dash",
+   "name": "Snare Crushing Quake",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 22.36,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.311,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
     "movement": "aerial_dash",
     "timing": "instant"
    },
@@ -15270,6 +16847,59 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_31dc60d724": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "aerial_strike",
+   "id": "tq_31dc60d724",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Graviton Meteor Kick",
+   "origin": "generated",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 13.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.63,
+    "reach": 1.1,
+    "recovery": 0.225,
+    "stages": 1,
+    "startup": 0.104,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_32491c762f": {
    "abilities": [
     "ab_66a6db4683"
@@ -15664,6 +17294,66 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_3479457aef": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_3479457aef",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Charged Cascade Cinder Heel",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 18.01,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.41,
+    "reach": 1.15,
+    "recovery": 0.28,
+    "stages": 3,
+    "startup": 0.32,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain",
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 1
+  },
   "tq_34b2d7cd0d": {
    "abilities": [
     "ab_a48e55e410"
@@ -15740,6 +17430,125 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_3531bd276b": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_3531bd276b",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Grand Basalt Quake",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 15.55,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 23.33,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.413,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_3579857136": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_3579857136",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Charged Grand Sonic Hammer",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 18.79,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 28.19,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.59,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
   },
   "tq_35895d1de6": {
    "abilities": [
@@ -15969,6 +17778,61 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_360b2f4af7": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "explosion",
+   "id": "tq_360b2f4af7",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "VOLTAIC ERUPTION",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 0,
+    "dmg": 21.55,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 36.63,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.734,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
    "variant": 0
   },
   "tq_36100b9665": {
@@ -16424,6 +18288,65 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_36c60a10fc": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "beam",
+   "id": "tq_36c60a10fc",
+   "kind": "beam",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "teleport",
+   "name": "GRAND PRISM LANCE",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.9,
+    "cost": 0,
+    "dmg": 6.16,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.29,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.876,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.44799999999999995
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_052ff1bbbb"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "teleport",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 1
   },
   "tq_37f2063724": {
    "abilities": [
@@ -17895,6 +19818,67 @@
    "timing": "charged",
    "variant": 2
   },
+  "tq_3c2f496edb": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_3c2f496edb",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "aerial_dash",
+   "name": "Grand Event Quake",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 22.36,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.311,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_3c800c5968": {
    "abilities": [
     "ab_23c7b1db88"
@@ -18070,6 +20054,69 @@
    },
    "tier": "fusion",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_3d28b4735c": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_3d28b4735c",
+   "kind": "projectile",
+   "modifiers": [
+    "split"
+   ],
+   "movement": "leap",
+   "name": "Feint Triple Zephyr Orb",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 3,
+    "detonate": 0.0,
+    "dmg": 6.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 9.72,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.287,
+    "speed": 13.75,
+    "stages": 1,
+    "startup": 0.203,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "split"
+    ],
+    "movement": "leap",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
    "variant": 0
   },
   "tq_3d95424aa5": {
@@ -18387,6 +20434,66 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_3e33bb6170": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "env_strike",
+   "id": "tq_3e33bb6170",
+   "kind": "env",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Basalt Pillar",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay": 0.42,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 20.74,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_3e7987ab37": {
    "abilities": [
     "ab_314c439b4f"
@@ -18564,6 +20671,73 @@
      "split"
     ],
     "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_3ec10b7b03": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.93,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_72b7558332",
+    "match": "m001",
+    "t": 15.36,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_3ec10b7b03",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "wall_jump",
+   "name": "Eclipse Dive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.2,
+    "reach": 1.1,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.097,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "wall_jump",
     "timing": "instant"
    },
    "tier": "infused",
@@ -18875,6 +21049,78 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_3f43e9dcf7": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 0.26,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_72b7558332",
+    "match": "m001",
+    "t": 53.0,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_3f43e9dcf7",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "step",
+   "name": "Feint Chain Hollow Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.88,
+    "reach": 0.95,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "step",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
   },
   "tq_3fb6e8bb7f": {
    "abilities": [
@@ -19217,6 +21463,60 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_41574d9e0e": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_41574d9e0e",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Tectonic Quake",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 15.55,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 23.33,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.413,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_4189f89f76": {
    "abilities": [
@@ -20022,6 +22322,60 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_43d39aee32": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "beam",
+   "id": "tq_43d39aee32",
+   "kind": "beam",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Charged Night Lance",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 4.7,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 8.61,
+    "reach": 8.0,
+    "recovery": 0.412,
+    "stages": 1,
+    "startup": 0.774,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "beam",
+    "modifiers": [],
+    "movement": "backstep",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_43ef2b97ba": {
    "abilities": [
     "ab_66a6db4683"
@@ -20345,6 +22699,59 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_454a111708": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "id": "tq_454a111708",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Rapid Resonant Palm",
+   "origin": "generated",
+   "params": {
+    "active": 0.5,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 4.91,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 6.75,
+    "reach": 0.95,
+    "recovery": 0.218,
+    "stages": 1,
+    "startup": 0.13,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 1
   },
   "tq_4551e056b4": {
    "abilities": [
@@ -21031,6 +23438,141 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_4836d23415": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "beam",
+   "discovery": {
+    "context": {
+     "dist": 2.49,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.65,
+     "opp_zoning": 0.35
+    },
+    "fighter": "ftr_d43c0d6541",
+    "match": "m001",
+    "t": 63.98,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_4836d23415",
+   "kind": "beam",
+   "modifiers": [
+    "amplify",
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Chain Night Cannon",
+   "origin": "discovered",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 8.0,
+    "recovery": 0.412,
+    "stages": 1,
+    "startup": 0.387,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.44799999999999995
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "amplify",
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_48788c83b9": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "id": "tq_48788c83b9",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "aerial_dash",
+   "name": "Chain Infernal Strike",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 9.94,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.66,
+    "reach": 0.95,
+    "recovery": 0.22,
+    "stages": 3,
+    "startup": 0.12,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain",
+     "multistage"
+    ],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_4887dd09a9": {
    "abilities": [
@@ -21995,6 +24537,63 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_4a3aec9342": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "uppercut",
+   "id": "tq_4a3aec9342",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "step",
+   "name": "Cascade Glacial Uppercut",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 15.12,
+    "reach": 0.85,
+    "recovery": 0.364,
+    "stages": 2,
+    "startup": 0.153,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_4a4331160a": {
    "abilities": [
     "ab_314c439b4f"
@@ -22372,6 +24971,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_4b06137f46": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 4.72,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_234bdb3537",
+    "match": "m001",
+    "t": 2.15,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_4b06137f46",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Piercing Event Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 13.66,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.39,
+    "reach": 1.65,
+    "recovery": 0.306,
+    "stages": 1,
+    "startup": 0.197,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_4b484f14e7": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -22485,6 +25155,67 @@
     ],
     "delivery": "uppercut",
     "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_4ba22e9ae6": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "charge",
+   "id": "tq_4ba22e9ae6",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Chain Thunder Rush",
+   "origin": "generated",
+   "params": {
+    "active": 0.38,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.47,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.14,
+    "reach": 0.7,
+    "recovery": 0.328,
+    "stages": 2,
+    "startup": 0.188,
+    "stun": 1.0,
+    "travel": 10.406728592598155,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "chain",
      "multistage"
     ],
     "movement": "none",
@@ -22732,6 +25463,63 @@
     "delivery": "counter",
     "modifiers": [
      "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_4c2ce0caba": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "summon_weapon",
+   "id": "tq_4c2ce0caba",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Piercing Dawn Edge",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_052ff1bbbb"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
     ],
     "movement": "none",
     "timing": "instant"
@@ -23129,6 +25917,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_4ea80d4e44": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.88,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_234bdb3537",
+    "match": "m001",
+    "t": 22.62,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_4ea80d4e44",
+   "kind": "area",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Charged Guarded Crushing Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 18.01,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 30.62,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.706,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_4ec6c62112": {
    "abilities": [
     "ab_81b962a721"
@@ -23266,6 +26127,106 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_4ee00badc9": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "aerial_strike",
+   "id": "tq_4ee00badc9",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Zephyr Meteor Kick",
+   "origin": "generated",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.58,
+    "reach": 1.1,
+    "recovery": 0.21,
+    "stages": 1,
+    "startup": 0.092,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_4f3f22e953": {
+   "abilities": [],
+   "ability_names": [],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "kick",
+   "id": "tq_4f3f22e953",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Charged Step-in Crescent",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.4,
+    "cost": 8,
+    "dmg": 14.5,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.85,
+    "reach": 1.15,
+    "recovery": 0.28,
+    "stages": 1,
+    "startup": 0.32,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [],
+    "delivery": "kick",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "charged"
+   },
+   "tier": "basic",
+   "timing": "charged",
+   "variant": 1
   },
   "tq_4f91ff1ec9": {
    "abilities": [
@@ -23559,6 +26520,68 @@
     "delivery": "summon_weapon",
     "modifiers": [],
     "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_502804be6c": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "env_strike",
+   "id": "tq_502804be6c",
+   "kind": "env",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Glacial Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay": 0.77,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.384,
+    "stages": 1,
+    "startup": 0.305,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -23926,6 +26949,125 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_516ac0f236": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "id": "tq_516ac0f236",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Rapid Chain Arc Knuckle",
+   "origin": "generated",
+   "params": {
+    "active": 0.5,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 5.15,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.09,
+    "reach": 0.95,
+    "recovery": 0.212,
+    "stages": 1,
+    "startup": 0.124,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 2
+  },
+  "tq_52665f658c": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "charge",
+   "id": "tq_52665f658c",
+   "kind": "melee",
+   "modifiers": [
+    "pierce",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Rime Rush",
+   "origin": "generated",
+   "params": {
+    "active": 0.38,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 25.06,
+    "reach": 0.7,
+    "recovery": 0.344,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.407,
+    "stun": 1.0,
+    "travel": 9.259454627568514,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "pierce",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_527064ab2e": {
@@ -25463,6 +28605,70 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_5a62cc47b2": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_5a62cc47b2",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "backstep",
+   "name": "Charged Chain Scorching Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 28,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 12.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 18.01,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.3,
+    "speed": 11.0,
+    "stages": 1,
+    "startup": 0.44,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "backstep",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_5a741970de": {
    "abilities": [
     "ab_6e48ad3e5a"
@@ -26373,6 +29579,64 @@
    "timing": "feint",
    "variant": 0
   },
+  "tq_5eaa178421": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "beam",
+   "id": "tq_5eaa178421",
+   "kind": "beam",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "leap",
+   "name": "Rapid Piercing Radiant Cannon",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 4.05,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.42,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.419,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "leap",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 0
+  },
   "tq_5ec7dc8c39": {
    "abilities": [
     "ab_871ffa40a3"
@@ -26574,6 +29838,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_600dc31738": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "barrage",
+   "id": "tq_600dc31738",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Rampart Flurry",
+   "origin": "generated",
+   "params": {
+    "active": 0.6,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 3.08,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.13,
+    "reach": 0.95,
+    "recovery": 0.306,
+    "stages": 1,
+    "startup": 0.104,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2ffd7e8347"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_60b59b8ac2": {
    "abilities": [
     "ab_6d3b0c6f9e"
@@ -26628,6 +29945,59 @@
    "tier": "ultimate",
    "timing": "finisher",
    "variant": 0
+  },
+  "tq_60fcca0de1": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "kick",
+   "id": "tq_60fcca0de1",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Feint Boreal Crescent",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.283,
+    "stages": 1,
+    "startup": 0.163,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "kick",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
   },
   "tq_6195a2eb3a": {
    "abilities": [
@@ -27065,6 +30435,71 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_631f7fb387": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_631f7fb387",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify",
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Charged Piercing Graviton Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 34,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 12.61,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": true,
+    "poise": 18.01,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.457,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify",
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 2
+  },
   "tq_63398d5b5b": {
    "abilities": [
     "ab_2978036b85"
@@ -27121,6 +30556,126 @@
    "tier": "infused",
    "timing": "feint",
    "variant": 1
+  },
+  "tq_6342f2d9bc": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "beam",
+   "id": "tq_6342f2d9bc",
+   "kind": "beam",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "leap",
+   "name": "Piercing Hollow Ray",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.94,
+    "reach": 8.0,
+    "recovery": 0.412,
+    "stages": 1,
+    "startup": 0.387,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_636fb9beb8": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "env_strike",
+   "id": "tq_636fb9beb8",
+   "kind": "env",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Eclipse Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay": 0.77,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.373,
+    "stages": 1,
+    "startup": 0.29,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_637c154466": {
    "abilities": [
@@ -27804,6 +31359,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_65b10e0da5": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "summon_weapon",
+   "id": "tq_65b10e0da5",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Sonic Edge",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.297,
+    "stages": 1,
+    "startup": 0.187,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_65f7f9de8e": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -27869,6 +31477,147 @@
     "delivery": "explosion",
     "modifiers": [
      "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_6627340155": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.99,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.94,
+     "opp_zoning": 0.06
+    },
+    "fighter": "ftr_72b7558332",
+    "match": "m001",
+    "t": 52.02,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_6627340155",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Night Meteor Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.2,
+    "reach": 1.1,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.097,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_66a8a7d18b": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.42,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.65,
+     "opp_zoning": 0.35
+    },
+    "fighter": "ftr_d43c0d6541",
+    "match": "m001",
+    "t": 56.18,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_66a8a7d18b",
+   "kind": "env",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Hollow Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay": 0.42,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.28,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.373,
+    "stages": 1,
+    "startup": 0.29,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "trap"
     ],
     "movement": "none",
     "timing": "instant"
@@ -28108,6 +31857,69 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_6773359e30": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_6773359e30",
+   "kind": "projectile",
+   "modifiers": [
+    "homing"
+   ],
+   "movement": "none",
+   "name": "Rapid Seeking Static Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 4.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 2.04,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 7.09,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 13.2,
+    "stages": 1,
+    "startup": 0.227,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "homing"
+    ],
+    "movement": "none",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 2
   },
   "tq_67ce54d889": {
    "abilities": [],
@@ -30124,6 +33936,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_6cfc032cd6": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "grapple",
+   "id": "tq_6cfc032cd6",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Crushing Bind",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 24.84,
+    "reach": 0.85,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.125,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_6d041cd6df": {
    "abilities": [
     "ab_a337bbb9cf",
@@ -30233,6 +34098,63 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 3
+  },
+  "tq_6d1bff41c8": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "summon_weapon",
+   "id": "tq_6d1bff41c8",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Feint Piercing Graviton Glaive",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 13.66,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.39,
+    "reach": 1.65,
+    "recovery": 0.306,
+    "stages": 1,
+    "startup": 0.197,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 0
   },
   "tq_6d245aeee7": {
    "abilities": [
@@ -30419,6 +34341,59 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_6e26dee2a4": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_6e26dee2a4",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Rapid Zephyr Kick",
+   "origin": "generated",
+   "params": {
+    "active": 0.5,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 5.52,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.18,
+    "reach": 1.15,
+    "recovery": 0.268,
+    "stages": 1,
+    "startup": 0.163,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "kick",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
    "variant": 0
   },
   "tq_6e960f1426": {
@@ -30918,6 +34893,65 @@
    "timing": "feint",
    "variant": 1
   },
+  "tq_6ffd0593bb": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_6ffd0593bb",
+   "kind": "melee",
+   "modifiers": [
+    "multistage",
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Charged Piercing Static Kick",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 16.44,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.38,
+    "reach": 1.15,
+    "recovery": 0.27,
+    "stages": 3,
+    "startup": 0.3,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "multistage",
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 1
+  },
   "tq_701ed194ed": {
    "abilities": [
     "ab_871ffa40a3"
@@ -30979,6 +35013,72 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_701f22c5a9": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_701f22c5a9",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Delayed Basalt Bolt",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 26,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 9.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 12.96,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.31,
+    "speed": 9.35,
+    "stages": 1,
+    "startup": 0.233,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_7078a0321f": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -31034,6 +35134,70 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 1
+  },
+  "tq_707a5d038b": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_707a5d038b",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Snare Graviton Orb",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 12.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.228,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 1
   },
   "tq_70d4bdfa70": {
@@ -31242,6 +35406,119 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_710dd7360f": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_710dd7360f",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Shrieking Shot",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.5,
+    "cost": 14,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 11.55,
+    "stages": 1,
+    "startup": 0.216,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_71a9897827": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_71a9897827",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Singular Crash",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 22.36,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.311,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "aerial_dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_71c0eee887": {
@@ -31561,6 +35838,82 @@
      "trap"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_729d5000b5": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 3.51,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_d43c0d6541",
+    "match": "m001",
+    "t": 59.72,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_729d5000b5",
+   "kind": "area",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Snare Eclipse Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay_blast": 0.6,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.329,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "leap",
     "timing": "instant"
    },
    "tier": "infused",
@@ -32103,6 +36456,66 @@
      "pierce"
     ],
     "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_7471cb7aef": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_7471cb7aef",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Blazing Crescent",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.15,
+    "reach": 1.15,
+    "recovery": 0.28,
+    "stages": 3,
+    "startup": 0.16,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain",
+     "multistage"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -33473,6 +37886,72 @@
    "timing": "multi_hit",
    "variant": 1
   },
+  "tq_78a5f25767": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_78a5f25767",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "teleport",
+   "name": "Feint Delayed Hollow Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 34,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.213,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "teleport",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_79025454f4": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -33806,6 +38285,59 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_79b5692026": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "id": "tq_79b5692026",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Echo Fist",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.88,
+    "reach": 0.95,
+    "recovery": 0.218,
+    "stages": 1,
+    "startup": 0.118,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_7a1009681b": {
    "abilities": [
@@ -34316,6 +38848,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7ba07fbd13": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "grapple",
+   "id": "tq_7ba07fbd13",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Hollow Bind",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_7bb06b483a": {
    "abilities": [
     "ab_6d3b0c6f9e"
@@ -34435,6 +39020,69 @@
     "modifiers": [
      "chain",
      "pierce"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_7c33f71c86": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_7c33f71c86",
+   "kind": "projectile",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Grand Prism Bolt",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.27,
+    "reach": 9.0,
+    "recovery": 0.292,
+    "speed": 12.65,
+    "stages": 1,
+    "startup": 0.209,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "amplify"
     ],
     "movement": "none",
     "timing": "instant"
@@ -35774,6 +40422,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7eec3d8b24": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "id": "tq_7eec3d8b24",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Feint Umbral Knuckle",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.88,
+    "reach": 0.95,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_7f0d19a060": {
    "abilities": [
     "ab_e33ef84aee"
@@ -37061,6 +41762,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_82c8237ded": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "grapple",
+   "id": "tq_82c8237ded",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Night Bind",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_83124e775b": {
    "abilities": [
     "ab_66a6db4683"
@@ -37934,6 +42688,60 @@
    "tier": "infused",
    "timing": "charged",
    "variant": 1
+  },
+  "tq_85a46943dd": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "charge",
+   "id": "tq_85a46943dd",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Charged Singular Rush",
+   "origin": "generated",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 19.81,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 28.81,
+    "reach": 0.7,
+    "recovery": 0.347,
+    "stages": 1,
+    "startup": 0.415,
+    "stun": 1.0,
+    "travel": 9.01249133147988,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "charge",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
   },
   "tq_85ab3c92ba": {
    "abilities": [],
@@ -39205,6 +44013,65 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_88d7cf4e65": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "beam",
+   "id": "tq_88d7cf4e65",
+   "kind": "beam",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "teleport",
+   "name": "Chain Arc Lance",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 3.4,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 6.24,
+    "reach": 8.0,
+    "recovery": 0.405,
+    "stages": 1,
+    "startup": 0.375,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_88df4a5fab": {
    "abilities": [
     "ab_9408408bac"
@@ -39944,6 +44811,60 @@
    "timing": "feint",
    "variant": 1
   },
+  "tq_8b1bd5ae52": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "explosion",
+   "id": "tq_8b1bd5ae52",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Event Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.11,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.353,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_8b65019a31": {
    "abilities": [
     "ab_4d7ecb9f90"
@@ -40671,6 +45592,66 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_8da7b5d2e3": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_8da7b5d2e3",
+   "kind": "area",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "dash",
+   "name": "GUARDED WARDEN NOVA",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 0,
+    "dmg": 19.49,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 33.14,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.811,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2ffd7e8347"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "dash",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_8dd96a7be7": {
    "abilities": [
     "ab_57591f87b0"
@@ -40790,6 +45771,69 @@
    "timing": "finisher",
    "variant": 2
   },
+  "tq_8e6fc19835": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_8e6fc19835",
+   "kind": "projectile",
+   "modifiers": [
+    "homing"
+   ],
+   "movement": "dash",
+   "name": "Feint Seeking Echo Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 2.52,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 11.55,
+    "stages": 1,
+    "startup": 0.216,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "homing"
+    ],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_8e7f7a9834": {
    "abilities": [
     "ab_083a980255"
@@ -40851,6 +45895,81 @@
     "delivery": "aerial_strike",
     "modifiers": [],
     "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_8ef95b09f5": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 3.68,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 1.0,
+     "opp_zoning": 0.0
+    },
+    "fighter": "ftr_72b7558332",
+    "match": "m001",
+    "t": 2.59,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_8ef95b09f5",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "reflect"
+   ],
+   "movement": "backstep",
+   "name": "Devouring Eclipse Mirror",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "reflect"
+    ],
+    "movement": "backstep",
     "timing": "instant"
    },
    "tier": "infused",
@@ -41091,6 +46210,67 @@
    },
    "tier": "basic",
    "timing": "feint",
+   "variant": 0
+  },
+  "tq_906364dfc9": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_906364dfc9",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Charged Snare Crushing Quake",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 21.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 32.42,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.623,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_9079a113d2": {
@@ -42885,6 +48065,128 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_9504debb86": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_9504debb86",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "Grand Zephyr Quake",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 17.5,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.383,
+    "stages": 1,
+    "startup": 0.277,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_95145c7754": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_95145c7754",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "dash",
+   "name": "Rapid Chain Resonant Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 4.72,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 6.75,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.297,
+    "speed": 11.55,
+    "stages": 1,
+    "startup": 0.238,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 2
+  },
   "tq_9514e2f59c": {
    "abilities": [
     "ab_6e48ad3e5a"
@@ -43349,6 +48651,72 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_95c85d6d80": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_95c85d6d80",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Charged Delayed Event Bolt",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 2.3,
+    "cost": 34,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 12.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 18.01,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.457,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_95e1802f0d": {
    "abilities": [
     "ab_a48e55e410"
@@ -43409,6 +48777,59 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_960077fd0f": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_960077fd0f",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Prism Heel",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 1,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "kick",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_9636dc0433": {
    "abilities": [
@@ -43927,6 +49348,64 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_9852b9b2c9": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "explosion",
+   "id": "tq_9852b9b2c9",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "leap",
+   "name": "Grand Echo Nova",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 2.38,
+    "reach": 1.7,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.334,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_986c5e0dea": {
    "abilities": [
     "ab_314ffb8ed5"
@@ -44048,6 +49527,79 @@
    "tier": "fusion",
    "timing": "charged",
    "variant": 0
+  },
+  "tq_997c45e4cb": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 2.45,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.71,
+     "opp_zoning": 0.29
+    },
+    "fighter": "ftr_234bdb3537",
+    "match": "m001",
+    "t": 62.52,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_997c45e4cb",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Singular Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.5,
+    "cost": 14,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 12.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.228,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_99dc4f2d3a": {
    "abilities": [
@@ -44240,6 +49792,59 @@
    "tier": "infused",
    "timing": "multi_hit",
    "variant": 2
+  },
+  "tq_9a15814348": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "id": "tq_9a15814348",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Feint Granite Palm",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 10.37,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.26,
+    "reach": 0.95,
+    "recovery": 0.227,
+    "stages": 1,
+    "startup": 0.127,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
   },
   "tq_9a3c8dbf0a": {
    "abilities": [
@@ -45213,6 +50818,68 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_9e24493dd4": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_9e24493dd4",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "teleport",
+   "name": "GRAND UMBRAL HAMMER",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 0,
+    "dmg": 24.62,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 36.94,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.667,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "teleport",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_9e71559dd3": {
    "abilities": [
     "ab_6e48ad3e5a"
@@ -45348,6 +51015,79 @@
    "timing": "feint",
    "variant": 2
   },
+  "tq_9f694a669c": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 4.59,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.0,
+     "opp_zoning": 1.0
+    },
+    "fighter": "ftr_234bdb3537",
+    "match": "m001",
+    "t": 6.21,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_9f694a669c",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Event Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 22.36,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.311,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_9f86d66b64": {
    "abilities": [
     "ab_83c4d6d552",
@@ -45402,6 +51142,68 @@
    },
    "tier": "fusion",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_a0073fc114": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_a0073fc114",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "GRAND CRUSHING HAMMER",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 0,
+    "dmg": 28.32,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 42.48,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.716,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
    "variant": 0
   },
   "tq_a0177db8d2": {
@@ -46030,6 +51832,53 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_a272c38faa": {
+   "abilities": [],
+   "ability_names": [],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "punch",
+   "id": "tq_a272c38faa",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Charged Dashing Fist",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.4,
+    "cost": 8,
+    "dmg": 11.6,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.95,
+    "reach": 0.95,
+    "recovery": 0.22,
+    "stages": 1,
+    "startup": 0.24,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "basic",
+   "timing": "charged",
+   "variant": 1
+  },
   "tq_a2ea71b21c": {
    "abilities": [
     "ab_57591f87b0"
@@ -46405,6 +52254,79 @@
     "modifiers": [
      "reflect",
      "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_a455117514": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.75,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.73,
+     "opp_zoning": 0.27
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 45.29,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_a455117514",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Arc Hammer",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 13.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 20.41,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.281,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
     ],
     "movement": "none",
     "timing": "instant"
@@ -47055,6 +52977,74 @@
      "pierce"
     ],
     "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_a6bbce4f7c": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.99,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.71,
+     "opp_zoning": 0.29
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 75.48,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_a6bbce4f7c",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Static Quake",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 13.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 20.41,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.281,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "teleport",
     "timing": "instant"
    },
    "tier": "infused",
@@ -48090,6 +54080,63 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_ab7ba603f3": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "summon_weapon",
+   "id": "tq_ab7ba603f3",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "none",
+   "name": "Piercing Radiant Blade",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 15.12,
+    "reach": 1.65,
+    "recovery": 0.292,
+    "stages": 1,
+    "startup": 0.181,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_abb306a5e7": {
    "abilities": [
     "ab_a48e55e410"
@@ -48276,6 +54323,59 @@
      "shield"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_ac0c83336a": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "aerial_strike",
+   "id": "tq_ac0c83336a",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "aerial_dash",
+   "name": "Crushing Talon",
+   "origin": "generated",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 13.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.63,
+    "reach": 1.1,
+    "recovery": 0.225,
+    "stages": 1,
+    "startup": 0.104,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "aerial_dash",
     "timing": "instant"
    },
    "tier": "infused",
@@ -48825,6 +54925,65 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_ae73e7f2e0": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_ae73e7f2e0",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Eclipse Shot",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.5,
+    "cost": 14,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.213,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_aea387fd27": {
    "abilities": [
     "ab_83c4d6d552"
@@ -48988,6 +55147,65 @@
      "amplify"
     ],
     "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_af3dc71a8d": {
+   "abilities": [
+    "ab_2ffd7e8347"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "charge",
+   "id": "tq_af3dc71a8d",
+   "kind": "melee",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Aegis Rush",
+   "origin": "generated",
+   "params": {
+    "active": 0.38,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.42,
+    "reach": 0.7,
+    "recovery": 0.347,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.208,
+    "stun": 1.0,
+    "travel": 9.01249133147988,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_2ffd7e8347"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -49253,6 +55471,67 @@
     "timing": "instant"
    },
    "tier": "fusion",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_b0566615a7": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "explosion",
+   "id": "tq_b0566615a7",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Grand Blazing Nova",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.11,
+    "radius": 2.38,
+    "reach": 1.7,
+    "recovery": 0.4,
+    "stages": 1,
+    "startup": 0.34,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
    "timing": "instant",
    "variant": 0
   },
@@ -50638,6 +56917,59 @@
    "timing": "multi_hit",
    "variant": 2
   },
+  "tq_b432e175bb": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "sweep",
+   "id": "tq_b432e175bb",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Shrieking Sweep",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.2,
+    "recovery": 0.337,
+    "stages": 1,
+    "startup": 0.167,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_b4517cb0d2": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -51156,6 +57488,68 @@
    "tier": "basic",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_b6b01f9db3": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_b6b01f9db3",
+   "kind": "area",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Delayed Singular Burst",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay_blast": 0.6,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.11,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.353,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "delayed",
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_b6beee6642": {
    "abilities": [
@@ -51705,6 +58099,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_b830ccc7a8": {
+   "abilities": [
+    "ab_d1219420b0"
+   ],
+   "ability_names": [
+    "Supernova"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "id": "tq_b830ccc7a8",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Feint Scorching Palm",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 9.94,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.66,
+    "reach": 0.95,
+    "recovery": 0.22,
+    "stages": 1,
+    "startup": 0.12,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d1219420b0"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 1
+  },
   "tq_b8696be1b0": {
    "abilities": [
     "ab_d2779be2be"
@@ -52244,6 +58691,188 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_b95ce67c73": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_b95ce67c73",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Snare Basalt Hammer",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 15.55,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 23.33,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.413,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_b9ac9d4b8b": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "projectile",
+   "id": "tq_b9ac9d4b8b",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "dash",
+   "name": "Chain Singular Shot",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 8.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 12.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.306,
+    "speed": 9.9,
+    "stages": 1,
+    "startup": 0.228,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_b9e79ca94b": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "env_strike",
+   "id": "tq_b9e79ca94b",
+   "kind": "env",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "backstep",
+   "name": "Grand Titan Spire",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay": 0.42,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 20.74,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.318,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_b9ec222dca": {
    "abilities": [],
    "ability_names": [],
@@ -52465,6 +59094,73 @@
      "homing",
      "trap"
     ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_ba7807de44": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 3.45,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.95,
+     "opp_zoning": 0.05
+    },
+    "fighter": "ftr_72b7558332",
+    "match": "m001",
+    "t": 61.97,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_ba7807de44",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Eclipse Grasp",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
     "movement": "dash",
     "timing": "instant"
    },
@@ -52738,6 +59434,79 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_bc4813dab3": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 1.25,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.71,
+     "opp_zoning": 0.29
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 35.22,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_bc4813dab3",
+   "kind": "melee",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "none",
+   "name": "Chain Thunder Comet",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.47,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.14,
+    "reach": 0.7,
+    "recovery": 0.328,
+    "stages": 1,
+    "startup": 0.188,
+    "stun": 1.0,
+    "travel": 10.406728592598155,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "charge",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_bcb348360c": {
    "abilities": [],
    "ability_names": [],
@@ -52835,6 +59604,132 @@
     "delivery": "charge",
     "modifiers": [
      "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_bd1fbb1e31": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_bd1fbb1e31",
+   "kind": "projectile",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Night Shot",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.294,
+    "speed": 12.1,
+    "stages": 1,
+    "startup": 0.213,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
+  "tq_be13e9821a": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "env_strike",
+   "id": "tq_be13e9821a",
+   "kind": "env",
+   "modifiers": [
+    "delayed",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Voltaic Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "delay": 0.77,
+    "dmg": 12.47,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 18.14,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.366,
+    "stages": 1,
+    "startup": 0.281,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "delayed",
+     "trap"
     ],
     "movement": "none",
     "timing": "instant"
@@ -52974,6 +59869,126 @@
     "delivery": "slam",
     "modifiers": [
      "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_bec8613c13": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "env_strike",
+   "id": "tq_bec8613c13",
+   "kind": "env",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "none",
+   "name": "GRAND PRISM SPIRE",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 0,
+    "delay": 0.42,
+    "dmg": 22.57,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 32.83,
+    "radius": 1.12,
+    "reach": 8.0,
+    "recovery": 0.37,
+    "stages": 1,
+    "startup": 0.657,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
+  "tq_bf06349b3a": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "kick",
+   "id": "tq_bf06349b3a",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Chain Granite Heel",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.85,
+    "reach": 1.15,
+    "recovery": 0.289,
+    "stages": 3,
+    "startup": 0.169,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain",
+     "multistage"
     ],
     "movement": "none",
     "timing": "instant"
@@ -53308,6 +60323,81 @@
     "delivery": "beam",
     "modifiers": [
      "chain"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_bfbe604b30": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.9,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 13.43,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_bfbe604b30",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Voltaic Parry",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 13.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 22.68,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "shield"
     ],
     "movement": "none",
     "timing": "instant"
@@ -53945,6 +61035,63 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_c224eb2884": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "summon_weapon",
+   "id": "tq_c224eb2884",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Charged Piercing Boreal Edge",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.92,
+    "reach": 1.65,
+    "recovery": 0.303,
+    "stages": 1,
+    "startup": 0.387,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_c2a4a16628": {
    "abilities": [
     "ab_990b7774d2"
@@ -54222,6 +61369,79 @@
    },
    "tier": "fusion",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_c3f2125dc3": {
+   "abilities": [
+    "ab_a8a5c79013"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 0.8,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.74,
+     "opp_zoning": 0.26
+    },
+    "fighter": "ftr_234bdb3537",
+    "match": "m001",
+    "t": 72.24,
+    "tournament": "cosmic_powers_1009208920"
+   },
+   "id": "tq_c3f2125dc3",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Charged Snare Crushing Hammer",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 21.61,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 32.42,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.623,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a8a5c79013"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_c40567d29d": {
@@ -54802,6 +62022,66 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_c561eef377": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_c561eef377",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "SNARE ECHO BURST",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 0,
+    "dmg": 20.52,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 34.88,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.769,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_c6104833c0": {
    "abilities": [
     "ab_23c7b1db88"
@@ -55123,6 +62403,64 @@
      "amplify"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_c6b6ab5065": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "counter",
+   "id": "tq_c6b6ab5065",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "backstep",
+   "name": "Reflecting Sonic Riposte",
+   "origin": "generated",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.049,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "backstep",
     "timing": "instant"
    },
    "tier": "infused",
@@ -56248,6 +63586,73 @@
    "timing": "multi_hit",
    "variant": 1
   },
+  "tq_cb88670102": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.63,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.44,
+     "opp_zoning": 0.56
+    },
+    "fighter": "ftr_d43c0d6541",
+    "match": "m001",
+    "t": 10.25,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_cb88670102",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "slide",
+   "name": "Umbral Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.2,
+    "recovery": 0.334,
+    "stages": 1,
+    "startup": 0.164,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "sweep",
+    "modifiers": [],
+    "movement": "slide",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_cba9789788": {
    "abilities": [
     "ab_83c4d6d552"
@@ -56825,6 +64230,62 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_ce1a19b0fc": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "env_strike",
+   "id": "tq_ce1a19b0fc",
+   "kind": "env",
+   "modifiers": [],
+   "movement": "none",
+   "name": "TECTONIC ERUPTION",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 0,
+    "delay": 0.42,
+    "dmg": 27.09,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 39.4,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.393,
+    "stages": 1,
+    "startup": 0.73,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
   },
   "tq_ce5757ca19": {
    "abilities": [
@@ -57687,6 +65148,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_d29b23ebb9": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "grapple",
+   "discovery": {
+    "context": {
+     "dist": 1.88,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_d43c0d6541",
+    "match": "m001",
+    "t": 80.68,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_d29b23ebb9",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Night Bind",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 0.85,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_d2b9efe64e": {
    "abilities": [
     "ab_83c4d6d552"
@@ -57963,6 +65491,64 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_d452b012e4": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "sweep",
+   "id": "tq_d452b012e4",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "step",
+   "name": "Snare Cyclone Sweep",
+   "origin": "generated",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 7.78,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 12.64,
+    "reach": 1.2,
+    "recovery": 0.325,
+    "stages": 1,
+    "startup": 0.157,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_d48c53679a": {
    "abilities": [
@@ -58481,6 +66067,61 @@
    "timing": "finisher",
    "variant": 2
   },
+  "tq_d68c507790": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_d68c507790",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "HOLLOW ERUPTION",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 0,
+    "dmg": 20.52,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 34.88,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.756,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_d6c4541daf": {
    "abilities": [
     "ab_a32aa0acc5"
@@ -58670,6 +66311,64 @@
      "trap"
     ],
     "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_d6dddad67a": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "counter",
+   "id": "tq_d6dddad67a",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Resonant Parry",
+   "origin": "generated",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.297,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.049,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -58924,6 +66623,74 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_d76b6042ec": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.89,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.68,
+     "opp_zoning": 0.32
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 31.37,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_d76b6042ec",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Thunder Nova",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 11.34,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 19.28,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.319,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_d7808d8b37": {
    "abilities": [
     "ab_b7f5981ab1"
@@ -58974,6 +66741,119 @@
     "modifiers": [
      "multistage"
     ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_d7a9fb5d8b": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "env_strike",
+   "id": "tq_d7a9fb5d8b",
+   "kind": "env",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Charged Snare Umbral Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "delay": 0.42,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 25.06,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.373,
+    "stages": 1,
+    "startup": 0.58,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
+  "tq_d7fc60baec": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "counter",
+   "id": "tq_d7fc60baec",
+   "kind": "stance",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Hollow Riposte",
+   "origin": "generated",
+   "params": {
+    "active": 0.65,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "counter",
+    "modifiers": [],
     "movement": "none",
     "timing": "instant"
    },
@@ -59342,6 +67222,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_d909e5a954": {
+   "abilities": [
+    "ab_dfa244faa2"
+   ],
+   "ability_names": [
+    "Void"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.5,
+     "opp_zoning": 0.5
+    },
+    "fighter": "ftr_d43c0d6541",
+    "match": "m001",
+    "t": 29.26,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_d909e5a954",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Umbral Flurry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 3.24,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.4,
+    "reach": 0.95,
+    "recovery": 0.294,
+    "stages": 1,
+    "startup": 0.097,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_dfa244faa2"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_d92b899c8a": {
    "abilities": [],
    "ability_names": [],
@@ -59657,6 +67604,65 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_d9c140f8c4": {
+   "abilities": [
+    "ab_f7d35950c8"
+   ],
+   "ability_names": [
+    "Comet"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_d9c140f8c4",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Rapid Tectonic Shot",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.5,
+    "cost": 14,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 5.67,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 8.1,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.31,
+    "speed": 9.35,
+    "stages": 1,
+    "startup": 0.256,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f7d35950c8"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
    "variant": 0
   },
   "tq_da11a3fb83": {
@@ -60348,6 +68354,60 @@
    "timing": "multi_hit",
    "variant": 2
   },
+  "tq_dcf16d501a": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "beam",
+   "id": "tq_dcf16d501a",
+   "kind": "beam",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Rapid Prism Cannon",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 4.05,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 7.42,
+    "reach": 8.0,
+    "recovery": 0.408,
+    "stages": 1,
+    "startup": 0.419,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.32
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_052ff1bbbb"
+    ],
+    "delivery": "beam",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 1
+  },
   "tq_dd7e417c02": {
    "abilities": [
     "ab_871ffa40a3"
@@ -60486,6 +68546,68 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_ddbbee1b16": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_beam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "beam",
+   "id": "tq_ddbbee1b16",
+   "kind": "beam",
+   "modifiers": [
+    "amplify",
+    "chain"
+   ],
+   "movement": "none",
+   "name": "GRAND HOWLING RAY",
+   "origin": "generated",
+   "params": {
+    "active": 0.55,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 0,
+    "dmg": 5.54,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 4,
+    "kb": [
+     4.5,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 10.16,
+    "reach": 8.0,
+    "recovery": 0.402,
+    "stages": 1,
+    "startup": 0.851,
+    "stun": 1.0,
+    "unblockable": false,
+    "width": 0.44799999999999995
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "beam",
+    "modifiers": [
+     "amplify",
+     "chain"
+    ],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
    "variant": 0
   },
   "tq_ddd18aec72": {
@@ -62289,6 +70411,182 @@
    "timing": "multi_hit",
    "variant": 0
   },
+  "tq_e41169b939": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "slam",
+   "id": "tq_e41169b939",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "SONIC CRASH",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 0,
+    "dmg": 24.62,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 36.94,
+    "radius": 1.5,
+    "reach": 1.5,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.678,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "slam",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
+  "tq_e420d884d9": {
+   "abilities": [
+    "ab_8fc8381c10"
+   ],
+   "ability_names": [
+    "Solar Wind"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "explosion",
+   "id": "tq_e420d884d9",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Snare Zephyr Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.72,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.52,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.383,
+    "stages": 1,
+    "startup": 0.314,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_8fc8381c10"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_e442bae054": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "slam",
+   "id": "tq_e442bae054",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "SNARE CRUSHING HAMMER",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 2.3,
+    "cost": 0,
+    "dmg": 28.32,
+    "finisher": true,
+    "focus_cost": 100,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 42.48,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.716,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "finisher"
+   },
+   "tier": "ultimate",
+   "timing": "finisher",
+   "variant": 0
+  },
   "tq_e47cdfddf9": {
    "abilities": [
     "ab_66a6db4683",
@@ -62884,6 +71182,59 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_e62680b85b": {
+   "abilities": [
+    "ab_5401f34434"
+   ],
+   "ability_names": [
+    "Black Hole"
+   ],
+   "anim": "anim_grapple",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "grapple",
+   "id": "tq_e62680b85b",
+   "kind": "grab",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Crushing Grasp",
+   "origin": "generated",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 14.9,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     5.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 24.84,
+    "reach": 0.85,
+    "recovery": 0.409,
+    "stages": 1,
+    "startup": 0.125,
+    "stun": 1.0,
+    "unblockable": true
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_5401f34434"
+    ],
+    "delivery": "grapple",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_e632003065": {
    "abilities": [
     "ab_9408408bac"
@@ -63258,6 +71609,70 @@
    "tier": "ultimate",
    "timing": "finisher",
    "variant": 0
+  },
+  "tq_e6e602ee55": {
+   "abilities": [
+    "ab_d77f08e85c"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_e6e602ee55",
+   "kind": "projectile",
+   "modifiers": [
+    "chain"
+   ],
+   "movement": "dash",
+   "name": "Chain Rime Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.303,
+    "speed": 10.45,
+    "stages": 1,
+    "startup": 0.224,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d77f08e85c"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_e712a767e7": {
    "abilities": [
@@ -63729,6 +72144,59 @@
    "timing": "feint",
    "variant": 0
   },
+  "tq_e86e23d024": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "aerial_strike",
+   "id": "tq_e86e23d024",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "teleport",
+   "name": "Prism Talon",
+   "origin": "generated",
+   "params": {
+    "active": 0.32,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 11.88,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.2,
+    "reach": 1.1,
+    "recovery": 0.214,
+    "stages": 1,
+    "startup": 0.095,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_052ff1bbbb"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_e88e7076e4": {
    "abilities": [
     "ab_a48e55e410"
@@ -64072,6 +72540,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_e9a841b8b8": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 5.66,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.6,
+     "opp_zoning": 0.4
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 25.96,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_e9a841b8b8",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Cascade Voltaic Strike",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 12.47,
+    "reach": 0.95,
+    "recovery": 0.212,
+    "stages": 3,
+    "startup": 0.113,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_e9b472eea0": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -64216,6 +72755,60 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_eabef511b1": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_eabef511b1",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Charged Sonic Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 22,
+    "dmg": 15.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 26.62,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.668,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_eb00689759": {
@@ -64894,6 +73487,128 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_ec211afe07": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_ec211afe07",
+   "kind": "area",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "teleport",
+   "name": "Guarded Radiant Burst",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 18.36,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.389,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.324,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_052ff1bbbb"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_ec4e4298e6": {
+   "abilities": [
+    "ab_052ff1bbbb"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "projectile",
+   "id": "tq_ec4e4298e6",
+   "kind": "projectile",
+   "modifiers": [
+    "split"
+   ],
+   "movement": "none",
+   "name": "Feint Triple Prism Volley",
+   "origin": "generated",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.9,
+    "cost": 20,
+    "count": 3,
+    "detonate": 0.0,
+    "dmg": 7.56,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.8,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.292,
+    "speed": 12.65,
+    "stages": 1,
+    "startup": 0.209,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_052ff1bbbb"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "split"
+    ],
+    "movement": "none",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 4
+  },
   "tq_ec765a5ab5": {
    "abilities": [
     "ab_e33ef84aee"
@@ -65224,6 +73939,77 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 3
+  },
+  "tq_ede59867c5": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.89,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.68,
+     "opp_zoning": 0.32
+    },
+    "fighter": "ftr_7efb0c2eb5",
+    "match": "m001",
+    "t": 30.71,
+    "tournament": "cosmic_powers_1867555067"
+   },
+   "id": "tq_ede59867c5",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Static Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.34,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.74,
+    "reach": 1.15,
+    "recovery": 0.27,
+    "stages": 3,
+    "startup": 0.15,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_ee19580dd2": {
    "abilities": [
@@ -67990,6 +76776,65 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_f636b55c96": {
+   "abilities": [
+    "ab_bdb37efa7b"
+   ],
+   "ability_names": [
+    "Starlight"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_f636b55c96",
+   "kind": "melee",
+   "modifiers": [
+    "multistage",
+    "pierce"
+   ],
+   "movement": "dash",
+   "name": "Feint Piercing Solar Kick",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 10.8,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 3,
+    "startup": 0.152,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_bdb37efa7b"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "multistage",
+     "pierce"
+    ],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
+  },
   "tq_f67dd50ff2": {
    "abilities": [
     "ab_947c3eebd3",
@@ -68569,6 +77414,63 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_f79b1af399": {
+   "abilities": [
+    "ab_b5782b751b"
+   ],
+   "ability_names": [
+    "Plasma"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-17T22:13:00",
+   "delivery": "kick",
+   "id": "tq_f79b1af399",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Feint Cascade Thunder Kick",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 11.34,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.74,
+    "reach": 1.15,
+    "recovery": 0.27,
+    "stages": 3,
+    "startup": 0.15,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_b5782b751b"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 0
   },
   "tq_f8a8ba3e69": {
    "abilities": [],
@@ -69793,6 +78695,65 @@
    "timing": "feint",
    "variant": 1
   },
+  "tq_fd0c68b790": {
+   "abilities": [
+    "ab_46f985d967"
+   ],
+   "ability_names": [
+    "Pulsar"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-17T22:12:18",
+   "delivery": "explosion",
+   "id": "tq_fd0c68b790",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Charged Snare Shrieking Eruption",
+   "origin": "generated",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 15.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 26.62,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.396,
+    "stages": 1,
+    "startup": 0.668,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_46f985d967"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_fd7136e035": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -70128,6 +79089,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-16T23:51:14",
+ "updated": "2026-11-17T22:13:00",
  "version": 1
 }
