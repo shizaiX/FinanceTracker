@@ -91,13 +91,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_bf416f736d"
    },
    "m002": {
     "a": "ftr_d9da7366d2",
@@ -106,13 +109,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_c434c8b6a9"
    },
    "m003": {
     "a": "ftr_a4d880494d",
@@ -121,13 +127,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_7e2a929f1e"
    },
    "m004": {
     "a": "ftr_bfa9252138",
@@ -136,58 +145,70 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_bfa9252138"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_bf416f736d",
+    "b": "ftr_c434c8b6a9",
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     0
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_bf416f736d"
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_7e2a929f1e",
+    "b": "ftr_bfa9252138",
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     3,
+     1
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_7e2a929f1e"
    },
    "m007": {
-    "a": null,
-    "b": null,
+    "a": "ftr_bf416f736d",
+    "b": "ftr_7e2a929f1e",
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_bf416f736d"
    }
   },
   "order": [
@@ -217,7 +238,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_bf416f736d",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -290,11 +311,11 @@
    "accessory": "hood",
    "build": 0.941,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 8,
     "tournaments": [],
-    "wins": 0
+    "wins": 2
    },
    "color": "#2ee9ff",
    "costume": [
@@ -347,10 +368,10 @@
    "build": 0.979,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 0
+    "wins": 3
    },
    "color": "#ff9a1f",
    "costume": [
@@ -401,8 +422,8 @@
    "accessory": "hood",
    "build": 1.012,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -458,9 +479,9 @@
    "accessory": "hood",
    "build": 1.018,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -514,9 +535,9 @@
    "accessory": "hood",
    "build": 0.94,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -570,11 +591,11 @@
    "accessory": "topknot",
    "build": 1.013,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 4,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#8cff3a",
    "costume": [
@@ -623,9 +644,9 @@
    "accessory": "hood",
    "build": 0.943,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -679,11 +700,11 @@
    "accessory": "hood",
    "build": 1.025,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 3,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#3a7bff",
    "costume": [
@@ -727,13 +748,832 @@
    ]
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "underdog",
+   "arena": "Rain-slick Rooftops",
+   "contact_sheet": "tournaments/ninjas_1202291932/qa/m001_contact.png",
+   "discoveries": [
+    "tq_476d700c2e",
+    "tq_3bcec036b2",
+    "tq_32bd255142",
+    "tq_caf0fcff19",
+    "tq_9954d1c503",
+    "tq_71326bf234"
+   ],
+   "final_point_t": 64.975,
+   "intro_seconds": 10.35,
+   "ko_video_t": 96.43333333333332,
+   "points": [
+    {
+     "abs_t": 20.6333,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 17.033,
+     "tech": "tq_caf0fcff19",
+     "tech_name": "Charged Cascade Iron Kick"
+    },
+    {
+     "abs_t": 38.0083,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 34.408,
+     "tech": "tq_caf0fcff19",
+     "tech_name": "Charged Cascade Iron Kick"
+    },
+    {
+     "abs_t": 68.575,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 64.975,
+     "tech": "tq_615f3e7d00",
+     "tech_name": "SNARE IRON BURST"
+    }
+   ],
+   "render_seconds": 266.3,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 12,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 5,
+     "hits": 61,
+     "minor": 38,
+     "points": 3,
+     "projectiles": 8,
+     "significant": 3,
+     "techniques": 64,
+     "ultimates": 4
+    },
+    {
+     "blocked": 2,
+     "combo": 9,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 19,
+     "minor": 10,
+     "points": 0,
+     "projectiles": 2,
+     "significant": 0,
+     "techniques": 56,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "76a500fb60fb9d693e596751db6d40360d54f2041602e2631e9b0e990ea273fb",
+   "video": "exports/ninjas_1202291932/round_01/match_001.mp4",
+   "video_frames": 6426,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 107.1,
+   "winner": "ftr_bf416f736d"
+  },
+  "m002": {
+   "archetype": "rivalry",
+   "arena": "Rain-slick Rooftops",
+   "contact_sheet": "tournaments/ninjas_1202291932/qa/m002_contact.png",
+   "discoveries": [
+    "tq_26293ef214",
+    "tq_7687219816",
+    "tq_c5afb106d0",
+    "tq_5139720f80",
+    "tq_321ac2539c",
+    "tq_634458c3ef"
+   ],
+   "final_point_t": 69.583,
+   "intro_seconds": 0.0,
+   "ko_video_t": 89.5,
+   "points": [
+    {
+     "abs_t": 33.5667,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 29.967,
+     "tech": "tq_bc5d60a644",
+     "tech_name": "Piercing Crescent Edge"
+    },
+    {
+     "abs_t": 48.0833,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 44.483,
+     "tech": "tq_cd0288cc2a",
+     "tech_name": "DELAYED HOWLING ERUPTION"
+    },
+    {
+     "abs_t": 58.5417,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 54.942,
+     "tech": "tq_4a639279da",
+     "tech_name": "SNARE RAZOR HAMMER"
+    },
+    {
+     "abs_t": 73.1833,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 69.583,
+     "tech": "tq_ae0a67db2b",
+     "tech_name": "Iaido Crash"
+    }
+   ],
+   "render_seconds": 232.9,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 1,
+     "counters": 2,
+     "discoveries": 5,
+     "dodges": 3,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 15,
+     "minor": 11,
+     "points": 1,
+     "projectiles": 1,
+     "significant": 2,
+     "techniques": 45,
+     "ultimates": 1
+    },
+    {
+     "blocked": 0,
+     "combo": 2,
+     "counters": 3,
+     "discoveries": 1,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 26,
+     "minor": 11,
+     "points": 3,
+     "projectiles": 9,
+     "significant": 7,
+     "techniques": 56,
+     "ultimates": 1
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "3fe38dc6552e9be9c00adae31303544f8f4e26141dc1713f5d2729cd9b71b83d",
+   "video": "exports/ninjas_1202291932/round_01/match_002.mp4",
+   "video_frames": 6010,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 100.167,
+   "winner": "ftr_c434c8b6a9"
+  },
+  "m003": {
+   "archetype": "domination",
+   "arena": "Rain-slick Rooftops",
+   "contact_sheet": "tournaments/ninjas_1202291932/qa/m003_contact.png",
+   "discoveries": [
+    "tq_3b88b7c12b",
+    "tq_53b6d3dca0",
+    "tq_cef03da50f",
+    "tq_9a27e1fc43",
+    "tq_056789cc09",
+    "tq_ea81f2796a",
+    "tq_68ebf0b577",
+    "tq_c29e86d127"
+   ],
+   "final_point_t": 87.825,
+   "intro_seconds": 0.0,
+   "ko_video_t": 113.81666666666666,
+   "points": [
+    {
+     "abs_t": 29.8583,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 26.258,
+     "tech": "tq_2d911507c9",
+     "tech_name": "Eclipse Grasp"
+    },
+    {
+     "abs_t": 56.4083,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 52.808,
+     "tech": "tq_cef03da50f",
+     "tech_name": "Fan of Rush"
+    },
+    {
+     "abs_t": 75.8083,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 72.208,
+     "tech": "tq_db0a118083",
+     "tech_name": "GRAND FLICKING SPIRE"
+    },
+    {
+     "abs_t": 91.425,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 87.825,
+     "tech": "tq_67fda98650",
+     "tech_name": "Feint Cascade Fan of Glaive"
+    }
+   ],
+   "render_seconds": 290.1,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 21,
+     "counters": 1,
+     "discoveries": 4,
+     "dodges": 2,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 52,
+     "minor": 17,
+     "points": 1,
+     "projectiles": 8,
+     "significant": 11,
+     "techniques": 53,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 11,
+     "counters": 1,
+     "discoveries": 4,
+     "dodges": 9,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 39,
+     "minor": 14,
+     "points": 3,
+     "projectiles": 16,
+     "significant": 8,
+     "techniques": 50,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "9861352d67f9183c6e6694c2b6a416afaa06ab33df4c7b0480539d068cef61b6",
+   "video": "exports/ninjas_1202291932/round_01/match_003.mp4",
+   "video_frames": 7470,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 124.5,
+   "winner": "ftr_7e2a929f1e"
+  },
+  "m004": {
+   "archetype": "high_speed_duel",
+   "arena": "Rain-slick Rooftops",
+   "contact_sheet": "tournaments/ninjas_1202291932/qa/m004_contact.png",
+   "discoveries": [
+    "tq_7c4d19ee16",
+    "tq_1ea76c39a3",
+    "tq_61e23d454c",
+    "tq_80e3e061c8",
+    "tq_62f796bae5"
+   ],
+   "final_point_t": 79.383,
+   "intro_seconds": 0.0,
+   "ko_video_t": 103.26666666666667,
+   "points": [
+    {
+     "abs_t": 24.3167,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 20.717,
+     "tech": "tq_3116e37e55",
+     "tech_name": "Charged Piercing Star Strike"
+    },
+    {
+     "abs_t": 52.6083,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 49.008,
+     "tech": "tq_269052508e",
+     "tech_name": "SNARE VEILED CRASH"
+    },
+    {
+     "abs_t": 64.2917,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 60.692,
+     "tech": "tq_44525cefe6",
+     "tech_name": "GRAND STAR CANNON"
+    },
+    {
+     "abs_t": 82.9833,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 79.383,
+     "tech": "tq_3116e37e55",
+     "tech_name": "Charged Piercing Star Strike"
+    }
+   ],
+   "render_seconds": 276.7,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 28,
+     "counters": 2,
+     "discoveries": 3,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 66,
+     "minor": 26,
+     "points": 3,
+     "projectiles": 39,
+     "significant": 5,
+     "techniques": 65,
+     "ultimates": 3
+    },
+    {
+     "blocked": 1,
+     "combo": 1,
+     "counters": 3,
+     "discoveries": 2,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 21,
+     "minor": 12,
+     "points": 1,
+     "projectiles": 3,
+     "significant": 6,
+     "techniques": 49,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "d7b728e2f07dba5af5af3dfaac322b3da343e7f92e97fc159b7772c2b759dc13",
+   "video": "exports/ninjas_1202291932/round_01/match_004.mp4",
+   "video_frames": 6837,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 113.95,
+   "winner": "ftr_bfa9252138"
+  },
+  "m005": {
+   "archetype": "high_speed_duel",
+   "arena": "Bamboo of Wind",
+   "contact_sheet": "tournaments/ninjas_1202291932/qa/m005_contact.png",
+   "discoveries": [
+    "tq_ddd744a7a3",
+    "tq_9465fb6f7a",
+    "tq_f35566b5f2",
+    "tq_355aaeed56",
+    "tq_7561f86538"
+   ],
+   "final_point_t": 66.442,
+   "intro_seconds": 5.0,
+   "ko_video_t": 92.78333333333333,
+   "points": [
+    {
+     "abs_t": 17.7917,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 14.192,
+     "tech": "tq_d8f2a6c29d",
+     "tech_name": "Cascade Leaf Heel"
+    },
+    {
+     "abs_t": 47.8667,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 44.267,
+     "tech": "tq_f156bd817c",
+     "tech_name": "Charged Cascade Iron Heel"
+    },
+    {
+     "abs_t": 70.0417,
+     "final": true,
+     "score": [
+      3,
+      0
+     ],
+     "scorer": 0,
+     "t": 66.442,
+     "tech": "tq_f156bd817c",
+     "tech_name": "Charged Cascade Iron Heel"
+    }
+   ],
+   "render_seconds": 516.4,
+   "scores": [
+    3,
+    0
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 11,
+     "counters": 0,
+     "discoveries": 2,
+     "dodges": 2,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 40,
+     "minor": 20,
+     "points": 3,
+     "projectiles": 10,
+     "significant": 3,
+     "techniques": 61,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 4,
+     "counters": 7,
+     "discoveries": 3,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 25,
+     "minor": 17,
+     "points": 0,
+     "projectiles": 6,
+     "significant": 3,
+     "techniques": 63,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "c7917caf11a8998858be54a10bdcc9e804718ab837757c83e7e65dae89e15245",
+   "video": "exports/ninjas_1202291932/semifinals/match_005.mp4",
+   "video_frames": 6207,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 103.45,
+   "winner": "ftr_bf416f736d"
+  },
+  "m006": {
+   "archetype": "high_speed_duel",
+   "arena": "Bamboo of Wind",
+   "contact_sheet": "tournaments/ninjas_1202291932/qa/m006_contact.png",
+   "discoveries": [
+    "tq_dfe9a3110e",
+    "tq_58c10325fc",
+    "tq_f301855e56",
+    "tq_ac754c0fd9",
+    "tq_dc37182c6d",
+    "tq_02f756ac7a",
+    "tq_7e4ffeb80b",
+    "tq_c6f6788928",
+    "tq_310a9f4913",
+    "tq_1e5af113e4",
+    "tq_69d2612c2a",
+    "tq_5f71a7b23e"
+   ],
+   "final_point_t": 81.95,
+   "intro_seconds": 0.0,
+   "ko_video_t": 107.43333333333334,
+   "points": [
+    {
+     "abs_t": 27.4417,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 23.842,
+     "tech": "tq_74af247b7a",
+     "tech_name": "Piercing Fan of Blade"
+    },
+    {
+     "abs_t": 45.0583,
+     "final": false,
+     "score": [
+      2,
+      0
+     ],
+     "scorer": 0,
+     "t": 41.458,
+     "tech": "tq_db0a118083",
+     "tech_name": "GRAND FLICKING SPIRE"
+    },
+    {
+     "abs_t": 73.0333,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 1,
+     "t": 69.433,
+     "tech": "tq_44525cefe6",
+     "tech_name": "GRAND STAR CANNON"
+    },
+    {
+     "abs_t": 85.55,
+     "final": true,
+     "score": [
+      3,
+      1
+     ],
+     "scorer": 0,
+     "t": 81.95,
+     "tech": "tq_5f71a7b23e",
+     "tech_name": "Delayed Flicking Shot"
+    }
+   ],
+   "render_seconds": 546.3,
+   "scores": [
+    3,
+    1
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 1,
+     "combo": 26,
+     "counters": 4,
+     "discoveries": 5,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 55,
+     "minor": 17,
+     "points": 3,
+     "projectiles": 19,
+     "significant": 6,
+     "techniques": 65,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 9,
+     "counters": 4,
+     "discoveries": 7,
+     "dodges": 2,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 35,
+     "minor": 21,
+     "points": 1,
+     "projectiles": 26,
+     "significant": 4,
+     "techniques": 62,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "969fc4fa58d3277d76ccd85e37851c36ce6ba3cfc8fc3e86676a193f8cadd707",
+   "video": "exports/ninjas_1202291932/semifinals/match_006.mp4",
+   "video_frames": 7086,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 118.1,
+   "winner": "ftr_7e2a929f1e"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "Hall of Stillness",
+   "contact_sheet": "tournaments/ninjas_1202291932/qa/m007_contact.png",
+   "discoveries": [
+    "tq_254fbaa252",
+    "tq_3e782a4a4e",
+    "tq_f8d84b4a89",
+    "tq_0ac453b03c",
+    "tq_85012521a1",
+    "tq_3095b050b4",
+    "tq_5058208591",
+    "tq_708d8e6669",
+    "tq_1aa94fc96e",
+    "tq_b3d82e8635"
+   ],
+   "final_point_t": 92.267,
+   "intro_seconds": 5.0,
+   "ko_video_t": 121.83333333333333,
+   "points": [
+    {
+     "abs_t": 23.3083,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 19.708,
+     "tech": "tq_f156bd817c",
+     "tech_name": "Charged Cascade Iron Heel"
+    },
+    {
+     "abs_t": 44.1333,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 40.533,
+     "tech": "tq_f8d84b4a89",
+     "tech_name": "Charged Chain Silent Glaive"
+    },
+    {
+     "abs_t": 62.5,
+     "final": false,
+     "score": [
+      2,
+      1
+     ],
+     "scorer": 0,
+     "t": 58.9,
+     "tech": "tq_f156bd817c",
+     "tech_name": "Charged Cascade Iron Heel"
+    },
+    {
+     "abs_t": 80.875,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 1,
+     "t": 77.275,
+     "tech": "tq_f8d84b4a89",
+     "tech_name": "Charged Chain Silent Glaive"
+    },
+    {
+     "abs_t": 95.8667,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 92.267,
+     "tech": "tq_d8f2a6c29d",
+     "tech_name": "Cascade Leaf Heel"
+    }
+   ],
+   "render_seconds": 606.4,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 15,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 55,
+     "minor": 26,
+     "points": 3,
+     "projectiles": 9,
+     "significant": 8,
+     "techniques": 79,
+     "ultimates": 4
+    },
+    {
+     "blocked": 1,
+     "combo": 18,
+     "counters": 4,
+     "discoveries": 6,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 46,
+     "minor": 19,
+     "points": 2,
+     "projectiles": 3,
+     "significant": 5,
+     "techniques": 84,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "acdb5c6671a66b8eed377ba98122463b51d386d22d33317390dbbf469cf320e5",
+   "video": "exports/ninjas_1202291932/final/match_007.mp4",
+   "video_frames": 8310,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 138.5,
+   "winner": "ftr_bf416f736d"
+  }
+ },
  "name": "Ninjas",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "ninjas_1202291932",
- "steps": {},
+ "steps": {
+  "complete": "exports/ninjas_1202291932/complete_tournament.mp4",
+  "intro_bracket_01": {
+   "frames": 300,
+   "path": "tournaments/ninjas_1202291932/intros/bracket_01.mp4"
+  },
+  "intro_bracket_02": {
+   "frames": 300,
+   "path": "tournaments/ninjas_1202291932/intros/bracket_02.mp4"
+  },
+  "intro_bracket_03": {
+   "frames": 300,
+   "path": "tournaments/ninjas_1202291932/intros/bracket_03.mp4"
+  },
+  "intro_roster": {
+   "frames": 321,
+   "path": "tournaments/ninjas_1202291932/intros/roster.mp4"
+  },
+  "outro_champion": {
+   "frames": 360,
+   "path": "tournaments/ninjas_1202291932/intros/champion.mp4"
+  }
+ },
  "theme": "ninjas",
- "updated": "2026-11-18T10:01:19",
+ "updated": "2026-11-18T10:47:19",
  "version": 1
 }

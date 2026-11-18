@@ -1699,10 +1699,12 @@
    "accessory": "hood",
    "build": 0.94,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
     "wins": 0
    },
    "color": "#a35cff",
@@ -1821,10 +1823,12 @@
    "accessory": "hood",
    "build": 1.012,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
     "wins": 0
    },
    "color": "#ffe23d",
@@ -2773,11 +2777,13 @@
    "accessory": "hood",
    "build": 0.941,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 8,
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
+    "wins": 2
    },
    "color": "#2ee9ff",
    "costume": [
@@ -3423,10 +3429,12 @@
    "accessory": "hood",
    "build": 0.943,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
     "wins": 0
    },
    "color": "#ff3b3b",
@@ -4055,10 +4063,12 @@
    "build": 0.979,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "points_against": 2,
+    "points_for": 9,
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
+    "wins": 3
    },
    "color": "#ff9a1f",
    "costume": [
@@ -4109,11 +4119,13 @@
    "accessory": "topknot",
    "build": 1.013,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 4,
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
+    "wins": 1
    },
    "color": "#8cff3a",
    "costume": [
@@ -4162,11 +4174,13 @@
    "accessory": "hood",
    "build": 1.025,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 3,
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
+    "wins": 1
    },
    "color": "#3a7bff",
    "costume": [
@@ -4569,10 +4583,12 @@
    "accessory": "hood",
    "build": 1.018,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "ninjas_1202291932"
+    ],
     "wins": 0
    },
    "color": "#1fe08a",
@@ -5259,6 +5275,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-18T10:01:19",
+ "updated": "2026-11-18T10:47:19",
  "version": 1
 }

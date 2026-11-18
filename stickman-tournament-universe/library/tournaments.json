@@ -1,5 +1,5 @@
 {
- "count": 9,
+ "count": 10,
  "items": {
   "cosmic_powers_1867555067": {
    "champion": "ftr_f70388dfe5",
@@ -55,6 +55,15 @@
    "seed": 827232095,
    "theme": "elements"
   },
+  "ninjas_1202291932": {
+   "champion": "ftr_bf416f736d",
+   "champion_name": "TAIRRA",
+   "finished": "2026-11-18T10:47:19",
+   "name": "Ninjas",
+   "participants": 8,
+   "seed": 1202291932,
+   "theme": "ninjas"
+  },
   "pirates_801535867": {
    "champion": "ftr_5276d80fb8",
    "champion_name": "KRANTAR",
@@ -84,6 +93,6 @@
   }
  },
  "schema": "stu.tournaments",
- "updated": "2026-11-17T22:34:39",
+ "updated": "2026-11-18T10:47:19",
  "version": 1
 }

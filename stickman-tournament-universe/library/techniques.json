@@ -1,5 +1,5 @@
 {
- "count": 1391,
+ "count": 1437,
  "items": {
   "tq_004a86fadf": {
    "abilities": [
@@ -1142,6 +1142,83 @@
    "timing": "feint",
    "variant": 2
   },
+  "tq_02f756ac7a": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 0.52,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.77,
+     "opp_zoning": 0.23
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m006",
+    "t": 31.15,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_02f756ac7a",
+   "kind": "projectile",
+   "modifiers": [
+    "homing"
+   ],
+   "movement": "dash",
+   "name": "Seeking Silent Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 2.76,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "homing"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_03166e0c2a": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -1851,6 +1928,80 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_056789cc09": {
+   "abilities": [
+    "ab_a435c8a8cb"
+   ],
+   "ability_names": [
+    "Shadow Clone"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-18T10:09:44",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 2.59,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.52,
+     "opp_zoning": 0.48
+    },
+    "fighter": "ftr_a4d880494d",
+    "match": "m003",
+    "t": 46.15,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_056789cc09",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Charged Cascade Night Crescent",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "chain": true,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 15.66,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.36,
+    "reach": 1.15,
+    "recovery": 0.275,
+    "stages": 3,
+    "startup": 0.31,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a435c8a8cb"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "chain",
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_05b640efc2": {
@@ -4065,6 +4216,77 @@
    "tier": "fusion",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_0ac453b03c": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 2.05,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.76,
+     "opp_zoning": 0.24
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m007",
+    "t": 15.86,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_0ac453b03c",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "leap",
+   "name": "Feint Cascade Flicking Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 0.92,
+    "recovery": 0.289,
+    "stages": 2,
+    "startup": 0.178,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "leap",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
   },
   "tq_0b18b5e318": {
    "abilities": [
@@ -10008,6 +10230,81 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_1aa94fc96e": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 1.21,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m007",
+    "t": 71.93,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_1aa94fc96e",
+   "kind": "area",
+   "modifiers": [
+    "amplify",
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Charged Grand Flicking Hammer",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 17.85,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 26.78,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.563,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify",
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 0
+  },
   "tq_1ac08ebbb0": {
    "abilities": [
     "ab_d77f08e85c"
@@ -11368,6 +11665,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_1e5af113e4": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 2.08,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.62,
+     "opp_zoning": 0.38
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m006",
+    "t": 62.67,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_1e5af113e4",
+   "kind": "area",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Silent Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.2,
+    "cost": 9,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.44,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.386,
+    "stages": 1,
+    "startup": 0.319,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_1e7caf4c94": {
    "abilities": [
     "ab_8fc8381c10"
@@ -11587,6 +11957,73 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 1
+  },
+  "tq_1ea76c39a3": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-18T10:14:37",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 1.45,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.91,
+     "opp_zoning": 0.09
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m004",
+    "t": 13.12,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_1ea76c39a3",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Star Rush",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 3.08,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.13,
+    "reach": 0.95,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.094,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_1ed20bbbf8": {
    "abilities": [
@@ -14659,6 +15096,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_254fbaa252": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.17,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m007",
+    "t": 5.2,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_254fbaa252",
+   "kind": "stance",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Silent Riposte",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "counter",
+    "modifiers": [],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_2554c81ced": {
    "abilities": [
     "ab_23c7b1db88"
@@ -15139,6 +15643,74 @@
      "split"
     ],
     "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_26293ef214": {
+   "abilities": [
+    "ab_640e7817f6"
+   ],
+   "ability_names": [
+    "Wind Jutsu"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-18T10:05:48",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.11,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_d9da7366d2",
+    "match": "m002",
+    "t": 7.56,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_26293ef214",
+   "kind": "area",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Cyclone Burst",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 9.72,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.52,
+    "radius": 1.7,
+    "reach": 1.7,
+    "recovery": 0.383,
+    "stages": 1,
+    "startup": 0.314,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_640e7817f6"
+    ],
+    "delivery": "explosion",
+    "modifiers": [],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -18398,6 +18970,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_3095b050b4": {
+   "abilities": [
+    "ab_f5255379d7"
+   ],
+   "ability_names": [
+    "Taijutsu"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 0.77,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.87,
+     "opp_zoning": 0.13
+    },
+    "fighter": "ftr_bf416f736d",
+    "match": "m007",
+    "t": 26.75,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_3095b050b4",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "leap",
+   "name": "Cascade Leaf Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 9.94,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.66,
+    "reach": 0.95,
+    "recovery": 0.214,
+    "stages": 3,
+    "startup": 0.114,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f5255379d7"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_30b69b0d3b": {
    "abilities": [
     "ab_57591f87b0"
@@ -18594,6 +19237,77 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 2
+  },
+  "tq_310a9f4913": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 8.98,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.66,
+     "opp_zoning": 0.34
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m006",
+    "t": 55.65,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_310a9f4913",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Cascade Spinning Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 14.36,
+    "reach": 0.85,
+    "recovery": 0.347,
+    "stages": 2,
+    "startup": 0.141,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_3116e37e55": {
    "abilities": [
@@ -19154,6 +19868,79 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_321ac2539c": {
+   "abilities": [
+    "ab_640e7817f6"
+   ],
+   "ability_names": [
+    "Wind Jutsu"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-18T10:05:48",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.6,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_d9da7366d2",
+    "match": "m002",
+    "t": 23.35,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_321ac2539c",
+   "kind": "melee",
+   "modifiers": [
+    "multistage",
+    "pierce"
+   ],
+   "movement": "aerial_dash",
+   "name": "Feint Piercing Zephyr Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 2.3,
+    "cost": 34,
+    "dmg": 9.72,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 12.64,
+    "reach": 1.15,
+    "recovery": 0.268,
+    "stages": 3,
+    "startup": 0.148,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_640e7817f6"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "multistage",
+     "pierce"
+    ],
+    "movement": "aerial_dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 2
   },
   "tq_32491c762f": {
    "abilities": [
@@ -19813,6 +20600,78 @@
      "trap"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_355aaeed56": {
+   "abilities": [
+    "ab_f5255379d7"
+   ],
+   "ability_names": [
+    "Taijutsu"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-18T10:19:18",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 0.97,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.9,
+     "opp_zoning": 0.1
+    },
+    "fighter": "ftr_bf416f736d",
+    "match": "m005",
+    "t": 52.42,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_355aaeed56",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "dash",
+   "name": "Snare Iron Reaper",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 9.94,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 16.15,
+    "reach": 1.2,
+    "recovery": 0.331,
+    "stages": 1,
+    "startup": 0.162,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f5255379d7"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "dash",
     "timing": "instant"
    },
    "tier": "infused",
@@ -22083,6 +22942,78 @@
    "timing": "feint",
    "variant": 0
   },
+  "tq_3b88b7c12b": {
+   "abilities": [
+    "ab_a435c8a8cb"
+   ],
+   "ability_names": [
+    "Shadow Clone"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-18T10:09:44",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 4.34,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_a4d880494d",
+    "match": "m003",
+    "t": 9.43,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_3b88b7c12b",
+   "kind": "melee",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "step",
+   "name": "Delayed Umbral Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay_blast": 0.6,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.88,
+    "reach": 0.95,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.116,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a435c8a8cb"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_3b8e2ea91e": {
    "abilities": [
     "ab_e33ef84aee"
@@ -23016,6 +23947,73 @@
      "trap"
     ],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_3e782a4a4e": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_barrage",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "barrage",
+   "discovery": {
+    "context": {
+     "dist": 0.36,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m007",
+    "t": 10.97,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_3e782a4a4e",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "step",
+   "name": "Silent Barrage",
+   "origin": "discovered",
+   "params": {
+    "active": 0.6,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 3.08,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 5,
+    "kb": [
+     1.0,
+     0.3
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 5.13,
+    "reach": 0.95,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.094,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "barrage",
+    "modifiers": [],
+    "movement": "step",
     "timing": "instant"
    },
    "tier": "infused",
@@ -29899,6 +30897,73 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_5058208591": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.0,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.72,
+     "opp_zoning": 0.28
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m007",
+    "t": 30.05,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_5058208591",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "dash",
+   "name": "Silent Fist",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 11.29,
+    "reach": 0.95,
+    "recovery": 0.212,
+    "stages": 1,
+    "startup": 0.113,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "punch",
+    "modifiers": [],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_50b5f5cee1": {
    "abilities": [
     "ab_2978036b85"
@@ -30256,6 +31321,80 @@
      "pierce"
     ],
     "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_5139720f80": {
+   "abilities": [
+    "ab_640e7817f6"
+   ],
+   "ability_names": [
+    "Wind Jutsu"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-18T10:05:48",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.23,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.83,
+     "opp_zoning": 0.17
+    },
+    "fighter": "ftr_d9da7366d2",
+    "match": "m002",
+    "t": 21.61,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_5139720f80",
+   "kind": "env",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Cyclone Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "delay": 0.42,
+    "dmg": 10.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 15.55,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.363,
+    "stages": 1,
+    "startup": 0.277,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_640e7817f6"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -30685,6 +31824,83 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_53b6d3dca0": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:09:44",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 5.27,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.14,
+     "opp_zoning": 0.86
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m003",
+    "t": 11.54,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_53b6d3dca0",
+   "kind": "projectile",
+   "modifiers": [
+    "homing"
+   ],
+   "movement": "leap",
+   "name": "Seeking Whistling Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 2.76,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "homing"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_541865303c": {
    "abilities": [
@@ -32057,6 +33273,87 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_58c10325fc": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 4.88,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m006",
+    "t": 12.99,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_58c10325fc",
+   "kind": "projectile",
+   "modifiers": [
+    "chain",
+    "trap"
+   ],
+   "movement": "leap",
+   "name": "Chain Fan of Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "chain": true,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "chain",
+     "trap"
+    ],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_5a25526686": {
    "abilities": [
@@ -33470,6 +34767,83 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_5f71a7b23e": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.64,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.62,
+     "opp_zoning": 0.38
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m006",
+    "t": 65.01,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_5f71a7b23e",
+   "kind": "projectile",
+   "modifiers": [
+    "delayed"
+   ],
+   "movement": "none",
+   "name": "Delayed Flicking Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.75,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "delayed"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_5fc90648a1": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -33945,6 +35319,81 @@
    "timing": "finisher",
    "variant": 0
   },
+  "tq_61e23d454c": {
+   "abilities": [
+    "ab_d888b8c60a"
+   ],
+   "ability_names": [
+    "Smoke Bomb"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:14:38",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 2.66,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.63,
+     "opp_zoning": 0.37
+    },
+    "fighter": "ftr_48401babcc",
+    "match": "m004",
+    "t": 46.63,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_61e23d454c",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "shield"
+   ],
+   "movement": "none",
+   "name": "Guarded Veiled Mirror",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 2.3,
+    "cost": 26,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 21.6,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d888b8c60a"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "shield"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_6212ac967c": {
    "abilities": [
     "ab_3d83d43f1a"
@@ -34192,6 +35641,75 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_62f796bae5": {
+   "abilities": [
+    "ab_d888b8c60a"
+   ],
+   "ability_names": [
+    "Smoke Bomb"
+   ],
+   "anim": "anim_env_strike",
+   "combination": null,
+   "created": "2026-11-18T10:14:38",
+   "delivery": "env_strike",
+   "discovery": {
+    "context": {
+     "dist": 0.72,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.66,
+     "opp_zoning": 0.34
+    },
+    "fighter": "ftr_48401babcc",
+    "match": "m004",
+    "t": 74.07,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_62f796bae5",
+   "kind": "env",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Charged Vanishing Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 22,
+    "delay": 0.42,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.5,
+     9.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 25.06,
+    "radius": 0.8,
+    "reach": 8.0,
+    "recovery": 0.373,
+    "stages": 1,
+    "startup": 0.58,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_d888b8c60a"
+    ],
+    "delivery": "env_strike",
+    "modifiers": [],
+    "movement": "backstep",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_6303330726": {
@@ -34446,6 +35964,73 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_634458c3ef": {
+   "abilities": [
+    "ab_640e7817f6"
+   ],
+   "ability_names": [
+    "Wind Jutsu"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-18T10:05:48",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.91,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.81,
+     "opp_zoning": 0.19
+    },
+    "fighter": "ftr_d9da7366d2",
+    "match": "m002",
+    "t": 24.92,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_634458c3ef",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Howling Heel",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.5,
+    "cost": 14,
+    "dmg": 9.72,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 12.64,
+    "reach": 1.15,
+    "recovery": 0.268,
+    "stages": 1,
+    "startup": 0.148,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_640e7817f6"
+    ],
+    "delivery": "kick",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
   },
   "tq_636fb9beb8": {
    "abilities": [
@@ -36302,6 +37887,77 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_68ebf0b577": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-18T10:09:45",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 4.28,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.55,
+     "opp_zoning": 0.45
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m003",
+    "t": 77.58,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_68ebf0b577",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Flicking Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 10.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 14.36,
+    "reach": 0.85,
+    "recovery": 0.347,
+    "stages": 2,
+    "startup": 0.141,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_6900253206": {
    "abilities": [
     "ab_a337bbb9cf"
@@ -36676,6 +38332,79 @@
    "tier": "infused",
    "timing": "instant",
    "variant": 0
+  },
+  "tq_69d2612c2a": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.53,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.04,
+     "opp_rushdown": 0.68,
+     "opp_zoning": 0.32
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m006",
+    "t": 64.31,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_69d2612c2a",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Star Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_69e63e252b": {
    "abilities": [
@@ -39615,6 +41344,77 @@
    "timing": "instant",
    "variant": 1
   },
+  "tq_708d8e6669": {
+   "abilities": [
+    "ab_f5255379d7"
+   ],
+   "ability_names": [
+    "Taijutsu"
+   ],
+   "anim": "anim_punch",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "punch",
+   "discovery": {
+    "context": {
+     "dist": 2.19,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.87,
+     "opp_zoning": 0.13
+    },
+    "fighter": "ftr_bf416f736d",
+    "match": "m007",
+    "t": 47.02,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_708d8e6669",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "aerial_dash",
+   "name": "Feint Cascade Leaf Palm",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 9.94,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     2.4,
+     0.6
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 13.66,
+    "reach": 0.95,
+    "recovery": 0.214,
+    "stages": 3,
+    "startup": 0.114,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f5255379d7"
+    ],
+    "delivery": "punch",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "aerial_dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
+   "timing": "feint",
+   "variant": 0
+  },
   "tq_70d4bdfa70": {
    "abilities": [
     "ab_83c4d6d552"
@@ -41400,6 +43200,81 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7561f86538": {
+   "abilities": [
+    "ab_a460e5a78a"
+   ],
+   "ability_names": [
+    "Katana"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:19:18",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_c434c8b6a9",
+    "match": "m005",
+    "t": 53.22,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_7561f86538",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "reflect"
+   ],
+   "movement": "backstep",
+   "name": "Devouring Severing Parry",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a460e5a78a"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "reflect"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_7565ae78f6": {
    "abilities": [],
    "ability_names": [],
@@ -41746,6 +43621,77 @@
    },
    "tier": "infused",
    "timing": "instant",
+   "variant": 0
+  },
+  "tq_7687219816": {
+   "abilities": [
+    "ab_a460e5a78a"
+   ],
+   "ability_names": [
+    "Katana"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-18T10:05:48",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 0.73,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.75,
+     "opp_zoning": 0.25
+    },
+    "fighter": "ftr_c434c8b6a9",
+    "match": "m002",
+    "t": 20.36,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_7687219816",
+   "kind": "melee",
+   "modifiers": [
+    "pierce"
+   ],
+   "movement": "leap",
+   "name": "Charged Piercing Iaido Heel",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 17.23,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 22.39,
+    "reach": 1.15,
+    "recovery": 0.275,
+    "stages": 1,
+    "startup": 0.31,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a460e5a78a"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "pierce"
+    ],
+    "movement": "leap",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 0
   },
   "tq_768910fc1e": {
@@ -44018,6 +45964,79 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_7c4d19ee16": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:14:37",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.8,
+     "opp_zoning": 0.2
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m004",
+    "t": 5.39,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_7c4d19ee16",
+   "kind": "projectile",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Rapid Silent Volley",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 1,
+    "detonate": 0.0,
+    "dmg": 4.49,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 3,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 6.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.227,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "projectile",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "multi_hit"
+   },
+   "tier": "infused",
+   "timing": "multi_hit",
+   "variant": 1
+  },
   "tq_7c64fc4af8": {
    "abilities": [
     "ab_871ffa40a3"
@@ -44887,6 +46906,78 @@
    },
    "tier": "infused",
    "timing": "multi_hit",
+   "variant": 0
+  },
+  "tq_7e4ffeb80b": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 4.96,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.67,
+     "opp_zoning": 0.33
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m006",
+    "t": 52.85,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_7e4ffeb80b",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "none",
+   "name": "Snare Silent Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 8.21,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 13.34,
+    "reach": 1.2,
+    "recovery": 0.328,
+    "stages": 1,
+    "startup": 0.159,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_7e5659fa05": {
@@ -46026,6 +48117,78 @@
      "multistage"
     ],
     "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_80e3e061c8": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:14:38",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 0.64,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.91,
+     "opp_zoning": 0.09
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m004",
+    "t": 47.47,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_80e3e061c8",
+   "kind": "stance",
+   "modifiers": [
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Star Mirror",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "reflect"
+    ],
+    "movement": "none",
     "timing": "instant"
    },
    "tier": "infused",
@@ -47602,6 +49765,83 @@
     "timing": "feint"
    },
    "tier": "fusion",
+   "timing": "feint",
+   "variant": 2
+  },
+  "tq_85012521a1": {
+   "abilities": [
+    "ab_f5255379d7"
+   ],
+   "ability_names": [
+    "Taijutsu"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 0.69,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.05,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_bf416f736d",
+    "match": "m007",
+    "t": 26.36,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_85012521a1",
+   "kind": "projectile",
+   "modifiers": [
+    "split"
+   ],
+   "movement": "dash",
+   "name": "Feint Triple Iron Bolt",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 3,
+    "detonate": 0.0,
+    "dmg": 8.69,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 12.42,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.292,
+    "speed": 12.65,
+    "stages": 1,
+    "startup": 0.209,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f5255379d7"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "split"
+    ],
+    "movement": "dash",
+    "timing": "feint"
+   },
+   "tier": "infused",
    "timing": "feint",
    "variant": 2
   },
@@ -53348,6 +55588,77 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_9465fb6f7a": {
+   "abilities": [
+    "ab_f5255379d7"
+   ],
+   "ability_names": [
+    "Taijutsu"
+   ],
+   "anim": "anim_uppercut",
+   "combination": null,
+   "created": "2026-11-18T10:19:17",
+   "delivery": "uppercut",
+   "discovery": {
+    "context": {
+     "dist": 0.74,
+     "near_wall": true,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.86,
+     "opp_zoning": 0.14
+    },
+    "fighter": "ftr_bf416f736d",
+    "match": "m005",
+    "t": 11.59,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_9465fb6f7a",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "none",
+   "name": "Cascade Lotus Ascension",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.42,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.2,
+     8.0
+    ],
+    "knockdown": false,
+    "launcher": true,
+    "poise": 17.39,
+    "reach": 0.85,
+    "recovery": 0.35,
+    "stages": 2,
+    "startup": 0.143,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f5255379d7"
+    ],
+    "delivery": "uppercut",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_946a671cee": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -55742,6 +58053,78 @@
    "tier": "infused",
    "timing": "feint",
    "variant": 1
+  },
+  "tq_9a27e1fc43": {
+   "abilities": [
+    "ab_a435c8a8cb"
+   ],
+   "ability_names": [
+    "Shadow Clone"
+   ],
+   "anim": "anim_slam",
+   "combination": null,
+   "created": "2026-11-18T10:09:44",
+   "delivery": "slam",
+   "discovery": {
+    "context": {
+     "dist": 5.07,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.56,
+     "opp_zoning": 0.44
+    },
+    "fighter": "ftr_a4d880494d",
+    "match": "m003",
+    "t": 41.71,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_9a27e1fc43",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "teleport",
+   "name": "Grand Umbral Crash",
+   "origin": "discovered",
+   "params": {
+    "active": 0.08,
+    "cooldown": 1.9,
+    "cost": 28,
+    "dmg": 12.96,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.5,
+     4.0
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 19.44,
+    "radius": 2.1,
+    "reach": 1.5,
+    "recovery": 0.392,
+    "stages": 1,
+    "startup": 0.29,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a435c8a8cb"
+    ],
+    "delivery": "slam",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "teleport",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
   },
   "tq_9a3c8dbf0a": {
    "abilities": [
@@ -60805,6 +63188,80 @@
    "timing": "instant",
    "variant": 2
   },
+  "tq_ac754c0fd9": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.73,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.81,
+     "opp_zoning": 0.19
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m006",
+    "t": 22.3,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_ac754c0fd9",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "pierce"
+   ],
+   "movement": "step",
+   "name": "Chain Whistling Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": true,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 14.36,
+    "reach": 0.92,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.178,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "pierce"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 2
+  },
   "tq_accc88ddbf": {
    "abilities": [
     "ab_314ffb8ed5",
@@ -63275,6 +65732,77 @@
    },
    "tier": "infused",
    "timing": "feint",
+   "variant": 1
+  },
+  "tq_b3d82e8635": {
+   "abilities": [
+    "ab_f5255379d7"
+   ],
+   "ability_names": [
+    "Taijutsu"
+   ],
+   "anim": "anim_kick",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "kick",
+   "discovery": {
+    "context": {
+     "dist": 3.7,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.02,
+     "opp_rushdown": 0.91,
+     "opp_zoning": 0.09
+    },
+    "fighter": "ftr_bf416f736d",
+    "match": "m007",
+    "t": 73.55,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_b3d82e8635",
+   "kind": "melee",
+   "modifiers": [
+    "multistage"
+   ],
+   "movement": "aerial_dash",
+   "name": "Charged Cascade Lotus Heel",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 18.01,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.4,
+     1.2
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.41,
+    "reach": 1.15,
+    "recovery": 0.272,
+    "stages": 3,
+    "startup": 0.305,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_f5255379d7"
+    ],
+    "delivery": "kick",
+    "modifiers": [
+     "multistage"
+    ],
+    "movement": "aerial_dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
    "variant": 1
   },
   "tq_b3f6b8707f": {
@@ -68046,6 +70574,83 @@
    "timing": "charged",
    "variant": 0
   },
+  "tq_c29e86d127": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_projectile",
+   "combination": null,
+   "created": "2026-11-18T10:09:45",
+   "delivery": "projectile",
+   "discovery": {
+    "context": {
+     "dist": 3.27,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.03,
+     "opp_rushdown": 0.54,
+     "opp_zoning": 0.46
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m003",
+    "t": 83.87,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_c29e86d127",
+   "kind": "projectile",
+   "modifiers": [
+    "split"
+   ],
+   "movement": "dash",
+   "name": "Triple Silent Shot",
+   "origin": "discovered",
+   "params": {
+    "active": 0.06,
+    "cooldown": 1.2,
+    "cost": 9,
+    "count": 3,
+    "detonate": 0.0,
+    "dmg": 7.18,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "homing": 0.0,
+    "kb": [
+     3.0,
+     1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "pierce": false,
+    "poise": 10.26,
+    "radius": 0.2,
+    "reach": 9.0,
+    "recovery": 0.289,
+    "speed": 18.0,
+    "stages": 1,
+    "startup": 0.206,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "projectile",
+    "modifiers": [
+     "split"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
+  },
   "tq_c2a4a16628": {
    "abilities": [
     "ab_990b7774d2"
@@ -69233,6 +71838,78 @@
    "timing": "multi_hit",
    "variant": 0
   },
+  "tq_c5afb106d0": {
+   "abilities": [
+    "ab_640e7817f6"
+   ],
+   "ability_names": [
+    "Wind Jutsu"
+   ],
+   "anim": "anim_explosion",
+   "combination": null,
+   "created": "2026-11-18T10:05:48",
+   "delivery": "explosion",
+   "discovery": {
+    "context": {
+     "dist": 0.21,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.82,
+     "opp_zoning": 0.18
+    },
+    "fighter": "ftr_d9da7366d2",
+    "match": "m002",
+    "t": 20.92,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_c5afb106d0",
+   "kind": "area",
+   "modifiers": [
+    "amplify"
+   ],
+   "movement": "dash",
+   "name": "Grand Zephyr Eruption",
+   "origin": "discovered",
+   "params": {
+    "active": 0.1,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 9.72,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     3.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.52,
+    "radius": 2.38,
+    "reach": 1.7,
+    "recovery": 0.383,
+    "stages": 1,
+    "startup": 0.314,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_640e7817f6"
+    ],
+    "delivery": "explosion",
+    "modifiers": [
+     "amplify"
+    ],
+    "movement": "dash",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_c5c5b1421a": {
    "abilities": [
     "ab_5401f34434"
@@ -69819,6 +72496,78 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_c6f6788928": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 9.25,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.66,
+     "opp_zoning": 0.34
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m006",
+    "t": 55.07,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_c6f6788928",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "backstep",
+   "name": "Guarded Spinning Mirror",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_c729164dc2": {
@@ -72296,6 +75045,74 @@
    },
    "tier": "ultimate",
    "timing": "finisher",
+   "variant": 0
+  },
+  "tq_cef03da50f": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_charge",
+   "combination": null,
+   "created": "2026-11-18T10:09:44",
+   "delivery": "charge",
+   "discovery": {
+    "context": {
+     "dist": 1.86,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.11,
+     "opp_zoning": 0.89
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m003",
+    "t": 17.97,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_cef03da50f",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "none",
+   "name": "Fan of Rush",
+   "origin": "discovered",
+   "params": {
+    "active": 0.38,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 11.29,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     6.0,
+     2.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 16.42,
+    "reach": 0.7,
+    "recovery": 0.328,
+    "stages": 1,
+    "startup": 0.188,
+    "stun": 1.0,
+    "travel": 10.406728592598155,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "charge",
+    "modifiers": [],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_cef113e0ec": {
@@ -76593,6 +79410,81 @@
    "timing": "multi_hit",
    "variant": 3
   },
+  "tq_dc37182c6d": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 4.6,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.77,
+     "opp_zoning": 0.23
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m006",
+    "t": 28.47,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_dc37182c6d",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "shield"
+   ],
+   "movement": "backstep",
+   "name": "Guarded Whistling Riposte",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "shield"
+    ],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_dc4f4306b9": {
    "abilities": [
     "ab_a48e55e410"
@@ -77092,6 +79984,73 @@
    "tier": "infused",
    "timing": "charged",
    "variant": 2
+  },
+  "tq_ddd744a7a3": {
+   "abilities": [
+    "ab_a460e5a78a"
+   ],
+   "ability_names": [
+    "Katana"
+   ],
+   "anim": "anim_aerial_strike",
+   "combination": null,
+   "created": "2026-11-18T10:19:17",
+   "delivery": "aerial_strike",
+   "discovery": {
+    "context": {
+     "dist": 1.35,
+     "near_wall": false,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.8,
+     "opp_zoning": 0.2
+    },
+    "fighter": "ftr_c434c8b6a9",
+    "match": "m005",
+    "t": 2.78,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_ddd744a7a3",
+   "kind": "melee",
+   "modifiers": [],
+   "movement": "leap",
+   "name": "Iaido Meteor Kick",
+   "origin": "discovered",
+   "params": {
+    "active": 0.32,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 13.07,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     4.0,
+     -1.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 17.82,
+    "reach": 1.1,
+    "recovery": 0.216,
+    "stages": 1,
+    "startup": 0.097,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a460e5a78a"
+    ],
+    "delivery": "aerial_strike",
+    "modifiers": [],
+    "movement": "leap",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 1
   },
   "tq_de0d12bdd9": {
    "abilities": [],
@@ -78203,6 +81162,73 @@
    },
    "tier": "infused",
    "timing": "charged",
+   "variant": 0
+  },
+  "tq_dfe9a3110e": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 1.04,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.8,
+     "opp_zoning": 0.2
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m006",
+    "t": 3.93,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_dfe9a3110e",
+   "kind": "stance",
+   "modifiers": [],
+   "movement": "backstep",
+   "name": "Spinning Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "counter",
+    "modifiers": [],
+    "movement": "backstep",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
    "variant": 0
   },
   "tq_dfefe6ea81": {
@@ -81571,6 +84597,78 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_ea81f2796a": {
+   "abilities": [
+    "ab_a435c8a8cb"
+   ],
+   "ability_names": [
+    "Shadow Clone"
+   ],
+   "anim": "anim_sweep",
+   "combination": null,
+   "created": "2026-11-18T10:09:44",
+   "delivery": "sweep",
+   "discovery": {
+    "context": {
+     "dist": 3.39,
+     "near_wall": false,
+     "opp_airborne": true,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.57,
+     "opp_zoning": 0.43
+    },
+    "fighter": "ftr_a4d880494d",
+    "match": "m003",
+    "t": 50.04,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_ea81f2796a",
+   "kind": "melee",
+   "modifiers": [
+    "trap"
+   ],
+   "movement": "step",
+   "name": "Snare Umbral Sweep",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "cooldown": 1.9,
+    "cost": 20,
+    "dmg": 8.64,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     1.0,
+     2.5
+    ],
+    "knockdown": true,
+    "launcher": false,
+    "poise": 14.04,
+    "reach": 1.2,
+    "recovery": 0.334,
+    "stages": 1,
+    "startup": 0.164,
+    "stun": 1.0,
+    "trap": true,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a435c8a8cb"
+    ],
+    "delivery": "sweep",
+    "modifiers": [
+     "trap"
+    ],
+    "movement": "step",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_eabef511b1": {
    "abilities": [
     "ab_46f985d967"
@@ -84557,6 +87655,81 @@
    "timing": "instant",
    "variant": 0
   },
+  "tq_f301855e56": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:27:57",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 0.64,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.76,
+     "opp_zoning": 0.24
+    },
+    "fighter": "ftr_bfa9252138",
+    "match": "m006",
+    "t": 16.22,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_f301855e56",
+   "kind": "stance",
+   "modifiers": [
+    "absorb",
+    "reflect"
+   ],
+   "movement": "none",
+   "name": "Reflecting Silent Mirror",
+   "origin": "discovered",
+   "params": {
+    "absorb": true,
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 12.31,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.52,
+    "reach": 1.0,
+    "recovery": 0.289,
+    "reflect": true,
+    "stages": 1,
+    "startup": 0.047,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_07c3c07f42"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "absorb",
+     "reflect"
+    ],
+    "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
   "tq_f339c022bd": {
    "abilities": [
     "ab_9408408bac"
@@ -84604,6 +87777,78 @@
     "delivery": "counter",
     "modifiers": [],
     "movement": "none",
+    "timing": "instant"
+   },
+   "tier": "infused",
+   "timing": "instant",
+   "variant": 0
+  },
+  "tq_f35566b5f2": {
+   "abilities": [
+    "ab_a460e5a78a"
+   ],
+   "ability_names": [
+    "Katana"
+   ],
+   "anim": "anim_counter",
+   "combination": null,
+   "created": "2026-11-18T10:19:17",
+   "delivery": "counter",
+   "discovery": {
+    "context": {
+     "dist": 0.5,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.89,
+     "opp_zoning": 0.11
+    },
+    "fighter": "ftr_c434c8b6a9",
+    "match": "m005",
+    "t": 13.72,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_f35566b5f2",
+   "kind": "stance",
+   "modifiers": [
+    "shield"
+   ],
+   "movement": "backstep",
+   "name": "Guarded Crescent Parry",
+   "origin": "discovered",
+   "params": {
+    "active": 0.65,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 14.26,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     5.0,
+     3.0
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 23.76,
+    "reach": 1.0,
+    "recovery": 0.294,
+    "shield": 1.8,
+    "stages": 1,
+    "startup": 0.048,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_a460e5a78a"
+    ],
+    "delivery": "counter",
+    "modifiers": [
+     "shield"
+    ],
+    "movement": "backstep",
     "timing": "instant"
    },
    "tier": "infused",
@@ -86917,6 +90162,80 @@
    "timing": "feint",
    "variant": 2
   },
+  "tq_f8d84b4a89": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "anim": "anim_summon_weapon",
+   "combination": null,
+   "created": "2026-11-18T10:37:07",
+   "delivery": "summon_weapon",
+   "discovery": {
+    "context": {
+     "dist": 0.65,
+     "near_wall": true,
+     "opp_airborne": false,
+     "opp_blocks": 0.0,
+     "opp_rushdown": 0.79,
+     "opp_zoning": 0.21
+    },
+    "fighter": "ftr_7e2a929f1e",
+    "match": "m007",
+    "t": 13.07,
+    "tournament": "ninjas_1202291932"
+   },
+   "id": "tq_f8d84b4a89",
+   "kind": "melee",
+   "modifiers": [
+    "chain",
+    "multistage"
+   ],
+   "movement": "dash",
+   "name": "Charged Chain Silent Glaive",
+   "origin": "discovered",
+   "params": {
+    "active": 0.12,
+    "chain": true,
+    "cooldown": 0.9,
+    "cost": 4,
+    "dmg": 16.36,
+    "focus_cost": 0,
+    "guard_break": false,
+    "hits": 1,
+    "kb": [
+     3.8,
+     1.5
+    ],
+    "knockdown": false,
+    "launcher": false,
+    "poise": 20.83,
+    "reach": 0.92,
+    "recovery": 0.289,
+    "stages": 2,
+    "startup": 0.357,
+    "stun": 1.0,
+    "unblockable": false
+   },
+   "reaction": null,
+   "signature": {
+    "abilities": [
+     "ab_c7bc5e869b"
+    ],
+    "delivery": "summon_weapon",
+    "modifiers": [
+     "chain",
+     "multistage"
+    ],
+    "movement": "dash",
+    "timing": "charged"
+   },
+   "tier": "infused",
+   "timing": "charged",
+   "variant": 2
+  },
   "tq_f8eeb498c7": {
    "abilities": [
     "ab_d903b6dc1c"
@@ -88668,6 +91987,6 @@
   }
  },
  "schema": "stu.techniques",
- "updated": "2026-11-18T10:01:19",
+ "updated": "2026-11-18T10:37:07",
  "version": 1
 }
