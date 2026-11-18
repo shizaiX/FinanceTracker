@@ -1,5 +1,5 @@
 {
- "count": 30,
+ "count": 33,
  "items": {
   "arena_cosmic_powers_1009208920_0": {
    "accent": "#ff4fc6",
@@ -505,6 +505,93 @@
    "time_of_day": "night",
    "tournament": "elements_827232095"
   },
+  "arena_ninjas_1202291932_0": {
+   "accent": "#ff4fbb",
+   "ambient": "rain",
+   "biome": "night_rooftops",
+   "celestial": "moon",
+   "far": "#110e22",
+   "far_type": "city",
+   "ground": "#2c2a3a",
+   "ground_style": "tiles",
+   "id": "arena_ninjas_1202291932_0",
+   "layout_seed": 749825873,
+   "lightning": false,
+   "mid": "#131120",
+   "name": "Rain-slick Rooftops",
+   "props": "chimney",
+   "props_list": [
+    "chimney",
+    "lantern",
+    "antenna"
+   ],
+   "ships": false,
+   "sky": [
+    "#05040e",
+    "#1f1a3a"
+   ],
+   "theme": "ninjas",
+   "time_of_day": "night",
+   "tournament": "ninjas_1202291932"
+  },
+  "arena_ninjas_1202291932_1": {
+   "accent": "#c5ff9a",
+   "ambient": "leaves",
+   "biome": "bamboo_forest",
+   "celestial": "sun",
+   "far": "#2a5a33",
+   "far_type": "bamboo",
+   "ground": "#293a1a",
+   "ground_style": "grass",
+   "id": "arena_ninjas_1202291932_1",
+   "layout_seed": 411460772,
+   "lightning": false,
+   "mid": "#1b3c20",
+   "name": "Bamboo of Wind",
+   "props": "bamboo",
+   "props_list": [
+    "bamboo",
+    "lantern",
+    "bamboo"
+   ],
+   "ships": false,
+   "sky": [
+    "#4a8a5b",
+    "#def0c0"
+   ],
+   "theme": "ninjas",
+   "time_of_day": "day",
+   "tournament": "ninjas_1202291932"
+  },
+  "arena_ninjas_1202291932_2": {
+   "accent": "#ffdc7a",
+   "ambient": "motes",
+   "biome": "dojo",
+   "celestial": "moon",
+   "far": "#e8deb0",
+   "far_type": "dojo_wall",
+   "ground": "#b8a55a",
+   "ground_style": "tatami",
+   "id": "arena_ninjas_1202291932_2",
+   "layout_seed": 349915734,
+   "lightning": false,
+   "mid": "#2d1f11",
+   "name": "Hall of Stillness",
+   "props": "lantern",
+   "props_list": [
+    "lantern",
+    "paper_screen",
+    "lantern"
+   ],
+   "ships": false,
+   "sky": [
+    "#1a1008",
+    "#3a2814"
+   ],
+   "theme": "ninjas",
+   "time_of_day": "night",
+   "tournament": "ninjas_1202291932"
+  },
   "arena_pirates_801535867_0": {
    "accent": "#ffdaa0",
    "ambient": "spray",
@@ -860,6 +947,6 @@
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-17T22:13:00",
+ "updated": "2026-11-18T10:01:19",
  "version": 1
 }

@@ -1,5 +1,5 @@
 {
- "count": 80,
+ "count": 88,
  "items": {
   "ftr_02491fc11c": {
    "abilities": [
@@ -1689,6 +1689,62 @@
    },
    "weapons": []
   },
+  "ftr_48401babcc": {
+   "abilities": [
+    "ab_d888b8c60a"
+   ],
+   "ability_names": [
+    "Smoke Bomb"
+   ],
+   "accessory": "hood",
+   "build": 0.94,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "hood",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_48401babcc",
+   "name": "VEILOS",
+   "personality": "aggressive",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_de9636454d",
+    "tq_8406eb889f",
+    "tq_9085c5139a",
+    "tq_4abbffafd6",
+    "tq_fba614b3a0",
+    "tq_5bd0c0500b",
+    "tq_f074bde627",
+    "tq_57d6a6c014",
+    "tq_f45d5fe68f",
+    "tq_269052508e"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "SNARE VEILED CRASH",
+   "stance": "orthodox",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.754,
+    "aggression": 0.837,
+    "caution": 0.268,
+    "counter": 0.28,
+    "creativity": 0.568,
+    "evasive": 0.286,
+    "range": 1.0,
+    "reaction": 0.104,
+    "read": 0.478,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
   "ftr_49a5a3a257": {
    "abilities": [
     "ab_e33ef84aee",
@@ -1754,6 +1810,63 @@
     "temperature": 0.4
    },
    "weapons": []
+  },
+  "ftr_4aea7cdcf4": {
+   "abilities": [
+    "ab_af21815553"
+   ],
+   "ability_names": [
+    "Bo Staff"
+   ],
+   "accessory": "hood",
+   "build": 1.012,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "hood",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_4aea7cdcf4",
+   "name": "BOSKA",
+   "personality": "counter",
+   "rating": 1.028,
+   "repertoire": [
+    "tq_e0cdffff03",
+    "tq_08ea528438",
+    "tq_70d6dfc544",
+    "tq_5ff63ec95c",
+    "tq_6f47c9ecce",
+    "tq_de58371bec",
+    "tq_ef13bca252",
+    "tq_3c405f76b8",
+    "tq_4cac123ac7"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "SNARE LANCER QUAKE",
+   "stance": "orthodox",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.883,
+    "aggression": 0.451,
+    "caution": 0.653,
+    "counter": 0.767,
+    "creativity": 0.492,
+    "evasive": 0.496,
+    "range": 1.4,
+    "reaction": 0.075,
+    "read": 0.781,
+    "temperature": 0.5
+   },
+   "weapons": [
+    "staff"
+   ]
   },
   "ftr_4c073431e2": {
    "abilities": [
@@ -2650,6 +2763,62 @@
     "dagger"
    ]
   },
+  "ftr_7e2a929f1e": {
+   "abilities": [
+    "ab_c7bc5e869b"
+   ],
+   "ability_names": [
+    "Kunai"
+   ],
+   "accessory": "hood",
+   "build": 0.941,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "hood",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_7e2a929f1e",
+   "name": "KUNLTAR",
+   "personality": "unpredictable",
+   "rating": 1.039,
+   "repertoire": [
+    "tq_de0d12bdd9",
+    "tq_01ce163b80",
+    "tq_67fda98650",
+    "tq_1787c5c93e",
+    "tq_c4a86c392e",
+    "tq_74af247b7a",
+    "tq_2d10d7819b",
+    "tq_db0a118083"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "GRAND FLICKING SPIRE",
+   "stance": "low",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.491,
+    "aggression": 0.664,
+    "caution": 0.342,
+    "counter": 0.386,
+    "creativity": 0.827,
+    "evasive": 0.51,
+    "range": 2.0,
+    "reaction": 0.108,
+    "read": 0.781,
+    "temperature": 1.0
+   },
+   "weapons": [
+    "kunai"
+   ]
+  },
   "ftr_7efb0c2eb5": {
    "abilities": [
     "ab_b5782b751b"
@@ -3244,6 +3413,62 @@
     "temperature": 0.45
    }
   },
+  "ftr_a4d880494d": {
+   "abilities": [
+    "ab_a435c8a8cb"
+   ],
+   "ability_names": [
+    "Shadow Clone"
+   ],
+   "accessory": "hood",
+   "build": 0.943,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "hood",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_a4d880494d",
+   "name": "SHAOS",
+   "personality": "counter",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_a05343d3a4",
+    "tq_b666b0d1ba",
+    "tq_09c8e81a0d",
+    "tq_9efed8856a",
+    "tq_b43a8f6e72",
+    "tq_216f01e5e4",
+    "tq_2d911507c9",
+    "tq_9b259e234a",
+    "tq_4ce366a758",
+    "tq_45df6bd89a"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "UMBRAL ERUPTION",
+   "stance": "orthodox",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.877,
+    "aggression": 0.446,
+    "caution": 0.535,
+    "counter": 0.78,
+    "creativity": 0.456,
+    "evasive": 0.499,
+    "range": 1.4,
+    "reaction": 0.143,
+    "read": 0.586,
+    "temperature": 0.5
+   },
+   "weapons": []
+  },
   "ftr_a6eb3ebe03": {
    "abilities": [
     "ab_d903b6dc1c",
@@ -3819,6 +4044,171 @@
     "flintlock"
    ]
   },
+  "ftr_bf416f736d": {
+   "abilities": [
+    "ab_f5255379d7"
+   ],
+   "ability_names": [
+    "Taijutsu"
+   ],
+   "accessory": "headband",
+   "build": 0.979,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "headband",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_bf416f736d",
+   "name": "TAIRRA",
+   "personality": "evasive",
+   "rating": 1.044,
+   "repertoire": [
+    "tq_e7bd9f4b43",
+    "tq_08ea528438",
+    "tq_d02e299295",
+    "tq_84b4447547",
+    "tq_d8f2a6c29d",
+    "tq_f156bd817c",
+    "tq_7030e0b92f",
+    "tq_074d3391bf",
+    "tq_615f3e7d00"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "SNARE IRON BURST",
+   "stance": "southpaw",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.627,
+    "aggression": 0.471,
+    "caution": 0.543,
+    "counter": 0.443,
+    "creativity": 0.676,
+    "evasive": 0.803,
+    "range": 2.6,
+    "reaction": 0.094,
+    "read": 0.454,
+    "temperature": 0.6
+   },
+   "weapons": []
+  },
+  "ftr_bfa9252138": {
+   "abilities": [
+    "ab_07c3c07f42"
+   ],
+   "ability_names": [
+    "Shuriken"
+   ],
+   "accessory": "topknot",
+   "build": 1.013,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "topknot",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_bfa9252138",
+   "name": "SHUNIS",
+   "personality": "aggressive",
+   "rating": 1.039,
+   "repertoire": [
+    "tq_cba01711a1",
+    "tq_08ea528438",
+    "tq_c7b8bccfa6",
+    "tq_42ba3f2c36",
+    "tq_5c47fbf3c1",
+    "tq_3116e37e55",
+    "tq_44525cefe6"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "GRAND STAR CANNON",
+   "stance": "orthodox",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.653,
+    "aggression": 0.726,
+    "caution": 0.215,
+    "counter": 0.256,
+    "creativity": 0.494,
+    "evasive": 0.267,
+    "range": 1.0,
+    "reaction": 0.079,
+    "read": 0.496,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
+  "ftr_c434c8b6a9": {
+   "abilities": [
+    "ab_a460e5a78a"
+   ],
+   "ability_names": [
+    "Katana"
+   ],
+   "accessory": "hood",
+   "build": 1.025,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "hood",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_c434c8b6a9",
+   "name": "KATKEX",
+   "personality": "evasive",
+   "rating": 1.027,
+   "repertoire": [
+    "tq_8772a6277e",
+    "tq_0efa4f929f",
+    "tq_1902c99843",
+    "tq_8a8a68df38",
+    "tq_7983a927a4",
+    "tq_2331248e56",
+    "tq_bc5d60a644",
+    "tq_ae0a67db2b",
+    "tq_4a639279da"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "SNARE RAZOR HAMMER",
+   "stance": "southpaw",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.524,
+    "aggression": 0.551,
+    "caution": 0.546,
+    "counter": 0.399,
+    "creativity": 0.518,
+    "evasive": 0.898,
+    "range": 2.6,
+    "reaction": 0.141,
+    "read": 0.692,
+    "temperature": 0.6
+   },
+   "weapons": [
+    "katana"
+   ]
+  },
   "ftr_ca27331eff": {
    "abilities": [
     "ab_871ffa40a3",
@@ -4166,6 +4556,62 @@
     "reaction": 0.144,
     "read": 0.672,
     "temperature": 0.45
+   },
+   "weapons": []
+  },
+  "ftr_d9da7366d2": {
+   "abilities": [
+    "ab_640e7817f6"
+   ],
+   "ability_names": [
+    "Wind Jutsu"
+   ],
+   "accessory": "hood",
+   "build": 1.018,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "hood",
+    "scarf"
+   ],
+   "created": "2026-11-18T10:01:18",
+   "id": "ftr_d9da7366d2",
+   "name": "WINNEX",
+   "personality": "strategic",
+   "rating": 1.003,
+   "repertoire": [
+    "tq_14bfdca58e",
+    "tq_dca4784b11",
+    "tq_2b0ff46826",
+    "tq_02b2060aee",
+    "tq_fc44eaf651",
+    "tq_96eb3e9e5b",
+    "tq_d6a6d52f93",
+    "tq_69e63e252b",
+    "tq_319090bd31",
+    "tq_cd0288cc2a"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "DELAYED HOWLING ERUPTION",
+   "stance": "orthodox",
+   "theme": "ninjas",
+   "traits": {
+    "adaptability": 0.508,
+    "aggression": 0.47,
+    "caution": 0.657,
+    "counter": 0.541,
+    "creativity": 0.709,
+    "evasive": 0.542,
+    "range": 3.2,
+    "reaction": 0.132,
+    "read": 0.465,
+    "temperature": 0.4
    },
    "weapons": []
   },
@@ -4813,6 +5259,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-17T22:34:39",
+ "updated": "2026-11-18T10:01:19",
  "version": 1
 }

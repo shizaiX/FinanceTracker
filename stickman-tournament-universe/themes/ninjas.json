@@ -1,0 +1,562 @@
+{
+ "abilities": [
+  {
+   "affinity": {
+    "aerial_strike": 0.8,
+    "barrage": 0.1,
+    "charge": 0.8,
+    "counter": 0.9,
+    "projectile": 0.6,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "blade",
+   "aura": "metal",
+   "colors": [
+    "#ffffff",
+    "#e3e9f2",
+    "#8aa0b8"
+   ],
+   "env_form": "spikes",
+   "id": "ab_a460e5a78a",
+   "key": "katana",
+   "mobility": "dash",
+   "mod_affinity": {
+    "multistage": 1.0,
+    "pierce": 1.0,
+    "split": 0.6
+   },
+   "name": "Katana",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "crescent",
+   "stats": {
+    "control": 0.95,
+    "defense": 0.9,
+    "power": 1.1,
+    "speed": 1.1
+   },
+   "tags": [
+    "sharp",
+    "solid",
+    "precise"
+   ],
+   "theme": "ninjas",
+   "voice": "metal",
+   "weapon": "katana",
+   "words": {
+    "adj": [
+     "Iaido",
+     "Severing",
+     "Crescent",
+     "Razor"
+    ],
+    "noun": [
+     "Edge",
+     "Cut",
+     "Crescent",
+     "Fang",
+     "Slash"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "counter": 0.5,
+    "projectile": 1.0,
+    "summon_weapon": 0.8
+   },
+   "archetype": "thrown",
+   "aura": "gust",
+   "colors": [
+    "#ffffff",
+    "#c6ced8",
+    "#3a3f4a"
+   ],
+   "env_form": "sky_strike",
+   "id": "ab_07c3c07f42",
+   "key": "shuriken",
+   "mobility": "dash",
+   "mod_affinity": {
+    "homing": 0.5,
+    "pierce": 0.7,
+    "split": 1.0
+   },
+   "name": "Shuriken",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "shuriken",
+   "stats": {
+    "control": 1.15,
+    "defense": 0.85,
+    "power": 0.95,
+    "speed": 1.2
+   },
+   "tags": [
+    "ranged",
+    "sharp",
+    "fast"
+   ],
+   "theme": "ninjas",
+   "voice": "metal",
+   "weapon": null,
+   "words": {
+    "adj": [
+     "Spinning",
+     "Star",
+     "Silent"
+    ],
+    "noun": [
+     "Shuriken",
+     "Stars",
+     "Storm"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "counter": 0.5,
+    "projectile": 1.0,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "uppercut": 0.1
+   },
+   "archetype": "thrown",
+   "aura": "gust",
+   "colors": [
+    "#ffffff",
+    "#c6ced8",
+    "#3a3f4a"
+   ],
+   "env_form": "sky_strike",
+   "id": "ab_c7bc5e869b",
+   "key": "kunai",
+   "mobility": "dash",
+   "mod_affinity": {
+    "homing": 0.5,
+    "pierce": 0.7,
+    "split": 1.0
+   },
+   "name": "Kunai",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "knife",
+   "stats": {
+    "control": 1.15,
+    "defense": 0.85,
+    "power": 0.95,
+    "speed": 1.2
+   },
+   "tags": [
+    "ranged",
+    "sharp",
+    "fast"
+   ],
+   "theme": "ninjas",
+   "voice": "metal",
+   "weapon": "kunai",
+   "words": {
+    "adj": [
+     "Flicking",
+     "Fan of",
+     "Silent",
+     "Whistling"
+    ],
+    "noun": [
+     "Knives",
+     "Blades",
+     "Daggers",
+     "Throw"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "counter": 1.0,
+    "env_strike": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.8,
+    "punch": 0.8
+   },
+   "archetype": "umbra",
+   "aura": "wisp",
+   "colors": [
+    "#f0f0f0",
+    "#9a9aa8",
+    "#3a3a48"
+   ],
+   "env_form": "hands",
+   "id": "ab_d888b8c60a",
+   "key": "smoke_bomb",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "absorb": 1.0,
+    "delayed": 0.9,
+    "homing": 0.9,
+    "trap": 0.8
+   },
+   "name": "Smoke Bomb",
+   "particle": "smoke",
+   "projectile": "void",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.1
+   },
+   "tags": [
+    "void",
+    "stealth",
+    "bind"
+   ],
+   "theme": "ninjas",
+   "voice": "shadow",
+   "words": {
+    "adj": [
+     "Vanishing",
+     "Smoke",
+     "Veiled"
+    ],
+    "noun": [
+     "Veil",
+     "Cloud",
+     "Vanish"
+    ]
+   },
+   "zone": "shadow"
+  },
+  {
+   "affinity": {
+    "beam": 0.6,
+    "charge": 0.7,
+    "env_strike": 0.6,
+    "explosion": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "punch": 0.8
+   },
+   "archetype": "flame",
+   "aura": "flame",
+   "colors": [
+    "#fff3b0",
+    "#ff8a1f",
+    "#ff3d00"
+   ],
+   "env_form": "geyser",
+   "id": "ab_97080a6c30",
+   "key": "fire_jutsu",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "chain": 0.7,
+    "delayed": 0.9,
+    "split": 0.8,
+    "trap": 0.6
+   },
+   "name": "Fire Jutsu",
+   "particle": "flame",
+   "projectile": "orb",
+   "stats": {
+    "control": 0.8,
+    "defense": 0.8,
+    "power": 1.15,
+    "speed": 1.0
+   },
+   "tags": [
+    "heat",
+    "energy",
+    "volatile"
+   ],
+   "theme": "ninjas",
+   "voice": "fire",
+   "words": {
+    "adj": [
+     "Blazing",
+     "Infernal",
+     "Scorching",
+     "Cinder"
+    ],
+    "noun": [
+     "Inferno",
+     "Ember",
+     "Blaze",
+     "Pyre",
+     "Flare"
+    ]
+   },
+   "zone": "burning"
+  },
+  {
+   "affinity": {
+    "aerial_strike": 1.0,
+    "explosion": 0.7,
+    "kick": 1.0,
+    "projectile": 0.9,
+    "sweep": 0.7
+   },
+   "archetype": "gale",
+   "aura": "gust",
+   "colors": [
+    "#ffffff",
+    "#c9ffe8",
+    "#5fd6a8"
+   ],
+   "env_form": "column",
+   "id": "ab_640e7817f6",
+   "key": "wind_jutsu",
+   "mobility": "glide",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "homing": 0.8,
+    "multistage": 0.8,
+    "reflect": 0.9
+   },
+   "name": "Wind Jutsu",
+   "particle": "gust",
+   "projectile": "crescent",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.85,
+    "power": 0.9,
+    "speed": 1.25
+   },
+   "tags": [
+    "gas",
+    "fast",
+    "force"
+   ],
+   "theme": "ninjas",
+   "voice": "wind",
+   "words": {
+    "adj": [
+     "Cyclone",
+     "Zephyr",
+     "Howling",
+     "Skyward"
+    ],
+    "noun": [
+     "Gale",
+     "Cyclone",
+     "Tempest",
+     "Zephyr",
+     "Vortex"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "counter": 1.0,
+    "env_strike": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.8,
+    "punch": 0.8
+   },
+   "archetype": "umbra",
+   "aura": "wisp",
+   "colors": [
+    "#e6c8ff",
+    "#9d4dff",
+    "#2a0a4a"
+   ],
+   "env_form": "hands",
+   "id": "ab_a435c8a8cb",
+   "key": "shadow_clone",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "absorb": 1.0,
+    "delayed": 0.9,
+    "homing": 0.9,
+    "trap": 0.8
+   },
+   "name": "Shadow Clone",
+   "particle": "wisp",
+   "projectile": "void",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.1
+   },
+   "tags": [
+    "void",
+    "stealth",
+    "bind"
+   ],
+   "theme": "ninjas",
+   "voice": "shadow",
+   "words": {
+    "adj": [
+     "Umbral",
+     "Eclipse",
+     "Hollow",
+     "Night"
+    ],
+    "noun": [
+     "Eclipse",
+     "Shade",
+     "Abyss",
+     "Phantom",
+     "Dusk"
+    ]
+   },
+   "zone": "shadow"
+  },
+  {
+   "affinity": {
+    "charge": 0.9,
+    "grapple": 0.8,
+    "kick": 1.0,
+    "punch": 1.0,
+    "uppercut": 1.0
+   },
+   "archetype": "kinetic",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#ffd0a0",
+    "#ff6a2a"
+   ],
+   "env_form": "burst",
+   "id": "ab_f5255379d7",
+   "key": "taijutsu",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "multistage": 1.0
+   },
+   "name": "Taijutsu",
+   "particle": "spark",
+   "physical": true,
+   "projectile": "orb",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 1.15
+   },
+   "tags": [
+    "kinetic",
+    "force",
+    "fast"
+   ],
+   "theme": "ninjas",
+   "voice": "sound",
+   "words": {
+    "adj": [
+     "Leaf",
+     "Lotus",
+     "Iron"
+    ],
+    "noun": [
+     "Whirlwind",
+     "Lotus",
+     "Palm"
+    ]
+   },
+   "zone": null
+  },
+  {
+   "affinity": {
+    "barrage": 0.1,
+    "charge": 1.0,
+    "projectile": 0.6,
+    "punch": 0.1,
+    "summon_weapon": 1.1,
+    "sweep": 0.8,
+    "uppercut": 0.1
+   },
+   "archetype": "polearm",
+   "aura": "dust",
+   "colors": [
+    "#ffffff",
+    "#ffe0b0",
+    "#c47b2a"
+   ],
+   "env_form": "spikes",
+   "id": "ab_af21815553",
+   "key": "bo_staff",
+   "mobility": "dash",
+   "mod_affinity": {
+    "multistage": 0.9,
+    "pierce": 1.0
+   },
+   "name": "Bo Staff",
+   "particle": "metal",
+   "physical": true,
+   "projectile": "ray",
+   "stats": {
+    "control": 1.1,
+    "defense": 0.95,
+    "power": 1.05,
+    "speed": 1.0
+   },
+   "tags": [
+    "sharp",
+    "precise",
+    "kinetic"
+   ],
+   "theme": "ninjas",
+   "voice": "metal",
+   "weapon": "staff",
+   "words": {
+    "adj": [
+     "Piercing",
+     "Lancer",
+     "Long",
+     "Comet"
+    ],
+    "noun": [
+     "Lance",
+     "Pike",
+     "Thrust",
+     "Spire"
+    ]
+   },
+   "zone": null
+  }
+ ],
+ "biomes": [
+  "dojo",
+  "bamboo_forest",
+  "night_rooftops"
+ ],
+ "costume_rules": {
+  "extras": [
+   1,
+   2
+  ],
+  "head": 1
+ },
+ "costumes": [
+  "ninja_mask",
+  "headband",
+  "scarf",
+  "topknot",
+  "hood"
+ ],
+ "created": "2026-11-18T10:01:18",
+ "expansions": [],
+ "generated_by": "pack",
+ "key": "ninjas",
+ "name": "ninjas",
+ "packs": [
+  "ninjas"
+ ],
+ "physical_weight": 0.22,
+ "range_mix": null,
+ "schema": "stu.theme",
+ "title": "Ninja",
+ "title_words": [
+  "Hidden Leaf Trials",
+  "Shadow Clan Cup",
+  "Way of the Shinobi"
+ ],
+ "updated": "2026-11-18T10:01:18",
+ "version": 1
+}
