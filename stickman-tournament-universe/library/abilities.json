@@ -1,5 +1,5 @@
 {
- "count": 79,
+ "count": 89,
  "items": {
   "ab_052ff1bbbb": {
    "affinity": {
@@ -177,6 +177,61 @@
     ]
    },
    "zone": "well"
+  },
+  "ab_0d8a0342da": {
+   "affinity": {
+    "charge": 0.9,
+    "grapple": 0.8,
+    "kick": 1.0,
+    "punch": 1.0,
+    "uppercut": 1.0
+   },
+   "archetype": "kinetic",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#ffd0a0",
+    "#ff6a2a"
+   ],
+   "env_form": "burst",
+   "id": "ab_0d8a0342da",
+   "key": "super_strength",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.8,
+    "multistage": 1.0
+   },
+   "name": "Super Strength",
+   "particle": "spark",
+   "projectile": "orb",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 1.15
+   },
+   "tags": [
+    "kinetic",
+    "force",
+    "fast"
+   ],
+   "theme": "superheroes",
+   "voice": "sound",
+   "words": {
+    "adj": [
+     "Rapid",
+     "Impact",
+     "Meteor",
+     "Haymaker"
+    ],
+    "noun": [
+     "Barrage",
+     "Impact",
+     "Rush",
+     "Meteor"
+    ]
+   },
+   "zone": null
   },
   "ab_23c7b1db88": {
    "affinity": {
@@ -584,6 +639,69 @@
    },
    "zone": "cracked"
   },
+  "ab_3515a97f41": {
+   "affinity": {
+    "barrage": 0.075,
+    "beam": 1.0,
+    "counter": 0.7,
+    "explosion": 1.0,
+    "kick": 0.075,
+    "projectile": 1.0,
+    "punch": 0.24,
+    "sweep": 0.075,
+    "uppercut": 0.075
+   },
+   "archetype": "resonance",
+   "aura": "wave",
+   "colors": [
+    "#ffffff",
+    "#ffc2e0",
+    "#ff4f9a"
+   ],
+   "env_form": "burst",
+   "id": "ab_3515a97f41",
+   "key": "sonic_scream",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 1.0,
+    "chain": 0.8,
+    "multistage": 0.7,
+    "reflect": 0.8
+   },
+   "name": "Sonic Scream",
+   "origin": "mouth",
+   "particle": "wave",
+   "projectile": "wave",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.05
+   },
+   "tags": [
+    "wave",
+    "force",
+    "energy"
+   ],
+   "theme": "superheroes",
+   "voice": "sound",
+   "words": {
+    "adj": [
+     "Sonic",
+     "Echo",
+     "Resonant",
+     "Shrieking"
+    ],
+    "noun": [
+     "Echo",
+     "Crescendo",
+     "Pulse",
+     "Shockwave",
+     "Chorus"
+    ]
+   },
+   "zone": null
+  },
   "ab_37a318af5a": {
    "affinity": {
     "charge": 0.9,
@@ -754,6 +872,67 @@
     ]
    },
    "zone": null
+  },
+  "ab_3ad9382c20": {
+   "affinity": {
+    "beam": 0.6,
+    "charge": 0.7,
+    "env_strike": 0.6,
+    "explosion": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "punch": 0.8
+   },
+   "archetype": "flame",
+   "aura": "flame",
+   "colors": [
+    "#fff3b0",
+    "#ff8a1f",
+    "#ff3d00"
+   ],
+   "env_form": "geyser",
+   "id": "ab_3ad9382c20",
+   "key": "pyrokinesis",
+   "mobility": "burst_dash",
+   "mod_affinity": {
+    "amplify": 0.9,
+    "chain": 0.7,
+    "delayed": 0.9,
+    "split": 0.8,
+    "trap": 0.6
+   },
+   "name": "Pyrokinesis",
+   "particle": "flame",
+   "projectile": "orb",
+   "stats": {
+    "control": 0.8,
+    "defense": 0.8,
+    "power": 1.15,
+    "speed": 1.0
+   },
+   "tags": [
+    "heat",
+    "energy",
+    "volatile"
+   ],
+   "theme": "superheroes",
+   "voice": "fire",
+   "words": {
+    "adj": [
+     "Blazing",
+     "Infernal",
+     "Scorching",
+     "Cinder"
+    ],
+    "noun": [
+     "Inferno",
+     "Ember",
+     "Blaze",
+     "Pyre",
+     "Flare"
+    ]
+   },
+   "zone": "burning"
   },
   "ab_3b283219c4": {
    "affinity": {
@@ -1046,6 +1225,70 @@
    },
    "zone": null
   },
+  "ab_4a4d9e7809": {
+   "affinity": {
+    "barrage": 0.075,
+    "beam": 1.0,
+    "explosion": 0.7,
+    "kick": 0.24,
+    "projectile": 1.0,
+    "punch": 0.075,
+    "summon_weapon": 0.7,
+    "sweep": 0.075,
+    "uppercut": 0.075
+   },
+   "archetype": "radiance",
+   "aura": "ray",
+   "colors": [
+    "#ffffff",
+    "#ff9a9a",
+    "#ff2a2a"
+   ],
+   "env_form": "light_pillar",
+   "id": "ab_4a4d9e7809",
+   "key": "laser_vision",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "homing": 0.7,
+    "pierce": 1.0,
+    "reflect": 1.0,
+    "split": 0.8
+   },
+   "name": "Laser Vision",
+   "origin": "mouth",
+   "particle": "ray",
+   "projectile": "ray",
+   "stats": {
+    "control": 1.0,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.15
+   },
+   "tags": [
+    "radiant",
+    "energy",
+    "fast",
+    "precise"
+   ],
+   "theme": "superheroes",
+   "voice": "light",
+   "words": {
+    "adj": [
+     "Solar",
+     "Radiant",
+     "Prism",
+     "Dawn"
+    ],
+    "noun": [
+     "Halo",
+     "Prism",
+     "Sunburst",
+     "Lance",
+     "Aurora"
+    ]
+   },
+   "zone": null
+  },
   "ab_4d7ecb9f90": {
    "affinity": {
     "charge": 0.9,
@@ -1283,6 +1526,65 @@
     ]
    },
    "zone": "frozen"
+  },
+  "ab_5b9bb4a700": {
+   "affinity": {
+    "beam": 1.0,
+    "charge": 0.9,
+    "env_strike": 0.8,
+    "kick": 0.8,
+    "projectile": 0.9,
+    "punch": 0.9
+   },
+   "archetype": "storm",
+   "aura": "spark",
+   "colors": [
+    "#ffffff",
+    "#ffe38a",
+    "#ff9f1a"
+   ],
+   "env_form": "sky_strike",
+   "id": "ab_5b9bb4a700",
+   "key": "speedster",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "chain": 1.0,
+    "homing": 0.6,
+    "multistage": 0.9,
+    "pierce": 0.9
+   },
+   "name": "Speedster",
+   "particle": "spark",
+   "projectile": "bolt",
+   "stats": {
+    "control": 0.85,
+    "defense": 0.8,
+    "power": 1.05,
+    "speed": 1.2
+   },
+   "tags": [
+    "electric",
+    "energy",
+    "fast"
+   ],
+   "theme": "superheroes",
+   "voice": "electric",
+   "words": {
+    "adj": [
+     "Voltaic",
+     "Thunder",
+     "Arc",
+     "Static"
+    ],
+    "noun": [
+     "Thunder",
+     "Volt",
+     "Arc",
+     "Tempest",
+     "Surge"
+    ]
+   },
+   "zone": null
   },
   "ab_640e7817f6": {
    "affinity": {
@@ -2044,6 +2346,123 @@
     ]
    },
    "zone": null
+  },
+  "ab_8891df0ea2": {
+   "affinity": {
+    "counter": 1.0,
+    "env_strike": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.8,
+    "punch": 0.8
+   },
+   "archetype": "umbra",
+   "aura": "wisp",
+   "colors": [
+    "#e6c8ff",
+    "#9d4dff",
+    "#2a0a4a"
+   ],
+   "env_form": "hands",
+   "id": "ab_8891df0ea2",
+   "key": "phasing",
+   "mobility": "teleport",
+   "mod_affinity": {
+    "absorb": 1.0,
+    "delayed": 0.9,
+    "homing": 0.9,
+    "trap": 0.8
+   },
+   "name": "Phasing",
+   "particle": "wisp",
+   "projectile": "void",
+   "stats": {
+    "control": 1.05,
+    "defense": 0.9,
+    "power": 1.0,
+    "speed": 1.1
+   },
+   "tags": [
+    "void",
+    "stealth",
+    "bind"
+   ],
+   "theme": "superheroes",
+   "voice": "shadow",
+   "words": {
+    "adj": [
+     "Umbral",
+     "Eclipse",
+     "Hollow",
+     "Night"
+    ],
+    "noun": [
+     "Eclipse",
+     "Shade",
+     "Abyss",
+     "Phantom",
+     "Dusk"
+    ]
+   },
+   "zone": "shadow"
+  },
+  "ab_8960dada5b": {
+   "affinity": {
+    "env_strike": 1.0,
+    "kick": 0.7,
+    "projectile": 1.0,
+    "slam": 0.7,
+    "summon_weapon": 0.9
+   },
+   "archetype": "frost",
+   "aura": "frost",
+   "colors": [
+    "#ffffff",
+    "#9fe8ff",
+    "#3a8dde"
+   ],
+   "env_form": "spikes",
+   "id": "ab_8960dada5b",
+   "key": "cryokinesis",
+   "mobility": "slide",
+   "mod_affinity": {
+    "pierce": 0.8,
+    "shield": 0.9,
+    "split": 1.0,
+    "trap": 0.9
+   },
+   "name": "Cryokinesis",
+   "particle": "shard",
+   "projectile": "shard",
+   "stats": {
+    "control": 1.1,
+    "defense": 1.05,
+    "power": 1.0,
+    "speed": 0.95
+   },
+   "tags": [
+    "cold",
+    "solid",
+    "crystal",
+    "sharp"
+   ],
+   "theme": "superheroes",
+   "voice": "ice",
+   "words": {
+    "adj": [
+     "Glacial",
+     "Frozen",
+     "Rime",
+     "Boreal"
+    ],
+    "noun": [
+     "Glacier",
+     "Frost",
+     "Rime",
+     "Shard",
+     "Blizzard"
+    ]
+   },
+   "zone": "frozen"
   },
   "ab_8fc8381c10": {
    "affinity": {
@@ -3099,6 +3518,61 @@
    },
    "zone": null
   },
+  "ab_acb63e2dfe": {
+   "affinity": {
+    "charge": 1.0,
+    "counter": 1.0,
+    "projectile": 0.6,
+    "slam": 0.8
+   },
+   "archetype": "aegis",
+   "aura": "ring",
+   "colors": [
+    "#ffffff",
+    "#bcd8ff",
+    "#3a64c8"
+   ],
+   "env_form": "burst",
+   "id": "ab_acb63e2dfe",
+   "key": "force_field",
+   "mobility": "dash",
+   "mod_affinity": {
+    "absorb": 0.8,
+    "reflect": 1.0,
+    "shield": 1.0
+   },
+   "name": "Force Field",
+   "particle": "ray",
+   "projectile": "disc",
+   "stats": {
+    "control": 1.0,
+    "defense": 1.35,
+    "power": 0.95,
+    "speed": 0.9
+   },
+   "tags": [
+    "protective",
+    "solid",
+    "force"
+   ],
+   "theme": "superheroes",
+   "voice": "metal",
+   "words": {
+    "adj": [
+     "Bastion",
+     "Aegis",
+     "Warden",
+     "Rampart"
+    ],
+    "noun": [
+     "Bulwark",
+     "Aegis",
+     "Rampart",
+     "Ward"
+    ]
+   },
+   "zone": null
+  },
   "ab_af21815553": {
    "affinity": {
     "barrage": 0.1,
@@ -3280,6 +3754,65 @@
     ]
    },
    "zone": null
+  },
+  "ab_b7f1a12715": {
+   "affinity": {
+    "aerial_strike": 0.8,
+    "explosion": 0.9,
+    "grapple": 0.9,
+    "projectile": 0.7,
+    "slam": 1.0
+   },
+   "archetype": "gravity",
+   "aura": "ring",
+   "colors": [
+    "#ffe3ff",
+    "#d36bff",
+    "#5b1f8a"
+   ],
+   "env_form": "well",
+   "id": "ab_b7f1a12715",
+   "key": "telekinesis",
+   "mobility": "float",
+   "mod_affinity": {
+    "absorb": 0.8,
+    "amplify": 1.0,
+    "delayed": 0.8,
+    "trap": 0.7
+   },
+   "name": "Telekinesis",
+   "particle": "ring",
+   "projectile": "void",
+   "stats": {
+    "control": 1.15,
+    "defense": 0.95,
+    "power": 1.15,
+    "speed": 0.9
+   },
+   "tags": [
+    "mass",
+    "force",
+    "void",
+    "gravity"
+   ],
+   "theme": "superheroes",
+   "voice": "gravity",
+   "words": {
+    "adj": [
+     "Singular",
+     "Graviton",
+     "Crushing",
+     "Event"
+    ],
+    "noun": [
+     "Singularity",
+     "Horizon",
+     "Collapse",
+     "Orbit",
+     "Nova"
+    ]
+   },
+   "zone": "well"
   },
   "ab_b7f5981ab1": {
    "affinity": {
@@ -3464,6 +3997,66 @@
     ]
    },
    "zone": null
+  },
+  "ab_be0d780585": {
+   "affinity": {
+    "beam": 0.9,
+    "env_strike": 0.8,
+    "grapple": 0.8,
+    "projectile": 0.9,
+    "summon_weapon": 0.6,
+    "sweep": 0.8
+   },
+   "archetype": "tide",
+   "aura": "droplet",
+   "colors": [
+    "#e0fbff",
+    "#3ec7ff",
+    "#0a62c9"
+   ],
+   "env_form": "geyser",
+   "id": "ab_be0d780585",
+   "key": "hydrokinesis",
+   "mobility": "slide",
+   "mod_affinity": {
+    "homing": 0.7,
+    "multistage": 0.7,
+    "reflect": 0.6,
+    "shield": 0.8,
+    "trap": 0.8
+   },
+   "name": "Hydrokinesis",
+   "particle": "droplet",
+   "projectile": "orb",
+   "stats": {
+    "control": 1.15,
+    "defense": 1.0,
+    "power": 0.95,
+    "speed": 1.0
+   },
+   "tags": [
+    "fluid",
+    "flexible",
+    "conductive_medium"
+   ],
+   "theme": "superheroes",
+   "voice": "water",
+   "words": {
+    "adj": [
+     "Tidal",
+     "Abyssal",
+     "Surging",
+     "Torrent"
+    ],
+    "noun": [
+     "Tide",
+     "Torrent",
+     "Wave",
+     "Riptide",
+     "Maelstrom"
+    ]
+   },
+   "zone": "wet"
   },
   "ab_c2263f9e8c": {
    "affinity": {
@@ -4642,6 +5235,6 @@
   }
  },
  "schema": "stu.abilities",
- "updated": "2026-11-18T10:01:18",
+ "updated": "2026-11-18T17:04:47",
  "version": 1
 }

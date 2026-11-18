@@ -1,5 +1,5 @@
 {
- "count": 88,
+ "count": 96,
  "items": {
   "ftr_02491fc11c": {
    "abilities": [
@@ -1935,6 +1935,116 @@
     "temperature": 0.6
    }
   },
+  "ftr_4c794af1bd": {
+   "abilities": [
+    "ab_be0d780585"
+   ],
+   "ability_names": [
+    "Hydrokinesis"
+   ],
+   "accessory": "halo",
+   "build": 0.987,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#3a7bff",
+   "costume": [
+    "halo",
+    "cape"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_4c794af1bd",
+   "name": "HYDLARA",
+   "personality": "strategic",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_b666b0d1ba",
+    "tq_6dfba4176e",
+    "tq_d11131ffb0",
+    "tq_01b0e70cda",
+    "tq_7ff7c929e3",
+    "tq_04b4162a3e",
+    "tq_afb6f697a8",
+    "tq_df193bb415",
+    "tq_3942d13199"
+   ],
+   "secondary": "#92b6ff",
+   "signature_move": "GUARDED ABYSSAL NOVA",
+   "stance": "upright",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.858,
+    "aggression": 0.516,
+    "caution": 0.595,
+    "counter": 0.498,
+    "creativity": 0.701,
+    "evasive": 0.503,
+    "range": 3.2,
+    "reaction": 0.094,
+    "read": 0.469,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_4d5bf2e20a": {
+   "abilities": [
+    "ab_0d8a0342da"
+   ],
+   "ability_names": [
+    "Super Strength"
+   ],
+   "accessory": "visor",
+   "build": 1.042,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#8cff3a",
+   "costume": [
+    "visor"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_4d5bf2e20a",
+   "name": "SUPVOS",
+   "personality": "technical",
+   "rating": 1.044,
+   "repertoire": [
+    "tq_f093e7b8d1",
+    "tq_5f84e51e12",
+    "tq_e49e656b9e",
+    "tq_93700c33e7",
+    "tq_601d094dac",
+    "tq_6c33629694",
+    "tq_ecbe73d745",
+    "tq_9d2263a546",
+    "tq_13068b4e8c"
+   ],
+   "secondary": "#bfff92",
+   "signature_move": "HAYMAKER PILLAR",
+   "stance": "upright",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.719,
+    "aggression": 0.599,
+    "caution": 0.597,
+    "counter": 0.478,
+    "creativity": 0.828,
+    "evasive": 0.442,
+    "range": 1.6,
+    "reaction": 0.13,
+    "read": 0.464,
+    "temperature": 0.4
+   },
+   "weapons": []
+  },
   "ftr_4f50a00640": {
    "abilities": [
     "ab_2978036b85"
@@ -2110,6 +2220,60 @@
     "reaction": 0.126,
     "read": 0.497,
     "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_5df9b5eb18": {
+   "abilities": [
+    "ab_4a4d9e7809"
+   ],
+   "ability_names": [
+    "Laser Vision"
+   ],
+   "accessory": "visor",
+   "build": 0.963,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff3b3b",
+   "costume": [
+    "visor"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_5df9b5eb18",
+   "name": "LASVYX",
+   "personality": "counter",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_f093e7b8d1",
+    "tq_08ea528438",
+    "tq_1da3e6c683",
+    "tq_dd4b0f6ded",
+    "tq_b3d0ac9a4c",
+    "tq_3e2f55c0f6",
+    "tq_8bc016e57c",
+    "tq_c590bfcb7c",
+    "tq_3b83fdd364"
+   ],
+   "secondary": "#ff9393",
+   "signature_move": "GRAND SOLAR PILLAR",
+   "stance": "low",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.82,
+    "aggression": 0.416,
+    "caution": 0.667,
+    "counter": 0.798,
+    "creativity": 0.453,
+    "evasive": 0.405,
+    "range": 1.4,
+    "reaction": 0.084,
+    "read": 0.72,
+    "temperature": 0.5
    },
    "weapons": []
   },
@@ -3356,6 +3520,62 @@
    },
    "weapons": []
   },
+  "ftr_929db408ff": {
+   "abilities": [
+    "ab_b7f1a12715"
+   ],
+   "ability_names": [
+    "Telekinesis"
+   ],
+   "accessory": "spikes",
+   "build": 1.011,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ff9a1f",
+   "costume": [
+    "spikes",
+    "cape"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_929db408ff",
+   "name": "TELRAX",
+   "personality": "aggressive",
+   "rating": 1.045,
+   "repertoire": [
+    "tq_85ab3c92ba",
+    "tq_23ffb5508e",
+    "tq_d96c06175f",
+    "tq_e5f74ab703",
+    "tq_18ecc7c128",
+    "tq_b0364dd69b",
+    "tq_5885ba8d83",
+    "tq_4104242f86",
+    "tq_2da9346aed",
+    "tq_4326f36e0e"
+   ],
+   "secondary": "#ffc783",
+   "signature_move": "SNARE CRUSHING HAMMER",
+   "stance": "low",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.566,
+    "aggression": 0.918,
+    "caution": 0.232,
+    "counter": 0.334,
+    "creativity": 0.573,
+    "evasive": 0.345,
+    "range": 1.0,
+    "reaction": 0.129,
+    "read": 0.544,
+    "temperature": 0.55
+   },
+   "weapons": []
+  },
   "ftr_a0d4710ec7": {
    "abilities": [
     "ab_d903b6dc1c",
@@ -3597,6 +3817,61 @@
     "reaction": 0.128,
     "read": 0.462,
     "temperature": 0.4
+   },
+   "weapons": []
+  },
+  "ftr_af097a451a": {
+   "abilities": [
+    "ab_3515a97f41"
+   ],
+   "ability_names": [
+    "Sonic Scream"
+   ],
+   "accessory": "halo",
+   "build": 0.957,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#ffe23d",
+   "costume": [
+    "halo",
+    "scarf"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_af097a451a",
+   "name": "SONNKA",
+   "personality": "unpredictable",
+   "rating": 1.004,
+   "repertoire": [
+    "tq_85ab3c92ba",
+    "tq_15b9456676",
+    "tq_2ffd03c639",
+    "tq_cea7421dea",
+    "tq_845c401d3c",
+    "tq_6975bc6c4b",
+    "tq_4f78a07bef",
+    "tq_3abb07c3dd",
+    "tq_c4257bf8cc"
+   ],
+   "secondary": "#ffef94",
+   "signature_move": "GRAND SONIC RAY",
+   "stance": "orthodox",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.653,
+    "aggression": 0.624,
+    "caution": 0.404,
+    "counter": 0.341,
+    "creativity": 0.98,
+    "evasive": 0.501,
+    "range": 2.0,
+    "reaction": 0.072,
+    "read": 0.782,
+    "temperature": 1.0
    },
    "weapons": []
   },
@@ -4164,6 +4439,63 @@
    },
    "weapons": []
   },
+  "ftr_c2c29cdc0e": {
+   "abilities": [
+    "ab_8891df0ea2"
+   ],
+   "ability_names": [
+    "Phasing"
+   ],
+   "accessory": "halo",
+   "build": 0.989,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#a35cff",
+   "costume": [
+    "halo",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_c2c29cdc0e",
+   "name": "PHAZIS",
+   "personality": "evasive",
+   "rating": 1.017,
+   "repertoire": [
+    "tq_e739e73436",
+    "tq_c0173d8c00",
+    "tq_40b1f9842d",
+    "tq_9d3201d29f",
+    "tq_d3b8e62bb3",
+    "tq_e22fb1bd29",
+    "tq_64118ad218",
+    "tq_47402a7239",
+    "tq_c3d22b2cc4",
+    "tq_cabed6d390"
+   ],
+   "secondary": "#cca5ff",
+   "signature_move": "DELAYED ECLIPSE BURST",
+   "stance": "southpaw",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.406,
+    "aggression": 0.453,
+    "caution": 0.56,
+    "counter": 0.398,
+    "creativity": 0.563,
+    "evasive": 0.901,
+    "range": 2.6,
+    "reaction": 0.139,
+    "read": 0.67,
+    "temperature": 0.6
+   },
+   "weapons": []
+  },
   "ftr_c434c8b6a9": {
    "abilities": [
     "ab_a460e5a78a"
@@ -4404,6 +4736,63 @@
    "weapons": [
     "cyberpunk_rail_rifle"
    ]
+  },
+  "ftr_cd3ace2ded": {
+   "abilities": [
+    "ab_8960dada5b"
+   ],
+   "ability_names": [
+    "Cryokinesis"
+   ],
+   "accessory": "halo",
+   "build": 1.017,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#2ee9ff",
+   "costume": [
+    "halo",
+    "scarf",
+    "cape"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_cd3ace2ded",
+   "name": "CRYRIA",
+   "personality": "aggressive",
+   "rating": 1.019,
+   "repertoire": [
+    "tq_8772a6277e",
+    "tq_c0173d8c00",
+    "tq_1dd3e5a25b",
+    "tq_5a39131f89",
+    "tq_69f411f646",
+    "tq_6c1f52b053",
+    "tq_8a657966ac",
+    "tq_2ebe191da4",
+    "tq_9d4e79e535",
+    "tq_d397a18871"
+   ],
+   "secondary": "#8cf2ff",
+   "signature_move": "PIERCING RIME RAY",
+   "stance": "orthodox",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.56,
+    "aggression": 0.798,
+    "caution": 0.253,
+    "counter": 0.333,
+    "creativity": 0.52,
+    "evasive": 0.273,
+    "range": 1.0,
+    "reaction": 0.092,
+    "read": 0.527,
+    "temperature": 0.55
+   },
+   "weapons": []
   },
   "ftr_d1a75f9202": {
    "abilities": [
@@ -4683,6 +5072,61 @@
     "reaction": 0.082,
     "read": 0.642,
     "temperature": 1.0
+   },
+   "weapons": []
+  },
+  "ftr_e420af3182": {
+   "abilities": [
+    "ab_acb63e2dfe"
+   ],
+   "ability_names": [
+    "Force Field"
+   ],
+   "accessory": "visor",
+   "build": 0.955,
+   "career": {
+    "losses": 0,
+    "points_against": 0,
+    "points_for": 0,
+    "tournaments": [],
+    "wins": 0
+   },
+   "color": "#1fe08a",
+   "costume": [
+    "visor",
+    "scarf"
+   ],
+   "created": "2026-11-18T17:04:47",
+   "id": "ftr_e420af3182",
+   "name": "BULRA",
+   "personality": "aggressive",
+   "rating": 1.028,
+   "repertoire": [
+    "tq_8ced634fa7",
+    "tq_33c576fe8b",
+    "tq_b948b6b0e7",
+    "tq_b66d9c2a72",
+    "tq_3671d0f275",
+    "tq_f00ac976fd",
+    "tq_9f2427e6d1",
+    "tq_829cb259d1",
+    "tq_0a214b8650"
+   ],
+   "secondary": "#83edbe",
+   "signature_move": "GRAND RAMPART HAMMER",
+   "stance": "southpaw",
+   "theme": "superheroes",
+   "traits": {
+    "adaptability": 0.839,
+    "aggression": 0.765,
+    "caution": 0.231,
+    "counter": 0.295,
+    "creativity": 0.434,
+    "evasive": 0.343,
+    "range": 1.0,
+    "reaction": 0.079,
+    "read": 0.613,
+    "temperature": 0.55
    },
    "weapons": []
   },
@@ -5275,6 +5719,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-18T10:47:19",
+ "updated": "2026-11-18T17:04:47",
  "version": 1
 }

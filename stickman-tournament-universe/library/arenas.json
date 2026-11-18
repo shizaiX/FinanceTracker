@@ -1,5 +1,5 @@
 {
- "count": 33,
+ "count": 36,
  "items": {
   "arena_cosmic_powers_1009208920_0": {
    "accent": "#ff4fc6",
@@ -859,6 +859,90 @@
    "time_of_day": "night",
    "tournament": "seven_seas_brawl_1_77"
   },
+  "arena_superheroes_854506059_0": {
+   "accent": "#9abaff",
+   "ambient": "stars",
+   "biome": "starfall_rift",
+   "celestial": "moon",
+   "far": "#0a0c24",
+   "far_type": "mountains",
+   "ground": "#07081a",
+   "ground_style": "metal",
+   "id": "arena_superheroes_854506059_0",
+   "layout_seed": 1070069686,
+   "lightning": false,
+   "mid": "#11142e",
+   "name": "Starfall Rift",
+   "props": "monolith",
+   "props_list": [
+    "monolith",
+    "floating_rock"
+   ],
+   "ships": false,
+   "sky": [
+    "#000004",
+    "#101040"
+   ],
+   "theme": "superheroes",
+   "time_of_day": "night",
+   "tournament": "superheroes_854506059"
+  },
+  "arena_superheroes_854506059_1": {
+   "accent": "#5fc3ff",
+   "ambient": "bubbles",
+   "biome": "sunken_coliseum",
+   "celestial": "moon",
+   "far": "#08203a",
+   "far_type": "sea",
+   "ground": "#05182c",
+   "ground_style": "stone",
+   "id": "arena_superheroes_854506059_1",
+   "layout_seed": 911415717,
+   "lightning": false,
+   "mid": "#0a2846",
+   "name": "Sunken Coliseum",
+   "props": "column",
+   "props_list": [
+    "column"
+   ],
+   "ships": false,
+   "sky": [
+    "#010814",
+    "#0c3863"
+   ],
+   "theme": "superheroes",
+   "time_of_day": "night",
+   "tournament": "superheroes_854506059"
+  },
+  "arena_superheroes_854506059_2": {
+   "accent": "#ff4feb",
+   "ambient": "rain",
+   "biome": "night_rooftops",
+   "celestial": "moon",
+   "far": "#0e1022",
+   "far_type": "city",
+   "ground": "#2a2b3a",
+   "ground_style": "tiles",
+   "id": "arena_superheroes_854506059_2",
+   "layout_seed": 824346271,
+   "lightning": false,
+   "mid": "#121423",
+   "name": "Above Old Town",
+   "props": "chimney",
+   "props_list": [
+    "chimney",
+    "lantern",
+    "antenna"
+   ],
+   "ships": false,
+   "sky": [
+    "#04050e",
+    "#1a1d3a"
+   ],
+   "theme": "superheroes",
+   "time_of_day": "night",
+   "tournament": "superheroes_854506059"
+  },
   "arena_wizards_1938789504_0": {
    "accent": "#bb7dff",
    "ambient": "motes",
@@ -947,6 +1031,6 @@
   }
  },
  "schema": "stu.arenas",
- "updated": "2026-11-18T10:01:19",
+ "updated": "2026-11-18T17:04:47",
  "version": 1
 }
