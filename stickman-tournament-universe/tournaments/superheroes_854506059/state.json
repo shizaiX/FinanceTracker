@@ -88,13 +88,16 @@
     "index": 0,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_af097a451a"
    },
    "m002": {
     "a": "ftr_929db408ff",
@@ -103,13 +106,16 @@
     "index": 1,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_4c794af1bd"
    },
    "m003": {
     "a": "ftr_c2c29cdc0e",
@@ -118,13 +124,16 @@
     "index": 2,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     3,
+     2
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_c2c29cdc0e"
    },
    "m004": {
     "a": "ftr_cd3ace2ded",
@@ -133,58 +142,70 @@
     "index": 3,
     "round": 0,
     "round_name": "quarterfinals",
-    "scores": null,
+    "scores": [
+     0,
+     3
+    ],
     "src": [
      null,
      null
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_5df9b5eb18"
    },
    "m005": {
-    "a": null,
-    "b": null,
+    "a": "ftr_af097a451a",
+    "b": "ftr_4c794af1bd",
     "id": "m005",
     "index": 0,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     2,
+     3
+    ],
     "src": [
      "m001",
      "m002"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_4c794af1bd"
    },
    "m006": {
-    "a": null,
-    "b": null,
+    "a": "ftr_c2c29cdc0e",
+    "b": "ftr_5df9b5eb18",
     "id": "m006",
     "index": 1,
     "round": 1,
     "round_name": "semifinals",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      "m003",
      "m004"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_5df9b5eb18"
    },
    "m007": {
-    "a": null,
-    "b": null,
+    "a": "ftr_4c794af1bd",
+    "b": "ftr_5df9b5eb18",
     "id": "m007",
     "index": 0,
     "round": 2,
     "round_name": "final",
-    "scores": null,
+    "scores": [
+     1,
+     3
+    ],
     "src": [
      "m005",
      "m006"
     ],
-    "status": "pending",
-    "winner": null
+    "status": "done",
+    "winner": "ftr_5df9b5eb18"
    }
   },
   "order": [
@@ -214,7 +235,7 @@
   ],
   "size": 8
  },
- "champion": null,
+ "champion": "ftr_5df9b5eb18",
  "config": {
   "combat": {
    "adaptive_ai": true,
@@ -287,8 +308,8 @@
    "accessory": "halo",
    "build": 1.017,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
     "tournaments": [],
     "wins": 0
@@ -345,10 +366,10 @@
    "build": 0.963,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "points_against": 2,
+    "points_for": 9,
     "tournaments": [],
-    "wins": 0
+    "wins": 3
    },
    "color": "#ff3b3b",
    "costume": [
@@ -398,9 +419,9 @@
    "accessory": "visor",
    "build": 1.042,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
     "tournaments": [],
     "wins": 0
    },
@@ -452,11 +473,11 @@
    "accessory": "halo",
    "build": 0.989,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 4,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#a35cff",
    "costume": [
@@ -509,9 +530,9 @@
    "accessory": "spikes",
    "build": 1.011,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -565,11 +586,11 @@
    "accessory": "halo",
    "build": 0.957,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 5,
     "tournaments": [],
-    "wins": 0
+    "wins": 1
    },
    "color": "#ffe23d",
    "costume": [
@@ -620,11 +641,11 @@
    "accessory": "halo",
    "build": 0.987,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 6,
+    "points_for": 7,
     "tournaments": [],
-    "wins": 0
+    "wins": 2
    },
    "color": "#3a7bff",
    "costume": [
@@ -676,9 +697,9 @@
    "accessory": "visor",
    "build": 0.955,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
     "tournaments": [],
     "wins": 0
    },
@@ -722,13 +743,875 @@
    "weapons": []
   }
  ],
- "matches": {},
+ "matches": {
+  "m001": {
+   "archetype": "domination",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/superheroes_854506059/qa/m001_contact.png",
+   "discoveries": [
+    "tq_0287f206f0",
+    "tq_4da8513c08",
+    "tq_2e98410756",
+    "tq_d53e229444",
+    "tq_1e0d7e63f0",
+    "tq_5e6d6ffb7c",
+    "tq_7732b22c56",
+    "tq_fee242644d",
+    "tq_c36fbfd62a",
+    "tq_0d66bf6c84",
+    "tq_6fc86071aa",
+    "tq_5b980309b8"
+   ],
+   "final_point_t": 90.617,
+   "intro_seconds": 10.35,
+   "ko_video_t": 127.71666666666665,
+   "points": [
+    {
+     "abs_t": 32.0667,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 28.467,
+     "tech": "tq_15b9456676",
+     "tech_name": "Charged Twin Crescent"
+    },
+    {
+     "abs_t": 46.7833,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 43.183,
+     "tech": "tq_c4257bf8cc",
+     "tech_name": "GRAND SONIC RAY"
+    },
+    {
+     "abs_t": 82.375,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 0,
+     "t": 78.775,
+     "tech": "tq_33c576fe8b",
+     "tech_name": "Cascade Dashing Heel"
+    },
+    {
+     "abs_t": 94.2167,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 90.617,
+     "tech": "tq_c4257bf8cc",
+     "tech_name": "GRAND SONIC RAY"
+    }
+   ],
+   "render_seconds": 213.3,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 25,
+     "counters": 1,
+     "discoveries": 4,
+     "dodges": 9,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 51,
+     "minor": 18,
+     "points": 1,
+     "projectiles": 1,
+     "significant": 4,
+     "techniques": 57,
+     "ultimates": 2
+    },
+    {
+     "blocked": 1,
+     "combo": 22,
+     "counters": 7,
+     "discoveries": 8,
+     "dodges": 11,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 47,
+     "minor": 15,
+     "points": 3,
+     "projectiles": 8,
+     "significant": 5,
+     "techniques": 57,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "121db304d4474d07248119ed2e2abfe2c7a1e23d7bab5b52da8f2b577ba7947c",
+   "video": "exports/superheroes_854506059/round_01/match_001.mp4",
+   "video_frames": 8304,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 138.4,
+   "winner": "ftr_af097a451a"
+  },
+  "m002": {
+   "archetype": "counter_clinic",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/superheroes_854506059/qa/m002_contact.png",
+   "discoveries": [
+    "tq_0712f2e430",
+    "tq_4818eb25d3",
+    "tq_61282b6095",
+    "tq_319f66a112",
+    "tq_8ab6d8c07d",
+    "tq_7e3aaa6a91",
+    "tq_701fa0351b",
+    "tq_bad28ba197"
+   ],
+   "final_point_t": 65.25,
+   "intro_seconds": 0.0,
+   "ko_video_t": 84.03333333333333,
+   "points": [
+    {
+     "abs_t": 14.875,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 11.275,
+     "tech": "tq_e5f74ab703",
+     "tech_name": "Delayed Graviton Eruption"
+    },
+    {
+     "abs_t": 30.2833,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 26.683,
+     "tech": "tq_afb6f697a8",
+     "tech_name": "Delayed Surging Bolt"
+    },
+    {
+     "abs_t": 43.4167,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 39.817,
+     "tech": "tq_3942d13199",
+     "tech_name": "GUARDED ABYSSAL NOVA"
+    },
+    {
+     "abs_t": 68.85,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 65.25,
+     "tech": "tq_afb6f697a8",
+     "tech_name": "Delayed Surging Bolt"
+    }
+   ],
+   "render_seconds": 153.4,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 8,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 3,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 25,
+     "minor": 13,
+     "points": 1,
+     "projectiles": 3,
+     "significant": 2,
+     "techniques": 34,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 67,
+     "counters": 0,
+     "discoveries": 4,
+     "dodges": 8,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 97,
+     "minor": 24,
+     "points": 3,
+     "projectiles": 9,
+     "significant": 0,
+     "techniques": 37,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "72651a963fb8bbc60c0cfeeeec4d671c18a9f32976bf7be5d018e6a3f381144e",
+   "video": "exports/superheroes_854506059/round_01/match_002.mp4",
+   "video_frames": 5682,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 94.7,
+   "winner": "ftr_4c794af1bd"
+  },
+  "m003": {
+   "archetype": "chess_match",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/superheroes_854506059/qa/m003_contact.png",
+   "discoveries": [
+    "tq_81b73a5e6d",
+    "tq_e682239dc5",
+    "tq_df769c3f73",
+    "tq_5e64801ae7",
+    "tq_c4d2858f24",
+    "tq_9b1f600c2c",
+    "tq_bd304dc845",
+    "tq_e2fb1e4f09",
+    "tq_3dbff7e69a",
+    "tq_ffcdcbc9fa",
+    "tq_154f6c04ba",
+    "tq_d4d7512e66",
+    "tq_517483f241",
+    "tq_ef33d94942"
+   ],
+   "final_point_t": 85.325,
+   "intro_seconds": 0.0,
+   "ko_video_t": 112.31666666666666,
+   "points": [
+    {
+     "abs_t": 24.35,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 20.75,
+     "tech": "tq_5e64801ae7",
+     "tech_name": "Rapid Bind"
+    },
+    {
+     "abs_t": 43.85,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 0,
+     "t": 40.25,
+     "tech": "tq_cabed6d390",
+     "tech_name": "DELAYED ECLIPSE BURST"
+    },
+    {
+     "abs_t": 61.55,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 57.95,
+     "tech": "tq_9b1f600c2c",
+     "tech_name": "Cascade Rapid Heel"
+    },
+    {
+     "abs_t": 71.2167,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 67.617,
+     "tech": "tq_cabed6d390",
+     "tech_name": "DELAYED ECLIPSE BURST"
+    },
+    {
+     "abs_t": 88.925,
+     "final": true,
+     "score": [
+      3,
+      2
+     ],
+     "scorer": 0,
+     "t": 85.325,
+     "tech": "tq_cabed6d390",
+     "tech_name": "DELAYED ECLIPSE BURST"
+    }
+   ],
+   "render_seconds": 192.9,
+   "scores": [
+    3,
+    2
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 22,
+     "counters": 2,
+     "discoveries": 5,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 1,
+     "hits": 47,
+     "minor": 17,
+     "points": 3,
+     "projectiles": 10,
+     "significant": 4,
+     "techniques": 43,
+     "ultimates": 3
+    },
+    {
+     "blocked": 0,
+     "combo": 34,
+     "counters": 1,
+     "discoveries": 9,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 5,
+     "hits": 64,
+     "minor": 13,
+     "points": 2,
+     "projectiles": 4,
+     "significant": 10,
+     "techniques": 55,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "9552ee9f9bf5c69e5deb5220b80867e2ef3d1a7372c6401c261552eb7051e552",
+   "video": "exports/superheroes_854506059/round_01/match_003.mp4",
+   "video_frames": 7379,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 122.983,
+   "winner": "ftr_c2c29cdc0e"
+  },
+  "m004": {
+   "archetype": "counter_clinic",
+   "arena": "Starfall Rift",
+   "contact_sheet": "tournaments/superheroes_854506059/qa/m004_contact.png",
+   "discoveries": [
+    "tq_d5e2b5ab93",
+    "tq_b7a1a46266",
+    "tq_fea8dbca81",
+    "tq_0c49ebc509",
+    "tq_098f59ada7",
+    "tq_fee5903814",
+    "tq_9457948f91",
+    "tq_1c07040dfc"
+   ],
+   "final_point_t": 65.3,
+   "intro_seconds": 0.0,
+   "ko_video_t": 84.01666666666667,
+   "points": [
+    {
+     "abs_t": 28.3833,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 24.783,
+     "tech": "tq_08ea528438",
+     "tech_name": "Dashing Crescent"
+    },
+    {
+     "abs_t": 38.7667,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 35.167,
+     "tech": "tq_3b83fdd364",
+     "tech_name": "GRAND SOLAR PILLAR"
+    },
+    {
+     "abs_t": 68.9,
+     "final": true,
+     "score": [
+      0,
+      3
+     ],
+     "scorer": 1,
+     "t": 65.3,
+     "tech": "tq_3b83fdd364",
+     "tech_name": "GRAND SOLAR PILLAR"
+    }
+   ],
+   "render_seconds": 140.8,
+   "scores": [
+    0,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 3,
+     "combo": 6,
+     "counters": 1,
+     "discoveries": 4,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 23,
+     "minor": 16,
+     "points": 0,
+     "projectiles": 12,
+     "significant": 1,
+     "techniques": 50,
+     "ultimates": 2
+    },
+    {
+     "blocked": 0,
+     "combo": 48,
+     "counters": 2,
+     "discoveries": 4,
+     "dodges": 10,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 74,
+     "minor": 16,
+     "points": 3,
+     "projectiles": 15,
+     "significant": 5,
+     "techniques": 49,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "c45bdbaf01c2637fb08a9ec8633b85297a6c8f0260ee5eff80be127d30d30382",
+   "video": "exports/superheroes_854506059/round_01/match_004.mp4",
+   "video_frames": 5681,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 94.683,
+   "winner": "ftr_5df9b5eb18"
+  },
+  "m005": {
+   "archetype": "tech_vs_power",
+   "arena": "Sunken Coliseum",
+   "contact_sheet": "tournaments/superheroes_854506059/qa/m005_contact.png",
+   "discoveries": [
+    "tq_8e76ba69fb",
+    "tq_f1a6f556ed",
+    "tq_c4fadc8968",
+    "tq_e5c1b81203",
+    "tq_c10774ff8d",
+    "tq_838f0f05b7",
+    "tq_0724af3b2e",
+    "tq_2ec9d0cb21",
+    "tq_8048923a58",
+    "tq_b3e16578b2",
+    "tq_9db5d78f40",
+    "tq_d1ef873cdf",
+    "tq_9b845aa197",
+    "tq_76522e56d2",
+    "tq_b12bad89b1",
+    "tq_ed5759bd51",
+    "tq_c684f1c626"
+   ],
+   "final_point_t": 92.367,
+   "intro_seconds": 5.0,
+   "ko_video_t": 124.86666666666666,
+   "points": [
+    {
+     "abs_t": 16.1333,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 12.533,
+     "tech": "tq_8e76ba69fb",
+     "tech_name": "Snare Abyssal Volley"
+    },
+    {
+     "abs_t": 35.6083,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 32.008,
+     "tech": "tq_838f0f05b7",
+     "tech_name": "Snare Surging Hammer"
+    },
+    {
+     "abs_t": 54.0833,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 0,
+     "t": 50.483,
+     "tech": "tq_c4257bf8cc",
+     "tech_name": "GRAND SONIC RAY"
+    },
+    {
+     "abs_t": 79.825,
+     "final": false,
+     "score": [
+      2,
+      2
+     ],
+     "scorer": 0,
+     "t": 76.225,
+     "tech": "tq_6975bc6c4b",
+     "tech_name": "Charged Chain Sonic Blade"
+    },
+    {
+     "abs_t": 95.9667,
+     "final": true,
+     "score": [
+      2,
+      3
+     ],
+     "scorer": 1,
+     "t": 92.367,
+     "tech": "tq_838f0f05b7",
+     "tech_name": "Snare Surging Hammer"
+    }
+   ],
+   "render_seconds": 222.8,
+   "scores": [
+    2,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 43,
+     "counters": 2,
+     "discoveries": 6,
+     "dodges": 9,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 64,
+     "minor": 15,
+     "points": 2,
+     "projectiles": 5,
+     "significant": 2,
+     "techniques": 49,
+     "ultimates": 4
+    },
+    {
+     "blocked": 0,
+     "combo": 68,
+     "counters": 0,
+     "discoveries": 11,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 105,
+     "minor": 26,
+     "points": 3,
+     "projectiles": 24,
+     "significant": 5,
+     "techniques": 58,
+     "ultimates": 2
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "b9fc10f61ebf109ad5bf16a059a7fbc675162fe9683e05709e03ae8f2c421704",
+   "video": "exports/superheroes_854506059/semifinals/match_005.mp4",
+   "video_frames": 8132,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 135.533,
+   "winner": "ftr_4c794af1bd"
+  },
+  "m006": {
+   "archetype": "counter_clinic",
+   "arena": "Sunken Coliseum",
+   "contact_sheet": "tournaments/superheroes_854506059/qa/m006_contact.png",
+   "discoveries": [
+    "tq_6b6c38a30c",
+    "tq_d2b8d73229",
+    "tq_f5150b6332",
+    "tq_67dcbd2319",
+    "tq_19f8b6835e"
+   ],
+   "final_point_t": 64.642,
+   "intro_seconds": 0.0,
+   "ko_video_t": 85.4,
+   "points": [
+    {
+     "abs_t": 22.8083,
+     "final": false,
+     "score": [
+      0,
+      1
+     ],
+     "scorer": 1,
+     "t": 19.208,
+     "tech": "tq_dd4b0f6ded",
+     "tech_name": "Prism Orb"
+    },
+    {
+     "abs_t": 39.1,
+     "final": false,
+     "score": [
+      0,
+      2
+     ],
+     "scorer": 1,
+     "t": 35.5,
+     "tech": "tq_3b83fdd364",
+     "tech_name": "GRAND SOLAR PILLAR"
+    },
+    {
+     "abs_t": 54.9333,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 0,
+     "t": 51.333,
+     "tech": "tq_cabed6d390",
+     "tech_name": "DELAYED ECLIPSE BURST"
+    },
+    {
+     "abs_t": 68.2417,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 64.642,
+     "tech": "tq_3b83fdd364",
+     "tech_name": "GRAND SOLAR PILLAR"
+    }
+   ],
+   "render_seconds": 155.0,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 4,
+     "counters": 0,
+     "discoveries": 5,
+     "dodges": 7,
+     "fusions": 0,
+     "guard_breaks": 0,
+     "hits": 22,
+     "minor": 13,
+     "points": 1,
+     "projectiles": 5,
+     "significant": 4,
+     "techniques": 34,
+     "ultimates": 1
+    },
+    {
+     "blocked": 0,
+     "combo": 114,
+     "counters": 1,
+     "discoveries": 0,
+     "dodges": 5,
+     "fusions": 0,
+     "guard_breaks": 4,
+     "hits": 138,
+     "minor": 16,
+     "points": 3,
+     "projectiles": 3,
+     "significant": 1,
+     "techniques": 35,
+     "ultimates": 3
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "a82f426bf13c271babdf4719fab43db94b60e5f7412219577e3bf78f8528415c",
+   "video": "exports/superheroes_854506059/semifinals/match_006.mp4",
+   "video_frames": 5764,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 96.067,
+   "winner": "ftr_5df9b5eb18"
+  },
+  "m007": {
+   "archetype": "final_thriller",
+   "arena": "Above Old Town",
+   "contact_sheet": "tournaments/superheroes_854506059/qa/m007_contact.png",
+   "discoveries": [
+    "tq_c0068818d4",
+    "tq_c19177bbeb",
+    "tq_132bdb4a87",
+    "tq_32bb26589c",
+    "tq_c70dddd97f",
+    "tq_b7aba8eb9a",
+    "tq_8129df50a8"
+   ],
+   "final_point_t": 68.058,
+   "intro_seconds": 5.0,
+   "ko_video_t": 95.15,
+   "points": [
+    {
+     "abs_t": 20.4,
+     "final": false,
+     "score": [
+      1,
+      0
+     ],
+     "scorer": 0,
+     "t": 16.8,
+     "tech": "tq_b666b0d1ba",
+     "tech_name": "Step-in Kick"
+    },
+    {
+     "abs_t": 31.6583,
+     "final": false,
+     "score": [
+      1,
+      1
+     ],
+     "scorer": 1,
+     "t": 28.058,
+     "tech": "tq_dd4b0f6ded",
+     "tech_name": "Prism Orb"
+    },
+    {
+     "abs_t": 47.95,
+     "final": false,
+     "score": [
+      1,
+      2
+     ],
+     "scorer": 1,
+     "t": 44.35,
+     "tech": "tq_3b83fdd364",
+     "tech_name": "GRAND SOLAR PILLAR"
+    },
+    {
+     "abs_t": 71.6583,
+     "final": true,
+     "score": [
+      1,
+      3
+     ],
+     "scorer": 1,
+     "t": 68.058,
+     "tech": "tq_3b83fdd364",
+     "tech_name": "GRAND SOLAR PILLAR"
+    }
+   ],
+   "render_seconds": 203.7,
+   "scores": [
+    1,
+    3
+   ],
+   "sim_issues": [],
+   "stats": [
+    {
+     "blocked": 0,
+     "combo": 57,
+     "counters": 1,
+     "discoveries": 4,
+     "dodges": 6,
+     "fusions": 0,
+     "guard_breaks": 2,
+     "hits": 75,
+     "minor": 15,
+     "points": 1,
+     "projectiles": 8,
+     "significant": 0,
+     "techniques": 34,
+     "ultimates": 1
+    },
+    {
+     "blocked": 0,
+     "combo": 88,
+     "counters": 0,
+     "discoveries": 3,
+     "dodges": 4,
+     "fusions": 0,
+     "guard_breaks": 3,
+     "hits": 115,
+     "minor": 19,
+     "points": 3,
+     "projectiles": 5,
+     "significant": 2,
+     "techniques": 40,
+     "ultimates": 4
+    }
+   ],
+   "stats_recorded": true,
+   "timeline_hash": "f270b464a677735b8ef233023b268147ee919669523cbd5937726e1e761d5dcf",
+   "video": "exports/superheroes_854506059/final/match_007.mp4",
+   "video_frames": 6709,
+   "video_issues": [],
+   "video_ok": true,
+   "video_seconds": 111.817,
+   "winner": "ftr_5df9b5eb18"
+  }
+ },
  "name": "Superheroes",
  "root": "/home/user/FinanceTracker/stickman-tournament-universe",
  "schema": "stu.tournament",
  "slug": "superheroes_854506059",
- "steps": {},
+ "steps": {
+  "complete": "exports/superheroes_854506059/complete_tournament.mp4",
+  "intro_bracket_01": {
+   "frames": 300,
+   "path": "tournaments/superheroes_854506059/intros/bracket_01.mp4"
+  },
+  "intro_bracket_02": {
+   "frames": 300,
+   "path": "tournaments/superheroes_854506059/intros/bracket_02.mp4"
+  },
+  "intro_bracket_03": {
+   "frames": 300,
+   "path": "tournaments/superheroes_854506059/intros/bracket_03.mp4"
+  },
+  "intro_roster": {
+   "frames": 321,
+   "path": "tournaments/superheroes_854506059/intros/roster.mp4"
+  },
+  "outro_champion": {
+   "frames": 360,
+   "path": "tournaments/superheroes_854506059/intros/champion.mp4"
+  }
+ },
  "theme": "superheroes",
- "updated": "2026-11-18T17:04:47",
+ "updated": "2026-11-18T17:26:28",
  "version": 1
 }

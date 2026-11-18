@@ -1945,11 +1945,13 @@
    "accessory": "halo",
    "build": 0.987,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 6,
+    "points_for": 7,
+    "tournaments": [
+     "superheroes_854506059"
+    ],
+    "wins": 2
    },
    "color": "#3a7bff",
    "costume": [
@@ -2001,10 +2003,12 @@
    "accessory": "visor",
    "build": 1.042,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 2,
+    "tournaments": [
+     "superheroes_854506059"
+    ],
     "wins": 0
    },
    "color": "#8cff3a",
@@ -2234,10 +2238,12 @@
    "build": 0.963,
    "career": {
     "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "points_against": 2,
+    "points_for": 9,
+    "tournaments": [
+     "superheroes_854506059"
+    ],
+    "wins": 3
    },
    "color": "#ff3b3b",
    "costume": [
@@ -3530,10 +3536,12 @@
    "accessory": "spikes",
    "build": 1.011,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "superheroes_854506059"
+    ],
     "wins": 0
    },
    "color": "#ff9a1f",
@@ -3830,11 +3838,13 @@
    "accessory": "halo",
    "build": 0.957,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 4,
+    "points_for": 5,
+    "tournaments": [
+     "superheroes_854506059"
+    ],
+    "wins": 1
    },
    "color": "#ffe23d",
    "costume": [
@@ -4449,11 +4459,13 @@
    "accessory": "halo",
    "build": 0.989,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
-    "wins": 0
+    "losses": 1,
+    "points_against": 5,
+    "points_for": 4,
+    "tournaments": [
+     "superheroes_854506059"
+    ],
+    "wins": 1
    },
    "color": "#a35cff",
    "costume": [
@@ -4747,10 +4759,12 @@
    "accessory": "halo",
    "build": 1.017,
    "career": {
-    "losses": 0,
-    "points_against": 0,
+    "losses": 1,
+    "points_against": 3,
     "points_for": 0,
-    "tournaments": [],
+    "tournaments": [
+     "superheroes_854506059"
+    ],
     "wins": 0
    },
    "color": "#2ee9ff",
@@ -5085,10 +5099,12 @@
    "accessory": "visor",
    "build": 0.955,
    "career": {
-    "losses": 0,
-    "points_against": 0,
-    "points_for": 0,
-    "tournaments": [],
+    "losses": 1,
+    "points_against": 3,
+    "points_for": 1,
+    "tournaments": [
+     "superheroes_854506059"
+    ],
     "wins": 0
    },
    "color": "#1fe08a",
@@ -5719,6 +5735,6 @@
   }
  },
  "schema": "stu.fighters",
- "updated": "2026-11-18T17:04:47",
+ "updated": "2026-11-18T17:26:28",
  "version": 1
 }
