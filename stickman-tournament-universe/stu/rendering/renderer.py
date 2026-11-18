@@ -71,12 +71,20 @@ class SceneRenderer:
                 col = mix(rgbs(self.abilities[ab[0]]["colors"])[1], (1, 1, 1), 0.25) if ab and ab[0] in self.abilities else (0.92, 0.92, 0.95)
                 labels[e["fighter"]].append({"t": e["t"], "name": name, "color": col, "tier": e.get("tier"), "dur": 1.8})
         disc = []
-        for e in self.events:
-            if e["type"] == "discovery":
-                side = e.get("fighter", 0)
-                slot = sum(1 for d in disc if e["t"] - d["t"] < d["dur"])
-                disc.append({"t": e["t"], "name": e["name"], "owner": self.fighters[side]["name"],
-                             "color": mix(self.fcol[side], (1, 1, 1), 0.15), "dur": 2.4, "slot": min(slot, 1)})
+        slots = [None, None]  # two lines below the floor; never share a line
+        for e in sorted((e for e in self.events if e["type"] == "discovery"), key=lambda e: e["t"]):
+            side = e.get("fighter", 0)
+            d = {"t": e["t"], "name": e["name"], "owner": self.fighters[side]["name"],
+                 "color": mix(self.fcol[side], (1, 1, 1), 0.15), "dur": 2.4}
+            free = [i for i, o in enumerate(slots) if o is None or o["t"] + o["dur"] <= e["t"]]
+            if free:
+                d["slot"] = free[0]
+            else:  # both lines busy: the oldest notice ends now and yields its line
+                i = min(range(len(slots)), key=lambda k: slots[k]["t"])
+                slots[i]["dur"] = max(0.2, e["t"] - slots[i]["t"])
+                d["slot"] = i
+            slots[d["slot"]] = d
+            disc.append(d)
         return labels, disc
 
     def _layout_callouts(self, dur=1.25, slots=2):

@@ -247,3 +247,18 @@ def test_theme_generation_falls_back_without_credentials(monkeypatch, tmp_path):
     monkeypatch.setattr(anthropic, "Anthropic", NoAuthClient)
     th = load_or_create_theme(Universe(str(tmp_path)), "cosmic powers", RNG(1), 0, mode="auto", log=lambda *_: None)
     assert th["generated_by"] in ("composition", "pack", "procedural") and len(th["abilities"]) >= 4
+
+
+def test_discovery_notices_never_share_a_line():
+    from stu.rendering.renderer import SceneRenderer
+    evs = [{"type": "discovery", "t": t, "name": n, "fighter": f, "tech": n}
+           for t, n, f in ((14.03, "A", 1), (14.84, "B", 1), (15.08, "C", 0), (15.98, "D", 1), (16.0, "E", 0))]
+    fake = SceneRenderer.__new__(SceneRenderer)
+    fake.events, fake.abilities = evs, {}
+    fake.fighters = [{"name": "X"}, {"name": "Y"}]
+    fake.fcol = [(1, 0, 0), (0, 1, 0)]
+    _, disc = fake._layout_labels()
+    for i, a in enumerate(disc):
+        for b in disc[i + 1:]:
+            overlap = a["t"] < b["t"] + b["dur"] and b["t"] < a["t"] + a["dur"]
+            assert not (overlap and a["slot"] == b["slot"]), (a["name"], b["name"])
